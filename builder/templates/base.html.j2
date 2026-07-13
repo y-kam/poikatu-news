@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %}</title>
+<meta name="description" content="{% block description %}{% endblock %}">
+<link rel="canonical" href="{% block canonical %}{{ base_url }}/{% endblock %}">
+{# --- 検索エンジン向けメタ（リッチリザルト用にプレビュー上限を緩和） --- #}
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+{# --- OGP / Twitter カード（SNS共有・X自動投稿時のカード表示用）。title/descriptionは各ページのブロックを再利用し重複記述を避ける --- #}
+<meta property="og:site_name" content="ポイ活ニュース">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:title" content="{{ self.title() }}">
+<meta property="og:description" content="{{ self.description() }}">
+<meta property="og:url" content="{{ self.canonical() }}">
+<meta property="og:image" content="{{ base_url }}/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ポイ活ニュース">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ self.title() }}">
+<meta name="twitter:description" content="{{ self.description() }}">
+<meta name="twitter:image" content="{{ base_url }}/ogp.png">
+{% block head_extra %}{% endblock %}
+{# ファビコン一式（正本は builder/static/favicon.svg。PNG/ICO/apple-touch も同梱）。
+   SVG非対応端末でもPCと同じ絵に揃うよう ico/PNG/apple-touch も配る。?v は絵柄更新時に上げてキャッシュを更新する。 #}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=2">
+<link rel="icon" href="/favicon.ico?v=2" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+<link rel="manifest" href="/site.webmanifest">
+{# ダークモード対応: color-schemeで両テーマ対応を宣言し、ブラウザUI色もテーマ別に指定する（配色本体はstyle.cssの変数切替） #}
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#b8430a">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#a03a08">
+<meta name="theme-color" content="#b8430a">
+<link rel="stylesheet" href="/style.css">
+{% if publish.ga4_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ publish.ga4_id }}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '{{ publish.ga4_id }}');
+</script>
+{% endif %}
+{% if publish.adsense_client_id %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ publish.adsense_client_id }}" crossorigin="anonymous"></script>
+{% endif %}
+{# --- 構造化データ: サイト全体（WebSite / Organization）。AI・検索エンジンがサイトの正体（名称・言語・発行者）を
+   機械可読に把握できるようにする。個別ページの構造化データは各テンプレートの jsonld ブロックで追記する --- #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ base_url }}/#website",
+      "url": "{{ base_url }}/",
+      "name": "ポイ活ニュース",
+      "inLanguage": "ja",
+      "description": {{ "主要ポイントサイトの新着案件を毎日自動収集し、同じ案件がどのサイト経由で一番お得かを比較できるポイ活の比較サイト。" | tojson }},
+      "publisher": { "@id": "{{ base_url }}/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ base_url }}/#organization",
+      "name": "ポイ活ニュース",
+      "url": "{{ base_url }}/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ base_url }}/icon-512.png",
+        "width": 512,
+        "height": 512
+      }
+    }
+  ]
+}
+</script>
+{% block jsonld %}{% endblock %}
+</head>
+<body>
+<header>
+  <h1><a href="/">ポイ活ニュース</a> <span class="tagline">-{{ site_count }}社の新着情報をお届け-</span></h1>
+  {% block header_meta %}{% endblock %}
+</header>
+{# 景表法（ステマ規制）対応: 広告・紹介リンクを実際に掲載している時だけ表示する（has_promotionはgenerate.pyで判定） #}
+{% if has_promotion %}<div class="pr-notice">本サイトはプロモーション（広告・紹介リンク）を含みます</div>{% endif %}
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer>
+  <nav class="footlinks"><a href="/about.html">運営者情報・お問い合わせ</a><a href="/privacy.html">プライバシーポリシー</a></nav>
+  <p>掲載しているポイント数・条件は収集時点の情報です。最新の内容は各ポイントサイトでご確認ください。</p>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

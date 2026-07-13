@@ -1,0 +1,44 @@
+{% extends "base.html.j2" %}
+{% block title %}運営者情報・お問い合わせ | ポイ活ニュース{% endblock %}
+{% block description %}ポイ活ニュースの運営者情報・掲載データの方針・お問い合わせ窓口のご案内です。{% endblock %}
+{% block canonical %}{{ base_url }}/about.html{% endblock %}
+{% block jsonld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ base_url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "運営者情報・お問い合わせ", "item": "{{ base_url }}/about.html" }
+  ]
+}
+</script>
+{% endblock %}
+{% block content %}
+<section class="page">
+  <h2>運営者情報</h2>
+  <dl>
+    <dt>サイト名</dt>
+    <dd>ポイ活ニュース（{{ base_url }}/）</dd>
+    <dt>運営者</dt>
+    <dd>{{ publish.operator_name or "ポイ活ニュース運営" }}</dd>
+  </dl>
+
+  <h3>サイトの趣旨</h3>
+  <p>主要ポイントサイト{{ site_count }}社の新着案件を毎日自動で収集し、同じ案件がどのサイトで一番お得かを比較できる形で掲載しています。ポイ活の「どのサイトを経由するか」の判断材料を提供することが目的です。</p>
+
+  <h3>掲載データについて</h3>
+  <ul>
+    <li>各ポイントサイトの公開ページから、案件名・ポイント数・出典リンクの最小限の情報のみを掲載しています。</li>
+    <li>収集は1日2回・サイトごとに十分な間隔を空けた低頻度のアクセスで行い、掲載元へ負荷をかけない運用としています。</li>
+    <li>掲載元のポイントサイト様からの掲載停止・削除のご要請には、下記の窓口にて速やかに対応します。</li>
+  </ul>
+
+  <h3>お問い合わせ</h3>
+  {% if publish.contact_form_url %}
+  <p><a href="{{ publish.contact_form_url }}" rel="noopener" target="_blank">お問い合わせフォーム</a>よりご連絡ください。</p>
+  {% else %}
+  <p>お問い合わせ窓口は現在準備中です。</p>
+  {% endif %}
+</section>
+{% endblock %}

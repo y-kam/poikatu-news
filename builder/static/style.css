@@ -1,0 +1,186 @@
+:root {
+  --accent:#e8590c; --accent-text:#b8430a; --accent-bg:#b8430a; --bg:#faf7f2; --card:#fff; --text:#333; --muted:#6b6b6b; --line:#eee;
+  --bd:#ccc; --bd2:#ddd; --cat-bg:#f1e7dc; --cat-text:#7a4a1f; --up-text:#d7263d;
+  color-scheme:light dark;  /* フォーム部品・スクロールバーもOSのテーマに追従させる */
+}
+/* ダークモード: OS設定に追従して配色変数だけ差し替える。
+   --accent-text（暗背景の上に置く文字用アクセント）と --accent-bg（白文字を載せる背景用アクセント）は
+   ライトでは同色だが、ダークでは役割を分ける（明るい橙の背景に白文字はAA 4.5:1を満たせないため、
+   背景用は暗い橙 #a03a08（白文字と6.8:1）、文字用は明るい橙 #ffa066（カード背景と7.8:1）にする） */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent:#ff8a3d; --accent-text:#ffa066; --accent-bg:#a03a08; --bg:#17171a; --card:#232327; --text:#e6e4e0; --muted:#a4a19c; --line:#38383e;
+    --bd:#4c4c54; --bd2:#44444b; --cat-bg:#3a3128; --cat-text:#dcb992; --up-text:#ff7b8d;
+  }
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+/* ページ内ジャンプ・「上へ」ボタンのスクロールを滑らかに（動きを減らす設定の端末では即時ジャンプ） */
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior:smooth; } }
+/* Windows Chromeは「Yu Gothic」だと細く淡く描画されるため、適正ウェイトの「Yu Gothic Medium」を指定。
+   iOS/mac=Hiragino、旧環境=Kaku Gothic ProN、Android=Noto/sans-serif にフォールバックする */
+body { font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic Medium",Meiryo,"Noto Sans JP",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+/* ヘッダー帯は白い小文字（tagline・最終更新）を載せるため、白文字とのコントラストがAA(4.5:1)を
+   満たす濃いオレンジ(--accent-bg=5.46:1)を使う。明るい--accent(3.56:1)だと小文字が基準未満になる */
+header { background:var(--accent-bg); color:#fff; padding:16px 20px; }
+header h1 { font-size:1.3rem; }
+header h1 a { color:inherit; text-decoration:none; }
+header h1 .tagline { font-size:.78rem; font-weight:normal; white-space:nowrap; }
+header .meta { font-size:.8rem; }
+.pr-notice { max-width:960px; margin:0 auto; padding:6px 16px 0; font-size:.72rem; color:var(--muted); }
+main { max-width:960px; margin:0 auto; padding:16px; }
+section { margin-bottom:32px; }
+h2 { font-size:1.1rem; border-left:4px solid var(--accent); padding-left:8px; margin-bottom:12px; }
+.search { width:100%; padding:10px 12px; font-size:1rem; border:1px solid var(--bd); border-radius:8px; margin-bottom:10px; background:var(--card); color:var(--text); }
+.chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
+/* 表示(全て/新着)・カテゴリ・サイト・獲得額の絞り込み行はカード状の枠で囲み、行同士の境界を分かりやすくする */
+#primary-chips, #recency-chips, #category-chips, #site-chips, #yen-chips { background:var(--card); border:1px solid var(--bd2); border-radius:10px; padding:8px 10px; }
+#recency-chips[hidden] { display:none; }  /* display:flex が hidden属性を上書きするのを防ぐ */
+#yen-chips { margin-bottom:16px; }
+/* 重複除外は独立トグル。全て/新着の右にやや離して置き、ON時はチェックを添える */
+#dedup-chip { margin-left:auto; }
+.chip.toggle.active::before { content:"✓ "; }
+/* 獲得額（円換算）の範囲入力。下限〜上限の数値入力2つ＋クリア */
+.yen-range { display:flex; align-items:center; gap:6px; }
+/* font-sizeは1rem(=16px)固定。iOS Safariは16px未満の入力欄にフォーカスすると画面を自動ズームするため */
+.yen-input { width:6em; padding:4px 8px; font-size:1rem; border:1px solid var(--bd); border-radius:6px; background:var(--card); color:var(--text); }
+.yen-sep { color:var(--muted); font-size:.82rem; white-space:nowrap; }
+.yen-clear { border:1px solid var(--bd); background:var(--card); border-radius:999px; padding:4px 12px; font-size:.8rem; color:var(--muted); cursor:pointer; white-space:nowrap; }
+/* 更新時刻の任意指定（数値＋単位のインライン入力）。font-size 1rem は獲得額入力と同じiOSズーム対策。
+   有効値の入力中はJSが .active を付け、枠色で「適用中」と分かるようにする。
+   flex-shrink:0 はモバイルの横スクロール行（nowrap）で入力欄が潰れるのを防ぐ */
+.recency-custom { display:inline-flex; align-items:center; gap:4px; flex-shrink:0; }
+.recency-sep { color:var(--muted); font-size:.82rem; }
+.recency-input { width:4.5em; padding:4px 8px; font-size:1rem; border:1px solid var(--bd); border-radius:6px; background:var(--card); color:var(--text); }
+.recency-unit { padding:4px 6px; font-size:1rem; border:1px solid var(--bd); border-radius:6px; background:var(--card); color:var(--text); }
+.recency-custom.active .recency-input, .recency-custom.active .recency-unit { border-color:var(--accent-text); box-shadow:inset 0 0 0 1px var(--accent-text); }
+.recency-custom .cnt { font-size:.72rem; color:var(--muted); white-space:nowrap; }
+.chips .label { align-self:center; color:var(--muted); font-size:.75rem; white-space:nowrap; width:4em; flex-shrink:0; }
+.chip { border:1px solid var(--bd); background:var(--card); border-radius:999px; padding:4px 12px; font-size:.82rem; color:var(--text); cursor:pointer; white-space:nowrap; }
+.chip.active { background:var(--accent-bg); border-color:var(--accent-bg); color:#fff; }
+.chip .cnt { font-size:.72rem; margin-left:2px; }
+.chip:not(.active) .cnt { opacity:.7; }
+/* 現在の絞り込みで該当0件のチップは薄くし、押しても空振りになると視覚的に分かるようにする
+   （アクティブ・「すべて」チップには付けない。クラスの付け外しはrefreshChipCountsが行う） */
+.chip.zero { opacity:.45; }
+/* サイト絞り込みチップはロゴ＋サイト名を表示。ロゴは白背景の小バッジにして、非選択(白)・選択(オレンジ)どちらのチップ上でも見やすくする */
+.site-chip { display:inline-flex; align-items:center; gap:4px; padding-left:8px; padding-right:10px; }
+.site-logo { width:18px; height:18px; object-fit:contain; background:#fff; border-radius:3px; padding:1px; flex-shrink:0; }
+/* スマホ用「絞り込み」開閉ボタン。PCでは全行常時表示のため出さない（display切替はメディアクエリ側） */
+.filter-toggle { display:none; align-items:center; gap:6px; width:100%; background:var(--card); border:1px solid var(--bd2); border-radius:10px; padding:10px 12px; font-size:.85rem; color:var(--text); cursor:pointer; text-align:left; margin-bottom:8px; }
+.filter-toggle .filter-label { flex:1 1 auto; }
+/* 畳んでいても絞り込みが効いていると分かるよう、適用中の条件数をバッジで示す */
+.filter-badge { background:var(--accent-bg); color:#fff; border-radius:999px; padding:1px 8px; font-size:.72rem; white-space:nowrap; }
+.filter-arrow { transition:transform .15s; }
+.filter-toggle[aria-expanded="true"] .filter-arrow { transform:rotate(180deg); }
+/* ページ内ジャンプ。ページが縦に長い（数万px）ため、目的のセクションへ直接飛べるようにする */
+.jumpnav { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
+.jumpnav a { border:1px solid var(--bd); background:var(--card); color:var(--muted); border-radius:999px; padding:7px 14px; font-size:.8rem; text-decoration:none; white-space:nowrap; }
+.cat { display:inline-block; background:var(--cat-bg); color:var(--cat-text); font-size:.7rem; border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:middle; white-space:nowrap; }
+.cond { color:var(--muted); font-size:.78rem; }
+.group { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; }
+.group h3 { font-size:1rem; margin-bottom:6px; }
+.group table { width:100%; border-collapse:collapse; font-size:.9rem; }
+.group td { padding:4px 6px; border-top:1px solid var(--line); }
+.group td.site { white-space:nowrap; color:var(--muted); width:11em; }
+/* 円換算額（獲得額）は右揃え列、元ポイントは左揃え列に分け、円を縦一列に揃える。
+   セル間の余白を詰めて「1,550円（15,500pt）」が一続きに見えるようにする */
+.group td.amt { text-align:right; white-space:nowrap; padding-right:1px; }
+.group td.sub { text-align:left; white-space:nowrap; font-size:.78rem; font-weight:normal; padding-left:1px; }
+.best { color:var(--accent-text); font-weight:bold; }
+.pts .sub { font-weight:normal; font-size:.78rem; }
+.badge { display:inline-block; background:var(--accent-bg); color:#fff; font-size:.72rem; border-radius:999px; padding:1px 8px; margin-left:6px; vertical-align:middle; }
+/* ポイントUP（増額・NEW再付与での再浮上）バッジ。新着・全案件の各リストで共通。
+   白文字とのコントラストAA確保のため #d7263d（4.9:1・ライト/ダーク共通）を使う */
+.upbadge { display:inline-block; background:#d7263d; color:#fff; font-size:.68rem; font-weight:bold; border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:middle; white-space:nowrap; }
+/* ポイントUPバッジ横の増額幅（+500円 / +1.5%）。赤系文字で強調する。
+   ライトは#d7263d（白カードと4.9:1）、ダークは明るい#ff7b8d（カード背景と6.4:1）でAAを確保 */
+.updiff { color:var(--up-text); font-size:.72rem; font-weight:bold; margin-left:4px; vertical-align:middle; white-space:nowrap; }
+/* 比較グループの折りたたみ展開ボタン（スマホのみ表示。表示制御はメディアクエリ側） */
+.group-more { display:none; width:100%; margin-top:6px; border:1px solid var(--bd); background:var(--card); color:var(--accent-text); border-radius:8px; padding:9px 12px; font-size:.82rem; cursor:pointer; }
+.newlist, .alllist { list-style:none; }
+.newlist li, .alllist li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; margin-bottom:6px; font-size:.9rem; display:grid; grid-template-columns:11em 1fr auto; gap:2px 10px; align-items:baseline; }
+.newlist .site, .alllist .site { color:var(--muted); white-space:nowrap; }
+.newlist .pts, .alllist .pts { color:var(--accent-text); font-weight:bold; white-space:nowrap; }
+/* 新着案件の掲載日時（自HPへの初出）。案件名の後ろに小さく添える控えめな表示 */
+.newlist .posted { color:var(--muted); font-size:.72rem; margin-left:6px; white-space:nowrap; }
+a { color:inherit; }
+/* スペース無しの長い英数字トークン（URL・型番等）が枠を突き破らないための保険 */
+.ttl, td.deal, .group h3 { overflow-wrap:anywhere; }
+.note { color:var(--muted); font-size:.8rem; margin-bottom:8px; }
+.allcount { font-size:.85rem; font-weight:normal; color:var(--muted); }
+.pager { display:flex; align-items:center; justify-content:center; gap:14px; margin-top:12px; }
+.pager button { border:1px solid var(--bd); background:var(--card); color:var(--text); border-radius:8px; padding:6px 14px; font-size:.85rem; cursor:pointer; }
+.pager button:disabled { opacity:.4; cursor:default; }
+.pager .pageinfo { color:var(--muted); font-size:.85rem; min-width:5em; text-align:center; }
+.all-retry { display:block; margin:8px auto 0; border:1px solid var(--bd); background:var(--card); border-radius:8px; padding:6px 16px; font-size:.85rem; color:var(--accent-text); cursor:pointer; }
+.all-retry[hidden] { display:none; }  /* display:block が hidden属性を上書きするのを防ぐ */
+/* ページ上部（検索・絞り込み）へ戻る浮動ボタン。1画面分以上スクロールしたらJSが表示する */
+.to-top { position:fixed; right:14px; bottom:calc(16px + env(safe-area-inset-bottom, 0px)); width:44px; height:44px; border:none; border-radius:50%; background:var(--accent-bg); color:#fff; font-size:1.2rem; line-height:1; cursor:pointer; box-shadow:0 2px 8px rgba(0,0,0,.25); opacity:.85; z-index:10; }
+.to-top[hidden] { display:none; }
+.sitelinks { display:flex; flex-wrap:wrap; gap:8px; }
+/* 紹介URLのあるサイトだけ登録リンク(a)として押せる。名称のみ(span)は非リンクなので見た目を分ける:
+   リンクはアクセント色＋太字＋ホバーで反転し「押せる」と分かるように、非リンクは薄枠＋淡色で控えめにする */
+.sitelinks a { background:var(--card); border:1px solid var(--accent-text); color:var(--accent-text); border-radius:8px; padding:6px 12px; font-size:.85rem; font-weight:bold; text-decoration:none; }
+.sitelinks a:hover { background:var(--accent-bg); color:#fff; }
+.sitelinks span { border:1px solid var(--line); color:var(--muted); border-radius:8px; padding:6px 12px; font-size:.85rem; }
+footer { max-width:960px; margin:0 auto; padding:20px 16px 40px; font-size:.75rem; color:var(--muted); }
+footer .footlinks { margin-bottom:8px; }
+/* フッターリンクは文字が小さいため、上下パディングでタップ領域を確保する */
+footer .footlinks a { display:inline-block; padding:8px 0; margin-right:20px; }
+.empty { color:var(--muted); font-size:.9rem; }
+
+/* 固定ページ（運営者情報・プライバシーポリシー） */
+.page h3 { font-size:.95rem; margin:20px 0 6px; }
+.page p, .page ul, .page dl { margin-bottom:10px; font-size:.9rem; }
+.page ul { padding-left:1.4em; }
+.page a { color:var(--accent-text); }
+.page dt { font-weight:bold; }
+.page dd { margin:0 0 8px; }
+.revision { color:var(--muted); font-size:.8rem; margin-top:24px; }
+
+/* スマホ: チップ列は横スクロール1行に、新着リスト・比較表は2段組（1段目=サイト名/ポイント、2段目=案件名）に組み替える */
+@media (max-width: 640px) {
+  header { padding:12px 14px; }
+  header h1 { font-size:1.1rem; }
+  header h1 .tagline { display:block; white-space:normal; }
+  main { padding:12px; }
+  .chips { flex-wrap:nowrap; overflow-x:auto; scrollbar-width:thin; padding-bottom:2px; }
+  /* 横スクロールできるチップ行は、続きがある側の端をフェードして「まだ項目がある」ことを示す。
+     hint-l/hint-r はスクロール位置に応じてJS(setupScrollHint)が付け外しする */
+  .chips.hint-r { -webkit-mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent); mask-image:linear-gradient(to right,#000 calc(100% - 24px),transparent); }
+  .chips.hint-l { -webkit-mask-image:linear-gradient(to right,transparent,#000 24px); mask-image:linear-gradient(to right,transparent,#000 24px); }
+  .chips.hint-l.hint-r { -webkit-mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent); mask-image:linear-gradient(to right,transparent,#000 24px,#000 calc(100% - 24px),transparent); }
+  /* タップ領域を約41pxに拡大（従来34px）。指で押しやすくする */
+  .chip { padding:9px 14px; }
+  /* ファーストビューが絞り込みUIで埋まらないよう、カテゴリ以下の絞り込み行は開閉式にする
+     （検索と表示(全て/新着)は常時表示のまま）。開閉ボタンはスマホのみ表示 */
+  .filter-toggle { display:flex; }
+  #more-filters { display:none; }
+  #more-filters.open { display:block; }
+  /* 案件カードはリンク（案件名）の当たり判定をカード全面に広げ、どこを押しても開けるようにする */
+  .newlist li, .alllist li { position:relative; }
+  .newlist .ttl a::after, .alllist .ttl a::after { content:""; position:absolute; inset:0; }
+  .newlist li, .alllist li { grid-template-columns:1fr auto; }
+  .newlist .site, .alllist .site { grid-row:1; font-size:.75rem; }
+  .newlist .pts, .alllist .pts { grid-row:1; justify-self:end; white-space:normal; text-align:right; }
+  .newlist .ttl, .alllist .ttl { grid-column:1 / -1; grid-row:2; }
+  .pts .sub { display:block; line-height:1.3; }
+  .group { padding:10px 12px; }
+  .group table, .group tbody { display:block; }
+  .group tr { display:grid; grid-template-columns:1fr auto auto; gap:0 6px; border-top:1px solid var(--line); padding:5px 0; }
+  .group tr:first-child { border-top:none; }
+  .group td { display:block; border-top:none; padding:0; width:auto; }
+  .group td.site { grid-row:1; grid-column:1; font-size:.75rem; }
+  .group td.amt { grid-row:1; grid-column:2; justify-self:end; white-space:normal; }
+  .group td.sub { grid-row:1; grid-column:3; justify-self:end; white-space:normal; }
+  .group td.deal { grid-column:1 / -1; grid-row:2; }
+  /* 比較グループは表示中の上位3サイトだけ見せて残りを開閉式に（1グループが1画面近く占めるのを防ぐ）。
+     折り畳む行の選定はJS(updateGroupFold)が行い、fold-hidden はスマホでのみ効く（PCは常に全行表示） */
+  .group tr.fold-hidden { display:none; }
+  .group-more { display:block; }
+  .group-more[hidden] { display:none; }
+  /* ページャ等の小さめボタンのタップ領域を44px推奨に近づける */
+  .pager button { padding:11px 18px; }
+  .yen-clear { padding:8px 14px; }
+  .all-retry { padding:10px 18px; }
+}

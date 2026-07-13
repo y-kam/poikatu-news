@@ -1,0 +1,39 @@
+{% extends "base.html.j2" %}
+{% block title %}プライバシーポリシー | ポイ活ニュース{% endblock %}
+{% block description %}ポイ活ニュースのプライバシーポリシー（アクセス解析・広告・免責事項）です。{% endblock %}
+{% block canonical %}{{ base_url }}/privacy.html{% endblock %}
+{% block jsonld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ base_url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "プライバシーポリシー", "item": "{{ base_url }}/privacy.html" }
+  ]
+}
+</script>
+{% endblock %}
+{% block content %}
+<section class="page">
+  <h2>プライバシーポリシー</h2>
+
+  <h3>アクセス解析について</h3>
+  <p>本サイトは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用する場合があります。Googleアナリティクスはトラフィックデータの収集のためにCookieを使用します。このデータは匿名で収集されており、個人を特定するものではありません。ブラウザの設定でCookieを無効にすることで収集を拒否できます。詳細は<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" rel="noopener" target="_blank">Googleアナリティクス利用規約</a>をご確認ください。</p>
+
+  {# 広告・紹介リンクを実際に掲載している時だけ表示（紹介リンク=has_referral / AdSense=adsense_client_id に連動） #}
+  {% if has_promotion %}
+  <h3>広告・アフィリエイトについて</h3>
+  {% if has_referral %}<p>本サイトには、ポイントサイトの紹介リンクおよびアフィリエイトプログラムによるリンクが含まれます。これらのリンクを経由してサービスに登録された場合、当サイトに紹介報酬が発生することがあります。</p>{% endif %}
+  {% if publish.adsense_client_id %}<p>また、本サイトは第三者配信の広告サービス（Google AdSense等）を利用する場合があります。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookieを使用することがあります。パーソナライズド広告は<a href="https://adssettings.google.com/" rel="noopener" target="_blank">広告設定</a>で無効にできます。</p>{% endif %}
+  {% endif %}
+
+  <h3>免責事項</h3>
+  <p>掲載しているポイント数・獲得条件は収集時点の情報であり、実際の内容と異なる場合があります。最新の情報は必ず各ポイントサイトでご確認ください。本サイトの情報の利用、およびリンク先のサイトで提供される情報・サービスによって生じたいかなる損害についても、当サイトは責任を負いかねます。</p>
+
+  <h3>掲載内容の削除について</h3>
+  <p>掲載内容に問題がある場合や掲載の停止・削除をご希望の場合は、<a href="/about.html">お問い合わせ窓口</a>までご連絡ください。確認のうえ速やかに対応します。</p>
+
+  <p class="revision">制定日: 2026-07-06</p>
+</section>
+{% endblock %}

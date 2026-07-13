@@ -1,0 +1,37 @@
+name: health-check
+
+# サイトの死活監視。失敗時はGitHubの通知メールで気づける
+# （GitHub Settings → Notifications → Actions の失敗時メールを有効にしておく）
+on:
+  schedule:
+    - cron: "15 21 * * *"  # 06:15 JST
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Top page returns 200
+        run: |
+          code=$(curl -s -o /tmp/index.html -w "%{http_code}" https://poikatu-news.com/)
+          echo "HTTP $code"
+          [ "$code" = "200" ]
+
+      - name: Content is fresh (updated within 3 days)
+        run: |
+          # 生成HTMLの「最終更新」日付が3日以上古い場合はクロール停止とみなす
+          updated=$(grep -oP '最終更新: \K[0-9-]+' /tmp/index.html | head -1)
+          echo "updated_at: $updated"
+          [ -n "$updated" ]
+          age_days=$(( ($(date +%s) - $(date -d "$updated" +%s)) / 86400 ))
+          echo "age: ${age_days}d"
+          [ "$age_days" -le 3 ]
+
+      - name: SSL certificate valid for 14+ days
+        run: |
+          end=$(echo | openssl s_client -servername poikatu-news.com -connect poikatu-news.com:443 2>/dev/null \
+                | openssl x509 -noout -enddate | cut -d= -f2)
+          days=$(( ($(date -d "$end" +%s) - $(date +%s)) / 86400 ))
+          echo "SSL days left: $days"
+          [ "$days" -ge 14 ]

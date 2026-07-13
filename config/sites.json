@@ -1,0 +1,294 @@
+{
+  "moppy": {
+    "name": "モッピー",
+    "rate": 1.0,
+    "domain": "moppy.jp",
+    "referral_url": "",
+    "enabled": true,
+    "new_markers": [
+      "<li>NEW</li>"
+    ]
+  },
+  "hapitas": {
+    "name": "ハピタス",
+    "rate": 1.0,
+    "domain": "hapitas.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "pointincome": {
+    "name": "ポイントインカム",
+    "rate": 0.1,
+    "domain": "pointi.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "pointtown": {
+    "name": "ポイントタウン",
+    "rate": 1.0,
+    "domain": "pointtown.com",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "c-card__badge-up"
+    ]
+  },
+  "chobirich": {
+    "name": "ちょびリッチ",
+    "rate": 0.5,
+    "domain": "chobirich.com",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "ad-category__ad__new-icon"
+    ]
+  },
+  "warau": {
+    "name": "ワラウ",
+    "rate": 1.0,
+    "domain": "warau.jp",
+    "referral_url": "",
+    "enabled": true,
+    "dead_markers": [
+      "pointEntranceNone.css",
+      "commonError.css"
+    ]
+  },
+  "fruitmail": {
+    "name": "フルーツメール",
+    "rate": 0.09,
+    "domain": "fruitmail.net",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "point_value__up"
+    ]
+  },
+  "poney": {
+    "name": "PONEY",
+    "rate": 1.0,
+    "domain": "poney.jp",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "point-up.gif"
+    ]
+  },
+  "gmo_poikatsu": {
+    "name": "GMOポイ活",
+    "rate": 1.0,
+    "domain": "colleee.net",
+    "referral_url": "",
+    "enabled": true
+  },
+  "sugutama": {
+    "name": "すぐたま",
+    "rate": 0.5,
+    "domain": "sugutama.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "nifty_point": {
+    "name": "ニフティポイントクラブ",
+    "rate": 1.0,
+    "domain": "lifemedia.jp",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "ico_up.png",
+      "ico_new.png"
+    ]
+  },
+  "value_point": {
+    "name": "バリューポイントクラブ",
+    "rate": 1.0,
+    "domain": "www.value-point.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "gpoint": {
+    "name": "Gポイント",
+    "rate": 1.0,
+    "domain": "gpoint.co.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "line_catalog": {
+    "name": "LINEブランドカタログ",
+    "rate": 1.0,
+    "domain": "line.me",
+    "referral_url": "",
+    "enabled": true
+  },
+  "rebates": {
+    "name": "Rebates",
+    "rate": 1.0,
+    "domain": "rebates.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "getmoney": {
+    "name": "GetMoney!",
+    "rate": 0.1,
+    "domain": "dietnavi.com",
+    "referral_url": "",
+    "enabled": true
+  },
+  "amefri": {
+    "name": "アメフリ",
+    "rate": 0.1,
+    "domain": "amefri.net",
+    "referral_url": "",
+    "enabled": true,
+    "dead_markers": [
+      "見つかりませんでした"
+    ],
+    "new_markers": [
+      "labelArea__item--new\">NEW<"
+    ],
+    "list_new_markers": [
+      "labelArea__item--new",
+      "labelArea__item--ptup"
+    ]
+  },
+  "chanceit": {
+    "name": "チャンスイット",
+    "rate": 0.1,
+    "domain": "chance.com",
+    "referral_url": "",
+    "enabled": true
+  },
+  "entamenet": {
+    "name": "えんためねっと",
+    "rate": 1.0,
+    "domain": "yentame.net",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "i_up.gif"
+    ]
+  },
+  "au_point": {
+    "name": "auポイントプログラム",
+    "rate": 1.0,
+    "domain": "enjoy.point.auone.jp",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "r-stack_item__label\">NEW<"
+    ]
+  },
+  "ponta_bonuspark": {
+    "name": "Pontaボーナスパーク",
+    "rate": 1.0,
+    "domain": "www.bonuspark.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "point_island": {
+    "name": "ポイントアイランド",
+    "rate": 0.1,
+    "domain": "point-island.com",
+    "referral_url": "",
+    "enabled": true
+  },
+  "point_stadium": {
+    "name": "ポイントスタジアム",
+    "rate": 0.1,
+    "domain": "point-stadium.com",
+    "referral_url": "",
+    "enabled": true
+  },
+  "point_land": {
+    "name": "ポイントランド",
+    "rate": 0.1,
+    "domain": "point-land.net",
+    "referral_url": "",
+    "enabled": true
+  },
+  "yattayo": {
+    "name": "やったよ.ねっと",
+    "rate": 0.1,
+    "domain": "yattayo.net",
+    "referral_url": "",
+    "enabled": true,
+    "dead_title_markers": [
+      "やったよ.ねっと｜ポイント｜"
+    ]
+  },
+  "nyandaful": {
+    "name": "懸賞にゃんダフル",
+    "rate": 0.1,
+    "domain": "nyandaful.jp",
+    "referral_url": "",
+    "enabled": true,
+    "list_new_markers": [
+      "\"badge\">New<"
+    ]
+  },
+  "pointier": {
+    "name": "ポインティア",
+    "rate": 1.0,
+    "domain": "pointier.net",
+    "referral_url": "",
+    "enabled": true,
+    "dead_title_markers": [
+      "Pointier | Pointier"
+    ]
+  },
+  "kurashiru_reward": {
+    "name": "クラシルリワード",
+    "rate": 0.01,
+    "domain": "kurashiru.com",
+    "referral_url": "",
+    "enabled": true,
+    "dead_title_markers": [
+      "ページが見つかりませんでした"
+    ]
+  },
+  "powl": {
+    "name": "Powl",
+    "rate": 0.1,
+    "domain": "powl.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "tamaru_mall": {
+    "name": "たまるモール",
+    "rate": 1.0,
+    "domain": "furunavi.jp",
+    "referral_url": "",
+    "enabled": true,
+    "dead_markers": [
+      "見つかりませんでした"
+    ]
+  },
+  "point_hiroba": {
+    "name": "ポイント広場",
+    "rate": 1.0,
+    "domain": "dpoint.docomo.ne.jp",
+    "referral_url": "",
+    "enabled": true
+  },
+  "point_museum": {
+    "name": "ポイントミュージアム",
+    "rate": 0.1,
+    "domain": "point-museum.com",
+    "referral_url": "",
+    "enabled": true
+  },
+  "poikatsu_club": {
+    "name": "ポイ活倶楽部",
+    "rate": 1.0,
+    "domain": "poikatsu.club",
+    "referral_url": "",
+    "enabled": true
+  },
+  "mikoshi_mall": {
+    "name": "MIKOSHIモール",
+    "rate": 0.9,
+    "domain": "web.mikoshi.jp",
+    "referral_url": "",
+    "enabled": true
+  }
+}

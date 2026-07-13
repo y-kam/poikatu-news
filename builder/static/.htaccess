@@ -1,0 +1,47 @@
+AddDefaultCharset UTF-8
+
+# 明示的なMIME指定。X-Content-Type-Options: nosniff 環境では Content-Type が正しくないと
+# ブラウザがファイルを使わないため、既定のmime.typesに無い/曖昧な拡張子を明示する
+# （特に .webmanifest はApache既定に無いことが多く、無指定だとファビコン一式のmanifestが読まれない）。
+<IfModule mod_mime.c>
+  AddType image/svg+xml .svg
+  AddType image/x-icon .ico
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # http → https
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  # www あり → なし
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# セキュリティヘッダ
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
+  # HTMLとデータは毎回再確認（毎日更新されるため）
+  <FilesMatch "\.(html|json|xml)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # CSS・画像は1日キャッシュ（デプロイで更新されうるため長すぎない値に）
+  <FilesMatch "\.(css|png|jpg|svg|ico)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
+
+# gzip圧縮
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json
+</IfModule>
+
+ErrorDocument 404 /404.html

@@ -1,0 +1,1014 @@
+{% extends "base.html.j2" %}
+{% block title %}ポイ活ニュース -{{ site_count }}社の新着情報をお届け-{% endblock %}
+{% block description %}主要ポイントサイトの新着案件を毎日更新。同じ案件がどのサイトで一番お得かをまとめて比較できます。{% endblock %}
+{# OGP/Twitterカードは base.html.j2 が title/description ブロックから共通生成する（重複記述を避ける） #}
+{% block jsonld %}
+{# トップは日次で内容が変わる案件一覧ページ。CollectionPage＋dateModified で更新の鮮度を機械可読に伝える（GEO/検索の鮮度シグナル） #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "{{ base_url }}/#webpage",
+  "url": "{{ base_url }}/",
+  "name": {{ self.title() | tojson }},
+  "description": {{ self.description() | tojson }},
+  "isPartOf": { "@id": "{{ base_url }}/#website" },
+  "inLanguage": "ja",
+  "dateModified": "{{ updated_at_iso }}",
+  "publisher": { "@id": "{{ base_url }}/#organization" }
+}
+</script>
+{% endblock %}
+{% block header_meta %}
+  <div class="meta">最終更新: {{ updated_at }}／{% if recent_days %}直近{{ recent_days }}日の新着{% else %}掲載中{% endif %} {{ total_recent }} 件</div>
+{% endblock %}
+{% block content %}
+<input class="search" id="search" type="search" placeholder="案件名・条件・カテゴリで検索（例: 楽天 カード）">
+<div class="chips" id="primary-chips">
+  <span class="label">表示</span>
+  {# 既定は「新着」。新着が無い日はJS側で「全て」にフォールバックする #}
+  <button class="chip" data-key="">全て<span class="cnt">{{ total_recent }}</span></button>
+  {% if new_total %}<button class="chip active" data-key="_new">新着<span class="cnt">{{ new_total }}</span></button>{% endif %}
+  {# 重複除外は全て/新着とは別軸の独立トグル。同名（名寄せ）案件を現在の絞り込み内で最高還元の1件に畳む #}
+  <button class="chip toggle" id="dedup-chip" type="button">重複案件を除外</button>
+</div>
+{# スマホのファーストビューが絞り込みUIで埋まらないよう、カテゴリ以下の絞り込み行は #more-filters に
+   まとめてこのボタンで開閉する（PCでは常時展開・ボタン非表示）。適用中の条件数はバッジで示す #}
+<button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="more-filters">
+  <span class="filter-label">絞り込み（カテゴリ・サイト・獲得額）</span>
+  <span class="filter-badge" id="filter-badge" hidden></span>
+  <span class="filter-arrow" aria-hidden="true">▾</span>
+</button>
+<div id="more-filters">
+{# 「新着」表示中のみ出す更新時刻の絞り込み。ページ最終更新時刻からの経過で判定。既定「～3日前」＝全新着（時間で絞らない）。
+   初期はhiddenにし、新着選択時のみJS(applyFilter)で表示する（＝新着を選択した時だけ出す） #}
+<div class="chips" id="recency-chips" hidden>
+  <span class="label">更新時刻</span>
+  {# 各チップの件数は他チップ同様サーバ側で埋め込む（recency_counts）。deals.json 取得前でも
+     正しい初期件数を表示し、取得後はクライアント(refreshChipCounts)が選択を反映して再計算する。
+     既定の「～3日前」を行頭に置き、スマホの横スクロール行でも初期選択が自動スクロール無しで見えるようにする #}
+  <button class="chip active" data-key="72">～3日前<span class="cnt">{{ recency_counts[72] }}</span></button>
+  <button class="chip" data-key="24">～1日前<span class="cnt">{{ recency_counts[24] }}</span></button>
+  <button class="chip" data-key="8">～8時間前<span class="cnt">{{ recency_counts[8] }}</span></button>
+  <button class="chip" data-key="4">～4時間前<span class="cnt">{{ recency_counts[4] }}</span></button>
+  {# 任意指定: プリセットに無い「○時間前/○日前」を数値＋単位で指定する。件数は任意値のため
+     サーバで事前計算できず、deals.json取得後にクライアント(refreshChipCounts)が計算して表示する #}
+  <span class="recency-custom" id="recency-custom">
+    <span class="recency-sep">～</span>
+    <input type="number" id="recency-n" class="recency-input" inputmode="numeric" min="1" step="1" placeholder="任意" aria-label="掲載時期の任意指定（数値）">
+    <select id="recency-unit" class="recency-unit" aria-label="掲載時期の任意指定（単位）">
+      <option value="1">時間前</option>
+      <option value="24">日前</option>
+    </select>
+    <span class="cnt" id="recency-custom-cnt" hidden></span>
+  </span>
+</div>
+<div class="chips" id="category-chips">
+  <span class="label">カテゴリ</span>
+  <button class="chip active" data-key="">すべて</button>
+  {% for c in category_chips %}
+  <button class="chip" data-key="{{ c.key }}">{{ c.name }}<span class="cnt">{{ c.count }}</span></button>
+  {% endfor %}
+</div>
+<div class="chips" id="site-chips">
+  <span class="label">サイト</span>
+  <button class="chip active" data-key="">すべて</button>
+  {% for c in site_chips %}
+  {# ロゴ＋サイト名を表示。ロゴは取得できたサイトのみ（無ければサイト名のみ）。ロゴはサイト名の隣に添える装飾のためalt空 #}
+  <button class="chip site-chip" data-key="{{ c.key }}">{% if c.logo %}<img class="site-logo" src="{{ c.logo }}" alt="" width="20" height="20" loading="lazy" decoding="async">{% endif %}{{ c.name }}<span class="cnt">{{ c.count }}</span></button>
+  {% endfor %}
+</div>
+{# 獲得ポイント（円換算額）の範囲絞り込み。下限・上限のどちらか一方だけでも可。
+   範囲指定中は円換算できない案件（percent還元など）は除外される。他の3段とはAND条件 #}
+<div class="chips" id="yen-chips">
+  <span class="label">獲得額</span>
+  <div class="yen-range">
+    <input type="number" id="yen-min" class="yen-input" inputmode="numeric" min="0" step="100" placeholder="下限" aria-label="獲得額の下限（円）">
+    <span class="yen-sep">円 〜</span>
+    <input type="number" id="yen-max" class="yen-input" inputmode="numeric" min="0" step="100" placeholder="上限" aria-label="獲得額の上限（円）">
+    <span class="yen-sep">円</span>
+    <button type="button" id="yen-clear" class="yen-clear">クリア</button>
+  </div>
+</div>
+</div>{# /#more-filters #}
+{# ページ内ジャンプ: ページが縦に非常に長いため、目的セクションへ直接飛べるようにする #}
+<nav class="jumpnav" aria-label="ページ内リンク">
+  <a href="#new-section">↓ 新着</a>
+  <a href="#all-deals">↓ 全案件</a>
+</nav>
+
+<!-- ad-slot: header (AdSense等のコードをここに) -->
+
+{# セクション見出しは表示しない（各グループの「○サイト掲載」バッジで内容が伝わるため） #}
+<section id="compare-section">
+  {% if multi_groups %}
+  {% for g in multi_groups %}
+  <div class="group" data-title="{{ g.title }}" data-category="{{ g.category }}" data-site="{{ g.site_keys }}" data-new="{{ 1 if g.has_new else 0 }}">
+    <h3>{{ g.title }}<span class="badge">{{ g.sites }}サイト掲載</span><span class="cat">{{ category_names[g.category] }}</span></h3>
+    <table>
+      {% for d in g.deals %}
+      {# data-yen は円換算額。円換算できない案件は空文字（範囲指定時に除外する目印） #}
+      <tr data-site="{{ d.site }}" data-yen="{{ d.yen if d.yen is not none else '' }}">
+        <td class="site">{{ sites[d.site].name if d.site in sites else d.site }}</td>
+        <td class="deal"><a href="{{ d.url }}" rel="nofollow noopener" target="_blank">{{ d.title }}</a>
+            {% if d.condition %}<div class="cond">{{ d.condition | cond }}</div>{% endif %}</td>
+        {# 円換算額と元ポイントを別セルに分け、円（獲得額）を右揃え列として縦に揃える。
+           円換算できない案件（percent還元等）はcolspanで従来どおり1つの右揃えセルに #}
+        {% if d.yen %}<td class="amt {{ 'best' if loop.first }}">{{ d.yen|yen }}円</td><td class="sub {{ 'best' if loop.first }}">（{{ d.points_text }}）</td>{% else %}<td class="amt {{ 'best' if loop.first }}" colspan="2">{{ d.points_text }}</td>{% endif %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  {% endfor %}
+  {% if multi_truncated %}<p class="note">上位{{ multi_groups|length }}組のみ表示中。他の同時掲載案件は下の「全案件」から検索できます。</p>{% endif %}
+  <p class="empty filter-empty" hidden>このセクションに一致する案件はありません。<a href="#all-deals">下の「全案件」から探す</a></p>
+  {% else %}
+  <p class="empty">現在、複数サイトに同時掲載されている新着案件はありません（データ蓄積中）。</p>
+  {% endif %}
+</section>
+
+{# ポイントUP中の専用セクションは廃止（新着セクション内のポイントUPバッジ・増額幅表示に集約）。
+   UP案件自体は引き続き新着扱いで new-section・全案件・新着チップ件数に含まれる #}
+<section id="new-section">
+  <h2>新着案件<span class="allcount">（直近{{ new_days }}日）</span></h2>
+  {% if new_total %}
+  <div class="chips" id="sort-chips">
+    <span class="label">並び順</span>
+    <button class="chip active" data-key="newest">新着順</button>
+    <button class="chip" data-key="site">サイト順</button>
+    <button class="chip" data-key="points">ポイント順</button>
+  </div>
+  <ul class="newlist">
+    {% for d in new_deals %}
+    {# data-cond は検索用の獲得条件（表示はしない。比較表と同じ短縮版で肥大化を防ぐ） #}
+    <li data-title="{{ d.title }}" data-category="{{ d.category }}" data-site="{{ d.site }}" data-new="1" data-yen="{{ d.yen if d.yen is not none else '' }}" data-posted-at="{{ d.posted_at }}"{% if d.condition %} data-cond="{{ d.condition | cond }}"{% endif %}>
+      <span class="site">{{ sites[d.site].name if d.site in sites else d.site }}</span>
+      {# 掲載/更新日時は案件名の末尾に小さく添える。3カラムグリッドを崩さぬよう ttl 内にネスト。
+         時刻は今後の取得分から記録され、既存分は日付のみ表示。UP＝ポイント増・NEW再付与での再浮上 #}
+      <span class="ttl"><a href="{{ d.url }}" rel="nofollow noopener" target="_blank">{{ d.title }}</a>{% if d.up %}<span class="upbadge">ポイントUP</span>{% if d.up_diff %}<span class="updiff">{{ d.up_diff }}</span>{% endif %}{% endif %}<span class="cat">{{ category_names[d.category] }}</span><span class="posted">{{ d.posted_label }} {{ d.posted }}</span></span>
+      <span class="pts">{% if d.yen %}{{ d.yen|yen }}円<span class="sub">（{{ d.points_text }}）</span>{% else %}{{ d.points_text }}{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if new_truncated %}<p class="note">新着順の上位{{ new_deals|length }}件を表示中。すべての新着（{{ new_total }}件）は上部の「新着」表示や下の「全案件」から見られます。</p>{% endif %}
+  <p class="empty filter-empty" hidden>このセクションに一致する案件はありません。<a href="#all-deals">下の「全案件」から探す</a></p>
+  {% else %}
+  <p class="empty">直近{{ new_days }}日の新着はまだありません。</p>
+  {% endif %}
+</section>
+
+<section id="all-deals">
+  <h2>全案件<span class="allcount" id="all-count">（{{ total_recent }}件）</span></h2>
+  <p class="note">過去分を含む掲載中の全案件です。上のカテゴリ・サイト絞り込みと検索が効きます。</p>
+  <ul class="alllist" id="all-list"></ul>
+  <p class="empty" id="all-status">読み込み中…</p>
+  {# 取得失敗・タイムアウト時のみ表示。押すと再取得する（永久スピナー回避） #}
+  <button type="button" class="all-retry" id="all-retry" hidden>再読み込み</button>
+  <div class="pager" id="all-pager" hidden>
+    <button type="button" id="all-prev">← 前へ</button>
+    <span class="pageinfo" id="all-pageinfo"></span>
+    <button type="button" id="all-next">次へ →</button>
+  </div>
+</section>
+
+<section>
+  <h2>掲載ポイントサイト</h2>
+  <div class="sitelinks">
+    {% for key, s in sites.items() %}
+    {% if s.referral_url %}<a href="{{ s.referral_url }}" rel="nofollow noopener" target="_blank">{{ s.name }} に登録</a>
+    {% else %}<span>{{ s.name }}</span>{% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ad-slot: footer -->
+
+{# ページ上部（検索・絞り込み）へ戻る浮動ボタン。1画面分以上スクロールしたらJSが表示する #}
+<button type="button" class="to-top" id="to-top" hidden aria-label="ページ上部へ戻る">↑</button>
+{% endblock %}
+{% block scripts %}
+<script>
+// 検索（案件名・獲得条件・カテゴリ名・サイト名）・カテゴリ・ポイントサイト・獲得額の複合絞り込み
+(function () {
+  // 絞り込みは独立した軸（すべてAND条件）。
+  //  new       … 最上段トグル（全て⇄新着）。true=新着のみ（直近数日に自HP初出した案件）
+  //  hours     … 新着の下位絞り込み「掲載時期」。既定FULL_HOURS(=3日前)は時間で絞らない
+  //  dedup     … 重複除外トグル。同名（名寄せ）案件を現在の絞り込み内で最高還元の1件に畳む
+  //  categories… カテゴリ（複数選択・空配列＝すべて）
+  //  sites     … サイト（複数選択・空配列＝すべて）
+  //  yenRange  … 獲得ポイント（円換算額）の範囲。min/maxはnull=未指定
+  const active = { new: false, hours: 72, dedup: false, categories: [], sites: [] };
+  const yenRange = { min: null, max: null };
+
+  // ---- 掲載時期（○時間前）判定 ----
+  // 「新着」表示中の下位絞り込み。基準は本ページの最終更新時刻（JST）。閲覧端末の時計・TZに
+  // 依存させず、日次で再ビルドされるたびに基準も更新される。既定は3日前（=全新着・時間で絞らない）。
+  const RECENCY_WINDOWS = [4, 8, 24, 72];
+  const FULL_HOURS = 72;
+  const UPDATED_AT = "{{ updated_at }}";
+  // "YYYY-MM-DD[ HH:MM]"（JST）→エポックms。時刻が無ければ当日0:00扱い。不正・空はnull。
+  function jstMs(s) {
+    const m = /^(\d{4})-(\d{2})-(\d{2})(?:[ T](\d{2}):(\d{2}))?/.exec(s || "");
+    if (!m) return null;
+    return Date.UTC(+m[1], +m[2] - 1, +m[3], (+m[4] || 0) - 9, +m[5] || 0);
+  }
+  const NOW_MS = jstMs(UPDATED_AT);
+  // 掲載時刻(posted_at)から最終更新時点までの経過時間（時間）。判定不能はnull。
+  // 時刻付き(first_seen_at)は実経過で判定する。時刻を持たない旧データ（日付のみ）は○時間の
+  // 粒度で判定できないため暦日の差×24hで扱う（例: 前日→24h＝「～1日前」に入り「～4/8時間前」
+  // からは外れる）。0:00丸めのままだと更新時刻ぶん古く見積もられ「～1日前」から漏れるのを防ぐ。
+  const HAS_TIME = /[ T]\d{2}:\d{2}/;
+  function ageHours(postedAt) {
+    const ms = jstMs(postedAt);
+    if (ms === null || NOW_MS === null) return null;
+    if (!HAS_TIME.test(postedAt || "")) {
+      return Math.max(0, Math.floor((NOW_MS - ms) / 86400000)) * 24;  // 日付のみ＝暦日差で判定
+    }
+    return (NOW_MS - ms) / 3600000;
+  }
+  // 掲載時期が現在の窓(active.hours)内か。既定(3日前=FULL_HOURS)は時間で絞らず全新着を通す。
+  function withinHours(postedAt) {
+    if (active.hours >= FULL_HOURS) return true;
+    const age = ageHours(postedAt);
+    return age !== null && age <= active.hours;
+  }
+
+  // ---- 重複除外の名寄せキー ----
+  // サーバ crawler/normalize.py の normalize_title と同一ロジック。キーは転送量削減のため
+  // deals.json では配信せず、案件名からクライアントで導出する（NFKC・小文字化・注記/記号除去）。
+  const NORM_BRACKET = /[【\[（(].*?[】\]）)]/g;
+  const NORM_NOISE = /[\s　・、。．,.!！?？~〜\-ー―_\/／|｜:：;；'"「」『』☆★◆■●○†※+＋*＊]+/g;
+  function normKey(title) {
+    return (title || "").normalize("NFKC").toLowerCase()
+      .replace(NORM_BRACKET, "").replace(NORM_NOISE, "");
+  }
+
+  // ---- 検索語の正規化・照合 ----
+  // 検索対象は案件名だけでなく獲得条件・カテゴリ名・サイト名まで含める。
+  // 表記ゆれは NFKC（全角英数・半角カナの統一）＋小文字化＋カタカナ→ひらがな変換で吸収し、
+  // スペース区切りの複数語は AND 条件で照合する（例: 「楽天 カード」）。
+  function searchNorm(s) {
+    s = s || "";
+    if (s.normalize) s = s.normalize("NFKC");
+    return s.toLowerCase().replace(/[ァ-ヶ]/g, function (ch) {
+      return String.fromCharCode(ch.charCodeAt(0) - 0x60);
+    });
+  }
+  // 検索欄の生文字列 → 正規化済み検索語の配列（空配列＝検索なし）
+  function searchTerms(raw) {
+    return searchNorm(raw).split(/\s+/).filter(Boolean);
+  }
+  // 正規化済みの検索対象文字列 hay が全検索語を含むか（AND）
+  function matchesTerms(hay, terms) {
+    return terms.every(function (t) { return hay.indexOf(t) >= 0; });
+  }
+  // DOM要素（比較グループ/新着li）の検索対象文字列。案件名＋カテゴリ名＋サイト名＋獲得条件。
+  // 比較グループは表内の全案件名・条件（td.deal）も含める（別表記の案件名や条件語でもヒットさせる）。
+  // 要素の内容は静的なので初回に組み立てて使い回す。
+  const domHayCache = new WeakMap();
+  function domHaystack(el) {
+    let hay = domHayCache.get(el);
+    if (hay === undefined) {
+      const parts = [el.dataset.title || "", CAT_NAMES[el.dataset.category] || "", el.dataset.cond || ""];
+      (el.dataset.site || "").split(" ").forEach(function (k) {
+        if (k) parts.push(SITE_NAMES[k] || k);
+      });
+      el.querySelectorAll("td.deal").forEach(function (td) { parts.push(td.textContent); });
+      hay = searchNorm(parts.join(" "));
+      domHayCache.set(el, hay);
+    }
+    return hay;
+  }
+  // deals.json の1件の検索対象文字列（初回アクセス時に正規化して案件オブジェクトへキャッシュ）
+  function dealHaystack(d) {
+    if (d._q === undefined) {
+      d._q = searchNorm(
+        [d.title, d.condition, SITE_NAMES[d.site] || d.site, CAT_NAMES[d.category] || ""].join(" ")
+      );
+    }
+    return d._q;
+  }
+
+  const searchBox = document.getElementById("search");
+  // 獲得額の絞り込みのみ再訪時に復元する（localStorageに保存）。サイト・カテゴリは
+  // 選択状態に気づきにくく「新着が減った」等の誤解を招くため、毎回「すべて」から始める。
+  const YEN_STORAGE_KEY = "poikatu.filter.yen";
+
+  // 案件データ（deals.json の1件）が各段の現在選択に一致するか（未選択＝すべて）。
+  function matchNew(d) {
+    return !active.new || !!d.new;
+  }
+  // 掲載時期（○時間前）。新着表示中のみ有効（全て表示時は時期で絞らない）。
+  function matchHours(d) {
+    return !active.new || withinHours(d.posted_at);
+  }
+  function matchCats(d) {
+    return !active.categories.length || active.categories.includes(d.category);
+  }
+  function matchSites(d) {
+    return !active.sites.length || active.sites.includes(d.site);
+  }
+  // 獲得額の範囲指定が有効か（下限・上限のどちらか一方でも入っていれば有効）
+  function yenActive() {
+    return yenRange.min !== null || yenRange.max !== null;
+  }
+  // 円換算額yen（number|null）が現在の範囲に収まるか。範囲未指定＝すべて一致。
+  // 範囲指定中は円換算できない案件（yen=null）は除外する（円で絞る趣旨のため）。
+  function yenInRange(yen) {
+    if (!yenActive()) return true;
+    if (yen === null || yen === undefined) return false;
+    return (yenRange.min === null || yen >= yenRange.min)
+        && (yenRange.max === null || yen <= yenRange.max);
+  }
+  function matchYen(d) {  // deals.json の1件（yen: number|null）
+    return yenInRange(d.yen);
+  }
+  // data-yen 属性値（文字列。""＝円換算不可）を判定用の number|null に変換する
+  function domYen(str) {
+    return (str === "" || str === undefined || str === null) ? null : Number(str);
+  }
+
+  // localStorageは私的閲覧モード等で例外を投げ得るため読み書きを安全化する
+  function loadStored(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
+  }
+  function saveStored(key, value) {
+    try { localStorage.setItem(key, value); } catch (e) { /* 保存不可でも表示は継続 */ }
+  }
+
+  const compareSection = document.getElementById("compare-section");
+
+  // 横スクロールするチップ行で、選択中(active)チップが行の外に隠れている場合に、見える位置まで
+  // 水平スクロールする（ページの縦スクロールは起こさない）。「更新時刻」は既定選択「～3日前」が
+  // 右端にあり、行を出した直後は画面外になるため、これで初期選択が見えるようにする。
+  function revealActiveChip(row) {
+    const act = row.querySelector(".chip.active, .recency-custom.active");
+    if (!act) return;
+    const r = act.getBoundingClientRect(), box = row.getBoundingClientRect();
+    if (r.right > box.right) row.scrollLeft += r.right - box.right + 12;
+    else if (r.left < box.left) row.scrollLeft -= box.left - r.left + 12;
+  }
+
+  function applyFilter() {
+    // 初期化後の絞り込み・検索操作を deals.json 遅延ロードの引き金にする（正確な件数再計算に必要なため）
+    if (armed) ensureAllDeals();
+    const terms = searchTerms(searchBox.value);
+    // 掲載時期（○時間前）の絞り込み行は「新着」表示中のみ出す。非表示→表示に切り替わった直後は
+    // 右端にある初期選択チップ（既定「～3日前」）が横スクロール行の画面外に隠れるため見える位置へ寄せる。
+    if (recencyChips) {
+      const wasHidden = recencyChips.hidden;
+      recencyChips.hidden = !active.new;
+      if (wasHidden && !recencyChips.hidden) revealActiveChip(recencyChips);
+    }
+    // 比較セクション（複数サイト掲載中）ごと隠す条件（OR）:
+    //  新着選択時       … 新着1件の有無でグループ丸ごとの要否を判断しづらいため。
+    //  サイトを1社のみ選択… 複数サイト比較の趣旨に反する（比較相手がいない）ため。
+    //  重複除外中        … 同一案件を複数サイトで並べて見せる趣旨と矛盾するため。
+    if (compareSection) compareSection.hidden = active.new || active.sites.length === 1 || active.dedup;
+    document.querySelectorAll("[data-title]").forEach(function (el) {
+      const hitText = !terms.length || matchesTerms(domHaystack(el), terms);
+      // 最上段「新着」は新着フラグ(data-new)で判定し、新着時は掲載時期(data-posted-at)の窓でも絞る。
+      // カテゴリは data-category で判定
+      const hitNew = !active.new || (el.dataset.new === "1" && withinHours(el.dataset.postedAt));
+      const hitCat = !active.categories.length
+        || active.categories.includes(el.dataset.category);
+      // 比較グループ(表)か単一案件(新着li)かを行の有無で判別する
+      const rows = el.querySelectorAll("tr[data-yen]");
+      const isGroup = rows.length > 0;
+      // サイト絞り込み。
+      //  単一案件… 自身のサイトが選択に含まれれば一致（未選択＝すべて）。
+      //  比較グループ… サイト未選択は従来通り全表示。2社以上を選択したときは、
+      //   同じ案件が「選択サイトのうち2社以上」に掲載されているグループのみ表示する
+      //   （比較の意味があるのは2社以上のとき。1社のみ選択時はセクションごと隠す）。
+      let hitSite;
+      if (isGroup) {
+        const matched = Array.prototype.filter.call(
+          el.querySelectorAll("tr[data-site]"),
+          r => active.sites.includes(r.dataset.site)).length;
+        hitSite = !active.sites.length || matched >= 2;
+      } else {
+        hitSite = !active.sites.length || active.sites.includes(el.dataset.site);
+      }
+      // 獲得額: 比較グループは行(tr[data-yen])のいずれかが範囲内なら表示、
+      // 単一案件(新着li)は自身の data-yen で判定
+      const hitYen = isGroup
+        ? Array.prototype.some.call(rows, r => yenInRange(domYen(r.dataset.yen)))
+        : yenInRange(domYen(el.dataset.yen));
+      el.style.display = hitText && hitNew && hitCat && hitSite && hitYen ? "" : "none";
+    });
+    // 比較グループ内はサイト・獲得額を行単位でも絞り込む（条件外の行は隠す。未指定＝全行表示）
+    document.querySelectorAll(".group tr[data-site]").forEach(function (row) {
+      const rowHit = (!active.sites.length || active.sites.includes(row.dataset.site))
+        && yenInRange(domYen(row.dataset.yen));
+      row.style.display = rowHit ? "" : "none";
+    });
+    // 行の表示状態が変わったので、比較グループの折りたたみ（スマホ）を組み直す
+    document.querySelectorAll(".group").forEach(function (g) { updateGroupFold(g); });
+    // 重複除外中は、上のフィルタで残った新着一覧をさらに名寄せし各グループ最高還元の1件だけ残す
+    if (active.dedup) dedupNewList();
+    // 絞り込みでセクション内が全て非表示になったら案内文を出す
+    document.querySelectorAll(".filter-empty").forEach(function (note) {
+      const items = note.parentElement.querySelectorAll("[data-title]");
+      note.hidden = Array.prototype.some.call(items, el => el.style.display !== "none");
+    });
+    renderAll(true);  // 「全案件」一覧も同じ絞り込みで再描画する（1ページ目に戻す）
+    syncChipAria();   // 選択状態(.active)を aria-pressed に反映（スクリーンリーダー対応）
+    updateFilterBadge();  // スマホの「絞り込み」ボタンに適用中の条件数を反映
+  }
+
+  // チップ(トグルボタン)の選択状態(.active)を aria-pressed に同期し、スクリーンリーダーへ押下状態を
+  // 伝える。フィルタ操作は毎回 applyFilter を通るためここで一括更新する（並び替えは個別に呼ぶ）。
+  function syncChipAria() {
+    document.querySelectorAll(".chip").forEach(function (chip) {
+      chip.setAttribute("aria-pressed", chip.classList.contains("active") ? "true" : "false");
+    });
+  }
+
+  // 重複除外（新着一覧DOM版）: 上のフィルタで表示中の li を名寄せキー(案件名)でまとめ、
+  // 各グループは獲得額(data-yen)最大の1件だけ残して他を隠す。yen無しは0扱い・同額は先頭を残す。
+  function dedupNewList() {
+    const groups = {};
+    document.querySelectorAll(".newlist > li").forEach(function (li) {
+      if (li.style.display === "none") return;  // 既存フィルタで非表示の行は対象外
+      const k = normKey(li.dataset.title);
+      if (!k) return;
+      (groups[k] = groups[k] || []).push(li);
+    });
+    Object.keys(groups).forEach(function (k) {
+      const lis = groups[k];
+      if (lis.length < 2) return;
+      let best = lis[0], bestYen = Number(best.dataset.yen) || 0;
+      lis.forEach(function (li) {
+        const y = Number(li.dataset.yen) || 0;
+        if (y > bestYen) { best = li; bestYen = y; }
+      });
+      lis.forEach(function (li) { if (li !== best) li.style.display = "none"; });
+    });
+  }
+
+  // 重複除外（deals.json配列版）: 名寄せキーごとに先頭1件だけ残す。listは獲得額の降順で
+  // 渡す前提のため、先頭＝そのグループの最高還元になる（「全案件」一覧・件数表示で使う）。
+  function dedupDeals(list) {
+    const seen = {}, out = [];
+    for (let i = 0; i < list.length; i++) {
+      const k = normKey(list[i].title);
+      if (k) { if (seen[k]) continue; seen[k] = true; }
+      out.push(list[i]);
+    }
+    return out;
+  }
+
+  // 各段のチップ件数を「他段の現在選択」を反映して書き換える（自段の選択は無視）。
+  // 集計値の合算ではなく母集合(ALL_DEALS)を1回走査して正確に数えるため、複数選択でも
+  // 件数と実表示が食い違わない。
+  //   最上段 全て … 新着/時期を外した全件（モード切替の見出しのため時期では揺らさない）。
+  //   最上段 新着 … 現在の時間窓に入る新着件数（時期選択に追従。既定～3日前では全新着）。
+  //   掲載時期    … 新着かつ各時間窓に入る件数（カテゴリ・サイト・獲得額選択を反映）。
+  //                 窓ごとの内訳表示のため、時期の現在選択自体では揺らさない。
+  //   カテゴリ    … 新着・時期・サイト選択下での各カテゴリ件数
+  //   サイト      … 新着・時期・カテゴリ選択下での各サイト件数
+  // 新着/カテゴリ/サイトは実際の絞り込み結果（時間窓も反映）と一致させ、時期を変えると件数も追従する。
+  function refreshChipCounts() {
+    if (!ALL_DEALS) return;  // 取得前は初期（サーバ描画）件数のまま。読み込み後に再計算する
+    // 獲得額は独立軸なので各段の件数すべてに反映する（自段の選択のみ無視）
+    const primaryCounts = { "": 0, "_new": 0 }, catCounts = {}, siteCounts = {}, hourCounts = {};
+    // 任意指定（○時間/日前）の該当件数。未入力時(null)は数えず表示もしない
+    const customH = customHours();
+    let customCount = 0;
+    ALL_DEALS.forEach(function (d) {
+      if (matchCats(d) && matchSites(d) && matchYen(d)) {  // 最上段: 全件と、うち新着
+        primaryCounts[""] += 1;
+        // 「新着」も現在の時間窓に入るものだけ数え、実際の絞り込み結果と一致させる
+        if (d.new && withinHours(d.posted_at)) primaryCounts["_new"] += 1;
+        if (d.new) {  // 掲載時期チップ: 新着のうち各時間窓に入る件数（現在選択に依らず窓ごとの内訳）
+          const age = ageHours(d.posted_at);
+          RECENCY_WINDOWS.forEach(function (h) {
+            if (h >= FULL_HOURS || (age !== null && age <= h)) hourCounts[h] = (hourCounts[h] || 0) + 1;
+          });
+          if (customH !== null && (customH >= FULL_HOURS || (age !== null && age <= customH))) customCount += 1;
+        }
+      }
+      // カテゴリ・サイトは掲載時期(matchHours)も反映し、実際の絞り込み結果と件数を一致させる
+      if (matchNew(d) && matchHours(d) && matchSites(d) && matchYen(d)) {   // カテゴリチップ件数
+        catCounts[d.category] = (catCounts[d.category] || 0) + 1;
+      }
+      if (matchNew(d) && matchHours(d) && matchCats(d) && matchYen(d)) {    // サイトチップ件数
+        siteCounts[d.site] = (siteCounts[d.site] || 0) + 1;
+      }
+    });
+    // 件数を書き込み、0件のチップは .zero を付けて薄くする（該当0＝押しても空振りだと分かるように）。
+    // アクティブなチップは選択中の見た目を保つため .zero を付けない。
+    function setCount(cnt, n) {
+      cnt.textContent = n;
+      const chip = cnt.parentElement;
+      chip.classList.toggle("zero", n === 0 && !chip.classList.contains("active"));
+    }
+    // 最上段（全て/新着）はモード切替の見出しのため薄くしない（0でも常に表示のまま）
+    document.querySelectorAll("#primary-chips .chip .cnt").forEach(function (cnt) {
+      cnt.textContent = primaryCounts[cnt.parentElement.dataset.key] || 0;
+    });
+    document.querySelectorAll("#recency-chips .chip .cnt").forEach(function (cnt) {
+      setCount(cnt, hourCounts[cnt.parentElement.dataset.key] || 0);
+    });
+    // 任意指定の件数もチップ同様に他段の選択を反映して出す（未入力時は非表示）
+    recencyCustomCnt.hidden = customH === null;
+    recencyCustomCnt.textContent = customH === null ? "" : customCount + "件";
+    document.querySelectorAll("#category-chips .chip .cnt").forEach(function (cnt) {
+      setCount(cnt, catCounts[cnt.parentElement.dataset.key] || 0);
+    });
+    document.querySelectorAll("#site-chips .chip .cnt").forEach(function (cnt) {
+      setCount(cnt, siteCounts[cnt.parentElement.dataset.key] || 0);
+    });
+  }
+
+  // チップ列を複数選択可にする。個別チップはトグル、「すべて」で全解除。
+  // stateKey は active 内の選択配列キー（"categories"/"sites"）。
+  // storageKey を渡すと選択（カンマ区切り・空＝すべて）を保存し初期表示時に復元する。
+  // 復元した選択が1件以上あれば true を返す。
+  function setupMultiChips(containerId, stateKey, storageKey) {
+    const chips = Array.from(document.querySelectorAll("#" + containerId + " .chip"));
+    const allChip = chips.find(c => c.dataset.key === "");
+    const itemChips = chips.filter(c => c.dataset.key !== "");
+
+    function syncAll() {  // 個別選択が無ければ「すべて」を活性にする
+      allChip.classList.toggle("active", active[stateKey].length === 0);
+    }
+    function commit() {  // 選択変更後の共通処理（保存・表示更新）
+      if (storageKey) saveStored(storageKey, active[stateKey].join(","));
+      syncAll();
+      applyFilter();
+      refreshChipCounts();
+    }
+    allChip.addEventListener("click", function () {
+      active[stateKey] = [];
+      itemChips.forEach(c => c.classList.remove("active"));
+      commit();
+    });
+    itemChips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        const arr = active[stateKey];
+        const i = arr.indexOf(chip.dataset.key);
+        if (i >= 0) arr.splice(i, 1); else arr.push(chip.dataset.key);
+        chip.classList.toggle("active", i < 0);  // 追加時=活性、解除時=非活性
+        commit();
+      });
+    });
+    // 保存済みの選択を復元（現存しないキーは除外）
+    if (storageKey) {
+      const saved = loadStored(storageKey);
+      if (saved) {
+        const valid = saved.split(",").filter(k => itemChips.some(c => c.dataset.key === k));
+        if (valid.length) {
+          active[stateKey] = valid;
+          itemChips.forEach(c => c.classList.toggle("active", valid.includes(c.dataset.key)));
+        }
+      }
+    }
+    syncAll();
+    return active[stateKey].length > 0;
+  }
+
+  // 検索時は既定の「新着」を自動で「全て」に切り替え、過去分を含む全件から探す。
+  // 既定のままだと検索範囲が直近数日の新着に限られ「検索しても出てこない」となるため。
+  // ユーザーが表示チップを手動で選んだ後は選択を尊重して自動切替しない。
+  // 自動切替した場合のみ、検索欄を空に戻した時点で既定の「新着」へ戻す。
+  let autoAll = false;     // 検索による「全て」への自動切替中か
+  let userPinned = false;  // ユーザーが表示チップ（全て/新着）を手動選択したか
+  searchBox.addEventListener("input", function () {
+    const hasTerms = !!searchBox.value.trim();
+    if (!userPinned && hasTerms && active.new) {
+      autoAll = true;
+      setPrimary(false);  // applyFilter・refreshChipCounts も呼ばれる
+      return;
+    }
+    if (!userPinned && !hasTerms && autoAll) {
+      autoAll = false;
+      setPrimary(true);
+      return;
+    }
+    applyFilter();
+  });
+  // 最上段（全て/新着）は排他トグル。全て=新着フィルタ解除、新着=直近数日の初出のみ。
+  // カテゴリ・サイト（下段）とはAND条件で併用できる。保存はしない。
+  // data-key を持つチップ（全て/新着）だけを対象にし、独立トグルの重複除外(dedup-chip)は除く。
+  const recencyChips = document.getElementById("recency-chips");
+  const recencyBtns = Array.from(document.querySelectorAll("#recency-chips .chip"));
+  const primaryChips = Array.from(document.querySelectorAll("#primary-chips .chip[data-key]"));
+  function setPrimary(newOnly) {
+    active.new = newOnly;
+    primaryChips.forEach(c => c.classList.toggle("active", (c.dataset.key === "_new") === newOnly));
+    applyFilter();
+    refreshChipCounts();
+  }
+  primaryChips.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      userPinned = true;  // 手動選択を尊重し、以降は検索による自動切替をしない
+      autoAll = false;
+      setPrimary(chip.dataset.key === "_new");
+    });
+  });
+  // 掲載時期（○時間前）は排他トグル。新着表示中のみ意味を持つ（新着でない時は行ごと隠す）。
+  recencyBtns.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      clearRecencyCustom();  // プリセット選択で任意指定は解除
+      active.hours = Number(chip.dataset.key);
+      recencyBtns.forEach(c => c.classList.toggle("active", c === chip));
+      applyFilter();
+      refreshChipCounts();
+    });
+  });
+  // ---- 掲載時期の任意指定（数値＋単位） ----
+  // プリセットに無い「○時間前/○日前」を指定できる。有効値の間はプリセットより優先して
+  // active.hours に反映し、空に戻すと既定「～3日前」（時間で絞らない）へ戻る。
+  // 保存はしない（プリセットチップと同じ扱い）。
+  const recencyCustomBox = document.getElementById("recency-custom");
+  const recencyNInput = document.getElementById("recency-n");
+  const recencyUnitSel = document.getElementById("recency-unit");
+  const recencyCustomCnt = document.getElementById("recency-custom-cnt");
+  // 任意指定の時間数（数値×単位。日前=×24）。空・0以下・不正はnull（未指定）
+  function customHours() {
+    const v = recencyNInput.value.trim();
+    if (v === "") return null;
+    const n = Number(v);
+    return Number.isFinite(n) && n > 0 ? n * Number(recencyUnitSel.value) : null;
+  }
+  function clearRecencyCustom() {
+    recencyNInput.value = "";
+    recencyCustomBox.classList.remove("active");
+  }
+  function commitRecencyCustom() {
+    const h = customHours();
+    // 任意指定が未適用のまま値が定まらない操作（空のまま単位だけ変更等）は、
+    // 選択中のプリセットチップを既定へ戻してしまわないよう何もしない
+    if (h === null && !recencyCustomBox.classList.contains("active")) return;
+    recencyCustomBox.classList.toggle("active", h !== null);
+    active.hours = h !== null ? h : FULL_HOURS;
+    // 有効値の間はプリセットの選択を外し、空に戻したら既定チップ（～3日前）を選び直す
+    recencyBtns.forEach(c => c.classList.toggle("active", h === null && Number(c.dataset.key) === FULL_HOURS));
+    applyFilter();
+    refreshChipCounts();
+  }
+  recencyNInput.addEventListener("input", commitRecencyCustom);
+  recencyUnitSel.addEventListener("change", commitRecencyCustom);
+  // 重複除外は独立トグル（全て/新着とはAND併用）。ONで同名案件を最高還元の1件に畳む。
+  const dedupChip = document.getElementById("dedup-chip");
+  dedupChip.addEventListener("click", function () {
+    active.dedup = !active.dedup;
+    dedupChip.classList.toggle("active", active.dedup);
+    applyFilter();
+    refreshChipCounts();
+  });
+  // 既定は「新着」。新着チップが無い日（新着0件）は「全て」にフォールバックする。
+  const hasNewChip = primaryChips.some(c => c.dataset.key === "_new");
+  active.new = hasNewChip;
+  primaryChips.forEach(c => c.classList.toggle("active", (c.dataset.key === "_new") === active.new));
+
+  // カテゴリ・サイトは保存しない（毎回「すべて」から開始する）
+  setupMultiChips("category-chips", "categories");
+  setupMultiChips("site-chips", "sites");
+
+  // ---- 獲得額（円換算）の範囲入力 ----
+  const yenMinInput = document.getElementById("yen-min");
+  const yenMaxInput = document.getElementById("yen-max");
+  const yenClearBtn = document.getElementById("yen-clear");
+
+  // 入力欄の値を判定用の数値へ（空・不正・負値は未指定=nullとして扱う）
+  function parseYenInput(el) {
+    const v = el.value.trim();
+    if (v === "") return null;
+    const n = Number(v);
+    return Number.isFinite(n) && n >= 0 ? n : null;
+  }
+  // 入力欄→yenRangeへ反映。下限>上限の打ち間違いは実質範囲を入れ替えて0件化を防ぐ
+  function readYenRange() {
+    let lo = parseYenInput(yenMinInput);
+    let hi = parseYenInput(yenMaxInput);
+    if (lo !== null && hi !== null && lo > hi) { const t = lo; lo = hi; hi = t; }
+    yenRange.min = lo;
+    yenRange.max = hi;
+  }
+  function commitYen() {  // 入力変更後の共通処理（保存・表示更新）
+    readYenRange();
+    saveStored(YEN_STORAGE_KEY, JSON.stringify({ min: yenRange.min, max: yenRange.max }));
+    applyFilter();
+    refreshChipCounts();
+  }
+  yenMinInput.addEventListener("input", commitYen);
+  yenMaxInput.addEventListener("input", commitYen);
+  yenClearBtn.addEventListener("click", function () {
+    yenMinInput.value = "";
+    yenMaxInput.value = "";
+    commitYen();
+  });
+  // 保存済みの範囲を入力欄へ復元する。復元した値があれば true を返す
+  function restoreYenRange() {
+    const saved = loadStored(YEN_STORAGE_KEY);
+    if (saved) {
+      try {
+        const o = JSON.parse(saved);
+        if (o && o.min !== null && o.min !== undefined) yenMinInput.value = o.min;
+        if (o && o.max !== null && o.max !== undefined) yenMaxInput.value = o.max;
+      } catch (e) { /* 壊れた保存値は無視 */ }
+    }
+    readYenRange();
+    return yenActive();
+  }
+  restoreYenRange();
+
+  // ---- スマホ: 詳細絞り込みの折りたたみ ----
+  // ファーストビューが絞り込みUIで埋まらないよう、カテゴリ以下の4行は「絞り込み」ボタンで
+  // 開閉する（PCではCSSで常時展開・ボタン非表示）。畳んでいても効いている条件に気づけるよう、
+  // 適用中の条件数をバッジで示す（updateFilterBadgeはapplyFilterから毎回呼ばれる）。
+  const filterToggle = document.getElementById("filter-toggle");
+  const moreFilters = document.getElementById("more-filters");
+  const filterBadge = document.getElementById("filter-badge");
+  filterToggle.addEventListener("click", function () {
+    const open = moreFilters.classList.toggle("open");
+    filterToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    // 非表示中は各チップ行の横スクロールヒントが計算できないため、開いた時点で再計算させる
+    if (open) window.dispatchEvent(new Event("resize"));
+  });
+  // 適用中の条件数＝カテゴリ・サイトの選択数＋獲得額範囲・更新時刻（既定以外）の指定
+  function updateFilterBadge() {
+    let n = active.categories.length + active.sites.length;
+    if (yenActive()) n += 1;
+    if (active.new && active.hours < FULL_HOURS) n += 1;
+    filterBadge.hidden = n === 0;
+    filterBadge.textContent = n ? n + "件適用中" : "";
+  }
+
+  // ---- スマホ: 比較グループの折りたたみ ----
+  // 同一案件が10数サイトに並ぶと1グループで1画面近く消費するため、表示中の上位FOLD_SHOW行だけ
+  // 見せて残りをボタンで開閉する。行は還元額の降順なので上位＝高還元。fold-hidden を消すCSSは
+  // モバイルのみで、PCでは常に全行表示（ボタンもCSSで非表示）。
+  const FOLD_SHOW = 3;
+  function updateGroupFold(group) {
+    const btn = group.querySelector(".group-more");
+    if (!btn) return;
+    group.querySelectorAll("tr.fold-hidden").forEach(r => r.classList.remove("fold-hidden"));
+    // 対象は現在の絞り込みで表示中の行のみ（サイト・獲得額で隠れた行は数えない）
+    const rows = Array.prototype.filter.call(
+      group.querySelectorAll("tr[data-site]"), r => r.style.display !== "none");
+    if (rows.length <= FOLD_SHOW + 1) {  // 1行だけ畳んでもボタン分の高さで相殺されるため畳まない
+      btn.hidden = true;
+      return;
+    }
+    btn.hidden = false;
+    if (group.dataset.expanded === "1") {
+      btn.textContent = "折りたたむ ▴";
+    } else {
+      rows.slice(FOLD_SHOW).forEach(r => r.classList.add("fold-hidden"));
+      btn.textContent = "他" + (rows.length - FOLD_SHOW) + "サイトを表示 ▾";
+    }
+  }
+  document.querySelectorAll(".group").forEach(function (g) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "group-more";
+    btn.hidden = true;
+    btn.addEventListener("click", function () {
+      g.dataset.expanded = g.dataset.expanded === "1" ? "" : "1";
+      updateGroupFold(g);
+    });
+    g.appendChild(btn);
+  });
+
+  // ---- ページ上部へ戻る浮動ボタン ----
+  // ページが縦に非常に長いため、1画面分以上スクロールしたら右下に表示する。
+  // スクロールは高頻度イベントなので rAF で間引く。
+  const toTop = document.getElementById("to-top");
+  let toTopPending = false;
+  window.addEventListener("scroll", function () {
+    if (toTopPending) return;
+    toTopPending = true;
+    requestAnimationFrame(function () {
+      toTop.hidden = window.scrollY < 800;
+      toTopPending = false;
+    });
+  }, { passive: true });
+  // behavior未指定＝CSSのscroll-behavior(smooth)に従う（動きを減らす設定の端末では即時ジャンプ）
+  toTop.addEventListener("click", function () { window.scrollTo({ top: 0 }); });
+
+  // ---- 「全案件」一覧: deals.json をクライアント取得してページング表示 ----
+  // 全件バックフィルで数千〜数万件になり得るため、静的HTMLに直書きせず
+  // クライアント側でフィルタ＋ページングする（HTMLとメモリを軽く保つ）。
+  // 下記の初期 applyFilter/refreshChipCounts 呼び出しが ALL_DEALS 等を参照するため、
+  // この変数宣言は呼び出しより前に置く必要がある（後ろにあると let の初期化前アクセスで
+  // ReferenceError となり、以降の全スクリプトが実行されなくなる＝掲載時期チップの件数が
+  // 常に0のまま、「全案件」一覧が読み込まれない等の不具合の原因になっていた）。
+  const SITE_NAMES = {{ site_names | tojson }};
+  const CAT_NAMES = {{ category_names | tojson }};
+  const PAGE_SIZE = 60;
+  const allList = document.getElementById("all-list");
+  const allStatus = document.getElementById("all-status");
+  const allPager = document.getElementById("all-pager");
+  const allInfo = document.getElementById("all-pageinfo");
+  const allCount = document.getElementById("all-count");
+  const allPrev = document.getElementById("all-prev");
+  const allNext = document.getElementById("all-next");
+  const allRetry = document.getElementById("all-retry");
+  // allLoadState: "idle"（未取得＝遅延ロード待ち）/ "loading"（取得中）/ "ready"（取得済）/ "error"（失敗・タイムアウト）
+  let ALL_DEALS = null, allPage = 1, allLoadState = "idle";
+
+  // ---- deals.json の遅延ロード ----
+  // deals.json は数MB規模（gzip後も数百KB）だが、多くの訪問者は「全案件」セクションまで
+  // 到達しない。初期表示では取得せず、①全案件セクションへの接近（IntersectionObserver）
+  // ②最初の絞り込み・検索操作（applyFilter経由） のどちらか早い方で取得を開始する
+  // （モバイル通信量とサーバ転送量の削減）。取得完了までのチップ件数はサーバ描画の初期値のまま。
+  let armed = false;  // 初期化処理中のapplyFilter呼び出しで取得が始まるのを防ぐ
+  function ensureAllDeals() {
+    // 取得中・取得済みは何もしない。失敗(error)時も自動再試行はせず「再読み込み」ボタンに委ねる
+    if (allLoadState !== "idle") return;
+    loadAllDeals();
+  }
+
+  // 既定が「新着」＋復元した絞り込み（サイト・獲得額）を初期表示へ反映する。
+  // 既定新着のためサーバ描画の全件から新着以外を隠す必要があり、常に一度適用する。
+  applyFilter();
+  refreshChipCounts();
+  armed = true;  // ここから先のapplyFilter＝ユーザー操作なので遅延ロードの引き金にする
+
+  // 現在の絞り込み（新着/掲載時期/カテゴリ/サイト/検索語/獲得額）に一致するか
+  function allMatches(d, terms) {
+    const hitText = !terms.length || matchesTerms(dealHaystack(d), terms);
+    return hitText && matchNew(d) && matchHours(d) && matchCats(d) && matchSites(d) && matchYen(d);
+  }
+
+  // 案件1件のli要素を組み立てる（titleは外部由来のためtextContentで安全に挿入）
+  function allItem(d) {
+    const li = document.createElement("li");
+    const site = document.createElement("span");
+    site.className = "site";
+    site.textContent = SITE_NAMES[d.site] || d.site;
+    const ttl = document.createElement("span");
+    ttl.className = "ttl";
+    const a = document.createElement("a");
+    a.href = d.url; a.rel = "nofollow noopener"; a.target = "_blank";
+    a.textContent = d.title;
+    ttl.appendChild(a);
+    if (d.up) {  // ポイント増・NEW再付与で再浮上した案件のポイントUPバッジ（新着セクションと同じ表示）
+      const up = document.createElement("span");
+      up.className = "upbadge";
+      up.textContent = "ポイントUP";
+      ttl.appendChild(up);
+      if (d.up_diff) {  // 増額幅（+500円等）を算出できた案件のみバッジ横に添える
+        const diff = document.createElement("span");
+        diff.className = "updiff";
+        diff.textContent = d.up_diff;
+        ttl.appendChild(diff);
+      }
+    }
+    if (CAT_NAMES[d.category]) {
+      const cat = document.createElement("span");
+      cat.className = "cat";
+      cat.textContent = CAT_NAMES[d.category];
+      ttl.appendChild(cat);
+    }
+    const pts = document.createElement("span");
+    pts.className = "pts";
+    // 円換算額を主表示にし、括弧内に元のポイント表記を控えめに添える（円換算できない案件はポイントのみ）
+    if (d.yen) {
+      const sub = document.createElement("span");
+      sub.className = "sub";
+      sub.textContent = "（" + d.points_text + "）";
+      pts.append(Math.round(d.yen).toLocaleString() + "円", sub);
+    } else {
+      pts.textContent = d.points_text;
+    }
+    li.append(site, ttl, pts);
+    return li;
+  }
+
+  // 取得前・失敗時の「全案件」ステータス表示。取得中に検索・絞り込みされた場合は
+  // 結果が取得完了後に反映される旨を明示し、"固まった"ように見えるのを防ぐ。
+  function renderAllPending() {
+    allList.innerHTML = "";
+    allPager.hidden = true;
+    allStatus.hidden = false;
+    if (allLoadState === "error") {
+      allStatus.textContent = "全案件データの読み込みに失敗しました。";
+      allRetry.hidden = false;
+      return;
+    }
+    allRetry.hidden = true;
+    // 何らかの絞り込み中か（検索語・新着・重複除外・カテゴリ・サイト・獲得額のいずれか）
+    const filtering = !!searchBox.value.trim() || active.new || active.dedup
+      || active.categories.length || active.sites.length || yenActive();
+    allStatus.textContent = filtering
+      ? "案件データを読み込み中です。まもなく結果を表示します…"
+      : "読み込み中…";
+  }
+
+  function renderAll(resetPage) {
+    if (!ALL_DEALS) { renderAllPending(); return; }  // 取得完了までは待機表示
+    allRetry.hidden = true;
+    if (resetPage) allPage = 1;
+    const terms = searchTerms(searchBox.value);
+    let filtered = ALL_DEALS.filter(d => allMatches(d, terms));
+    if (active.dedup) filtered = dedupDeals(filtered);  // 同名案件を最高還元の1件に畳む
+    allCount.textContent = "（" + filtered.length + "件）";
+    if (!filtered.length) {
+      allList.innerHTML = "";
+      allStatus.textContent = "該当する案件はありません。";
+      allStatus.hidden = false;
+      allPager.hidden = true;
+      return;
+    }
+    const pages = Math.ceil(filtered.length / PAGE_SIZE);
+    if (allPage > pages) allPage = pages;
+    const start = (allPage - 1) * PAGE_SIZE;
+    const frag = document.createDocumentFragment();
+    filtered.slice(start, start + PAGE_SIZE).forEach(d => frag.appendChild(allItem(d)));
+    allList.innerHTML = "";
+    allList.appendChild(frag);
+    allStatus.hidden = true;
+    allPager.hidden = pages <= 1;
+    allInfo.textContent = allPage + " / " + pages;
+    allPrev.disabled = allPage <= 1;
+    allNext.disabled = allPage >= pages;
+  }
+
+  function gotoPage(delta) {
+    allPage += delta;
+    renderAll(false);
+    document.getElementById("all-deals").scrollIntoView({ block: "start" });
+  }
+  allPrev.addEventListener("click", () => gotoPage(-1));
+  allNext.addEventListener("click", () => gotoPage(1));
+
+  // deals.json をタイムアウト付きで取得する。回線が遅い/停止した場合でも
+  // 一定時間で打ち切り、エラー表示＋再読み込みに切り替える（永久スピナー回避）。
+  const ALL_FETCH_TIMEOUT_MS = 30000;  // deals.jsonは数MB規模になり得るため余裕を持たせる
+  function loadAllDeals() {
+    allLoadState = "loading";
+    renderAllPending();
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), ALL_FETCH_TIMEOUT_MS);
+    // 日次でdeals.jsonが変わるため日付をクエリに付けてキャッシュを更新する
+    fetch("deals.json?d={{ today }}", { signal: ctrl.signal })
+      .then(r => r.ok ? r.json() : Promise.reject(new Error("HTTP " + r.status)))
+      .then(data => {
+        ALL_DEALS = data.deals || [];
+        allLoadState = "ready";
+        renderAll(true);
+        refreshChipCounts();
+      })
+      .catch(() => { allLoadState = "error"; renderAllPending(); })
+      .finally(() => clearTimeout(timer));
+  }
+  allRetry.addEventListener("click", loadAllDeals);
+  // 全案件セクションが画面に近づいたら取得を開始する（手前800pxで先読みし、到達時には表示できているように）
+  if ("IntersectionObserver" in window) {
+    const allIo = new IntersectionObserver(function (entries) {
+      if (entries.some(e => e.isIntersecting)) {
+        allIo.disconnect();
+        ensureAllDeals();
+      }
+    }, { rootMargin: "800px 0px" });
+    allIo.observe(document.getElementById("all-deals"));
+  } else {
+    ensureAllDeals();  // 非対応環境は従来どおり即時取得
+  }
+
+  // ---- チップ行の横スクロールヒント ----
+  // 横スクロールできるチップ行の端に、続きがある側だけフェード(hint-l/hint-r)を出して
+  // 「まだ項目がある」ことを示す。PCではチップが折り返す（overflowしない）ためクラスは付かない。
+  function setupScrollHint(row) {
+    function update() {
+      const max = row.scrollWidth - row.clientWidth;
+      row.classList.toggle("hint-l", row.scrollLeft > 1);
+      row.classList.toggle("hint-r", row.scrollLeft < max - 1);
+    }
+    row.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  }
+  document.querySelectorAll(".chips").forEach(setupScrollHint);
+
+  // 新着セクションの並び替え。サーバは新着順（掲載日時の降順）で描画済みなので、
+  // その初期DOM順から各並び順を導出する（ポイント順は円換算できない案件が末尾になる）。
+  const newlist = document.querySelector(".newlist");
+  const sortChips = document.querySelectorAll("#sort-chips .chip");
+  if (newlist && sortChips.length) {
+    const newestOrder = Array.from(newlist.children);  // サーバ描画＝新着順（既定）
+    // サイト順: サイトキー昇順→同一サイト内は還元額の多い順（サーバ従来の既定と揃える）
+    const siteOrder = newestOrder.slice().sort(function (a, b) {
+      return a.dataset.site.localeCompare(b.dataset.site)
+        || Number(b.dataset.yen) - Number(a.dataset.yen);
+    });
+    const pointsOrder = newestOrder.slice().sort(
+      (a, b) => Number(b.dataset.yen) - Number(a.dataset.yen)
+    );
+    const orders = { newest: newestOrder, site: siteOrder, points: pointsOrder };
+    sortChips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        sortChips.forEach(c => c.classList.remove("active"));
+        chip.classList.add("active");
+        (orders[chip.dataset.key] || newestOrder).forEach(li => newlist.appendChild(li));
+        syncChipAria();  // 並び替えは applyFilter を通らないため個別に aria-pressed を更新する
+      });
+    });
+  }
+})();
+</script>
+{% endblock %}

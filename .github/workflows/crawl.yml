@@ -1,0 +1,96 @@
+name: daily-crawl
+
+on:
+  # GitHub内蔵scheduleは停止（2026-07-09）。当初は不達だったが発火するようになり、外部cronと
+  # 二重に実行されて重複クロール・push衝突・X二重投稿の恐れが出たため無効化。定期実行は
+  # 外部cron（レンタルサーバ JST 01/05/09/13/17/21:07）→workflow_dispatch に一本化する。
+  # 再びフォールバックが必要なときは下2行のコメントを外して戻す（X投稿枠は cron "7 4,12"）。
+  # schedule:
+  #   - cron: "7 4,12 * * *"       # クロール＋X投稿（JST 13:07 / 21:07）
+  #   - cron: "7 0,8,16,20 * * *"  # クロールのみ（JST 09:07 / 17:07 / 01:07 / 05:07）
+  # 外部トリガー（サーバのcron等）からGitHub APIで叩く運用。確実な定期実行を担保する。
+  # X投稿(従量課金)は投稿枠だけに絞るため、外部トリガー側が post_x=true/false を渡す。
+  workflow_dispatch:
+    inputs:
+      post_x:
+        description: "この実行でX投稿する（投稿枠=JST 13/21時台のみ true。手動実行時も true でのみ投稿）"
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Crawl and build site
+        run: python run.py
+
+      # クロール直後に掲載中案件のリンク死活をチェックし、掲載終了を論理削除して再生成する
+      - name: Check links and flag delisted deals
+        run: python check_links.py
+
+      - name: Rebuild site with delisted deals removed
+        run: python run.py --generate-only
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: daily crawl $(date -u +%Y-%m-%d)"
+          # 実行中に別のpushでremoteが進んでいても、rebaseで取り込んでから送る（push衝突対策）
+          git pull --rebase origin main
+          git push
+
+      # レンタルサーバーへFTPSでアップロード（再試行付き共通アクション）
+      - name: Deploy to server (FTPS)
+        uses: ./.github/actions/ftps-deploy
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
+
+      # 広報用SNS投稿（デプロイ成功後のみ。新着0件・キー未設定時は自動スキップ）。
+      # X課金(従量)抑制のため投稿枠(GitHub schedule 7 4,12)または post_x=true の実行のみ投稿する。
+      # 外部トリガー(workflow_dispatch)では投稿枠=JST 13/21時台だけ post_x=true を渡す運用。
+      # 手動実行は post_x=true を選んだ時だけ投稿（既定 false＝誤爆による課金を防止）。投稿しない
+      # 回の新着も、次の投稿枠で post_sns.py が first_seen==today を対象にまとめて拾う。
+      - name: Post daily digest to X
+        if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python post_sns.py
+
+      - name: Commit SNS state
+        if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
+        run: |
+          # 投稿スキップ時（キー未設定・新着なし）はファイルが無いので何もしない
+          if [ -f data/sns_state.json ]; then
+            git add data/sns_state.json
+            git diff --cached --quiet || git commit -m "data: sns post state $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi

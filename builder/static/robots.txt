@@ -1,0 +1,53 @@
+# ポイ活ニュース robots.txt
+# 通常の検索エンジンと「AI検索・回答エンジンの引用」用ボットは許可し、
+# 生成AIの「学習専用」ボットのみ拒否する（収集データの学習利用を抑制しつつ、
+# ChatGPT / Perplexity / Google AI Overviews 等の回答内で引用・参照されることは許可）。
+
+User-agent: *
+Allow: /
+
+# --- AI検索・回答エンジン（回答内での引用・参照・ユーザー起点の取得）: 許可 ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# --- 生成AIの「学習」に使うボット: 拒否 ---
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://poikatu-news.com/sitemap.xml

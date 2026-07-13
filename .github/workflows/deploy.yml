@@ -1,0 +1,50 @@
+name: deploy
+
+# 静的サイトをサーバへ反映する。定期クロール（crawl.yml）とは切り離し、
+# main への push で発火する。クロールはせず、コミット済みデータ＋現行の
+# テンプレ・設定からサイトを再生成してFTPSでアップロードするだけ。
+# → テンプレ変更・config変更（GA4測定ID・紹介URL等）を即座に反映できる。
+on:
+  push:
+    branches: [main]
+    # サイト出力に影響するファイルの変更時のみ発火（docs等の更新では動かさない）
+    paths:
+      - "builder/**"
+      - "config/**"
+      - "data/**"
+      - "requirements.txt"
+      - ".github/actions/ftps-deploy/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false  # アップロード途中で中断させない
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Build site (no crawl)
+        run: python run.py --generate-only
+
+      - name: Deploy to server (FTPS)
+        uses: ./.github/actions/ftps-deploy
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}

@@ -1,0 +1,54 @@
+name: FTPS deploy with retry
+description: >-
+  ./site/ をFTPSでサーバへアップロードする。レンタルサーバーのFTPSは
+  一時的にDNS解決失敗（getaddrinfo ENOTFOUND）や接続タイムアウトを起こすことが
+  あるため、失敗時は最大3回まで再試行する。
+inputs:
+  server:
+    description: FTPサーバホスト（FTP_SERVER）
+    required: true
+  username:
+    description: FTPユーザー名（FTP_USERNAME）
+    required: true
+  password:
+    description: FTPパスワード（FTP_PASSWORD）
+    required: true
+  server-dir:
+    description: アップロード先ディレクトリ（末尾スラッシュ必須・FTP_REMOTE_DIR）
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: FTPS upload (1回目)
+      id: try1
+      continue-on-error: true
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        protocol: ftps
+        local-dir: ./site/
+        server-dir: ${{ inputs.server-dir }}
+    - name: FTPS upload (2回目)
+      id: try2
+      if: steps.try1.outcome == 'failure'
+      continue-on-error: true
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        protocol: ftps
+        local-dir: ./site/
+        server-dir: ${{ inputs.server-dir }}
+    - name: FTPS upload (3回目)
+      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure'
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        protocol: ftps
+        local-dir: ./site/
+        server-dir: ${{ inputs.server-dir }}

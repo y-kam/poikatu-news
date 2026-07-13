@@ -6,7 +6,7 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from crawler.categorize import classify, load_categories, propagate_categories
+from crawler.categorize import classify, is_corporate, load_categories, load_corporate, propagate_categories
 from crawler.merge import group_deals
 from crawler.normalize import parse_points
 from crawler.store import NEW_DAYS, RECENT_DAYS, load_history, recent_visible
@@ -195,6 +195,8 @@ def _slim_deal(deal: dict, new_cutoff: str) -> dict:
     if _is_up(deal, new_cutoff):
         slim["up"] = True  # UPバッジ表示用。該当案件のみキーを出して転送量を抑える
         slim["up_diff"] = deal["up_diff"]  # 増額幅（+500円等）。_is_up が真なら算出済み
+    if deal.get("corporate"):
+        slim["corp"] = True  # 法人案件フラグ。既定は非表示・トグルONで表示。該当のみ出し転送量を抑える
     return slim
 
 
@@ -321,14 +323,17 @@ def _load_publish() -> dict:
 
 def generate(store: dict, sites_config: dict, today: str) -> Path:
     categories = load_categories()
+    corporate = load_corporate()
     publish = _load_publish()
     # 無効化したサイト（enabled=false）はクロールだけでなく掲載も止める。
     # data/deals.json のデータ・既知IDは残す（再有効化時に全件が新着扱いになるのを防ぐ）
     enabled_sites = {k: v for k, v in sites_config.items() if v.get("enabled")}
-    # storeのデータを汚さないようコピーしてからカテゴリを付与する（分類は表示時に毎回行う）
+    # storeのデータを汚さないようコピーしてからカテゴリ・法人フラグを付与する（判定は表示時に毎回行う）
     recent = [dict(d) for d in recent_visible(store, today) if d["site"] in enabled_sites]
     for deal in recent:
         deal["category"] = classify(deal, categories)
+        # 法人・事業者向け（個人＝一般消費者では申込めない）案件フラグ。カテゴリと独立した横断軸。
+        deal["corporate"] = is_corporate(deal, corporate)
     # キーワードで「その他」になった案件は、同一案件の他サイト掲載の分類結果を流用して救済
     propagate_categories(recent, categories)
     # 同一サイトが同じ案件名を別IDで二重掲載した重複を1件に畳む（新着・比較・全案件・件数の
@@ -339,10 +344,17 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     for deal in recent:
         deal["up_diff"] = _up_diff(deal, enabled_sites[deal["site"]]["rate"])
 
-    # 値動き履歴（変化点ログ）。UP額ランキング・値動き履歴ページのデータ源
+    # 法人案件を除いた「個人向け」母集団。既定表示（法人トグルOFF）の件数・ランキング・値動き履歴・
+    # サーバ埋め込みの各チップ件数はこちらを基準にする。トップの新着/比較/全案件のDOM・deals.json には
+    # 法人案件も corp フラグ付きで載せ、「法人案件も含む」トグルON時にクライアント側で表示・再集計する。
+    personal = [d for d in recent if not d["corporate"]]
+    has_corporate = len(personal) < len(recent)
+
+    # 値動き履歴（変化点ログ）。UP額ランキング・値動き履歴ページのデータ源。
+    # これらのページはトグルを持たないため、法人案件を除いた personal のみを対象にする（全ページで非表示に統一）。
     history = load_history()
-    ranking_rows = _up_ranking_rows(recent, history, today)
-    history_rows, history_total = _history_rows(recent, history)
+    ranking_rows = _up_ranking_rows(personal, history, today)
+    history_rows, history_total = _history_rows(personal, history)
 
     # 「新着」の下限日（直近NEW_DAYS日・本日含む）。以降に自HP初出した案件を新着扱いにする
     new_cutoff = (
@@ -356,19 +368,23 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         g["site_keys"] = " ".join(dict.fromkeys(d["site"] for d in g["deals"]))
         # 「新着」チップ用。直近の新着掲載（初出 or 再浮上）を1件でも含むグループを新着扱いにする
         g["has_new"] = any(_is_new_or_up(d, new_cutoff) for d in g["deals"])
+        # 法人フラグ（同名案件のグループなので全掲載で一致）。既定は非表示・トグルONで表示する
+        g["corporate"] = any(d["corporate"] for d in g["deals"])
     multi_all = [g for g in groups if g["sites"] >= 2]
     multi_truncated = len(multi_all) > MULTI_GROUP_CAP
     multi_groups = multi_all[:MULTI_GROUP_CAP]
     # 新着セクション（初出＋ポイントUP再浮上）。掲載/再浮上日時の降順＝新着順で並べ、
-    # 同時刻は還元額の多い順。
+    # 同時刻は還元額の多い順。DOMには法人案件も含めて描画し（トグルONで表示）、
+    # 「新着」チップ件数・件数系は既定表示に合わせ personal（法人除外）で数える。
     new_all = sorted(
         (d for d in recent if _is_new_or_up(d, new_cutoff)),
         key=lambda d: (_posted_sort_key(d), d.get("yen") or 0),
         reverse=True,
     )
-    new_total = len(new_all)  # 「新着」チップの総数（deals.jsonのnew件数と一致）
+    new_personal = [d for d in new_all if not d["corporate"]]
+    new_total = len(new_personal)  # 「新着」チップの総数（既定＝法人除外。トグルONで再集計）
     new_truncated = new_total > NEW_DISPLAY_CAP
-    new_deals = new_all[:NEW_DISPLAY_CAP]  # HTMLに描画するのは新着順の上位N件のみ
+    new_deals = new_all[:NEW_DISPLAY_CAP]  # HTMLに描画するのは新着順の上位N件（法人はDOMに残しトグルで開閉）
     # ポイントUP（再浮上）案件も新着セクションにUPバッジ＋増額幅付きで載せる
     # （専用セクションは持たない。新着チップの件数・絞り込みと整合させるため新着扱い）
     for d in new_deals:
@@ -386,13 +402,16 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     updated_at_iso = now_jst.isoformat(timespec="minutes")
     # 「更新時刻」チップの初期件数。他チップ同様サーバ側で埋め込み、deals.json 取得前でも
     # 0件のまま固まらないようにする（取得後はクライアントが選択を反映して再計算する）。
-    recency_counts = _recency_counts(new_all, now_jst.replace(tzinfo=None))
+    # 既定表示に合わせ法人案件を除いた new_personal で数える（トグルON時はクライアントが再計算する）。
+    recency_counts = _recency_counts(new_personal, now_jst.replace(tzinfo=None))
 
     # カテゴリ×サイトの件数マトリクス（キー""は「すべて」、"_new"は本日初出の擬似カテゴリ）。
     # チップの初期件数と、絞り込み時にもう片方のチップ件数を書き換えるクライアント処理の
     # 両方をここから導出し、表示件数が食い違わないようにする
+    # 既定表示（法人トグルOFF）に合わせ、チップ初期件数は personal（法人除外）で数える。
+    # トグルON時は refreshChipCounts が deals.json（法人含む）から再集計する。
     counts_matrix = {}
-    for deal in recent:
+    for deal in personal:
         cats = ["", deal["category"]] + (["_new"] if _is_new_or_up(deal, new_cutoff) else [])
         for cat in cats:
             row = counts_matrix.setdefault(cat, {})
@@ -450,7 +469,10 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         multi_truncated=multi_truncated,
         groups=groups,
         recent_days=RECENT_DAYS,
-        total_recent=len(recent),
+        # 既定表示（法人トグルOFF）の全案件数。ヘッダの件数・「全て」チップ・「全案件」見出しに使う。
+        # トグルON時はクライアント（refreshChipCounts / renderAll）が deals.json から件数を再計算する。
+        total_recent=len(personal),
+        has_corporate=has_corporate,
         category_chips=category_chips,
         category_names=category_names,
         site_chips=site_chips,

@@ -39,6 +39,7 @@ from pathlib import Path
 from crawler.normalize import normalize_title
 
 CONFIG_FILE = Path(__file__).resolve().parent.parent / "config" / "categories.json"
+CORP_FILE = Path(__file__).resolve().parent.parent / "config" / "corporate.json"
 
 
 def load_categories() -> list[dict]:
@@ -46,8 +47,25 @@ def load_categories() -> list[dict]:
         return json.load(f)
 
 
+def load_corporate() -> dict:
+    """法人・ビジネス向け案件の検知設定を読む。パターンは分類と同じ NFKC＋小文字化で
+    正規化して返すため、config 側は全角/半角・大小文字を気にせず記述できる。"""
+    with CORP_FILE.open(encoding="utf-8") as f:
+        corp = json.load(f)
+    corp["patterns"] = [_normalize(p) for p in corp["patterns"]]
+    return corp
+
+
 def _normalize(text: str) -> str:
     return unicodedata.normalize("NFKC", text).lower()
+
+
+def is_corporate(deal: dict, corp: dict) -> bool:
+    """個人（一般消費者）では申込めない法人・事業者向け案件か。案件名＋獲得条件に
+    corporate.json のパターンが1つでも含まれれば真。カテゴリ（category）とは独立した
+    横断フラグで、表示時に毎回判定する（パターンを更新すれば再クロールなしで反映される）。"""
+    text = _normalize(deal.get("title", "") + " " + (deal.get("condition") or ""))
+    return any(p in text for p in corp["patterns"])
 
 
 def classify(deal: dict, categories: list[dict]) -> str:

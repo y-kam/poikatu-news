@@ -31,6 +31,9 @@
   {% if new_total %}<button class="chip active" data-key="_new">新着<span class="cnt">{{ new_total }}</span></button>{% endif %}
   {# 重複除外は全て/新着とは別軸の独立トグル。同名（名寄せ）案件を現在の絞り込み内で最高還元の1件に畳む #}
   <button class="chip toggle" id="dedup-chip" type="button">重複案件を除外</button>
+  {# 法人・事業者向け（個人＝一般消費者では申込めない）案件は既定で全件から除外。ONで表示に加える独立トグル。
+     該当案件が1件も無い日はサーバ側(has_corporate)でボタンごと出さない #}
+  {% if has_corporate %}<button class="chip toggle" id="corp-chip" type="button">法人案件も含む</button>{% endif %}
 </div>
 {# スマホのファーストビューが絞り込みUIで埋まらないよう、カテゴリ以下の絞り込み行は #more-filters に
    まとめてこのボタンで開閉する（PCでは常時展開・ボタン非表示）。適用中の条件数はバッジで示す #}
@@ -105,7 +108,7 @@
 <section id="compare-section">
   {% if multi_groups %}
   {% for g in multi_groups %}
-  <div class="group" data-title="{{ g.title }}" data-category="{{ g.category }}" data-site="{{ g.site_keys }}" data-new="{{ 1 if g.has_new else 0 }}">
+  <div class="group" data-title="{{ g.title }}" data-category="{{ g.category }}" data-site="{{ g.site_keys }}" data-new="{{ 1 if g.has_new else 0 }}"{% if g.corporate %} data-corp="1"{% endif %}>
     <h3>{{ g.title }}<span class="badge">{{ g.sites }}サイト掲載</span><span class="cat">{{ category_names[g.category] }}</span></h3>
     <table>
       {% for d in g.deals %}
@@ -143,7 +146,7 @@
   <ul class="newlist">
     {% for d in new_deals %}
     {# data-cond は検索用の獲得条件（表示はしない。比較表と同じ短縮版で肥大化を防ぐ） #}
-    <li data-title="{{ d.title }}" data-category="{{ d.category }}" data-site="{{ d.site }}" data-new="1" data-yen="{{ d.yen if d.yen is not none else '' }}" data-posted-at="{{ d.posted_at }}"{% if d.condition %} data-cond="{{ d.condition | cond }}"{% endif %}>
+    <li data-title="{{ d.title }}" data-category="{{ d.category }}" data-site="{{ d.site }}" data-new="1" data-yen="{{ d.yen if d.yen is not none else '' }}" data-posted-at="{{ d.posted_at }}"{% if d.corporate %} data-corp="1"{% endif %}{% if d.condition %} data-cond="{{ d.condition | cond }}"{% endif %}>
       <span class="site">{{ sites[d.site].name if d.site in sites else d.site }}</span>
       {# 掲載/更新日時は案件名の末尾に小さく添える。3カラムグリッドを崩さぬよう ttl 内にネスト。
          時刻は今後の取得分から記録され、既存分は日付のみ表示。UP＝ポイント増・NEW再付与での再浮上 #}
@@ -196,10 +199,11 @@
   //  new       … 最上段トグル（全て⇄新着）。true=新着のみ（直近数日に自HP初出した案件）
   //  hours     … 新着の下位絞り込み「掲載時期」。既定FULL_HOURS(=3日前)は時間で絞らない
   //  dedup     … 重複除外トグル。同名（名寄せ）案件を現在の絞り込み内で最高還元の1件に畳む
+  //  corp      … 法人案件トグル。false（既定）=法人・事業者向け案件を全件・全表示から除外、true=表示に加える
   //  categories… カテゴリ（複数選択・空配列＝すべて）
   //  sites     … サイト（複数選択・空配列＝すべて）
   //  yenRange  … 獲得ポイント（円換算額）の範囲。min/maxはnull=未指定
-  const active = { new: false, hours: 72, dedup: false, categories: [], sites: [] };
+  const active = { new: false, hours: 72, dedup: false, corp: false, categories: [], sites: [] };
   const yenRange = { min: null, max: null };
 
   // ---- 掲載時期（○時間前）判定 ----
@@ -310,6 +314,10 @@
   function matchSites(d) {
     return !active.sites.length || active.sites.includes(d.site);
   }
+  // 法人案件（deals.jsonのcorp:true）。既定(active.corp=false)は除外し、トグルONで表示に加える。
+  function matchCorp(d) {
+    return active.corp || !d.corp;
+  }
   // 獲得額の範囲指定が有効か（下限・上限のどちらか一方でも入っていれば有効）
   function yenActive() {
     return yenRange.min !== null || yenRange.max !== null;
@@ -396,7 +404,9 @@
       const hitYen = isGroup
         ? Array.prototype.some.call(rows, r => yenInRange(domYen(r.dataset.yen)))
         : yenInRange(domYen(el.dataset.yen));
-      el.style.display = hitText && hitNew && hitCat && hitSite && hitYen ? "" : "none";
+      // 法人案件(data-corp="1")は既定で除外。トグルON(active.corp)で表示に加える
+      const hitCorp = active.corp || el.dataset.corp !== "1";
+      el.style.display = hitText && hitNew && hitCat && hitSite && hitYen && hitCorp ? "" : "none";
     });
     // 比較グループ内はサイト・獲得額を行単位でも絞り込む（条件外の行は隠す。未指定＝全行表示）
     document.querySelectorAll(".group tr[data-site]").forEach(function (row) {
@@ -478,6 +488,7 @@
     const customH = customHours();
     let customCount = 0;
     ALL_DEALS.forEach(function (d) {
+      if (!matchCorp(d)) return;  // 法人案件は既定で全チップ件数から除外（トグルONで全段に算入）
       if (matchCats(d) && matchSites(d) && matchYen(d)) {  // 最上段: 全件と、うち新着
         primaryCounts[""] += 1;
         // 「新着」も現在の時間窓に入るものだけ数え、実際の絞り込み結果と一致させる
@@ -660,6 +671,17 @@
     applyFilter();
     refreshChipCounts();
   });
+  // 法人案件トグル（独立トグル）。ONで法人・事業者向け案件を全表示・全件数に加える。
+  // 該当0件の日はサーバ側でボタンを出さないため要素が無いことがある（その場合は何もしない）。
+  const corpChip = document.getElementById("corp-chip");
+  if (corpChip) {
+    corpChip.addEventListener("click", function () {
+      active.corp = !active.corp;
+      corpChip.classList.toggle("active", active.corp);
+      applyFilter();
+      refreshChipCounts();
+    });
+  }
   // 既定は「新着」。新着チップが無い日（新着0件）は「全て」にフォールバックする。
   const hasNewChip = primaryChips.some(c => c.dataset.key === "_new");
   active.new = hasNewChip;
@@ -833,7 +855,7 @@
   // 現在の絞り込み（新着/掲載時期/カテゴリ/サイト/検索語/獲得額）に一致するか
   function allMatches(d, terms) {
     const hitText = !terms.length || matchesTerms(dealHaystack(d), terms);
-    return hitText && matchNew(d) && matchHours(d) && matchCats(d) && matchSites(d) && matchYen(d);
+    return hitText && matchNew(d) && matchHours(d) && matchCats(d) && matchSites(d) && matchYen(d) && matchCorp(d);
   }
 
   // 案件1件のli要素を組み立てる（titleは外部由来のためtextContentで安全に挿入）
@@ -893,8 +915,8 @@
       return;
     }
     allRetry.hidden = true;
-    // 何らかの絞り込み中か（検索語・新着・重複除外・カテゴリ・サイト・獲得額のいずれか）
-    const filtering = !!searchBox.value.trim() || active.new || active.dedup
+    // 何らかの絞り込み中か（検索語・新着・重複除外・法人含む・カテゴリ・サイト・獲得額のいずれか）
+    const filtering = !!searchBox.value.trim() || active.new || active.dedup || active.corp
       || active.categories.length || active.sites.length || yenActive();
     allStatus.textContent = filtering
       ? "案件データを読み込み中です。まもなく結果を表示します…"

@@ -5,3 +5,7 @@ venv/
 site/
 .cache/
 data/backfill_state.json
+
+# ローカル専用（公開しない）: 作業メモ・監査手順・Claudeスキル
+docs/
+.claude/

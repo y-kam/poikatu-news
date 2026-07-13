@@ -1,0 +1,55 @@
+{% extends "base.html.j2" %}
+{% block title %}今週のポイントUP額ランキング | ポイ活ニュース{% endblock %}
+{% block description %}直近{{ up_days }}日間にポイントが増額され、現在も増額中の案件を増額幅（円換算）の大きい順に掲載。毎日自動更新。{% endblock %}
+{% block canonical %}{{ base_url }}/ranking.html{% endblock %}
+{% block jsonld %}
+{# 日次で内容が入れ替わるランキングページ。CollectionPage＋dateModified で鮮度を機械可読に伝える #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "url": "{{ base_url }}/ranking.html",
+      "name": {{ self.title() | tojson }},
+      "description": {{ self.description() | tojson }},
+      "isPartOf": { "@id": "{{ base_url }}/#website" },
+      "inLanguage": "ja",
+      "dateModified": "{{ updated_at_iso }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ base_url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "ポイントUP額ランキング", "item": "{{ base_url }}/ranking.html" }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+{% block header_meta %}
+  <div class="meta">最終更新: {{ updated_at }}</div>
+{% endblock %}
+{% block content %}
+<section>
+  <h2>今週のポイントUP額ランキング<span class="allcount">（直近{{ up_days }}日）</span></h2>
+  <p class="note">直近{{ up_days }}日間にポイントの増額を観測し、現在も増額中の案件を増額幅の大きい順に掲載しています（円換算できる案件のみ）。増額が終了した案件は自動的に外れます。</p>
+  {% if rows %}
+  <ol class="ranklist">
+    {% for r in rows %}
+    <li>
+      <span class="rank">{{ loop.index }}</span>
+      <span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span>
+      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a><span class="cat">{{ category_names[r.category] }}</span><span class="posted">{{ r.up_date }} 増額</span>
+        <span class="vals">{{ r.old_yen|yen }}円 → <strong>{{ r.new_yen|yen }}円</strong><span class="sub">（{{ r.points_text }}）</span></span></span>
+      <span class="delta">+{{ r.diff|yen }}円</span>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty">直近{{ up_days }}日間で増額を観測した案件はまだありません。</p>
+  {% endif %}
+  <p class="note">増額の検知は当サイトの掲載データの変化に基づきます。案件ごとの推移は<a href="/history.html">値動き履歴</a>で確認できます。</p>
+</section>
+{% endblock %}

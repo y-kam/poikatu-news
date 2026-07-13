@@ -1,0 +1,56 @@
+{% extends "base.html.j2" %}
+{% block title %}値動き履歴（ポイント推移・過去最高） | ポイ活ニュース{% endblock %}
+{% block description %}掲載中にポイント数の変動があった案件の推移を掲載。現在の還元が観測開始以降の最高なら「過去最高」バッジ付き。毎日自動更新。{% endblock %}
+{% block canonical %}{{ base_url }}/history.html{% endblock %}
+{% block jsonld %}
+{# 日次で内容が入れ替わる履歴ページ。CollectionPage＋dateModified で鮮度を機械可読に伝える #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "url": "{{ base_url }}/history.html",
+      "name": {{ self.title() | tojson }},
+      "description": {{ self.description() | tojson }},
+      "isPartOf": { "@id": "{{ base_url }}/#website" },
+      "inLanguage": "ja",
+      "dateModified": "{{ updated_at_iso }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ base_url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "値動き履歴", "item": "{{ base_url }}/history.html" }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+{% block header_meta %}
+  <div class="meta">最終更新: {{ updated_at }}</div>
+{% endblock %}
+{% block content %}
+<section>
+  <h2>値動き履歴<span class="allcount">（変動があった案件 {{ total }}件）</span></h2>
+  <p class="note">掲載中にポイント数の変動を観測した案件の推移です（変動日の新しい順{% if rows|length < total %}・上位{{ rows|length }}件{% endif %}）。「過去最高」は当サイトの観測開始以降でいちばん高い還元であることを示します。</p>
+  {% if rows %}
+  <ul class="histlist">
+    {% for r in rows %}
+    <li>
+      <span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span>
+      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a>{% if r.peak %}<span class="peakbadge">過去最高</span>{% endif %}<span class="cat">{{ category_names[r.category] }}</span>
+        <span class="histchange {{ 'hist-up' if r.up else 'hist-down' }}">{{ r.changed }} {{ r.prev_disp }} → {{ r.cur_disp }}</span><span class="posted">変動{{ r.changes }}回</span></span>
+      {# スパークライン: 変化点を等間隔に結んだ折れ線（時間軸ではない）。終点に現在値の点を打つ #}
+      <svg class="spark" viewBox="0 0 {{ r.spark.w }} {{ r.spark.h }}" width="{{ r.spark.w }}" height="{{ r.spark.h }}" aria-hidden="true"><polyline points="{{ r.spark.points }}" fill="none"/><circle cx="{{ r.spark.last_x }}" cy="{{ r.spark.last_y }}" r="2.5"/></svg>
+      <span class="pts">{{ r.cur_disp }}{% if r.yen_type %}<span class="sub">（{{ r.points_text }}）</span>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">値動きを観測した案件はまだありません（データ蓄積中）。</p>
+  {% endif %}
+  <p class="note">値動きの検知は当サイトの掲載データの変化に基づきます。現在増額中の案件は<a href="/ranking.html">今週のポイントUP額ランキング</a>にまとめています。</p>
+</section>
+{% endblock %}

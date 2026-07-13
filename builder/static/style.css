@@ -129,6 +129,34 @@ footer .footlinks { margin-bottom:8px; }
 footer .footlinks a { display:inline-block; padding:8px 0; margin-right:20px; }
 .empty { color:var(--muted); font-size:.9rem; }
 
+/* UP額ランキング（ranking.html）: 新着リストと同系のカード行に順位・増額幅の列を足した4カラム */
+.ranklist { list-style:none; }
+.ranklist li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; margin-bottom:6px; font-size:.9rem; display:grid; grid-template-columns:2.2em 11em 1fr auto; gap:2px 10px; align-items:baseline; }
+.ranklist .rank { font-weight:bold; color:var(--muted); text-align:center; }
+/* 上位3件の順位はアクセント色で目立たせる */
+.ranklist li:nth-child(-n+3) .rank { color:var(--accent-text); font-size:1.05rem; }
+.ranklist .site { color:var(--muted); white-space:nowrap; }
+.ranklist .delta { color:var(--up-text); font-weight:bold; white-space:nowrap; }
+.ranklist .posted { color:var(--muted); font-size:.72rem; margin-left:6px; white-space:nowrap; }
+.ranklist .vals { display:block; font-size:.82rem; color:var(--muted); }
+.ranklist .vals strong { color:var(--accent-text); }
+.ranklist .vals .sub { font-size:.78rem; }
+
+/* 値動き履歴（history.html）: サイト名・案件名・スパークライン・現在値の4カラム */
+.histlist { list-style:none; }
+.histlist li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; margin-bottom:6px; font-size:.9rem; display:grid; grid-template-columns:11em 1fr auto auto; gap:2px 10px; align-items:center; }
+.histlist .site { color:var(--muted); white-space:nowrap; }
+.histlist .pts { color:var(--accent-text); font-weight:bold; white-space:nowrap; }
+.histlist .pts .sub { font-weight:normal; font-size:.78rem; }
+.histlist .posted { color:var(--muted); font-size:.72rem; margin-left:6px; white-space:nowrap; }
+.histchange { display:inline-block; font-size:.78rem; margin-left:6px; white-space:nowrap; }
+.hist-up { color:var(--up-text); }
+.hist-down { color:var(--muted); }
+.peakbadge { display:inline-block; background:var(--accent-bg); color:#fff; font-size:.68rem; font-weight:bold; border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:middle; white-space:nowrap; }
+.spark { flex-shrink:0; }
+.spark polyline { stroke:var(--accent); stroke-width:1.5; }
+.spark circle { fill:var(--accent); }
+
 /* 固定ページ（運営者情報・プライバシーポリシー） */
 .page h3 { font-size:.95rem; margin:20px 0 6px; }
 .page p, .page ul, .page dl { margin-bottom:10px; font-size:.9rem; }
@@ -158,12 +186,23 @@ footer .footlinks a { display:inline-block; padding:8px 0; margin-right:20px; }
   #more-filters { display:none; }
   #more-filters.open { display:block; }
   /* 案件カードはリンク（案件名）の当たり判定をカード全面に広げ、どこを押しても開けるようにする */
-  .newlist li, .alllist li { position:relative; }
-  .newlist .ttl a::after, .alllist .ttl a::after { content:""; position:absolute; inset:0; }
+  .newlist li, .alllist li, .ranklist li, .histlist li { position:relative; }
+  .newlist .ttl a::after, .alllist .ttl a::after, .ranklist .ttl a::after, .histlist .ttl a::after { content:""; position:absolute; inset:0; }
   .newlist li, .alllist li { grid-template-columns:1fr auto; }
   .newlist .site, .alllist .site { grid-row:1; font-size:.75rem; }
   .newlist .pts, .alllist .pts { grid-row:1; justify-self:end; white-space:normal; text-align:right; }
   .newlist .ttl, .alllist .ttl { grid-column:1 / -1; grid-row:2; }
+  /* ランキング: 1段目=順位/サイト名/増額幅、2段目=案件名 */
+  .ranklist li { grid-template-columns:2.2em 1fr auto; }
+  .ranklist .site { grid-row:1; font-size:.75rem; }
+  .ranklist .delta { grid-row:1; justify-self:end; }
+  .ranklist .ttl { grid-column:1 / -1; grid-row:2; }
+  /* 値動き履歴: 1段目=サイト名/現在値、2段目=案件名、3段目=スパークライン */
+  .histlist li { grid-template-columns:1fr auto; }
+  .histlist .site { grid-row:1; font-size:.75rem; }
+  .histlist .pts { grid-row:1; justify-self:end; white-space:normal; text-align:right; }
+  .histlist .ttl { grid-column:1 / -1; grid-row:2; }
+  .histlist .spark { grid-column:1 / -1; grid-row:3; justify-self:start; }
   .pts .sub { display:block; line-height:1.3; }
   .group { padding:10px 12px; }
   .group table, .group tbody { display:block; }

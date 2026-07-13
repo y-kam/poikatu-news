@@ -9,7 +9,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from crawler.categorize import classify, load_categories, propagate_categories
 from crawler.merge import group_deals
 from crawler.normalize import parse_points
-from crawler.store import NEW_DAYS, RECENT_DAYS, recent_visible
+from crawler.store import NEW_DAYS, RECENT_DAYS, load_history, recent_visible
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = ROOT / "site"
@@ -36,6 +36,16 @@ COND_DISPLAY_MAX = 100
 # と同様、件数が多い日にindex.htmlが肥大化して転送量が増えるのを防ぐ。超過分は「新着」チップ
 # の総数には数え、「全案件」の新着フィルタ（deals.json・クライアント側）で閲覧できる。
 NEW_DISPLAY_CAP = 200
+
+# UP額ランキングページ（ranking.html）の対象期間（直近日数）と掲載上限
+UP_RANKING_DAYS = 7
+UP_RANKING_CAP = 100
+
+# 値動き履歴ページ（history.html）の掲載上限（変動日の新しい順の上位N件）
+HISTORY_PAGE_CAP = 200
+
+# 値動きスパークライン（インラインSVG）の描画サイズ
+SPARK_W, SPARK_H = 96, 26
 
 
 def _is_new(deal: dict, new_cutoff: str) -> bool:
@@ -188,6 +198,113 @@ def _slim_deal(deal: dict, new_cutoff: str) -> dict:
     return slim
 
 
+def _date_md(date_str: str) -> str:
+    """"YYYY-MM-DD" を「M/D」表示にする（ランキング・値動き履歴の日付用）。"""
+    _, m, d = date_str[:10].split("-")
+    return f"{int(m)}/{int(d)}"
+
+
+def _sparkline(vals: list) -> dict:
+    """値動きスパークライン（折れ線SVG）の座標を作る。xは変化点の等間隔（時間軸ではない）、
+    yは最小〜最大を高さに正規化する。テンプレートで polyline / 終点の circle に使う。"""
+    pad = 3
+    lo, hi = min(vals), max(vals)
+    span = (hi - lo) or 1
+    pts = [
+        (pad + (SPARK_W - 2 * pad) * i / (len(vals) - 1),
+         pad + (SPARK_H - 2 * pad) * (1 - (v - lo) / span))
+        for i, v in enumerate(vals)
+    ]
+    return {
+        "w": SPARK_W, "h": SPARK_H,
+        "points": " ".join(f"{x:.1f},{y:.1f}" for x, y in pts),
+        "last_x": f"{pts[-1][0]:.1f}", "last_y": f"{pts[-1][1]:.1f}",
+    }
+
+
+def _synced_entries(deal: dict, history: dict) -> list:
+    """案件の値動き履歴を、現在値（deals.json）と突き合わせて返す。履歴末尾と現在値が
+    ズレていたら現在値を最終観測日で補う（履歴の記録漏れ＝クロール異常終了やバックフィルの
+    値上書き等があっても、ランキングの「増額中」判定・履歴ページの現在値が実データと
+    食い違わないようにする）。比較は _reward_change と同じ優先順（円→%、型違いは比較不能）。"""
+    entries = history.get(f"{deal['site']}:{deal['deal_id']}", [])
+    if not entries:
+        return entries
+    _, last_yen, last_pct = entries[-1]
+    yen, pct = deal.get("yen"), deal.get("percent")
+    if yen is not None and last_yen is not None:
+        synced = yen == last_yen
+    elif pct is not None and last_pct is not None:
+        synced = pct == last_pct
+    else:
+        synced = True  # 型違い等で比較不能。誤った補完を避けそのまま使う
+    if synced:
+        return entries
+    return entries + [[deal.get("last_seen") or "", yen, pct]]
+
+
+def _up_ranking_rows(recent: list, history: dict, today: str) -> list:
+    """UP額ランキングの行データ。値動き履歴の円換算系列の末尾が「連続増額」で終わり、
+    最後の増額が直近UP_RANKING_DAYS日内の案件を、増額幅（現在値−UP開始前の元値）の
+    大きい順に返す。増額後に減額された案件は系列末尾が減額になるため自然に外れる
+    （＝現在も増額中のみ）。円換算できない%還元のみの変化は対象外。"""
+    cutoff = (
+        datetime.strptime(today, "%Y-%m-%d") - timedelta(days=UP_RANKING_DAYS - 1)
+    ).strftime("%Y-%m-%d")
+    rows = []
+    for deal in recent:
+        entries = _synced_entries(deal, history)
+        series = [(e[0], e[1]) for e in entries if e[1] is not None]  # 円換算の変化点のみ
+        if len(series) < 2 or series[-1][1] <= series[-2][1] or series[-1][0] < cutoff:
+            continue
+        # 末尾の連続増額をさかのぼり、UP開始前の元値を求める（4000→8000→13000 は +9000 と数える）
+        i = len(series) - 1
+        while i > 0 and series[i][1] > series[i - 1][1]:
+            i -= 1
+        diff = series[-1][1] - series[i][1]
+        if round(diff) < 1:
+            continue
+        rows.append({
+            "site": deal["site"], "title": deal["title"], "url": deal["url"],
+            "category": deal["category"], "points_text": deal["points_text"],
+            "old_yen": series[i][1], "new_yen": series[-1][1], "diff": diff,
+            "up_date": _date_md(series[-1][0]),
+        })
+    rows.sort(key=lambda r: r["diff"], reverse=True)
+    return rows[:UP_RANKING_CAP]
+
+
+def _history_rows(recent: list, history: dict) -> tuple[list, int]:
+    """値動き履歴ページの行データ（変動日の新しい順・上限N件）と対象総数を返す。
+    変化点のある案件のみ対象。系列は最後の変化点の型（円換算 or %還元）に合わせ、
+    現在値が観測した中での最高なら「過去最高」バッジを付ける。"""
+    rows = []
+    for deal in recent:
+        entries = _synced_entries(deal, history)
+        if len(entries) < 2:
+            continue
+        yen_type = entries[-1][1] is not None  # 円換算系列か（%還元のみの案件はFalse）
+        series = [(e[0], e[1] if yen_type else e[2]) for e in entries
+                  if (e[1] if yen_type else e[2]) is not None]
+        if len(series) < 2:
+            continue
+        vals = [v for _, v in series]
+        fmt = (lambda v: f"{v:,.0f}円") if yen_type else (lambda v: f"{round(v, 2):g}%")
+        rows.append({
+            "site": deal["site"], "title": deal["title"], "url": deal["url"],
+            "category": deal["category"], "points_text": deal["points_text"],
+            "yen_type": yen_type, "cur_disp": fmt(vals[-1]), "prev_disp": fmt(vals[-2]),
+            "up": vals[-1] > vals[-2],
+            "peak": vals[-1] >= max(vals),  # 観測開始以降の最高値（過去最高バッジ）
+            "changed": _date_md(series[-1][0]),
+            "changes": len(series) - 1,
+            "spark": _sparkline(vals),
+            "sort_key": series[-1][0],
+        })
+    rows.sort(key=lambda r: r["sort_key"], reverse=True)
+    return rows[:HISTORY_PAGE_CAP], len(rows)
+
+
 def _logo_web_path(site_key: str):
     """サイトキーに対応するロゴ（logos/{key}.*）の配信パスを返す。無ければ None。
     拡張子は取得元の形式により png/ico/jpg 等と異なり得るためグロブで探す。"""
@@ -221,6 +338,11 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     # UP表示の判定（_is_up＝増額幅を提示できる再浮上のみUP扱い）とバッジ横の表示の両方で使う
     for deal in recent:
         deal["up_diff"] = _up_diff(deal, enabled_sites[deal["site"]]["rate"])
+
+    # 値動き履歴（変化点ログ）。UP額ランキング・値動き履歴ページのデータ源
+    history = load_history()
+    ranking_rows = _up_ranking_rows(recent, history, today)
+    history_rows, history_total = _history_rows(recent, history)
 
     # 「新着」の下限日（直近NEW_DAYS日・本日含む）。以降に自HP初出した案件を新着扱いにする
     new_cutoff = (
@@ -343,6 +465,25 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         (OUTPUT_DIR / f"{page}.html").write_text(
             env.get_template(f"{page}.html.j2").render(**common), encoding="utf-8"
         )
+    # UP額ランキング・値動き履歴（値動き履歴 data/history.json から毎回生成する）
+    page_ctx = dict(
+        updated_at=updated_at,
+        updated_at_iso=updated_at_iso,
+        up_days=UP_RANKING_DAYS,
+        category_names=category_names,
+        site_names={k: v["name"] for k, v in enabled_sites.items()},
+        **common,
+    )
+    (OUTPUT_DIR / "ranking.html").write_text(
+        env.get_template("ranking.html.j2").render(rows=ranking_rows, **page_ctx),
+        encoding="utf-8",
+    )
+    (OUTPUT_DIR / "history.html").write_text(
+        env.get_template("history.html.j2").render(
+            rows=history_rows, total=history_total, **page_ctx
+        ),
+        encoding="utf-8",
+    )
     # クライアントサイド「全案件」一覧・検索用の軽量データ。
     # 全件バックフィルで数千〜数万件になり得るため、表示に必要な項目だけに絞って
     # 転送量を抑える（deal_id/seeded/last_seen等は出力しない）。還元額の大きい順。
@@ -362,13 +503,18 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
             shutil.copytree(static_file, dest, dirs_exist_ok=True)  # ロゴ等をディレクトリごと配信
         else:
             shutil.copy2(static_file, dest)
-    # トップは日次更新のため lastmod に更新時刻(ISO8601)を入れ、クロール頻度の目安として
-    # changefreq/priority も付す。固定ページ(about/privacy)は内容が変わらないため lastmod は付けない。
+    # トップ・ランキング・値動き履歴は日次更新のため lastmod に更新時刻(ISO8601)を入れ、
+    # クロール頻度の目安として changefreq/priority も付す。固定ページ(about/privacy)は
+    # 内容が変わらないため lastmod は付けない。
     (OUTPUT_DIR / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         f"  <url><loc>{BASE_URL}/</loc><lastmod>{updated_at_iso}</lastmod>"
         "<changefreq>daily</changefreq><priority>1.0</priority></url>\n"
+        f"  <url><loc>{BASE_URL}/ranking.html</loc><lastmod>{updated_at_iso}</lastmod>"
+        "<changefreq>daily</changefreq><priority>0.6</priority></url>\n"
+        f"  <url><loc>{BASE_URL}/history.html</loc><lastmod>{updated_at_iso}</lastmod>"
+        "<changefreq>daily</changefreq><priority>0.5</priority></url>\n"
         f"  <url><loc>{BASE_URL}/about.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>\n"
         f"  <url><loc>{BASE_URL}/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>\n"
         "</urlset>\n",
@@ -389,6 +535,8 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
 
 ## 主要ページ
 - [トップページ]({BASE_URL}/): 新着案件・複数サイトの還元比較・全案件の検索/絞り込み
+- [ポイントUP額ランキング]({BASE_URL}/ranking.html): 直近{UP_RANKING_DAYS}日にポイントが増額され現在も増額中の案件を増額幅（円換算）順に掲載
+- [値動き履歴]({BASE_URL}/history.html): ポイント数が変動した案件の推移と過去最高値（観測開始以降）
 - [運営者情報・お問い合わせ]({BASE_URL}/about.html): サイトの趣旨・掲載データの方針・連絡先
 - [プライバシーポリシー]({BASE_URL}/privacy.html): アクセス解析・広告・免責事項
 

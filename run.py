@@ -155,6 +155,7 @@ def main() -> int:
         targets = args.sites.split(",") if args.sites else [
             k for k, v in sites_config.items() if v.get("enabled")
         ]
+        history = store_mod.load_history()  # 値動き履歴（既知案件の報酬変化を記録する）
         failures = []
         for key in targets:
             if key not in ADAPTER_CLASSES:
@@ -168,7 +169,7 @@ def main() -> int:
                 print(f"[fail] {key}: {type(e).__name__}: {e}")
                 failures.append(key)
                 continue
-            new_keys = store_mod.upsert(store, deals, today, now_at)
+            new_keys = store_mod.upsert(store, deals, today, now_at, history)
             seeded = sum(1 for d in deals if d.seeded)
             print(
                 f"[ok] {key}: 取得{len(deals)}件 / 新規{len(new_keys)}件"
@@ -176,6 +177,8 @@ def main() -> int:
                 + f" ({time.monotonic() - started:.0f}s)"
             )
         store_mod.save(store)
+        store_mod.prune_history(history, store)  # 削除・掲載終了案件の履歴を落とす
+        store_mod.save_history(history)
         if failures:
             print(f"[warn] 失敗サイト: {', '.join(failures)}", file=sys.stderr)
 

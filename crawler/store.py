@@ -8,6 +8,11 @@ from pathlib import Path
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "deals.json"
 
+# 値動き履歴（変化点ログ）。キーは "site:deal_id"、値は [日付, 円換算, %還元] の
+# リスト（古い順）。報酬が変化した案件だけ記録し、UPランキング・値動き履歴ページの
+# データ源にする（renewed_at/renewed_from は減額で消える揮発データのため別持ちする）
+HISTORY_FILE = DATA_FILE.parent / "history.json"
+
 # 表示・リンクチェックの対象母集団を「初出からこの日数以内」に制限する。
 # None なら全期間（掲載中の案件は日数によらず表示し、掲載終了はリンクチェックで自動除外）。
 # 将来コスト（外部アクセス数・deals.json容量）を抑えたくなったら日数を設定する。
@@ -31,6 +36,54 @@ def save(store: dict) -> None:
     with tmp.open("w", encoding="utf-8") as f:
         json.dump(store, f, ensure_ascii=False, indent=1)
     tmp.replace(DATA_FILE)  # 書き込み途中のクラッシュで既存データを壊さないための原子的置換
+
+
+def load_history() -> dict:
+    if HISTORY_FILE.exists():
+        with HISTORY_FILE.open(encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_history(history: dict) -> None:
+    HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    tmp = HISTORY_FILE.with_suffix(".json.tmp")
+    with tmp.open("w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
+    tmp.replace(HISTORY_FILE)  # deals.json と同様の原子的置換
+
+
+def record_history(history: dict, key: str, existing: dict, d, today: str) -> None:
+    """既知案件の報酬が変わっていたら変化点を履歴に追記する。
+    初めて変化を観測した案件は、旧値も「最後に観測した日」で遡って記録する
+    （変化の無い案件は一切記録せず、履歴ファイルの肥大化を防ぐ）。
+    同日内の再変化は最後の値で上書きし、1日複数回のクロールで変化点が細切れに
+    増えないようにする（同日内に元の値へ戻ったら変化なしとして取り消す）。
+    表示され得ない案件（seeded等）は記録しない（履歴ファイルの肥大化を防ぐ）。"""
+    if _reward_change(existing, d) == 0 or not is_visible(existing):
+        return
+    entries = history.setdefault(key, [])
+    if not entries:
+        entries.append([existing.get("last_seen") or existing.get("first_seen", today),
+                        existing.get("yen"), existing.get("percent")])
+    if len(entries) >= 2 and entries[-1][0] == today:
+        entries[-1][1:] = [d.yen, d.percent]
+        if entries[-1][1:] == entries[-2][1:]:
+            entries.pop()
+    else:
+        entries.append([today, d.yen, d.percent])
+    if len(entries) < 2:  # 取り消しで変化点が無くなったらキーごと消す
+        del history[key]
+
+
+def prune_history(history: dict, store: dict) -> int:
+    """削除・掲載終了など表示され得なくなった案件の履歴を落とし、削除件数を返す
+    （履歴ファイルのサイズ抑制）。"""
+    deals = store["deals"]
+    stale = [k for k in history if k not in deals or not is_visible(deals[k])]
+    for k in stale:
+        del history[k]
+    return len(stale)
 
 
 def known_ids(store: dict, site_key: str) -> set[str]:
@@ -96,11 +149,13 @@ def apply_renewal(existing: dict, d, now: str) -> bool:
     return False
 
 
-def upsert(store: dict, deals: list, today: str, now: str | None = None) -> list[str]:
+def upsert(store: dict, deals: list, today: str, now: str | None = None,
+           history: dict | None = None) -> list[str]:
     """取得した案件を反映し、新規追加された案件キーのリストを返す。
 
     now（"YYYY-MM-DD HH:MM"）を渡すと、新規案件に自HPへの初出日時（first_seen_at・
     時刻付き）を記録する。新着セクションの掲載日時表示・新着順ソートに用いる。
+    history（load_history の辞書）を渡すと、既知案件の報酬変化を値動き履歴に記録する。
     """
     new_keys = []
     for d in deals:
@@ -126,6 +181,9 @@ def upsert(store: dict, deals: list, today: str, now: str | None = None) -> list
         else:
             # 既知案件はポイント数などの最新値だけ更新する。
             # seededフラグは維持する（解除すると初回シード分が翌日「新着」扱いで溢れる）
+            # 上書き前に報酬の変化点を値動き履歴に記録する（UPランキング・値動きページ用）
+            if history is not None:
+                record_history(history, key, existing, d, today)
             # 上書き前にポイント増減を比較し、増えていれば「再新着（ポイントUP）」として記録する
             renewed = apply_renewal(existing, d, now or today)
             # 一覧アイテムにサイト側のNEW/UPバッジが付いている既知案件（list_new_markers設定

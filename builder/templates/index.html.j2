@@ -38,7 +38,7 @@
      一定額の用意や年収が要る案件を避けたい人向け。該当0件の日はサーバ側でボタンごと出さない。
      さらに「絞り込み」内の金額しきい値（用意できる上限額・あなたの年収）で部分的に絞れる #}
   {% if has_invest %}<button class="chip toggle" id="invest-chip" type="button">投資を除外</button>{% endif %}
-  {% if has_deposit %}<button class="chip toggle" id="deposit-chip" type="button">入金を除外</button>{% endif %}
+  {% if has_deposit %}<button class="chip toggle" id="deposit-chip" type="button">入金条件を除外</button>{% endif %}
   {% if has_income %}<button class="chip toggle" id="income-chip" type="button">年収条件を除外</button>{% endif %}
 </div>
 {# スマホのファーストビューが絞り込みUIで埋まらないよう、カテゴリ以下の絞り込み行は #more-filters に
@@ -105,7 +105,7 @@
    しきい値では隠さない（丸ごと除外は上のトグルで）。該当種別が無い日はブロックごと出さない #}
 {% if has_invest or has_deposit %}
 <div class="chips" id="fund-chips">
-  <span class="label wide">用意できる上限額</span>
+  <span class="label wide">用意できる資金の上限額（投資・FX口座開設等）</span>
   <div class="yen-range">
     <input type="number" id="fund-max" class="yen-input" inputmode="numeric" min="0" step="10000" placeholder="金額" aria-label="投資・入金で用意できる上限額（円）。これを超える案件を隠す">
     <span class="yen-sep">円まで</span>

@@ -34,16 +34,16 @@
 {% block content %}
 <section>
   <h2>今週のポイントUP額ランキング<span class="allcount">（直近{{ up_days }}日）</span></h2>
-  <p class="note">直近{{ up_days }}日間にポイントの増額を観測し、現在も増額中の案件を増額幅の大きい順に掲載しています（円換算できる案件のみ）。増額が終了した案件は自動的に外れます。</p>
+  <p class="note">直近{{ up_days }}日間にポイントが増額され、今も増額中の案件を「増額幅（いくらUPしたか・円換算）」の大きい順に並べています。増額が終わった案件は自動的にランキングから外れます。</p>
   {% if rows %}
   <ol class="ranklist">
     {% for r in rows %}
     <li>
       <span class="rank">{{ loop.index }}</span>
-      <span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span>
-      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a><span class="cat">{{ category_names[r.category] }}</span><span class="posted">{{ r.up_date }} 増額</span>
-        <span class="vals">{{ r.old_yen|yen }}円 → <strong>{{ r.new_yen|yen }}円</strong><span class="sub">（{{ r.points_text }}）</span></span></span>
-      <span class="delta">+{{ r.diff|yen }}円</span>
+      <span class="rankmeta"><span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span><span class="posted">{{ r.up_date }}に増額</span></span>
+      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a><span class="cat">{{ category_names[r.category] }}</span></span>
+      <span class="vals"><s>{{ r.old_yen|yen }}円</s> → <strong>{{ r.new_yen|yen }}円</strong><span class="sub">（{{ r.points_text }}）</span></span>
+      <span class="delta"><span class="delta-label">増額幅</span><span class="delta-val">+{{ r.diff|yen }}円</span></span>
     </li>
     {% endfor %}
   </ol>

@@ -34,23 +34,49 @@
 {% block content %}
 <section>
   <h2>値動き履歴<span class="allcount">（変動があった案件 {{ total }}件）</span></h2>
-  <p class="note">掲載中にポイント数の変動を観測した案件の推移です（変動日の新しい順{% if rows|length < total %}・上位{{ rows|length }}件{% endif %}）。「過去最高」は当サイトの観測開始以降でいちばん高い還元であることを示します。</p>
+  <p class="note">掲載中にポイント数が変わった案件を、変動日の新しい順に並べています{% if rows|length < total %}（上位{{ rows|length }}件）{% endif %}。<span class="dirbadge dir-up">▲ 値上がり</span>は前回より高く、<span class="dirbadge dir-down">▼ 値下がり</span>は前回より低くなった案件です。折れ線は観測した値動きの推移（右端が現在の値）を表します。</p>
   {% if rows %}
+  {# 値上がり/値下がりの絞り込みチップ。件数は掲載中の行数（テンプレートで確定）、切替はscriptsブロックの小さなJSで行う #}
+  <div class="chips" id="dir-chips">
+    <button class="chip active" data-dir="">すべて<span class="cnt">{{ rows|length }}</span></button>
+    <button class="chip" data-dir="up">▲ 値上がり<span class="cnt">{{ rows|selectattr("up")|list|length }}</span></button>
+    <button class="chip" data-dir="down">▼ 値下がり<span class="cnt">{{ rows|rejectattr("up")|list|length }}</span></button>
+  </div>
   <ul class="histlist">
     {% for r in rows %}
-    <li>
-      <span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span>
-      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a>{% if r.peak %}<span class="peakbadge">過去最高</span>{% endif %}<span class="cat">{{ category_names[r.category] }}</span>
-        <span class="histchange {{ 'hist-up' if r.up else 'hist-down' }}">{{ r.changed }} {{ r.prev_disp }} → {{ r.cur_disp }}</span><span class="posted">変動{{ r.changes }}回</span></span>
-      {# スパークライン: 変化点を等間隔に結んだ折れ線（時間軸ではない）。終点に現在値の点を打つ #}
-      <svg class="spark" viewBox="0 0 {{ r.spark.w }} {{ r.spark.h }}" width="{{ r.spark.w }}" height="{{ r.spark.h }}" aria-hidden="true"><polyline points="{{ r.spark.points }}" fill="none"/><circle cx="{{ r.spark.last_x }}" cy="{{ r.spark.last_y }}" r="2.5"/></svg>
-      <span class="pts">{{ r.cur_disp }}{% if r.yen_type %}<span class="sub">（{{ r.points_text }}）</span>{% endif %}</span>
+    <li data-dir="{{ 'up' if r.up else 'down' }}">
+      <span class="histmeta"><span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span><span class="posted">{{ r.changed }}に変動（通算{{ r.changes }}回目）</span></span>
+      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a>{% if r.peak %}<span class="peakbadge">過去最高</span>{% endif %}<span class="cat">{{ category_names[r.category] }}</span></span>
+      <span class="histchange"><span class="dirbadge {{ 'dir-up' if r.up else 'dir-down' }}">{{ '▲ 値上がり' if r.up else '▼ 値下がり' }}</span><s>{{ r.prev_disp }}</s> → <strong>{{ r.cur_disp }}</strong><span class="histdiff {{ 'hist-up' if r.up else 'hist-down' }}">（{{ r.diff_disp }}）</span></span>
+      {# スパークライン: 変化点を等間隔に結んだ折れ線（時間軸ではない）。終点に現在値の点を打ち、直近の変動方向で色分けする #}
+      <span class="histright">
+        <svg class="spark {{ 'spark-up' if r.up else 'spark-down' }}" viewBox="0 0 {{ r.spark.w }} {{ r.spark.h }}" width="{{ r.spark.w }}" height="{{ r.spark.h }}" aria-hidden="true"><polyline points="{{ r.spark.points }}" fill="none"/><circle cx="{{ r.spark.last_x }}" cy="{{ r.spark.last_y }}" r="2.5"/></svg>
+        <span class="pts"><span class="pts-label">現在</span>{{ r.cur_disp }}{% if r.yen_type %}<span class="sub">（{{ r.points_text }}）</span>{% endif %}</span>
+      </span>
     </li>
     {% endfor %}
   </ul>
   {% else %}
   <p class="empty">値動きを観測した案件はまだありません（データ蓄積中）。</p>
   {% endif %}
-  <p class="note">値動きの検知は当サイトの掲載データの変化に基づきます。現在増額中の案件は<a href="/ranking.html">今週のポイントUP額ランキング</a>にまとめています。</p>
+  <p class="note">値動きの検知は当サイトの掲載データの変化に基づきます。「過去最高」は当サイトの観測開始以降でいちばん高い還元であることを示します。現在増額中の案件は<a href="/ranking.html">今週のポイントUP額ランキング</a>にまとめています。</p>
 </section>
+{% endblock %}
+{% block scripts %}
+{% if rows %}
+<script>
+// 値上がり/値下がりチップで行を絞り込む（表示切替のみの軽量処理）
+(function () {
+  var chips = document.querySelectorAll("#dir-chips .chip");
+  var items = document.querySelectorAll(".histlist li");
+  chips.forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      chips.forEach(function (c) { c.classList.toggle("active", c === chip); });
+      var dir = chip.dataset.dir;
+      items.forEach(function (li) { li.hidden = !!dir && li.dataset.dir !== dir; });
+    });
+  });
+})();
+</script>
+{% endif %}
 {% endblock %}

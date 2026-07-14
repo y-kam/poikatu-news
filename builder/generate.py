@@ -292,10 +292,12 @@ def _history_rows(recent: list, history: dict) -> tuple[list, int]:
             continue
         vals = [v for _, v in series]
         fmt = (lambda v: f"{v:,.0f}円") if yen_type else (lambda v: f"{round(v, 2):g}%")
+        diff = vals[-1] - vals[-2]
         rows.append({
             "site": deal["site"], "title": deal["title"], "url": deal["url"],
             "category": deal["category"], "points_text": deal["points_text"],
             "yen_type": yen_type, "cur_disp": fmt(vals[-1]), "prev_disp": fmt(vals[-2]),
+            "diff_disp": ("+" if diff > 0 else "−") + fmt(abs(diff)),
             "up": vals[-1] > vals[-2],
             "peak": vals[-1] >= max(vals),  # 観測開始以降の最高値（過去最高バッジ）
             "changed": _date_md(series[-1][0]),

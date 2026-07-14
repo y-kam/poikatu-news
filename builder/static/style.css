@@ -55,6 +55,8 @@ h2 { font-size:1.1rem; border-left:4px solid var(--accent); padding-left:8px; ma
 .recency-custom.active .recency-input, .recency-custom.active .recency-unit { border-color:var(--accent-text); box-shadow:inset 0 0 0 1px var(--accent-text); }
 .recency-custom .cnt { font-size:.72rem; color:var(--muted); white-space:nowrap; }
 .chips .label { align-self:center; color:var(--muted); font-size:.75rem; white-space:nowrap; width:4em; flex-shrink:0; }
+/* 金額しきい値行の説明ラベル（用意できる上限額 / あなたの年収）は4emに収まらないため全文表示にする */
+.chips .label.wide { width:auto; }
 .chip { border:1px solid var(--bd); background:var(--card); border-radius:999px; padding:4px 12px; font-size:.82rem; color:var(--text); cursor:pointer; white-space:nowrap; }
 .chip.active { background:var(--accent-bg); border-color:var(--accent-bg); color:#fff; }
 .chip .cnt { font-size:.72rem; margin-left:2px; }

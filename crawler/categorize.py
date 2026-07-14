@@ -32,14 +32,16 @@ account に「入金」「株式」を単独では置かない（「入金確認
 末尾の汎用 paid で拾い、金融は 口座開設・証券・外為・binance 等の固有語で判定する。
 """
 import json
+import re
 import unicodedata
 from collections import Counter
 from pathlib import Path
 
 from crawler.normalize import normalize_title
 
-CONFIG_FILE = Path(__file__).resolve().parent.parent / "config" / "categories.json"
-CORP_FILE = Path(__file__).resolve().parent.parent / "config" / "corporate.json"
+CONFIG_DIR = Path(__file__).resolve().parent.parent / "config"
+CONFIG_FILE = CONFIG_DIR / "categories.json"
+CORP_FILE = CONFIG_DIR / "corporate.json"
 
 
 def load_categories() -> list[dict]:
@@ -47,25 +49,70 @@ def load_categories() -> list[dict]:
         return json.load(f)
 
 
+def load_pattern_set(filename: str) -> dict:
+    """案件名＋獲得条件への部分一致で横断フラグ（法人・投資・入金・年収など）を立てる
+    パターン設定（config/<filename>）を読む。パターンは分類・法人判定と同じ NFKC＋
+    小文字化で正規化して返すため、config 側は全角/半角・大小文字を気にせず記述できる。"""
+    with (CONFIG_DIR / filename).open(encoding="utf-8") as f:
+        cfg = json.load(f)
+    cfg["patterns"] = [_normalize(p) for p in cfg["patterns"]]
+    return cfg
+
+
 def load_corporate() -> dict:
-    """法人・ビジネス向け案件の検知設定を読む。パターンは分類と同じ NFKC＋小文字化で
-    正規化して返すため、config 側は全角/半角・大小文字を気にせず記述できる。"""
-    with CORP_FILE.open(encoding="utf-8") as f:
-        corp = json.load(f)
-    corp["patterns"] = [_normalize(p) for p in corp["patterns"]]
-    return corp
+    """法人・ビジネス向け案件の検知設定を読む（load_pattern_set の別名。既存の
+    呼び出し・監査スクリプトとの互換のため残す）。"""
+    return load_pattern_set("corporate.json")
 
 
 def _normalize(text: str) -> str:
     return unicodedata.normalize("NFKC", text).lower()
 
 
-def is_corporate(deal: dict, corp: dict) -> bool:
-    """個人（一般消費者）では申込めない法人・事業者向け案件か。案件名＋獲得条件に
-    corporate.json のパターンが1つでも含まれれば真。カテゴリ（category）とは独立した
-    横断フラグで、表示時に毎回判定する（パターンを更新すれば再クロールなしで反映される）。"""
+def matches_patterns(deal: dict, cfg: dict) -> bool:
+    """案件名＋獲得条件に cfg（load_pattern_set の戻り値）のパターンが1つでも含まれるか。
+    カテゴリ（category）とは独立した横断フラグ判定で、表示時に毎回行う（パターンを
+    更新すれば再クロールなしで反映される）。"""
     text = _normalize(deal.get("title", "") + " " + (deal.get("condition") or ""))
-    return any(p in text for p in corp["patterns"])
+    return any(p in text for p in cfg["patterns"])
+
+
+def is_corporate(deal: dict, corp: dict) -> bool:
+    """個人（一般消費者）では申込めない法人・事業者向け案件か（matches_patterns の別名。
+    既存の呼び出し・監査スクリプトとの互換のため残す）。"""
+    return matches_patterns(deal, corp)
+
+
+# しきい値フィルタ用の金額抽出。表示時に案件名＋獲得条件から「投資・入金で用意が必要な額」
+# と「年収条件で必要な年収」を近似的に取り出す。抽出できない案件はしきい値では絞らない
+# （＝隠さない）側に倒し、丸ごと除外トグルに委ねる。
+# 「万円」の円は任意（実データには「50万以上」「年収500万以上」のように円を省く表記がある）。
+# ただし「50万ポイント／50万人」等の報酬・件数語を前金額と誤認しないよう、円が無い場合は
+# 直後が金額文脈（以上/以内/未満/分/を/の/＋/、。/空白/末尾）のときだけ採る。
+_MAN_YEN = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*万(?:円|(?=以上|以内|未満|分|を|の|、|。|\+|＋|\s|$))")
+_YEN = re.compile(r"(\d[\d,]*)\s*円")                  # 「5000円」→ 5000（円単位の数値）
+_INCOME_MAN = re.compile(r"年収\s*(\d[\d,]*(?:\.\d+)?)\s*万円?")  # 「年収700万円」「年収1,000万円」→ 700/1000
+
+
+def required_yen(deal: dict) -> int | None:
+    """投資・入金で用意が必要な金額（円）を近似する。年収表記（所得条件で前金ではない）を
+    除いた上で、最大の『○万円』を採る（無ければ最大の『○円』）。前金は通常 万円単位で最大額
+    として現れ、報酬（獲得額）は円・ポイントで別記されるため、この採り方で用意額を近似できる。
+    抽出できなければ None（しきい値では隠さない）。"""
+    text = unicodedata.normalize("NFKC", deal.get("title", "") + " " + (deal.get("condition") or ""))
+    text = _INCOME_MAN.sub("", text)  # 「年収700万円」は用意額でないため対象から除く
+    mans = _MAN_YEN.findall(text)
+    if mans:
+        return int(max(float(m.replace(",", "")) for m in mans) * 10000)
+    yens = [int(y.replace(",", "")) for y in _YEN.findall(text)]
+    return max(yens) if yens else None
+
+
+def required_income_man(deal: dict) -> float | None:
+    """年収条件で要求される年収（万円）を取り出す。『年収○万円』の最大値。無ければ None。"""
+    text = unicodedata.normalize("NFKC", deal.get("title", "") + " " + (deal.get("condition") or ""))
+    vals = [float(m.replace(",", "")) for m in _INCOME_MAN.findall(text)]
+    return max(vals) if vals else None
 
 
 def classify(deal: dict, categories: list[dict]) -> str:

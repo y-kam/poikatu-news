@@ -6,7 +6,17 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from crawler.categorize import classify, is_corporate, load_categories, load_corporate, propagate_categories
+from crawler.categorize import (
+    classify,
+    is_corporate,
+    load_categories,
+    load_corporate,
+    load_pattern_set,
+    matches_patterns,
+    propagate_categories,
+    required_income_man,
+    required_yen,
+)
 from crawler.merge import group_deals
 from crawler.normalize import parse_points
 from crawler.store import NEW_DAYS, RECENT_DAYS, load_history, recent_visible
@@ -197,6 +207,18 @@ def _slim_deal(deal: dict, new_cutoff: str) -> dict:
         slim["up_diff"] = deal["up_diff"]  # 増額幅（+500円等）。_is_up が真なら算出済み
     if deal.get("corporate"):
         slim["corp"] = True  # 法人案件フラグ。既定は非表示・トグルONで表示。該当のみ出し転送量を抑える
+    # 投資・入金・年収フラグとしきい値用の必要額。既定は全表示、除外トグル・しきい値でクライアントが絞る。
+    # 該当キーのみ出して転送量を抑える（req_yen/income_man は抽出できた案件のみ）。
+    if deal.get("invest"):
+        slim["invest"] = True
+    if deal.get("deposit"):
+        slim["deposit"] = True
+    if deal.get("income"):
+        slim["income"] = True
+    if deal.get("req_yen") is not None:
+        slim["req_yen"] = deal["req_yen"]      # 投資・入金で用意が必要な額（円）
+    if deal.get("income_man") is not None:
+        slim["income_man"] = deal["income_man"]  # 年収条件で必要な年収（万円）
     return slim
 
 
@@ -326,6 +348,10 @@ def _load_publish() -> dict:
 def generate(store: dict, sites_config: dict, today: str) -> Path:
     categories = load_categories()
     corporate = load_corporate()
+    # 投資・入金・年収の横断フラグ（既定は全表示。トグル/しきい値で絞る独立軸）の検知設定。
+    invest_cfg = load_pattern_set("invest.json")
+    deposit_cfg = load_pattern_set("deposit.json")
+    income_cfg = load_pattern_set("income.json")
     publish = _load_publish()
     # 無効化したサイト（enabled=false）はクロールだけでなく掲載も止める。
     # data/deals.json のデータ・既知IDは残す（再有効化時に全件が新着扱いになるのを防ぐ）
@@ -336,6 +362,13 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         deal["category"] = classify(deal, categories)
         # 法人・事業者向け（個人＝一般消費者では申込めない）案件フラグ。カテゴリと独立した横断軸。
         deal["corporate"] = is_corporate(deal, corporate)
+        # 投資・入金・年収の横断フラグ。既定は全表示で、除外トグル・しきい値で絞る独立軸。
+        deal["invest"] = matches_patterns(deal, invest_cfg)
+        deal["deposit"] = matches_patterns(deal, deposit_cfg)
+        deal["income"] = matches_patterns(deal, income_cfg)
+        # しきい値用の必要額。該当種別のみ算出し、抽出できなければ None（しきい値では隠さない）。
+        deal["req_yen"] = required_yen(deal) if (deal["invest"] or deal["deposit"]) else None
+        deal["income_man"] = required_income_man(deal) if deal["income"] else None
     # キーワードで「その他」になった案件は、同一案件の他サイト掲載の分類結果を流用して救済
     propagate_categories(recent, categories)
     # 同一サイトが同じ案件名を別IDで二重掲載した重複を1件に畳む（新着・比較・全案件・件数の
@@ -351,6 +384,11 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     # 法人案件も corp フラグ付きで載せ、「法人案件も含む」トグルON時にクライアント側で表示・再集計する。
     personal = [d for d in recent if not d["corporate"]]
     has_corporate = len(personal) < len(recent)
+    # 投資・入金・年収の除外トグルは、該当案件が表示データにある日だけ出す（無ければボタンを出さない）。
+    # 既定は全表示のため recent（法人含む全表示母集団）を基準に有無を判定する。
+    has_invest = any(d["invest"] for d in recent)
+    has_deposit = any(d["deposit"] for d in recent)
+    has_income = any(d["income"] for d in recent)
 
     # 値動き履歴（変化点ログ）。UP額ランキング・値動き履歴ページのデータ源。
     # これらのページはトグルを持たないため、法人案件を除いた personal のみを対象にする（全ページで非表示に統一）。
@@ -372,6 +410,14 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         g["has_new"] = any(_is_new_or_up(d, new_cutoff) for d in g["deals"])
         # 法人フラグ（同名案件のグループなので全掲載で一致）。既定は非表示・トグルONで表示する
         g["corporate"] = any(d["corporate"] for d in g["deals"])
+        # 投資・入金・年収フラグと、しきい値用の必要額（同名案件なので原則一致。安全側に最大を採る）
+        g["invest"] = any(d["invest"] for d in g["deals"])
+        g["deposit"] = any(d["deposit"] for d in g["deals"])
+        g["income"] = any(d["income"] for d in g["deals"])
+        req = [d["req_yen"] for d in g["deals"] if d.get("req_yen") is not None]
+        g["req_yen"] = max(req) if req else None
+        inc = [d["income_man"] for d in g["deals"] if d.get("income_man") is not None]
+        g["income_man"] = max(inc) if inc else None
     multi_all = [g for g in groups if g["sites"] >= 2]
     multi_truncated = len(multi_all) > MULTI_GROUP_CAP
     multi_groups = multi_all[:MULTI_GROUP_CAP]
@@ -475,6 +521,9 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         # トグルON時はクライアント（refreshChipCounts / renderAll）が deals.json から件数を再計算する。
         total_recent=len(personal),
         has_corporate=has_corporate,
+        has_invest=has_invest,
+        has_deposit=has_deposit,
+        has_income=has_income,
         category_chips=category_chips,
         category_names=category_names,
         site_chips=site_chips,

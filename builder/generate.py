@@ -18,7 +18,7 @@ from crawler.categorize import (
     required_yen,
 )
 from crawler.merge import group_deals
-from crawler.normalize import parse_points
+from crawler.normalize import normalize_points_text, parse_points
 from crawler.store import NEW_DAYS, RECENT_DAYS, load_history, recent_visible
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -359,6 +359,9 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     # storeのデータを汚さないようコピーしてからカテゴリ・法人フラグを付与する（判定は表示時に毎回行う）
     recent = [dict(d) for d in recent_visible(store, today) if d["site"] in enabled_sites]
     for deal in recent:
+        # ポイント表記を表示用に正規化（桁区切り・全角記号・先頭矢印ノイズ）。copyに対して行うため
+        # 保存データ(store)や円換算(yen/percent)は不変で、以降の全描画・deals.json に一貫して反映される
+        deal["points_text"] = normalize_points_text(deal.get("points_text", ""))
         deal["category"] = classify(deal, categories)
         # 法人・事業者向け（個人＝一般消費者では申込めない）案件フラグ。カテゴリと独立した横断軸。
         deal["corporate"] = is_corporate(deal, corporate)

@@ -236,6 +236,9 @@ footer .footlinks a { display:inline-block; padding:8px 0; margin-right:20px; }
   .newlist .site, .alllist .site { grid-row:1; font-size:.75rem; }
   .newlist .pts, .alllist .pts { grid-row:1; justify-self:end; white-space:normal; text-align:right; }
   .newlist .ttl, .alllist .ttl { grid-column:1 / -1; grid-row:2; }
+  /* スマホは案件名の折返しでタイトル行が窮屈になるため、掲載/更新時刻はタイトル下の独立行に落として
+     案件名（主役）を読みやすくする。カテゴリタグ(.cat)は短いのでタイトル行末尾のまま残す */
+  .newlist .posted { display:block; margin-left:0; margin-top:2px; }
   /* ランキング: 1段目=順位/サイト名・日付/増額幅、2段目=案件名、3段目=旧値→新値 */
   .ranklist li { grid-template-columns:auto 1fr auto; }
   .ranklist .rank { grid-row:1; width:1.7em; height:1.7em; font-size:.8rem; }

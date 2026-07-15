@@ -29,6 +29,11 @@
   {# 既定は「新着」。新着が無い日はJS側で「全て」にフォールバックする #}
   <button class="chip" data-key="">全て<span class="cnt">{{ total_recent }}</span></button>
   {% if new_total %}<button class="chip active" data-key="_new">新着<span class="cnt">{{ new_total }}</span></button>{% endif %}
+</div>
+{# 表示モード（全て/新着）とは別軸の独立トグル群。モード切替と見た目が同じで混同しやすかったため
+   別行に分けて視覚的に区別する。IDはJSのバインドに使うため変更しない #}
+<div class="chips" id="option-chips">
+  <span class="label">オプション</span>
   {# 重複除外は全て/新着とは別軸の独立トグル。同名（名寄せ）案件を現在の絞り込み内で最高還元の1件に畳む #}
   <button class="chip toggle" id="dedup-chip" type="button">重複案件を除外</button>
   {# 法人・事業者向け（個人＝一般消費者では申込めない）案件は既定で全件から除外。ONで表示に加える独立トグル。
@@ -134,8 +139,11 @@
 
 <!-- ad-slot: header (AdSense等のコードをここに) -->
 
-{# セクション見出しは表示しない（各グループの「○サイト掲載」バッジで内容が伝わるため） #}
 <section id="compare-section">
+  {# 見出し＋リード文で「同じ案件を複数サイト横断で比較し、最高還元のサイトが分かる」目玉機能だと明示する。
+     このセクションは既定（新着表示）ではJSで非表示になり、「全て」表示時に現れる #}
+  <h2>同じ案件をサイト横断で比較</h2>
+  <p class="note">2社以上に載っている同じ案件をまとめ、還元額の大きい順に並べています（<span class="best">最高還元</span>＝オレンジ）。</p>
   {% if multi_groups %}
   {% for g in multi_groups %}
   <div class="group" data-title="{{ g.title }}" data-category="{{ g.category }}" data-site="{{ g.site_keys }}" data-new="{{ 1 if g.has_new else 0 }}"{% if g.corporate %} data-corp="1"{% endif %}{% if g.invest %} data-invest="1"{% endif %}{% if g.deposit %} data-deposit="1"{% endif %}{% if g.income %} data-income="1"{% endif %}{% if g.req_yen is not none %} data-req-yen="{{ g.req_yen }}"{% endif %}{% if g.income_man is not none %} data-income-man="{{ g.income_man }}"{% endif %}>

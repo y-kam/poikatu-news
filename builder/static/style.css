@@ -1,5 +1,5 @@
 :root {
-  --accent:#e8590c; --accent-text:#b8430a; --accent-bg:#b8430a; --bg:#faf7f2; --card:#fff; --text:#333; --muted:#6b6b6b; --line:#eee;
+  --accent:#e8590c; --accent-text:#b8430a; --accent-bg:#b8430a; --bg:#faf7f2; --card:#fff; --text:#333; --muted:#6b6b6b; --muted-strong:#4a4a4a; --line:#eee;
   --bd:#ccc; --bd2:#ddd; --cat-bg:#f1e7dc; --cat-text:#7a4a1f; --up-text:#d7263d; --down-text:#2563eb;
   color-scheme:light dark;  /* フォーム部品・スクロールバーもOSのテーマに追従させる */
 }
@@ -9,7 +9,7 @@
    背景用は暗い橙 #a03a08（白文字と6.8:1）、文字用は明るい橙 #ffa066（カード背景と7.8:1）にする） */
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent:#ff8a3d; --accent-text:#ffa066; --accent-bg:#a03a08; --bg:#17171a; --card:#232327; --text:#e6e4e0; --muted:#a4a19c; --line:#38383e;
+    --accent:#ff8a3d; --accent-text:#ffa066; --accent-bg:#a03a08; --bg:#17171a; --card:#232327; --text:#e6e4e0; --muted:#a4a19c; --muted-strong:#cbc8c2; --line:#38383e;
     --bd:#4c4c54; --bd2:#44444b; --cat-bg:#3a3128; --cat-text:#dcb992; --up-text:#ff7b8d; --down-text:#6db1ff;
   }
 }
@@ -29,15 +29,16 @@ header .meta { font-size:.8rem; }
 .pr-notice { max-width:960px; margin:0 auto; padding:6px 16px 0; font-size:.72rem; color:var(--muted); }
 main { max-width:960px; margin:0 auto; padding:16px; }
 section { margin-bottom:32px; }
-h2 { font-size:1.1rem; border-left:4px solid var(--accent); padding-left:8px; margin-bottom:12px; }
+h2 { font-size:1.3rem; border-left:4px solid var(--accent); padding-left:10px; margin-bottom:14px; line-height:1.35; }
 .search { width:100%; padding:10px 12px; font-size:1rem; border:1px solid var(--bd); border-radius:8px; margin-bottom:10px; background:var(--card); color:var(--text); }
 .chips { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
 /* 表示(全て/新着)・カテゴリ・サイト・獲得額の絞り込み行はカード状の枠で囲み、行同士の境界を分かりやすくする */
-#primary-chips, #recency-chips, #category-chips, #site-chips, #yen-chips { background:var(--card); border:1px solid var(--bd2); border-radius:10px; padding:8px 10px; }
+#primary-chips, #option-chips, #recency-chips, #category-chips, #site-chips, #yen-chips { background:var(--card); border:1px solid var(--bd2); border-radius:10px; padding:8px 10px; }
 #recency-chips[hidden] { display:none; }  /* display:flex が hidden属性を上書きするのを防ぐ */
 #yen-chips { margin-bottom:16px; }
-/* 重複除外は独立トグル。全て/新着の右にやや離して置き、ON時はチェックを添える */
-#dedup-chip { margin-left:auto; }
+/* 表示モード（全て/新着）と別軸の独立トグル行。モード行のすぐ下に控えめな余白で続ける */
+#option-chips { margin-top:-2px; margin-bottom:10px; }
+/* 独立トグル（重複除外・法人含む・投資/入金/年収の各除外）はON時にチェックを添える */
 .chip.toggle.active::before { content:"✓ "; }
 /* 獲得額（円換算）の範囲入力。下限〜上限の数値入力2つ＋クリア */
 .yen-range { display:flex; align-items:center; gap:6px; }
@@ -77,13 +78,13 @@ h2 { font-size:1.1rem; border-left:4px solid var(--accent); padding-left:8px; ma
 /* ページ内ジャンプ。ページが縦に長い（数万px）ため、目的のセクションへ直接飛べるようにする */
 .jumpnav { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px; }
 .jumpnav a { border:1px solid var(--bd); background:var(--card); color:var(--muted); border-radius:999px; padding:7px 14px; font-size:.8rem; text-decoration:none; white-space:nowrap; }
-.cat { display:inline-block; background:var(--cat-bg); color:var(--cat-text); font-size:.7rem; border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:middle; white-space:nowrap; }
-.cond { color:var(--muted); font-size:.78rem; }
+.cat { display:inline-block; background:var(--cat-bg); color:var(--cat-text); font-size:.72rem; border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:middle; white-space:nowrap; }
+.cond { color:var(--muted); font-size:.8rem; }
 .group { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; }
-.group h3 { font-size:1rem; margin-bottom:6px; }
+.group h3 { font-size:1.05rem; margin-bottom:7px; }
 .group table { width:100%; border-collapse:collapse; font-size:.9rem; }
 .group td { padding:4px 6px; border-top:1px solid var(--line); }
-.group td.site { white-space:nowrap; color:var(--muted); width:11em; }
+.group td.site { white-space:nowrap; color:var(--muted-strong); width:11em; }
 /* 円換算額（獲得額）は右揃え列、元ポイントは左揃え列に分け、円を縦一列に揃える。
    セル間の余白を詰めて「1,550円（15,500pt）」が一続きに見えるようにする */
 .group td.amt { text-align:right; white-space:nowrap; padding-right:1px; }
@@ -97,14 +98,20 @@ h2 { font-size:1.1rem; border-left:4px solid var(--accent); padding-left:8px; ma
 /* ポイントUPバッジ横の増額幅（+500円 / +1.5%）。赤系文字で強調する。
    ライトは#d7263d（白カードと4.9:1）、ダークは明るい#ff7b8d（カード背景と6.4:1）でAAを確保 */
 .updiff { color:var(--up-text); font-size:.72rem; font-weight:bold; margin-left:4px; vertical-align:middle; white-space:nowrap; }
-/* 比較グループの折りたたみ展開ボタン（スマホのみ表示。表示制御はメディアクエリ側） */
-.group-more { display:none; width:100%; margin-top:6px; border:1px solid var(--bd); background:var(--card); color:var(--accent-text); border-radius:8px; padding:9px 12px; font-size:.82rem; cursor:pointer; }
+/* 比較グループの折りたたみ（PC・スマホ共通）。同一案件が10数サイトに並ぶと1グループで
+   画面を占有するため、還元額上位の数行だけ見せて残りをこのボタンで開閉する。
+   fold行の選定はJS(updateGroupFold)。ボタンは畳む行が無ければ hidden で隠れる */
+.group-more { display:block; width:100%; margin-top:6px; border:1px solid var(--bd); background:var(--card); color:var(--accent-text); border-radius:8px; padding:9px 12px; font-size:.82rem; cursor:pointer; }
+.group-more[hidden] { display:none; }
+.group tr.fold-hidden { display:none; }
+/* 比較表の先頭行（最高還元）は色だけに頼らず、金額の頭に記号(◎)も添えて一目で分かるようにする */
+.group td.amt.best::before { content:"◎"; margin-right:3px; font-size:.85em; }
 .newlist, .alllist { list-style:none; }
 .newlist li, .alllist li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; margin-bottom:6px; font-size:.9rem; display:grid; grid-template-columns:11em 1fr auto; gap:2px 10px; align-items:baseline; }
-.newlist .site, .alllist .site { color:var(--muted); white-space:nowrap; }
+.newlist .site, .alllist .site { color:var(--muted-strong); white-space:nowrap; }
 .newlist .pts, .alllist .pts { color:var(--accent-text); font-weight:bold; white-space:nowrap; }
 /* 新着案件の掲載日時（自HPへの初出）。案件名の後ろに小さく添える控えめな表示 */
-.newlist .posted { color:var(--muted); font-size:.72rem; margin-left:6px; white-space:nowrap; }
+.newlist .posted { color:var(--muted); font-size:.75rem; margin-left:6px; white-space:nowrap; }
 a { color:inherit; }
 /* スペース無しの長い英数字トークン（URL・型番等）が枠を突き破らないための保険 */
 .ttl, td.deal, .group h3 { overflow-wrap:anywhere; }
@@ -240,11 +247,6 @@ footer .footlinks a { display:inline-block; padding:8px 0; margin-right:20px; }
   .group td.amt { grid-row:1; grid-column:2; justify-self:end; white-space:normal; }
   .group td.sub { grid-row:1; grid-column:3; justify-self:end; white-space:normal; }
   .group td.deal { grid-column:1 / -1; grid-row:2; }
-  /* 比較グループは表示中の上位3サイトだけ見せて残りを開閉式に（1グループが1画面近く占めるのを防ぐ）。
-     折り畳む行の選定はJS(updateGroupFold)が行い、fold-hidden はスマホでのみ効く（PCは常に全行表示） */
-  .group tr.fold-hidden { display:none; }
-  .group-more { display:block; }
-  .group-more[hidden] { display:none; }
   /* ページャ等の小さめボタンのタップ領域を44px推奨に近づける */
   .pager button { padding:11px 18px; }
   .yen-clear { padding:8px 14px; }

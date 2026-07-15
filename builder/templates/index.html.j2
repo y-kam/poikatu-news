@@ -23,6 +23,9 @@
   <div class="meta">最終更新: {{ updated_at }}／{% if recent_days %}直近{{ recent_days }}日の新着{% else %}掲載中{% endif %} {{ total_recent }} 件</div>
 {% endblock %}
 {% block content %}
+{# 検索＋表示モード＋オプションは、縦に長いページでも絞り込みを変えやすいようPCでは上部固定(sticky)にする
+   （スマホは縦領域を圧迫するため固定しない＝CSSのメディアクエリで制御）。JSは要素IDで束ねるため入れ子は無害 #}
+<div class="topbar">
 <input class="search" id="search" type="search" placeholder="案件名・条件・カテゴリで検索（例: 楽天 カード）">
 <div class="chips" id="primary-chips">
   <span class="label">表示</span>
@@ -46,6 +49,7 @@
   {% if has_deposit %}<button class="chip toggle" id="deposit-chip" type="button">入金条件を除外</button>{% endif %}
   {% if has_income %}<button class="chip toggle" id="income-chip" type="button">年収条件を除外</button>{% endif %}
 </div>
+</div>{# /.topbar #}
 {# スマホのファーストビューが絞り込みUIで埋まらないよう、カテゴリ以下の絞り込み行は #more-filters に
    まとめてこのボタンで開閉する（PCでは常時展開・ボタン非表示）。適用中の条件数はバッジで示す #}
 <button type="button" class="filter-toggle" id="filter-toggle" aria-expanded="false" aria-controls="more-filters">
@@ -91,6 +95,9 @@
   {# ロゴ＋サイト名を表示。ロゴは取得できたサイトのみ（無ければサイト名のみ）。ロゴはサイト名の隣に添える装飾のためalt空 #}
   <button class="chip site-chip" data-key="{{ c.key }}">{% if c.logo %}<img class="site-logo" src="{{ c.logo }}" alt="" width="20" height="20" loading="lazy" decoding="async">{% endif %}{{ c.name }}<span class="cnt">{{ c.count }}</span></button>
   {% endfor %}
+  {# サイト数が多いため既定は先頭数社のみ表示し、このボタンで全表示する（純粋な表示上の折りたたみ。
+     絞り込み・件数計算には不影響＝隠れたチップもDOMに残る）。chipクラスは付けない（setupMultiChipsの対象外にするため） #}
+  <button type="button" class="site-more" id="site-more" hidden>もっと見る ▾</button>
 </div>
 {# 獲得ポイント（円換算額）の範囲絞り込み。下限・上限のどちらか一方だけでも可。
    範囲指定中は円換算できない案件（percent還元など）は除外される。他の3段とはAND条件 #}
@@ -780,6 +787,23 @@
   // カテゴリ・サイトは保存しない（毎回「すべて」から開始する）
   setupMultiChips("category-chips", "categories");
   setupMultiChips("site-chips", "sites");
+
+  // サイトチップは数十社あり一覧が長いため、既定は先頭のみ見せて「もっと見る」で全表示する。
+  // 純粋な表示上の折りたたみ（隠れたチップもDOMに残り、絞り込み・件数計算の対象は変わらない）。
+  (function () {
+    const SITE_CHIP_VISIBLE = 10;
+    const moreBtn = document.getElementById("site-more");
+    if (!moreBtn) return;
+    const siteItemChips = Array.from(document.querySelectorAll("#site-chips .chip.site-chip"));
+    if (siteItemChips.length <= SITE_CHIP_VISIBLE) { moreBtn.hidden = true; return; }
+    siteItemChips.slice(SITE_CHIP_VISIBLE).forEach(c => c.classList.add("site-collapsed"));
+    moreBtn.hidden = false;
+    moreBtn.addEventListener("click", function () {
+      siteItemChips.forEach(c => c.classList.remove("site-collapsed"));
+      moreBtn.hidden = true;
+      window.dispatchEvent(new Event("resize"));  // 横スクロールヒント(setupScrollHint)の再計算
+    });
+  })();
 
   // ---- 獲得額（円換算）の範囲入力 ----
   const yenMinInput = document.getElementById("yen-min");

@@ -19,8 +19,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from builder.generate import generate
+from crawler import health
 from crawler import store as store_mod
 from crawler.sites import ADAPTER_CLASSES
+from crawler.sites.base import SitemapDiffAdapter
 
 ROOT = Path(__file__).resolve().parent
 JST = timezone(timedelta(hours=9))
@@ -157,19 +159,24 @@ def main() -> int:
         ]
         history = store_mod.load_history()  # 値動き履歴（既知案件の報酬変化を記録する）
         failures = []
+        run_stats = {}  # サイト別の取得実績（パーサ破損検知の記録用。crawler.health が評価する）
         for key in targets:
             if key not in ADAPTER_CLASSES:
                 print(f"[skip] {key}: アダプタ未実装")
                 continue
             adapter = ADAPTER_CLASSES[key](sites_config[key])
+            # 差分取得型（新着0件が正常なサイト）は件数ベースの0件/激減判定を無効にする
+            catalog = not isinstance(adapter, SitemapDiffAdapter)
             started = time.monotonic()
             try:
                 deals = adapter.fetch_deals(store_mod.known_ids(store, key), args.max_items)
             except Exception as e:  # 1サイトの失敗で全体を止めない
                 print(f"[fail] {key}: {type(e).__name__}: {e}")
                 failures.append(key)
+                run_stats[key] = health.site_stat(error=type(e).__name__, catalog=catalog)
                 continue
             new_keys = store_mod.upsert(store, deals, today, now_at, history)
+            run_stats[key] = health.site_stat(deals=deals, catalog=catalog)
             seeded = sum(1 for d in deals if d.seeded)
             print(
                 f"[ok] {key}: 取得{len(deals)}件 / 新規{len(new_keys)}件"
@@ -179,6 +186,13 @@ def main() -> int:
         store_mod.save(store)
         store_mod.prune_history(history, store)  # 削除・掲載終了案件の履歴を落とす
         store_mod.save_history(history)
+        # 取得実績を記録し、サイト仕様変更によるパーサ破損（0件・激減・解析不能率スパイク・例外）を
+        # 過去実績と比較して検知・表示する。ここでは終了コードは変えず（＝サイト生成・デプロイは
+        # 妨げない）、CI でのジョブ失敗（通知）判定は check_health.py が担う。
+        metrics = health.load()
+        health.record(metrics, run_stats, now_at)
+        health.save(metrics)
+        health.report(health.evaluate(metrics))
         if failures:
             print(f"[warn] 失敗サイト: {', '.join(failures)}", file=sys.stderr)
 

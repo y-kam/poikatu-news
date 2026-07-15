@@ -94,3 +94,12 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      # サイト仕様変更によるパーサ破損（取得0件・激減・解析不能率スパイク・例外）を検知する。
+      # run.py が data/crawl_metrics.json に記録した実績を評価し、2回以上連続の致命的異常が
+      # あれば exit 1 でこのジョブを失敗させる → GitHub の失敗通知メールで迅速に気づける。
+      # サイト生成・デプロイ・X投稿の後の最終ステップに置き、1社の破損で公開を止めない。
+      # always() で（前段が失敗しても）必ず実行し、破損を握りつぶさない。
+      - name: Detect parser breakage (crawl health)
+        if: always()
+        run: python check_health.py

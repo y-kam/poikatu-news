@@ -1,7 +1,5 @@
 """クロール結果から静的サイト（site/）を生成する。"""
 import json
-import os
-import re
 import shutil
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -581,20 +579,6 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
             shutil.copytree(static_file, dest, dirs_exist_ok=True)  # ロゴ等をディレクトリごと配信
         else:
             shutil.copy2(static_file, dest)
-    # ちょびリッチ取得中継（CI専用）を同梱する。GitHub ActionsのIPがちょびリッチ側の
-    # WAFで403になるため（2026-07-16〜）、自サーバ経由で一覧を取得する中継PHP
-    # （builder/relay.php.in）に認証キーを埋め込んで出力する。キーは公開リポジトリに
-    # 置けないため Secrets（CHOBIRICH_RELAY_KEY）から受け取り、未設定のローカル生成では
-    # 出力しない（中継はCIのFTPSデプロイでのみ配備される）。
-    relay_key = os.environ.get("CHOBIRICH_RELAY_KEY", "").strip()
-    if relay_key:
-        # PHP文字列リテラルを壊す値を弾く（英数・-・_ のみ許可。不正時は配備しない）
-        if re.fullmatch(r"[A-Za-z0-9_-]{16,128}", relay_key):
-            relay_tpl = (ROOT / "builder" / "relay.php.in").read_text(encoding="utf-8")
-            (OUTPUT_DIR / "relay.php").write_text(
-                relay_tpl.replace("__RELAY_KEY__", relay_key), encoding="utf-8")
-        else:
-            print("[warn] CHOBIRICH_RELAY_KEY が不正な形式のため relay.php を出力しません")
     # トップ・ランキング・値動き履歴は日次更新のため lastmod に更新時刻(ISO8601)を入れ、
     # クロール頻度の目安として changefreq/priority も付す。固定ページ(about/privacy)は
     # 内容が変わらないため lastmod は付けない。

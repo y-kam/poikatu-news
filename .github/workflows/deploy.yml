@@ -28,10 +28,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    # ちょびリッチ中継（site/relay.php）を生成に同梱するためのキー。deploy側にも無いと、
-    # push発火のデプロイが中継スクリプトをサーバから同期削除してしまうため必須。
-    env:
-      CHOBIRICH_RELAY_KEY: ${{ secrets.CHOBIRICH_RELAY_KEY }}
     steps:
       - uses: actions/checkout@v4
 

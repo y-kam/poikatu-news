@@ -31,13 +31,6 @@ jobs:
   crawl:
     runs-on: ubuntu-latest
     timeout-minutes: 45
-    # ちょびリッチはGitHub ActionsのIPがWAFで403になるため（2026-07-16〜）、自サーバの
-    # 中継PHP（site/relay.php）経由で取得する。URLは公開情報なので直書き、認証キーは
-    # Secrets。キーはサイト生成時に relay.php へ埋め込まれ（builder/generate.py）、
-    # クローラは X-Relay-Key ヘッダで認証する（crawler/sites/chobirich.py）。
-    env:
-      CHOBIRICH_RELAY_URL: https://poikatu-news.com/relay.php
-      CHOBIRICH_RELAY_KEY: ${{ secrets.CHOBIRICH_RELAY_KEY }}
     steps:
       - uses: actions/checkout@v4
 

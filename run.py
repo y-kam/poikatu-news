@@ -37,6 +37,20 @@ def load_sites_config() -> dict:
         return json.load(f)
 
 
+def select_targets(args, sites_config: dict) -> list:
+    """クロール対象サイトを決める。--sites 明示が最優先、無ければ enabled 全サイトから
+    --exclude 分を除く。--exclude はCI等で特定サイトだけ止めたいとき用
+    （例: ちょびリッチはGitHub ActionsのIPがWAFブロックされるためCIでは除外し、
+    ローカルの tools/crawl_chobirich.bat で取得する）。"""
+    if args.sites:
+        return args.sites.split(",")
+    targets = [k for k, v in sites_config.items() if v.get("enabled")]
+    if args.exclude:
+        excluded = set(args.exclude.split(","))
+        targets = [k for k in targets if k not in excluded]
+    return targets
+
+
 SAVE_EVERY = 40  # バックフィル中、この件数ごとに deals.json へ逐次保存する（中断耐性）
 BACKFILL_STATE_FILE = ROOT / "data" / "backfill_state.json"  # 完了サイトの記録（ローカル・非コミット）
 
@@ -69,9 +83,7 @@ def run_backfill(store: dict, sites_config: dict, today: str, args) -> int:
         BACKFILL_STATE_FILE.unlink(missing_ok=True)
     completed = _load_completed_sites()
     # --sites 明示時はユーザーが対象を選んでいるので完走スキップを適用しない
-    targets = args.sites.split(",") if args.sites else [
-        k for k, v in sites_config.items() if v.get("enabled")
-    ]
+    targets = select_targets(args, sites_config)
     cap = args.backfill_cap
     print(f"[backfill] 対象{len(targets)}サイト / 上限{cap or '無制限'}件・10秒間隔 "
           "（Ctrl+Cで中断→再実行で再開）")
@@ -123,6 +135,8 @@ def _finalize_backfill(store: dict, sites_config: dict, today: str) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--sites", help="対象サイトキーをカンマ区切りで指定")
+    parser.add_argument("--exclude",
+                        help="クロール対象から除くサイトキー（カンマ区切り。--sites指定時は無視）")
     parser.add_argument("--max-items", type=int, default=200, help="1サイトあたりの取得上限")
     parser.add_argument("--generate-only", action="store_true")
     parser.add_argument("--backfill", action="store_true",
@@ -154,9 +168,7 @@ def main() -> int:
         return run_backfill(store, sites_config, today, args)
 
     if not args.generate_only:
-        targets = args.sites.split(",") if args.sites else [
-            k for k, v in sites_config.items() if v.get("enabled")
-        ]
+        targets = select_targets(args, sites_config)
         history = store_mod.load_history()  # 値動き履歴（既知案件の報酬変化を記録する）
         failures = []
         run_stats = {}  # サイト別の取得実績（パーサ破損検知の記録用。crawler.health が評価する）

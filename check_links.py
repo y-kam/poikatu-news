@@ -85,6 +85,10 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="保存せず判定サマリのみ表示")
     parser.add_argument("--sites", help="対象サイトキーをカンマ区切りで指定")
+    parser.add_argument("--exclude",
+                        help="チェック対象から除くサイトキー（カンマ区切り。--sites指定時は無視）。"
+                             "CIのIPがブロックされ全件unknownになるだけのサイト（ちょびリッチ等）を"
+                             "無駄なリクエストごと省くために使う")
     parser.add_argument("--max-workers", type=int, default=8, help="同時にチェックするサイト数")
     parser.add_argument(
         "--include-backfill", action="store_true",
@@ -104,10 +108,11 @@ def main() -> int:
     # フィルタで表示からも除外されるため、ここで死活確認しなくても画面には出ない）。
     enabled = {k for k, v in sites_config.items() if v.get("enabled")}
     filter_sites = set(args.sites.split(",")) if args.sites else None
+    excluded = set(args.exclude.split(",")) if args.exclude and not args.sites else set()
     targets: dict[str, list] = defaultdict(list)
     for deal in store_mod.recent_visible(store, today):
         site = deal["site"]
-        if site not in enabled:
+        if site not in enabled or site in excluded:
             continue
         # バックフィル案件は数千〜数万件になり得るため、既定では日次の死活チェック対象外。
         # （掲載終了リンクの掃除が必要なら --include-backfill で手動一括点検する）

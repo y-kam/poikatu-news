@@ -41,12 +41,16 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # ちょびリッチはGitHub Actions等のデータセンター系IPがWAFで403になるため
+      # （2026-07-16〜。レンタルサーバ経由の中継も同様にブロックされ不成立）、CIでは
+      # クロール・死活チェックとも除外する。取得はローカルPC（自宅回線）から
+      # tools/crawl_chobirich.bat で行い、データpush→deployワークフローで反映する。
       - name: Crawl and build site
-        run: python run.py
+        run: python run.py --exclude chobirich
 
       # クロール直後に掲載中案件のリンク死活をチェックし、掲載終了を論理削除して再生成する
       - name: Check links and flag delisted deals
-        run: python check_links.py
+        run: python check_links.py --exclude chobirich
 
       - name: Rebuild site with delisted deals removed
         run: python run.py --generate-only

@@ -1,0 +1,71 @@
+<?php
+// ちょびリッチ取得中継（CI専用）。GitHub ActionsランナーのIPがちょびリッチ側の
+// WAFで403になるため（2026-07-16〜）、自サーバ経由でクロール対象の一覧ページを
+// 取得して返す。呼び出し元は crawler/sites/chobirich.py（環境変数で中継を有効化）。
+//
+// 安全設計:
+//   - 認証: X-Relay-Key ヘッダの完全一致。キーは公開リポジトリに置けないため、
+//     builder/generate.py がデプロイ時に Secrets の値でプレースホルダを置換して
+//     site/relay.php を出力する（このテンプレート自体は配信されない）
+//   - 取得先は下の固定3ページのみ（任意URLは受け付けない＝SSRF防止）
+//   - User-Agent 等は呼び出し元から透過（UAの正本は crawler/fetch.py に一元化）
+$KEY = '__RELAY_KEY__';
+
+$PAGES = [
+    'earn'     => 'https://www.chobirich.com/earn/new_list',
+    'shopping' => 'https://www.chobirich.com/shopping/new_list/',
+    'app'      => 'https://www.chobirich.com/smartphone/',
+];
+
+header('Cache-Control: no-store');
+
+// キー未埋め込み（テンプレのまま）や欠落・不一致は常に拒否（フェイルクローズ）
+$given = $_SERVER['HTTP_X_RELAY_KEY'] ?? '';
+if ($KEY === '' || $KEY === '__RELAY' . '_KEY__' || $given === '' || !hash_equals($KEY, $given)) {
+    http_response_code(403);
+    header('Content-Type: text/plain; charset=utf-8');
+    exit('forbidden');
+}
+
+$page = $_GET['page'] ?? '';
+if (!isset($PAGES[$page])) {
+    http_response_code(400);
+    header('Content-Type: text/plain; charset=utf-8');
+    exit('unknown page');
+}
+
+// 呼び出し元のブラウザ相当ヘッダを透過する（モバイルUA必須ページの挙動を保つ）
+$forward = [];
+foreach (['User-Agent', 'Accept', 'Accept-Language'] as $name) {
+    $env = 'HTTP_' . strtoupper(str_replace('-', '_', $name));
+    if (!empty($_SERVER[$env])) {
+        $forward[] = $name . ': ' . $_SERVER[$env];
+    }
+}
+$forward[] = 'Referer: https://www.chobirich.com/';
+
+$ch = curl_init($PAGES[$page]);
+curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_FOLLOWLOCATION => true,
+    CURLOPT_MAXREDIRS      => 3,
+    CURLOPT_CONNECTTIMEOUT => 10,
+    CURLOPT_TIMEOUT        => 30,
+    CURLOPT_ENCODING       => '',   // gzip等を受け入れてcurl側で伸長する
+    CURLOPT_HTTPHEADER     => $forward,
+]);
+$body = curl_exec($ch);
+if ($body === false) {
+    $err = curl_error($ch);
+    curl_close($ch);
+    http_response_code(502);
+    header('Content-Type: text/plain; charset=utf-8');
+    exit('upstream fetch failed: ' . $err);
+}
+$status = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
+curl_close($ch);
+
+// 上流のステータスをそのまま返す（呼び出し元の raise_for_status で検知できるように）
+http_response_code($status ?: 502);
+header('Content-Type: text/html; charset=utf-8');
+echo $body;

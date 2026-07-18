@@ -4,6 +4,7 @@
 (/smartphone/) にのみ並ぶ。/smartphone/ はPC UAだと空のシェルを返すため、モバイルUAで
 取得する（項目構造もPC一覧とは別）。deal_id は /ad_details/NN で共通のため重複排除される。
 """
+import os
 import re
 
 from bs4 import BeautifulSoup
@@ -20,6 +21,18 @@ APP_URL = "https://www.chobirich.com/smartphone/"  # アプリで貯める（モ
 BASE = "https://www.chobirich.com"
 # 一覧リンクの案件ID。通常は /ad_details/NN、ステップアップ案件は /ad_details/redirect/NN。
 _ID_RE = re.compile(r"/ad_details/(?:redirect/)?(\d+)")
+
+# GitHub ActionsランナーのIPはちょびリッチ側のWAFで恒久的に403になるため（2026-07-16〜）、
+# CIでは自サーバの中継PHP（builder/relay.php.in → site/relay.php）経由で取得する。
+# 両環境変数が設定された実行のみ中継を使い、ローカル実行は従来どおり直接取得する。
+RELAY_URL = os.environ.get("CHOBIRICH_RELAY_URL", "")
+RELAY_KEY = os.environ.get("CHOBIRICH_RELAY_KEY", "")
+# 中継が受け付ける固定ページ名（relay.php 側の $PAGES と対応を保つこと）
+RELAY_PAGES = {
+    LIST_URLS[0]: "earn",
+    LIST_URLS[1]: "shopping",
+    APP_URL: "app",
+}
 
 
 @register
@@ -42,11 +55,19 @@ class ChobirichAdapter(SiteAdapter):
             interval=self.request_interval, user_agent=MOBILE_UA,
             headers=self.extra_headers, max_retries=self.max_retries)
 
+    # 中継設定があるときは自サーバ経由で取得する（UA等のヘッダは中継が上流へ透過するため、
+    # モバイルUAの効果もそのまま保たれる）。無ければ従来どおり直接取得する。
+    def _get(self, fetcher: PoliteFetcher, url: str):
+        if RELAY_URL and RELAY_KEY:
+            return fetcher.get(RELAY_URL, params={"page": RELAY_PAGES[url]},
+                               headers={"X-Relay-Key": RELAY_KEY})
+        return fetcher.get(url)
+
     def fetch_deals(self, known, max_items):
         fetcher = self.make_fetcher()
         deals = {}
         for list_url in LIST_URLS:  # PC新着（サービス系・ショッピング系）
-            soup = BeautifulSoup(fetcher.get(list_url).text, "lxml")
+            soup = BeautifulSoup(self._get(fetcher, list_url).text, "lxml")
             for item in soup.select("li.ad-category__ad"):
                 link = item.select_one("a[href*='/ad_details/']")
                 title = item.select_one("h4.ad-category__ad__name--text")
@@ -66,7 +87,7 @@ class ChobirichAdapter(SiteAdapter):
                 deals[m.group(1)] = self.flag_site_new(deal, str(item))
 
         # スマホ「アプリで貯める」（アプリ・ゲームDL案件。PC一覧には出ない）
-        soup = BeautifulSoup(self._mobile_fetcher().get(APP_URL).text, "lxml")
+        soup = BeautifulSoup(self._get(self._mobile_fetcher(), APP_URL).text, "lxml")
         for item in soup.select("li.CommonSearchItem"):
             link = item.select_one("a.CommonSearchItem__inner")
             title = item.select_one("h2.CommonSearchItem__itemName")

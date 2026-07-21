@@ -41,7 +41,16 @@ git commit -m "data: chobirich local crawl"
 if ($LASTEXITCODE -ne 0) { Finish 1 }
 git pull --rebase origin main
 if ($LASTEXITCODE -ne 0) { Finish 1 }
-git push origin main
-if ($LASTEXITCODE -ne 0) { Finish 1 }
+
+# push の認証: GCM（Windows資格情報マネージャー）の保存エントリが壊れており
+# パスワード入力に落ちて必ず失敗するため、gh CLI の保存トークンでpushする。
+# gh はアクティブアカウントのトークンしか返さないので、pushの間だけ y-kam に
+# 切り替え、終わったら通常運用の ykameyama に戻す（gh併存運用の自動化）。
+gh auth switch -u y-kam 2>&1 | Out-Null
+if ($LASTEXITCODE -ne 0) { Write-Host "gh のアカウント切替（y-kam）に失敗しました。"; Finish 1 }
+git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main
+$pushExit = $LASTEXITCODE
+gh auth switch -u ykameyama 2>&1 | Out-Null
+if ($pushExit -ne 0) { Finish 1 }
 Write-Host "push しました。数分でサイトに反映されます。完了しました。"
 Finish 0

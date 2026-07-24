@@ -315963,7 +315963,7 @@
    "last_seen": "2026-07-23",
    "site_new": false,
    "renew_hold": true,
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:156871": {
    "site": "moppy",
@@ -316693,7 +316693,7 @@
    "last_seen": "2026-07-24",
    "site_new": true,
    "renewed_at": "2026-07-23 13:09",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "entamenet:431396": {
    "site": "entamenet",
@@ -324139,7 +324139,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "poikatsu_club:14080": {
    "site": "poikatsu_club",
@@ -324786,7 +324786,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "warau:202547": {
    "site": "warau",
@@ -324945,7 +324945,7 @@
    "first_seen_at": "2026-07-24 13:00",
    "last_seen": "2026-07-24",
    "site_new": true,
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "fruitmail:18448": {
    "site": "fruitmail",
@@ -326859,7 +326859,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:6549": {
    "site": "moppy",
@@ -326874,7 +326874,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:157738": {
    "site": "moppy",
@@ -326904,7 +326904,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "hapitas:102188": {
    "site": "hapitas",

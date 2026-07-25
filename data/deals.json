@@ -43074,28 +43074,29 @@
    "site": "pointincome",
    "deal_id": "155587",
    "title": "【年収1000万円以上】マンション投資 個別面談 / JPリターンズ",
-   "points_text": "1,100,000pt",
-   "yen": 110000.0,
+   "points_text": "1,150,000pt",
+   "yen": 115000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155587/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-07-26 05:00",
+   "renewed_from": "1,100,000pt"
   },
   "pointincome:154095": {
    "site": "pointincome",
    "deal_id": "154095",
-   "title": "【最大36,000円分】三井住友カード（NL）",
+   "title": "【最大42,000円分】三井住友カード（NL）",
    "points_text": "130,000pt",
    "yen": 13000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154095/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -43103,14 +43104,14 @@
   "pointincome:154097": {
    "site": "pointincome",
    "deal_id": "154097",
-   "title": "【最大38,000円分】三井住友カード ゴールド（NL）",
+   "title": "【最大44,000円分】三井住友カード ゴールド（NL）",
    "points_text": "130,000pt",
    "yen": 13000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154097/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-26",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renewed_at": "2026-07-23 05:00",
@@ -43324,7 +43325,7 @@
    "url": "https://pointi.jp/ad/149388/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-26",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -43338,7 +43339,7 @@
    "url": "https://pointi.jp/ad/153568/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -43436,7 +43437,7 @@
    "url": "https://pointi.jp/ad/149212/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-07-26",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -78577,7 +78578,7 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "delisted_at": "2026-07-26"
   },
   "kurashiru_reward:16104": {
    "site": "kurashiru_reward",
@@ -164013,7 +164014,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-26"
   },
   "pointincome:153831": {
    "site": "pointincome",
@@ -272711,7 +272712,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-08"
   },
   "pointincome:154881": {
@@ -272877,7 +272878,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-08",
    "renewed_at": "2026-07-17 01:00",
    "renewed_from": "18,000pt"
@@ -274088,7 +274089,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-09"
   },
   "pointincome:155100": {
@@ -274838,7 +274839,7 @@
   "pointincome:155730": {
    "site": "pointincome",
    "deal_id": "155730",
-   "title": "※リピート可【最大37,500円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま口座",
+   "title": "7/28まで！※リピート可【最大39,500円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま口座",
    "points_text": "40,000pt",
    "yen": 4000.0,
    "percent": null,
@@ -274847,7 +274848,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-09"
   },
   "chobirich:1894418": {
@@ -276007,13 +276008,13 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-10"
   },
   "pointincome:154440": {
    "site": "pointincome",
    "deal_id": "154440",
-   "title": "【最大35,500円相当】三菱ＵＦＪ銀行 口座開設",
+   "title": "7/28まで！【最大39,500円相当】三菱ＵＦＪ銀行 口座開設",
    "points_text": "40,000pt",
    "yen": 4000.0,
    "percent": null,
@@ -276022,7 +276023,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-16",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-10"
   },
   "pointincome:149915": {
@@ -276052,7 +276053,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-18",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155528": {
@@ -276432,7 +276433,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155596": {
@@ -277482,7 +277483,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "moppy:161712": {
    "site": "moppy",
@@ -295713,8 +295714,9 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-07-20",
-   "site_new": false
+   "last_seen": "2026-07-26",
+   "site_new": true,
+   "renewed_at": "2026-07-26 05:09"
   },
   "moppy:159460": {
    "site": "moppy",
@@ -300216,7 +300218,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-11",
    "renewed_at": "2026-07-23 05:00",
    "renewed_from": "110,000pt"
@@ -301766,18 +301768,19 @@
   "pointincome:154146": {
    "site": "pointincome",
    "deal_id": "154146",
-   "title": "出光カードapollostation card(アポロステーションカード)",
-   "points_text": "60,000pt",
-   "yen": 6000.0,
+   "title": "出光カードapollostation card(アポロステーションカード)【週末限定高還元!!】",
+   "points_text": "105,000pt",
+   "yen": 10500.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154146/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-11",
-   "renew_hold": true
+   "renewed_at": "2026-07-26 05:00",
+   "renewed_from": "60,000pt"
   },
   "pointincome:147896": {
    "site": "pointincome",
@@ -301827,7 +301830,7 @@
   "pointincome:154338": {
    "site": "pointincome",
    "deal_id": "154338",
-   "title": "【土日限定!!高還元!!】Fマネーカード",
+   "title": "7/27までの高還元！Fマネーカード",
    "points_text": "130,000pt",
    "yen": 13000.0,
    "percent": null,
@@ -301836,7 +301839,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-07-12",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155776": {
@@ -301857,7 +301860,7 @@
   "pointincome:152564": {
    "site": "pointincome",
    "deal_id": "152564",
-   "title": "【合計3,500円分】楽天銀行 口座開設",
+   "title": "【合計5,500円分】楽天銀行 口座開設",
    "points_text": "15,000pt",
    "yen": 1500.0,
    "percent": null,
@@ -301866,7 +301869,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-07-12",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-11"
   },
   "chobirich:1894559": {
@@ -302128,18 +302131,18 @@
   "pointincome:144213": {
    "site": "pointincome",
    "deal_id": "144213",
-   "title": "【高還元！】三菱UFJ eスマート証券（初回100円以上取引）",
-   "points_text": "100,000pt",
-   "yen": 10000.0,
+   "title": "【7/29までの高還元！】三菱UFJ eスマート証券（初回100円以上取引）",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/144213/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-14",
-   "renewed_at": "2026-07-16 15:00",
+   "renewed_at": "2026-07-26 05:00",
    "renewed_from": "75,000pt"
   },
   "pointincome:115661": {
@@ -302635,7 +302638,7 @@
   "pointincome:155151": {
    "site": "pointincome",
    "deal_id": "155151",
-   "title": "Google One （ドコモ/爆アゲ セレクション）",
+   "title": "【合計2,500円分!!】Google One （ドコモ/爆アゲ セレクション）",
    "points_text": "5,000pt",
    "yen": 500.0,
    "percent": null,
@@ -302644,7 +302647,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-13",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-14"
   },
   "pointincome:150342": {
@@ -302674,7 +302677,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-14"
   },
   "pointincome:107146": {
@@ -313720,7 +313723,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 01:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-17"
   },
   "pointincome:103630": {
@@ -316619,7 +316622,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 15:00",
-   "last_seen": "2026-07-20",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-19"
   },
   "pointincome:153114": {
@@ -317154,7 +317157,7 @@
    "seeded": false,
    "first_seen": "2026-07-19",
    "first_seen_at": "2026-07-19 15:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-20"
   },
   "point_land:5s00000000141008": {
@@ -321818,7 +321821,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 01:00",
    "last_seen": "2026-07-23",
-   "dead_streak": 1
+   "delisted_at": "2026-07-26"
   },
   "warau:204855": {
    "site": "warau",
@@ -322762,7 +322765,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
    "last_seen": "2026-07-24",
-   "dead_streak": 1
+   "delisted_at": "2026-07-26"
   },
   "warau:204868": {
    "site": "warau",
@@ -322777,7 +322780,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
    "last_seen": "2026-07-24",
-   "dead_streak": 1
+   "delisted_at": "2026-07-26"
   },
   "warau:204862": {
    "site": "warau",
@@ -324299,7 +324302,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 01:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-24"
   },
   "pointincome:154993": {
@@ -325370,7 +325373,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 17:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "rebates:21710": {
    "site": "rebates",
@@ -325892,7 +325895,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204938": {
    "site": "warau",
@@ -325906,7 +325909,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204924": {
    "site": "warau",
@@ -325965,7 +325968,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204914": {
    "site": "warau",
@@ -325994,7 +325997,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204928": {
    "site": "warau",
@@ -326008,7 +326011,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204371": {
    "site": "warau",
@@ -326022,7 +326025,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204922": {
    "site": "warau",
@@ -327521,7 +327524,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 01:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:161940": {
    "site": "moppy",
@@ -327593,6 +327596,62 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 01:00",
+   "last_seen": "2026-07-26"
+  },
+  "pointincome:155584": {
+   "site": "pointincome",
+   "deal_id": "155584",
+   "title": "【年収700万円以上】マンション投資 個別面談 / JPリターンズ",
+   "points_text": "850,000pt",
+   "yen": 85000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155584/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 05:00",
+   "last_seen": "2026-07-26"
+  },
+  "pointincome:155234": {
+   "site": "pointincome",
+   "deal_id": "155234",
+   "title": "【7/26までの高還元】Funds(ファンズ)50万円以上投資実行",
+   "points_text": "480,000pt",
+   "yen": 48000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155234/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 05:00",
+   "last_seen": "2026-07-26"
+  },
+  "pointincome:150186": {
+   "site": "pointincome",
+   "deal_id": "150186",
+   "title": "every frecious（エブリィフレシャス）",
+   "points_text": "100,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150186/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 05:00",
+   "last_seen": "2026-07-26"
+  },
+  "pointincome:155889": {
+   "site": "pointincome",
+   "deal_id": "155889",
+   "title": "みずほ銀行 法人口座",
+   "points_text": "100,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155889/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26"
   }
  }

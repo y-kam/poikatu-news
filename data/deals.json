@@ -1263,8 +1263,8 @@
    "site": "moppy",
    "deal_id": "111069",
    "title": "※土日超還元UP！※楽天証券",
-   "points_text": "19,000P",
-   "yen": 19000.0,
+   "points_text": "20,000P",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=111069",
    "seeded": false,
@@ -1273,7 +1273,7 @@
    "condition": "総合取引口座開設完了後、\n30日以内に楽天証券口座へ5万円以上の入金完了",
    "site_new": false,
    "delisted_at": "2026-07-17",
-   "renewed_at": "2026-07-25 05:00",
+   "renewed_at": "2026-07-25 10:00",
    "renewed_from": "10,000P"
   },
   "moppy:1118": {
@@ -47830,9 +47830,9 @@
    "site": "rebates",
    "deal_id": "21645",
    "title": "Jackery Japan",
-   "points_text": "3.0%",
+   "points_text": "2.5%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 2.5,
    "url": "https://www.rebates.jp/jackery.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -71127,15 +71127,17 @@
    "site": "moppy",
    "deal_id": "6879",
    "title": "マンガBANGブックス（マンガバンブックス）",
-   "points_text": "4.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 6.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=6879",
    "condition": "商品またはサイト内コイン購入後の入金確認",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-16",
-   "delisted_at": "2026-07-07"
+   "last_seen": "2026-07-25",
+   "delisted_at": "2026-07-07",
+   "renewed_at": "2026-07-25 10:00",
+   "renewed_from": "4.0%"
   },
   "pointtown:1285": {
    "site": "pointtown",
@@ -317715,16 +317717,18 @@
    "site": "moppy",
    "deal_id": "491",
    "title": "【リピート用】ORBIS（オルビス）",
-   "points_text": "1.6%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 1.6,
+   "percent": 3.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=491",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 13:00",
-   "last_seen": "2026-07-21",
-   "delisted_at": "2026-07-21"
+   "last_seen": "2026-07-25",
+   "delisted_at": "2026-07-21",
+   "renewed_at": "2026-07-25 10:00",
+   "renewed_from": "1.6%"
   },
   "moppy:6610": {
    "site": "moppy",
@@ -319858,8 +319862,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 10:00",
    "last_seen": "2026-07-25",
-   "site_new": true,
-   "renewed_at": "2026-07-25 01:01"
+   "site_new": false
   },
   "amefri:138995": {
    "site": "amefri",
@@ -319874,8 +319877,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 10:00",
    "last_seen": "2026-07-25",
-   "site_new": true,
-   "renewed_at": "2026-07-25 01:01"
+   "site_new": false
   },
   "warau:204818": {
    "site": "warau",
@@ -326859,7 +326861,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:6549": {
    "site": "moppy",
@@ -326874,7 +326876,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:157738": {
    "site": "moppy",
@@ -326904,7 +326906,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "hapitas:102188": {
    "site": "hapitas",
@@ -327395,6 +327397,81 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
    "last_seen": "2026-07-25"
+  },
+  "moppy:4447": {
+   "site": "moppy",
+   "deal_id": "4447",
+   "title": "HMV&BOOKS online",
+   "points_text": "2.0%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=4447",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 10:00",
+   "last_seen": "2026-07-25",
+   "dead_streak": 1
+  },
+  "moppy:1814": {
+   "site": "moppy",
+   "deal_id": "1814",
+   "title": "マツキヨココカラ(旧マツモトキヨシ)",
+   "points_text": "5.0%",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=1814",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 10:00",
+   "last_seen": "2026-07-25",
+   "dead_streak": 1
+  },
+  "moppy:2761": {
+   "site": "moppy",
+   "deal_id": "2761",
+   "title": "PAL CLOSET ONLINE STORE(パルクローゼット)",
+   "points_text": "3.0%",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=2761",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 10:00",
+   "last_seen": "2026-07-25",
+   "dead_streak": 1
+  },
+  "moppy:902": {
+   "site": "moppy",
+   "deal_id": "902",
+   "title": "TOWER RECORDS ONLINE（タワーレコードオンライン/タワレコ）",
+   "points_text": "2.0%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=902",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 10:00",
+   "last_seen": "2026-07-25",
+   "dead_streak": 1
+  },
+  "moppy:1126": {
+   "site": "moppy",
+   "deal_id": "1126",
+   "title": "ブックライブ",
+   "points_text": "4.0%",
+   "yen": null,
+   "percent": 4.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=1126",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 10:00",
+   "last_seen": "2026-07-25",
+   "dead_streak": 1
   }
  }
 }

@@ -214742,7 +214742,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-20"
+   "last_seen": "2026-07-26"
   },
   "point_island:s25952": {
    "site": "point_island",
@@ -226126,7 +226126,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-26"
   },
   "point_stadium:s25952": {
    "site": "point_stadium",
@@ -237560,7 +237560,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-14"
+   "last_seen": "2026-07-26",
+   "renewed_at": "2026-07-26 08:00"
   },
   "nyandaful:s25952": {
    "site": "nyandaful",
@@ -270664,7 +270665,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-26"
   },
   "moppy:158960": {
    "site": "moppy",
@@ -324142,7 +324143,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "poikatsu_club:14080": {
    "site": "poikatsu_club",
@@ -325171,7 +325172,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 15:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "warau:204557": {
    "site": "warau",
@@ -327524,7 +327525,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 01:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 2
+   "delisted_at": "2026-07-26"
   },
   "moppy:161940": {
    "site": "moppy",

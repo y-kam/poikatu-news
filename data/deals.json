@@ -1211,7 +1211,7 @@
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=144817",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "condition": "展示場への来場後、相談・見学完了",
    "site_new": true,
    "renewed_at": "2026-07-24 11:09"
@@ -71812,7 +71812,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-25"
   },
   "moppy:131013": {
    "site": "moppy",
@@ -314471,8 +314471,9 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 13:00",
-   "last_seen": "2026-07-17",
-   "site_new": false
+   "last_seen": "2026-07-25",
+   "site_new": true,
+   "renewed_at": "2026-07-25 11:09"
   },
   "moppy:161252": {
    "site": "moppy",
@@ -314616,7 +314617,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 15:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "site_new": true,
    "renewed_at": "2026-07-24 01:00",
    "renewed_from": "9,000P"
@@ -319862,7 +319863,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 10:00",
    "last_seen": "2026-07-25",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-25 11:00"
   },
   "amefri:138995": {
    "site": "amefri",
@@ -319877,7 +319879,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 10:00",
    "last_seen": "2026-07-25",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-25 11:00"
   },
   "warau:204818": {
    "site": "warau",
@@ -320025,8 +320028,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": true,
-   "renewed_at": "2026-07-25 01:01"
+   "site_new": false
   },
   "amefri:138998": {
    "site": "amefri",
@@ -320041,8 +320043,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": true,
-   "renewed_at": "2026-07-25 01:01"
+   "site_new": false
   },
   "amefri:138997": {
    "site": "amefri",
@@ -320057,8 +320058,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": true,
-   "renewed_at": "2026-07-25 01:01"
+   "site_new": false
   },
   "amefri:139002": {
    "site": "amefri",
@@ -321263,7 +321263,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-25",
    "site_new": true
   },
   "moppy:161704": {
@@ -325011,57 +325011,65 @@
    "site": "point_island",
    "deal_id": "0411141",
    "title": "マネーフォワード 請求書カード払い",
-   "points_text": "35000ポイント",
-   "yen": 3500.0,
+   "points_text": "38500ポイント",
+   "yen": 3850.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=0411141",
    "condition": "審査",
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-25",
+   "renewed_at": "2026-07-25 11:00",
+   "renewed_from": "35000ポイント"
   },
   "point_stadium:0411141": {
    "site": "point_stadium",
    "deal_id": "0411141",
    "title": "マネーフォワード 請求書カード払い",
-   "points_text": "35000ポイント",
-   "yen": 3500.0,
+   "points_text": "38500ポイント",
+   "yen": 3850.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=0411141",
    "condition": "審査で",
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-25",
+   "renewed_at": "2026-07-25 11:00",
+   "renewed_from": "35000ポイント"
   },
   "point_land:0411141": {
    "site": "point_land",
    "deal_id": "0411141",
    "title": "マネーフォワード 請求書カード払い",
-   "points_text": "35000ポイント",
-   "yen": 3500.0,
+   "points_text": "38500ポイント",
+   "yen": 3850.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=0411141",
    "condition": "審査",
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-25",
+   "renewed_at": "2026-07-25 11:00",
+   "renewed_from": "35000ポイント"
   },
   "nyandaful:0411141": {
    "site": "nyandaful",
    "deal_id": "0411141",
    "title": "マネーフォワード 請求書カード払い",
-   "points_text": "35,000pt",
-   "yen": 3500.0,
+   "points_text": "38,500pt",
+   "yen": 3850.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=0411141",
    "condition": "審査で",
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-25",
+   "renewed_at": "2026-07-25 11:00",
+   "renewed_from": "35,000pt"
   },
   "poikatsu_club:14293": {
    "site": "poikatsu_club",
@@ -327411,7 +327419,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:1814": {
    "site": "moppy",
@@ -327426,7 +327434,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:2761": {
    "site": "moppy",
@@ -327441,7 +327449,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:902": {
    "site": "moppy",
@@ -327456,7 +327464,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:1126": {
    "site": "moppy",
@@ -327471,7 +327479,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "dead_streak": 2
   }
  }
 }

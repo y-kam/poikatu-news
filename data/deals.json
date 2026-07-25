@@ -71882,7 +71882,7 @@
    "condition": "訪問査定申し込み後、訪問査定・相談",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "site_new": true,
    "renewed_at": "2026-07-18 21:10"
   },
@@ -277246,15 +277246,17 @@
    "site": "moppy",
    "deal_id": "160969",
    "title": "キャラフル",
-   "points_text": "40P",
-   "yen": 40.0,
+   "points_text": "65P",
+   "yen": 65.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160969",
    "condition": "新規アプリインストール後、プロフィール登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-25",
+   "renewed_at": "2026-07-25 13:00",
+   "renewed_from": "40P"
   },
   "moppy:161662": {
    "site": "moppy",
@@ -317774,7 +317776,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 13:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-25",
    "site_new": true,
    "renewed_at": "2026-07-25 01:10"
   },
@@ -320012,8 +320014,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": true,
-   "renewed_at": "2026-07-25 01:01"
+   "site_new": false
   },
   "amefri:138999": {
    "site": "amefri",
@@ -320028,7 +320029,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-25 13:00"
   },
   "amefri:138998": {
    "site": "amefri",
@@ -320043,7 +320045,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-25 13:00"
   },
   "amefri:138997": {
    "site": "amefri",
@@ -320058,7 +320061,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-25 13:00"
   },
   "amefri:139002": {
    "site": "amefri",
@@ -320385,7 +320389,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 15:00",
    "last_seen": "2026-07-22",
-   "site_new": true
+   "site_new": false
   },
   "pointtown:10358": {
    "site": "pointtown",
@@ -323322,7 +323326,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "poikatsu_club:13947": {
    "site": "poikatsu_club",
@@ -327419,7 +327423,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:1814": {
    "site": "moppy",
@@ -327434,7 +327438,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:2761": {
    "site": "moppy",
@@ -327449,7 +327453,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:902": {
    "site": "moppy",
@@ -327464,7 +327468,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:1126": {
    "site": "moppy",
@@ -327479,7 +327483,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   }
  }
 }

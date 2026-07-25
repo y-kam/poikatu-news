@@ -301981,7 +301981,8 @@
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 21:00",
    "last_seen": "2026-07-20",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-07-25 15:09"
   },
   "point_land:010835": {
    "site": "point_land",
@@ -320014,7 +320015,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
    "last_seen": "2026-07-25",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-25 15:00"
   },
   "amefri:138999": {
    "site": "amefri",
@@ -321283,7 +321285,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-22",
-   "site_new": true
+   "site_new": false
   },
   "pointtown:10876": {
    "site": "pointtown",
@@ -322919,7 +322921,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "poikatsu_club:13703": {
    "site": "poikatsu_club",
@@ -324994,7 +324996,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "site_new": true
   },
   "au_point:8:1102": {
@@ -326600,7 +326602,8 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-25",
-   "site_new": true
+   "site_new": true,
+   "dead_streak": 1
   },
   "moppy:161935": {
    "site": "moppy",

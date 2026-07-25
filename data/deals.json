@@ -247802,7 +247802,7 @@
   "kurashiru_reward:16024": {
    "site": "kurashiru_reward",
    "deal_id": "16024",
-   "title": "【明日まで最高還元】JCBカードW・JCBカード W plus L",
+   "title": "【今日まで最高還元】JCBカードW・JCBカード W plus L",
    "points_text": "1,197,000コイン",
    "yen": 11970.0,
    "percent": null,
@@ -247811,7 +247811,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "renewed_at": "2026-07-24 01:00",
    "renewed_from": "594,000コイン"
   },
@@ -270415,9 +270415,7 @@
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
    "last_seen": "2026-07-22",
-   "site_new": true,
-   "renewed_at": "2026-07-22 17:10",
-   "renewed_from": "12,000P"
+   "site_new": false
   },
   "moppy:155422": {
    "site": "moppy",
@@ -272054,7 +272052,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 20:23",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-25",
    "site_new": true,
    "renewed_at": "2026-07-23 11:09"
   },
@@ -277490,7 +277488,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-14"
+   "last_seen": "2026-07-25"
   },
   "moppy:161712": {
    "site": "moppy",
@@ -301980,7 +301978,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 21:00",
-   "last_seen": "2026-07-20",
+   "last_seen": "2026-07-25",
    "site_new": true,
    "renewed_at": "2026-07-25 15:09"
   },
@@ -320845,7 +320843,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 17:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139004": {
    "site": "amefri",
@@ -320860,7 +320858,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 17:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139005": {
    "site": "amefri",
@@ -320875,7 +320873,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 17:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "au_point:8:1501": {
    "site": "au_point",
@@ -321255,7 +321253,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "moppy:112069": {
    "site": "moppy",
@@ -322907,7 +322905,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "poikatsu_club:13669": {
    "site": "poikatsu_club",
@@ -322949,7 +322947,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "poikatsu_club:13672": {
    "site": "poikatsu_club",
@@ -324808,7 +324806,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "warau:204903": {
    "site": "warau",
@@ -326603,7 +326601,7 @@
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-25",
    "site_new": true,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:161935": {
    "site": "moppy",

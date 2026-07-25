@@ -73869,7 +73869,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-13"
+   "last_seen": "2026-07-25"
   },
   "point_island:c12906": {
    "site": "point_island",
@@ -74404,7 +74404,7 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-25"
   },
   "point_stadium:c12906": {
    "site": "point_stadium",
@@ -74799,7 +74799,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07"
+   "last_seen": "2026-07-25"
   },
   "point_land:c12906": {
    "site": "point_land",
@@ -237499,7 +237499,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-25",
+   "renewed_at": "2026-07-25 21:00"
   },
   "nyandaful:d2034": {
    "site": "nyandaful",
@@ -301945,7 +301946,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 13:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-25",
    "site_new": true,
    "renewed_at": "2026-07-18 21:10"
   },
@@ -305264,7 +305265,8 @@
    "first_seen_at": "2026-07-14 05:00",
    "last_seen": "2026-07-25",
    "site_new": false,
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -313027,8 +313029,7 @@
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 21:00",
    "last_seen": "2026-07-23",
-   "site_new": true,
-   "renewed_at": "2026-07-22 21:10"
+   "site_new": false
   },
   "moppy:139934": {
    "site": "moppy",
@@ -313043,8 +313044,7 @@
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 21:00",
    "last_seen": "2026-07-23",
-   "site_new": true,
-   "renewed_at": "2026-07-22 21:10"
+   "site_new": false
   },
   "warau:204733": {
    "site": "warau",
@@ -314504,8 +314504,7 @@
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 13:00",
    "last_seen": "2026-07-23",
-   "site_new": true,
-   "renewed_at": "2026-07-22 21:10"
+   "site_new": false
   },
   "moppy:100953": {
    "site": "moppy",
@@ -321498,7 +321497,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139014": {
    "site": "amefri",
@@ -321513,7 +321512,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139011": {
    "site": "amefri",
@@ -321528,7 +321527,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139010": {
    "site": "amefri",
@@ -321543,7 +321542,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "entamenet:5s00000023213001": {
    "site": "entamenet",
@@ -324173,7 +324172,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-25"
   },
   "poikatsu_club:14283": {
    "site": "poikatsu_club",
@@ -326601,7 +326600,7 @@
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-25",
    "site_new": true,
-   "dead_streak": 2
+   "delisted_at": "2026-07-25"
   },
   "moppy:161935": {
    "site": "moppy",
@@ -327485,6 +327484,34 @@
    "first_seen_at": "2026-07-25 10:00",
    "last_seen": "2026-07-25",
    "delisted_at": "2026-07-25"
+  },
+  "entamenet:5s00000025951001": {
+   "site": "entamenet",
+   "deal_id": "5s00000025951001",
+   "title": "お茶と海苔といえば「山本山オンラインショップ」",
+   "points_text": "100円購入毎に14円",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=5s00000025951001",
+   "condition": "商品購入（リピートOK）",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 21:00",
+   "last_seen": "2026-07-25"
+  },
+  "entamenet:5s00000022569001": {
+   "site": "entamenet",
+   "deal_id": "5s00000022569001",
+   "title": "3年保証にお気楽返品！業歴20年超えの老舗中古パソコン専門店「PC WRAP」",
+   "points_text": "100円購入毎に9円",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=5s00000022569001",
+   "condition": "商品購入（リピートOK）",
+   "seeded": false,
+   "first_seen": "2026-07-25",
+   "first_seen_at": "2026-07-25 21:00",
+   "last_seen": "2026-07-25"
   }
  }
 }

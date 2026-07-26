@@ -88379,8 +88379,8 @@
    "site": "powl",
    "deal_id": "7083",
    "title": "Oisix(おいしっくす）【おためしセット】",
-   "points_text": "10,000pt",
-   "yen": 1000.0,
+   "points_text": "12,000pt",
+   "yen": 1200.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/7083",
    "condition": "",
@@ -277790,7 +277790,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "moppy:160269": {
    "site": "moppy",
@@ -305902,8 +305902,7 @@
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 15:00",
    "last_seen": "2026-07-23",
-   "site_new": true,
-   "renewed_at": "2026-07-23 15:00"
+   "site_new": false
   },
   "warau:204598": {
    "site": "warau",
@@ -322900,7 +322899,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "poikatsu_club:13669": {
    "site": "poikatsu_club",
@@ -322985,7 +322984,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 15:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "warau:204872": {
    "site": "warau",
@@ -323282,7 +323281,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139028": {
    "site": "amefri",
@@ -327617,7 +327616,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 2
+   "delisted_at": "2026-07-26"
   },
   "pointincome:155234": {
    "site": "pointincome",
@@ -327632,7 +327631,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 2
+   "delisted_at": "2026-07-26"
   },
   "pointincome:150186": {
    "site": "pointincome",
@@ -327647,7 +327646,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 2
+   "delisted_at": "2026-07-26"
   },
   "pointincome:155889": {
    "site": "pointincome",
@@ -327662,7 +327661,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 2
+   "delisted_at": "2026-07-26"
   },
   "moppy:149901": {
    "site": "moppy",
@@ -327678,6 +327677,36 @@
    "first_seen_at": "2026-07-26 11:00",
    "last_seen": "2026-07-26",
    "site_new": true
+  },
+  "moppy:160483": {
+   "site": "moppy",
+   "deal_id": "160483",
+   "title": "【本日限定・超還元】SBI証券(新規総合口座開設+NISA口座開設)",
+   "points_text": "8,000P",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=160483",
+   "condition": "新規総合口座開設+NISA口座開設の完了（同時申込可能）",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 13:00",
+   "last_seen": "2026-07-26",
+   "site_new": true
+  },
+  "moppy:4402": {
+   "site": "moppy",
+   "deal_id": "4402",
+   "title": "サウンドハウス",
+   "points_text": "3.0%",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=4402",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 13:00",
+   "last_seen": "2026-07-26",
+   "dead_streak": 2
   }
  }
 }

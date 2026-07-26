@@ -54564,9 +54564,9 @@
    "site": "rebates",
    "deal_id": "11928",
    "title": "スワロフスキー",
-   "points_text": "4.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/swarovski.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -55755,14 +55755,15 @@
    "site": "rebates",
    "deal_id": "14708",
    "title": "フェリシモ",
-   "points_text": "5.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/felissimo",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-26",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:18658": {
    "site": "rebates",
@@ -327611,7 +327612,8 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   },
   "pointincome:155234": {
    "site": "pointincome",
@@ -327625,7 +327627,8 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   },
   "pointincome:150186": {
    "site": "pointincome",
@@ -327639,7 +327642,8 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   },
   "pointincome:155889": {
    "site": "pointincome",
@@ -327653,7 +327657,8 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   }
  }
 }

@@ -60305,7 +60305,7 @@
    "url": "https://pmall.gpoint.co.jp/shoplist/allshop/116435/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "condition": ""
   },
   "gpoint:133788": {
@@ -309940,7 +309940,7 @@
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
    "last_seen": "2026-07-23",
-   "site_new": true
+   "site_new": false
   },
   "pointincome:155426": {
    "site": "pointincome",
@@ -323233,8 +323233,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-26",
-   "site_new": true,
-   "renewed_at": "2026-07-26 01:00"
+   "site_new": false
   },
   "amefri:139026": {
    "site": "amefri",
@@ -323249,8 +323248,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-26",
-   "site_new": true,
-   "renewed_at": "2026-07-26 01:00"
+   "site_new": false
   },
   "amefri:139025": {
    "site": "amefri",
@@ -323265,8 +323263,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-26",
-   "site_new": true,
-   "renewed_at": "2026-07-26 01:00"
+   "site_new": false
   },
   "amefri:139024": {
    "site": "amefri",
@@ -323814,8 +323811,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-26",
-   "site_new": true,
-   "renewed_at": "2026-07-26 01:00"
+   "site_new": false
   },
   "amefri:139040": {
    "site": "amefri",
@@ -327706,7 +327702,21 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 13:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 2
+   "delisted_at": "2026-07-26"
+  },
+  "getmoney:67054": {
+   "site": "getmoney",
+   "deal_id": "67054",
+   "title": "【CTN車一括査定】新規WEB申込みプログラム",
+   "points_text": "56,200Pt",
+   "yen": 5620.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67054",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 17:00",
+   "last_seen": "2026-07-26"
   }
  }
 }

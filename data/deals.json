@@ -73930,7 +73930,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-07-27"
   },
   "point_island:s25623": {
    "site": "point_island",
@@ -74466,7 +74466,7 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08"
+   "last_seen": "2026-07-27"
   },
   "point_stadium:s25623": {
    "site": "point_stadium",
@@ -75358,7 +75358,8 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08"
+   "last_seen": "2026-07-27",
+   "renewed_at": "2026-07-27 08:00"
   },
   "nyandaful:s25623": {
    "site": "nyandaful",
@@ -324788,7 +324789,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-27"
   },
   "warau:202547": {
    "site": "warau",
@@ -327833,7 +327834,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 01:00",
    "last_seen": "2026-07-27",
-   "dead_streak": 2
+   "delisted_at": "2026-07-27"
   },
   "moppy:4131": {
    "site": "moppy",
@@ -327848,7 +327849,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 01:00",
    "last_seen": "2026-07-27",
-   "dead_streak": 2
+   "delisted_at": "2026-07-27"
   },
   "warau:204935": {
    "site": "warau",
@@ -327876,6 +327877,20 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 01:00",
+   "last_seen": "2026-07-27"
+  },
+  "point_land:11139602": {
+   "site": "point_land",
+   "deal_id": "11139602",
+   "title": "KOMEHYO（コメ兵）店頭買取予約",
+   "points_text": "23000ポイント",
+   "yen": 2300.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=11139602",
+   "condition": "買取",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 08:00",
    "last_seen": "2026-07-27"
   }
  }

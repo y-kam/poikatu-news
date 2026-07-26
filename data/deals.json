@@ -275178,17 +275178,19 @@
    "site": "moppy",
    "deal_id": "161624",
    "title": "ミラリタ｜初回投資でAmazonギフト5,000円分プレゼント",
-   "points_text": "12,000P",
-   "yen": 12000.0,
+   "points_text": "15,000P",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161624",
    "condition": "新規口座開設申請後、30日以内に10万円以上の投資完了＋投資プロジェクトの成立",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 20:22",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-26",
    "site_new": false,
-   "delisted_at": "2026-07-13"
+   "delisted_at": "2026-07-13",
+   "renewed_at": "2026-07-26 11:00",
+   "renewed_from": "12,000P"
   },
   "moppy:146116": {
    "site": "moppy",
@@ -322912,7 +322914,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "poikatsu_club:13703": {
    "site": "poikatsu_club",
@@ -326590,8 +326592,8 @@
    "site": "moppy",
    "deal_id": "161938",
    "title": "ヴァンピール(VAMPIR)",
-   "points_text": "48P",
-   "yen": 48.0,
+   "points_text": "61P",
+   "yen": 61.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161938",
    "condition": "新規アプリインストール後、初回起動",
@@ -326600,7 +326602,9 @@
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-26",
    "site_new": true,
-   "delisted_at": "2026-07-25"
+   "delisted_at": "2026-07-25",
+   "renewed_at": "2026-07-26 11:00",
+   "renewed_from": "48P"
   },
   "moppy:161935": {
    "site": "moppy",
@@ -327613,7 +327617,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155234": {
    "site": "pointincome",
@@ -327628,7 +327632,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:150186": {
    "site": "pointincome",
@@ -327643,7 +327647,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155889": {
    "site": "pointincome",
@@ -327658,7 +327662,22 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 1
+   "dead_streak": 2
+  },
+  "moppy:149901": {
+   "site": "moppy",
+   "deal_id": "149901",
+   "title": "【還元UP中】Funds(ファンズ)【無料投資家登録】",
+   "points_text": "2,500P",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=149901",
+   "condition": "新規投資家登録（会員登録＋口座開設）後、ログイン",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 11:00",
+   "last_seen": "2026-07-26",
+   "site_new": true
   }
  }
 }

@@ -73873,7 +73873,8 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   },
   "point_island:c12906": {
    "site": "point_island",
@@ -73991,7 +73992,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-07-26"
   },
   "point_island:k2847": {
    "site": "point_island",
@@ -74408,7 +74409,8 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   },
   "point_stadium:c12906": {
    "site": "point_stadium",
@@ -74552,7 +74554,7 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07"
+   "last_seen": "2026-07-26"
   },
   "point_stadium:k2847": {
    "site": "point_stadium",
@@ -74803,7 +74805,8 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-26"
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
   },
   "point_land:c12906": {
    "site": "point_land",
@@ -75445,7 +75448,8 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-26",
+   "renewed_at": "2026-07-26 21:00"
   },
   "pointier:16740": {
    "site": "pointier",
@@ -277515,7 +277519,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-18"
+   "last_seen": "2026-07-26"
   },
   "moppy:161797": {
    "site": "moppy",
@@ -302537,17 +302541,18 @@
    "site": "moppy",
    "deal_id": "5679",
    "title": "ISETAN BEAUTY online（イセタン ビューティー オンライン）",
-   "points_text": "0.7%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 0.7,
+   "percent": 1.5,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=5679",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-16",
+   "last_seen": "2026-07-26",
    "delisted_at": "2026-07-13",
-   "renew_hold": true
+   "renewed_at": "2026-07-26 21:00",
+   "renewed_from": "0.7%"
   },
   "moppy:5766": {
    "site": "moppy",
@@ -305263,7 +305268,8 @@
    "first_seen_at": "2026-07-14 05:00",
    "last_seen": "2026-07-26",
    "site_new": false,
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -317560,7 +317566,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 10:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-26"
   },
   "sugutama:30421": {
    "site": "sugutama",
@@ -323233,7 +323239,8 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-26",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-26 21:00"
   },
   "amefri:139026": {
    "site": "amefri",
@@ -323248,7 +323255,8 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-26",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-26 21:00"
   },
   "amefri:139025": {
    "site": "amefri",
@@ -323263,7 +323271,8 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-26",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-26 21:00"
   },
   "amefri:139024": {
    "site": "amefri",
@@ -323811,7 +323820,8 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-26",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-26 21:00"
   },
   "amefri:139040": {
    "site": "amefri",
@@ -323826,7 +323836,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139039": {
    "site": "amefri",
@@ -323841,7 +323851,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139036": {
    "site": "amefri",
@@ -323856,7 +323866,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139035": {
    "site": "amefri",
@@ -323871,7 +323881,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139033": {
    "site": "amefri",
@@ -323886,7 +323896,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139032": {
    "site": "amefri",
@@ -324990,7 +325000,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-25",
+   "last_seen": "2026-07-26",
    "site_new": true
   },
   "au_point:8:1102": {
@@ -327716,6 +327726,80 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 17:00",
+   "last_seen": "2026-07-26"
+  },
+  "moppy:5153": {
+   "site": "moppy",
+   "deal_id": "5153",
+   "title": "Oisix(おいしっくす）",
+   "points_text": "2.0%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=5153",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 21:00",
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
+  },
+  "moppy:484": {
+   "site": "moppy",
+   "deal_id": "484",
+   "title": "ベルメゾン",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=484",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 21:00",
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
+  },
+  "moppy:2345": {
+   "site": "moppy",
+   "deal_id": "2345",
+   "title": "WORLD ONLINE STORE(ワールド オンラインストア)",
+   "points_text": "3.0%",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=2345",
+   "condition": "入金後、発送確認完了",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 21:00",
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
+  },
+  "moppy:1705": {
+   "site": "moppy",
+   "deal_id": "1705",
+   "title": "nojima online(ノジマオンライン)",
+   "points_text": "1.2%",
+   "yen": null,
+   "percent": 1.2,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=1705",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 21:00",
+   "last_seen": "2026-07-26",
+   "dead_streak": 1
+  },
+  "point_land:8661900001": {
+   "site": "point_land",
+   "deal_id": "8661900001",
+   "title": "MySCUE（マイスキュー）☆無料会員登録",
+   "points_text": "1000ポイント",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=8661900001",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-07-26",
+   "first_seen_at": "2026-07-26 21:00",
    "last_seen": "2026-07-26"
   }
  }

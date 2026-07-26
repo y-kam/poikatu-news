@@ -323281,7 +323281,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139028": {
    "site": "amefri",
@@ -327706,7 +327706,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 13:00",
    "last_seen": "2026-07-26",
-   "dead_streak": 1
+   "dead_streak": 2
   }
  }
 }

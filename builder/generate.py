@@ -1,4 +1,5 @@
 """クロール結果から静的サイト（site/）を生成する。"""
+import hashlib
 import json
 import shutil
 from datetime import datetime, timedelta, timezone
@@ -498,6 +499,11 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     has_referral = any(s.get("referral_url") for s in enabled_sites.values())
     has_promotion = has_referral or bool(publish.get("adsense_client_id"))
 
+    # style.css の内容ハッシュ。<link>の ?v= に付けてキャッシュを内容単位で無効化する
+    # （CSSは1日キャッシュのため、無印URLだとデプロイ後も旧CSSが使われ新ページの
+    # レイアウトが崩れる。URL自体を変えることでデプロイ直後から新CSSを読ませる）
+    css_v = hashlib.md5((STATIC_DIR / "style.css").read_bytes()).hexdigest()[:8]
+
     # 全ページ共通のコンテキスト（base.html.j2 が参照する）
     common = {
         "base_url": BASE_URL,
@@ -505,6 +511,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         "site_count": len(enabled_sites),
         "has_referral": has_referral,
         "has_promotion": has_promotion,
+        "css_v": css_v,
     }
     html = env.get_template("index.html.j2").render(
         updated_at=updated_at,

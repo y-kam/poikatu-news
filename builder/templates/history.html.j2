@@ -32,6 +32,12 @@
   <div class="meta">最終更新: {{ updated_at }}</div>
 {% endblock %}
 {% block content %}
+{# 関連ページタブ: トップ・UP額ランキングと行き来しやすくする（現在ページは塗りつぶし表示） #}
+<nav class="jumpnav" aria-label="関連ページ">
+  <a href="/">← ホーム</a>
+  <a href="/ranking.html">UP額ランキング</a>
+  <a href="/history.html" class="current" aria-current="page">値動き履歴</a>
+</nav>
 <section>
   <h2>値動き履歴<span class="allcount">（変動があった案件 {{ total }}件）</span></h2>
   <p class="note">掲載中にポイント数が変わった案件を、変動日の新しい順に並べています{% if rows|length < total %}（上位{{ rows|length }}件）{% endif %}。<span class="dirbadge dir-up">▲ 値上がり</span>は前回より高く、<span class="dirbadge dir-down">▼ 値下がり</span>は前回より低くなった案件です。折れ線は観測した値動きの推移（右端が現在の値）を表します。</p>

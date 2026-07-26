@@ -32,6 +32,12 @@
   <div class="meta">最終更新: {{ updated_at }}</div>
 {% endblock %}
 {% block content %}
+{# 関連ページタブ: トップ・値動き履歴と行き来しやすくする（現在ページは塗りつぶし表示） #}
+<nav class="jumpnav" aria-label="関連ページ">
+  <a href="/">← ホーム</a>
+  <a href="/ranking.html" class="current" aria-current="page">UP額ランキング</a>
+  <a href="/history.html">値動き履歴</a>
+</nav>
 <section>
   <h2>今週のポイントUP額ランキング<span class="allcount">（直近{{ up_days }}日）</span></h2>
   <p class="note">直近{{ up_days }}日間にポイントが増額され、今も増額中の案件を「増額幅（いくらUPしたか・円換算）」の大きい順に並べています。増額が終わった案件は自動的にランキングから外れます。</p>

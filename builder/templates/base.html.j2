@@ -38,7 +38,9 @@
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#b8430a">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#a03a08">
 <meta name="theme-color" content="#b8430a">
-<link rel="stylesheet" href="/style.css">
+{# ?v= はCSS内容のハッシュ（generate.pyで算出）。デプロイでCSSが変わるとURLも変わり、
+   ブラウザの1日キャッシュに関係なく即座に新CSSが読まれる（旧CSSでのレイアウト崩れ防止） #}
+<link rel="stylesheet" href="/style.css?v={{ css_v }}">
 {% if publish.ga4_id %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ publish.ga4_id }}"></script>
 <script>

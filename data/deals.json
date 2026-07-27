@@ -43293,7 +43293,7 @@
    "url": "https://pointi.jp/ad/154106/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-17",
+   "last_seen": "2026-07-27",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -60208,7 +60208,7 @@
    "url": "https://pmall.gpoint.co.jp/shoplist/allshop/134743/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-27",
    "condition": ""
   },
   "gpoint:134569": {
@@ -72430,7 +72430,8 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
   },
   "getmoney:67023": {
    "site": "getmoney",
@@ -271447,7 +271448,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-07-19",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-08"
   },
   "pointincome:155775": {
@@ -272110,8 +272111,7 @@
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 20:23",
    "last_seen": "2026-07-24",
-   "site_new": true,
-   "renewed_at": "2026-07-24 21:09"
+   "site_new": false
   },
   "warau:204387": {
    "site": "warau",
@@ -276075,7 +276075,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-10"
   },
   "rebates:25363": {
@@ -276163,7 +276163,7 @@
    "first_seen_at": "2026-07-09 11:00",
    "last_seen": "2026-07-09",
    "site_new": false,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:154972": {
    "site": "pointincome",
@@ -277264,8 +277264,8 @@
    "site": "moppy",
    "deal_id": "161662",
    "title": "スマートニュース（8日目起動）",
-   "points_text": "500P",
-   "yen": 500.0,
+   "points_text": "400P",
+   "yen": 400.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161662",
    "condition": "初回起動日を1日目として8日目の起動",
@@ -301858,7 +301858,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-07-12",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-11"
   },
   "pointincome:152564": {
@@ -302024,7 +302024,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 01:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-27",
    "site_new": true,
    "renewed_at": "2026-07-27 15:09"
   },
@@ -302607,7 +302607,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-13",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-14"
   },
   "pointincome:154107": {
@@ -315935,17 +315935,18 @@
    "site": "moppy",
    "deal_id": "161166",
    "title": "【過去最高還元！】三井住友カード ビジネスオーナーズゴールド（カード発行）",
-   "points_text": "30,000P",
-   "yen": 30000.0,
+   "points_text": "32,000P",
+   "yen": 32000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161166",
    "condition": "新規クレジットカード発行",
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 01:00",
-   "last_seen": "2026-07-21",
-   "site_new": false,
-   "renew_hold": true
+   "last_seen": "2026-07-27",
+   "site_new": true,
+   "renewed_at": "2026-07-27 17:09",
+   "renewed_from": "30,000P"
   },
   "moppy:161894": {
    "site": "moppy",
@@ -318652,7 +318653,7 @@
    "first_seen_at": "2026-07-21 21:00",
    "last_seen": "2026-07-22",
    "site_new": false,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:161904": {
    "site": "moppy",
@@ -322617,7 +322618,8 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 10:00",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
   },
   "powl:35426": {
    "site": "powl",
@@ -322991,7 +322993,7 @@
    "first_seen_at": "2026-07-23 15:00",
    "last_seen": "2026-07-23",
    "site_new": false,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:204872": {
    "site": "warau",
@@ -324343,7 +324345,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 01:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-24"
   },
   "pointincome:151628": {
@@ -324462,7 +324464,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 01:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-27"
   },
   "warau:204864": {
    "site": "warau",
@@ -325189,7 +325191,8 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 15:00",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
   },
   "warau:204557": {
    "site": "warau",
@@ -325276,7 +325279,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 15:00",
    "last_seen": "2026-07-27",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-27 17:00"
   },
   "point_island:s25351": {
    "site": "point_island",
@@ -325420,7 +325424,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 17:00",
    "last_seen": "2026-07-27",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-27 17:00"
   },
   "amefri:139049": {
    "site": "amefri",
@@ -325435,7 +325440,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 17:00",
    "last_seen": "2026-07-27",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-27 17:00"
   },
   "amefri:139051": {
    "site": "amefri",
@@ -325724,7 +325730,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": true,
+   "dead_streak": 1
   },
   "moppy:142844": {
    "site": "moppy",
@@ -326046,7 +326053,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-27",
-   "dead_streak": 1
+   "delisted_at": "2026-07-27"
   },
   "warau:204922": {
    "site": "warau",
@@ -326193,8 +326200,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-27",
-   "site_new": true,
-   "renewed_at": "2026-07-27 01:00"
+   "site_new": false
   },
   "amefri:139063": {
    "site": "amefri",
@@ -327966,7 +327972,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
    "last_seen": "2026-07-27",
-   "dead_streak": 2
+   "delisted_at": "2026-07-27"
   },
   "moppy:1498": {
    "site": "moppy",
@@ -327981,7 +327987,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
    "last_seen": "2026-07-27",
-   "dead_streak": 2
+   "delisted_at": "2026-07-27"
   },
   "moppy:161868": {
    "site": "moppy",
@@ -328010,8 +328016,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-07-27",
-   "dead_streak": 1
+   "last_seen": "2026-07-27"
   },
   "getmoney:67056": {
    "site": "getmoney",
@@ -328100,7 +328105,7 @@
   "kurashiru_reward:17866": {
    "site": "kurashiru_reward",
    "deal_id": "17866",
-   "title": "kingopinion(会員登録後のアンケート回答完了）",
+   "title": "kingopinion(会員登録後のアンケート回答完了（プロフィール完成））",
    "points_text": "9,900コイン",
    "yen": 99.0,
    "percent": null,
@@ -328459,6 +328464,237 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 15:00",
+   "last_seen": "2026-07-27"
+  },
+  "moppy:158735": {
+   "site": "moppy",
+   "deal_id": "158735",
+   "title": "クレディセゾン「ゴールドカードセゾン」",
+   "points_text": "10,000P",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=158735",
+   "condition": "クレジットカード発券（Masterブランド）＋翌月末までに5,000円利用",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
+  },
+  "pointincome:143739": {
+   "site": "pointincome",
+   "deal_id": "143739",
+   "title": "ゴルフ・ドゥ(Golf do) 公式オンラインショップ",
+   "points_text": "購入金額の2.5%",
+   "yen": null,
+   "percent": 2.5,
+   "url": "https://pointi.jp/ad/143739/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "pointincome:144616": {
+   "site": "pointincome",
+   "deal_id": "144616",
+   "title": "ソースネクスト（SOURCENEXT）",
+   "points_text": "購入金額の3%",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://pointi.jp/ad/144616/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "pointincome:142066": {
+   "site": "pointincome",
+   "deal_id": "142066",
+   "title": "HOME CLEAR",
+   "points_text": "89,640pt",
+   "yen": 8964.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/142066/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "warau:204954": {
+   "site": "warau",
+   "deal_id": "204954",
+   "title": "【SKYFLAG】スワイプ・イット：木製ボードパズル (Swipe It : Board Wooden Puzz…",
+   "points_text": "2,774pt",
+   "yen": 2774.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204954",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
+  },
+  "warau:204953": {
+   "site": "warau",
+   "deal_id": "204953",
+   "title": "【SKYFLAG】スワイプ・イット：木製ボードパズル（StepUp）",
+   "points_text": "2,774pt",
+   "yen": 2774.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204953",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
+  },
+  "warau:204952": {
+   "site": "warau",
+   "deal_id": "204952",
+   "title": "TORCHES - トーチーズ",
+   "points_text": "4,200pt",
+   "yen": 4200.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204952",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "warau:202133": {
+   "site": "warau",
+   "deal_id": "202133",
+   "title": "【最大78,500円相当】三菱ＵＦＪ銀行資産運用プラスセット",
+   "points_text": "17,000pt",
+   "yen": 17000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=202133",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "warau:204860": {
+   "site": "warau",
+   "deal_id": "204860",
+   "title": "AIスキルアカデミー",
+   "points_text": "1,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204860",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "sugutama:41205": {
+   "site": "sugutama",
+   "deal_id": "41205",
+   "title": "WEDGWOOD",
+   "points_text": "4.0%",
+   "yen": null,
+   "percent": 4.0,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41205",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "amefri:134004": {
+   "site": "amefri",
+   "deal_id": "134004",
+   "title": "【最大78,500円相当】三菱ＵＦＪ銀行資産運用プラスセット",
+   "points_text": "170,000pt",
+   "yen": 17000.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/134004",
+   "condition": "新規アプリダウンロード＋証券口座開設完了+預金口座開設完了＋新規クレジットカード発行完了（カード受取必須）+各種取引完了",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
+  },
+  "amefri:139073": {
+   "site": "amefri",
+   "deal_id": "139073",
+   "title": "もふもふ大脱走（多段階）【iOS・Android】",
+   "points_text": "5,160pt",
+   "yen": 516.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139073",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
+  },
+  "amefri:139071": {
+   "site": "amefri",
+   "deal_id": "139071",
+   "title": "スワイプ・イット：木製ボードパズル（多段階）【Android】",
+   "points_text": "27,680pt",
+   "yen": 2768.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139071",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
+  },
+  "amefri:139070": {
+   "site": "amefri",
+   "deal_id": "139070",
+   "title": "スワイプ・イット：木製ボードパズル (Swipe It : Board Wooden Puzzle)（多段階）【iOS】",
+   "points_text": "27,680pt",
+   "yen": 2768.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139070",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
+  },
+  "au_point:7:879789200": {
+   "site": "au_point",
+   "deal_id": "7:879789200",
+   "title": "歩数計あるくん〜シンプルなウォーキングアプリ（メールアドレス登録完了）（iOS）",
+   "points_text": "40P",
+   "yen": 40.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=7&campaignId=879789200",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
+   "last_seen": "2026-07-27"
+  },
+  "poikatsu_club:14315": {
+   "site": "poikatsu_club",
+   "deal_id": "14315",
+   "title": "もふもふ大脱走",
+   "points_text": "567pt",
+   "yen": 567.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14315",
+   "condition": "新規ゲーム開始後、【StepUpミッション!!】で報酬獲得となります。\nアプリのインストールは必要ございません\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※ゲーム内のサーバーを移動した場合、獲得対象外となります※\n\n2026/7/27以降に新規ゲーム開始された方が条件適用となります。\nそれ以前に新規ゲーム開始された方は獲得対象外となります。\n\n獲得条件達成期限は新規ゲーム開始から起算して30日以内まで、\nお問い合わせ受付期限は新規ゲーム開始から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：もふもふパスポート購入\n②：7日以内に3日間パスポートの報酬を獲得\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一ゲームに関する報酬獲得は1人1回までとなります。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・過去に当該ゲームを開始/条件到達したことがある場合。\n・新規ゲームを開始した端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してゲームを開始・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してゲームを開始/条件到達した場合。\n・他端末で同一IPを利用したゲームを開始/条件到達をした場合（家族・友人の利用を含む）。\n　※1端末目のみ有効になります\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からゲーム開始された場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前に退会していた場合。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\n獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n『もふもふパスポート購入/〇〇日以内に〇〇日間パスポートの報酬を獲得』\n条件達成がわかるヘルプ画面(キャプチャ①)とショップ画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：［LINEを起動］⇒［ホーム画面］右下の［MINI］をタップ⇒［ミニアプリ画面］右上の虫眼鏡マークをタップ⇒検索窓に『もふもふ大脱走』を入力し、検索結果をタップ⇒［もふもふ大脱走］を起動し右上の［･･･ボタン］をタップ⇒［ヘルプ画面］を表示\nキャプチャ②：［LINEを起動］⇒［ホーム画面］右下の［MINI］をタップ⇒［ミニアプリ画面］右上の虫眼鏡マークをタップ⇒検索窓に『もふもふ大脱走』を入力し、検索結果をタップ⇒［もふもふ大脱走］を起動し左下の［ジュエル購入ボタン］をタップ⇒［ショップ画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 17:00",
    "last_seen": "2026-07-27"
   }
  }

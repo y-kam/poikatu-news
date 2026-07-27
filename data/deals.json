@@ -213814,7 +213814,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-28"
   },
   "point_island:010829": {
    "site": "point_island",
@@ -225197,7 +225197,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-28"
   },
   "point_stadium:010829": {
    "site": "point_stadium",
@@ -236628,7 +236628,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-28",
+   "renewed_at": "2026-07-28 08:00"
   },
   "nyandaful:010829": {
    "site": "nyandaful",
@@ -324785,7 +324786,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-24"
   },
   "warau:199882": {
@@ -328031,8 +328032,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "last_seen": "2026-07-28"
   },
   "getmoney:67056": {
    "site": "getmoney",
@@ -328509,8 +328509,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
-   "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "last_seen": "2026-07-28"
   },
   "pointincome:144616": {
    "site": "pointincome",
@@ -328524,8 +328523,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
-   "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "last_seen": "2026-07-28"
   },
   "pointincome:142066": {
    "site": "pointincome",
@@ -328539,8 +328537,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
-   "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "last_seen": "2026-07-28"
   },
   "warau:204954": {
    "site": "warau",
@@ -329618,8 +329615,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "last_seen": "2026-07-28"
   },
   "pointincome:154857": {
    "site": "pointincome",
@@ -329633,8 +329629,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "last_seen": "2026-07-28"
   },
   "warau:199159": {
    "site": "warau",
@@ -329890,6 +329885,20 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "point_land:25791": {
+   "site": "point_land",
+   "deal_id": "25791",
+   "title": "ボイスノート☆無料会員登録",
+   "points_text": "2100ポイント",
+   "yen": 210.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=25791",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 08:00",
    "last_seen": "2026-07-28"
   }
  }

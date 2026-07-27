@@ -71987,7 +71987,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-09"
   },
   "warau:204352": {
@@ -277570,7 +277570,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "renew_hold": true
   },
   "moppy:157998": {
@@ -302972,7 +302972,7 @@
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
    "last_seen": "2026-07-13",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:204485": {
    "site": "warau",
@@ -325360,7 +325360,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 17:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-24"
   },
   "warau:204916": {
@@ -325375,7 +325375,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 17:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-24"
   },
   "warau:204918": {
@@ -325843,7 +325843,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-25"
   },
   "warau:204921": {
@@ -325858,7 +325858,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-25"
   },
   "warau:204933": {
@@ -326874,7 +326874,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-27",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:197660": {
    "site": "warau",
@@ -326889,7 +326889,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-27",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "au_point:8:1510": {
    "site": "au_point",
@@ -326962,7 +326962,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
    "last_seen": "2026-07-25",
-   "site_new": true
+   "site_new": false
   },
   "moppy:940": {
    "site": "moppy",
@@ -327601,7 +327601,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 01:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "site_new": true
   },
   "moppy:157044": {
@@ -328031,7 +328031,8 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "getmoney:67056": {
    "site": "getmoney",
@@ -328508,7 +328509,8 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "pointincome:144616": {
    "site": "pointincome",
@@ -328522,7 +328524,8 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "pointincome:142066": {
    "site": "pointincome",
@@ -328536,7 +328539,8 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "warau:204954": {
    "site": "warau",
@@ -329614,7 +329618,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "pointincome:154857": {
    "site": "pointincome",
@@ -329628,7 +329633,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "warau:199159": {
    "site": "warau",
@@ -329643,7 +329649,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:199158": {
    "site": "warau",
@@ -329658,7 +329664,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:201759": {
    "site": "warau",
@@ -329687,7 +329693,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:204970": {
    "site": "warau",
@@ -329702,7 +329708,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "pointier:16754": {
    "site": "pointier",
@@ -329744,6 +329750,146 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102205": {
+   "site": "hapitas",
+   "deal_id": "102205",
+   "title": "kingopinion(会員登録後のアンケート回答完了（プロフィール完成））",
+   "points_text": "115pt",
+   "yen": 115.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102205/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102217": {
+   "site": "hapitas",
+   "deal_id": "102217",
+   "title": "歩数計あるくん〜シンプルなウォーキングアプリ（メールアドレス登録完了）（iOS）",
+   "points_text": "112pt",
+   "yen": 112.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102217/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:101308": {
+   "site": "hapitas",
+   "deal_id": "101308",
+   "title": "【みずほ銀行法人口座】UPSIDER BANK by MIZUHO",
+   "points_text": "11,900pt",
+   "yen": 11900.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/101308/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102212": {
+   "site": "hapitas",
+   "deal_id": "102212",
+   "title": "ママ＆キッズ　ナチュラルマーククリーム150g（サンプル付き）",
+   "points_text": "250pt",
+   "yen": 250.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102212/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102211": {
+   "site": "hapitas",
+   "deal_id": "102211",
+   "title": "ママ＆キッズ　ナチュラルマーククリームお得用470g（ミニボトル付き）",
+   "points_text": "2,200pt",
+   "yen": 2200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102211/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102210": {
+   "site": "hapitas",
+   "deal_id": "102210",
+   "title": "ママ＆キッズ　ベビーヘアシャンプー",
+   "points_text": "200pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102210/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102209": {
+   "site": "hapitas",
+   "deal_id": "102209",
+   "title": "ママ＆キッズ　ベビー洗浄スタートセット（保湿ミニボトル付）",
+   "points_text": "1,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102209/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102208": {
+   "site": "hapitas",
+   "deal_id": "102208",
+   "title": "ママ＆キッズ　ベビーミルキークリームお得用＆ミニボトルセット",
+   "points_text": "2,200pt",
+   "yen": 2200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102208/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102207": {
+   "site": "hapitas",
+   "deal_id": "102207",
+   "title": "ママ&キッズ　ベビーミルキーローション＆クリームセット",
+   "points_text": "2,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102207/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
+   "last_seen": "2026-07-28"
+  },
+  "hapitas:102206": {
+   "site": "hapitas",
+   "deal_id": "102206",
+   "title": "ママ&キッズ　ベビーミルキーローションお得用＆ミニボトルセット",
+   "points_text": "2,200pt",
+   "yen": 2200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102206/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 05:00",
    "last_seen": "2026-07-28"
   }
  }

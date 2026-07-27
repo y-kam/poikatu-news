@@ -311485,7 +311485,8 @@
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 13:00",
    "last_seen": "2026-07-16",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-07-27 11:09"
   },
   "warau:204691": {
    "site": "warau",
@@ -324884,7 +324885,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
    "last_seen": "2026-07-27",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-27 11:00"
   },
   "au_point:8:1507": {
    "site": "au_point",
@@ -325003,8 +325005,9 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-26",
-   "site_new": false
+   "last_seen": "2026-07-27",
+   "site_new": false,
+   "renewed_at": "2026-07-27 11:00"
   },
   "au_point:8:1102": {
    "site": "au_point",
@@ -325447,7 +325450,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 17:00",
    "last_seen": "2026-07-27",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-27 11:00"
   },
   "au_point:7:609149736": {
    "site": "au_point",
@@ -326204,7 +326208,8 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-27",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-27 11:00"
   },
   "amefri:139062": {
    "site": "amefri",
@@ -327707,7 +327712,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 11:00",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "site_new": true
   },
   "moppy:160483": {
@@ -327929,6 +327934,21 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 10:00",
    "last_seen": "2026-07-27"
+  },
+  "amefri:139065": {
+   "site": "amefri",
+   "deal_id": "139065",
+   "title": "スタイリッシュなiPhone & Samsung Galaxyケース＆カバー【BURGA（ブルガ）】",
+   "points_text": "5％",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://www.amefri.net/detail/id/139065",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 11:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
   }
  }
 }

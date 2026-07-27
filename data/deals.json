@@ -1212,7 +1212,7 @@
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=144817",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "condition": "展示場への来場後、相談・見学完了",
    "site_new": true,
    "renewed_at": "2026-07-24 11:09"
@@ -43084,9 +43084,9 @@
   "pointincome:154095": {
    "site": "pointincome",
    "deal_id": "154095",
-   "title": "【最大42,000円分】三井住友カード（NL）",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "【最大44,000円分】三井住友カード（NL）※本日限定高還元※",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154095/",
    "seeded": false,
@@ -43094,14 +43094,15 @@
    "last_seen": "2026-07-27",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-07-27 13:00",
+   "renewed_from": "130,000pt"
   },
   "pointincome:154097": {
    "site": "pointincome",
    "deal_id": "154097",
-   "title": "【最大44,000円分】三井住友カード ゴールド（NL）",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "【最大46,000円分】三井住友カード ゴールド（NL）※数量限定高還元※",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154097/",
    "seeded": false,
@@ -43109,7 +43110,7 @@
    "last_seen": "2026-07-27",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-07-23 05:00",
+   "renewed_at": "2026-07-27 13:00",
    "renewed_from": "110,000pt"
   },
   "pointincome:152160": {
@@ -130054,7 +130055,7 @@
   "point_hiroba:5649": {
    "site": "point_hiroba",
    "deal_id": "5649",
-   "title": "ゲームソフト・ゲーム機の宅配買取「ふるいち ゲーム買取」",
+   "title": "ゲームソフト・ゲーム機の宅配買取【古本市場（ふるいち）ゲーム買取】",
    "points_text": "2,000 P",
    "yen": 2000.0,
    "percent": null,
@@ -130067,7 +130068,7 @@
   "point_hiroba:5648": {
    "site": "point_hiroba",
    "deal_id": "5648",
-   "title": "ポケカ、・ワンピース・遊戯王・トレカの宅配買取「ふるいち トレカ買取」",
+   "title": "スリーブのまま送るだけ！上場企業が運営するトレカの宅配買取【古本市場（ふるいち）トレカ買取】",
    "points_text": "2,000 P",
    "yen": 2000.0,
    "percent": null,
@@ -131265,7 +131266,7 @@
   "point_hiroba:5646": {
    "site": "point_hiroba",
    "deal_id": "5646",
-   "title": "高く、安全に、簡単にスマホを売りたいなら「ふるいち スマホ宅配買取」",
+   "title": "送料無料・高価買取！スマホ・タブレットの宅配買取【古本市場（ふるいち）スマホ買取】",
    "points_text": "2,000 P",
    "yen": 2000.0,
    "percent": null,
@@ -164148,7 +164149,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-22"
+   "last_seen": "2026-07-27"
   },
   "pointincome:125387": {
    "site": "pointincome",
@@ -164223,9 +164224,9 @@
   "pointincome:154098": {
    "site": "pointincome",
    "deal_id": "154098",
-   "title": "三井住友カード ゴールド（NL）家族カード追加",
-   "points_text": "160,000pt",
-   "yen": 16000.0,
+   "title": "三井住友カード ゴールド（NL）家族カード追加※数量限定高還元※",
+   "points_text": "200,000pt",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154098/",
    "condition": "",
@@ -164233,7 +164234,8 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-07-27",
-   "renew_hold": true
+   "renewed_at": "2026-07-27 13:00",
+   "renewed_from": "160,000pt"
   },
   "pointincome:155600": {
    "site": "pointincome",
@@ -274128,7 +274130,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-09"
   },
   "pointincome:150153": {
@@ -275961,18 +275963,17 @@
    "site": "pointincome",
    "deal_id": "153520",
    "title": "ベルテックス資料請求",
-   "points_text": "42,000pt",
-   "yen": 4200.0,
+   "points_text": "40,000pt",
+   "yen": 4000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153520/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-10",
-   "renewed_at": "2026-07-23 05:00",
-   "renewed_from": "35,000pt"
+   "renew_hold": true
   },
   "pointincome:145640": {
    "site": "pointincome",
@@ -295721,7 +295722,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "site_new": true,
    "renewed_at": "2026-07-26 05:09"
   },
@@ -299488,7 +299489,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -300216,9 +300217,9 @@
   "pointincome:154887": {
    "site": "pointincome",
    "deal_id": "154887",
-   "title": "三井住友カード ゴールド（NL） ハローキティデザイン",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "三井住友カード ゴールド（NL） ハローキティデザイン※数量限定高還元※",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154887/",
    "condition": "",
@@ -300227,7 +300228,7 @@
    "first_seen_at": "2026-07-10 21:00",
    "last_seen": "2026-07-27",
    "delisted_at": "2026-07-11",
-   "renewed_at": "2026-07-23 05:00",
+   "renewed_at": "2026-07-27 13:00",
    "renewed_from": "110,000pt"
   },
   "pointtown:10849": {
@@ -301866,7 +301867,7 @@
   "pointincome:152564": {
    "site": "pointincome",
    "deal_id": "152564",
-   "title": "【合計5,500円分】楽天銀行 口座開設",
+   "title": "【7/31までの超高還元!!】楽天銀行 口座開設【合計5,500円分】",
    "points_text": "15,000pt",
    "yen": 1500.0,
    "percent": null,
@@ -301981,7 +301982,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 21:00",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-27",
    "site_new": true,
    "renewed_at": "2026-07-25 15:09"
   },
@@ -302638,7 +302639,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-13",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-14"
   },
   "pointincome:155151": {
@@ -305625,7 +305626,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 11:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-27",
    "delisted_at": "2026-07-14"
   },
   "pointincome:153609": {
@@ -311484,7 +311485,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 13:00",
-   "last_seen": "2026-07-16",
+   "last_seen": "2026-07-27",
    "site_new": true,
    "renewed_at": "2026-07-27 11:09"
   },
@@ -317155,9 +317156,9 @@
   "pointincome:154096": {
    "site": "pointincome",
    "deal_id": "154096",
-   "title": "【最大42,000円分】三井住友カード（NL）オーロラデザイン",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "【最大44,000円分】三井住友カード（NL）オーロラデザイン※本日限定高還元※",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154096/",
    "condition": "",
@@ -317165,7 +317166,9 @@
    "first_seen": "2026-07-19",
    "first_seen_at": "2026-07-19 15:00",
    "last_seen": "2026-07-27",
-   "delisted_at": "2026-07-20"
+   "delisted_at": "2026-07-20",
+   "renewed_at": "2026-07-27 13:00",
+   "renewed_from": "130,000pt"
   },
   "point_land:5s00000000141008": {
    "site": "point_land",
@@ -322945,7 +322948,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 13:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-27"
   },
   "poikatsu_club:13672": {
    "site": "poikatsu_club",
@@ -324814,7 +324817,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-07-27"
   },
   "warau:204903": {
    "site": "warau",
@@ -324930,7 +324933,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "moppy:151356": {
    "site": "moppy",
@@ -325754,7 +325757,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-24",
-   "site_new": true
+   "site_new": false
   },
   "pointtown:10888": {
    "site": "pointtown",
@@ -326638,16 +326641,17 @@
    "site": "moppy",
    "deal_id": "161935",
    "title": "Mistplay（ミストプレイ）_iOS",
-   "points_text": "11,519P",
-   "yen": 11519.0,
+   "points_text": "10,235P",
+   "yen": 10235.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161935",
    "condition": "新規アプリインストール後、30日以内に各成果地点到達でクリア",
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
-   "last_seen": "2026-07-25",
-   "site_new": false
+   "last_seen": "2026-07-27",
+   "site_new": false,
+   "renew_hold": true
   },
   "moppy:160990": {
    "site": "moppy",
@@ -326699,16 +326703,17 @@
    "site": "moppy",
    "deal_id": "153353",
    "title": "JCB Biz ONE（一般）",
-   "points_text": "14,000P",
-   "yen": 14000.0,
+   "points_text": "13,500P",
+   "yen": 13500.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=153353",
    "condition": "初回申込みから90日以内のカード発行完了",
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
-   "last_seen": "2026-07-25",
-   "site_new": true
+   "last_seen": "2026-07-27",
+   "site_new": true,
+   "renew_hold": true
   },
   "moppy:130135": {
    "site": "moppy",
@@ -327949,6 +327954,205 @@
    "first_seen_at": "2026-07-27 11:00",
    "last_seen": "2026-07-27",
    "site_new": true
+  },
+  "moppy:1407": {
+   "site": "moppy",
+   "deal_id": "1407",
+   "title": "資生堂オンラインストア（SHISEIDO ONLINE STORE）",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=1407",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
+  },
+  "moppy:1498": {
+   "site": "moppy",
+   "deal_id": "1498",
+   "title": "ドスパラWeb通販",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=1498",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
+  },
+  "moppy:161868": {
+   "site": "moppy",
+   "deal_id": "161868",
+   "title": "三井住友銀行「WEB申込専用住宅ローン」",
+   "points_text": "25,000P",
+   "yen": 25000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161868",
+   "condition": "新規融資実行完了",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27",
+   "site_new": true
+  },
+  "pointincome:154886": {
+   "site": "pointincome",
+   "deal_id": "154886",
+   "title": "三井住友カード（NL）ハローキティデザイン",
+   "points_text": "60,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154886/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "getmoney:67056": {
+   "site": "getmoney",
+   "deal_id": "67056",
+   "title": "ナッジカード",
+   "points_text": "34,000Pt",
+   "yen": 3400.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67056",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "au_point:8:1267": {
+   "site": "au_point",
+   "deal_id": "8:1267",
+   "title": "大戦ロボット",
+   "points_text": "102P",
+   "yen": 102.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1267",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "au_point:8:1128": {
+   "site": "au_point",
+   "deal_id": "8:1128",
+   "title": "お願いハニー",
+   "points_text": "102P",
+   "yen": 102.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1128",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "au_point:8:1127": {
+   "site": "au_point",
+   "deal_id": "8:1127",
+   "title": "ゴースト吸い〜ぱ〜",
+   "points_text": "102P",
+   "yen": 102.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1127",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "au_point:7:697684200": {
+   "site": "au_point",
+   "deal_id": "7:697684200",
+   "title": "kingopinion(会員登録後のアンケート回答完了）",
+   "points_text": "41P",
+   "yen": 41.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=7&campaignId=697684200",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "kurashiru_reward:17867": {
+   "site": "kurashiru_reward",
+   "deal_id": "17867",
+   "title": "ケーズデンキ",
+   "points_text": "0.6%",
+   "yen": null,
+   "percent": 0.6,
+   "url": "https://www.rewards.kurashiru.com/ads/17867",
+   "condition": "商品購入完了 で",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "kurashiru_reward:17866": {
+   "site": "kurashiru_reward",
+   "deal_id": "17866",
+   "title": "kingopinion(会員登録後のアンケート回答完了）",
+   "points_text": "9,900コイン",
+   "yen": 99.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17866",
+   "condition": "会員登録後のアンケート回答完了（プロフィール完成） で",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "powl:35394": {
+   "site": "powl",
+   "deal_id": "35394",
+   "title": "タップで金魚（多段階）（iOS） - 累計8000ポイントを獲得",
+   "points_text": "9,100pt",
+   "yen": 910.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/35394",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "powl:35404": {
+   "site": "powl",
+   "deal_id": "35404",
+   "title": "タップで金魚（多段階）（Android） - 累計8000ポイントを獲得",
+   "points_text": "9,100pt",
+   "yen": 910.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/35404",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
+  },
+  "powl:35705": {
+   "site": "powl",
+   "deal_id": "35705",
+   "title": "ブルーボトルコーヒー公式オンラインストア",
+   "points_text": "4%還元",
+   "yen": null,
+   "percent": 4.0,
+   "url": "https://web.powl.jp/reward/35705",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-27",
+   "first_seen_at": "2026-07-27 13:00",
+   "last_seen": "2026-07-27"
   }
  }
 }

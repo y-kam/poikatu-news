@@ -61570,9 +61570,9 @@
    "site": "line_catalog",
    "deal_id": "aliexpress_",
    "title": "AliExpress（アリエクスプレス）",
-   "points_text": "1.0%還元",
+   "points_text": "6.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 6.0,
    "url": "https://ec.line.me/shop/aliexpress_/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -61884,14 +61884,15 @@
    "site": "line_catalog",
    "deal_id": "cecile",
    "title": "セシール",
-   "points_text": "4.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 4.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/cecile/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:rurubu_travel": {
    "site": "line_catalog",
@@ -62041,14 +62042,15 @@
    "site": "line_catalog",
    "deal_id": "irisplaza",
    "title": "アイリスオーヤマ公式通販サイトアイリスプラザ",
-   "points_text": "13.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 13.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/irisplaza/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:yamadabeefarm": {
    "site": "line_catalog",
@@ -62262,14 +62264,15 @@
    "site": "line_catalog",
    "deal_id": "felissimo",
    "title": "FELISSIMO（フェリシモ）",
-   "points_text": "5.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/felissimo/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:daimaru-matsuzakaya": {
    "site": "line_catalog",
@@ -62353,14 +62356,15 @@
    "site": "line_catalog",
    "deal_id": "pizzahut",
    "title": "ピザハット公式オンラインストア",
-   "points_text": "10.0%還元",
+   "points_text": "3.0%還元",
    "yen": null,
-   "percent": 10.0,
+   "percent": 3.0,
    "url": "https://ec.line.me/shop/pizzahut/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:hmjapan": {
    "site": "line_catalog",
@@ -62470,14 +62474,15 @@
    "site": "line_catalog",
    "deal_id": "lens-apple",
    "title": "コンタクトレンズ通販のレンズアップル",
-   "points_text": "10.0%還元",
+   "points_text": "3.0%還元",
    "yen": null,
-   "percent": 10.0,
+   "percent": 3.0,
    "url": "https://ec.line.me/shop/lens-apple/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:relux": {
    "site": "line_catalog",
@@ -62652,14 +62657,15 @@
    "site": "line_catalog",
    "deal_id": "iherb",
    "title": "iHerb",
-   "points_text": "2.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 2.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/iherb/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:asoview": {
    "site": "line_catalog",
@@ -62821,14 +62827,15 @@
    "site": "line_catalog",
    "deal_id": "travel_standard_japan",
    "title": "トラベルスタンダードジャパン",
-   "points_text": "2.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 2.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/travel_standard_japan/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:alinoma": {
    "site": "line_catalog",
@@ -63030,14 +63037,15 @@
    "site": "line_catalog",
    "deal_id": "kiehlsofficialonlinestore",
    "title": "キールズ公式オンラインストア",
-   "points_text": "20.0%還元",
+   "points_text": "13.0%還元",
    "yen": null,
-   "percent": 20.0,
+   "percent": 13.0,
    "url": "https://ec.line.me/shop/kiehlsofficialonlinestore/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:ipsa": {
    "site": "line_catalog",
@@ -63186,14 +63194,15 @@
    "site": "line_catalog",
    "deal_id": "owndays",
    "title": "メガネのOWNDAYS",
-   "points_text": "16.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 16.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/owndays/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:j-trip": {
    "site": "line_catalog",
@@ -63212,9 +63221,9 @@
    "site": "line_catalog",
    "deal_id": "e87",
    "title": "e87.com",
-   "points_text": "1.0%還元",
+   "points_text": "7.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 7.0,
    "url": "https://ec.line.me/shop/e87/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63409,14 +63418,15 @@
    "site": "line_catalog",
    "deal_id": "benesse_tamahiyo",
    "title": "たまひよSHOP",
-   "points_text": "5.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/benesse_tamahiyo/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:nyonline": {
    "site": "line_catalog",
@@ -63825,14 +63835,15 @@
    "site": "line_catalog",
    "deal_id": "aquagarage",
    "title": "【公式】aquagarage-アクアガレージ",
-   "points_text": "14.0%還元",
+   "points_text": "12.0%還元",
    "yen": null,
-   "percent": 14.0,
+   "percent": 12.0,
    "url": "https://ec.line.me/shop/aquagarage/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:tsunagu-uchiiwai": {
    "site": "line_catalog",
@@ -63942,14 +63953,15 @@
    "site": "line_catalog",
    "deal_id": "o-ohsho",
    "title": "大阪王将公式通販",
-   "points_text": "7.0%還元",
+   "points_text": "2.0%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 2.0,
    "url": "https://ec.line.me/shop/o-ohsho/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:pc-koubou": {
    "site": "line_catalog",
@@ -64111,14 +64123,15 @@
    "site": "line_catalog",
    "deal_id": "murasaki",
    "title": "ムラサキスポーツ",
-   "points_text": "5.0%還元",
+   "points_text": "3.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.0,
    "url": "https://ec.line.me/shop/murasaki/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:ms-1-houkouen": {
    "site": "line_catalog",
@@ -64215,14 +64228,15 @@
    "site": "line_catalog",
    "deal_id": "sogoseibu",
    "title": "西武・そごう公式オンラインストア",
-   "points_text": "5.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/sogoseibu/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-28",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:hugoboss": {
    "site": "line_catalog",
@@ -88257,8 +88271,8 @@
    "site": "powl",
    "deal_id": "34271",
    "title": "DOOR賃貸",
-   "points_text": "20,000pt",
-   "yen": 2000.0,
+   "points_text": "27,000pt",
+   "yen": 2700.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/34271",
    "condition": "",
@@ -133653,9 +133667,9 @@
    "site": "point_hiroba",
    "deal_id": "3992",
    "title": "幼児食・離乳食の宅配ならファーストスプーン（First spoon）",
-   "points_text": "5%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 7.5,
    "url": "https://hiroba.dpoint.docomo.ne.jp/item/3992",
    "condition": "お買い物",
    "seeded": true,
@@ -270392,7 +270406,7 @@
   "moppy:159983": {
    "site": "moppy",
    "deal_id": "159983",
-   "title": "三井住友カード ゴールド（NL）＋家族カード発行",
+   "title": "【28,29日限定！18,000P還元】三井住友カード ゴールド（NL）＋家族カード発行",
    "points_text": "18,000P",
    "yen": 18000.0,
    "percent": null,
@@ -270454,7 +270468,7 @@
   "moppy:150189": {
    "site": "moppy",
    "deal_id": "150189",
-   "title": "三井住友カード ゴールド（NL）",
+   "title": "【28,29日限定！13,000P還元】三井住友カード ゴールド（NL）",
    "points_text": "13,000P",
    "yen": 13000.0,
    "percent": null,
@@ -276818,7 +276832,7 @@
   "moppy:161136": {
    "site": "moppy",
    "deal_id": "161136",
-   "title": "三井住友カード ゴールド（NL） ハローキティ デザイン",
+   "title": "【28,29日限定！13,000P還元】三井住友カード ゴールド（NL） ハローキティ デザイン",
    "points_text": "13,000P",
    "yen": 13000.0,
    "percent": null,
@@ -314478,8 +314492,7 @@
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 13:00",
    "last_seen": "2026-07-26",
-   "site_new": true,
-   "renewed_at": "2026-07-25 11:09"
+   "site_new": false
   },
   "moppy:161252": {
    "site": "moppy",
@@ -325129,7 +325142,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-28"
   },
   "poikatsu_club:14294": {
    "site": "poikatsu_club",
@@ -328033,7 +328046,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "getmoney:67056": {
    "site": "getmoney",
@@ -328511,7 +328524,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:144616": {
    "site": "pointincome",
@@ -328526,7 +328539,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:142066": {
    "site": "pointincome",
@@ -328541,7 +328554,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:204954": {
    "site": "warau",
@@ -329620,7 +329633,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:154857": {
    "site": "pointincome",
@@ -329635,7 +329648,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:199159": {
    "site": "warau",
@@ -329920,7 +329933,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 10:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:204973": {
    "site": "warau",
@@ -329935,7 +329948,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 10:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:204956": {
    "site": "warau",
@@ -329950,7 +329963,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 10:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "amefri:139090": {
    "site": "amefri",
@@ -330052,6 +330065,62 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 10:00",
+   "last_seen": "2026-07-28"
+  },
+  "warau:204974": {
+   "site": "warau",
+   "deal_id": "204974",
+   "title": "九州カードNEXT",
+   "points_text": "4,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204974",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 11:00",
+   "last_seen": "2026-07-28"
+  },
+  "poney:10000048931": {
+   "site": "poney",
+   "deal_id": "10000048931",
+   "title": "ME-Q（メーク）",
+   "points_text": "8％",
+   "yen": null,
+   "percent": 8.0,
+   "url": "https://www.poney.jp/ME-Q（メーク）/detail/10000048931",
+   "condition": "WEB注文後の入金確認 で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 11:00",
+   "last_seen": "2026-07-28"
+  },
+  "poney:10000063869": {
+   "site": "poney",
+   "deal_id": "10000063869",
+   "title": "【美トリ】在宅OK！簡単美容モニター",
+   "points_text": "5,400pt",
+   "yen": 5400.0,
+   "percent": null,
+   "url": "https://www.poney.jp/【美トリ】在宅OK！簡単美容モニター/detail/10000063869",
+   "condition": "電話説明会に新規お申込み及び参加後、モニター案件の実施完了 で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 11:00",
+   "last_seen": "2026-07-28"
+  },
+  "point_hiroba:5690": {
+   "site": "point_hiroba",
+   "deal_id": "5690",
+   "title": "コインチェック",
+   "points_text": "3,043 P",
+   "yen": 3043.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5690",
+   "condition": "口座開設",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 11:00",
    "last_seen": "2026-07-28"
   }
  }

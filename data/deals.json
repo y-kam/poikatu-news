@@ -43061,7 +43061,7 @@
    "url": "https://pointi.jp/ad/154013/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-28",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renewed_at": "2026-07-18 15:00",
@@ -43123,7 +43123,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-28",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -43137,7 +43137,7 @@
    "url": "https://pointi.jp/ad/152587/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-28",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -60325,7 +60325,7 @@
    "url": "https://pmall.gpoint.co.jp/shoplist/allshop/133788/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "condition": ""
   },
   "gpoint:134351": {
@@ -73550,7 +73550,8 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "ponta_bonuspark:4620": {
    "site": "ponta_bonuspark",
@@ -125619,7 +125620,7 @@
    "condition": "新規入会＋商品購入（30日以内に500ポイント以上の消費）",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-28"
   },
   "tamaru_mall:1523": {
    "site": "tamaru_mall",
@@ -129104,7 +129105,7 @@
    "condition": "ポイント購入後の利用",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-28"
   },
   "tamaru_mall:88": {
    "site": "tamaru_mall",
@@ -164289,17 +164290,16 @@
    "site": "pointincome",
    "deal_id": "153697",
    "title": "ABEMAプレミアム | Disney+",
-   "points_text": "30,000pt",
-   "yen": 3000.0,
+   "points_text": "28,000pt",
+   "yen": 2800.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153697/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-17",
-   "renewed_at": "2026-07-17 01:00",
-   "renewed_from": "28,000pt"
+   "last_seen": "2026-07-28",
+   "renew_hold": true
   },
   "pointincome:154247": {
    "site": "pointincome",
@@ -270495,7 +270495,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-28",
    "site_new": true,
    "renewed_at": "2026-07-25 01:10"
   },
@@ -272774,7 +272774,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-07-08",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-08"
   },
   "pointincome:139326": {
@@ -274106,7 +274106,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-09"
   },
   "pointincome:131629": {
@@ -274866,7 +274866,7 @@
   "pointincome:155730": {
    "site": "pointincome",
    "deal_id": "155730",
-   "title": "7/28まで！※リピート可【最大39,500円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま口座",
+   "title": "本日最終日！※リピート可【最大39,500円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま口座",
    "points_text": "40,000pt",
    "yen": 4000.0,
    "percent": null,
@@ -274875,7 +274875,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-09"
   },
   "chobirich:1894418": {
@@ -276043,7 +276043,7 @@
   "pointincome:154440": {
    "site": "pointincome",
    "deal_id": "154440",
-   "title": "7/28まで！【最大39,500円相当】三菱ＵＦＪ銀行 口座開設",
+   "title": "本日最終日！【最大39,500円相当】三菱ＵＦＪ銀行 口座開設",
    "points_text": "40,000pt",
    "yen": 4000.0,
    "percent": null,
@@ -276052,7 +276052,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-10"
   },
   "pointincome:149915": {
@@ -277923,16 +277923,18 @@
   "moppy:156389": {
    "site": "moppy",
    "deal_id": "156389",
-   "title": "IRIAM",
-   "points_text": "456P",
-   "yen": 456.0,
+   "title": "※期間限定UP※IRIAM",
+   "points_text": "1,400P",
+   "yen": 1400.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156389",
    "condition": "チュートリアル全突破",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-28",
+   "renewed_at": "2026-07-28 17:00",
+   "renewed_from": "456P"
   },
   "moppy:158739": {
    "site": "moppy",
@@ -294418,7 +294420,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -294434,7 +294436,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155469": {
@@ -295313,7 +295315,8 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
   },
   "powl:36448": {
    "site": "powl",
@@ -295738,7 +295741,7 @@
   "moppy:159880": {
    "site": "moppy",
    "deal_id": "159880",
-   "title": "※7/28限定アップ※SBI FXトレード【無料口座開設】",
+   "title": "※7/31まで緊急UP※SBI FXトレード【無料口座開設】",
    "points_text": "4,500P",
    "yen": 4500.0,
    "percent": null,
@@ -299410,7 +299413,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-11",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155741": {
@@ -311641,7 +311644,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-17"
   },
   "pointincome:145270": {
@@ -311907,7 +311910,7 @@
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
    "last_seen": "2026-07-16",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "fruitmail:18437": {
    "site": "fruitmail",
@@ -312518,7 +312521,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 17:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-28",
    "delisted_at": "2026-07-17"
   },
   "warau:204720": {
@@ -327770,7 +327773,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 13:00",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "site_new": true,
    "renewed_at": "2026-07-27 05:00",
    "renewed_from": "7,000P"
@@ -330269,7 +330272,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 15:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:204982": {
    "site": "warau",
@@ -330284,7 +330287,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 15:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-28"
   },
   "warau:204979": {
    "site": "warau",
@@ -330594,6 +330597,331 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 15:00",
+   "last_seen": "2026-07-28"
+  },
+  "moppy:123269": {
+   "site": "moppy",
+   "deal_id": "123269",
+   "title": "【31日間無料】dアニメストア (660円コース)",
+   "points_text": "840P",
+   "yen": 840.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=123269",
+   "condition": "新規会員登録",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28",
+   "site_new": true
+  },
+  "moppy:1709": {
+   "site": "moppy",
+   "deal_id": "1709",
+   "title": "電子貸本Renta!（レンタ）",
+   "points_text": "5.0%",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=1709",
+   "condition": "ポイント購入後、ポイント利用",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
+  },
+  "moppy:4692": {
+   "site": "moppy",
+   "deal_id": "4692",
+   "title": "UNITED ARROWS ONLINE（ユナイテッドアローズ）",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=4692",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28",
+   "dead_streak": 1
+  },
+  "pointincome:134104": {
+   "site": "pointincome",
+   "deal_id": "134104",
+   "title": "SMBCモビット",
+   "points_text": "60,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/134104/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:155331": {
+   "site": "pointincome",
+   "deal_id": "155331",
+   "title": "dアニメストア（31日間無料お試し登録）",
+   "points_text": "8,400pt",
+   "yen": 840.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155331/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:13503": {
+   "site": "pointincome",
+   "deal_id": "13503",
+   "title": "電子貸本Renta!（レンタ）",
+   "points_text": "購入金額の10%",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://pointi.jp/ad/13503/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:149629": {
+   "site": "pointincome",
+   "deal_id": "149629",
+   "title": "電子貸本Renta!（レンタ）　初回購入",
+   "points_text": "4,500pt",
+   "yen": 450.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/149629/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:154848": {
+   "site": "pointincome",
+   "deal_id": "154848",
+   "title": "【最大42,000円相当】三菱ＵＦＪ銀行口座と三菱ＵＦＪカードはセットがおトク",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154848/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:155133": {
+   "site": "pointincome",
+   "deal_id": "155133",
+   "title": "stera pack（ステラパック）［初期コスト0円で導入可能］",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155133/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:150905": {
+   "site": "pointincome",
+   "deal_id": "150905",
+   "title": "【過去最高還元】三菱ＵＦＪカード【最大42,000円相当】",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150905/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "pointincome:136387": {
+   "site": "pointincome",
+   "deal_id": "136387",
+   "title": "ラ ロッシュ ポゼ 公式通販サイト",
+   "points_text": "購入金額の2%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://pointi.jp/ad/136387/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "sugutama:41216": {
+   "site": "sugutama",
+   "deal_id": "41216",
+   "title": "【JTBショッピング】旅のお土産・お取り寄せサイト",
+   "points_text": "10.0%",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41216",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "point_island:s27341": {
+   "site": "point_island",
+   "deal_id": "s27341",
+   "title": "X LIFE WATER（エックスライフウォーター）",
+   "points_text": "70000ポイント",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=s27341",
+   "condition": "設置",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "point_stadium:s27341": {
+   "site": "point_stadium",
+   "deal_id": "s27341",
+   "title": "X LIFE WATER（エックスライフウォーター）",
+   "points_text": "70000ポイント",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=s27341",
+   "condition": "設置で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "point_land:s27341": {
+   "site": "point_land",
+   "deal_id": "s27341",
+   "title": "X LIFE WATER（エックスライフウォーター）",
+   "points_text": "70000ポイント",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=s27341",
+   "condition": "設置",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "nyandaful:s27341": {
+   "site": "nyandaful",
+   "deal_id": "s27341",
+   "title": "X LIFE WATER（エックスライフウォーター）",
+   "points_text": "70,000pt",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://www.nyandaful.jp/p_detail.asp?m=s27341",
+   "condition": "設置で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "kurashiru_reward:17906": {
+   "site": "kurashiru_reward",
+   "deal_id": "17906",
+   "title": "送料無料・高価買取！スマホ・タブレットの宅配買取【古本市場（ふるいち）スマホ買取】",
+   "points_text": "210,000コイン",
+   "yen": 2100.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17906",
+   "condition": "Web申込後、45日以内かつ買取査定額1000円以上での買取成立 で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "kurashiru_reward:17905": {
+   "site": "kurashiru_reward",
+   "deal_id": "17905",
+   "title": "フィギュア・プラモデルを自宅から宅配買取で簡単売却！【古本市場（ふるいち）フィギュア買取】",
+   "points_text": "210,000コイン",
+   "yen": 2100.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17905",
+   "condition": "Web申込後、45日以内かつ買取査定額1000円以上での買取成立 で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "kurashiru_reward:17902": {
+   "site": "kurashiru_reward",
+   "deal_id": "17902",
+   "title": "スリーブのまま送るだけ！上場企業が運営するトレカの宅配買取【古本市場（ふるいち）トレカ買取】",
+   "points_text": "210,000コイン",
+   "yen": 2100.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17902",
+   "condition": "Web申込後、45日以内かつ買取査定額1000円以上での買取成立 で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "kurashiru_reward:17901": {
+   "site": "kurashiru_reward",
+   "deal_id": "17901",
+   "title": "ゲームソフト・ゲーム機の宅配買取【古本市場（ふるいち）ゲーム買取】",
+   "points_text": "210,000コイン",
+   "yen": 2100.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17901",
+   "condition": "Web申込後、45日以内かつ買取査定額1000円以上での買取成立 で",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "poikatsu_club:14431": {
+   "site": "poikatsu_club",
+   "deal_id": "14431",
+   "title": "ペンギンの魚キャッチ（iOS）",
+   "points_text": "1260pt",
+   "yen": 1260.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14431",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、14日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、14日以内<br/>【成果調査受付期間】案件クリック後、30日以内<br/><br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから15日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/>・不正が行われた場合は成果対象外となります。<br/><br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ）<br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/>・お使いの端末設定、環境によって成果が反映されない場合が御座います。<br/><br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から31日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果達成日時<br/>■デバイスID（IDFA）<br/>下記アプリをインストールしていただき、ご確認をお願いいたします。 https://apps.apple.com/us/app/adjust-insights/id1125517808/ ※数字が全て0になってしまう場合<br/>ご利用端末の「設定」を開き、「プライバシとセキュリティー」をタップします。<br/>トラッキングをタップしていただき、「adjust Insights」を許可しご確認くださいませ。<br/>■成果地点に到達したことが確認できるキャプチャ",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "poikatsu_club:14430": {
+   "site": "poikatsu_club",
+   "deal_id": "14430",
+   "title": "サンタのそりに荷物を（iOS）",
+   "points_text": "1260pt",
+   "yen": 1260.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14430",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、14日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、14日以内<br/>【成果調査受付期間】案件クリック後、30日以内<br/><br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから15日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/>・不正が行われた場合は成果対象外となります。<br/><br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ）<br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/>・お使いの端末設定、環境によって成果が反映されない場合が御座います。<br/><br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から31日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果達成日時<br/>■デバイスID（IDFA）<br/>下記アプリをインストールしていただき、ご確認をお願いいたします。 https://apps.apple.com/us/app/adjust-insights/id1125517808/ ※数字が全て0になってしまう場合<br/>ご利用端末の「設定」を開き、「プライバシとセキュリティー」をタップします。<br/>トラッキングをタップしていただき、「adjust Insights」を許可しご確認くださいませ。<br/>■成果地点に到達したことが確認できるキャプチャ",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
+   "last_seen": "2026-07-28"
+  },
+  "poikatsu_club:14422": {
+   "site": "poikatsu_club",
+   "deal_id": "14422",
+   "title": "ワニの歯みがき係（iOS）",
+   "points_text": "1260pt",
+   "yen": 1260.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14422",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、14日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、14日以内<br/>【成果調査受付期間】案件クリック後、30日以内<br/><br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから15日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/>・不正が行われた場合は成果対象外となります。<br/><br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ）<br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/>・お使いの端末設定、環境によって成果が反映されない場合が御座います。<br/><br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から31日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果達成日時<br/>■デバイスID（IDFA）<br/>下記アプリをインストールしていただき、ご確認をお願いいたします。 https://apps.apple.com/us/app/adjust-insights/id1125517808/ ※数字が全て0になってしまう場合<br/>ご利用端末の「設定」を開き、「プライバシとセキュリティー」をタップします。<br/>トラッキングをタップしていただき、「adjust Insights」を許可しご確認くださいませ。<br/>■成果地点に到達したことが確認できるキャプチャ",
+   "seeded": false,
+   "first_seen": "2026-07-28",
+   "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-28"
   }
  }

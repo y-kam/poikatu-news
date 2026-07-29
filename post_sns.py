@@ -14,6 +14,8 @@
 - 投稿の主役は「当日ポイントUP（renewed_at＝増額での再浮上）した案件」。過去最高値を
   更新したUP→増額幅の大きいUPの順に選び、枠が余ったぶんだけ初出の新着で補う。
   本文ではUPに「⤴+○円」、過去最高値の更新には「🔥最高値」を付けて区別する。
+- 誘導先URLは本文の中身に合わせて切り替える。UP案件を載せた日はUP額ランキング
+  （ranking.html）、それ以外はトップ。詳細は _cta を参照。
 """
 import argparse
 import json
@@ -83,6 +85,15 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
 def weighted_len(text: str) -> int:
     """Xの重み付き文字数の近似値（非ASCII=2）"""
     return sum(2 if ord(ch) > 0xFF else 1 for ch in text)
+
+
+def post_weight(text: str) -> int:
+    """投稿本文がXで数えられる重み付き文字数。本文中のURLは実際の長さに関わらず
+    一律 URL_WEIGHT として数え直す（誘導先URLの長さが掲載件数に影響しないようにするため）。"""
+    weight = weighted_len(text)
+    for url in re.findall(r"https?://\S+", text):
+        weight += URL_WEIGHT - weighted_len(url)
+    return weight
 
 
 def _norm_title(title: str) -> str:
@@ -203,6 +214,18 @@ def _order_ups(ups: list[dict], history: dict, rates: dict) -> list[dict]:
     return ordered
 
 
+def _cta(shown: list[dict], today: str, rates: dict) -> tuple[str, str]:
+    """本文末尾の誘導文とURL。本文に載せた案件に合わせて飛び先を変える。
+
+    UP案件を載せた日はUP額ランキング（ranking.html）へ直接送る。同ページは投稿と同じ
+    「増額幅（円換算）の大きい順」で現在も増額中の案件を並べており、投稿の続きをそのまま
+    見せられるため。ただし同ページは円換算できる増額のみが対象なので、載せたUPが%還元
+    だけで増額幅を円で出せない日は、案件が並ばない恐れがあるためトップへ送る。"""
+    if any(_is_up_today(d, today) and _up_gain(d, rates) > 0 for d in shown):
+        return "増額中の案件はこちら👇", f"{BASE_URL}/ranking.html"
+    return "最新情報はこちら👇", f"{BASE_URL}/"
+
+
 def _reward_text(deal: dict) -> str:
     if deal.get("yen"):
         return f"{deal['yen']:,.0f}円分"
@@ -254,10 +277,11 @@ def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: 
                 site = site_names.get(deal["site"], deal["site"])
                 mark = _up_mark(deal, history, rates) if _is_up_today(deal, today) else ""
                 lines.append(f"{medal}{title} {_reward_text(deal)}{mark}（{site}）")
-            lines += ["", "最新情報はこちら👇", "{URL}", "#ポイ活 #ポイントサイト"]
+            cta, url = _cta(shown, today, rates)
+            lines += ["", cta, url, "#ポイ活 #ポイントサイト"]
             text = "\n".join(lines)
-            if weighted_len(text.replace("{URL}", "")) + URL_WEIGHT <= MAX_WEIGHT:
-                return text.replace("{URL}", BASE_URL + "/"), shown
+            if post_weight(text) <= MAX_WEIGHT:
+                return text, shown
     # ここには実質到達しないが、保険として最小構成を返す（載せた案件は無し）
     return f"{header}\n{BASE_URL}/\n#ポイ活", []
 
@@ -354,7 +378,7 @@ def main() -> int:
 
     text, shown = compose(new_deals, today, site_names, is_first_post=not posted_today,
                           history=history, rates=rates)
-    print(f"--- 投稿本文（weight={weighted_len(text) - len(BASE_URL) - 1 + URL_WEIGHT}） ---")
+    print(f"--- 投稿本文（weight={post_weight(text)}） ---")
     print(text)
 
     if args.dry_run:

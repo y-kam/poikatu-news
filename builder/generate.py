@@ -220,7 +220,10 @@ def _slim_deal(deal: dict, new_cutoff: str) -> dict:
         slim["req_yen"] = deal["req_yen"]      # 投資・入金で用意が必要な額（円）
     if deal.get("income_man") is not None:
         slim["income_man"] = deal["income_man"]  # 年収条件で必要な年収（万円）
-    return slim
+    # 値が無いキーは出力しない。null/false/空文字を1万件超ぶん並べても情報は増えず、
+    # 転送量とクライアントのJSONパース・メモリを食うだけのため（キー欠落＝値なしとして扱う）。
+    # 0円・0%は有意な値なので、is 判定で false と混同して落とさないようにする。
+    return {k: v for k, v in slim.items() if v is not None and v is not False and v != ""}
 
 
 def _date_md(date_str: str) -> str:
@@ -624,7 +627,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
 - [プライバシーポリシー]({BASE_URL}/privacy.html): アクセス解析・広告・免責事項
 
 ## データ
-- [全案件データ (JSON)]({BASE_URL}/deals.json): 掲載中の全案件（案件名・サイト・獲得ポイント・円換算額・カテゴリ・新着フラグ）
+- [全案件データ (JSON)]({BASE_URL}/deals.json): 掲載中の全案件（案件名・サイト・獲得ポイント・円換算額・カテゴリ・新着フラグ）。値の無い項目はキーごと省略される
 """,
         encoding="utf-8",
     )

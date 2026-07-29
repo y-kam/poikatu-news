@@ -11,8 +11,9 @@
 - 過去の投稿との被り防止: posted_titles に投稿済み案件を「正規化タイトル→最高報酬額」で
   日をまたいで永続記録する。同一商品が別サイト・別deal_idで再登場しても、報酬が過去の
   投稿を上回らない限り再投稿しない（上回れば「お得情報の更新」として再投稿を許可）。
-- 当日ポイントUP（renewed_at＝増額・NEW再付与での再浮上）した案件も投稿対象に含める。
-  本文では「⤴UP」を付けて初出の新着と区別する。
+- 投稿の主役は「当日ポイントUP（renewed_at＝増額での再浮上）した案件」。過去最高値を
+  更新したUP→増額幅の大きいUPの順に選び、枠が余ったぶんだけ初出の新着で補う。
+  本文ではUPに「⤴+○円」、過去最高値の更新には「🔥最高値」を付けて区別する。
 """
 import argparse
 import json
@@ -23,8 +24,11 @@ import unicodedata
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from builder.generate import BASE_URL
+# 値動き系列の作り方・増額幅の文字列はサイト表示（値動き履歴の「過去最高」バッジ、
+# 新着一覧のUPバッジ）と同じ関数を使う。Xとサイトで判定・表記が食い違わないようにするため。
+from builder.generate import BASE_URL, _synced_entries, _up_diff
 from crawler import store as store_mod
+from crawler.normalize import parse_points
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "data" / "sns_state.json"
@@ -38,6 +42,12 @@ MEDALS = ("🥇", "🥈", "🥉")
 # 投稿済みタイトル履歴の保持日数。これを超えて再登場した商品は再投稿を許容する
 # （履歴ファイルの肥大化防止と、長期間ぶりの再登場を「新情報」とみなす妥協点）。
 TITLE_HISTORY_DAYS = 365
+
+# 「過去最高値」（🔥最高値）とみなすのに必要な値動きの観測点数。
+# 観測点が2点（初回観測→今回の増額）だけの案件は、増額すれば必ず自己最高値になり
+# 「過去最高」と書いても情報価値が無い（実測では直近UPの約75%がこの2点のみ）。
+# 一度以上の値動きを経てなお最高値＝3点以上に限ることで、バッジの意味を保つ。
+PEAK_MIN_POINTS = 3
 
 # X投稿の対象外にする案件（サイト掲載はそのまま）。
 #   - 属性制限系: 年収○○以上・性別/地域限定など参加者が限られるもの
@@ -141,50 +151,112 @@ def _dedupe_by_title(deals: list[dict]) -> list[dict]:
     return list(best.values())
 
 
+def _value_series(deal: dict, history: dict) -> list:
+    """案件の値動き系列（値のみ）。値動き履歴ページ（generate._history_rows）と同じく、
+    最後の観測の型に合わせて円換算 or %還元のどちらかに系列を揃える。"""
+    entries = _synced_entries(deal, history)
+    if not entries:
+        return []
+    yen_type = entries[-1][1] is not None  # 円換算系列か（%還元のみの案件はFalse）
+    return [v for v in ((e[1] if yen_type else e[2]) for e in entries) if v is not None]
+
+
+def _is_peak(deal: dict, history: dict) -> bool:
+    """観測開始以降の過去最高値を更新した案件か（PEAK_MIN_POINTS 以上の観測点があるものに限る）"""
+    vals = _value_series(deal, history)
+    return len(vals) >= PEAK_MIN_POINTS and vals[-1] >= max(vals)
+
+
+def _up_gain(deal: dict, rates: dict) -> float:
+    """今回のUPで増えた円換算額（UP案件の並び順に使う数値）。
+    %還元のみ・旧値が無いなど算出できない場合は0。表示文字列は _up_diff 側で作る。"""
+    old_yen, _ = parse_points(deal.get("renewed_from") or "", rates.get(deal["site"], 1.0))
+    new_yen = deal.get("yen")
+    if old_yen is None or new_yen is None:
+        return 0.0
+    return max(0.0, new_yen - old_yen)
+
+
+def _up_mark(deal: dict, history: dict, rates: dict) -> str:
+    """UP案件に添える増額幅・過去最高の印（例 "⤴+500円🔥最高値"）。UPでなければ空文字。"""
+    diff = _up_diff(deal, rates.get(deal["site"], 1.0))
+    mark = f"⤴{diff}" if diff else "⤴UP"
+    return mark + ("🔥最高値" if _is_peak(deal, history) else "")
+
+
+def _order_ups(ups: list[dict], history: dict, rates: dict) -> list[dict]:
+    """UP案件の掲載順。増額幅の大きい順を軸にする（大きな金額の方が拡散されやすいため）。
+    ただし過去最高値の更新は金額が小さくても目玉になるので、増額幅順の上位に1件も
+    入らないときだけ、最も増額幅の大きい過去最高を2番手へ繰り上げる。"""
+    ordered = sorted(ups, key=lambda d: (-_up_gain(d, rates), -_yen_of(d)))
+    head = ordered[:len(MEDALS)]
+    if any(_is_peak(d, history) for d in head):
+        return ordered
+    peak = next((d for d in ordered if _is_peak(d, history)), None)
+    if peak is None:
+        return ordered
+    ordered.remove(peak)
+    ordered.insert(1, peak)  # 2番手＝掲載枠が減った日でも残りやすく、1位の最大増額も守れる位置
+    return ordered
+
+
 def _reward_text(deal: dict) -> str:
     if deal.get("yen"):
         return f"{deal['yen']:,.0f}円分"
     return deal["points_text"]
 
 
-def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: bool) -> tuple[str, list[dict]]:
-    """新着上位3件のダイジェスト本文と、実際に本文へ載せた案件リストを返す
-    （280ウェイトに収まるまで掲載件数を減らす）"""
-    # 手軽な案件を優先し、同じ手軽度どうしは報酬額の高い順。手軽が3件に満たなければ
-    # 残り枠は従来どおり報酬額順の案件で補完する（手軽優先＋不足時フォールバック）。
-    top = sorted(new_deals, key=lambda d: (0 if _is_easy(d) else 1, -(d.get("yen") or 0)))[:3]
+def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: bool,
+            history: dict, rates: dict) -> tuple[str, list[dict]]:
+    """ダイジェスト本文と、実際に本文へ載せた案件リストを返す（280ウェイトに収まるまで
+    掲載件数・タイトル長を削る）。
+
+    掲載枠は「当日ポイントUPした案件」を主役にする（値上がりはポイ活で最も価値が高く、
+    初出の新着より拡散されやすいため）。UPの並びは _order_ups（増額幅順＋過去最高の繰り上げ）。
+    UPが3件に満たない日だけ、残り枠を従来どおりの新着（手軽さ優先→報酬額順）で補う。"""
+    ups = _order_ups([d for d in new_deals if _is_up_today(d, today)], history, rates)
+    fresh = sorted([d for d in new_deals if not _is_up_today(d, today)],
+                   key=lambda d: (0 if _is_easy(d) else 1, -_yen_of(d)))
+    top = (ups + fresh)[:len(MEDALS)]
+
     month_day = f"{int(today[5:7])}/{int(today[8:10])}"
-    # 初出の新着とポイントUP（再浮上）で件数の言い回しを分ける（UPは「追加」ではないため）
-    n_up = sum(1 for d in new_deals if _is_up_today(d, today))
-    n_new = len(new_deals) - n_up
-    if n_new and n_up:
-        counts_text = f"新着{n_new}件・ポイントUP{n_up}件"
-    elif n_up:
-        counts_text = f"ポイントUP{n_up}件"
+    n_up, n_new = len(ups), len(fresh)
+    n_peak = sum(1 for d in ups if _is_peak(d, history))
+    # UPがある日はUPを見出しに立てる（無い日だけ従来の新着ダイジェストの体裁に戻す）。
+    # UP日の見出しに新着件数は入れない（主題がぼやけるうえ、案件行に使える文字数が減るため）
+    if n_up:
+        counts_text = f"UP{n_up}件" + (f"（過去最高{n_peak}件）" if n_peak else "")
+        header = (
+            f"【ポイ活ポイントUP】{month_day}は{counts_text}！" if is_first_post
+            else f"【ポイ活ポイントUP・続報】{month_day} さらに{counts_text}！"
+        )
+        lead = "値上がり注目👀"
     else:
         counts_text = f"{n_new}件追加"
-    header = (
-        f"【本日のポイ活新着】{month_day}は{counts_text}！" if is_first_post
-        else f"【ポイ活新着・続報】{month_day} さらに{counts_text}！"
-    )
+        header = (
+            f"【本日のポイ活新着】{month_day}は{counts_text}！" if is_first_post
+            else f"【ポイ活新着・続報】{month_day} さらに{counts_text}！"
+        )
+        lead = "注目👀"
 
     for take in range(len(top), 0, -1):
-        for title_limit in (24, 16):
+        # UP行は増額幅・最高値の印がぶら下がり従来より長くなるため、タイトル短縮の段階を細かく取る
+        for title_limit in (24, 20, 16, 12):
             shown = top[:take]
-            lines = [header, "", "注目👀"]
+            lines = [header, "", lead]
             for medal, deal in zip(MEDALS, shown):
                 title = deal["title"]
                 if len(title) > title_limit:
                     title = title[:title_limit] + "…"
                 site = site_names.get(deal["site"], deal["site"])
-                up_mark = "⤴UP" if _is_up_today(deal, today) else ""
-                lines.append(f"{medal}{title} {_reward_text(deal)}{up_mark}（{site}）")
+                mark = _up_mark(deal, history, rates) if _is_up_today(deal, today) else ""
+                lines.append(f"{medal}{title} {_reward_text(deal)}{mark}（{site}）")
             lines += ["", "最新情報はこちら👇", "{URL}", "#ポイ活 #ポイントサイト"]
             text = "\n".join(lines)
             if weighted_len(text.replace("{URL}", "")) + URL_WEIGHT <= MAX_WEIGHT:
                 return text.replace("{URL}", BASE_URL + "/"), shown
     # ここには実質到達しないが、保険として最小構成を返す（載せた案件は無し）
-    return f"【本日のポイ活新着】{month_day}は{counts_text}！\n{BASE_URL}/\n#ポイ活", []
+    return f"{header}\n{BASE_URL}/\n#ポイ活", []
 
 
 def post_to_x(text: str) -> str:
@@ -236,6 +308,7 @@ def main() -> int:
 
     today = datetime.now(JST).strftime("%Y-%m-%d")
     store = store_mod.load()
+    history = store_mod.load_history()  # 「過去最高値」判定に使う値動き履歴
     posted_today, posted_titles = _load_state(store, today)
 
     # 当日初出（またはポイントUP再浮上）・表示対象・当日未投稿・属性制限なし・
@@ -256,9 +329,12 @@ def main() -> int:
     new_deals = _dedupe_by_title(eligible)
 
     with (ROOT / "config" / "sites.json").open(encoding="utf-8") as f:
-        site_names = {k: v["name"] for k, v in json.load(f).items()}
+        sites_config = json.load(f)
+    site_names = {k: v["name"] for k, v in sites_config.items()}
+    rates = {k: v.get("rate", 1.0) for k, v in sites_config.items()}  # 増額幅の円換算に使う
 
-    text, shown = compose(new_deals, today, site_names, is_first_post=not posted_today)
+    text, shown = compose(new_deals, today, site_names, is_first_post=not posted_today,
+                          history=history, rates=rates)
     print(f"--- 投稿本文（weight={weighted_len(text) - len(BASE_URL) - 1 + URL_WEIGHT}） ---")
     print(text)
 

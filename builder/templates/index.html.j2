@@ -338,7 +338,9 @@
   function dealHaystack(d) {
     if (d._q === undefined) {
       d._q = searchNorm(
-        [d.title, d.condition, SITE_NAMES[d.site] || d.site, CAT_NAMES[d.category] || ""].join(" ")
+        // deals.json は値の無いキーを省くため、未定義を "" に落として "undefined" が
+        // 検索対象文字列に混ざらないようにする（条件なしの案件が "undefined" で引っかかるのを防ぐ）
+        [d.title, d.condition || "", SITE_NAMES[d.site] || d.site, CAT_NAMES[d.category] || ""].join(" ")
       );
     }
     return d._q;

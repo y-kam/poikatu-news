@@ -2,7 +2,7 @@
 import hashlib
 import json
 import shutil
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -19,8 +19,16 @@ from crawler.categorize import (
     required_yen,
 )
 from crawler.merge import group_deals
-from crawler.normalize import normalize_points_text, parse_points
-from crawler.store import NEW_DAYS, RECENT_DAYS, load_history, recent_visible
+from crawler.normalize import normalize_points_text, normalize_title, parse_points
+from crawler.store import (
+    NEW_DAYS,
+    RECENT_DAYS,
+    is_visible,
+    load_history,
+    load_weekly,
+    recent_visible,
+    save_weekly,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = ROOT / "site"
@@ -54,6 +62,12 @@ UP_RANKING_CAP = 100
 
 # 値動き履歴ページ（history.html）の掲載上限（変動日の新しい順の上位N件）
 HISTORY_PAGE_CAP = 200
+
+# 週次まとめ（weekly.html）の掲載件数と、確定スナップショット（data/weekly.json）の保持週数。
+# 表示するのは常に「直近の確定週」1本だが、後から週別アーカイブページを作れるよう数週分を残す
+# （1週あたり数KBなのでリポジトリ・転送量への影響は無視できる）。
+WEEKLY_CAP = 10
+WEEKLY_KEEP = 8
 
 # 値動きスパークライン（インラインSVG）の描画サイズ
 SPARK_W, SPARK_H = 96, 26
@@ -335,6 +349,83 @@ def _history_rows(recent: list, history: dict) -> tuple[list, int]:
     return rows[:HISTORY_PAGE_CAP], len(rows)
 
 
+def _week_key(day: date) -> str:
+    """その日が属するISO週のキー（"2026-W30"）。週は月曜始まり・日曜終わり。
+    ゼロ埋めするため辞書順＝時系列順になり、保持週数の間引きにそのまま使える。"""
+    iso_year, iso_week, _ = day.isocalendar()
+    return f"{iso_year}-W{iso_week:02d}"
+
+
+def _week_span(key: str) -> tuple[str, str]:
+    """週キーに対応する月曜・日曜の日付（"YYYY-MM-DD"）を返す。"""
+    monday = date.fromisocalendar(int(key[:4]), int(key[6:]), 1)
+    return monday.isoformat(), (monday + timedelta(days=6)).isoformat()
+
+
+def _closed_week_key(today: str) -> str:
+    """表示対象＝直近の「終わった週」のキー。週の途中は常に先週分を指すため、週次まとめの
+    内容は月曜に切り替わってから次の月曜まで変わらない（X週次投稿の誘導先と一致する）。"""
+    day = date.fromisoformat(today)
+    return _week_key(day - timedelta(days=day.weekday() + 1))  # 今週月曜の前日＝先週日曜
+
+
+def _weekly_rows(deals: list, history: dict, start: str, end: str) -> list:
+    """指定週（start〜end）に増額された案件を、増額幅（円換算）の大きい順に返す。
+    増額幅は「週初値 → 週内最後の観測値」の差。週初値は週開始前の最後の観測値（＝その週に
+    入った時点の値）で、週内が観測開始なら週内最初の値を使う。週内に上がって元へ戻った案件は
+    差が出ず自然に外れる。円換算できない%還元のみの変化は増額幅を円で示せないため対象外
+    （UP額ランキングと同じ方針）。"""
+    rows = []
+    for deal in deals:
+        series = [(e[0], e[1]) for e in _synced_entries(deal, history) if e[1] is not None]
+        within = [i for i, (day, _) in enumerate(series) if start <= day[:10] <= end]
+        if not within:
+            continue
+        base = series[within[0] - 1][1] if within[0] > 0 else series[within[0]][1]
+        diff = series[within[-1]][1] - base
+        if round(diff) < 1:
+            continue
+        # 「○/○に増額」の表示日は週内で最後に“増えた”変化点（週内に増額後の微減があっても
+        # 減額日を増額日として出さない）。増額幅が正なら週内に必ず増額があるが、保険で末尾を既定にする
+        ups = [i for i in within if i > 0 and series[i][1] > series[i - 1][1]]
+        rows.append({
+            "site": deal["site"], "deal_id": deal["deal_id"],
+            "title": deal["title"], "url": deal["url"],
+            "category": deal["category"], "points_text": deal["points_text"],
+            "old_yen": base, "new_yen": series[within[-1]][1], "diff": diff,
+            "up_date": series[ups[-1] if ups else within[-1]][0][:10],
+        })
+    rows.sort(key=lambda r: r["diff"], reverse=True)
+    return _merge_weekly_duplicates(rows)[:WEEKLY_CAP]
+
+
+def _merge_weekly_duplicates(rows: list) -> list:
+    """同じ案件が複数サイトで同時に増額されたぶんを1行にまとめる（増額幅順で先着＝最大の
+    1サイトを残し、残りは件数だけ添える）。掲載枠がWEEKLY_CAP件しかない週次まとめで、
+    同一案件の別サイト掲載が上位を埋め尽くして情報量が落ちるのを防ぐ。名寄せの基準は
+    トップページの比較グループ・X投稿の重複排除と同じ normalize_title。
+    rows は増額幅の降順で渡すこと（残す1件の選び方がその順に依存する）。"""
+    merged: dict[str, dict] = {}
+    for row in rows:
+        key = normalize_title(row["title"])
+        if key in merged:
+            merged[key]["also"] = merged[key].get("also", 0) + 1  # 他サイトでも増額した件数
+        else:
+            merged[key] = row
+    return list(merged.values())
+
+
+def _weekly_view_rows(rows: list, store: dict) -> list:
+    """確定スナップショットを表示用に整える。確定後に掲載終了した案件はリンクを外して
+    「掲載終了」と示す（過ぎた週の記録なので行自体は残し、リンク切れだけ踏ませない）。"""
+    return [
+        {**r,
+         "up_date_md": _date_md(r["up_date"]),
+         "ended": not is_visible(store["deals"].get(f"{r['site']}:{r['deal_id']}") or {})}
+        for r in rows
+    ]
+
+
 def _logo_web_path(site_key: str):
     """サイトキーに対応するロゴ（logos/{key}.*）の配信パスを返す。無ければ None。
     拡張子は取得元の形式により png/ico/jpg 等と異なり得るためグロブで探す。"""
@@ -402,6 +493,22 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     history = load_history()
     ranking_rows = _up_ranking_rows(personal, history, today)
     history_rows, history_total = _history_rows(personal, history)
+
+    # 週次まとめ（直近の確定週のUP額トップ）。history.json は掲載終了案件を prune するため、
+    # 過ぎた週を毎回集計し直すと内容が日々目減りする。週が明けて初めてその週を集計し、
+    # data/weekly.json へ焼き付けて以後は再集計しない（確定後は内容が変わらない）。
+    # ※ 生成のたびに書き込むのではなく未確定の週があるときだけ書くため、通常の再生成では
+    #    差分ゼロ＝データの無駄コミットは発生しない。deploy.yml（コミットしない経路）で
+    #    確定した場合は保存が残らないが、次のクロール実行が同じ週を確定してコミットする。
+    weekly = load_weekly()
+    week_key = _closed_week_key(today)
+    week_start, week_end = _week_span(week_key)
+    if week_key not in weekly:
+        weekly[week_key] = _weekly_rows(personal, history, week_start, week_end)
+        for old_key in sorted(weekly)[:-WEEKLY_KEEP]:  # 保持週数を超えた古い週を落とす
+            del weekly[old_key]
+        save_weekly(weekly)
+    weekly_rows = _weekly_view_rows(weekly[week_key], store)
 
     # 「新着」の下限日（直近NEW_DAYS日・本日含む）。以降に自HP初出した案件を新着扱いにする
     new_cutoff = (
@@ -570,6 +677,18 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         ),
         encoding="utf-8",
     )
+    # 週次まとめ（直近の確定週）。内容は月曜の切り替わりまで変わらないが、掲載終了の反映と
+    # 共通部（ヘッダ・CSSハッシュ）の更新のため毎回書き出す
+    (OUTPUT_DIR / "weekly.html").write_text(
+        env.get_template("weekly.html.j2").render(
+            rows=weekly_rows,
+            week_start=_date_md(week_start),
+            week_end=_date_md(week_end),
+            week_cap=WEEKLY_CAP,
+            **page_ctx,
+        ),
+        encoding="utf-8",
+    )
     # クライアントサイド「全案件」一覧・検索用の軽量データ。
     # 全件バックフィルで数千〜数万件になり得るため、表示に必要な項目だけに絞って
     # 転送量を抑える（deal_id/seeded/last_seen等は出力しない）。還元額の大きい順。
@@ -601,6 +720,11 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         "<changefreq>daily</changefreq><priority>0.6</priority></url>\n"
         f"  <url><loc>{BASE_URL}/history.html</loc><lastmod>{updated_at_iso}</lastmod>"
         "<changefreq>daily</changefreq><priority>0.5</priority></url>\n"
+        # 週次まとめは週明け（対象週の翌月曜）に内容が確定し、次の月曜まで変わらないため
+        # lastmod は確定日（日付のみ）・changefreq は weekly とする
+        f"  <url><loc>{BASE_URL}/weekly.html</loc>"
+        f"<lastmod>{(date.fromisoformat(week_end) + timedelta(days=1)).isoformat()}</lastmod>"
+        "<changefreq>weekly</changefreq><priority>0.6</priority></url>\n"
         f"  <url><loc>{BASE_URL}/about.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>\n"
         f"  <url><loc>{BASE_URL}/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>\n"
         "</urlset>\n",
@@ -622,6 +746,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
 ## 主要ページ
 - [トップページ]({BASE_URL}/): 新着案件・複数サイトの還元比較・全案件の検索/絞り込み
 - [ポイントUP額ランキング]({BASE_URL}/ranking.html): 直近{UP_RANKING_DAYS}日にポイントが増額され現在も増額中の案件を増額幅（円換算）順に掲載
+- [今週のポイントUPまとめ]({BASE_URL}/weekly.html): 直近の1週間（月〜日）に増額された案件の上位{WEEKLY_CAP}件。毎週月曜に更新し、確定後は内容が変わらない週次の記録
 - [値動き履歴]({BASE_URL}/history.html): ポイント数が変動した案件の推移と過去最高値（観測開始以降）
 - [運営者情報・お問い合わせ]({BASE_URL}/about.html): サイトの趣旨・掲載データの方針・連絡先
 - [プライバシーポリシー]({BASE_URL}/privacy.html): アクセス解析・広告・免責事項

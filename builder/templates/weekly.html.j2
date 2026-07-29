@@ -1,0 +1,63 @@
+{% extends "base.html.j2" %}
+{% block title %}週間ポイントUPまとめ {{ week_start }}〜{{ week_end }} | ポイ活ニュース{% endblock %}
+{% block description %}{{ week_start }}〜{{ week_end }}の1週間にポイントが増額された案件を、増額幅（円換算）の大きい順に上位{{ week_cap }}件掲載。毎週月曜に前週分へ更新。{% endblock %}
+{% block canonical %}{{ base_url }}/weekly.html{% endblock %}
+{% block jsonld %}
+{# 週次で内容が確定・入れ替わるまとめページ。CollectionPage＋dateModified で鮮度を機械可読に伝える #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "url": "{{ base_url }}/weekly.html",
+      "name": {{ self.title() | tojson }},
+      "description": {{ self.description() | tojson }},
+      "isPartOf": { "@id": "{{ base_url }}/#website" },
+      "inLanguage": "ja",
+      "dateModified": "{{ updated_at_iso }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ base_url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "週間ポイントUPまとめ", "item": "{{ base_url }}/weekly.html" }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+{% block header_meta %}
+  <div class="meta">最終更新: {{ updated_at }}</div>
+{% endblock %}
+{% block content %}
+{# 関連ページタブ: トップ・UP額ランキング・値動き履歴と行き来しやすくする（現在ページは塗りつぶし表示） #}
+<nav class="jumpnav" aria-label="関連ページ">
+  <a href="/">← ホーム</a>
+  <a href="/ranking.html">UP額ランキング</a>
+  <a href="/weekly.html" class="current" aria-current="page">週間まとめ</a>
+  <a href="/history.html">値動き履歴</a>
+</nav>
+<section>
+  <h2>週間ポイントUPまとめ<span class="allcount">（{{ week_start }}〜{{ week_end }}）</span></h2>
+  <p class="note">この1週間（月〜日）にポイントが増額された案件を、増額幅（週のはじめの値からいくら上がったか・円換算）の大きい順に上位{{ week_cap }}件まとめています。毎週月曜に前週分へ切り替わり、確定後は内容が変わりません（週の記録として残すため、その後に増額が終わった案件も掲載したままにします）。</p>
+  {% if rows %}
+  <ol class="ranklist">
+    {% for r in rows %}
+    <li>
+      <span class="rank">{{ loop.index }}</span>
+      <span class="rankmeta"><span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span>{% if r.also %}<span class="also">ほか{{ r.also }}社でも増額</span>{% endif %}<span class="posted">{{ r.up_date_md }}に増額</span></span>
+      {# 確定後に掲載終了した案件はリンクを外す（過去の記録なので行は残し、リンク切れは踏ませない） #}
+      <span class="ttl">{% if r.ended %}{{ r.title }}<span class="endbadge">掲載終了</span>{% else %}<a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a>{% endif %}<span class="cat">{{ category_names.get(r.category, r.category) }}</span></span>
+      <span class="vals"><s>{{ r.old_yen|yen }}円</s> → <strong>{{ r.new_yen|yen }}円</strong><span class="sub">（{{ r.points_text }}）</span></span>
+      <span class="delta"><span class="delta-label">増額幅</span><span class="delta-val">+{{ r.diff|yen }}円</span></span>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty">この週に増額を観測した案件はありませんでした。</p>
+  {% endif %}
+  <p class="note">増額の検知は当サイトの掲載データの変化に基づきます。今も増額中の案件は<a href="/ranking.html">UP額ランキング</a>、案件ごとの推移は<a href="/history.html">値動き履歴</a>で確認できます。</p>
+</section>
+{% endblock %}

@@ -88,6 +88,18 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: python post_sns.py
 
+      # 週次まとめ（weekly.html）のX投稿。post_sns.py --weekly が「JST月曜か」「その週を投稿済みか」を
+      # 自分で判定し、該当しなければX APIを叩かずに正常終了するため、投稿枠の実行から毎回呼んでよい
+      # （実際に課金されるのは週1回の投稿時のみ）。日次ダイジェストとは別枠なので、月曜は2投稿になる。
+      - name: Post weekly digest to X
+        if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python post_sns.py --weekly
+
       - name: Commit SNS state
         if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
         run: |

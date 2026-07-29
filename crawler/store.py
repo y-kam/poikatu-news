@@ -13,6 +13,12 @@ DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "deals.json"
 # データ源にする（renewed_at/renewed_from は減額で消える揮発データのため別持ちする）
 HISTORY_FILE = DATA_FILE.parent / "history.json"
 
+# 週次まとめ（weekly.html）の確定スナップショット。キーはISO週 "2026-W30"、値はその週に
+# 増額された案件の上位行。history.json は掲載終了案件を prune_history で落とすため、
+# 過ぎた週を後から集計し直すと内容が日々目減りする。週が明けた時点の集計結果をここに
+# 焼き付けて、確定後は内容が変わらないようにする（過去の記録としての一貫性を保つ）。
+WEEKLY_FILE = DATA_FILE.parent / "weekly.json"
+
 # 表示・リンクチェックの対象母集団を「初出からこの日数以内」に制限する。
 # None なら全期間（掲載中の案件は日数によらず表示し、掲載終了はリンクチェックで自動除外）。
 # 将来コスト（外部アクセス数・deals.json容量）を抑えたくなったら日数を設定する。
@@ -51,6 +57,21 @@ def save_history(history: dict) -> None:
     with tmp.open("w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
     tmp.replace(HISTORY_FILE)  # deals.json と同様の原子的置換
+
+
+def load_weekly() -> dict:
+    if WEEKLY_FILE.exists():
+        with WEEKLY_FILE.open(encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_weekly(weekly: dict) -> None:
+    WEEKLY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    tmp = WEEKLY_FILE.with_suffix(".json.tmp")
+    with tmp.open("w", encoding="utf-8") as f:
+        json.dump(weekly, f, ensure_ascii=False, separators=(",", ":"))
+    tmp.replace(WEEKLY_FILE)  # deals.json と同様の原子的置換
 
 
 def record_history(history: dict, key: str, existing: dict, d, today: str) -> None:

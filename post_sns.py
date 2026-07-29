@@ -1,8 +1,9 @@
-"""広報用SNS（X）へのデイリーダイジェスト自動投稿。
+"""広報用SNS（X）へのデイリーダイジェスト／週次まとめ自動投稿。
 
 使い方:
-  python post_sns.py            # 投稿（環境変数のAPIキーが必要）
-  python post_sns.py --dry-run  # 投稿せず本文と文字数だけ表示
+  python post_sns.py            # 日次ダイジェストを投稿（環境変数のAPIキーが必要）
+  python post_sns.py --weekly   # 週次まとめを投稿（JST月曜・1週1回のみ。他は何もしない）
+  python post_sns.py --dry-run  # 投稿せず本文と文字数だけ表示（--weekly と併用可）
 
 環境変数: X_API_KEY / X_API_SECRET / X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET
 - 新着0件・APIキー未設定時は何もせず正常終了する（ワークフローを止めない）
@@ -16,6 +17,11 @@
   本文ではUPに「⤴+○円」、過去最高値の更新には「🔥最高値」を付けて区別する。
 - 誘導先URLは本文の中身に合わせて切り替える。UP案件を載せた日はUP額ランキング
   （ranking.html）、それ以外はトップ。詳細は _cta を参照。
+
+週次まとめ（--weekly）は日次とは別枠の投稿で、確定した先週分（data/weekly.json＝
+weekly.html と同じスナップショット）から増額幅の大きい案件を紹介し weekly.html へ送る。
+JST月曜以外・その週を投稿済みの場合はX APIを叩かずに正常終了するため、投稿枠の実行から
+毎回呼んでよい（従量課金が発生するのは実際に投稿する週1回だけ）。
 """
 import argparse
 import json
@@ -28,7 +34,7 @@ from pathlib import Path
 
 # 値動き系列の作り方・増額幅の文字列はサイト表示（値動き履歴の「過去最高」バッジ、
 # 新着一覧のUPバッジ）と同じ関数を使う。Xとサイトで判定・表記が食い違わないようにするため。
-from builder.generate import BASE_URL, _synced_entries, _up_diff
+from builder.generate import BASE_URL, _synced_entries, _up_diff, _week_span
 from crawler import store as store_mod
 from crawler.categorize import is_corporate, load_corporate
 from crawler.normalize import normalize_title, parse_points
@@ -45,6 +51,9 @@ MEDALS = ("🥇", "🥈", "🥉")
 # 投稿済みタイトル履歴の保持日数。これを超えて再登場した商品は再投稿を許容する
 # （履歴ファイルの肥大化防止と、長期間ぶりの再登場を「新情報」とみなす妥協点）。
 TITLE_HISTORY_DAYS = 365
+
+# 週次まとめ投稿で本文に載せる件数（日次と同じメダル3枠）
+WEEKLY_POST_CAP = len(MEDALS)
 
 # 「過去最高値」（🔥最高値）とみなすのに必要な値動きの観測点数。
 # 観測点が2点（初回観測→今回の増額）だけの案件は、増額すれば必ず自己最高値になり
@@ -286,6 +295,89 @@ def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: 
     return f"{header}\n{BASE_URL}/\n#ポイ活", []
 
 
+def _weekly_eligible(rows: list, store: dict) -> list:
+    """週次まとめのうちX投稿に載せてよい行だけを残す。確定後に掲載終了した案件（もう申込めない）
+    と、年収・投資・面談など参加者が限られる案件（日次投稿と同じ RESTRICTED_RE）を外す。
+    スナップショットは表示用の最小項目しか持たないため、掲載状態と獲得条件は現在のストアから引く。
+    法人・事業者向け案件はスナップショット生成の時点で既に除外済み。"""
+    eligible = []
+    for row in rows:
+        deal = store["deals"].get(f"{row['site']}:{row['deal_id']}")
+        if deal and store_mod.is_visible(deal) and not _is_restricted(deal):
+            eligible.append(row)
+    return eligible
+
+
+def compose_weekly(rows: list, week_key: str, site_names: dict) -> str:
+    """週次まとめの投稿本文（280ウェイトに収まるまで掲載件数・タイトル長を削る）。
+    増額幅の大きい順に紹介し、続きは週間まとめページ（weekly.html）へ送る。"""
+    start, end = _week_span(week_key)
+    span = f"{int(start[5:7])}/{int(start[8:10])}〜{int(end[5:7])}/{int(end[8:10])}"
+    header = f"【先週のポイントUPまとめ】{span}"
+    lead = "先週いちばん上がった案件👀"
+    for take in range(min(len(rows), WEEKLY_POST_CAP), 0, -1):
+        for title_limit in (24, 20, 16, 12):
+            lines = [header, "", lead]
+            for medal, row in zip(MEDALS, rows[:take]):
+                title = row["title"]
+                if len(title) > title_limit:
+                    title = title[:title_limit] + "…"
+                site = site_names.get(row["site"], row["site"])
+                lines.append(
+                    f"{medal}{title} {row['new_yen']:,.0f}円分⤴+{row['diff']:,.0f}円（{site}）"
+                )
+            lines += ["", "先週の値上がりまとめ👇", f"{BASE_URL}/weekly.html",
+                      "#ポイ活 #ポイントサイト"]
+            text = "\n".join(lines)
+            if post_weight(text) <= MAX_WEIGHT:
+                return text
+    # ここには実質到達しないが、保険として最小構成を返す
+    return f"{header}\n{BASE_URL}/weekly.html\n#ポイ活"
+
+
+def run_weekly(dry_run: bool) -> int:
+    """週次まとめの投稿。JST月曜かつその週が未投稿のときだけ投稿し、それ以外は何もせず
+    正常終了する（曜日・投稿済みの判定をここで完結させ、投稿枠の実行から毎回呼べるようにする。
+    スキップ時はX APIを叩かないので従量課金も発生しない）。"""
+    if datetime.now(JST).weekday() != 0:
+        print("[skip] 週次まとめの投稿は月曜のみ")
+        return 0
+    weekly = store_mod.load_weekly()
+    if not weekly:
+        print("[skip] 週次まとめのデータなし（サイト生成後に作られます）")
+        return 0
+    week_key = max(weekly)  # 直近の確定週（キーはゼロ埋めISO週なので辞書順＝時系列順）
+    state = _read_state()
+    if state.get("weekly_posted") == week_key:
+        print(f"[skip] {week_key} は投稿済み")
+        return 0
+
+    store = store_mod.load()
+    rows = _weekly_eligible(weekly[week_key], store)
+    if not rows:
+        print(f"[skip] {week_key} に投稿できる増額案件なし")
+        return 0
+    with (ROOT / "config" / "sites.json").open(encoding="utf-8") as f:
+        site_names = {k: v["name"] for k, v in json.load(f).items()}
+
+    text = compose_weekly(rows, week_key, site_names)
+    print(f"--- 週次まとめ投稿本文（weight={post_weight(text)}） ---")
+    print(text)
+    if dry_run:
+        return 0
+    if not _has_api_keys():
+        print("[skip] X APIキー未設定（Secrets登録後に有効化されます）")
+        return 0
+
+    tweet_id = post_to_x(text)
+    # 投稿済みの週を記録して、同じ週に投稿枠が複数回回っても二重投稿しないようにする
+    state["weekly_posted"] = week_key
+    state["last_weekly_tweet_id"] = tweet_id
+    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+    print(f"[ok] 週次まとめ投稿完了: https://x.com/i/status/{tweet_id}")
+    return 0
+
+
 def post_to_x(text: str) -> str:
     """X API v2 で投稿してツイートIDを返す"""
     from requests_oauthlib import OAuth1Session
@@ -302,12 +394,25 @@ def post_to_x(text: str) -> str:
     return resp.json()["data"]["id"]
 
 
+def _read_state() -> dict:
+    """状態ファイル（data/sns_state.json）の生の内容を返す。日次投稿と週次投稿が同じファイルを
+    共有するため、書き戻すときは必ずこの内容へ上書きし、他方のキー（weekly_posted 等）を
+    消さないこと（消えると二重投稿につながる）。"""
+    if STATE_FILE.exists():
+        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    return {}
+
+
+def _has_api_keys() -> bool:
+    """X APIの認証情報が揃っているか（未設定なら投稿せずスキップする）"""
+    return all(os.environ.get(k) for k in
+               ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET"))
+
+
 def _load_state(store: dict, today: str) -> tuple[set[str], dict]:
     """状態ファイルを読み、(当日の投稿済みキー集合, 永続タイトル履歴) を返す。
     旧形式（posted_keys / 日次リセット）からの移行にも対応する。"""
-    state = {}
-    if STATE_FILE.exists():
-        state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    state = _read_state()
 
     # 当日分の投稿済みキー: 日付が変わったら空。旧キー名 posted_keys もフォールバックで読む。
     if state.get("date") == today:
@@ -342,7 +447,12 @@ def _load_state(store: dict, today: str) -> tuple[set[str], dict]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--weekly", action="store_true",
+                        help="週次まとめを投稿する（JST月曜・1週1回のみ。他は何もしない）")
     args = parser.parse_args()
+
+    if args.weekly:
+        return run_weekly(args.dry_run)
 
     today = datetime.now(JST).strftime("%Y-%m-%d")
     store = store_mod.load()
@@ -384,8 +494,7 @@ def main() -> int:
     if args.dry_run:
         return 0
 
-    keys = ("X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_TOKEN_SECRET")
-    if not all(os.environ.get(k) for k in keys):
+    if not _has_api_keys():
         print("[skip] X APIキー未設定（Secrets登録後に有効化されます）")
         return 0
 
@@ -396,12 +505,14 @@ def main() -> int:
     for deal in shown:
         _remember_title(posted_titles, deal, today)
 
-    state = {
+    # 既存の内容へ上書きする（週次投稿が記録する weekly_posted を消さないため）
+    state = _read_state()
+    state.update({
         "date": today,
         "posted_today": sorted(posted_today),
         "posted_titles": posted_titles,
         "last_tweet_id": tweet_id,
-    }
+    })
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
     print(f"[ok] 投稿完了: https://x.com/i/status/{tweet_id}")
     return 0

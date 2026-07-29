@@ -78791,7 +78791,7 @@
   "powl:23343": {
    "site": "powl",
    "deal_id": "23343",
-   "title": "三井ショッピングパークカード《セゾン》",
+   "title": "【7/31まで還元UP】三井ショッピングパークカード《セゾン》",
    "points_text": "100,000pt",
    "yen": 10000.0,
    "percent": null,
@@ -88275,8 +88275,8 @@
    "site": "powl",
    "deal_id": "34271",
    "title": "DOOR賃貸",
-   "points_text": "27,000pt",
-   "yen": 2700.0,
+   "points_text": "25,000pt",
+   "yen": 2500.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/34271",
    "condition": "",
@@ -125037,7 +125037,7 @@
   "tamaru_mall:2404": {
    "site": "tamaru_mall",
    "deal_id": "2404",
-   "title": "【7月超高還元！】オルタナバンク｜証券会社運営の固定利回り投資",
+   "title": "オルタナバンク｜証券会社運営の固定利回り投資",
    "points_text": "8,888コイン",
    "yen": 8888.0,
    "percent": null,
@@ -164089,7 +164089,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-07"
+   "last_seen": "2026-07-29"
   },
   "pointincome:155738": {
    "site": "pointincome",
@@ -164316,7 +164316,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-29",
    "renew_hold": true
   },
   "pointincome:140863": {
@@ -272391,7 +272391,7 @@
   "pointincome:155152": {
    "site": "pointincome",
    "deal_id": "155152",
-   "title": "YouTube Premium （ドコモ/爆アゲ セレクション）",
+   "title": "【合計2,700円分!!】YouTube Premium （ドコモ/爆アゲ セレクション）",
    "points_text": "7,000pt",
    "yen": 700.0,
    "percent": null,
@@ -272400,7 +272400,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-08"
   },
   "pointincome:155779": {
@@ -274102,7 +274102,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-12",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-09"
   },
   "pointincome:13355": {
@@ -277694,16 +277694,17 @@
    "site": "moppy",
    "deal_id": "158257",
    "title": "東京ディバンカー",
-   "points_text": "199P",
-   "yen": 199.0,
+   "points_text": "240P",
+   "yen": 240.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158257",
    "condition": "3日間連続でログインボーナスを獲得する",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-21",
-   "renew_hold": true
+   "last_seen": "2026-07-29",
+   "renewed_at": "2026-07-29 15:00",
+   "renewed_from": "199P"
   },
   "moppy:159161": {
    "site": "moppy",
@@ -277896,8 +277897,8 @@
    "site": "moppy",
    "deal_id": "161472",
    "title": "パラノイズ",
-   "points_text": "228P",
-   "yen": 228.0,
+   "points_text": "240P",
+   "yen": 240.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161472",
    "condition": "7日以内に初心者限定ルーレット(無料)を10回受け取る",
@@ -277905,7 +277906,8 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-07-29",
-   "renew_hold": true
+   "renewed_at": "2026-07-29 15:00",
+   "renewed_from": "228P"
   },
   "moppy:161431": {
    "site": "moppy",
@@ -299537,7 +299539,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -300273,7 +300275,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-11",
    "renewed_at": "2026-07-27 13:00",
    "renewed_from": "110,000pt"
@@ -302185,7 +302187,7 @@
   "pointincome:144213": {
    "site": "pointincome",
    "deal_id": "144213",
-   "title": "【7/29までの高還元！】三菱UFJ eスマート証券（初回100円以上取引）",
+   "title": "【本日最終日‼超還元‼】三菱UFJ eスマート証券（初回100円以上取引）",
    "points_text": "120,000pt",
    "yen": 12000.0,
    "percent": null,
@@ -302656,7 +302658,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-14"
   },
   "pointincome:154107": {
@@ -302701,7 +302703,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-14"
   },
   "pointincome:150342": {
@@ -302969,7 +302971,7 @@
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
    "last_seen": "2026-07-13",
-   "dead_streak": 1
+   "delisted_at": "2026-07-29"
   },
   "warau:204527": {
    "site": "warau",
@@ -302984,7 +302986,7 @@
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
    "last_seen": "2026-07-13",
-   "dead_streak": 1
+   "delisted_at": "2026-07-29"
   },
   "warau:204516": {
    "site": "warau",
@@ -303801,7 +303803,7 @@
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 14:50",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-29"
   },
   "powl:36576": {
    "site": "powl",
@@ -303816,7 +303818,7 @@
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 14:50",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-29"
   },
   "poikatsu_club:6172": {
    "site": "poikatsu_club",
@@ -311765,7 +311767,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-07-16",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-17"
   },
   "pointtown:9521": {
@@ -315978,16 +315980,17 @@
    "site": "moppy",
    "deal_id": "1246",
    "title": "adidas Online Shop（アディダスオンラインショップ）",
-   "points_text": "9.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 9.0,
+   "percent": 3.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=1246",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 01:00",
-   "last_seen": "2026-07-19",
-   "delisted_at": "2026-07-18"
+   "last_seen": "2026-07-29",
+   "delisted_at": "2026-07-18",
+   "renew_hold": true
   },
   "moppy:161166": {
    "site": "moppy",
@@ -316718,7 +316721,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 15:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-07-29",
    "delisted_at": "2026-07-19"
   },
   "pointincome:94066": {
@@ -330716,8 +330719,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "last_seen": "2026-07-29"
   },
   "pointincome:155331": {
    "site": "pointincome",
@@ -330731,8 +330733,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "last_seen": "2026-07-29"
   },
   "pointincome:13503": {
    "site": "pointincome",
@@ -330746,8 +330747,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "last_seen": "2026-07-29"
   },
   "pointincome:149629": {
    "site": "pointincome",
@@ -330761,8 +330761,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "last_seen": "2026-07-29"
   },
   "pointincome:154848": {
    "site": "pointincome",
@@ -330793,8 +330792,7 @@
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
    "renewed_at": "2026-07-29 01:00",
-   "renewed_from": "150,000pt",
-   "dead_streak": 1
+   "renewed_from": "150,000pt"
   },
   "pointincome:150905": {
    "site": "pointincome",
@@ -330808,8 +330806,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "last_seen": "2026-07-29"
   },
   "pointincome:136387": {
    "site": "pointincome",
@@ -330823,8 +330820,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "last_seen": "2026-07-29"
   },
   "sugutama:41216": {
    "site": "sugutama",
@@ -332808,7 +332804,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 13:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-29"
   },
   "warau:205007": {
    "site": "warau",
@@ -332823,7 +332819,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 13:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-29"
   },
   "warau:205004": {
    "site": "warau",
@@ -333050,6 +333046,162 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 13:00",
+   "last_seen": "2026-07-29"
+  },
+  "moppy:161945": {
+   "site": "moppy",
+   "deal_id": "161945",
+   "title": "ベルテックス資料請求",
+   "points_text": "4,000P",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161945",
+   "condition": "新規資料請求及び本人確認",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29",
+   "site_new": true
+  },
+  "pointincome:155293": {
+   "site": "pointincome",
+   "deal_id": "155293",
+   "title": "楽天Kobo電子書籍ストア（初回購入）【WチャンスCP開催中】",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155293/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "warau:205015": {
+   "site": "warau",
+   "deal_id": "205015",
+   "title": "クレアール資格取得",
+   "points_text": "10%還元",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205015",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "warau:205016": {
+   "site": "warau",
+   "deal_id": "205016",
+   "title": "Sort Dash - Match Color Puzzle（StepUp）",
+   "points_text": "2,440pt",
+   "yen": 2440.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205016",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "warau:204708": {
+   "site": "warau",
+   "deal_id": "204708",
+   "title": "トレテク！",
+   "points_text": "2%還元",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204708",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "warau:204705": {
+   "site": "warau",
+   "deal_id": "204705",
+   "title": "NEWLEAGUE - ニューリーグ",
+   "points_text": "3.2%還元",
+   "yen": null,
+   "percent": 3.2,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204705",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "warau:205011": {
+   "site": "warau",
+   "deal_id": "205011",
+   "title": "【SKYFLAG】Jackpot Buffalo Slots（StepUp）",
+   "points_text": "10,256pt",
+   "yen": 10256.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205011",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
+  },
+  "sugutama:41225": {
+   "site": "sugutama",
+   "deal_id": "41225",
+   "title": "ニューバランス（new balance）公式オンラインアウトレット",
+   "points_text": "1.0%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41225",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "ponta_bonuspark:4638": {
+   "site": "ponta_bonuspark",
+   "deal_id": "4638",
+   "title": "日本の旅、鉄道の旅 (国内旅行予約)",
+   "points_text": "1%P還元",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://www.bonuspark.jp/travel/4638.html",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "poikatsu_club:14788": {
+   "site": "poikatsu_club",
+   "deal_id": "14788",
+   "title": "Huuugeカジノ（iOS）",
+   "points_text": "3960pt",
+   "yen": 3960.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14788",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、30日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、30日以内<br/>【成果調査受付期間】案件クリック後、35日以内<br/><br/>▼成果までの流れ <br/>新規アプリインストール後、<br/>・STEP1：レベル450をクリア<br/>・STEP2：初回課金<br/>・STEP3：レベル850をクリア<br/>・STEP4：レベル1000をクリア<br/>で成果となります。<br/><br/>▼却下条件<br/>※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。<br/>※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから31日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/>・回線が不安定な状態でインストールした場合は成果対象外となります。<br/>・インストールが他の広告成果としてみなされている場合は成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・他端末での同一IPからのインストールの場合は成果対象外となります。<br/>・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合は成果対象外となります。<br/>・不備・不正・虚偽・重複・いたずら・キャンセルされた場合は成果対象外となります。<br/>・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外<br/>・端末の「追跡型広告を制限」設定がONになっている場合は成果対象外となります。<br/>・公共WiFiをご利用しインストールまたは成果地点に到達した場合は成果対象外となります。<br/>・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外<br/>・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合は成果対象外となります。<br/>設定⇒プライバシー⇒トラッキング⇒『Appからのトラッキング要求を許可』をON<br/>・その他お申込内容に不備がある場合は成果対象外となります。<br/>・モニター/インセンティブ媒体以外で掲載された場合は成果対象外となります。<br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ）<br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から36日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果到達日<br/>■以下対象の成果に到達したことがわかるすべてのキャプチャ<br/>　成果1：レベル450をクリア<br/>　成果2：初回課金<br/>　成果3：レベル850をクリア<br/>　成果4：レベル1000をクリア",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
+   "last_seen": "2026-07-29"
+  },
+  "mikoshi_mall:1024": {
+   "site": "mikoshi_mall",
+   "deal_id": "1024",
+   "title": "みずほ銀行口座開設",
+   "points_text": "4275pt",
+   "yen": 3847.5,
+   "percent": null,
+   "url": "https://web.mikoshi.jp/shopping/1024",
+   "condition": "口座開設完了",
+   "seeded": false,
+   "first_seen": "2026-07-29",
+   "first_seen_at": "2026-07-29 15:00",
    "last_seen": "2026-07-29"
   }
  }

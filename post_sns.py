@@ -28,7 +28,8 @@ from pathlib import Path
 # 新着一覧のUPバッジ）と同じ関数を使う。Xとサイトで判定・表記が食い違わないようにするため。
 from builder.generate import BASE_URL, _synced_entries, _up_diff
 from crawler import store as store_mod
-from crawler.normalize import parse_points
+from crawler.categorize import is_corporate, load_corporate
+from crawler.normalize import normalize_title, parse_points
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "data" / "sns_state.json"
@@ -85,9 +86,11 @@ def weighted_len(text: str) -> int:
 
 
 def _norm_title(title: str) -> str:
-    """被り判定用にタイトルを正規化する（全角/半角・大小・空白の表記ゆれを吸収）"""
-    t = unicodedata.normalize("NFKC", title or "")
-    return re.sub(r"\s+", " ", t).strip().casefold()
+    """被り判定用のタイトルキー。サイトの名寄せ（crawler.normalize.normalize_title）を
+    そのまま使い、全角/半角・大小の揺れに加えて【】（）等の注記と記号も落とす。
+    「ペタペタペンギン団」「ペタペタペンギン団（多段階）（iOS）」のように注記だけが違う
+    同一商品が、同じ投稿の別枠を潰したり翌日に再投稿されたりするのを防ぐため。"""
+    return normalize_title(title or "")
 
 
 def _yen_of(deal: dict) -> float:
@@ -298,7 +301,18 @@ def _load_state(store: dict, today: str) -> tuple[set[str], dict]:
             if deal and deal.get("title"):
                 _remember_title(posted_titles, deal, seed_date)
 
-    return posted_today, _prune_titles(posted_titles, today)
+    # 履歴のキーは _norm_title 由来。名寄せルールを強めると過去のキーが引けなくなり
+    # 投稿済み案件を再投稿してしまうため、読み込み時に現行ルールで振り直す
+    # （normalize_title は冪等なので、既に現行ルールのキーはそのまま残る）。
+    # 同じキーに畳まれた記録は報酬額が最大のものを残す（_remember_title と同じ基準）。
+    migrated: dict = {}
+    for key, rec in posted_titles.items():
+        norm = _norm_title(key)
+        current = migrated.get(norm)
+        if current is None or rec.get("yen", 0) > current.get("yen", 0):
+            migrated[norm] = rec
+
+    return posted_today, _prune_titles(migrated, today)
 
 
 def main() -> int:
@@ -311,7 +325,11 @@ def main() -> int:
     history = store_mod.load_history()  # 「過去最高値」判定に使う値動き履歴
     posted_today, posted_titles = _load_state(store, today)
 
-    # 当日初出（またはポイントUP再浮上）・表示対象・当日未投稿・属性制限なし・
+    # 法人・事業者向け案件の判定は config/corporate.json（サイト表示の法人トグルと同じ設定）。
+    # 表示時に毎回判定する仕組みでstoreには持たないため、ここでも読み込んで判定する。
+    corp = load_corporate()
+
+    # 当日初出（またはポイントUP再浮上）・表示対象・当日未投稿・属性制限なし・法人向けでない・
     # 過去投稿と被らない案件を抽出。
     eligible = [
         d for d in store["deals"].values()
@@ -319,6 +337,7 @@ def main() -> int:
         and store_mod.is_visible(d)  # title有・非seed・非掲載終了
         and f"{d['site']}:{d['deal_id']}" not in posted_today  # 当日投稿済みは除外
         and not _is_restricted(d)  # 属性制限系（年収○○以上など）は投稿対象外
+        and not is_corporate(d, corp)  # 法人・事業者向けはフォロワーの大半が申込めないため投稿しない
         and not _already_posted(d, posted_titles)  # 過去の投稿と被る案件は除外（報酬増は許可）
     ]
     if not eligible:

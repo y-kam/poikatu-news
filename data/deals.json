@@ -277829,7 +277829,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "renewed_at": "2026-07-28 21:00",
    "renewed_from": "1,365P"
   },
@@ -301392,7 +301392,7 @@
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 01:00",
    "last_seen": "2026-07-13",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "warau:204488": {
    "site": "warau",
@@ -318458,7 +318458,7 @@
    "first_seen_at": "2026-07-21 17:00",
    "last_seen": "2026-07-25",
    "site_new": false,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:204799": {
    "site": "warau",
@@ -320554,7 +320554,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 15:00",
    "last_seen": "2026-07-23",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "warau:204827": {
    "site": "warau",
@@ -320597,7 +320597,7 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 15:00",
    "last_seen": "2026-07-23",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "warau:204824": {
    "site": "warau",
@@ -321768,8 +321768,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 01:00",
    "last_seen": "2026-07-27",
-   "site_new": true,
-   "renewed_at": "2026-07-27 05:09"
+   "site_new": false
   },
   "moppy:150595": {
    "site": "moppy",
@@ -326526,7 +326525,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "powl:37452": {
    "site": "powl",
@@ -326541,7 +326540,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "poikatsu_club:14313": {
    "site": "poikatsu_club",
@@ -327991,7 +327990,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "warau:204936": {
    "site": "warau",
@@ -328006,7 +328005,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 01:00",
    "last_seen": "2026-07-28",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "point_land:11139602": {
    "site": "point_land",
@@ -330168,7 +330167,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 11:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "poney:10000048931": {
    "site": "poney",
@@ -330737,7 +330736,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointincome:155331": {
    "site": "pointincome",
@@ -330751,7 +330751,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:13503": {
    "site": "pointincome",
@@ -330765,7 +330766,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointincome:149629": {
    "site": "pointincome",
@@ -330779,7 +330781,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointincome:154848": {
    "site": "pointincome",
@@ -330810,7 +330813,8 @@
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
    "renewed_at": "2026-07-29 01:00",
-   "renewed_from": "150,000pt"
+   "renewed_from": "150,000pt",
+   "dead_streak": 1
   },
   "pointincome:150905": {
    "site": "pointincome",
@@ -330824,7 +330828,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointincome:136387": {
    "site": "pointincome",
@@ -330838,7 +330843,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "sugutama:41216": {
    "site": "sugutama",
@@ -331080,7 +331086,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-29"
   },
   "warau:204985": {
@@ -331095,7 +331101,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-29"
   },
   "warau:204987": {
@@ -331125,7 +331131,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-29"
   },
   "warau:188438": {
@@ -333093,7 +333099,8 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "warau:205015": {
    "site": "warau",
@@ -333605,7 +333612,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "site_new": false
   },
   "warau:205040": {
@@ -333696,7 +333703,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "warau:205043": {
    "site": "warau",
@@ -333711,7 +333718,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "fruitmail:18456": {
    "site": "fruitmail",
@@ -334039,7 +334046,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:155099": {
    "site": "pointincome",
@@ -334053,7 +334061,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:155613": {
    "site": "pointincome",
@@ -334067,7 +334076,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:1360": {
    "site": "pointincome",
@@ -334081,7 +334091,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:94456": {
    "site": "pointincome",
@@ -334095,7 +334106,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:144090": {
    "site": "pointincome",
@@ -334109,7 +334121,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "warau:205044": {
    "site": "warau",
@@ -334194,7 +334207,162 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
+  },
+  "moppy:161687": {
+   "site": "moppy",
+   "deal_id": "161687",
+   "title": "Meowster",
+   "points_text": "106P",
+   "yen": 106.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161687",
+   "condition": "初回アカウント登録完了",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30",
+   "site_new": false
+  },
+  "hapitas:102257": {
+   "site": "hapitas",
+   "deal_id": "102257",
+   "title": "バブルブロックパズル",
+   "points_text": "87pt",
+   "yen": 87.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102257/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102263": {
+   "site": "hapitas",
+   "deal_id": "102263",
+   "title": "ターミナルマスター (Terminal Master)",
+   "points_text": "117pt",
+   "yen": 117.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102263/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102259": {
+   "site": "hapitas",
+   "deal_id": "102259",
+   "title": "Okiki Friends（オキキフレンズ）",
+   "points_text": "225pt",
+   "yen": 225.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102259/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102256": {
+   "site": "hapitas",
+   "deal_id": "102256",
+   "title": "バブルブロックパズル",
+   "points_text": "87pt",
+   "yen": 87.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102256/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102262": {
+   "site": "hapitas",
+   "deal_id": "102262",
+   "title": "ターミナルマスター (Terminal Master)",
+   "points_text": "82pt",
+   "yen": 82.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102262/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102258": {
+   "site": "hapitas",
+   "deal_id": "102258",
+   "title": "Okiki Friends（オキキフレンズ）",
+   "points_text": "225pt",
+   "yen": 225.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102258/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:98308": {
+   "site": "hapitas",
+   "deal_id": "98308",
+   "title": "TikTok Lite（多段階）（Android）",
+   "points_text": "2,683pt",
+   "yen": 2683.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/98308/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:98307": {
+   "site": "hapitas",
+   "deal_id": "98307",
+   "title": "TikTok Lite（多段階）（iOS）",
+   "points_text": "4,717pt",
+   "yen": 4717.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/98307/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102264": {
+   "site": "hapitas",
+   "deal_id": "102264",
+   "title": "しまホ！（島根銀行スマートフォン支店）",
+   "points_text": "750pt",
+   "yen": 750.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102264/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
+  },
+  "hapitas:102224": {
+   "site": "hapitas",
+   "deal_id": "102224",
+   "title": "【LINE登録＋無料診断】 Pollet（ポレット）",
+   "points_text": "5pt",
+   "yen": 5.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102224/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 05:00",
+   "last_seen": "2026-07-30"
   }
  }
 }

@@ -43082,17 +43082,18 @@
   "pointincome:154095": {
    "site": "pointincome",
    "deal_id": "154095",
-   "title": "【最大42,000円分】三井住友カード（NL）",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "【最大44,000円分】三井住友カード（NL）※数量限定高還元※",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154095/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-07-30",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-07-30 13:00",
+   "renewed_from": "130,000pt"
   },
   "pointincome:154097": {
    "site": "pointincome",
@@ -43120,7 +43121,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -54537,9 +54538,9 @@
    "site": "rebates",
    "deal_id": "15216",
    "title": "スプリング・ジャパン",
-   "points_text": "1.0%",
+   "points_text": "2.0%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 2.0,
    "url": "https://www.rebates.jp/jp.ch.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -71912,7 +71913,7 @@
    "condition": "訪問査定申し込み後、訪問査定・相談",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "site_new": true,
    "renewed_at": "2026-07-18 21:10"
   },
@@ -73267,7 +73268,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-30"
   },
   "au_point:8:1386": {
    "site": "au_point",
@@ -76658,7 +76659,8 @@
    "condition": "新規インターネット会員登録完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "kurashiru_reward:16943": {
    "site": "kurashiru_reward",
@@ -78548,7 +78550,7 @@
    "condition": "新規有料講座受講 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-30"
   },
   "kurashiru_reward:16140": {
    "site": "kurashiru_reward",
@@ -101720,8 +101722,8 @@
    "site": "powl",
    "deal_id": "12122",
    "title": "オンラインクレーンゲーム「アラクレ」（Android）",
-   "points_text": "4,300pt",
-   "yen": 430.0,
+   "points_text": "4,000pt",
+   "yen": 400.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/12122",
    "condition": "",
@@ -194535,43 +194537,49 @@
    "site": "amefri",
    "deal_id": "126282",
    "title": "エードMYバンク【200万円以上出資完了】",
-   "points_text": "1,200,000pt",
-   "yen": 120000.0,
+   "points_text": "1,400,000pt",
+   "yen": 140000.0,
    "percent": null,
    "url": "https://www.amefri.net/detail/id/126282",
    "condition": "新規出資完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-30",
+   "renewed_at": "2026-07-30 13:00",
+   "renewed_from": "1,200,000pt"
   },
   "amefri:126193": {
    "site": "amefri",
    "deal_id": "126193",
    "title": "エードMYバンク【100万円以上出資完了】",
-   "points_text": "600,000pt",
-   "yen": 60000.0,
+   "points_text": "750,000pt",
+   "yen": 75000.0,
    "percent": null,
    "url": "https://www.amefri.net/detail/id/126193",
    "condition": "出資完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-30",
+   "renewed_at": "2026-07-30 13:00",
+   "renewed_from": "600,000pt"
   },
   "amefri:126192": {
    "site": "amefri",
    "deal_id": "126192",
    "title": "エードMYバンク【50万円以上出資完了】",
-   "points_text": "380,000pt",
-   "yen": 38000.0,
+   "points_text": "440,000pt",
+   "yen": 44000.0,
    "percent": null,
    "url": "https://www.amefri.net/detail/id/126192",
    "condition": "出資完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-30",
+   "renewed_at": "2026-07-30 13:00",
+   "renewed_from": "380,000pt"
   },
   "amefri:138325": {
    "site": "amefri",
@@ -272104,7 +272112,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 20:23",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "site_new": true,
    "renewed_at": "2026-07-23 11:09"
   },
@@ -272869,7 +272877,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-08"
   },
   "pointincome:149231": {
@@ -274149,16 +274157,18 @@
    "site": "pointincome",
    "deal_id": "155100",
    "title": "エードMYバンク【50万円以上投資完了】",
-   "points_text": "370,000pt",
-   "yen": 37000.0,
+   "points_text": "450,000pt",
+   "yen": 45000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155100/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-13",
-   "delisted_at": "2026-07-09"
+   "last_seen": "2026-07-30",
+   "delisted_at": "2026-07-09",
+   "renewed_at": "2026-07-30 13:00",
+   "renewed_from": "370,000pt"
   },
   "pointincome:154872": {
    "site": "pointincome",
@@ -276105,7 +276115,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155528": {
@@ -302041,8 +302051,7 @@
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 21:00",
    "last_seen": "2026-07-27",
-   "site_new": true,
-   "renewed_at": "2026-07-25 15:09"
+   "site_new": false
   },
   "point_land:010835": {
    "site": "point_land",
@@ -310134,7 +310143,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-16"
   },
   "pointincome:151987": {
@@ -317236,7 +317245,7 @@
    "seeded": false,
    "first_seen": "2026-07-19",
    "first_seen_at": "2026-07-19 15:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-07-30",
    "delisted_at": "2026-07-20",
    "renewed_at": "2026-07-29 11:00",
    "renewed_from": "130,000pt"
@@ -317847,7 +317856,7 @@
    "last_seen": "2026-07-29",
    "site_new": true,
    "renewed_at": "2026-07-25 01:10",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "warau:200848": {
    "site": "warau",
@@ -324118,7 +324127,8 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "powl:37216": {
    "site": "powl",
@@ -326815,7 +326825,7 @@
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
    "last_seen": "2026-07-27",
-   "site_new": true,
+   "site_new": false,
    "renew_hold": true
   },
   "moppy:130135": {
@@ -330705,7 +330715,7 @@
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
    "site_new": true,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:1709": {
    "site": "moppy",
@@ -331816,7 +331826,7 @@
    "yen": 12800.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=6w0000579942",
-   "condition": "新規アカウント登録＋",
+   "condition": "条件達成",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 01:00",
@@ -331830,7 +331840,7 @@
    "yen": 12800.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=6w0000579942",
-   "condition": "新規アカウント登録＋で",
+   "condition": "条件達成で",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 01:00",
@@ -331844,7 +331854,7 @@
    "yen": 12800.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=6w0000579942",
-   "condition": "新規アカウント登録＋",
+   "condition": "条件達成",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 01:00",
@@ -331858,7 +331868,7 @@
    "yen": 12800.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=6w0000579942",
-   "condition": "新規アカウント登録＋で",
+   "condition": "条件達成で",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 01:00",
@@ -334548,6 +334558,77 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 11:00",
+   "last_seen": "2026-07-30"
+  },
+  "moppy:161951": {
+   "site": "moppy",
+   "deal_id": "161951",
+   "title": "Yarn Loop/ヤーンループ_iOS（StepUp）",
+   "points_text": "13,520P",
+   "yen": 13520.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161951",
+   "condition": "新規アプリインストール後、50日以内に各成果地点到達でクリア",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 13:00",
+   "last_seen": "2026-07-30",
+   "site_new": false
+  },
+  "pointincome:155103": {
+   "site": "pointincome",
+   "deal_id": "155103",
+   "title": "エードMYバンク【100万円以上投資完了】",
+   "points_text": "780,000pt",
+   "yen": 78000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155103/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 13:00",
+   "last_seen": "2026-07-30"
+  },
+  "pointincome:155105": {
+   "site": "pointincome",
+   "deal_id": "155105",
+   "title": "エードMYバンク【200万円以上投資完了】",
+   "points_text": "1,500,000pt",
+   "yen": 150000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155105/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 13:00",
+   "last_seen": "2026-07-30"
+  },
+  "pointincome:153480": {
+   "site": "pointincome",
+   "deal_id": "153480",
+   "title": "TOMOTAQU(トモタク)【50万円以上投資完了】",
+   "points_text": "220,000pt",
+   "yen": 22000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/153480/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 13:00",
+   "last_seen": "2026-07-30"
+  },
+  "pointincome:131744": {
+   "site": "pointincome",
+   "deal_id": "131744",
+   "title": "BIGLOBE WiMAX +5G",
+   "points_text": "200,000pt",
+   "yen": 20000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/131744/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 13:00",
    "last_seen": "2026-07-30"
   }
  }

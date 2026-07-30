@@ -47130,14 +47130,15 @@
    "site": "rebates",
    "deal_id": "22397",
    "title": "GetYourGuide",
-   "points_text": "5.0%",
+   "points_text": "4.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 4.5,
    "url": "https://www.rebates.jp/getyourguide.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:14457": {
    "site": "rebates",
@@ -47473,14 +47474,15 @@
    "site": "rebates",
    "deal_id": "9584",
    "title": "IHG ホテルズ & リゾート",
-   "points_text": "6.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/intercontinentalhotelsandresorts.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:19417": {
    "site": "rebates",
@@ -47631,27 +47633,29 @@
    "site": "rebates",
    "deal_id": "18574",
    "title": "JALパック 国内ツアー",
-   "points_text": "4.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/jal.co.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:18571": {
    "site": "rebates",
    "deal_id": "18571",
    "title": "JALパック 海外ツアー",
-   "points_text": "3.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/jal.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:22713": {
    "site": "rebates",
@@ -47696,9 +47700,9 @@
    "site": "rebates",
    "deal_id": "23750",
    "title": "JETPAC",
-   "points_text": "20.0%",
+   "points_text": "11.0%",
    "yen": null,
-   "percent": 20.0,
+   "percent": 11.0,
    "url": "https://www.rebates.jp/jetpacglobal.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -47788,9 +47792,9 @@
    "site": "rebates",
    "deal_id": "16337",
    "title": "JTB国内旅行",
-   "points_text": "3.5%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/jtb.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -48421,9 +48425,9 @@
    "site": "rebates",
    "deal_id": "22123",
    "title": "MUSINSA",
-   "points_text": "7.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 7.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/global.musinsa.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -48591,9 +48595,9 @@
    "site": "rebates",
    "deal_id": "10632",
    "title": "NARS公式オンラインショップ",
-   "points_text": "9.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 9.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/narscosmetics.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -49215,14 +49219,15 @@
    "site": "rebates",
    "deal_id": "13458",
    "title": "Radisson Hotels",
-   "points_text": "5.0%",
+   "points_text": "2.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 2.0,
    "url": "https://www.rebates.jp/radissonhotels.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:15538": {
    "site": "rebates",
@@ -50099,9 +50104,9 @@
    "site": "rebates",
    "deal_id": "24267",
    "title": "Traveloka",
-   "points_text": "最大17.5%",
+   "points_text": "最大15.0%",
    "yen": null,
-   "percent": 17.5,
+   "percent": 15.0,
    "url": "https://www.rebates.jp/traveloka.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -50113,27 +50118,29 @@
    "site": "rebates",
    "deal_id": "16097",
    "title": "Trip.com（ホテル）",
-   "points_text": "8.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 8.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/jp.trip.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:18289": {
    "site": "rebates",
    "deal_id": "18289",
    "title": "Trip.com（航空券）",
-   "points_text": "4.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/jp_trip_com_flights",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:24065": {
    "site": "rebates",
@@ -51898,14 +51905,15 @@
    "site": "rebates",
    "deal_id": "16053",
    "title": "びゅうトラベル（えきねっと JR東日本国内ツアー）",
-   "points_text": "3.0%",
+   "points_text": "2.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 2.0,
    "url": "https://www.rebates.jp/eki-net.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:24422": {
    "site": "rebates",
@@ -52605,14 +52613,15 @@
    "site": "rebates",
    "deal_id": "18633",
    "title": "アールワイレンタル",
-   "points_text": "6.0%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/ry-rental.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:14663": {
    "site": "rebates",
@@ -53000,9 +53009,9 @@
    "site": "rebates",
    "deal_id": "16342",
    "title": "エイチ・アイ・エス",
-   "points_text": "2.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/his-j.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -53027,9 +53036,9 @@
    "site": "rebates",
    "deal_id": "18662",
    "title": "エクスペディア（パッケージ）",
-   "points_text": "1.5%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/expedia.co.jp.vacation-packages",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -53041,9 +53050,9 @@
    "site": "rebates",
    "deal_id": "18660",
    "title": "エクスペディア（ホテル）",
-   "points_text": "10.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 10.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/expedia.hotels.jp",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -53647,9 +53656,9 @@
    "site": "rebates",
    "deal_id": "24368",
    "title": "クラブツーリズム",
-   "points_text": "1.5%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/club-t.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -55150,14 +55159,15 @@
    "site": "rebates",
    "deal_id": "24455",
    "title": "トラベルスタンダードジャパン",
-   "points_text": "2.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/travelwith.jp",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:13440": {
    "site": "rebates",
@@ -55600,9 +55610,9 @@
    "site": "rebates",
    "deal_id": "21493",
    "title": "ビッグホリデー",
-   "points_text": "3.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/bigs.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -56156,9 +56166,9 @@
    "site": "rebates",
    "deal_id": "9388",
    "title": "ホテルズドットコム",
-   "points_text": "9.0%",
+   "points_text": "2.0%",
    "yen": null,
-   "percent": 9.0,
+   "percent": 2.0,
    "url": "https://www.rebates.jp/hotels.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -57263,9 +57273,9 @@
    "site": "rebates",
    "deal_id": "24215",
    "title": "元禄三年創業　山本山",
-   "points_text": "7.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 7.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/yamamotoyama.co.jp",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -57447,14 +57457,15 @@
    "site": "rebates",
    "deal_id": "14667",
    "title": "小田急オンラインショッピング",
-   "points_text": "6.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/odakyuu",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-30",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:14681": {
    "site": "rebates",
@@ -317836,7 +317847,8 @@
    "first_seen_at": "2026-07-21 13:00",
    "last_seen": "2026-07-29",
    "site_new": true,
-   "renewed_at": "2026-07-25 01:10"
+   "renewed_at": "2026-07-25 01:10",
+   "dead_streak": 1
   },
   "warau:200848": {
    "site": "warau",
@@ -327826,7 +327838,7 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 11:00",
    "last_seen": "2026-07-27",
-   "site_new": true
+   "site_new": false
   },
   "moppy:160483": {
    "site": "moppy",
@@ -328063,8 +328075,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 11:00",
    "last_seen": "2026-07-30",
-   "site_new": true,
-   "renewed_at": "2026-07-30 01:00"
+   "site_new": false
   },
   "moppy:1407": {
    "site": "moppy",
@@ -330738,7 +330749,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:155331": {
    "site": "pointincome",
@@ -330753,7 +330764,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:13503": {
    "site": "pointincome",
@@ -330768,7 +330779,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:149629": {
    "site": "pointincome",
@@ -330783,7 +330794,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:154848": {
    "site": "pointincome",
@@ -330815,7 +330826,7 @@
    "last_seen": "2026-07-29",
    "renewed_at": "2026-07-29 01:00",
    "renewed_from": "150,000pt",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:150905": {
    "site": "pointincome",
@@ -330830,7 +330841,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:136387": {
    "site": "pointincome",
@@ -330845,7 +330856,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "sugutama:41216": {
    "site": "sugutama",
@@ -333101,7 +333112,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "warau:205015": {
    "site": "warau",
@@ -334048,7 +334059,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:155099": {
    "site": "pointincome",
@@ -334063,7 +334074,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:155613": {
    "site": "pointincome",
@@ -334078,7 +334089,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:1360": {
    "site": "pointincome",
@@ -334093,7 +334104,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:94456": {
    "site": "pointincome",
@@ -334108,7 +334119,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "pointincome:144090": {
    "site": "pointincome",
@@ -334123,7 +334134,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "warau:205044": {
    "site": "warau",
@@ -334377,6 +334388,106 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 08:00",
+   "last_seen": "2026-07-30"
+  },
+  "warau:205046": {
+   "site": "warau",
+   "deal_id": "205046",
+   "title": "【GFRewards】Huuuge Casino 777 Slots Games（StepUp）",
+   "points_text": "2,475pt",
+   "yen": 2475.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205046",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
+  },
+  "sugutama:351": {
+   "site": "sugutama",
+   "deal_id": "351",
+   "title": "阪急交通社「インターネット会員登録」",
+   "points_text": "160mile",
+   "yen": 80.0,
+   "percent": null,
+   "url": "https://www.netmile.co.jp/sugutama/ads/351",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30"
+  },
+  "rebates:15696": {
+   "site": "rebates",
+   "deal_id": "15696",
+   "title": "P.S.FAオンラインストア",
+   "points_text": "2.5%",
+   "yen": null,
+   "percent": 2.5,
+   "url": "https://www.rebates.jp/perfect-s-com",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30"
+  },
+  "amefri:139134": {
+   "site": "amefri",
+   "deal_id": "139134",
+   "title": "Huuuge Casino 777 Slots Games【iOS】",
+   "points_text": "33,820pt",
+   "yen": 3382.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139134",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "au_point:8:636": {
+   "site": "au_point",
+   "deal_id": "8:636",
+   "title": "Pontaリサーチ（お試しアンケート回答）",
+   "points_text": "30P",
+   "yen": 30.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=636",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30"
+  },
+  "au_point:8:104": {
+   "site": "au_point",
+   "deal_id": "8:104",
+   "title": "Ipsos iSay",
+   "points_text": "170P",
+   "yen": 170.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=104",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30"
+  },
+  "poikatsu_club:15220": {
+   "site": "poikatsu_club",
+   "deal_id": "15220",
+   "title": "Huuuge Casino 777 Slots Games（iOS）",
+   "points_text": "4455pt",
+   "yen": 4455.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/15220",
+   "condition": "新規アプリインストール後、\n・STEP1：レベル450をクリア\n・STEP2：初回課金\n・STEP3：レベル850をクリア\n・STEP4：レベル1000をクリア\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\nこのキャンペーンは2026/07/29以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n※キャンペーンは予告なく変更・終了する場合がございます。\n※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。\n※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから42日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・アプリ名\n・広告クリック日時\n・成果達成日時\n・成果到達したことがわかるすべてのキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不備・不正・虚偽・重複・いたずら・キャンセル、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・過去にアプリをインストールしたことがある\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 10:00",
    "last_seen": "2026-07-30"
   }
  }

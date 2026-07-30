@@ -129032,7 +129032,7 @@
   "tamaru_mall:2675": {
    "site": "tamaru_mall",
    "deal_id": "2675",
-   "title": "ニコニコ動画【790円(税込)コース】",
+   "title": "ニコニコ動画【790円(税込)コース】登録",
    "points_text": "700コイン",
    "yen": 700.0,
    "percent": null,
@@ -311557,8 +311557,7 @@
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 13:00",
    "last_seen": "2026-07-27",
-   "site_new": true,
-   "renewed_at": "2026-07-27 11:09"
+   "site_new": false
   },
   "warau:204691": {
    "site": "warau",
@@ -317848,7 +317847,7 @@
    "last_seen": "2026-07-29",
    "site_new": true,
    "renewed_at": "2026-07-25 01:10",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:200848": {
    "site": "warau",
@@ -328075,7 +328074,8 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 11:00",
    "last_seen": "2026-07-30",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-07-30 11:00"
   },
   "moppy:1407": {
    "site": "moppy",
@@ -330704,7 +330704,8 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
-   "site_new": true
+   "site_new": true,
+   "dead_streak": 1
   },
   "moppy:1709": {
    "site": "moppy",
@@ -334403,7 +334404,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 10:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "sugutama:351": {
    "site": "sugutama",
@@ -334488,6 +334489,65 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 10:00",
+   "last_seen": "2026-07-30"
+  },
+  "moppy:161950": {
+   "site": "moppy",
+   "deal_id": "161950",
+   "title": "KATIX（カチエックス）車買取",
+   "points_text": "23,000P",
+   "yen": 23000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161950",
+   "condition": "WEB査定申込後、90日以内の売却",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 11:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "moppy:161949": {
+   "site": "moppy",
+   "deal_id": "161949",
+   "title": "KATIX（カチエックス）バイク買取",
+   "points_text": "4,500P",
+   "yen": 4500.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161949",
+   "condition": "WEB査定申込後、90日以内の売却",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 11:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "moppy:159202": {
+   "site": "moppy",
+   "deal_id": "159202",
+   "title": "事故車買取の【タウ】",
+   "points_text": "26,000P",
+   "yen": 26000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=159202",
+   "condition": "査定申込後、45日以内に売却成立",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 11:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "powl:37919": {
+   "site": "powl",
+   "deal_id": "37919",
+   "title": "【CLEANSING OIL】新規定期購入プログラム",
+   "points_text": "9,900pt",
+   "yen": 990.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37919",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 11:00",
    "last_seen": "2026-07-30"
   }
  }

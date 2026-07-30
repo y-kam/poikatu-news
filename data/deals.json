@@ -43058,7 +43058,7 @@
    "url": "https://pointi.jp/ad/154013/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renewed_at": "2026-07-18 15:00",
@@ -43089,7 +43089,7 @@
    "url": "https://pointi.jp/ad/154095/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -43097,18 +43097,17 @@
   "pointincome:154097": {
    "site": "pointincome",
    "deal_id": "154097",
-   "title": "【最大46,000円分】三井住友カード ゴールド（NL）※数量限定高還元※",
-   "points_text": "150,000pt",
-   "yen": 15000.0,
+   "title": "【最大42,000円分】三井住友カード ゴールド（NL）",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154097/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-07-27 13:00",
-   "renewed_from": "110,000pt"
+   "renew_hold": true
   },
   "pointincome:152160": {
    "site": "pointincome",
@@ -43120,7 +43119,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -214138,7 +214137,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_island:212712": {
    "site": "point_island",
@@ -225524,7 +225523,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_stadium:212712": {
    "site": "point_stadium",
@@ -236967,7 +236966,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31",
+   "renewed_at": "2026-07-31 08:00"
   },
   "nyandaful:212712": {
    "site": "nyandaful",
@@ -270813,7 +270813,8 @@
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:00",
    "last_seen": "2026-07-07",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "moppy:158914": {
    "site": "moppy",
@@ -272891,7 +272892,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-08"
   },
   "pointincome:149231": {
@@ -274089,7 +274090,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-09"
   },
   "pointincome:155317": {
@@ -274179,7 +274180,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-07-30 13:00",
    "renewed_from": "370,000pt"
@@ -276129,7 +276130,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155528": {
@@ -276496,7 +276497,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-10"
   },
   "pointincome:154075": {
@@ -276511,7 +276512,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155596": {
@@ -294447,7 +294448,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155732": {
@@ -299579,7 +299580,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -300306,19 +300307,18 @@
   "pointincome:154887": {
    "site": "pointincome",
    "deal_id": "154887",
-   "title": "三井住友カード ゴールド（NL） ハローキティデザイン※数量限定高還元※",
-   "points_text": "150,000pt",
-   "yen": 15000.0,
+   "title": "三井住友カード ゴールド（NL） ハローキティデザイン",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154887/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-11",
-   "renewed_at": "2026-07-27 13:00",
-   "renewed_from": "110,000pt"
+   "renew_hold": true
   },
   "pointtown:10849": {
    "site": "pointtown",
@@ -301965,7 +301965,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-11"
   },
   "chobirich:1894559": {
@@ -302665,7 +302665,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-14"
   },
   "pointincome:147236": {
@@ -305721,7 +305721,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 11:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-14"
   },
   "pointincome:153609": {
@@ -305766,7 +305766,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 11:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-14"
   },
   "warau:204586": {
@@ -310164,7 +310164,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-16"
   },
   "pointincome:151987": {
@@ -317269,7 +317269,7 @@
    "seeded": false,
    "first_seen": "2026-07-19",
    "first_seen_at": "2026-07-19 15:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-20",
    "renew_hold": true
   },
@@ -330803,7 +330803,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-30"
   },
   "pointincome:13503": {
@@ -333538,7 +333538,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 17:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-31"
   },
   "poikatsu_club:14857": {
    "site": "poikatsu_club",
@@ -333681,7 +333681,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-30"
   },
   "warau:205041": {
@@ -334092,16 +334092,18 @@
    "site": "pointincome",
    "deal_id": "155797",
    "title": "TORCHES（トーチーズ）[投資金額100万円以上]【8/4で終了!!】",
-   "points_text": "450,000pt",
-   "yen": 45000.0,
+   "points_text": "460,000pt",
+   "yen": 46000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155797/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30",
-   "delisted_at": "2026-07-30"
+   "last_seen": "2026-07-31",
+   "delisted_at": "2026-07-30",
+   "renewed_at": "2026-07-31 08:00",
+   "renewed_from": "450,000pt"
   },
   "pointincome:155099": {
    "site": "pointincome",
@@ -334115,7 +334117,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-30"
   },
   "pointincome:155613": {
@@ -334130,7 +334132,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-30"
   },
   "pointincome:1360": {
@@ -334246,7 +334248,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-31"
   },
   "warau:205000": {
    "site": "warau",
@@ -334618,8 +334620,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "last_seen": "2026-07-31"
   },
   "pointincome:155105": {
    "site": "pointincome",
@@ -334633,8 +334634,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "last_seen": "2026-07-31"
   },
   "pointincome:153480": {
    "site": "pointincome",
@@ -334648,8 +334648,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "last_seen": "2026-07-31"
   },
   "pointincome:131744": {
    "site": "pointincome",
@@ -334663,8 +334662,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "last_seen": "2026-07-31"
   },
   "moppy:159799": {
    "site": "moppy",
@@ -334738,7 +334736,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 15:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "site_new": true
   },
   "powl:37937": {
@@ -335471,8 +335469,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
-   "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "last_seen": "2026-07-31"
   },
   "pointincome:138000": {
    "site": "pointincome",
@@ -335486,8 +335483,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
-   "last_seen": "2026-07-30",
-   "dead_streak": 2
+   "last_seen": "2026-07-31"
   },
   "pointtown:1265": {
    "site": "pointtown",
@@ -335976,7 +335972,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 01:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "moppy:14": {
    "site": "moppy",
@@ -335991,7 +335987,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 01:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "moppy:156812": {
    "site": "moppy",
@@ -336533,6 +336529,34 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 05:00",
+   "last_seen": "2026-07-31"
+  },
+  "pointincome:155980": {
+   "site": "pointincome",
+   "deal_id": "155980",
+   "title": "【即pt】DMM TV（無料トライアル）",
+   "points_text": "2,000pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155980/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 08:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_land:220989": {
+   "site": "point_land",
+   "deal_id": "220989",
+   "title": "i-Say☆無料会員登録",
+   "points_text": "2100ポイント",
+   "yen": 210.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=220989",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 08:00",
    "last_seen": "2026-07-31"
   }
  }

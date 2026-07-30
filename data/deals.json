@@ -76660,7 +76660,7 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-30",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "kurashiru_reward:16943": {
    "site": "kurashiru_reward",
@@ -78563,7 +78563,7 @@
    "condition": "新規WEB申込後、30日以内の訪問見積もり完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-30"
   },
   "kurashiru_reward:16139": {
    "site": "kurashiru_reward",
@@ -130924,7 +130924,7 @@
   "point_hiroba:5198": {
    "site": "point_hiroba",
    "deal_id": "5198",
-   "title": "最大115,000円相当の特典還元！GMOとくとくBB×ドコモ光",
+   "title": "最大116,000円相当の特典還元！GMOとくとくBB×ドコモ光",
    "points_text": "17,500 P",
    "yen": 17500.0,
    "percent": null,
@@ -271859,17 +271859,18 @@
    "site": "moppy",
    "deal_id": "159796",
    "title": "エードMYバンク（50万円以上投資完了）",
-   "points_text": "53,000P",
-   "yen": 53000.0,
+   "points_text": "40,000P",
+   "yen": 40000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=159796",
-   "condition": "エードMYバンク37号ファンドへ50万円以上新規出資完了",
+   "condition": "エードMYバンク38号ファンドへ50万円以上新規出資完了",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 17:00",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-07-30",
    "site_new": false,
-   "delisted_at": "2026-07-22"
+   "delisted_at": "2026-07-22",
+   "renew_hold": true
   },
   "warau:204372": {
    "site": "warau",
@@ -309791,7 +309792,8 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 17:00",
-   "last_seen": "2026-07-16"
+   "last_seen": "2026-07-16",
+   "dead_streak": 1
   },
   "warau:204655": {
    "site": "warau",
@@ -309805,7 +309807,8 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 17:00",
-   "last_seen": "2026-07-16"
+   "last_seen": "2026-07-16",
+   "dead_streak": 1
   },
   "warau:204663": {
    "site": "warau",
@@ -324128,7 +324131,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
    "last_seen": "2026-07-30",
-   "dead_streak": 1
+   "delisted_at": "2026-07-30"
   },
   "powl:37216": {
    "site": "powl",
@@ -327702,8 +327705,8 @@
    "site": "moppy",
    "deal_id": "161940",
    "title": "※超還元※Pococha",
-   "points_text": "3,400P",
-   "yen": 3400.0,
+   "points_text": "3,000P",
+   "yen": 3000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161940",
    "condition": "初心者限定！チュートリアルミッション全クリア後にコインをすべて受け取る",
@@ -327711,7 +327714,8 @@
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 01:00",
    "last_seen": "2026-07-30",
-   "site_new": false
+   "site_new": true,
+   "renew_hold": true
   },
   "moppy:157044": {
    "site": "moppy",
@@ -330715,7 +330719,7 @@
    "first_seen_at": "2026-07-28 17:00",
    "last_seen": "2026-07-29",
    "site_new": true,
-   "dead_streak": 2
+   "delisted_at": "2026-07-30"
   },
   "moppy:1709": {
    "site": "moppy",
@@ -331528,7 +331532,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-30"
   },
   "poikatsu_club:14468": {
    "site": "poikatsu_club",
@@ -334587,7 +334591,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:155105": {
    "site": "pointincome",
@@ -334601,7 +334606,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:153480": {
    "site": "pointincome",
@@ -334615,7 +334621,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
   },
   "pointincome:131744": {
    "site": "pointincome",
@@ -334629,6 +334636,306 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
+  },
+  "moppy:159799": {
+   "site": "moppy",
+   "deal_id": "159799",
+   "title": "エードMYバンク（200万円以上投資完了）",
+   "points_text": "150,000P",
+   "yen": 150000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=159799",
+   "condition": "エードMYバンク38号ファンドへ200万円以上新規出資完了",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "moppy:159797": {
+   "site": "moppy",
+   "deal_id": "159797",
+   "title": "エードMYバンク（100万円以上投資完了）",
+   "points_text": "70,000P",
+   "yen": 70000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=159797",
+   "condition": "エードMYバンク38号ファンドへ100万円以上新規出資完了",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "warau:205056": {
+   "site": "warau",
+   "deal_id": "205056",
+   "title": "【Zucks】モーマンタイム（StepUp）",
+   "points_text": "9,491pt",
+   "yen": 9491.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205056",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
+  },
+  "warau:205055": {
+   "site": "warau",
+   "deal_id": "205055",
+   "title": "【Zucks】モーマンタイム（StepUp）",
+   "points_text": "9,491pt",
+   "yen": 9491.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205055",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30",
+   "dead_streak": 1
+  },
+  "amefri:139137": {
+   "site": "amefri",
+   "deal_id": "139137",
+   "title": "【M】【 プレイヤーレベル159到達】モーマンタイム_Android_2607",
+   "points_text": "108,480pt",
+   "yen": 10848.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139137",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30",
+   "site_new": true
+  },
+  "powl:37937": {
+   "site": "powl",
+   "deal_id": "37937",
+   "title": "エードMYバンク【50万円以上出資完了】",
+   "points_text": "450,000pt",
+   "yen": 45000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37937",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37938": {
+   "site": "powl",
+   "deal_id": "37938",
+   "title": "エードMYバンク【100万円以上出資完了】",
+   "points_text": "780,000pt",
+   "yen": 78000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37938",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37939": {
+   "site": "powl",
+   "deal_id": "37939",
+   "title": "エードMYバンク【200万円以上出資完了】",
+   "points_text": "1,320,000pt",
+   "yen": 132000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37939",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:36669": {
+   "site": "powl",
+   "deal_id": "36669",
+   "title": "【1分で完了】物販ビジネス資料請求",
+   "points_text": "20,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/36669",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:36739": {
+   "site": "powl",
+   "deal_id": "36739",
+   "title": "Umbrella Escape（Android）マルチミッション",
+   "points_text": "78,000pt",
+   "yen": 7800.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/36739",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:36855": {
+   "site": "powl",
+   "deal_id": "36855",
+   "title": "Yarn Loop（iOS）マルチミッション",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/36855",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:36868": {
+   "site": "powl",
+   "deal_id": "36868",
+   "title": "Yarn Loop（Android）マルチミッション",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/36868",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:36676": {
+   "site": "powl",
+   "deal_id": "36676",
+   "title": "抜刀道（iOS）マルチミッション",
+   "points_text": "6,300pt",
+   "yen": 630.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/36676",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:36688": {
+   "site": "powl",
+   "deal_id": "36688",
+   "title": "抜刀道（Android）マルチミッション",
+   "points_text": "6,300pt",
+   "yen": 630.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/36688",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37237": {
+   "site": "powl",
+   "deal_id": "37237",
+   "title": "キングショット（iOS）マルチミッション",
+   "points_text": "77,000pt",
+   "yen": 7700.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37237",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37246": {
+   "site": "powl",
+   "deal_id": "37246",
+   "title": "キングショット（Android）マルチミッション",
+   "points_text": "77,000pt",
+   "yen": 7700.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37246",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37255": {
+   "site": "powl",
+   "deal_id": "37255",
+   "title": "薪割りの里（iOS）マルチミッション",
+   "points_text": "10,300pt",
+   "yen": 1030.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37255",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37263": {
+   "site": "powl",
+   "deal_id": "37263",
+   "title": "薪割りの里（Android）マルチミッション",
+   "points_text": "10,300pt",
+   "yen": 1030.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37263",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37271": {
+   "site": "powl",
+   "deal_id": "37271",
+   "title": "金魚みっけ（iOS）マルチミッション",
+   "points_text": "13,000pt",
+   "yen": 1300.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37271",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37280": {
+   "site": "powl",
+   "deal_id": "37280",
+   "title": "金魚みっけ（Android）マルチミッション",
+   "points_text": "13,000pt",
+   "yen": 1300.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37280",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
+   "last_seen": "2026-07-30"
+  },
+  "powl:37936": {
+   "site": "powl",
+   "deal_id": "37936",
+   "title": "New Balance(ニューバランス)",
+   "points_text": "0.8%還元",
+   "yen": null,
+   "percent": 0.8,
+   "url": "https://web.powl.jp/reward/37936",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-30",
+   "first_seen_at": "2026-07-30 15:00",
    "last_seen": "2026-07-30"
   }
  }

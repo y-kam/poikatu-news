@@ -73307,7 +73307,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-31",
    "renew_hold": true
   },
   "au_point:8:1223": {
@@ -73321,7 +73321,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-07-31",
    "renewed_at": "2026-07-15 17:00",
    "renewed_from": "8398P"
   },
@@ -73535,7 +73535,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-07-31"
   },
   "au_point:8:1396": {
    "site": "au_point",
@@ -73561,7 +73561,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-23"
+   "last_seen": "2026-07-31"
   },
   "ponta_bonuspark:4626": {
    "site": "ponta_bonuspark",
@@ -78615,7 +78615,7 @@
    "condition": "はじめてドコモMAX (ドコモポイ活MAX除く) にのりかえ（MNP）でお申込み後、回線開通完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-07-31"
   },
   "kurashiru_reward:16115": {
    "site": "kurashiru_reward",
@@ -272784,7 +272784,7 @@
    "first_seen_at": "2026-07-08 01:00",
    "last_seen": "2026-07-08",
    "site_new": false,
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "pointincome:142614": {
    "site": "pointincome",
@@ -274413,7 +274413,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-17",
+   "last_seen": "2026-07-31",
    "renewed_at": "2026-07-17 13:00",
    "renewed_from": "0.9%"
   },
@@ -277794,7 +277794,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:160356": {
    "site": "moppy",
@@ -323224,7 +323224,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 15:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "renewed_at": "2026-07-29 01:00"
   },
   "kurashiru_reward:17819": {
@@ -325060,8 +325060,8 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-27",
-   "renewed_at": "2026-07-27 01:00"
+   "last_seen": "2026-07-31",
+   "renewed_at": "2026-07-31 15:00"
   },
   "poikatsu_club:14291": {
    "site": "poikatsu_club",
@@ -329329,7 +329329,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 21:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-31"
   },
   "point_land:0401240": {
    "site": "point_land",
@@ -330414,7 +330414,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 15:00",
    "last_seen": "2026-07-28",
-   "site_new": true
+   "site_new": false
   },
   "warau:204981": {
    "site": "warau",
@@ -331120,7 +331120,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-28",
-   "site_new": true
+   "site_new": false
   },
   "warau:204995": {
    "site": "warau",
@@ -334304,7 +334304,8 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 05:00",
    "last_seen": "2026-07-31",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "hapitas:102257": {
    "site": "hapitas",
@@ -336809,7 +336810,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:156494": {
    "site": "moppy",
@@ -336839,7 +336840,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:205090": {
    "site": "warau",
@@ -336854,7 +336855,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "warau:205089": {
    "site": "warau",
@@ -336869,7 +336870,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "amefri:139174": {
    "site": "amefri",
@@ -337085,8 +337086,203 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
-   "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "last_seen": "2026-07-31"
+  },
+  "warau:205097": {
+   "site": "warau",
+   "deal_id": "205097",
+   "title": "フィッシュダム（StepUp）",
+   "points_text": "5,150pt",
+   "yen": 5150.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205097",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205095": {
+   "site": "warau",
+   "deal_id": "205095",
+   "title": "フィッシュダム（StepUp）",
+   "points_text": "2,570pt",
+   "yen": 2570.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205095",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205094": {
+   "site": "warau",
+   "deal_id": "205094",
+   "title": "Jackpot Buffalo Slots（StepUp）",
+   "points_text": "5,500pt",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205094",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205093": {
+   "site": "warau",
+   "deal_id": "205093",
+   "title": "Jackpot Buffalo Slots（StepUp）",
+   "points_text": "5,500pt",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205093",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "au_point:8:1304": {
+   "site": "au_point",
+   "deal_id": "8:1304",
+   "title": "華の会メール",
+   "points_text": "51P",
+   "yen": 51.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1304",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37933": {
+   "site": "powl",
+   "deal_id": "37933",
+   "title": "外為どっとコム『らくらくFX積立』1万円入金＋定期買付1回",
+   "points_text": "45,000pt",
+   "yen": 4500.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37933",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37931": {
+   "site": "powl",
+   "deal_id": "37931",
+   "title": "X LIFE WATER（エックスライフウォーター）",
+   "points_text": "80,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37931",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37446": {
+   "site": "powl",
+   "deal_id": "37446",
+   "title": "すみすみ~まったりパズル~（iOS）",
+   "points_text": "1,600pt",
+   "yen": 160.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37446",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37447": {
+   "site": "powl",
+   "deal_id": "37447",
+   "title": "すみすみ~まったりパズル~（Android）",
+   "points_text": "1,600pt",
+   "yen": 160.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37447",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37448": {
+   "site": "powl",
+   "deal_id": "37448",
+   "title": "すみっコぐらし　農園つくるんです（iOS）",
+   "points_text": "1,600pt",
+   "yen": 160.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37448",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37449": {
+   "site": "powl",
+   "deal_id": "37449",
+   "title": "すみっコぐらし　農園つくるんです（Android）",
+   "points_text": "1,600pt",
+   "yen": 160.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37449",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37450": {
+   "site": "powl",
+   "deal_id": "37450",
+   "title": "リラックマ農園（iOS）",
+   "points_text": "1,600pt",
+   "yen": 160.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37450",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37451": {
+   "site": "powl",
+   "deal_id": "37451",
+   "title": "リラックマ農園（Android）",
+   "points_text": "1,600pt",
+   "yen": 160.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37451",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37458": {
+   "site": "powl",
+   "deal_id": "37458",
+   "title": "フェミークリニック（医療美容脱毛）",
+   "points_text": "192,000pt",
+   "yen": 19200.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37458",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 15:00",
+   "last_seen": "2026-07-31"
   }
  }
 }

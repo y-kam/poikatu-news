@@ -213840,7 +213840,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_island:k3431": {
    "site": "point_island",
@@ -213854,7 +213854,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_island:k3432": {
    "site": "point_island",
@@ -213868,7 +213868,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_island:25791": {
    "site": "point_island",
@@ -225225,7 +225225,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_stadium:k3431": {
    "site": "point_stadium",
@@ -225239,7 +225239,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_stadium:k3432": {
    "site": "point_stadium",
@@ -225253,7 +225253,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_stadium:25791": {
    "site": "point_stadium",
@@ -236659,7 +236659,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "nyandaful:k3431": {
    "site": "nyandaful",
@@ -236673,7 +236673,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "nyandaful:k3432": {
    "site": "nyandaful",
@@ -236687,7 +236687,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "nyandaful:25791": {
    "site": "nyandaful",
@@ -272784,7 +272784,7 @@
    "first_seen_at": "2026-07-08 01:00",
    "last_seen": "2026-07-08",
    "site_new": false,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:142614": {
    "site": "pointincome",
@@ -310974,7 +310974,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 01:00",
-   "last_seen": "2026-07-16",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-16"
   },
   "moppy:1066": {
@@ -314635,17 +314635,19 @@
   "moppy:100953": {
    "site": "moppy",
    "deal_id": "100953",
-   "title": "※高還元※楽天銀行スーパーローン",
-   "points_text": "18,000P",
-   "yen": 18000.0,
+   "title": "※月末緊急UP！※楽天銀行スーパーローン",
+   "points_text": "19,000P",
+   "yen": 19000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=100953",
    "condition": "新規カード発券",
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 13:00",
-   "last_seen": "2026-07-17",
-   "site_new": false
+   "last_seen": "2026-07-31",
+   "site_new": true,
+   "renewed_at": "2026-07-31 13:09",
+   "renewed_from": "18,000P"
   },
   "sugutama:41157": {
    "site": "sugutama",
@@ -316075,9 +316077,7 @@
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 01:00",
    "last_seen": "2026-07-28",
-   "site_new": true,
-   "renewed_at": "2026-07-27 17:09",
-   "renewed_from": "30,000P"
+   "site_new": false
   },
   "moppy:161894": {
    "site": "moppy",
@@ -334647,7 +334647,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "pointincome:155105": {
    "site": "pointincome",
@@ -334662,7 +334662,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "pointincome:153480": {
    "site": "pointincome",
@@ -334677,7 +334677,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "pointincome:131744": {
    "site": "pointincome",
@@ -334692,7 +334692,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "moppy:159799": {
    "site": "moppy",
@@ -335500,7 +335500,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "pointincome:138000": {
    "site": "pointincome",
@@ -335515,7 +335515,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "pointtown:1265": {
    "site": "pointtown",
@@ -336578,7 +336578,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 08:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "point_land:220989": {
    "site": "point_land",
@@ -336621,7 +336621,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 11:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "warau:205088": {
    "site": "warau",
@@ -336636,7 +336636,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 11:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "warau:152061": {
    "site": "warau",
@@ -336665,7 +336665,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 11:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "warau:205084": {
    "site": "warau",
@@ -336795,6 +336795,298 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 11:00",
    "last_seen": "2026-07-31"
+  },
+  "moppy:6883": {
+   "site": "moppy",
+   "deal_id": "6883",
+   "title": "ヤマダデンキ Yahoo!店",
+   "points_text": "1.0%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=6883",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "moppy:156494": {
+   "site": "moppy",
+   "deal_id": "156494",
+   "title": "よむるん(2,200円コース)",
+   "points_text": "2,000P",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=156494",
+   "condition": "新規アカウント登録完了後、対象の支払方法で月額2,200円(税込)コースの決済",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "moppy:6882": {
+   "site": "moppy",
+   "deal_id": "6882",
+   "title": "ニトリ Yahoo!店",
+   "points_text": "1.0%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=6882",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205090": {
+   "site": "warau",
+   "deal_id": "205090",
+   "title": "【SmaAD】Sort Escape-Water Color Puzzle（Level130到達）",
+   "points_text": "283pt",
+   "yen": 283.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205090",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205089": {
+   "site": "warau",
+   "deal_id": "205089",
+   "title": "【Zucks】Umbrella Escape（StepUp）",
+   "points_text": "12,494pt",
+   "yen": 12494.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205089",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "amefri:139174": {
+   "site": "amefri",
+   "deal_id": "139174",
+   "title": "事故車買取の【タウ】",
+   "points_text": "225,000pt",
+   "yen": 22500.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139174",
+   "condition": "査定申込後、45日以内に売却成立完了",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139173": {
+   "site": "amefri",
+   "deal_id": "139173",
+   "title": "サイクルベースあさひ",
+   "points_text": "0.7％",
+   "yen": null,
+   "percent": 0.7,
+   "url": "https://www.amefri.net/detail/id/139173",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139172": {
+   "site": "amefri",
+   "deal_id": "139172",
+   "title": "照明オンライ販売【Yoilight（ヨイライト）】",
+   "points_text": "8％",
+   "yen": null,
+   "percent": 8.0,
+   "url": "https://www.amefri.net/detail/id/139172",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139171": {
+   "site": "amefri",
+   "deal_id": "139171",
+   "title": "リテラ（BringRitera）【プロプラン】",
+   "points_text": "25,500pt",
+   "yen": 2550.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139171",
+   "condition": "新規プラン登録完了",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139170": {
+   "site": "amefri",
+   "deal_id": "139170",
+   "title": "リテラ（BringRitera）【スタンダードプラン】",
+   "points_text": "15,500pt",
+   "yen": 1550.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139170",
+   "condition": "新規プラン登録完了",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139169": {
+   "site": "amefri",
+   "deal_id": "139169",
+   "title": "【S】【Mega Offerを10回コンプリートする】Umbrella Escape_Android",
+   "points_text": "28,000pt",
+   "yen": 2800.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139169",
+   "condition": "新規アプリインストール後、Mega Offerを10回コンプリートするで成果となります。",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "entamenet:d927": {
+   "site": "entamenet",
+   "deal_id": "d927",
+   "title": "LOJEL公式サイト",
+   "points_text": "100円購入毎に11円",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=d927",
+   "condition": "商品購入（リピートOK）",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "au_point:8:1335": {
+   "site": "au_point",
+   "deal_id": "8:1335",
+   "title": "Momentia",
+   "points_text": "17P",
+   "yen": 17.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1335",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_land:k3430": {
+   "site": "point_land",
+   "deal_id": "k3430",
+   "title": "エードMYバンク【50万円以上出資完了】",
+   "points_text": "308000ポイント",
+   "yen": 30800.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=k3430",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_land:k3431": {
+   "site": "point_land",
+   "deal_id": "k3431",
+   "title": "エードMYバンク【100万円以上出資完了】",
+   "points_text": "504000ポイント",
+   "yen": 50400.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=k3431",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_land:k3432": {
+   "site": "point_land",
+   "deal_id": "k3432",
+   "title": "エードMYバンク【200万円以上出資完了】",
+   "points_text": "1008000ポイント",
+   "yen": 100800.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=k3432",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37997": {
+   "site": "powl",
+   "deal_id": "37997",
+   "title": "\"ありがとう\"が生まれる家事共有アプリ「CAJICO」",
+   "points_text": "3,000pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37997",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37994": {
+   "site": "powl",
+   "deal_id": "37994",
+   "title": "健康管理アプリ「パシャっとカルテ」（ios）",
+   "points_text": "2,700pt",
+   "yen": 270.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37994",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_hiroba:5696": {
+   "site": "point_hiroba",
+   "deal_id": "5696",
+   "title": "楽天トラベル",
+   "points_text": "50 P",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5696",
+   "condition": "サービス予約・申込",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_hiroba:5692": {
+   "site": "point_hiroba",
+   "deal_id": "5692",
+   "title": "Anker Japan 公式オンラインストア",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5692",
+   "condition": "お買い物",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 13:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   }
  }
 }

@@ -73213,7 +73213,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-07-31",
    "renewed_at": "2026-07-13 21:00"
   },
   "au_point:6:31373": {
@@ -73267,7 +73267,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-31"
   },
   "au_point:8:1419": {
    "site": "au_point",
@@ -76684,7 +76684,7 @@
    "condition": "新規インターネット会員登録完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-30"
   },
   "kurashiru_reward:16943": {
@@ -78394,7 +78394,7 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "kurashiru_reward:16259": {
    "site": "kurashiru_reward",
@@ -78408,7 +78408,7 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "kurashiru_reward:16258": {
    "site": "kurashiru_reward",
@@ -86388,7 +86388,7 @@
   "powl:35225": {
    "site": "powl",
    "deal_id": "35225",
-   "title": "【7/31まで還元UP】dアニメストア_無料お試し登録",
+   "title": "dアニメストア_無料お試し登録",
    "points_text": "6,700pt",
    "yen": 670.0,
    "percent": null,
@@ -92808,7 +92808,7 @@
    "condition": "",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-31"
   },
   "powl:25099": {
    "site": "powl",
@@ -213983,7 +213983,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_island:221067": {
    "site": "point_island",
@@ -225368,7 +225368,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31"
   },
   "point_stadium:221067": {
    "site": "point_stadium",
@@ -236805,7 +236805,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-31",
+   "renewed_at": "2026-07-31 21:00"
   },
   "nyandaful:221067": {
    "site": "nyandaful",
@@ -275287,7 +275288,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 20:22",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-31",
    "site_new": false,
    "delisted_at": "2026-07-13",
    "renewed_at": "2026-07-26 11:00",
@@ -277493,7 +277494,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-07-31"
   },
   "moppy:161571": {
    "site": "moppy",
@@ -278282,7 +278283,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:159409": {
    "site": "moppy",
@@ -278366,7 +278367,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:159892": {
    "site": "moppy",
@@ -278464,7 +278465,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:161605": {
    "site": "moppy",
@@ -278688,7 +278689,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:160918": {
    "site": "moppy",
@@ -278702,7 +278703,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:158075": {
    "site": "moppy",
@@ -278856,7 +278857,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:159739": {
    "site": "moppy",
@@ -278898,7 +278899,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:160041": {
    "site": "moppy",
@@ -278932,15 +278933,17 @@
    "site": "moppy",
    "deal_id": "160804",
    "title": "数学パズルゲーム - クロスマス（勝利400到達（難易度：簡単））",
-   "points_text": "225P",
-   "yen": 225.0,
+   "points_text": "400P",
+   "yen": 400.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160804",
    "condition": "【▼ポイント獲得条件】記載の条件を達成",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31",
+   "renewed_at": "2026-07-31 21:00",
+   "renewed_from": "225P"
   },
   "moppy:159878": {
    "site": "moppy",
@@ -280004,7 +280007,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-07-31"
   },
   "moppy:161427": {
    "site": "moppy",
@@ -305392,7 +305395,8 @@
    "first_seen_at": "2026-07-14 05:00",
    "last_seen": "2026-07-31",
    "site_new": false,
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -312452,9 +312456,9 @@
   "moppy:160046": {
    "site": "moppy",
    "deal_id": "160046",
-   "title": "【緊急UP！過去最高25,000P！】TOMOTAQU(トモタク)（50万円以上投資完了）",
-   "points_text": "25,000P",
-   "yen": 25000.0,
+   "title": "※緊急※過去最高30,000P★TOMOTAQU(トモタク)（50万円以上投資完了）",
+   "points_text": "30,000P",
+   "yen": 30000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160046",
    "condition": "新規会員登録後、対象ファンドへの一括50万円以上の新規投資申込",
@@ -312463,7 +312467,7 @@
    "first_seen_at": "2026-07-16 17:00",
    "last_seen": "2026-07-31",
    "site_new": true,
-   "renewed_at": "2026-07-30 21:09",
+   "renewed_at": "2026-07-31 21:00",
    "renewed_from": "22,000P"
   },
   "moppy:160045": {
@@ -315580,7 +315584,8 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 21:00",
-   "last_seen": "2026-07-21"
+   "last_seen": "2026-07-21",
+   "dead_streak": 1
   },
   "warau:204775": {
    "site": "warau",
@@ -317392,8 +317397,7 @@
    "first_seen": "2026-07-20",
    "first_seen_at": "2026-07-20 01:00",
    "last_seen": "2026-07-29",
-   "site_new": true,
-   "renewed_at": "2026-07-28 21:09"
+   "site_new": false
   },
   "warau:204744": {
    "site": "warau",
@@ -317757,8 +317761,9 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 11:00",
-   "last_seen": "2026-07-21",
-   "site_new": false
+   "last_seen": "2026-07-31",
+   "site_new": true,
+   "renewed_at": "2026-07-31 21:09"
   },
   "amefri:138971": {
    "site": "amefri",
@@ -324182,7 +324187,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "delisted_at": "2026-07-30"
   },
   "powl:37216": {
@@ -325094,8 +325099,9 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-24",
-   "site_new": false
+   "last_seen": "2026-07-31",
+   "site_new": true,
+   "renewed_at": "2026-07-31 21:09"
   },
   "moppy:151356": {
    "site": "moppy",
@@ -331371,8 +331377,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-31",
-   "site_new": true,
-   "renewed_at": "2026-07-31 01:00"
+   "site_new": false
   },
   "amefri:129895": {
    "site": "amefri",
@@ -331387,8 +331392,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-31",
-   "site_new": true,
-   "renewed_at": "2026-07-31 01:00"
+   "site_new": false
   },
   "amefri:139100": {
    "site": "amefri",
@@ -331403,7 +331407,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-29",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139099": {
    "site": "amefri",
@@ -331418,7 +331422,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-29",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139098": {
    "site": "amefri",
@@ -331433,7 +331437,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-30",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139097": {
    "site": "amefri",
@@ -331448,7 +331452,7 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 21:00",
    "last_seen": "2026-07-30",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139106": {
    "site": "amefri",
@@ -331731,7 +331735,8 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 01:00",
    "last_seen": "2026-07-29",
-   "site_new": true
+   "site_new": true,
+   "dead_streak": 1
   },
   "moppy:156722": {
    "site": "moppy",
@@ -332674,7 +332679,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "au_point:8:1511": {
    "site": "au_point",
@@ -332688,7 +332693,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-31"
   },
   "ponta_bonuspark:4633": {
    "site": "ponta_bonuspark",
@@ -333698,7 +333703,8 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
    "last_seen": "2026-07-31",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "warau:205040": {
    "site": "warau",
@@ -334310,7 +334316,7 @@
    "first_seen_at": "2026-07-30 05:00",
    "last_seen": "2026-07-31",
    "site_new": false,
-   "dead_streak": 2
+   "delisted_at": "2026-07-31"
   },
   "hapitas:102257": {
    "site": "hapitas",
@@ -334578,7 +334584,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 11:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "site_new": true
   },
   "moppy:161949": {
@@ -334593,7 +334599,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 11:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-07-31",
    "site_new": true
   },
   "moppy:159202": {
@@ -336613,7 +336619,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 10:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "warau:205054": {
    "site": "warau",
@@ -336719,7 +336725,7 @@
   "sugutama:41240": {
    "site": "sugutama",
    "deal_id": "41240",
-   "title": "「dカード PLATINUM」",
+   "title": "「dカード PLATINUM」（PLATINUM クレジットカード発券（【新規申込】カード発行）",
    "points_text": "27,907mile",
    "yen": 13953.5,
    "percent": null,
@@ -337302,7 +337308,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337316,7 +337323,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205125": {
    "site": "warau",
@@ -337359,7 +337367,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:205120": {
    "site": "warau",
@@ -337430,7 +337438,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "delisted_at": "2026-07-31"
   },
   "warau:205110": {
    "site": "warau",
@@ -337641,6 +337649,1035 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
+   "last_seen": "2026-07-31"
+  },
+  "moppy:161962": {
+   "site": "moppy",
+   "deal_id": "161962",
+   "title": "三国志クロニクル(初回起動)_iOS",
+   "points_text": "30P",
+   "yen": 30.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161962",
+   "condition": "初回インストール後の起動",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "moppy:148162": {
+   "site": "moppy",
+   "deal_id": "148162",
+   "title": "【公式通販】ミラブルzero",
+   "points_text": "15,000P",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=148162",
+   "condition": "新規商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "warau:205172": {
+   "site": "warau",
+   "deal_id": "205172",
+   "title": "【Zucks】クラシックソリティア（StepUp）",
+   "points_text": "644pt",
+   "yen": 644.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205172",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205171": {
+   "site": "warau",
+   "deal_id": "205171",
+   "title": "【Zucks】クラシックソリティア（StepUp）",
+   "points_text": "644pt",
+   "yen": 644.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205171",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205170": {
+   "site": "warau",
+   "deal_id": "205170",
+   "title": "【Zucks】デイリー麻雀マッチ（StepUp）",
+   "points_text": "700pt",
+   "yen": 700.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205170",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205168": {
+   "site": "warau",
+   "deal_id": "205168",
+   "title": "【GFRewards】モーマンタイム（StepUp）",
+   "points_text": "6,101pt",
+   "yen": 6101.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205168",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205167": {
+   "site": "warau",
+   "deal_id": "205167",
+   "title": "【GFRewards】Rise of Kingdoms（StepUp）",
+   "points_text": "9,278pt",
+   "yen": 9278.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205167",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205163": {
+   "site": "warau",
+   "deal_id": "205163",
+   "title": "【GFRewards】ナッジカード（新規クレジットカード発券完了+カード申込日の翌月…",
+   "points_text": "2,070pt",
+   "yen": 2070.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205163",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205158": {
+   "site": "warau",
+   "deal_id": "205158",
+   "title": "【Zucks】超自然スクワッド（StepUp）",
+   "points_text": "3,975pt",
+   "yen": 3975.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205158",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205157": {
+   "site": "warau",
+   "deal_id": "205157",
+   "title": "【Zucks】超自然スクワッド（StepUp）",
+   "points_text": "3,975pt",
+   "yen": 3975.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205157",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205156": {
+   "site": "warau",
+   "deal_id": "205156",
+   "title": "【GFRewards】Merge Blast Number（StepUp）",
+   "points_text": "2,613pt",
+   "yen": 2613.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205156",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205147": {
+   "site": "warau",
+   "deal_id": "205147",
+   "title": "【GFRewards】Triple Match 3D: Logic Sort（StepUp）",
+   "points_text": "178pt",
+   "yen": 178.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205147",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205145": {
+   "site": "warau",
+   "deal_id": "205145",
+   "title": "【Zucks】Yarn Loop（StepUp）",
+   "points_text": "18,982pt",
+   "yen": 18982.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205145",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205144": {
+   "site": "warau",
+   "deal_id": "205144",
+   "title": "【Zucks】Yarn Loop（StepUp）",
+   "points_text": "18,982pt",
+   "yen": 18982.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205144",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:166313": {
+   "site": "warau",
+   "deal_id": "166313",
+   "title": "【SmaAD】【暑中見舞い・残暑見舞いテンプレートBANK】新規会員登録プログラム（…",
+   "points_text": "38pt",
+   "yen": 38.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=166313",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205135": {
+   "site": "warau",
+   "deal_id": "205135",
+   "title": "【GFRewards】バブルポップスプラッシュ（StepUp）",
+   "points_text": "849pt",
+   "yen": 849.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205135",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205142": {
+   "site": "warau",
+   "deal_id": "205142",
+   "title": "【SmaAD】Wick まんが×SNS（新規アプリインストール後、初回起動完了）",
+   "points_text": "19pt",
+   "yen": 19.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205142",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205143": {
+   "site": "warau",
+   "deal_id": "205143",
+   "title": "【SmaAD】Wick まんが×SNS（新規アプリインストール後、初回起動完了）",
+   "points_text": "19pt",
+   "yen": 19.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205143",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205166": {
+   "site": "warau",
+   "deal_id": "205166",
+   "title": "超自然スクワッド（StepUp）",
+   "points_text": "4,800pt",
+   "yen": 4800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205166",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205160": {
+   "site": "warau",
+   "deal_id": "205160",
+   "title": "超自然スクワッド（StepUp）",
+   "points_text": "4,800pt",
+   "yen": 4800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205160",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205155": {
+   "site": "warau",
+   "deal_id": "205155",
+   "title": "率土之濱-大三国志（StepUp）",
+   "points_text": "900pt",
+   "yen": 900.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205155",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205149": {
+   "site": "warau",
+   "deal_id": "205149",
+   "title": "BBQ Kitchen: Match 3（StepUp）",
+   "points_text": "5,770pt",
+   "yen": 5770.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205149",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205140": {
+   "site": "warau",
+   "deal_id": "205140",
+   "title": "【SKYFLAG】Tidy Crates: 3D Sort Match（StepUp）",
+   "points_text": "8,026pt",
+   "yen": 8026.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205140",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:196528": {
+   "site": "warau",
+   "deal_id": "196528",
+   "title": "イオンコンパストラベルモール（レンタカー）",
+   "points_text": "1.4%還元",
+   "yen": null,
+   "percent": 1.4,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=196528",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205148": {
+   "site": "warau",
+   "deal_id": "205148",
+   "title": "【GFRewards】Triple Match 3D: Logic Sort（StepUp）",
+   "points_text": "223pt",
+   "yen": 223.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205148",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205141": {
+   "site": "warau",
+   "deal_id": "205141",
+   "title": "【SKYFLAG】Shelf Tidy 3D: Tap n Sort（StepUp）",
+   "points_text": "7,533pt",
+   "yen": 7533.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205141",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
+  },
+  "warau:205139": {
+   "site": "warau",
+   "deal_id": "205139",
+   "title": "マージクライム: ミステリー＆ロマンス（StepUp）",
+   "points_text": "1,980pt",
+   "yen": 1980.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205139",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205138": {
+   "site": "warau",
+   "deal_id": "205138",
+   "title": "マージクライム: ミステリー＆ロマンス（StepUp）",
+   "points_text": "1,980pt",
+   "yen": 1980.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205138",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205137": {
+   "site": "warau",
+   "deal_id": "205137",
+   "title": "Tile Joy：マッチ＆コネクト（StepUp）",
+   "points_text": "6,100pt",
+   "yen": 6100.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205137",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205134": {
+   "site": "warau",
+   "deal_id": "205134",
+   "title": "My Gym：フィットネススタジオマネージャー（StepUp）",
+   "points_text": "1,700pt",
+   "yen": 1700.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205134",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205133": {
+   "site": "warau",
+   "deal_id": "205133",
+   "title": "My Gym：フィットネススタジオマネージャー（StepUp）",
+   "points_text": "1,700pt",
+   "yen": 1700.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205133",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205131": {
+   "site": "warau",
+   "deal_id": "205131",
+   "title": "Cup Heroes（StepUp）",
+   "points_text": "6,620pt",
+   "yen": 6620.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205131",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205129": {
+   "site": "warau",
+   "deal_id": "205129",
+   "title": "Cup Heroes（StepUp）",
+   "points_text": "6,620pt",
+   "yen": 6620.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205129",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "warau:205128": {
+   "site": "warau",
+   "deal_id": "205128",
+   "title": "挨拶状ドットコム（年賀状）",
+   "points_text": "250pt",
+   "yen": 250.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205128",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "sugutama:41248": {
+   "site": "sugutama",
+   "deal_id": "41248",
+   "title": "ナッジカード",
+   "points_text": "2,760mile",
+   "yen": 1380.0,
+   "percent": null,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41248",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "nifty_point:0001278822F0": {
+   "site": "nifty_point",
+   "deal_id": "0001278822F0",
+   "title": "UNITED ARROWS（ユナイテッドアローズ）",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://lifemedia.jp/shopping/detail/0001278822F0",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "amefri:139195": {
+   "site": "amefri",
+   "deal_id": "139195",
+   "title": "Rise of Kingdoms【Android】",
+   "points_text": "126,780pt",
+   "yen": 12678.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139195",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139190": {
+   "site": "amefri",
+   "deal_id": "139190",
+   "title": "Merge Blast Number【iOS】",
+   "points_text": "35,690pt",
+   "yen": 3569.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139190",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139186": {
+   "site": "amefri",
+   "deal_id": "139186",
+   "title": "Triple Match 3D: Logic Sort【iOS】",
+   "points_text": "2,410pt",
+   "yen": 241.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139186",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139178": {
+   "site": "amefri",
+   "deal_id": "139178",
+   "title": "バブルポップスプラッシュ【iOS】",
+   "points_text": "11,560pt",
+   "yen": 1156.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139178",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139183": {
+   "site": "amefri",
+   "deal_id": "139183",
+   "title": "Wick まんが×SNS（Android）",
+   "points_text": "190pt",
+   "yen": 19.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139183",
+   "condition": "新規アプリインストール後、初回起動完了",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139182": {
+   "site": "amefri",
+   "deal_id": "139182",
+   "title": "Wick まんが×SNS（iOS）",
+   "points_text": "190pt",
+   "yen": 19.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139182",
+   "condition": "新規アプリインストール後、初回起動完了",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139197": {
+   "site": "amefri",
+   "deal_id": "139197",
+   "title": "【M】【ゲーム750回勝利】クラシックソリティア_iOS",
+   "points_text": "7,360pt",
+   "yen": 736.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139197",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139192": {
+   "site": "amefri",
+   "deal_id": "139192",
+   "title": "【M】【コレクションを30個収集】超自然スクワッド_Android",
+   "points_text": "45,440pt",
+   "yen": 4544.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139192",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139191": {
+   "site": "amefri",
+   "deal_id": "139191",
+   "title": "【M】【コレクションを30個収集】超自然スクワッド_iOS",
+   "points_text": "45,440pt",
+   "yen": 4544.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139191",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139187": {
+   "site": "amefri",
+   "deal_id": "139187",
+   "title": "Triple Match 3D: Logic Sort【Android】",
+   "points_text": "3,040pt",
+   "yen": 304.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139187",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139185": {
+   "site": "amefri",
+   "deal_id": "139185",
+   "title": "【M】【50日以内にステージ2400クリア】Yarn Loop_Android",
+   "points_text": "216,960pt",
+   "yen": 21696.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139185",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139184": {
+   "site": "amefri",
+   "deal_id": "139184",
+   "title": "【M】【50日以内にステージ2400クリア】Yarn Loop_iOS",
+   "points_text": "216,960pt",
+   "yen": 21696.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139184",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139181": {
+   "site": "amefri",
+   "deal_id": "139181",
+   "title": "Tidy Crates: 3D Sort Match（多段階）【Android】",
+   "points_text": "80,200pt",
+   "yen": 8020.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139181",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "amefri:139180": {
+   "site": "amefri",
+   "deal_id": "139180",
+   "title": "Shelf Tidy 3D: Tap n Sort（多段階）【Android】",
+   "points_text": "75,300pt",
+   "yen": 7530.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139180",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31",
+   "site_new": true
+  },
+  "chanceit:33341": {
+   "site": "chanceit",
+   "deal_id": "33341",
+   "title": "明誠ショップ",
+   "points_text": "→ 50pt",
+   "yen": 5.0,
+   "percent": null,
+   "url": "https://www.chance.com/items/detail.jsp?id=33341",
+   "condition": "条件：100円ごと 加算：約45日後",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "chanceit:33340": {
+   "site": "chanceit",
+   "deal_id": "33340",
+   "title": "アットネット",
+   "points_text": "→ 20pt",
+   "yen": 2.0,
+   "percent": null,
+   "url": "https://www.chance.com/items/detail.jsp?id=33340",
+   "condition": "条件：100円ごと 加算：約45日後",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "chanceit:33339": {
+   "site": "chanceit",
+   "deal_id": "33339",
+   "title": "奥久慈塙蒸留所",
+   "points_text": "→ 35pt",
+   "yen": 3.5,
+   "percent": null,
+   "url": "https://www.chance.com/items/detail.jsp?id=33339",
+   "condition": "条件：100円ごと 加算：約45日後",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "chanceit:33338": {
+   "site": "chanceit",
+   "deal_id": "33338",
+   "title": "多目的レンタルスペース予約【カシカシ】",
+   "points_text": "→ 30pt",
+   "yen": 3.0,
+   "percent": null,
+   "url": "https://www.chance.com/items/detail.jsp?id=33338",
+   "condition": "条件：100円ごと 加算：約75日後",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "entamenet:g817751595": {
+   "site": "entamenet",
+   "deal_id": "g817751595",
+   "title": "暑中見舞い・残暑見舞い「テンプレートBANK」 会員登録",
+   "points_text": "40円",
+   "yen": 40.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=g817751595",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "point_land:f47268": {
+   "site": "point_land",
+   "deal_id": "f47268",
+   "title": "楽天ぐるなびネット予約",
+   "points_text": "700ポイント",
+   "yen": 70.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=f47268",
+   "condition": "来店",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "kurashiru_reward:18007": {
+   "site": "kurashiru_reward",
+   "deal_id": "18007",
+   "title": "ナッジカード",
+   "points_text": "220,800コイン",
+   "yen": 2208.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/18007",
+   "condition": "新規クレジットカード発券完了+カード申込日の翌月末までに1回以上のご利用（金額不問） で",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "kurashiru_reward:17992": {
+   "site": "kurashiru_reward",
+   "deal_id": "17992",
+   "title": "婚約指輪・結婚指輪探し「Hanayume(ハナユメ)」リングショップ来店予約完了",
+   "points_text": "100,000コイン",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17992",
+   "condition": "新規WEB予約完了 で",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "kurashiru_reward:17989": {
+   "site": "kurashiru_reward",
+   "deal_id": "17989",
+   "title": "結婚式場探し「Hanayume(ハナユメ)」式場見学完了",
+   "points_text": "450,000コイン",
+   "yen": 4500.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17989",
+   "condition": "式場見学完了 で",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "kurashiru_reward:17988": {
+   "site": "kurashiru_reward",
+   "deal_id": "17988",
+   "title": "結婚式場探し「Hanayume(ハナユメ)」相談デスク来店完了",
+   "points_text": "450,000コイン",
+   "yen": 4500.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/17988",
+   "condition": "ブライダルデスクへの来店完了 で",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "powl:37920": {
+   "site": "powl",
+   "deal_id": "37920",
+   "title": "アニマル2048チャレンジ（Android）マルチミッション",
+   "points_text": "6,000pt",
+   "yen": 600.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37920",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16181": {
+   "site": "poikatsu_club",
+   "deal_id": "16181",
+   "title": "モーマンタイム（iOS）",
+   "points_text": "10985pt",
+   "yen": 10985.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16181",
+   "condition": "新規アプリインストール後、\n・STEP1：プレイヤーレベル21到達\n・STEP2：プレイヤーレベル33到達\n・STEP3：プレイヤーレベル56到達\n・STEP4：初回チャージ満喫パックを購入\n・STEP5：初回月間札を購入\n・STEP6：プレイヤーレベル94到達\n・STEP7：プレイヤーレベル123到達\n・STEP8：初回永久札を購入\n・STEP9：プレイヤーレベル142到達\n・STEP10：プレイヤーレベル159到達\nで成果となります。各成果地点ごとに報酬が発生します。\r\n\r\nこのキャンペーンは2026/07/31以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n※キャンペーンは予告なく変更・終了する場合がございます。\n※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。\n※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。\n\n成果受付期限　　：広告クリックから27日以内\n成果調査受付期限：広告クリックから30日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・アプリ名\n・広告クリック日時\n・成果達成日時\n・アプリを起動＞「モーマンタイム」のタイトルの出てくる左側の「ユーザーセンター」をタップした画像\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n・成果到達したことがわかるすべてのキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不備・不正・虚偽・重複・いたずら・キャンセル、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・過去にアプリをインストールしたことがある\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16182": {
+   "site": "poikatsu_club",
+   "deal_id": "16182",
+   "title": "モーマンタイム（Android）",
+   "points_text": "10985pt",
+   "yen": 10985.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16182",
+   "condition": "新規アプリインストール後、\n・STEP1：プレイヤーレベル21到達\n・STEP2：プレイヤーレベル33到達\n・STEP3：プレイヤーレベル56到達\n・STEP4：初回チャージ満喫パックを購入\n・STEP5：初回月間札を購入\n・STEP6：プレイヤーレベル94到達\n・STEP7：プレイヤーレベル123到達\n・STEP8：初回永久札を購入\n・STEP9：プレイヤーレベル142到達\n・STEP10：プレイヤーレベル159到達\nで成果となります。各成果地点ごとに報酬が発生します。\r\n\r\nこのキャンペーンは2026/07/31以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n※キャンペーンは予告なく変更・終了する場合がございます。\n※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。\n※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。\n\n成果受付期限　　：広告クリックから27日以内\n成果調査受付期限：広告クリックから30日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・アプリを起動＞「モーマンタイム」のタイトルの出てくる左側の「ユーザーセンター」をタップした画像\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不備・不正・虚偽・重複・いたずら・キャンセル、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・過去にアプリをインストールしたことがある\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16158": {
+   "site": "poikatsu_club",
+   "deal_id": "16158",
+   "title": "Rise of Kingdoms（Android）",
+   "points_text": "16704pt",
+   "yen": 16704.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16158",
+   "condition": "新規アプリインストール後、広告クリックから\n・7日以内に政庁レベル8達成\n・7日以内に政庁レベル14達成\n・7日以内に政庁レベル17達成\n・25日以内に政庁レベル21達成\n・25日以内に政庁レベル25達成\n・30日以内にいずれかのT5部隊を解放\n・30日以内に宝石補給パックを購入\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから7日以内（政庁レベル8達成/政庁レベル14達成/政庁レベル17達成）\n　　　　　　　　　広告クリックから25日以内（政庁レベル21達成/政庁レベル25達成）\n　　　　　　　　　広告クリックから30日以内（いずれかのT5部隊を解放/宝石補給パックを購入）\n成果調査受付期限：広告クリックから34日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・広告クリック日時\n・成果達成日時\n・成果到達したことがわかるキャプチャ画像\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16157": {
+   "site": "poikatsu_club",
+   "deal_id": "16157",
+   "title": "ナッジカード",
+   "points_text": "3726pt",
+   "yen": 3726.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16157",
+   "condition": "新規クレジットカード発券完了+カード申込日の翌月末までに1回以上のご利用（金額不問）で成果となります。\r\n\r\n※ご注意点※\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから117日以内\n※掲載が終了した場合も成果達成期限までに達成された場合は成果対象となります。\n※本広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※最大30日程度で報酬が付与されます。\n\n新規クレジットカード発券完了+カード申込日の翌月末までに1回以上のご利用（金額不問）で成果となります。\n《成果条件》\nナッジカード学生部の発券完了\n※お申込時に「18歳」〜「24歳」が対象\n※インストール後に15日以内のカード発券で成果\n※お申込時18歳以上であれば高校生も可\n※リアルカード到着ではなく、審査通過後アプリでカードをアクティベーションすると成果判定の対象となります。\n※アクティベーション日時時点での報酬が適用されます\n\n《却下条件》\n※重複、いたずら、成果条件に達していない、キャンセル、不正と判断された成果\n※2回目以降の申込、申込み不備\n※お申込時に25歳以上の学生の方のお申込\n※お申込時17歳未満の申込\n※「ナッジカード学生部以外のカードを発行した場合」\n※審査未通過等クレジットカード発行に至らない場合\n※広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない場合\n\n■成果調査に関して\n成果承認期限が過ぎても報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・氏名\n・メールアドレス\n・電話番号\n・申込み日時\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・広告クリックから成果地点までに通信環境を変更した\n・回線が不安定な状態で成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからの成果到達\n・他端末やご家族、ご友人と同一IPアドレスでの成果到達\n・不正･虚偽の申請、その他異常値等\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しての成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・クリックが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16134": {
+   "site": "poikatsu_club",
+   "deal_id": "16134",
+   "title": "Merge Blast Number（iOS）",
+   "points_text": "4711pt",
+   "yen": 4711.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16134",
+   "condition": "新規アプリインストール後、\n・EXPバー レベル2到達\n・EXPバー レベル3到達\n・EXPバー レベル5到達\n・EXPバー レベル10到達\n・EXPバー レベル15到達\n・EXPバー レベル20到達\n・EXPバー レベル25到達\n・EXPバー レベル30到達\n・EXPバー レベル40到達\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから41日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果達成日時\n・成果到達したことがわかるキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16113": {
+   "site": "poikatsu_club",
+   "deal_id": "16113",
+   "title": "Triple Match 3D: Logic Sort（iOS）",
+   "points_text": "322pt",
+   "yen": 322.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16113",
+   "condition": "新規アプリインストール後、\n・レベル40達成\n・レベル100達成\n・レベル180達成\n・レベル300達成\n・レベル500達成\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから42日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■条件達成に関する注意事項\n・広告をクリックしてから1時間以内にアプリ起動まで完了しなかった場合、報酬の対象外となることがあります。\n※広告をクリックしてからアプリ起動までに1時間を超える場合は、アプリ起動前に再度広告をクリックしてください。\n・本広告経由でアプリをインストールした際の条件が適用されます。\n※同時期に同一アプリの他の広告に参加されている場合は、本広告に参加できません。\n・広告をクリックしてから30日間（720時間）以内での達成が条件となります。\n・広告をクリックした端末でアプリをインストールしてください。\n・アプリをインストールした端末で条件を達成してください、他の端末にデータの引き継ぎを行うと報酬の対象外となります。\n・広告をクリックしてから条件を達成するまでに、ブラウザおよび通信環境を変更した場合、報酬の対象外となることがあります。\n・通信環境が不安定な状態やオフラインモードで条件を達成した場合、報酬の対象外となることがあります。\n・条件達成後、報酬の反映までに一定の時間を要する場合があります。\n・広告は予告なく変更・終了する場合があります。\n・iOS15以降をご利用で、iCloud+ を利用しておりプライベートリレーの設定をONにされている場合、正常に計測できず、報酬の対象外となることがあります。\nプライベートリレーの設定をOFFにしてからご利用ください。\n※設定方法：設定→Apple ID→iCloud→プライベートリレー→スライドボタンOFF\n\n■却下条件\n・通信環境が不安定な状態でアプリをインストールした場合\n・本広告を経由したアプリのインストールが確認できない場合\n・過去に同一アプリをインストールしたことがある場合\n・過去に同一アプリ内で条件を達成したことがある場合\n・アプリを新規インストールした端末に、異なる端末のデータを引き継いで条件を達成した場合\n・アプリを新規インストールした端末とは異なる端末に、データを引き継いで条件を達成した場合\n・同一IPアドレスで複数端末からアプリをインストールした場合、または条件を達成した場合\n※ご家族やご友人などによる、同一IPアドレス環境下での複数端末からのアプリインストールや条件達成が確認された場合は報酬対象外となります。\n・広告の利用にあたって不正があったことが認められた場合\n・公共WiFiを利用してアプリをインストールした場合、または条件を達成した場合\n・日本国以外からの利用、または日本国以外のIPアドレスを利用した場合\n・「Appからのトラッキング要求を許可」設定がOFFになっている場合\n※設定方法：設定→プライバシー→トラッキング→「Appからのトラッキング要求を許可」をON\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n※本広告は広告主側に調査を依頼するため、3ヶ月程度お時間を頂戴する場合があります。\n※調査に関して虚偽の申告が認められた場合は却下となります。\n※報酬の調査依頼時に該当アプリをアンインストールしている場合は却下となります。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n・アプリTOP画面のキャプチャ\n・成果達成日時\n・インストール日\n・OS（iOS／Android）\n・マイページまたは、ユーザーIDが確認できるキャプチャ\n・ユーザーIDのテキスト情報\nユーザーIDが確認できない場合、下記の情報が必要になります。\n・IDFA（端末ID）のテキスト情報\n・IDFA（端末ID）が確認できるキャプチャ\n※端末IDの確認方法\n①下記アプリをインストールし、「IDFA(デバイスID)」を確認してください。\nhttps://apps.apple.com/jp/app/adjust-insights/id1125517808\n②数字が全て0になる場合→設定→プライバシー→トラッキングの画面で、「adjust Insights」を許可にして確認してください。\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16076": {
+   "site": "poikatsu_club",
+   "deal_id": "16076",
+   "title": "バブルポップスプラッシュ（iOS）",
+   "points_text": "1535pt",
+   "yen": 1535.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16076",
+   "condition": "新規アプリインストール後、広告クリックから30日以内に\nオーシャンレース1回完了\nデザート セット完了\nバケーション セット完了\n食べ物 セット完了\n動物 セット完了\n花 セット完了\nスポーツ セット完了\nスターターパック購入\nエクストラパック購入\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから34日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n・デバイスIDのテキスト情報\n・デバイスIDがわかるキャプチャ画像\n※デバイスIDの確認方法\n・iOS端末の場合（IDFA）：「My Device ID by AppsFlyer」もしくは「adjust Insights」というアプリをインストールいただく事で確認可能\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16092": {
+   "site": "poikatsu_club",
+   "deal_id": "16092",
+   "title": "Shelf Tidy 3D: Tap n Sort（Android）",
+   "points_text": "8268pt",
+   "yen": 8268.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16092",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/7/31以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：レベル10クリア\n②：レベル40クリア\n③：レベル80クリア\n④：レベル140クリア\n⑤：レベル220クリア\n⑥：レベル320クリア\n⑦：レベル440クリア\n⑧：レベル600クリア\n⑨：レベル900クリア\n⑩：レベル2000クリア\n⑪：レベル5000クリア\n⑫：レベル10000クリア\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n条件達成がわかるホーム画面(キャプチャ①)とプレイ画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］を表示\nキャプチャ②：［アプリを起動］⇒［ホーム画面］の［Level〇〇ボタン］をタップ⇒［プレイ画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16112": {
+   "site": "poikatsu_club",
+   "deal_id": "16112",
+   "title": "Tidy Crates: 3D Sort Match（Android）",
+   "points_text": "8808pt",
+   "yen": 8808.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16112",
+   "condition": "新規アプリインストール後、【StepUpミッション!!】クリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n※2つ目のキャンペーンは参加不可になります※\n\n2026/7/31以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：レベル20クリア\n②：レベル40クリア\n③：レベル60クリア\n④：レベル100クリア\n⑤：レベル140クリア\n⑥：レベル200クリア\n⑦：レベル280クリア\n⑧：レベル420クリア\n⑨：レベル600クリア\n⑩：レベル900クリア\n⑪：レベル2000クリア\n⑫：レベル4000クリア\n⑬：レベル8000クリア\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n条件達成がわかるプレイ画面(キャプチャ①)とホーム画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］のplayをタップ⇒［プレイ画面］を表示\nキャプチャ②：［アプリを起動］⇒［ホーム画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
+   "last_seen": "2026-07-31"
+  },
+  "poikatsu_club:16114": {
+   "site": "poikatsu_club",
+   "deal_id": "16114",
+   "title": "Triple Match 3D: Logic Sort（Android）",
+   "points_text": "405pt",
+   "yen": 405.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/16114",
+   "condition": "新規アプリインストール後、\n・レベル40達成\n・レベル100達成\n・レベル180達成\n・レベル300達成\n・レベル500達成\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから42日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■条件達成に関する注意事項\n・広告をクリックしてから1時間以内にアプリ起動まで完了しなかった場合、報酬の対象外となることがあります。\n※広告をクリックしてからアプリ起動までに1時間を超える場合は、アプリ起動前に再度広告をクリックしてください。\n・本広告経由でアプリをインストールした際の条件が適用されます。\n※同時期に同一アプリの他の広告に参加されている場合は、本広告に参加できません。\n・広告をクリックしてから30日間（720時間）以内での達成が条件となります。\n・広告をクリックした端末でアプリをインストールしてください。\n・アプリをインストールした端末で条件を達成してください、他の端末にデータの引き継ぎを行うと報酬の対象外となります。\n・広告をクリックしてから条件を達成するまでに、ブラウザおよび通信環境を変更した場合、報酬の対象外となることがあります。\n・通信環境が不安定な状態やオフラインモードで条件を達成した場合、報酬の対象外となることがあります。\n・条件達成後、報酬の反映までに一定の時間を要する場合があります。\n・広告は予告なく変更・終了する場合があります。\n\n■却下条件\n・通信環境が不安定な状態でアプリをインストールした場合\n・本広告を経由したアプリのインストールが確認できない場合\n・過去に同一アプリをインストールしたことがある場合\n・過去に同一アプリ内で条件を達成したことがある場合\n・アプリを新規インストールした端末に、異なる端末のデータを引き継いで条件を達成した場合\n・アプリを新規インストールした端末とは異なる端末に、データを引き継いで条件を達成した場合\n・同一IPアドレスで複数端末からアプリをインストールした場合、または条件を達成した場合\n※ご家族やご友人などによる、同一IPアドレス環境下での複数端末からのアプリインストールや条件達成が確認された場合は報酬対象外となります。\n・広告の利用にあたって不正があったことが認められた場合\n・公共WiFiを利用してアプリをインストールした場合、または条件を達成した場合\n・日本国以外からの利用、または日本国以外のIPアドレスを利用した場合\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n※本広告は広告主側に調査を依頼するため、3ヶ月程度お時間を頂戴する場合があります。\n※調査に関して虚偽の申告が認められた場合は却下となります。\n※報酬の調査依頼時に該当アプリをアンインストールしている場合は却下となります。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n・アプリTOP画面のキャプチャ\n・成果達成日時\n・インストール日\n・OS（iOS／Android）\n・マイページまたは、ユーザーIDが確認できるキャプチャ\n・ユーザーIDのテキスト情報\nユーザーIDが確認できない場合、下記の情報が必要になります。\n・GAID（端末ID）のテキスト情報\n・GAID（端末ID）が確認できるキャプチャ\n※端末IDの確認方法\n「Google advertising ID」を確認→Android端末内の「Google設定」を開き、”広告”をクリック、ページ下部の広告IDを確認してください。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-07-31",
+   "first_seen_at": "2026-07-31 21:00",
    "last_seen": "2026-07-31"
   }
  }

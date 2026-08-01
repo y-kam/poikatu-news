@@ -62221,14 +62221,15 @@
    "site": "line_catalog",
    "deal_id": "mistore",
    "title": "三越伊勢丹オンラインストア",
-   "points_text": "3.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/mistore/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-01",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:wacoal": {
    "site": "line_catalog",
@@ -63229,9 +63230,9 @@
    "site": "line_catalog",
    "deal_id": "narscosmeticsofficialsite",
    "title": "NARS公式オンラインショップ",
-   "points_text": "1.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/narscosmeticsofficialsite/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63255,9 +63256,9 @@
    "site": "line_catalog",
    "deal_id": "owndays",
    "title": "メガネのOWNDAYS",
-   "points_text": "10.0%還元",
+   "points_text": "18.0%還元",
    "yen": null,
-   "percent": 10.0,
+   "percent": 18.0,
    "url": "https://ec.line.me/shop/owndays/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63282,9 +63283,9 @@
    "site": "line_catalog",
    "deal_id": "e87",
    "title": "e87.com",
-   "points_text": "7.0%還元",
+   "points_text": "11.0%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 11.0,
    "url": "https://ec.line.me/shop/e87/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63414,9 +63415,9 @@
    "site": "line_catalog",
    "deal_id": "fifth",
    "title": "fifth store",
-   "points_text": "7.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/fifth/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63506,9 +63507,9 @@
    "site": "line_catalog",
    "deal_id": "yamadayastore",
    "title": "YAMADAYA STORE",
-   "points_text": "1.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/yamadayastore/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63896,9 +63897,9 @@
    "site": "line_catalog",
    "deal_id": "aquagarage",
    "title": "【公式】aquagarage-アクアガレージ",
-   "points_text": "12.0%還元",
+   "points_text": "14.0%還元",
    "yen": null,
-   "percent": 12.0,
+   "percent": 14.0,
    "url": "https://ec.line.me/shop/aquagarage/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63910,9 +63911,9 @@
    "site": "line_catalog",
    "deal_id": "tsunagu-uchiiwai",
    "title": "TSUNAGU SENSHUKAI",
-   "points_text": "2.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 2.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/tsunagu-uchiiwai/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -63975,9 +63976,9 @@
    "site": "line_catalog",
    "deal_id": "samsonite",
    "title": "サムソナイト公式サイト",
-   "points_text": "2.0%還元",
+   "points_text": "16.0%還元",
    "yen": null,
-   "percent": 2.0,
+   "percent": 16.0,
    "url": "https://ec.line.me/shop/samsonite/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -70153,9 +70154,9 @@
    "site": "line_catalog",
    "deal_id": "mix_tokyo",
    "title": "mix.tokyo",
-   "points_text": "3.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 3.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/mix_tokyo/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -70206,9 +70207,9 @@
    "site": "line_catalog",
    "deal_id": "americaneagle",
    "title": "アメリカンイーグル",
-   "points_text": "8.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 8.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/americaneagle/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -277696,7 +277697,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-01"
   },
   "moppy:161571": {
    "site": "moppy",
@@ -302293,7 +302294,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 13:00",
-   "last_seen": "2026-07-26",
+   "last_seen": "2026-08-01",
    "site_new": true,
    "renewed_at": "2026-08-01 10:09"
   },
@@ -302822,17 +302823,18 @@
    "site": "moppy",
    "deal_id": "6314",
    "title": "【Klook】クルック・ワクワクが見つかる旅行・レジャー予約サイト！",
-   "points_text": "5.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 6.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=6314",
    "condition": "予約完了（入金確認必須）",
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-16",
+   "last_seen": "2026-08-01",
    "delisted_at": "2026-07-13",
-   "renew_hold": true
+   "renewed_at": "2026-08-01 11:00",
+   "renewed_from": "5.0%"
   },
   "moppy:5989": {
    "site": "moppy",
@@ -337653,7 +337655,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337667,7 +337670,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205125": {
    "site": "warau",
@@ -341216,7 +341220,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -341230,7 +341235,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154142": {
    "site": "pointincome",
@@ -341244,7 +341250,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155939": {
    "site": "pointincome",
@@ -341258,7 +341265,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:141355": {
    "site": "pointincome",
@@ -341272,7 +341280,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155962": {
    "site": "pointincome",
@@ -341286,7 +341295,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -341300,7 +341310,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -341314,7 +341325,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154459": {
    "site": "pointincome",
@@ -341328,7 +341340,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:156004": {
    "site": "pointincome",
@@ -341342,7 +341355,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -341356,7 +341370,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155767": {
    "site": "pointincome",
@@ -341370,7 +341385,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155769": {
    "site": "pointincome",
@@ -341384,7 +341400,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154778": {
    "site": "pointincome",
@@ -341398,7 +341415,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "entamenet:r26266": {
    "site": "entamenet",
@@ -341596,7 +341614,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 10:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "delisted_at": "2026-08-01"
   },
   "amefri:139204": {
    "site": "amefri",

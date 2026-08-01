@@ -272336,7 +272336,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 20:23",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-01",
    "site_new": true,
    "renewed_at": "2026-07-23 11:09"
   },
@@ -333505,7 +333505,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
    "last_seen": "2026-07-30",
-   "site_new": true
+   "site_new": false
   },
   "pointincome:155293": {
    "site": "pointincome",
@@ -333662,7 +333662,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 17:00",
    "last_seen": "2026-08-01",
-   "site_new": true
+   "site_new": false
   },
   "moppy:160300": {
    "site": "moppy",
@@ -337657,7 +337657,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337671,7 +337672,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205125": {
    "site": "warau",
@@ -341220,7 +341222,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -341234,7 +341237,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154142": {
    "site": "pointincome",
@@ -341248,7 +341252,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155939": {
    "site": "pointincome",
@@ -341262,7 +341267,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:141355": {
    "site": "pointincome",
@@ -341276,7 +341282,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155962": {
    "site": "pointincome",
@@ -341290,7 +341297,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -341304,7 +341312,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -341318,7 +341327,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154459": {
    "site": "pointincome",
@@ -341332,7 +341342,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:156004": {
    "site": "pointincome",
@@ -341346,7 +341357,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -341360,7 +341372,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155767": {
    "site": "pointincome",
@@ -341374,7 +341387,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:155769": {
    "site": "pointincome",
@@ -341388,7 +341402,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:154778": {
    "site": "pointincome",
@@ -341402,7 +341417,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "entamenet:r26266": {
    "site": "entamenet",
@@ -341727,6 +341743,21 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 13:00",
+   "last_seen": "2026-08-01",
+   "site_new": true
+  },
+  "moppy:148982": {
+   "site": "moppy",
+   "deal_id": "148982",
+   "title": "【過去最高★20,000P】JALカード CLUB-Aゴールドカード/CLUB-Aカード（VISA）",
+   "points_text": "20,000P",
+   "yen": 20000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=148982",
+   "condition": "新規クレジットカード発行",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 15:00",
    "last_seen": "2026-08-01",
    "site_new": true
   }

@@ -43280,18 +43280,17 @@
   "pointincome:155136": {
    "site": "pointincome",
    "deal_id": "155136",
-   "title": "超還元!!エポスカード【最短4日付与】",
-   "points_text": "125,000pt",
-   "yen": 12500.0,
+   "title": "※3日間限定ポイント※エポスカード【最短4日付与】",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-08-01",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-07-16 15:00",
-   "renewed_from": "100,000pt"
+   "renew_hold": true
   },
   "pointincome:154106": {
    "site": "pointincome",
@@ -45871,9 +45870,9 @@
    "site": "rebates",
    "deal_id": "22361",
    "title": "BROOKS",
-   "points_text": "4.5%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/brooksrunning.co.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -45950,9 +45949,9 @@
    "site": "rebates",
    "deal_id": "11603",
    "title": "Booking.com",
-   "points_text": "2.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/booking.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -46423,9 +46422,9 @@
    "site": "rebates",
    "deal_id": "14700",
    "title": "DHC",
-   "points_text": "2.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/dhc",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -47228,9 +47227,9 @@
    "site": "rebates",
    "deal_id": "14658",
    "title": "HABA",
-   "points_text": "2.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/haba",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -47587,8 +47586,8 @@
    "site": "rebates",
    "deal_id": "22239",
    "title": "JALカードVISA（2種）",
-   "points_text": "2,740",
-   "yen": 2740.0,
+   "points_text": "2,750",
+   "yen": 2750.0,
    "percent": null,
    "url": "https://www.rebates.jp/jalcard.jal.co.com-visa",
    "seeded": true,
@@ -47601,8 +47600,8 @@
    "site": "rebates",
    "deal_id": "22236",
    "title": "JALカードnavi",
-   "points_text": "2,055",
-   "yen": 2055.0,
+   "points_text": "2,250",
+   "yen": 2250.0,
    "percent": null,
    "url": "https://www.rebates.jp/jalcard.jal.co.com-navi",
    "seeded": true,
@@ -47629,8 +47628,8 @@
    "site": "rebates",
    "deal_id": "22240",
    "title": "JALカード（CLUB-A・ゴールド）",
-   "points_text": "4,950",
-   "yen": 4950.0,
+   "points_text": "5,500",
+   "yen": 5500.0,
    "percent": null,
    "url": "https://www.rebates.jp/jalcard.jal.co.com-gold",
    "seeded": true,
@@ -48728,9 +48727,9 @@
    "site": "rebates",
    "deal_id": "24420",
    "title": "Narwal",
-   "points_text": "4.5%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/jp.narwal.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -49429,9 +49428,9 @@
    "site": "rebates",
    "deal_id": "12083",
    "title": "SHEIN（シーイン）【海外ストア】",
-   "points_text": "最大7.5%",
+   "points_text": "最大10.0%",
    "yen": null,
-   "percent": 7.5,
+   "percent": 10.0,
    "url": "https://www.rebates.jp/sheinside.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -49601,9 +49600,9 @@
    "site": "rebates",
    "deal_id": "15417",
    "title": "SUIT SQUARE",
-   "points_text": "3.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/uktsc",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -50619,9 +50618,9 @@
    "site": "rebates",
    "deal_id": "11955",
    "title": "agoda（アゴダ）",
-   "points_text": "2.5%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/agoda.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -50791,9 +50790,9 @@
    "site": "rebates",
    "deal_id": "19967",
    "title": "colleize（コレイズ）",
-   "points_text": "4.0%",
+   "points_text": "2.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 2.0,
    "url": "https://www.rebates.jp/colleize.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -52171,9 +52170,9 @@
    "site": "rebates",
    "deal_id": "22363",
    "title": "アキレスウェブショップ",
-   "points_text": "4.5%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/achilles-webshop.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -54045,8 +54044,8 @@
    "site": "rebates",
    "deal_id": "24324",
    "title": "サイバーパネル",
-   "points_text": "250",
-   "yen": 250.0,
+   "points_text": "600",
+   "yen": 600.0,
    "percent": null,
    "url": "https://www.rebates.jp/nrc.co.jp",
    "seeded": true,
@@ -54099,9 +54098,9 @@
    "site": "rebates",
    "deal_id": "15389",
    "title": "サロンドロワイヤル",
-   "points_text": "3.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/salonderoyal",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -54245,9 +54244,9 @@
    "site": "rebates",
    "deal_id": "18597",
    "title": "シェルゥーム",
-   "points_text": "5.0%",
+   "points_text": "15.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 15.0,
    "url": "https://www.rebates.jp/shellwomb.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -54666,14 +54665,15 @@
    "site": "rebates",
    "deal_id": "15738",
    "title": "セカンドストリート",
-   "points_text": "3.5%",
+   "points_text": "2.5%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 2.5,
    "url": "https://www.rebates.jp/2ndstreet-jp",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-01",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:14676": {
    "site": "rebates",
@@ -55106,8 +55106,8 @@
    "site": "rebates",
    "deal_id": "23424",
    "title": "ディズニー英語システム",
-   "points_text": "100",
-   "yen": 100.0,
+   "points_text": "200",
+   "yen": 200.0,
    "percent": null,
    "url": "https://www.rebates.jp/world-family.co.jp",
    "seeded": true,
@@ -55809,9 +55809,9 @@
    "site": "rebates",
    "deal_id": "14708",
    "title": "フェリシモ",
-   "points_text": "3.0%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/felissimo",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -56100,9 +56100,9 @@
    "site": "rebates",
    "deal_id": "24520",
    "title": "ベネクス公式",
-   "points_text": "5.0%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/store.venex-j.co.jp",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -56485,9 +56485,9 @@
    "site": "rebates",
    "deal_id": "24005",
    "title": "ムラサキスポーツ",
-   "points_text": "3.0%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/murasaki.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -57195,21 +57195,22 @@
    "site": "rebates",
    "deal_id": "18844",
    "title": "三越伊勢丹オンラインストア",
-   "points_text": "5.0%",
+   "points_text": "2.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 2.5,
    "url": "https://www.rebates.jp/mistore.com",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-01",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "rebates:21622": {
    "site": "rebates",
    "deal_id": "21622",
    "title": "中古車買取カーネクスト",
-   "points_text": "10,000",
-   "yen": 10000.0,
+   "points_text": "20,000",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://www.rebates.jp/carnext-haishakaitori.com",
    "seeded": true,
@@ -58065,8 +58066,8 @@
    "site": "rebates",
    "deal_id": "24519",
    "title": "楽天銀行口座開設",
-   "points_text": "225",
-   "yen": 225.0,
+   "points_text": "1,500",
+   "yen": 1500.0,
    "percent": null,
    "url": "https://www.rebates.jp/rakuten-bank.co.jp",
    "seeded": true,
@@ -58079,9 +58080,9 @@
    "site": "rebates",
    "deal_id": "15658",
    "title": "洋服の青山オンライン",
-   "points_text": "4.0%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/y-aoyama",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -58489,9 +58490,9 @@
    "site": "rebates",
    "deal_id": "14832",
    "title": "資生堂オンラインストア",
-   "points_text": "9.5%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 9.5,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/shiseido-jp",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -77077,7 +77078,7 @@
    "condition": "ニコニコ プレミアム会員登録完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-01",
    "delisted_at": "2026-08-01"
   },
   "kurashiru_reward:16741": {
@@ -272078,18 +272079,19 @@
    "site": "moppy",
    "deal_id": "159796",
    "title": "エードMYバンク（50万円以上投資完了）",
-   "points_text": "40,000P",
-   "yen": 40000.0,
+   "points_text": "46,000P",
+   "yen": 46000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=159796",
    "condition": "エードMYバンク38号ファンドへ50万円以上新規出資完了",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-01",
    "site_new": false,
    "delisted_at": "2026-07-22",
-   "renew_hold": true
+   "renewed_at": "2026-08-01 10:00",
+   "renewed_from": "40,000P"
   },
   "warau:204372": {
    "site": "warau",
@@ -299605,7 +299607,7 @@
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 15:00",
    "last_seen": "2026-07-22",
-   "dead_streak": 2
+   "delisted_at": "2026-08-01"
   },
   "point_stadium:s27091": {
    "site": "point_stadium",
@@ -299620,7 +299622,7 @@
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 15:00",
    "last_seen": "2026-07-20",
-   "dead_streak": 2
+   "delisted_at": "2026-08-01"
   },
   "point_land:s27091": {
    "site": "point_land",
@@ -299635,7 +299637,7 @@
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 15:00",
    "last_seen": "2026-07-15",
-   "dead_streak": 2
+   "delisted_at": "2026-08-01"
   },
   "nyandaful:s27091": {
    "site": "nyandaful",
@@ -299650,7 +299652,7 @@
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 15:00",
    "last_seen": "2026-07-17",
-   "dead_streak": 2
+   "delisted_at": "2026-08-01"
   },
   "poikatsu_club:6136": {
    "site": "poikatsu_club",
@@ -302292,7 +302294,8 @@
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 13:00",
    "last_seen": "2026-07-26",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-08-01 10:09"
   },
   "moppy:102162": {
    "site": "moppy",
@@ -311698,15 +311701,17 @@
    "site": "rebates",
    "deal_id": "25369",
    "title": "WESTERモール",
-   "points_text": "3.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/wester-mall",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 10:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "renewed_at": "2026-08-01 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:25342": {
    "site": "rebates",
@@ -326839,7 +326844,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-01",
    "renewed_at": "2026-07-30 01:00"
   },
   "au_point:8:1084": {
@@ -329131,8 +329136,7 @@
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true,
-   "renewed_at": "2026-07-30 01:00"
+   "site_new": false
   },
   "amefri:139073": {
    "site": "amefri",
@@ -332765,7 +332769,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 10:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "powl:37230": {
    "site": "powl",
@@ -332823,7 +332827,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:00",
    "last_seen": "2026-07-29",
-   "site_new": true
+   "site_new": false
   },
   "moppy:147692": {
    "site": "moppy",
@@ -332838,7 +332842,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:00",
    "last_seen": "2026-07-29",
-   "site_new": true
+   "site_new": false
   },
   "pointtown:9784": {
    "site": "pointtown",
@@ -335049,16 +335053,18 @@
    "site": "moppy",
    "deal_id": "159797",
    "title": "エードMYバンク（100万円以上投資完了）",
-   "points_text": "70,000P",
-   "yen": 70000.0,
+   "points_text": "80,000P",
+   "yen": 80000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=159797",
    "condition": "エードMYバンク38号ファンドへ100万円以上新規出資完了",
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 15:00",
-   "last_seen": "2026-07-30",
-   "site_new": true
+   "last_seen": "2026-08-01",
+   "site_new": true,
+   "renewed_at": "2026-08-01 10:00",
+   "renewed_from": "70,000P"
   },
   "warau:205056": {
    "site": "warau",
@@ -337647,8 +337653,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "last_seen": "2026-07-31"
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337662,8 +337667,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "last_seen": "2026-07-31"
   },
   "warau:205125": {
    "site": "warau",
@@ -341212,8 +341216,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -341227,8 +341230,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154142": {
    "site": "pointincome",
@@ -341242,8 +341244,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155939": {
    "site": "pointincome",
@@ -341257,8 +341258,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:141355": {
    "site": "pointincome",
@@ -341272,8 +341272,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155962": {
    "site": "pointincome",
@@ -341287,8 +341286,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -341302,8 +341300,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -341317,8 +341314,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154459": {
    "site": "pointincome",
@@ -341332,8 +341328,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:156004": {
    "site": "pointincome",
@@ -341347,8 +341342,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -341362,8 +341356,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155767": {
    "site": "pointincome",
@@ -341377,8 +341370,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155769": {
    "site": "pointincome",
@@ -341392,8 +341384,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154778": {
    "site": "pointincome",
@@ -341407,8 +341398,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "entamenet:r26266": {
    "site": "entamenet",
@@ -341576,6 +341566,149 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 08:00",
+   "last_seen": "2026-08-01"
+  },
+  "moppy:152687": {
+   "site": "moppy",
+   "deal_id": "152687",
+   "title": "ニコニコ動画 (990円コース)",
+   "points_text": "1,500P",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=152687",
+   "condition": "新規プレミアム会員登録（月額990円）",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01",
+   "site_new": true
+  },
+  "warau:205179": {
+   "site": "warau",
+   "deal_id": "205179",
+   "title": "【myChips】Merge Gardens（StepUp）",
+   "points_text": "8,874pt",
+   "yen": 8874.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205179",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
+  },
+  "amefri:139204": {
+   "site": "amefri",
+   "deal_id": "139204",
+   "title": "ニコニコ動画（990円(税込)コース登録）【iOS・Android・PC】",
+   "points_text": "9,840pt",
+   "yen": 984.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139204",
+   "condition": "990円(税込)コース登録",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01",
+   "site_new": true
+  },
+  "point_island:v34285": {
+   "site": "point_island",
+   "deal_id": "v34285",
+   "title": "ニコニコ動画",
+   "points_text": "13300ポイント",
+   "yen": 1330.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=v34285",
+   "condition": "有料会員登録",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01"
+  },
+  "point_stadium:v34285": {
+   "site": "point_stadium",
+   "deal_id": "v34285",
+   "title": "ニコニコ動画",
+   "points_text": "13300ポイント",
+   "yen": 1330.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=v34285",
+   "condition": "有料会員登録で",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01"
+  },
+  "point_land:v34285": {
+   "site": "point_land",
+   "deal_id": "v34285",
+   "title": "ニコニコ動画",
+   "points_text": "13300ポイント",
+   "yen": 1330.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=v34285",
+   "condition": "有料会員登録",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01"
+  },
+  "nyandaful:v34285": {
+   "site": "nyandaful",
+   "deal_id": "v34285",
+   "title": "ニコニコ動画",
+   "points_text": "13,300pt",
+   "yen": 1330.0,
+   "percent": null,
+   "url": "https://www.nyandaful.jp/p_detail.asp?m=v34285",
+   "condition": "P 有料会員登録で",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01"
+  },
+  "kurashiru_reward:18023": {
+   "site": "kurashiru_reward",
+   "deal_id": "18023",
+   "title": "ニコニコ動画",
+   "points_text": "108,000コイン",
+   "yen": 1080.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/18023",
+   "condition": "990円(税込)コース登録 で",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01"
+  },
+  "powl:37490": {
+   "site": "powl",
+   "deal_id": "37490",
+   "title": "【初月100%以上還元】ニコニコ動画",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/37490",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
+   "last_seen": "2026-08-01"
+  },
+  "poikatsu_club:14869": {
+   "site": "poikatsu_club",
+   "deal_id": "14869",
+   "title": "ニコニコ動画",
+   "points_text": "1080pt",
+   "yen": 1080.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14869",
+   "condition": "新規ニコニコプレミアム登録後【990円(税込)コース】登録で報酬獲得となります\nアプリのインストールは必要ございません\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※クリック後、48時間以上経過しての登録は獲得対象外となりますのでご注意ください※\n※キャリア決済のみ獲得対象となります※\n\n獲得条件達成期限はご登録日から起算して当日まで、\nお問い合わせ受付期限はご登録日から起算して30日以内までとなります。\n\n■注意事項\n・広告クリックから獲得に至るまで、同一の標準ブラウザ内で遷移されていない場合、獲得対象外となることがあります\n・キャンペーンは予告なく変更・終了する場合がございます\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください\n※コピーしたURLからのキャンペーンアクセスは獲得対象外となります\n\n■獲得対象外条件\n・同一ユーザーの2回目のお申し込み\n（過去サイトに登録したことがある場合は獲得対象外）\n・公共WiFiをご利用し獲得条件に到達した場合\n・他端末での同一IPからの獲得条件到達は獲得対象外となります\n※1端末目のみ有効になります\n・不備･不正･虚偽･いたずら･未入金･キャンセル\n・本キャンペーンページ以外からのお申し込み\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは獲得対象外\n・広告主に正常な申込でないと判断された場合\n・個人のブログやSNS等に記載されているリンクからアクセスした場合は獲得対象外\n・アドブロック（広告ブロック）を使用されている場合\n・広告クリックから成果に至るまで同一ブラウザで行わないと獲得対象外\n・アドブロックを有効にしたブラウザでの入会は獲得対象外\n・キャリア決済以外は獲得対象外\n・自然入会、同一媒体、別媒体などの経路を問わず、同月内に既に同一キャリアOpenIDでのプレミアム登録が確認された場合、２回目以降のプレミアム登録は獲得対象外となります。ニコニコIDや、端末が異なる場合でも、キャリアOpenIDが同一である場合は重複カットの対象となります\n\n■お問い合わせに関して\n獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n・ニコニコID\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 10:00",
    "last_seen": "2026-08-01"
   }
  }

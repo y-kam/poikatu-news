@@ -60373,7 +60373,7 @@
    "url": "https://pmall.gpoint.co.jp/shoplist/allshop/116435/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-01",
    "condition": ""
   },
   "gpoint:133788": {
@@ -278290,7 +278290,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-01"
   },
   "moppy:159535": {
    "site": "moppy",
@@ -305631,7 +305631,8 @@
    "first_seen_at": "2026-07-14 05:00",
    "last_seen": "2026-08-01",
    "site_new": false,
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -318107,17 +318108,17 @@
    "site": "moppy",
    "deal_id": "158120",
    "title": "【今だけ基本料金6ヶ月半額】エネワンでんき",
-   "points_text": "20,000P",
-   "yen": 20000.0,
+   "points_text": "22,000P",
+   "yen": 22000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158120",
    "condition": "新規WEB申込み後、70日以内の供給開始＋使用量の条件を達成",
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 13:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-08-01",
    "site_new": true,
-   "renewed_at": "2026-08-01 01:09"
+   "renewed_at": "2026-08-01 17:00"
   },
   "moppy:6805": {
    "site": "moppy",
@@ -321714,16 +321715,18 @@
    "site": "moppy",
    "deal_id": "161704",
    "title": "楽天ぐるなびネット予約",
-   "points_text": "50P",
-   "yen": 50.0,
+   "points_text": "130P",
+   "yen": 130.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161704",
    "condition": "ネット予約後の来店・本人確認",
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
-   "last_seen": "2026-07-22",
-   "site_new": false
+   "last_seen": "2026-08-01",
+   "site_new": true,
+   "renewed_at": "2026-08-01 17:09",
+   "renewed_from": "50P"
   },
   "pointtown:10876": {
    "site": "pointtown",
@@ -333780,7 +333783,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "au_point:3:213679": {
    "site": "au_point",
@@ -334020,7 +334023,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
    "last_seen": "2026-07-30",
-   "site_new": true
+   "site_new": false
   },
   "moppy:161791": {
    "site": "moppy",
@@ -337658,7 +337661,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337673,7 +337676,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:205125": {
    "site": "warau",
@@ -341223,7 +341226,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -341238,7 +341241,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:154142": {
    "site": "pointincome",
@@ -341253,7 +341256,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155939": {
    "site": "pointincome",
@@ -341268,7 +341271,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:141355": {
    "site": "pointincome",
@@ -341283,7 +341286,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155962": {
    "site": "pointincome",
@@ -341298,7 +341301,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -341313,7 +341316,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -341328,7 +341331,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:154459": {
    "site": "pointincome",
@@ -341343,7 +341346,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:156004": {
    "site": "pointincome",
@@ -341358,7 +341361,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -341373,7 +341376,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155767": {
    "site": "pointincome",
@@ -341388,7 +341391,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:155769": {
    "site": "pointincome",
@@ -341403,7 +341406,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "pointincome:154778": {
    "site": "pointincome",
@@ -341418,7 +341421,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "entamenet:r26266": {
    "site": "entamenet",
@@ -341760,6 +341763,36 @@
    "first_seen_at": "2026-08-01 15:00",
    "last_seen": "2026-08-01",
    "site_new": true
+  },
+  "moppy:100826": {
+   "site": "moppy",
+   "deal_id": "100826",
+   "title": "【超還元！】ライフカード（利用）",
+   "points_text": "10,000P",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=100826",
+   "condition": "新規カード発行+ショッピング利用（カード受取必須）",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 17:00",
+   "last_seen": "2026-08-01",
+   "site_new": true
+  },
+  "moppy:4513": {
+   "site": "moppy",
+   "deal_id": "4513",
+   "title": "&mall（アンドモール）",
+   "points_text": "2.5%",
+   "yen": null,
+   "percent": 2.5,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=4513",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 17:00",
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   }
  }
 }

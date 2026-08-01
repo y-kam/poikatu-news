@@ -73939,7 +73939,7 @@
    "condition": "開通",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-14"
+   "last_seen": "2026-08-02"
   },
   "point_island:k3924": {
    "site": "point_island",
@@ -74474,7 +74474,7 @@
    "condition": "開通で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-08-02"
   },
   "point_stadium:k3924": {
    "site": "point_stadium",
@@ -74869,7 +74869,7 @@
    "condition": "開通",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-07"
+   "last_seen": "2026-08-02"
   },
   "point_land:k3924": {
    "site": "point_land",
@@ -75379,7 +75379,8 @@
    "condition": "開通で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-02",
+   "renewed_at": "2026-08-02 08:00"
   },
   "nyandaful:k3924": {
    "site": "nyandaful",
@@ -124840,7 +124841,7 @@
   "tamaru_mall:171": {
    "site": "tamaru_mall",
    "deal_id": "171",
-   "title": "【期間限定コイン大幅アップ】プロパティエージェントの不動産投資WEB面談",
+   "title": "8/10まで高還元！【年収600万円以上の方限定】プロパティエージェントの不動産投資WEB面談",
    "points_text": "75,000コイン",
    "yen": 75000.0,
    "percent": null,
@@ -125396,7 +125397,7 @@
    "condition": "オンライン個別面談完了",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-02"
   },
   "tamaru_mall:2621": {
    "site": "tamaru_mall",
@@ -337661,7 +337662,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337676,7 +337677,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
    "last_seen": "2026-07-31",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "warau:205125": {
    "site": "warau",
@@ -339828,7 +339829,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-02"
   },
   "warau:205106": {
    "site": "warau",
@@ -340867,7 +340868,7 @@
   "tamaru_mall:2690": {
    "site": "tamaru_mall",
    "deal_id": "2690",
-   "title": "【年収1000万円以上】プロパティエージェントの不動産投資WEB面談",
+   "title": "8/10まで高還元！【年収1000万円以上】プロパティエージェントの不動産投資WEB面談",
    "points_text": "115,000コイン",
    "yen": 115000.0,
    "percent": null,
@@ -341231,7 +341232,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -341246,7 +341247,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:154142": {
    "site": "pointincome",
@@ -341261,7 +341262,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:155939": {
    "site": "pointincome",
@@ -341276,7 +341277,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:141355": {
    "site": "pointincome",
@@ -341291,7 +341292,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:155962": {
    "site": "pointincome",
@@ -341306,7 +341307,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -341321,7 +341322,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -341336,7 +341337,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:154459": {
    "site": "pointincome",
@@ -341351,7 +341352,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:156004": {
    "site": "pointincome",
@@ -341366,7 +341367,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -341381,7 +341382,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:155767": {
    "site": "pointincome",
@@ -341396,7 +341397,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:155769": {
    "site": "pointincome",
@@ -341411,7 +341412,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "pointincome:154778": {
    "site": "pointincome",
@@ -341426,7 +341427,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "entamenet:r26266": {
    "site": "entamenet",
@@ -341812,7 +341813,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 21:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 2
+   "delisted_at": "2026-08-02"
   },
   "entamenet:421993": {
    "site": "entamenet",

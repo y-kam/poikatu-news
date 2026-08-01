@@ -43082,16 +43082,17 @@
    "site": "pointincome",
    "deal_id": "155587",
    "title": "【年収1000万円以上】マンション投資 個別面談 / JPリターンズ",
-   "points_text": "1,100,000pt",
-   "yen": 110000.0,
+   "points_text": "1,150,000pt",
+   "yen": 115000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155587/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-08-01",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-08-01 13:00",
+   "renewed_from": "1,100,000pt"
   },
   "pointincome:154095": {
    "site": "pointincome",
@@ -43280,7 +43281,7 @@
   "pointincome:155136": {
    "site": "pointincome",
    "deal_id": "155136",
-   "title": "※3日間限定ポイント※エポスカード【最短4日付与】",
+   "title": "エポスカード【最短4日付与】",
    "points_text": "120,000pt",
    "yen": 12000.0,
    "percent": null,
@@ -61853,9 +61854,9 @@
    "site": "line_catalog",
    "deal_id": "isetan_beauty_online",
    "title": "ISETAN BEAUTY online",
-   "points_text": "1.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/isetan_beauty_online/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -62195,9 +62196,9 @@
    "site": "line_catalog",
    "deal_id": "honeys",
    "title": "Honeys（ハニーズ）",
-   "points_text": "8.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 8.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/honeys/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -62326,9 +62327,9 @@
    "site": "line_catalog",
    "deal_id": "felissimo",
    "title": "FELISSIMO（フェリシモ）",
-   "points_text": "1.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/felissimo/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -62706,9 +62707,9 @@
    "site": "line_catalog",
    "deal_id": "gap",
    "title": "Gap",
-   "points_text": "10.0%還元",
+   "points_text": "14.0%還元",
    "yen": null,
-   "percent": 10.0,
+   "percent": 14.0,
    "url": "https://ec.line.me/shop/gap/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -62929,9 +62930,9 @@
    "site": "line_catalog",
    "deal_id": "casetify",
    "title": "CASETiFY(ケースティファイ)",
-   "points_text": "7.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/casetify/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -125359,8 +125360,8 @@
    "site": "tamaru_mall",
    "deal_id": "2612",
    "title": "【不動産査定】投資用ワンルームマンション｜無料！売却査定・ご相談",
-   "points_text": "4,200コイン",
-   "yen": 4200.0,
+   "points_text": "8,000コイン",
+   "yen": 8000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2612",
    "condition": "不動産査定完了",
@@ -272742,9 +272743,9 @@
    "site": "moppy",
    "deal_id": "6385",
    "title": "AliExpress/アリエクスプレス（アリババ）",
-   "points_text": "11.0%",
+   "points_text": "12.0%",
    "yen": null,
-   "percent": 11.0,
+   "percent": 12.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=6385",
    "condition": "商品購入完了",
    "seeded": false,
@@ -272752,7 +272753,7 @@
    "first_seen_at": "2026-07-08 01:00",
    "last_seen": "2026-08-01",
    "delisted_at": "2026-07-08",
-   "renewed_at": "2026-08-01 01:00",
+   "renewed_at": "2026-08-01 13:00",
    "renewed_from": "7.0%"
   },
   "moppy:1773": {
@@ -302484,18 +302485,19 @@
   "pointincome:144213": {
    "site": "pointincome",
    "deal_id": "144213",
-   "title": "三菱UFJ eスマート証券（初回100円以上取引）",
-   "points_text": "80,000pt",
-   "yen": 8000.0,
+   "title": "【3日間限定アップ!!】三菱UFJ eスマート証券（初回100円以上取引）",
+   "points_text": "101,000pt",
+   "yen": 10100.0,
    "percent": null,
    "url": "https://pointi.jp/ad/144213/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-01",
    "delisted_at": "2026-07-14",
-   "renew_hold": true
+   "renewed_at": "2026-08-01 13:00",
+   "renewed_from": "80,000pt"
   },
   "pointincome:115661": {
    "site": "pointincome",
@@ -333318,7 +333320,7 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 13:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139119": {
    "site": "amefri",
@@ -335018,7 +335020,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-01",
    "delisted_at": "2026-07-31"
   },
   "pointincome:131744": {
@@ -337655,8 +337657,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "last_seen": "2026-07-31"
   },
   "pointincome:152261": {
    "site": "pointincome",
@@ -337670,8 +337671,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31",
-   "dead_streak": 1
+   "last_seen": "2026-07-31"
   },
   "warau:205125": {
    "site": "warau",
@@ -341220,8 +341220,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -341235,8 +341234,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154142": {
    "site": "pointincome",
@@ -341250,8 +341248,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155939": {
    "site": "pointincome",
@@ -341265,8 +341262,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:141355": {
    "site": "pointincome",
@@ -341280,8 +341276,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155962": {
    "site": "pointincome",
@@ -341295,8 +341290,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -341310,8 +341304,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -341325,8 +341318,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154459": {
    "site": "pointincome",
@@ -341340,8 +341332,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:156004": {
    "site": "pointincome",
@@ -341355,8 +341346,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -341370,8 +341360,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155767": {
    "site": "pointincome",
@@ -341385,8 +341374,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:155769": {
    "site": "pointincome",
@@ -341400,8 +341388,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "pointincome:154778": {
    "site": "pointincome",
@@ -341415,8 +341402,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "entamenet:r26266": {
    "site": "entamenet",
@@ -341728,6 +341714,21 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 10:00",
    "last_seen": "2026-08-01"
+  },
+  "moppy:161958": {
+   "site": "moppy",
+   "deal_id": "161958",
+   "title": "星ひとみ☆幸せの天星術 (500円コース)",
+   "points_text": "520P",
+   "yen": 520.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161958",
+   "condition": "月額500円（税込）コース新規会員登録",
+   "seeded": false,
+   "first_seen": "2026-08-01",
+   "first_seen_at": "2026-08-01 13:00",
+   "last_seen": "2026-08-01",
+   "site_new": true
   }
  }
 }

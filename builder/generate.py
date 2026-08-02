@@ -60,7 +60,7 @@ NEW_DISPLAY_CAP = 200
 UP_RANKING_DAYS = 7
 UP_RANKING_CAP = 100
 
-# 値動き履歴ページ（history.html）の掲載上限（変動日の新しい順の上位N件）
+# 値動き履歴ページ（history.html）の掲載上限（過去最高・値上がり・値下がりの順で上位N件）
 HISTORY_PAGE_CAP = 200
 
 # 週次まとめ（weekly.html）の掲載件数と、確定スナップショット（data/weekly.json）の保持週数。
@@ -317,9 +317,9 @@ def _up_ranking_rows(recent: list, history: dict, today: str) -> list:
 
 
 def _history_rows(recent: list, history: dict) -> tuple[list, int]:
-    """値動き履歴ページの行データ（変動日の新しい順・上限N件）と対象総数を返す。
-    変化点のある案件のみ対象。系列は最後の変化点の型（円換算 or %還元）に合わせ、
-    現在値が観測した中での最高なら「過去最高」バッジを付ける。"""
+    """値動き履歴ページの行データ（過去最高→値上がり→値下がり・各区分内は新しい順）
+    と対象総数を返す。変化点のある案件のみ対象。系列は最後の変化点の型（円換算 or
+    %還元）に合わせ、現在値が観測開始以降の最高なら「過去最高」バッジを付ける。"""
     rows = []
     for deal in recent:
         entries = _synced_entries(deal, history)
@@ -333,19 +333,27 @@ def _history_rows(recent: list, history: dict) -> tuple[list, int]:
         vals = [v for _, v in series]
         fmt = (lambda v: f"{v:,.0f}円") if yen_type else (lambda v: f"{round(v, 2):g}%")
         diff = vals[-1] - vals[-2]
+        peak = vals[-1] >= max(vals)
+        up = vals[-1] > vals[-2]
+        # 初期表示で「過去最高」を最上部に、値下がりを最下部にまとめる。
+        # 同じ区分では変動日の新しい案件を先に出す。
+        sort_group = 0 if peak else (1 if up else 2)
         rows.append({
             "site": deal["site"], "title": deal["title"], "url": deal["url"],
             "category": deal["category"], "points_text": deal["points_text"],
             "yen_type": yen_type, "cur_disp": fmt(vals[-1]), "prev_disp": fmt(vals[-2]),
             "diff_disp": ("+" if diff > 0 else "−") + fmt(abs(diff)),
-            "up": vals[-1] > vals[-2],
-            "peak": vals[-1] >= max(vals),  # 観測開始以降の最高値（過去最高バッジ）
+            "up": up,
+            "peak": peak,  # 観測開始以降の最高値（過去最高バッジ）
             "changed": _date_md(series[-1][0]),
             "changes": len(series) - 1,
             "spark": _sparkline(vals),
+            "sort_group": sort_group,
             "sort_key": series[-1][0],
         })
+    # 安定ソートを2回使い、区分を保ったまま各区分内の日付だけを新しい順にする。
     rows.sort(key=lambda r: r["sort_key"], reverse=True)
+    rows.sort(key=lambda r: r["sort_group"])
     return rows[:HISTORY_PAGE_CAP], len(rows)
 
 

@@ -208,19 +208,17 @@ def _up_mark(deal: dict, history: dict, rates: dict) -> str:
 
 
 def _order_ups(ups: list[dict], history: dict, rates: dict) -> list[dict]:
-    """UP案件の掲載順。増額幅の大きい順を軸にする（大きな金額の方が拡散されやすいため）。
-    ただし過去最高値の更新は金額が小さくても目玉になるので、増額幅順の上位に1件も
-    入らないときだけ、最も増額幅の大きい過去最高を2番手へ繰り上げる。"""
-    ordered = sorted(ups, key=lambda d: (-_up_gain(d, rates), -_yen_of(d)))
-    head = ordered[:len(MEDALS)]
-    if any(_is_peak(d, history) for d in head):
-        return ordered
-    peak = next((d for d in ordered if _is_peak(d, history)), None)
-    if peak is None:
-        return ordered
-    ordered.remove(peak)
-    ordered.insert(1, peak)  # 2番手＝掲載枠が減った日でも残りやすく、1位の最大増額も守れる位置
-    return ordered
+    """UP案件の掲載順。観測開始以降の過去最高値を更新した案件を最優先にし、
+    同じ区分内では増額幅、報酬額の大きい順にする。投稿枠が少ない日でも、
+    情報価値の高い過去最高値の更新を主役として取り上げるため。"""
+    return sorted(
+        ups,
+        key=lambda d: (
+            0 if _is_peak(d, history) else 1,
+            -_up_gain(d, rates),
+            -_yen_of(d),
+        ),
+    )
 
 
 def _cta(shown: list[dict], today: str, rates: dict) -> tuple[str, str]:
@@ -247,7 +245,7 @@ def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: 
     掲載件数・タイトル長を削る）。
 
     掲載枠は「当日ポイントUPした案件」を主役にする（値上がりはポイ活で最も価値が高く、
-    初出の新着より拡散されやすいため）。UPの並びは _order_ups（増額幅順＋過去最高の繰り上げ）。
+    初出の新着より拡散されやすいため）。UPの並びは _order_ups（過去最高を最優先）。
     UPが3件に満たない日だけ、残り枠を従来どおりの新着（手軽さ優先→報酬額順）で補う。"""
     ups = _order_ups([d for d in new_deals if _is_up_today(d, today)], history, rates)
     fresh = sorted([d for d in new_deals if not _is_up_today(d, today)],
@@ -265,7 +263,7 @@ def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: 
             f"【ポイ活ポイントUP】{month_day}は{counts_text}！" if is_first_post
             else f"【ポイ活ポイントUP・続報】{month_day} さらに{counts_text}！"
         )
-        lead = "値上がり注目👀"
+        lead = "過去最高を優先して紹介👀" if n_peak else "値上がり注目👀"
     else:
         counts_text = f"{n_new}件追加"
         header = (

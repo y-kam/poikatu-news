@@ -41,7 +41,7 @@
 </nav>
 <section>
   <h2>値動き履歴<span class="allcount">（変動があった案件 {{ total }}件）</span></h2>
-  <p class="note">掲載中にポイント数が変わった案件を、変動日の新しい順に並べています{% if rows|length < total %}（上位{{ rows|length }}件）{% endif %}。<span class="dirbadge dir-up">▲ 値上がり</span>は前回より高く、<span class="dirbadge dir-down">▼ 値下がり</span>は前回より低くなった案件です。折れ線は観測した値動きの推移（右端が現在の値）を表します。</p>
+  <p class="note">掲載中にポイント数が変わった案件を、<strong>過去最高 → そのほかの値上がり → 値下がり</strong>の順に並べています{% if rows|length < total %}（上位{{ rows|length }}件）{% endif %}。同じ区分内では変動日の新しい順です。<span class="dirbadge dir-up">▲ 値上がり</span>は前回より高く、<span class="dirbadge dir-down">▼ 値下がり</span>は前回より低くなった案件です。折れ線は観測した値動きの推移（右端が現在の値）を表します。</p>
   {% if rows %}
   {# 値上がり/値下がりの絞り込みチップ。件数は掲載中の行数（テンプレートで確定）、切替はscriptsブロックの小さなJSで行う #}
   <div class="chips" id="dir-chips">

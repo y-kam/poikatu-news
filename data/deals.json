@@ -125706,8 +125706,8 @@
    "site": "tamaru_mall",
    "deal_id": "29",
    "title": "SBI証券 口座開設",
-   "points_text": "11,000コイン",
-   "yen": 11000.0,
+   "points_text": "500コイン",
+   "yen": 500.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=29",
    "condition": "口座開設完了",
@@ -341962,7 +341962,8 @@
    "seeded": false,
    "first_seen": "2026-08-02",
    "first_seen_at": "2026-08-02 10:00",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-02",
+   "dead_streak": 1
   },
   "pointincome:152353": {
    "site": "pointincome",
@@ -341976,7 +341977,8 @@
    "seeded": false,
    "first_seen": "2026-08-02",
    "first_seen_at": "2026-08-02 10:00",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-02",
+   "dead_streak": 1
   },
   "pointincome:141617": {
    "site": "pointincome",
@@ -341990,7 +341992,8 @@
    "seeded": false,
    "first_seen": "2026-08-02",
    "first_seen_at": "2026-08-02 10:00",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-02",
+   "dead_streak": 1
   },
   "pointincome:143060": {
    "site": "pointincome",
@@ -342004,7 +342007,8 @@
    "seeded": false,
    "first_seen": "2026-08-02",
    "first_seen_at": "2026-08-02 10:00",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-02",
+   "dead_streak": 1
   }
  }
 }

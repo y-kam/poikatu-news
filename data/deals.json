@@ -305635,7 +305635,8 @@
    "first_seen_at": "2026-07-14 05:00",
    "last_seen": "2026-08-02",
    "site_new": false,
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -326158,17 +326159,17 @@
    "site": "moppy",
    "deal_id": "151298",
    "title": "dカード GOLD［新規申込限定］",
-   "points_text": "9,000P",
-   "yen": 9000.0,
+   "points_text": "11,000P",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=151298",
    "condition": "新規カード発行完了(VISAブランド／Mastercardブランド対象）",
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-08-02",
    "site_new": true,
-   "renewed_at": "2026-08-01 05:11"
+   "renewed_at": "2026-08-02 17:00"
   },
   "moppy:160385": {
    "site": "moppy",
@@ -331095,17 +331096,18 @@
    "site": "moppy",
    "deal_id": "123269",
    "title": "【31日間無料】dアニメストア (660円コース)",
-   "points_text": "840P",
-   "yen": 840.0,
+   "points_text": "800P",
+   "yen": 800.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=123269",
    "condition": "新規会員登録",
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-02",
    "site_new": true,
-   "delisted_at": "2026-07-30"
+   "delisted_at": "2026-07-30",
+   "renew_hold": true
   },
   "moppy:1709": {
    "site": "moppy",
@@ -335362,7 +335364,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "moppy:102933": {
    "site": "moppy",
@@ -335377,7 +335379,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
    "last_seen": "2026-07-30",
-   "site_new": true
+   "site_new": false
   },
   "warau:205064": {
    "site": "warau",
@@ -335566,7 +335568,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139149": {
    "site": "amefri",
@@ -335581,7 +335583,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139151": {
    "site": "amefri",
@@ -335596,7 +335598,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139150": {
    "site": "amefri",
@@ -335611,7 +335613,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139148": {
    "site": "amefri",
@@ -342008,6 +342010,20 @@
    "first_seen_at": "2026-08-02 10:00",
    "last_seen": "2026-08-02",
    "delisted_at": "2026-08-02"
+  },
+  "gpoint:102719": {
+   "site": "gpoint",
+   "deal_id": "102719",
+   "title": "セシール",
+   "points_text": "1％Ｇ",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://pmall.gpoint.co.jp/shoplist/allshop/102719/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-02",
+   "first_seen_at": "2026-08-02 17:00",
+   "last_seen": "2026-08-02"
   }
  }
 }

@@ -72562,14 +72562,15 @@
    "site": "getmoney",
    "deal_id": "67016",
    "title": "ライフカード「年会費無料」",
-   "points_text": "90,000Pt",
-   "yen": 9000.0,
+   "points_text": "60,000Pt",
+   "yen": 6000.0,
    "percent": null,
    "url": "https://dietnavi.com/pc/ad_detail.php?id=67016",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-02",
+   "renew_hold": true
   },
   "getmoney:67017": {
    "site": "getmoney",
@@ -214807,7 +214808,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-08-02"
   },
   "point_island:0410418": {
    "site": "point_island",
@@ -226197,7 +226198,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-22"
+   "last_seen": "2026-08-02"
   },
   "point_stadium:0410418": {
    "site": "point_stadium",
@@ -237638,8 +237639,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-22",
-   "renewed_at": "2026-07-13 12:37"
+   "last_seen": "2026-08-02",
+   "renewed_at": "2026-08-02 21:00"
   },
   "nyandaful:0410418": {
    "site": "nyandaful",
@@ -303572,7 +303573,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-19"
+   "last_seen": "2026-08-02"
   },
   "pointier:16745": {
    "site": "pointier",
@@ -305636,7 +305637,7 @@
    "last_seen": "2026-08-02",
    "site_new": false,
    "renew_hold": true,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -331095,7 +331096,7 @@
   "moppy:123269": {
    "site": "moppy",
    "deal_id": "123269",
-   "title": "【31日間無料】dアニメストア (660円コース)",
+   "title": "【無料即P】dアニメストア 【31日間無料】",
    "points_text": "800P",
    "yen": 800.0,
    "percent": null,
@@ -336122,7 +336123,7 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
    "last_seen": "2026-07-31",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139156": {
    "site": "amefri",
@@ -336320,7 +336321,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-02",
    "renewed_at": "2026-08-01 08:00",
    "renewed_from": "5005pt"
   },

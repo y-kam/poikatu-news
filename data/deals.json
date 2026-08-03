@@ -115035,9 +115035,9 @@
    "site": "powl",
    "deal_id": "19429",
    "title": "Qoo10（キューテン）※購入金額の制限なし！リピートOK！",
-   "points_text": "7%還元",
+   "points_text": "8%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 8.0,
    "url": "https://web.powl.jp/reward/19429",
    "condition": "",
    "seeded": true,
@@ -214514,7 +214514,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-04"
   },
   "point_island:s19683": {
    "site": "point_island",
@@ -225918,7 +225918,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-04"
   },
   "point_stadium:s19683": {
    "site": "point_stadium",
@@ -237371,7 +237371,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-04",
+   "renewed_at": "2026-08-04 08:00"
   },
   "nyandaful:s19683": {
    "site": "nyandaful",
@@ -339050,7 +339051,7 @@
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-03",
    "site_new": true,
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "moppy:6318": {
    "site": "moppy",
@@ -342214,7 +342215,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 01:01",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-04"
   },
   "warau:202400": {
    "site": "warau",
@@ -343292,7 +343293,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 15:00",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-04"
   },
   "warau:205200": {
    "site": "warau",
@@ -344784,7 +344785,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
   },
   "pointincome:85582": {
    "site": "pointincome",
@@ -344798,7 +344800,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
   },
   "pointincome:146771": {
    "site": "pointincome",
@@ -344812,7 +344815,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
   },
   "pointincome:152773": {
    "site": "pointincome",
@@ -344826,7 +344830,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
   },
   "pointincome:145649": {
    "site": "pointincome",
@@ -344840,7 +344845,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
   },
   "pointincome:155796": {
    "site": "pointincome",
@@ -344854,7 +344860,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
   },
   "pointincome:156014": {
    "site": "pointincome",
@@ -344868,6 +344875,21 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
+   "last_seen": "2026-08-04",
+   "dead_streak": 1
+  },
+  "point_land:0411286": {
+   "site": "point_land",
+   "deal_id": "0411286",
+   "title": "P-oneカード（Wiz）☆年会費無料",
+   "points_text": "21600ポイント",
+   "yen": 2160.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=0411286",
+   "condition": "カード利用",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 08:00",
    "last_seen": "2026-08-04"
   }
  }

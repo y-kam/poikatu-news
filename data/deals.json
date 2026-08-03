@@ -1289,15 +1289,17 @@
    "site": "moppy",
    "deal_id": "1118",
    "title": "Qoo10（キューテン）※購入金額の制限なし！リピートOK！",
-   "points_text": "1.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 6.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=1118",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-08-03",
    "delisted_at": "2026-07-07",
-   "condition": "商品購入"
+   "condition": "商品購入",
+   "renewed_at": "2026-08-03 15:00",
+   "renewed_from": "1.0%"
   },
   "moppy:6745": {
    "site": "moppy",
@@ -71516,7 +71518,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3430": {
    "site": "poikatsu_club",
@@ -71530,7 +71532,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:6025": {
    "site": "poikatsu_club",
@@ -72455,7 +72457,8 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-03",
+   "dead_streak": 1
   },
   "getmoney:67029": {
    "site": "getmoney",
@@ -72574,7 +72577,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-03",
    "renew_hold": true
   },
   "getmoney:67017": {
@@ -76185,7 +76188,7 @@
   "kurashiru_reward:17320": {
    "site": "kurashiru_reward",
    "deal_id": "17320",
-   "title": "住信SBIネット銀行　個人口座開設",
+   "title": "ドコモSMTBネット銀行　個人口座開設",
    "points_text": "96,000コイン",
    "yen": 960.0,
    "percent": null,
@@ -91586,7 +91589,7 @@
    "condition": "",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   "powl:34662": {
    "site": "powl",
@@ -260225,7 +260228,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3405": {
    "site": "poikatsu_club",
@@ -260239,7 +260242,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3139": {
    "site": "poikatsu_club",
@@ -260253,7 +260256,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3142": {
    "site": "poikatsu_club",
@@ -260267,7 +260270,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3160": {
    "site": "poikatsu_club",
@@ -260281,7 +260284,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:2531": {
    "site": "poikatsu_club",
@@ -260407,7 +260410,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3634": {
    "site": "poikatsu_club",
@@ -260421,7 +260424,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3633": {
    "site": "poikatsu_club",
@@ -260505,7 +260508,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3374": {
    "site": "poikatsu_club",
@@ -260519,7 +260522,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3372": {
    "site": "poikatsu_club",
@@ -260533,7 +260536,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3371": {
    "site": "poikatsu_club",
@@ -260547,7 +260550,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3332": {
    "site": "poikatsu_club",
@@ -260561,7 +260564,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:3312": {
    "site": "poikatsu_club",
@@ -260665,15 +260668,17 @@
    "site": "poikatsu_club",
    "deal_id": "3762",
    "title": "オール・イン・ホール (All in Hole)（Android）",
-   "points_text": "2628pt",
-   "yen": 2628.0,
+   "points_text": "3132pt",
+   "yen": 3132.0,
    "percent": null,
    "url": "https://poikatsu.club/projects/3762",
    "condition": "▼成果条件<br/>・新規アプリインストール後、40日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、40日以内<br/>【成果調査受付期間】案件クリック後、55日以内<br/><br/>▼成果までの流れ<br/>新規アプリインストール後、<br/>・STEP1：6日以内にレベル300到達<br/>・STEP2：40日以内に初回購入<br/>・STEP3：6日以内にレベル600到達<br/>・STEP4：25日以内にレベル900到達<br/>・STEP5：12日以内にレベル1250到達<br/>・STEP6：30日以内にレベル2000到達<br/>で成果となります。<br/><br/>▼却下条件<br/>※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。<br/>※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから41日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・案件クリックから成果に至るまで、同一ブラウザ内で遷移されていない場合、成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/>・回線が不安定な状態でインストールした場合は成果対象外となります。<br/>・インストールが他の広告成果としてみなされている場合は成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・他端末での同一IPからのインストールの場合は成果対象外となります。<br/>・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合は成果対象外となります。<br/>・不備・不正・虚偽・重複・いたずら・キャンセルされた場合は成果対象外となります。<br/>・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外<br/>・端末の「追跡型広告を制限」設定がONになっている場合は成果対象外となります。<br/>・公共WiFiをご利用しインストールまたは成果地点に到達した場合は成果対象外となります。<br/>・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外<br/>・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合は成果対象外となります。<br/>設定⇒プライバシー⇒トラッキング⇒『Appからのトラッキング要求を許可』をON<br/>・その他お申込内容に不備がある場合は成果対象外となります。<br/>・モニター/インセンティブ媒体以外で掲載された場合は成果対象外となります。<br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ） <br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から56日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果到達日時<br/>■以下対象の成果に到達したことがわかるすべてのキャプチャ<br/>　成果1：6日以内にレベル300到達<br/>　成果2：40日以内に初回購入<br/>　成果3：6日以内にレベル600到達<br/>　成果4：25日以内にレベル900到達<br/>　成果5：12日以内にレベル1250到達<br/>　成果6：30日以内にレベル2000到達",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03",
+   "renewed_at": "2026-08-03 15:00",
+   "renewed_from": "2628pt"
   },
   "poikatsu_club:3761": {
    "site": "poikatsu_club",
@@ -260687,7 +260692,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:2346": {
    "site": "poikatsu_club",
@@ -276552,7 +276557,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 11:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-03",
    "delisted_at": "2026-07-16"
   },
   "powl:36495": {
@@ -278024,17 +278029,18 @@
   "moppy:160356": {
    "site": "moppy",
    "deal_id": "160356",
-   "title": "超巨大スライム/Super Big Slime (レベル60到達)_iOS",
-   "points_text": "150P",
-   "yen": 150.0,
+   "title": "※還元UP中※超巨大スライム/Super Big Slime (レベル60到達)_iOS",
+   "points_text": "160P",
+   "yen": 160.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160356",
    "condition": "新規アプリインストール後、レベル60到達",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-30",
-   "renew_hold": true
+   "last_seen": "2026-08-03",
+   "renewed_at": "2026-08-03 15:00",
+   "renewed_from": "150P"
   },
   "moppy:160342": {
    "site": "moppy",
@@ -307185,33 +307191,33 @@
    "site": "moppy",
    "deal_id": "156517",
    "title": "FXTF暗号資産CFD・KO",
-   "points_text": "5,000P",
-   "yen": 5000.0,
+   "points_text": "2,500P",
+   "yen": 2500.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156517",
    "condition": "新規口座申込完了日から60日以内に口座開設完了+暗号資産CFD・暗号資産ノックアウトオプション新規建て1取引完了",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-14",
-   "site_new": false,
-   "dead_streak": 1
+   "last_seen": "2026-08-03",
+   "site_new": true,
+   "renew_hold": true
   },
   "moppy:156150": {
    "site": "moppy",
    "deal_id": "156150",
    "title": "FXTF 商品CFD・KO",
-   "points_text": "10,000P",
-   "yen": 10000.0,
+   "points_text": "2,500P",
+   "yen": 2500.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156150",
    "condition": "新規口座開設完了+新規口座申込日から60日以内に商品CFD・商品KO新規建て10lot取引完了",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-14",
-   "site_new": false,
-   "dead_streak": 1
+   "last_seen": "2026-08-03",
+   "site_new": true,
+   "renew_hold": true
   },
   "moppy:158977": {
    "site": "moppy",
@@ -312291,7 +312297,7 @@
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
    "last_seen": "2026-07-16",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "warau:204298": {
    "site": "warau",
@@ -333697,7 +333703,7 @@
    "first_seen_at": "2026-07-29 17:00",
    "last_seen": "2026-08-03",
    "site_new": false,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:160300": {
    "site": "moppy",
@@ -334406,7 +334412,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:14919": {
    "site": "poikatsu_club",
@@ -334420,7 +334426,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   "poikatsu_club:14906": {
    "site": "poikatsu_club",
@@ -335013,7 +335019,8 @@
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 13:00",
    "last_seen": "2026-07-30",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "pointincome:155103": {
    "site": "pointincome",
@@ -335495,7 +335502,8 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205061": {
    "site": "warau",
@@ -338066,7 +338074,7 @@
    "first_seen_at": "2026-07-31 21:00",
    "last_seen": "2026-08-03",
    "site_new": true,
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "moppy:148162": {
    "site": "moppy",
@@ -339542,7 +339550,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "warau:205162": {
    "site": "warau",
@@ -340509,7 +340517,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "kurashiru_reward:18008": {
    "site": "kurashiru_reward",
@@ -342190,7 +342198,8 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 01:01",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-03",
+   "dead_streak": 1
   },
   "warau:205122": {
    "site": "warau",
@@ -342860,7 +342869,8 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
    "last_seen": "2026-08-03",
-   "site_new": true
+   "site_new": true,
+   "dead_streak": 1
   },
   "moppy:161120": {
    "site": "moppy",
@@ -342890,7 +342900,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "warau:205198": {
    "site": "warau",
@@ -342919,7 +342929,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "warau:205191": {
    "site": "warau",
@@ -343004,7 +343014,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "fruitmail:18459": {
    "site": "fruitmail",
@@ -343217,6 +343227,316 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205204": {
+   "site": "warau",
+   "deal_id": "205204",
+   "title": "【SmaAD】CyberPanel（アンケート初回回答完了）",
+   "points_text": "469pt",
+   "yen": 469.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205204",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03",
+   "dead_streak": 1
+  },
+  "warau:205264": {
+   "site": "warau",
+   "deal_id": "205264",
+   "title": "生活ガイド.com（無料会員登録）",
+   "points_text": "70pt",
+   "yen": 70.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205264",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03",
+   "dead_streak": 1
+  },
+  "warau:197359": {
+   "site": "warau",
+   "deal_id": "197359",
+   "title": "阪急交通社（アプリ初回ログイン完了）",
+   "points_text": "50pt",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=197359",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205206": {
+   "site": "warau",
+   "deal_id": "205206",
+   "title": "オルタナバンク【証券会社運営】初回投資完了（1万円以上投資）",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205206",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:196626": {
+   "site": "warau",
+   "deal_id": "196626",
+   "title": "Disney+ (ディズニープラス)dアカウント以外《年額プラン》",
+   "points_text": "2,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=196626",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:203065": {
+   "site": "warau",
+   "deal_id": "203065",
+   "title": "Disney+ (ディズニープラス)dアカウント以外《月額プラン》",
+   "points_text": "1,250pt",
+   "yen": 1250.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=203065",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205205": {
+   "site": "warau",
+   "deal_id": "205205",
+   "title": "ドコモSMTBネット銀行（法人口座開設）《旧：住信SBIネット銀行》",
+   "points_text": "4,800pt",
+   "yen": 4800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205205",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205200": {
+   "site": "warau",
+   "deal_id": "205200",
+   "title": "コクーンシティカードセゾン",
+   "points_text": "3,500pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205200",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205201": {
+   "site": "warau",
+   "deal_id": "205201",
+   "title": "サッポロファクトリーカードセゾン",
+   "points_text": "3,500pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205201",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205199": {
+   "site": "warau",
+   "deal_id": "205199",
+   "title": "日本直販（会員登録）",
+   "points_text": "110pt",
+   "yen": 110.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205199",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "entamenet:r27251": {
+   "site": "entamenet",
+   "deal_id": "r27251",
+   "title": "日本直販　会員登録",
+   "points_text": "140円",
+   "yen": 140.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=r27251",
+   "condition": "新規会員登録＋メルマガ受信登録",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "entamenet:r27196": {
+   "site": "entamenet",
+   "deal_id": "r27196",
+   "title": "京急プレミアポイント　会員登録",
+   "points_text": "690円",
+   "yen": 690.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=r27196",
+   "condition": "新規会員登録（登録時PASMO番号入力必須）",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "entamenet:cd0000004528": {
+   "site": "entamenet",
+   "deal_id": "cd0000004528",
+   "title": "d car share（dカーシェア） 会員登録",
+   "points_text": "465円",
+   "yen": 465.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=cd0000004528",
+   "condition": "無料会員登録後の審査完了",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "au_point:7:180944396": {
+   "site": "au_point",
+   "deal_id": "7:180944396",
+   "title": "CyberPanel（アンケート初回回答完了）",
+   "points_text": "145P",
+   "yen": 145.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=7&campaignId=180944396",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "kurashiru_reward:18033": {
+   "site": "kurashiru_reward",
+   "deal_id": "18033",
+   "title": "ドコモSMTBネット銀行　法人口座開設",
+   "points_text": "408,000コイン",
+   "yen": 4080.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/18033",
+   "condition": "口座開設 で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "kurashiru_reward:18031": {
+   "site": "kurashiru_reward",
+   "deal_id": "18031",
+   "title": "CyberPanel（アンケート初回回答完了）",
+   "points_text": "34,800コイン",
+   "yen": 348.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/18031",
+   "condition": "アンケート初回回答完了 で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "powl:38012": {
+   "site": "powl",
+   "deal_id": "38012",
+   "title": "浄水型ウォーターサーバー しずくりあ",
+   "points_text": "80,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/38012",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "poikatsu_club:19870": {
+   "site": "poikatsu_club",
+   "deal_id": "19870",
+   "title": "Yarn Loop(ヤーンループ)（Android）",
+   "points_text": "19526pt",
+   "yen": 19526.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/19870",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、50日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、50日以内<br/>【成果調査受付期間】案件クリック後、60日以内<br/><br/>▼成果までの流れ<br/>新規アプリインストール後、<br/>・STEP1：50日以内にステージ30クリア<br/>・STEP2：50日以内にステージ80クリア<br/>・STEP3：1日以内にステージ100クリア<br/>・STEP4：50日以内にステージ150クリア<br/>・STEP5：50日以内にステージ200クリア<br/>・STEP6：初回課金<br/>・STEP7：4日以内にステージ300クリア<br/>・STEP8：50日以内にステージ400クリア<br/>・STEP9：50日以内にステージ550クリア<br/>・STEP10：9日以内にステージ800クリア<br/>・STEP11：50日以内にステージ1000クリア<br/>・STEP12：15日以内にステージ1200クリア<br/>・STEP13：50日以内にステージ1600クリア<br/>・STEP14：20日以内にステージ2000クリア<br/>・STEP15：50日以内にステージ2400クリア<br/>で成果となります。<br/><br/>▼却下条件<br/>※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。<br/>※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから51日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/>・回線が不安定な状態でインストールした場合は成果対象外となります。<br/>・インストールが他の広告成果としてみなされている場合は成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・他端末での同一IPからのインストールの場合は成果対象外となります。<br/>・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合は成果対象外となります。<br/>・不備・不正・虚偽・重複・いたずら・キャンセルされた場合は成果対象外となります。<br/>・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外<br/>・端末の「追跡型広告を制限」設定がONになっている場合は成果対象外となります。<br/>・公共WiFiをご利用しインストールまたは成果地点に到達した場合は成果対象外となります。<br/>・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外<br/>・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合は成果対象外となります。<br/>設定⇒プライバシー⇒トラッキング⇒『Appからのトラッキング要求を許可』をON<br/>・その他お申込内容に不備がある場合は成果対象外となります。<br/>・モニター/インセンティブ媒体以外で掲載された場合は成果対象外となります。<br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ）<br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から61日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果到達日<br/>■以下対象の成果に到達したことがわかるすべてのキャプチャ<br/>　成果1：50日以内にステージ30クリア<br/>　成果2：50日以内にステージ80クリア<br/>　成果3：1日以内にステージ100クリア<br/>　成果4：50日以内にステージ150クリア<br/>　成果5：50日以内にステージ200クリア<br/>　成果6：初回課金<br/>　成果7：4日以内にステージ300クリア<br/>　成果8：50日以内にステージ400クリア<br/>　成果9：50日以内にステージ550クリア<br/>　成果10：9日以内にステージ800クリア<br/>　成果11：50日以内にステージ1000クリア<br/>　成果12：15日以内にステージ1200クリア<br/>　成果13：50日以内にステージ1600クリア<br/>　成果14：20日以内にステージ2000クリア<br/>　成果15：50日以内にステージ2400クリア",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "poikatsu_club:19869": {
+   "site": "poikatsu_club",
+   "deal_id": "19869",
+   "title": "Umbrella Escape(アンブレラエスケープ)（Android）",
+   "points_text": "2520pt",
+   "yen": 2520.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/19869",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、35日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、35日以内<br/>【成果調査受付期間】案件クリック後、35日以内<br/><br/>▼成果までの流れ <br/>新規アプリインストール後、<br/>・STEP1：Mega Offerを10回コンプリートする<br/>で成果となります。<br/><br/>▼却下条件 <br/>※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。<br/>※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。<br/>・インストールから36日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・回線が不安定な状態でインストールした場合<br/>・インストールが他の案件成果としてみなされている場合<br/>・過去にアプリをダウンロードしたことがある場合<br/>・過去に成果地点まで到達したことがある場合<br/>・他端末での同一IPからのインストールの場合<br/>・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合<br/>・不備・不正・虚偽・重複・いたずら・キャンセルされた場合<br/>・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外<br/>・端末の「追跡型広告を制限」設定がONになっている場合<br/>・公共WiFiをご利用しインストールまたは成果地点に到達した場合<br/>・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外<br/>・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合<br/>設定⇒プライバシー⇒トラッキング⇒『Appからのトラッキング要求を許可』をON<br/>・その他お申込内容に不備がある場合<br/>・モニター/インセンティブ媒体以外で掲載された場合<br/><br/>▼注意事項<br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から36日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■成果到達日<br/>■ユーザー登録メールアドレス<br/>■成果地点に到達したことが確認できるキャプチャ",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "poikatsu_club:14466": {
+   "site": "poikatsu_club",
+   "deal_id": "14466",
+   "title": "メメントモリ（iOS）",
+   "points_text": "9909pt",
+   "yen": 9909.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14466",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、45日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、45日以内<br/>【成果調査受付期間】案件クリック後、60日以内<br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから46日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから成果に至るまで、同一ブラウザ内で遷移されていない場合、成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ） <br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から61日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■ゲームタイトル画面のスクリーンショット<br/>※『メメントモリ』アプリを起動後のタイトル画面<br/>■マップ画面のスクリーンショット<br/>※メインクエスト画面<br/>■成果到達が確認できる画面キャプチャ<br/>※成果「課金」の場合は購入履歴画面を添付ください。※App Storeより右上のアイコンをタップ ⇒自分の名前をタップ⇒購入履歴をタップ⇒［購入履歴画面］を表示",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "poikatsu_club:14467": {
+   "site": "poikatsu_club",
+   "deal_id": "14467",
+   "title": "メメントモリ（Android）",
+   "points_text": "9909pt",
+   "yen": 9909.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/14467",
+   "condition": "▼成果条件<br/>・新規アプリインストール後、45日以内に各成果地点到達で成果<br/><br/>【成果受付期間】インストール後、45日以内<br/>【成果調査受付期間】案件クリック後、60日以内<br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから46日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから成果に至るまで、同一ブラウザ内で遷移されていない場合、成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ） <br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から61日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■ゲームタイトル画面のスクリーンショット<br/>※『メメントモリ』アプリを起動後のタイトル画面<br/>■マップ画面のスクリーンショット<br/>※メインクエスト画面<br/>■成果到達が確認できる画面キャプチャ<br/> ※成果「課金」の場合は購入履歴画面を添付ください。※Google Play ストアより右上のアイコンをタップ ⇒お支払いと定期購入をタップ⇒予算と履歴をタップ ⇒［購入履歴画面］を表示",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
+   "last_seen": "2026-08-03"
+  },
+  "poikatsu_club:19868": {
+   "site": "poikatsu_club",
+   "deal_id": "19868",
+   "title": "スカイドラゴン（iOS）",
+   "points_text": "36pt",
+   "yen": 36.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/19868",
+   "condition": "新規アプリインストール後、1日以内に初回起動で成果。<br/><br/>【成果受付期間】インストール後、1日以内<br/>【成果調査受付期間】案件クリック後、10日以内<br/><br/><br/>▼却下条件<br/>※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。<br/>※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。<br/>・回線が不安定な状態でインストールした場合<br/>・インストールが他の案件成果としてみなされている場合<br/>・過去にアプリをダウンロードしたことがある場合<br/>・過去に成果地点まで到達したことがある場合<br/>・他端末での同一IPからのインストールの場合<br/>・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合<br/>・不備・不正・虚偽・重複・いたずら・キャンセルされた場合<br/>・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外<br/>・端末の「追跡型広告を制限」設定がONになっている場合<br/>・公共WiFiをご利用しインストールまたは成果地点に到達した場合<br/>・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外<br/>・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合<br/>設定⇒プライバシー⇒トラッキング⇒『Appからのトラッキング要求を許可』をON<br/>・その他お申込内容に不備がある場合<br/>・モニター/インセンティブ媒体以外で掲載された場合<br/><br/><br/>▼注意事項<br/>※成果が反映されない場合は、アプリを終了した上でバッググラウンド(タスク)を切り、もう一度起動をお願いいたします。<br/>※案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>※クリックされた時点で表示されていた条件が適用されます。<br/>※予告なく条件が変更となる可能性があります。<br/>※成果調査には下記が必要になります。<br/>■成果到達日<br/>■ゲーム内IログインID確認画面のキャプチャ<br/>　※メニュー＞引継ぎ設定<br/>よりご確認いただけます。<br/>■成果地点に到達したことが確認できるキャプチャ",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 15:00",
    "last_seen": "2026-08-03"
   }
  }

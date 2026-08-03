@@ -56720,9 +56720,9 @@
    "site": "rebates",
    "deal_id": "21945",
    "title": "リコレ！ソフマップの中古通販サイト",
-   "points_text": "1.5%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/used.sofmap.com",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -71216,7 +71216,7 @@
    "condition": "新規月額プラン課金",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-08-03",
    "site_new": false,
    "delisted_at": "2026-07-23"
   },
@@ -76340,7 +76340,7 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "kurashiru_reward:17154": {
    "site": "kurashiru_reward",
@@ -78532,7 +78532,7 @@
    "condition": "講座購入完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-03"
   },
   "kurashiru_reward:16167": {
    "site": "kurashiru_reward",
@@ -88402,8 +88402,8 @@
    "site": "powl",
    "deal_id": "34271",
    "title": "DOOR賃貸",
-   "points_text": "20,000pt",
-   "yen": 2000.0,
+   "points_text": "21,000pt",
+   "yen": 2100.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/34271",
    "condition": "",
@@ -101256,22 +101256,22 @@
    "site": "powl",
    "deal_id": "35308",
    "title": "【ヴィーナスウォーカー】女性のためのモニターサイト",
-   "points_text": "110,000pt",
-   "yen": 11000.0,
+   "points_text": "38,000pt",
+   "yen": 3800.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/35308",
    "condition": "",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-03",
    "renew_hold": true
   },
   "powl:35309": {
    "site": "powl",
    "deal_id": "35309",
    "title": "ポケットリサーチ【男性モニター大募集！】",
-   "points_text": "110,000pt",
-   "yen": 11000.0,
+   "points_text": "130,000pt",
+   "yen": 13000.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/35309",
    "condition": "",
@@ -125592,7 +125592,7 @@
    "condition": "新規会員登録＋一括50万円以上の新規投資実行",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-08"
+   "last_seen": "2026-08-03"
   },
   "tamaru_mall:1735": {
    "site": "tamaru_mall",
@@ -125715,8 +125715,8 @@
    "site": "tamaru_mall",
    "deal_id": "29",
    "title": "SBI証券 口座開設",
-   "points_text": "500コイン",
-   "yen": 500.0,
+   "points_text": "11,000コイン",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=29",
    "condition": "口座開設完了",
@@ -276467,18 +276467,19 @@
   "moppy:160402": {
    "site": "moppy",
    "deal_id": "160402",
-   "title": "モニポ LINE会員登録（愛知県の方限定）",
-   "points_text": "150P",
-   "yen": 150.0,
+   "title": "【無料】モニポ LINE会員登録",
+   "points_text": "80P",
+   "yen": 80.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160402",
    "condition": "新規LINE友達追加完了後、初回アンケート回答",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 11:00",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-08-03",
    "site_new": false,
-   "delisted_at": "2026-07-27"
+   "delisted_at": "2026-07-27",
+   "renew_hold": true
   },
   "pointincome:154972": {
    "site": "pointincome",
@@ -305125,17 +305126,19 @@
    "site": "moppy",
    "deal_id": "156674",
    "title": "静岡銀行カードローンSELECA※口座振り込みでの融資申込のみ※",
-   "points_text": "20,000P",
-   "yen": 20000.0,
+   "points_text": "27,000P",
+   "yen": 27000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156674",
    "condition": "新規カード発行＋振込融資の同時申込、90日以上の残高保有",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 01:00",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-08-03",
    "site_new": false,
-   "delisted_at": "2026-07-21"
+   "delisted_at": "2026-07-21",
+   "renewed_at": "2026-08-03 11:00",
+   "renewed_from": "20,000P"
   },
   "moppy:140425": {
    "site": "moppy",
@@ -312470,7 +312473,7 @@
   "powl:36975": {
    "site": "powl",
    "deal_id": "36975",
-   "title": "【合計15,000円相当お得！】新電力サービスのオクトパスエナジー",
+   "title": "【合計14,000円相当お得！】新電力サービスのオクトパスエナジー",
    "points_text": "80,000pt",
    "yen": 8000.0,
    "percent": null,
@@ -314726,7 +314729,7 @@
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 05:00",
    "last_seen": "2026-07-17",
-   "dead_streak": 1
+   "delisted_at": "2026-08-03"
   },
   "hapitas:101500": {
    "site": "hapitas",
@@ -324759,7 +324762,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 01:00",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-08-03",
    "site_new": true,
    "renew_hold": true
   },
@@ -326208,7 +326211,7 @@
   "moppy:159390": {
    "site": "moppy",
    "deal_id": "159390",
-   "title": "【合計15,000円相当お得！】新電力サービスのオクトパスエナジー",
+   "title": "【合計14,000円相当お得！】新電力サービスのオクトパスエナジー",
    "points_text": "8,000P",
    "yen": 8000.0,
    "percent": null,
@@ -326217,8 +326220,9 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-24",
-   "site_new": false
+   "last_seen": "2026-08-03",
+   "site_new": true,
+   "renewed_at": "2026-08-03 11:09"
   },
   "moppy:160629": {
    "site": "moppy",
@@ -326888,7 +326892,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-03"
   },
   "kurashiru_reward:17865": {
    "site": "kurashiru_reward",
@@ -327453,7 +327457,7 @@
   "moppy:157738": {
    "site": "moppy",
    "deal_id": "157738",
-   "title": "povo（ポヴォ）2.0",
+   "title": "※8/4で終了※povo（ポヴォ）2.0",
    "points_text": "3,300P",
    "yen": 3300.0,
    "percent": null,
@@ -327462,8 +327466,9 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
-   "last_seen": "2026-07-25",
-   "site_new": false
+   "last_seen": "2026-08-03",
+   "site_new": true,
+   "renewed_at": "2026-08-03 11:09"
   },
   "moppy:940": {
    "site": "moppy",
@@ -338057,7 +338062,8 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 21:00",
    "last_seen": "2026-08-03",
-   "site_new": true
+   "site_new": true,
+   "dead_streak": 1
   },
   "moppy:148162": {
    "site": "moppy",
@@ -340694,7 +340700,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-03",
    "delisted_at": "2026-08-02"
   },
   "powl:38003": {
@@ -342576,7 +342582,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "pointincome:155963": {
    "site": "pointincome",
@@ -342591,7 +342597,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "pointincome:148316": {
    "site": "pointincome",
@@ -342606,7 +342612,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "pointincome:150646": {
    "site": "pointincome",
@@ -342621,7 +342627,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "pointincome:97233": {
    "site": "pointincome",
@@ -342636,7 +342642,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "pointincome:143584": {
    "site": "pointincome",
@@ -342651,7 +342657,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 2
+   "delisted_at": "2026-08-03"
   },
   "warau:204920": {
    "site": "warau",
@@ -342707,6 +342713,133 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 10:00",
+   "last_seen": "2026-08-03"
+  },
+  "pointtown:10904": {
+   "site": "pointtown",
+   "deal_id": "10904",
+   "title": "離乳食宅配サービス（ファーストスプーン）",
+   "points_text": "11%",
+   "yen": null,
+   "percent": 11.0,
+   "url": "https://www.pointtown.com/item/10904",
+   "condition": "お買い物で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "pointtown:10903": {
+   "site": "pointtown",
+   "deal_id": "10903",
+   "title": "ユナイテッドアローズ 公式通販",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://www.pointtown.com/item/10903",
+   "condition": "お買い物で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "pointtown:10902": {
+   "site": "pointtown",
+   "deal_id": "10902",
+   "title": "【CFD】SBI証券",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/10902",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "pointtown:10897": {
+   "site": "pointtown",
+   "deal_id": "10897",
+   "title": "ニューバランス公式オンラインアウトレット",
+   "points_text": "0.75%",
+   "yen": null,
+   "percent": 0.75,
+   "url": "https://www.pointtown.com/item/10897",
+   "condition": "お買い物で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "pointtown:10896": {
+   "site": "pointtown",
+   "deal_id": "10896",
+   "title": "サプライズボックス",
+   "points_text": "15%",
+   "yen": null,
+   "percent": 15.0,
+   "url": "https://www.pointtown.com/item/10896",
+   "condition": "お買い物で",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205183": {
+   "site": "warau",
+   "deal_id": "205183",
+   "title": "【Zucks】Olive（新規Olive口座開設完了）",
+   "points_text": "3,080pt",
+   "yen": 3080.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205183",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03",
+   "dead_streak": 1
+  },
+  "warau:205185": {
+   "site": "warau",
+   "deal_id": "205185",
+   "title": "JCB 法人カード（一般法人ゴールド）",
+   "points_text": "18,000pt",
+   "yen": 18000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205185",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205184": {
+   "site": "warau",
+   "deal_id": "205184",
+   "title": "JCB 法人カード（一般法人）",
+   "points_text": "17,000pt",
+   "yen": 17000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205184",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
+   "last_seen": "2026-08-03"
+  },
+  "warau:205182": {
+   "site": "warau",
+   "deal_id": "205182",
+   "title": "釣りビジョンVOD（1320円コース）",
+   "points_text": "900pt",
+   "yen": 900.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205182",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-03",
+   "first_seen_at": "2026-08-03 11:00",
    "last_seen": "2026-08-03"
   }
  }

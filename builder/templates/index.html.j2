@@ -1016,6 +1016,122 @@
       && matchInvest(d) && matchDeposit(d) && matchIncome(d) && matchFund(d) && matchIncomeAmt(d);
   }
 
+  function trendDate(date) {
+    const parts = String(date || "").slice(0, 10).split("-");
+    return parts.length === 3 ? Number(parts[1]) + "/" + Number(parts[2]) : String(date || "");
+  }
+
+  function trendValue(value, unit) {
+    const number = Number(value);
+    if (unit === "yen") return Math.round(number).toLocaleString("ja-JP") + "円";
+    return number.toLocaleString("ja-JP", { maximumFractionDigits: 2 }) + "%";
+  }
+
+  function trendDelta(value, unit) {
+    return (value >= 0 ? "+" : "−") + trendValue(Math.abs(value), unit);
+  }
+
+  // 値動き履歴ページと同じく、変化点を等間隔に並べたスパークラインを生成する。
+  // 履歴一覧も併記するため、このSVGは補助的な視覚表現として aria-hidden にする。
+  function trendSparkline(points, up) {
+    const width = 96, height = 26, pad = 3;
+    const values = points.map(point => point[1]);
+    const low = Math.min.apply(null, values), high = Math.max.apply(null, values);
+    const span = high - low || 1;
+    const coords = values.map(function (value, index) {
+      return [
+        pad + (width - 2 * pad) * index / (values.length - 1),
+        pad + (height - 2 * pad) * (1 - (value - low) / span),
+      ];
+    });
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("class", "spark " + (up ? "spark-up" : "spark-down"));
+    svg.setAttribute("viewBox", "0 0 " + width + " " + height);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+    svg.setAttribute("aria-hidden", "true");
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+    line.setAttribute("points", coords.map(point => point[0].toFixed(1) + "," + point[1].toFixed(1)).join(" "));
+    line.setAttribute("fill", "none");
+    const end = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    end.setAttribute("cx", coords[coords.length - 1][0].toFixed(1));
+    end.setAttribute("cy", coords[coords.length - 1][1].toFixed(1));
+    end.setAttribute("r", "2.5");
+    svg.append(line, end);
+    return svg;
+  }
+
+  function trendDetails(history) {
+    if (!history || (history.unit !== "yen" && history.unit !== "percent") || !Array.isArray(history.points)) return null;
+    const points = history.points
+      .filter(point => Array.isArray(point) && point.length === 2 && Number.isFinite(Number(point[1])))
+      .map(point => [point[0], Number(point[1])]);
+    if (points.length < 2) return null;
+
+    const unit = history.unit;
+    const values = points.map(point => point[1]);
+    const last = values[values.length - 1];
+    const previous = values[values.length - 2];
+    const delta = last - previous;
+    const up = delta > 0;
+    const peak = last >= Math.max.apply(null, values);
+    const details = document.createElement("details");
+    details.className = "trend-details";
+    const summary = document.createElement("summary");
+    summary.append(document.createTextNode(
+      "値動き " + (up ? "▲ " : "▼ ") + trendDelta(delta, unit)
+      + "（" + trendDate(points[points.length - 1][0]) + "・" + (points.length - 1) + "回変動）"
+    ));
+    if (peak) {
+      const badge = document.createElement("span");
+      badge.className = "peakbadge";
+      badge.textContent = "過去最高";
+      summary.appendChild(badge);
+    }
+
+    const panel = document.createElement("div");
+    panel.className = "trend-panel";
+    const chart = document.createElement("div");
+    chart.className = "trend-chart";
+    chart.append(trendSparkline(points, up));
+    const chartNote = document.createElement("span");
+    chartNote.className = "trend-chart-note";
+    chartNote.textContent = "変化点を等間隔に表示";
+    chart.appendChild(chartNote);
+
+    const records = document.createElement("ol");
+    records.className = "trend-records";
+    points.forEach(function (point, index) {
+      const record = document.createElement("li");
+      const date = document.createElement("span");
+      date.className = "trend-record-date";
+      date.textContent = trendDate(point[0]);
+      const value = document.createElement("strong");
+      value.textContent = trendValue(point[1], unit);
+      record.append(date, value);
+      const change = document.createElement("span");
+      change.className = "trend-record-change";
+      if (index === 0) {
+        change.textContent = "初回観測";
+      } else {
+        const amount = point[1] - points[index - 1][1];
+        change.textContent = (amount > 0 ? "▲ " : "▼ ") + trendDelta(amount, unit);
+        change.classList.add(amount > 0 ? "hist-up" : "hist-down");
+      }
+      record.appendChild(change);
+      if (index === points.length - 1 && peak) {
+        const badge = document.createElement("span");
+        badge.className = "peakbadge";
+        badge.textContent = "過去最高";
+        record.appendChild(badge);
+      }
+      records.appendChild(record);
+    });
+    panel.append(chart, records);
+    details.append(summary, panel);
+    return details;
+  }
+
   // 案件1件のli要素を組み立てる（titleは外部由来のためtextContentで安全に挿入）
   function allItem(d) {
     const li = document.createElement("li");
@@ -1057,7 +1173,15 @@
     } else {
       pts.textContent = d.points_text;
     }
-    li.append(site, ttl, pts);
+    const trend = trendDetails(d.history);
+    if (trend) {
+      li.append(site, ttl, pts, trend);
+    } else {
+      const emptyTrend = document.createElement("span");
+      emptyTrend.className = "trend-empty";
+      emptyTrend.textContent = "値動き：変動履歴なし";
+      li.append(site, ttl, pts, emptyTrend);
+    }
     return li;
   }
 

@@ -121,6 +121,23 @@ h2 { font-size:1.3rem; border-left:4px solid var(--accent); padding-left:10px; m
 .newlist li, .alllist li { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:8px 12px; margin-bottom:6px; font-size:.9rem; display:grid; grid-template-columns:11em 1fr auto; gap:2px 10px; align-items:baseline; }
 .newlist .site, .alllist .site { color:var(--muted-strong); white-space:nowrap; }
 .newlist .pts, .alllist .pts { color:var(--accent-text); font-weight:bold; white-space:nowrap; }
+/* 全案件の値動き。履歴がある案件だけdetailsでグラフと全変化点を開ける。
+   details はモバイルのカード全面リンクより前面に置き、展開操作が外部リンクへ
+   誤って流れないようにする。 */
+.alllist .trend-details, .alllist .trend-empty { grid-column:1 / -1; }
+.alllist .trend-details { position:relative; z-index:1; }
+.trend-details summary { width:max-content; max-width:100%; color:var(--muted-strong); cursor:pointer; font-size:.8rem; }
+.trend-details[open] summary { margin-bottom:7px; color:var(--text); }
+.trend-empty { color:var(--muted); font-size:.78rem; }
+.trend-panel { display:grid; grid-template-columns:112px minmax(0, 1fr); gap:8px 12px; align-items:center; border-top:1px solid var(--line); padding-top:7px; }
+.trend-chart { display:flex; flex-direction:column; align-items:center; gap:2px; }
+.trend-chart-note { color:var(--muted); font-size:.66rem; white-space:nowrap; }
+.trend-records { list-style:none; margin:0; padding:0; max-height:11.5rem; overflow-y:auto; border-left:1px solid var(--line); }
+.trend-records li { display:grid; grid-template-columns:3.5em 7em 1fr auto; gap:4px; align-items:baseline; padding:3px 0 3px 9px; border:0; border-radius:0; margin:0; font-size:.78rem; background:transparent; }
+.trend-records li + li { border-top:1px solid var(--line); }
+.trend-record-date, .trend-record-change { color:var(--muted); }
+.trend-record-change { white-space:nowrap; }
+.trend-records .peakbadge { margin-left:0; }
 /* 新着案件の掲載日時（自HPへの初出）。案件名の後ろに小さく添える控えめな表示 */
 .newlist .posted { color:var(--muted); font-size:.75rem; margin-left:6px; white-space:nowrap; }
 a { color:inherit; }
@@ -245,6 +262,11 @@ footer .footlinks a { display:inline-block; padding:8px 0; margin-right:20px; }
   .newlist .site, .alllist .site { grid-row:1; font-size:.75rem; }
   .newlist .pts, .alllist .pts { grid-row:1; justify-self:end; white-space:normal; text-align:right; }
   .newlist .ttl, .alllist .ttl { grid-column:1 / -1; grid-row:2; }
+  .alllist .trend-details, .alllist .trend-empty { grid-row:3; }
+  .trend-panel { grid-template-columns:1fr; }
+  .trend-chart { flex-direction:row; justify-content:space-between; }
+  .trend-records { border-left:0; border-top:1px solid var(--line); }
+  .trend-records li { grid-template-columns:3.5em minmax(5.5em, auto) 1fr auto; }
   /* スマホは案件名の折返しでタイトル行が窮屈になるため、掲載/更新時刻はタイトル下の独立行に落として
      案件名（主役）を読みやすくする。カテゴリタグ(.cat)は短いのでタイトル行末尾のまま残す */
   .newlist .posted { display:block; margin-left:0; margin-top:2px; }

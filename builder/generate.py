@@ -198,7 +198,7 @@ def _short_condition(text: str) -> str:
     return collapsed[:COND_DISPLAY_MAX].rstrip() + "…"
 
 
-def _slim_deal(deal: dict, new_cutoff: str) -> dict:
+def _slim_deal(deal: dict, new_cutoff: str, history: dict) -> dict:
     """「全案件」一覧・検索用の軽量案件データ（deals.json の1件）を作る。
     表示に必要な項目だけに絞って転送量を抑える（deal_id/seeded/last_seen等は出力しない）。"""
     is_new = _is_new_or_up(deal, new_cutoff)
@@ -234,6 +234,12 @@ def _slim_deal(deal: dict, new_cutoff: str) -> dict:
         slim["req_yen"] = deal["req_yen"]      # 投資・入金で用意が必要な額（円）
     if deal.get("income_man") is not None:
         slim["income_man"] = deal["income_man"]  # 年収条件で必要な年収（万円）
+    trend = _history_series(deal, history)
+    if trend is not None:
+        unit, points = trend
+        # 変化点を観測した案件だけ時系列を配信する。履歴なし案件へ空配列を
+        # 付けないことで、全案件データの転送量とJSONパース量を抑える。
+        slim["history"] = {"unit": unit, "points": points}
     # 値が無いキーは出力しない。null/false/空文字を1万件超ぶん並べても情報は増えず、
     # 転送量とクライアントのJSONパース・メモリを食うだけのため（キー欠落＝値なしとして扱う）。
     # 0円・0%は有意な値なので、is 判定で false と混同して落とさないようにする。
@@ -285,6 +291,29 @@ def _synced_entries(deal: dict, history: dict) -> list:
     return entries + [[deal.get("last_seen") or "", yen, pct]]
 
 
+def _history_series(deal: dict, history: dict) -> "tuple[str, list[tuple[str, float]]] | None":
+    """現在の報酬種別にそろえた、表示・配信用の値動き系列を返す。
+
+    history.json は [日付, 円換算, %還元] の変化点ログで、固定額から%還元へ
+    切り替わった案件では両方の値が混在し得る。現在値と履歴末尾の種別が一致する
+    場合だけ、その種別の点を古い順に返す。型が切り替わった直後など、同じ尺度で
+    比較できない履歴は表示しない。"""
+    entries = _synced_entries(deal, history)
+    if len(entries) < 2:
+        return None
+
+    _, last_yen, last_pct = entries[-1]
+    if deal.get("yen") is not None and last_yen is not None:
+        unit, index = "yen", 1
+    elif deal.get("percent") is not None and last_pct is not None:
+        unit, index = "percent", 2
+    else:
+        return None
+
+    points = [(entry[0], entry[index]) for entry in entries if entry[index] is not None]
+    return (unit, points) if len(points) >= 2 else None
+
+
 def _up_ranking_rows(recent: list, history: dict, today: str) -> list:
     """UP額ランキングの行データ。値動き履歴の円換算系列の末尾が「連続増額」で終わり、
     最後の増額が直近UP_RANKING_DAYS日内の案件を、増額幅（現在値−UP開始前の元値）の
@@ -322,14 +351,11 @@ def _history_rows(recent: list, history: dict) -> tuple[list, int]:
     %還元）に合わせ、現在値が観測開始以降の最高なら「過去最高」バッジを付ける。"""
     rows = []
     for deal in recent:
-        entries = _synced_entries(deal, history)
-        if len(entries) < 2:
+        trend = _history_series(deal, history)
+        if trend is None:
             continue
-        yen_type = entries[-1][1] is not None  # 円換算系列か（%還元のみの案件はFalse）
-        series = [(e[0], e[1] if yen_type else e[2]) for e in entries
-                  if (e[1] if yen_type else e[2]) is not None]
-        if len(series) < 2:
-            continue
+        unit, series = trend
+        yen_type = unit == "yen"
         vals = [v for _, v in series]
         fmt = (lambda v: f"{v:,.0f}円") if yen_type else (lambda v: f"{round(v, 2):g}%")
         diff = vals[-1] - vals[-2]
@@ -701,7 +727,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
     # 全件バックフィルで数千〜数万件になり得るため、表示に必要な項目だけに絞って
     # 転送量を抑える（deal_id/seeded/last_seen等は出力しない）。還元額の大きい順。
     slim_deals = sorted(
-        (_slim_deal(d, new_cutoff) for d in recent),
+        (_slim_deal(d, new_cutoff, history) for d in recent),
         key=lambda d: (d.get("yen") or 0),
         reverse=True,
     )
@@ -760,7 +786,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
 - [プライバシーポリシー]({BASE_URL}/privacy.html): アクセス解析・広告・免責事項
 
 ## データ
-- [全案件データ (JSON)]({BASE_URL}/deals.json): 掲載中の全案件（案件名・サイト・獲得ポイント・円換算額・カテゴリ・新着フラグ）。値の無い項目はキーごと省略される
+- [全案件データ (JSON)]({BASE_URL}/deals.json): 掲載中の全案件（案件名・サイト・獲得ポイント・円換算額・カテゴリ・新着フラグ）。変動を観測した案件には任意のhistory（unit: yen/percent、points: [日付, 値]の時系列）が付く。履歴は当サイトの観測開始以降で、値の無い項目はキーごと省略される
 """,
         encoding="utf-8",
     )

@@ -74,8 +74,25 @@ if ($LASTEXITCODE -ne 0) { Finish 1 }
 # 切り替え、終わったら通常運用の ykameyama に戻す（gh併存運用の自動化）。
 gh auth switch -u y-kam 2>&1 | Out-Null
 if ($LASTEXITCODE -ne 0) { Write-Host "gh のアカウント切替（y-kam）に失敗しました。"; Finish 1 }
-git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main
-$pushExit = $LASTEXITCODE
+
+# 送り先の指定は必ず HEAD:main とする。この一時worktreeはdetached HEADなので、
+# refspecに "main" と書くと（worktree間で共有される）ローカルの refs/heads/main＝
+# 普段の作業ツリーのmainが送られる。CIが日に数回pushする運用ではローカルmainは
+# 常にremoteより遅れているため、"tip is behind its remote counterpart" で毎回失敗する。
+# また送信中にCI側のpushでremoteが進むこともあるため、拒否されたら取り込み直して再試行する。
+$pushExit = 1
+foreach ($attempt in 1..3) {
+    git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin HEAD:main
+    $pushExit = $LASTEXITCODE
+    if ($pushExit -eq 0) { break }
+    if ($attempt -eq 3) { break }
+
+    Write-Host "pushが拒否されました。リモートの最新を取り込んで再試行します（$attempt/3）..."
+    git fetch origin main
+    if ($LASTEXITCODE -ne 0) { break }
+    git rebase origin/main
+    if ($LASTEXITCODE -ne 0) { git rebase --abort 2>&1 | Out-Null; break }
+}
 gh auth switch -u ykameyama 2>&1 | Out-Null
 if ($pushExit -ne 0) { Finish 1 }
 Write-Host "push しました。数分でサイトに反映されます。完了しました。"

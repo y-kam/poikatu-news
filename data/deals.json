@@ -65399,7 +65399,7 @@
    "url": "https://ec.line.me/shop/ms-1-monkeypants/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-04",
    "condition": ""
   },
   "line_catalog:ms-1-nanacostar": {
@@ -66829,7 +66829,7 @@
    "url": "https://ec.line.me/shop/ms-1-isemaruka/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-04",
    "condition": ""
   },
   "line_catalog:ms-1-ogisoshop86": {
@@ -68077,7 +68077,7 @@
    "url": "https://ec.line.me/shop/ms-1-adamcorp/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-04",
    "condition": ""
   },
   "line_catalog:ms-1-petstudioms": {
@@ -325267,7 +325267,8 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-07-27",
+   "dead_streak": 1
   },
   "warau:204903": {
    "site": "warau",
@@ -334890,8 +334891,9 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 11:00",
-   "last_seen": "2026-07-31",
-   "site_new": false
+   "last_seen": "2026-08-04",
+   "site_new": true,
+   "renewed_at": "2026-08-04 11:09"
   },
   "moppy:161949": {
    "site": "moppy",
@@ -334905,8 +334907,9 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 11:00",
-   "last_seen": "2026-07-31",
-   "site_new": false
+   "last_seen": "2026-08-04",
+   "site_new": true,
+   "renewed_at": "2026-08-04 11:09"
   },
   "moppy:159202": {
    "site": "moppy",
@@ -336311,8 +336314,8 @@
    "site": "moppy",
    "deal_id": "161954",
    "title": "エンドレスフロンティア2(初回起動)_iOS",
-   "points_text": "70P",
-   "yen": 70.0,
+   "points_text": "65P",
+   "yen": 65.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161954",
    "condition": "新規アプリインストール後、初回起動",
@@ -336321,8 +336324,7 @@
    "first_seen_at": "2026-07-31 01:00",
    "last_seen": "2026-08-04",
    "site_new": true,
-   "renewed_at": "2026-07-31 11:00",
-   "renewed_from": "60P"
+   "renew_hold": true
   },
   "moppy:482": {
    "site": "moppy",
@@ -340572,15 +340574,17 @@
    "site": "powl",
    "deal_id": "37998",
    "title": "DARWIN funding（ダーウィンファンディング） 50万円投資",
-   "points_text": "700,000pt",
-   "yen": 70000.0,
+   "points_text": "760,000pt",
+   "yen": 76000.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/37998",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-04",
+   "renewed_at": "2026-08-04 11:00",
+   "renewed_from": "700,000pt"
   },
   "powl:37999": {
    "site": "powl",
@@ -341500,7 +341504,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-04",
+   "renewed_at": "2026-08-04 11:00"
   },
   "entamenet:5s00000021319001": {
    "site": "entamenet",
@@ -341657,7 +341662,8 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 10:00",
    "last_seen": "2026-08-04",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-04 11:00"
   },
   "point_island:v34285": {
    "site": "point_island",
@@ -343333,7 +343339,7 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 15:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-04"
   },
   "entamenet:r27251": {
    "site": "entamenet",
@@ -344784,7 +344790,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "pointincome:85582": {
    "site": "pointincome",
@@ -344799,7 +344805,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "pointincome:146771": {
    "site": "pointincome",
@@ -344814,7 +344820,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "pointincome:152773": {
    "site": "pointincome",
@@ -344829,7 +344835,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "pointincome:145649": {
    "site": "pointincome",
@@ -344844,7 +344850,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "pointincome:155796": {
    "site": "pointincome",
@@ -344859,7 +344865,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "pointincome:156014": {
    "site": "pointincome",
@@ -344874,7 +344880,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 2
+   "delisted_at": "2026-08-04"
   },
   "point_land:0411286": {
    "site": "point_land",
@@ -344903,7 +344909,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 10:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 1
+   "delisted_at": "2026-08-04"
   },
   "warau:205295": {
    "site": "warau",
@@ -344918,7 +344924,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 10:00",
    "last_seen": "2026-08-04",
-   "dead_streak": 1
+   "delisted_at": "2026-08-04"
   },
   "amefri:139225": {
    "site": "amefri",
@@ -345033,6 +345039,356 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 10:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-03mengyo": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-03mengyo",
+   "title": "03STORE",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-03mengyo/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-aozorafern55": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-aozorafern55",
+   "title": "AozoraFern",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-aozorafern55/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-cjlogin666": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-cjlogin666",
+   "title": "COSMETIC ONLINE",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-cjlogin666/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-kwatch": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-kwatch",
+   "title": "G-SHOCK・BABY-G正規品取扱店｜腕時計通販かわしま",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-kwatch/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-oecshop": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-oecshop",
+   "title": "Hotel Okura OEC-shop",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-oecshop/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-2tightmusic": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-2tightmusic",
+   "title": "IITIGHT MUSIC",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-2tightmusic/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-kiu2": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-kiu2",
+   "title": "KIU-KIU online | キウキウオンライン",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-kiu2/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-luglowrs": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-luglowrs",
+   "title": "LUG Lowrs ラグロワーズ",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-luglowrs/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-healingshare": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-healingshare",
+   "title": "NODER オフィシャルサイト",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-healingshare/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-coccolino1": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-coccolino1",
+   "title": "coccolino",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-coccolino1/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-eubsswsx": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-eubsswsx",
+   "title": "tac INTERIOR",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-eubsswsx/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-greenpark": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-greenpark",
+   "title": "the tea house Ltd.",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-greenpark/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-hanasho1129": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-hanasho1129",
+   "title": "【通販】熟成佐賀牛専門店 華松",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-hanasho1129/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-iine8": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-iine8",
+   "title": "いいね家電ショップ",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-iine8/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-kuru2honpo": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-kuru2honpo",
+   "title": "まつげコスメ専門くるくる本舗",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-kuru2honpo/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-inoueshouji": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-inoueshouji",
+   "title": "スイムショップ　イノウエ",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-inoueshouji/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-gcom214": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-gcom214",
+   "title": "チュベ・ド・ショコラ",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-gcom214/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-posreziroll": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-posreziroll",
+   "title": "レジロール紙激安通販ショップ｜テンポス情報館",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-posreziroll/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-sancosteel": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-sancosteel",
+   "title": "国産缶バッジパーツ販売サイト「バッジこい！」",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-sancosteel/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-16yamaichi": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-16yamaichi",
+   "title": "小田原ひもの　山市干物専門店",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-16yamaichi/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-yamaotoko": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-yamaotoko",
+   "title": "山男フットギア",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-yamaotoko/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-3276144": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-3276144",
+   "title": "日本メディカル研究会",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-3276144/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-ronnefeldtm": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-ronnefeldtm",
+   "title": "紅茶専門店ロンネフェルト松江",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-ronnefeldtm/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "line_catalog:ms-1-kamoe": {
+   "site": "line_catalog",
+   "deal_id": "ms-1-kamoe",
+   "title": "ＫＡＭＯＥ",
+   "points_text": "5.0%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://ec.line.me/shop/ms-1-kamoe/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
+   "last_seen": "2026-08-04"
+  },
+  "kurashiru_reward:18049": {
+   "site": "kurashiru_reward",
+   "deal_id": "18049",
+   "title": "BCLカンパニー",
+   "points_text": "1.0%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://www.rewards.kurashiru.com/ads/18049",
+   "condition": "商品購入完了 で",
+   "seeded": false,
+   "first_seen": "2026-08-04",
+   "first_seen_at": "2026-08-04 11:00",
    "last_seen": "2026-08-04"
   }
  }

@@ -29,9 +29,9 @@
 <input class="search" id="search" type="search" placeholder="案件名・条件・カテゴリで検索（例: 楽天 カード）">
 <div class="chips" id="primary-chips">
   <span class="label">表示</span>
-  {# 既定は「新着」。新着が無い日はJS側で「全て」にフォールバックする #}
-  <button class="chip" data-key="">全て<span class="cnt">{{ total_recent }}</span></button>
-  {% if new_total %}<button class="chip active" data-key="_new">新着<span class="cnt">{{ new_total }}</span></button>{% endif %}
+  {# 既定は「全て」（過去分を含む掲載中の全案件）。「新着」は直近数日の初出だけに絞る任意の表示モード #}
+  <button class="chip active" data-key="">全て<span class="cnt">{{ total_recent }}</span></button>
+  {% if new_total %}<button class="chip" data-key="_new">新着<span class="cnt">{{ new_total }}</span></button>{% endif %}
 </div>
 {# 表示モード（全て/新着）とは別軸の独立トグル群。モード切替と見た目が同じで混同しやすかったため
    別行に分けて視覚的に区別する。IDはJSのバインドに使うため変更しない #}
@@ -138,43 +138,28 @@
 </div>{# /#more-filters #}
 {# ページ内ジャンプ＋関連ページ: ページが縦に非常に長いため、目的セクションへ直接飛べるようにする #}
 <nav class="jumpnav" aria-label="ページ内リンク・関連ページ">
-  <a href="#new-section">↓ 新着</a>
+  {# リンクの並びはページ内のセクション順（全案件→新着→サイト横断比較）に合わせる #}
   <a href="#all-deals">↓ 全案件</a>
+  <a href="#new-section">↓ 新着</a>
+  <a href="#compare-section">↓ サイト横断比較</a>
   <a href="/ranking.html">UP額ランキング →</a>
   <a href="/history.html">値動き履歴 →</a>
 </nav>
 
 <!-- ad-slot: header (AdSense等のコードをここに) -->
 
-<section id="compare-section">
-  {# 見出し＋リード文で「同じ案件を複数サイト横断で比較し、最高還元のサイトが分かる」目玉機能だと明示する。
-     このセクションは既定（新着表示）ではJSで非表示になり、「全て」表示時に現れる #}
-  <h2>同じ案件をサイト横断で比較</h2>
-  <p class="note">2社以上に載っている同じ案件をまとめ、還元額の大きい順に並べています（<span class="best">最高還元</span>＝オレンジ）。</p>
-  {% if multi_groups %}
-  {% for g in multi_groups %}
-  <div class="group" data-title="{{ g.title }}" data-category="{{ g.category }}" data-site="{{ g.site_keys }}" data-new="{{ 1 if g.has_new else 0 }}"{% if g.corporate %} data-corp="1"{% endif %}{% if g.invest %} data-invest="1"{% endif %}{% if g.deposit %} data-deposit="1"{% endif %}{% if g.income %} data-income="1"{% endif %}{% if g.req_yen is not none %} data-req-yen="{{ g.req_yen }}"{% endif %}{% if g.income_man is not none %} data-income-man="{{ g.income_man }}"{% endif %}>
-    <h3>{{ g.title }}<span class="badge">{{ g.sites }}サイト掲載</span><span class="cat">{{ category_names[g.category] }}</span></h3>
-    <table>
-      {% for d in g.deals %}
-      {# data-yen は円換算額。円換算できない案件は空文字（範囲指定時に除外する目印） #}
-      <tr data-site="{{ d.site }}" data-yen="{{ d.yen if d.yen is not none else '' }}">
-        <td class="site">{{ sites[d.site].name if d.site in sites else d.site }}</td>
-        <td class="deal"><a href="{{ d.url }}" rel="nofollow noopener" target="_blank">{{ d.title }}</a>
-            {% if d.condition %}<div class="cond">{{ d.condition | cond }}</div>{% endif %}</td>
-        {# 円換算額と元ポイントを別セルに分け、円（獲得額）を右揃え列として縦に揃える。
-           円換算できない案件（percent還元等）はcolspanで従来どおり1つの右揃えセルに #}
-        {% if d.yen %}<td class="amt {{ 'best' if loop.first }}">{{ d.yen|yen }}円</td><td class="sub {{ 'best' if loop.first }}">（{{ d.points_text }}）</td>{% else %}<td class="amt {{ 'best' if loop.first }}" colspan="2">{{ d.points_text }}</td>{% endif %}
-      </tr>
-      {% endfor %}
-    </table>
+<section id="all-deals">
+  <h2>全案件<span class="allcount" id="all-count">（{{ total_recent }}件）</span></h2>
+  <p class="note">過去分を含む掲載中の全案件です。上のカテゴリ・サイト絞り込みと検索が効きます。</p>
+  <ul class="alllist" id="all-list"></ul>
+  <p class="empty" id="all-status">読み込み中…</p>
+  {# 取得失敗・タイムアウト時のみ表示。押すと再取得する（永久スピナー回避） #}
+  <button type="button" class="all-retry" id="all-retry" hidden>再読み込み</button>
+  <div class="pager" id="all-pager" hidden>
+    <button type="button" id="all-prev">← 前へ</button>
+    <span class="pageinfo" id="all-pageinfo"></span>
+    <button type="button" id="all-next">次へ →</button>
   </div>
-  {% endfor %}
-  {% if multi_truncated %}<p class="note">上位{{ multi_groups|length }}組のみ表示中。他の同時掲載案件は下の「全案件」から検索できます。</p>{% endif %}
-  <p class="empty filter-empty" hidden>このセクションに一致する案件はありません。<a href="#all-deals">下の「全案件」から探す</a></p>
-  {% else %}
-  <p class="empty">現在、複数サイトに同時掲載されている新着案件はありません（データ蓄積中）。</p>
-  {% endif %}
 </section>
 
 {# ポイントUP中の専用セクションは廃止（新着セクション内のポイントUPバッジ・増額幅表示に集約）。
@@ -200,25 +185,42 @@
     </li>
     {% endfor %}
   </ul>
-  {% if new_truncated %}<p class="note">新着順の上位{{ new_deals|length }}件を表示中。すべての新着（{{ new_total }}件）は上部の「新着」表示や下の「全案件」から見られます。</p>{% endif %}
-  <p class="empty filter-empty" hidden>このセクションに一致する案件はありません。<a href="#all-deals">下の「全案件」から探す</a></p>
+  {% if new_truncated %}<p class="note">新着順の上位{{ new_deals|length }}件を表示中。すべての新着（{{ new_total }}件）は上部の「新着」表示や上の「全案件」から見られます。</p>{% endif %}
+  <p class="empty filter-empty" hidden>このセクションに一致する案件はありません。<a href="#all-deals">上の「全案件」から探す</a></p>
   {% else %}
   <p class="empty">直近{{ new_days }}日の新着はまだありません。</p>
   {% endif %}
 </section>
 
-<section id="all-deals">
-  <h2>全案件<span class="allcount" id="all-count">（{{ total_recent }}件）</span></h2>
-  <p class="note">過去分を含む掲載中の全案件です。上のカテゴリ・サイト絞り込みと検索が効きます。</p>
-  <ul class="alllist" id="all-list"></ul>
-  <p class="empty" id="all-status">読み込み中…</p>
-  {# 取得失敗・タイムアウト時のみ表示。押すと再取得する（永久スピナー回避） #}
-  <button type="button" class="all-retry" id="all-retry" hidden>再読み込み</button>
-  <div class="pager" id="all-pager" hidden>
-    <button type="button" id="all-prev">← 前へ</button>
-    <span class="pageinfo" id="all-pageinfo"></span>
-    <button type="button" id="all-next">次へ →</button>
+<section id="compare-section">
+  {# 見出し＋リード文で「同じ案件を複数サイト横断で比較し、最高還元のサイトが分かる」目玉機能だと明示する。
+     既定（全て表示）では出したまま。新着表示・1社のみ選択・重複除外の時はJSでセクションごと隠す #}
+  <h2>同じ案件をサイト横断で比較</h2>
+  <p class="note">2社以上に載っている同じ案件をまとめ、還元額の大きい順に並べています（<span class="best">最高還元</span>＝オレンジ）。</p>
+  {% if multi_groups %}
+  {% for g in multi_groups %}
+  <div class="group" data-title="{{ g.title }}" data-category="{{ g.category }}" data-site="{{ g.site_keys }}" data-new="{{ 1 if g.has_new else 0 }}"{% if g.corporate %} data-corp="1"{% endif %}{% if g.invest %} data-invest="1"{% endif %}{% if g.deposit %} data-deposit="1"{% endif %}{% if g.income %} data-income="1"{% endif %}{% if g.req_yen is not none %} data-req-yen="{{ g.req_yen }}"{% endif %}{% if g.income_man is not none %} data-income-man="{{ g.income_man }}"{% endif %}>
+    <h3>{{ g.title }}<span class="badge">{{ g.sites }}サイト掲載</span><span class="cat">{{ category_names[g.category] }}</span></h3>
+    <table>
+      {% for d in g.deals %}
+      {# data-yen は円換算額。円換算できない案件は空文字（範囲指定時に除外する目印） #}
+      <tr data-site="{{ d.site }}" data-yen="{{ d.yen if d.yen is not none else '' }}">
+        <td class="site">{{ sites[d.site].name if d.site in sites else d.site }}</td>
+        <td class="deal"><a href="{{ d.url }}" rel="nofollow noopener" target="_blank">{{ d.title }}</a>
+            {% if d.condition %}<div class="cond">{{ d.condition | cond }}</div>{% endif %}</td>
+        {# 円換算額と元ポイントを別セルに分け、円（獲得額）を右揃え列として縦に揃える。
+           円換算できない案件（percent還元等）はcolspanで従来どおり1つの右揃えセルに #}
+        {% if d.yen %}<td class="amt {{ 'best' if loop.first }}">{{ d.yen|yen }}円</td><td class="sub {{ 'best' if loop.first }}">（{{ d.points_text }}）</td>{% else %}<td class="amt {{ 'best' if loop.first }}" colspan="2">{{ d.points_text }}</td>{% endif %}
+      </tr>
+      {% endfor %}
+    </table>
   </div>
+  {% endfor %}
+  {% if multi_truncated %}<p class="note">上位{{ multi_groups|length }}組のみ表示中。他の同時掲載案件は上の「全案件」から検索できます。</p>{% endif %}
+  <p class="empty filter-empty" hidden>このセクションに一致する案件はありません。<a href="#all-deals">上の「全案件」から探す</a></p>
+  {% else %}
+  <p class="empty">現在、複数サイトに同時掲載されている新着案件はありません（データ蓄積中）。</p>
+  {% endif %}
 </section>
 
 <section>
@@ -241,7 +243,7 @@
 // 検索（案件名・獲得条件・カテゴリ名・サイト名）・カテゴリ・ポイントサイト・獲得額の複合絞り込み
 (function () {
   // 絞り込みは独立した軸（すべてAND条件）。
-  //  new       … 最上段トグル（全て⇄新着）。true=新着のみ（直近数日に自HP初出した案件）
+  //  new       … 最上段トグル（全て⇄新着）。既定false=全て、true=新着のみ（直近数日に自HP初出した案件）
   //  hours     … 新着の下位絞り込み「掲載時期」。既定FULL_HOURS(=3日前)は時間で絞らない
   //  dedup     … 重複除外トグル。同名（名寄せ）案件を現在の絞り込み内で最高還元の1件に畳む
   //  corp      … 法人案件トグル。false（既定）=法人・事業者向け案件を全件・全表示から除外、true=表示に加える
@@ -667,26 +669,9 @@
     return active[stateKey].length > 0;
   }
 
-  // 検索時は既定の「新着」を自動で「全て」に切り替え、過去分を含む全件から探す。
-  // 既定のままだと検索範囲が直近数日の新着に限られ「検索しても出てこない」となるため。
-  // ユーザーが表示チップを手動で選んだ後は選択を尊重して自動切替しない。
-  // 自動切替した場合のみ、検索欄を空に戻した時点で既定の「新着」へ戻す。
-  let autoAll = false;     // 検索による「全て」への自動切替中か
-  let userPinned = false;  // ユーザーが表示チップ（全て/新着）を手動選択したか
-  searchBox.addEventListener("input", function () {
-    const hasTerms = !!searchBox.value.trim();
-    if (!userPinned && hasTerms && active.new) {
-      autoAll = true;
-      setPrimary(false);  // applyFilter・refreshChipCounts も呼ばれる
-      return;
-    }
-    if (!userPinned && !hasTerms && autoAll) {
-      autoAll = false;
-      setPrimary(true);
-      return;
-    }
-    applyFilter();
-  });
+  // 検索は現在の表示モード（全て/新着）のまま絞り込む。既定が「全て」＝過去分を含む全件が
+  // 検索対象のため、「検索しても出てこない」を避けるための表示モード自動切替は不要。
+  searchBox.addEventListener("input", applyFilter);
   // 最上段（全て/新着）は排他トグル。全て=新着フィルタ解除、新着=直近数日の初出のみ。
   // カテゴリ・サイト（下段）とはAND条件で併用できる。保存はしない。
   // data-key を持つチップ（全て/新着）だけを対象にし、独立トグルの重複除外(dedup-chip)は除く。
@@ -701,8 +686,6 @@
   }
   primaryChips.forEach(function (chip) {
     chip.addEventListener("click", function () {
-      userPinned = true;  // 手動選択を尊重し、以降は検索による自動切替をしない
-      autoAll = false;
       setPrimary(chip.dataset.key === "_new");
     });
   });
@@ -781,10 +764,7 @@
       refreshChipCounts();
     });
   });
-  // 既定は「新着」。新着チップが無い日（新着0件）は「全て」にフォールバックする。
-  const hasNewChip = primaryChips.some(c => c.dataset.key === "_new");
-  active.new = hasNewChip;
-  primaryChips.forEach(c => c.classList.toggle("active", (c.dataset.key === "_new") === active.new));
+  // 既定は「全て」（active.new=false。テンプレート側で「全て」チップに .active を付与済み）。
 
   // カテゴリ・サイトは保存しない（毎回「すべて」から開始する）
   setupMultiChips("category-chips", "categories");
@@ -985,6 +965,7 @@
   const allPager = document.getElementById("all-pager");
   const allInfo = document.getElementById("all-pageinfo");
   const allCount = document.getElementById("all-count");
+  const ALL_COUNT_INITIAL = allCount.textContent;  // サーバ描画の全件数（絞り込み解除時に戻す）
   const allPrev = document.getElementById("all-prev");
   const allNext = document.getElementById("all-next");
   const allRetry = document.getElementById("all-retry");
@@ -992,10 +973,12 @@
   let ALL_DEALS = null, allPage = 1, allLoadState = "idle";
 
   // ---- deals.json の遅延ロード ----
-  // deals.json は数MB規模（gzip後も数百KB）だが、多くの訪問者は「全案件」セクションまで
-  // 到達しない。初期表示では取得せず、①全案件セクションへの接近（IntersectionObserver）
-  // ②最初の絞り込み・検索操作（applyFilter経由） のどちらか早い方で取得を開始する
-  // （モバイル通信量とサーバ転送量の削減）。取得完了までのチップ件数はサーバ描画の初期値のまま。
+  // deals.json は数MB規模（gzip後も数百KB）。HTMLの解析・初期描画をブロックしないよう
+  // 初期表示では取得せず、①全案件セクションへの接近（IntersectionObserver）
+  // ②最初の絞り込み・検索操作（applyFilter経由） のどちらか早い方で取得を開始する。
+  // 「全案件」はページ上部にあるため実際にはほぼ全訪問で①が初期表示直後に発火する
+  // （＝転送量削減の効果は限定的。初期描画を遅らせない意味での後追い取得）。
+  // 取得完了までのチップ件数はサーバ描画の初期値のまま。
   let armed = false;  // 初期化処理中のapplyFilter呼び出しで取得が始まるのを防ぐ
   function ensureAllDeals() {
     // 取得中・取得済みは何もしない。失敗(error)時も自動再試行はせず「再読み込み」ボタンに委ねる
@@ -1003,8 +986,8 @@
     loadAllDeals();
   }
 
-  // 既定が「新着」＋復元した絞り込み（サイト・獲得額）を初期表示へ反映する。
-  // 既定新着のためサーバ描画の全件から新着以外を隠す必要があり、常に一度適用する。
+  // 既定（全て）＋復元した絞り込み（獲得額）・既定の除外（法人案件など）を初期表示へ反映する。
+  // サーバ描画のDOMには法人案件も含まれ、JSで隠す前提のため常に一度適用する。
   applyFilter();
   refreshChipCounts();
   armed = true;  // ここから先のapplyFilter＝ユーザー操作なので遅延ロードの引き金にする
@@ -1185,6 +1168,16 @@
     return li;
   }
 
+  // 何らかの絞り込み中か（検索語・新着・重複除外・法人含む・投資/入金/年収除外・
+  // カテゴリ・サイト・獲得額・金額しきい値のいずれか）。既定の表示状態と違えばtrue。
+  // 「全案件」見出しの「（フィルター中 …）」表示と読み込み中メッセージの出し分けに使う。
+  function filterActive() {
+    return !!searchBox.value.trim() || active.new || active.dedup || active.corp
+      || active.invest || active.deposit || active.income
+      || active.categories.length > 0 || active.sites.length > 0 || yenActive()
+      || fundMax !== null || incomeMax !== null;
+  }
+
   // 取得前・失敗時の「全案件」ステータス表示。取得中に検索・絞り込みされた場合は
   // 結果が取得完了後に反映される旨を明示し、"固まった"ように見えるのを防ぐ。
   function renderAllPending() {
@@ -1197,13 +1190,10 @@
       return;
     }
     allRetry.hidden = true;
-    // 何らかの絞り込み中か（検索語・新着・重複除外・法人含む・投資/入金/年収除外・
-    // カテゴリ・サイト・獲得額・金額しきい値のいずれか）
-    const filtering = !!searchBox.value.trim() || active.new || active.dedup || active.corp
-      || active.invest || active.deposit || active.income
-      || active.categories.length || active.sites.length || yenActive()
-      || fundMax !== null || incomeMax !== null;
-    allStatus.textContent = filtering
+    // 取得前は件数を出せないため、絞り込み中は見出しを「（フィルター中）」だけにして
+    // サーバ描画の全件数が残り「絞ったのに件数が変わらない」と誤解されるのを防ぐ。
+    allCount.textContent = filterActive() ? "（フィルター中）" : ALL_COUNT_INITIAL;
+    allStatus.textContent = filterActive()
       ? "案件データを読み込み中です。まもなく結果を表示します…"
       : "読み込み中…";
   }
@@ -1215,7 +1205,10 @@
     const terms = searchTerms(searchBox.value);
     let filtered = ALL_DEALS.filter(d => allMatches(d, terms));
     if (active.dedup) filtered = dedupDeals(filtered);  // 同名案件を最高還元の1件に畳む
-    allCount.textContent = "（" + filtered.length + "件）";
+    // 絞り込み中は「（フィルター中 N件）」と明示し、全件数と取り違えられないようにする
+    allCount.textContent = filterActive()
+      ? "（フィルター中 " + filtered.length + "件）"
+      : "（" + filtered.length + "件）";
     if (!filtered.length) {
       allList.innerHTML = "";
       allStatus.textContent = "該当する案件はありません。";

@@ -778,7 +778,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
 - 最終更新: {today}
 
 ## 主要ページ
-- [トップページ]({BASE_URL}/): 新着案件・複数サイトの還元比較・全案件の検索/絞り込み
+- [トップページ]({BASE_URL}/): 全案件の検索/絞り込み・新着案件・複数サイトの還元比較
 - [ポイントUP額ランキング]({BASE_URL}/ranking.html): 直近{UP_RANKING_DAYS}日にポイントが増額され現在も増額中の案件を増額幅（円換算）順に掲載
 - [今週のポイントUPまとめ]({BASE_URL}/weekly.html): 直近の1週間（月〜日）に増額された案件の上位{WEEKLY_CAP}件。毎週月曜に更新し、確定後は内容が変わらない週次の記録
 - [値動き履歴]({BASE_URL}/history.html): ポイント数が変動した案件の推移と過去最高値（観測開始以降）

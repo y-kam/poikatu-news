@@ -44079,7 +44079,7 @@
    "url": "https://www.chobirich.com/ad_details/1894137/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "condition": ""
   },
   "chobirich:1894136": {
@@ -44092,7 +44092,7 @@
    "url": "https://www.chobirich.com/ad_details/1894136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "condition": ""
   },
   "chobirich:1894130": {
@@ -44118,7 +44118,7 @@
    "url": "https://www.chobirich.com/ad_details/1894092/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "condition": ""
   },
   "chobirich:1869712": {
@@ -44131,7 +44131,7 @@
    "url": "https://www.chobirich.com/ad_details/1869712/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "condition": ""
   },
   "chobirich:1893982": {
@@ -44144,7 +44144,7 @@
    "url": "https://www.chobirich.com/ad_details/1893982/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "condition": ""
   },
   "chobirich:1893981": {
@@ -275268,7 +275268,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-12 15:00"
   },
   "warau:204426": {
@@ -292473,15 +292473,17 @@
    "site": "chobirich",
    "deal_id": "1894371",
    "title": "キングショット_マルチ2",
-   "points_text": "最大15208pt",
-   "yen": 7604.0,
+   "points_text": "最大16528pt",
+   "yen": 8264.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1894371/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-05",
+   "renewed_at": "2026-08-05 18:28",
+   "renewed_from": "最大15208pt"
   },
   "chobirich:1894325": {
    "site": "chobirich",
@@ -292501,32 +292503,32 @@
    "site": "chobirich",
    "deal_id": "1894319",
    "title": "Paint Loop_マルチ",
-   "points_text": "最大3072pt",
-   "yen": 1536.0,
+   "points_text": "最大3112pt",
+   "yen": 1556.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1894319/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-29",
-   "renewed_at": "2026-07-29 07:35",
+   "last_seen": "2026-08-05",
+   "renewed_at": "2026-08-05 18:28",
    "renewed_from": "最大2220pt"
   },
   "chobirich:1894317": {
    "site": "chobirich",
    "deal_id": "1894317",
    "title": "Yarnation_マルチ",
-   "points_text": "最大3072pt",
-   "yen": 1536.0,
+   "points_text": "最大3112pt",
+   "yen": 1556.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1894317/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-29",
-   "renewed_at": "2026-07-29 07:35",
+   "last_seen": "2026-08-05",
+   "renewed_at": "2026-08-05 18:28",
    "renewed_from": "最大2220pt"
   },
   "chobirich:1894315": {
@@ -300044,7 +300046,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-16 05:00"
   },
   "chobirich:1894539": {
@@ -304689,7 +304691,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-16 05:00"
   },
   "chobirich:1894543": {
@@ -304704,7 +304706,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-16 05:00"
   },
   "chobirich:1894663": {
@@ -304741,15 +304743,17 @@
    "site": "chobirich",
    "deal_id": "1894645",
    "title": "Yarn Out 3D_マルチ",
-   "points_text": "最大1764pt",
-   "yen": 882.0,
+   "points_text": "最大1800pt",
+   "yen": 900.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1894645/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-08-05",
+   "renewed_at": "2026-08-05 18:28",
+   "renewed_from": "最大1764pt"
   },
   "chobirich:1894623": {
    "site": "chobirich",
@@ -317201,7 +317205,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 23:44",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-21 07:34"
   },
   "chobirich:1871061": {
@@ -321493,7 +321497,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1895068": {
@@ -321508,7 +321512,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1895065": {
@@ -321523,7 +321527,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1895064": {
@@ -321538,7 +321542,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1895063": {
@@ -321553,7 +321557,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1895059": {
@@ -321568,7 +321572,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1894995": {
@@ -321583,7 +321587,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 19:05",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-25 06:38"
   },
   "chobirich:1895077": {
@@ -323870,7 +323874,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 18:42",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895162": {
@@ -323885,7 +323889,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 18:42",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895060": {
@@ -323900,7 +323904,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 18:42",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895058": {
@@ -323915,7 +323919,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 18:42",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895174": {
@@ -327684,7 +327688,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895197": {
@@ -327699,7 +327703,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895196": {
@@ -327714,7 +327718,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895190": {
@@ -327729,7 +327733,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895154": {
@@ -327789,7 +327793,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895157": {
@@ -327804,7 +327808,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895156": {
@@ -327819,7 +327823,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895155": {
@@ -327834,7 +327838,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-05",
    "renewed_at": "2026-07-29 07:35"
   },
   "chobirich:1895255": {
@@ -332446,7 +332450,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 07:35",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-08-05"
   },
   "chobirich:1895243": {
    "site": "chobirich",
@@ -332460,7 +332464,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 07:35",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-08-05"
   },
   "chobirich:1895466": {
    "site": "chobirich",
@@ -332662,15 +332666,17 @@
    "site": "chobirich",
    "deal_id": "1895384",
    "title": "スワイプ・イット：木製ボードパズル (Swipe It : Board Wooden Puzzle)（アプリランド）",
-   "points_text": "最大2705pt",
-   "yen": 1352.5,
+   "points_text": "最大2996pt",
+   "yen": 1498.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1895384/",
    "condition": "遷移先の「アプリランド」ページをご確認ください",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 07:35",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-08-05",
+   "renewed_at": "2026-08-05 18:28",
+   "renewed_from": "最大2705pt"
   },
   "chobirich:1887819": {
    "site": "chobirich",
@@ -347568,6 +347574,678 @@
    "seeded": false,
    "first_seen": "2026-08-05",
    "first_seen_at": "2026-08-05 01:00",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896137": {
+   "site": "chobirich",
+   "deal_id": "1896137",
+   "title": "Funvest",
+   "points_text": "11,000pt",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896137/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896090": {
+   "site": "chobirich",
+   "deal_id": "1896090",
+   "title": "【無料・60秒で終わる】資産形成に関するアンケート",
+   "points_text": "500pt",
+   "yen": 250.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896090/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896076": {
+   "site": "chobirich",
+   "deal_id": "1896076",
+   "title": "京急プレミアポイント",
+   "points_text": "500pt",
+   "yen": 250.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896076/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896070": {
+   "site": "chobirich",
+   "deal_id": "1896070",
+   "title": "リテラ（BringRitera）",
+   "points_text": "1,800pt",
+   "yen": 900.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896070/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1605512": {
+   "site": "chobirich",
+   "deal_id": "1605512",
+   "title": "SBI新生銀行",
+   "points_text": "1,500pt",
+   "yen": 750.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1605512/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895795": {
+   "site": "chobirich",
+   "deal_id": "1895795",
+   "title": "CAMEL（キャメル）【Webセミナー】",
+   "points_text": "3,100pt",
+   "yen": 1550.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895795/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895789": {
+   "site": "chobirich",
+   "deal_id": "1895789",
+   "title": "事故車買取の【タウ】",
+   "points_text": "16,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895789/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895769": {
+   "site": "chobirich",
+   "deal_id": "1895769",
+   "title": "KATIX（カチエックス）車買取",
+   "points_text": "15,000pt",
+   "yen": 7500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895769/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895766": {
+   "site": "chobirich",
+   "deal_id": "1895766",
+   "title": "X LIFE WATER",
+   "points_text": "8,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895766/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895765": {
+   "site": "chobirich",
+   "deal_id": "1895765",
+   "title": "フェミークリニック",
+   "points_text": "20,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895765/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1095408": {
+   "site": "chobirich",
+   "deal_id": "1095408",
+   "title": "保険の窓口インズウェブ（自動車保険）",
+   "points_text": "0",
+   "yen": 0.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1095408/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895680": {
+   "site": "chobirich",
+   "deal_id": "1895680",
+   "title": "dヘルスケア",
+   "points_text": "500pt",
+   "yen": 250.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895680/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895669": {
+   "site": "chobirich",
+   "deal_id": "1895669",
+   "title": "dカーシェア",
+   "points_text": "400pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895669/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1839396": {
+   "site": "chobirich",
+   "deal_id": "1839396",
+   "title": "メルカードゴールド",
+   "points_text": "2,800pt",
+   "yen": 1400.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1839396/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1767030": {
+   "site": "chobirich",
+   "deal_id": "1767030",
+   "title": "メルカード",
+   "points_text": "2,100pt",
+   "yen": 1050.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1767030/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895654": {
+   "site": "chobirich",
+   "deal_id": "1895654",
+   "title": "富山銀行カードローン「スピード王MAX」】",
+   "points_text": "25,000pt",
+   "yen": 12500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895654/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1894078": {
+   "site": "chobirich",
+   "deal_id": "1894078",
+   "title": "【みずほ銀行法人口座】UPSIDER BANK by MIZUHO",
+   "points_text": "15,000pt",
+   "yen": 7500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1894078/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896129": {
+   "site": "chobirich",
+   "deal_id": "1896129",
+   "title": "妊活期のための葉酸サプリ【CiQoni】",
+   "points_text": "3,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896129/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896075": {
+   "site": "chobirich",
+   "deal_id": "1896075",
+   "title": "国際受賞の本格焼酎を産地直送！地域ブランドの逸品【奥久慈塙蒸留所】",
+   "points_text": "3％",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://www.chobirich.com/ad_details/1896075/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1842127": {
+   "site": "chobirich",
+   "deal_id": "1842127",
+   "title": "ユナイテッドアローズ 公式通販",
+   "points_text": "1％",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://www.chobirich.com/ad_details/1842127/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896071": {
+   "site": "chobirich",
+   "deal_id": "1896071",
+   "title": "CLEANSING OIL",
+   "points_text": "990pt",
+   "yen": 495.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896071/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895760": {
+   "site": "chobirich",
+   "deal_id": "1895760",
+   "title": "ニューバランス公式オンラインアウトレット",
+   "points_text": "0.5％",
+   "yen": null,
+   "percent": 0.5,
+   "url": "https://www.chobirich.com/ad_details/1895760/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895546": {
+   "site": "chobirich",
+   "deal_id": "1895546",
+   "title": "スタイリッシュなiPhone & Samsung Galaxyケース＆カバー【BURGA（ブルガ）】",
+   "points_text": "5％",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://www.chobirich.com/ad_details/1895546/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896088": {
+   "site": "chobirich",
+   "deal_id": "1896088",
+   "title": "必勝！最強学習塾（アプリランド）",
+   "points_text": "最大472pt",
+   "yen": 236.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896088/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896063": {
+   "site": "chobirich",
+   "deal_id": "1896063",
+   "title": "3D Toys: Shadow Match（アプリランド）",
+   "points_text": "最大2275pt",
+   "yen": 1137.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896063/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895713": {
+   "site": "chobirich",
+   "deal_id": "1895713",
+   "title": "フィッシュダム(Fishdom)（アプリランド）",
+   "points_text": "最大2686pt",
+   "yen": 1343.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895713/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1895520": {
+   "site": "chobirich",
+   "deal_id": "1895520",
+   "title": "Sort N Loop: Flow Puzzle_マルチ",
+   "points_text": "最大2364pt",
+   "yen": 1182.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1895520/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1894794": {
+   "site": "chobirich",
+   "deal_id": "1894794",
+   "title": "マイナーファイターズ！_マルチ3",
+   "points_text": "最大3616pt",
+   "yen": 1808.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1894794/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1894138": {
+   "site": "chobirich",
+   "deal_id": "1894138",
+   "title": "Paint Loop（アプリランド）",
+   "points_text": "最大3174pt",
+   "yen": 1587.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1894138/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1892343": {
+   "site": "chobirich",
+   "deal_id": "1892343",
+   "title": "Math Solitaire（アプリランド）",
+   "points_text": "最大1637pt",
+   "yen": 818.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1892343/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1892336": {
+   "site": "chobirich",
+   "deal_id": "1892336",
+   "title": "Word Solitaire: Match & Play（アプリランド）",
+   "points_text": "最大1830pt",
+   "yen": 915.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1892336/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1891148": {
+   "site": "chobirich",
+   "deal_id": "1891148",
+   "title": "ホワイトアウト・サバイバル_マルチ2",
+   "points_text": "最大12336pt",
+   "yen": 6168.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1891148/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1891131": {
+   "site": "chobirich",
+   "deal_id": "1891131",
+   "title": "グルメ・ジャーニー_マルチ3",
+   "points_text": "最大9608pt",
+   "yen": 4804.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1891131/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1891058": {
+   "site": "chobirich",
+   "deal_id": "1891058",
+   "title": "キノコ伝説：勇者と魔法のランプ_マルチ",
+   "points_text": "最大11806pt",
+   "yen": 5903.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1891058/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1877050": {
+   "site": "chobirich",
+   "deal_id": "1877050",
+   "title": "Farm Craze: Traffic Jam Puzzle_マルチ",
+   "points_text": "最大2008pt",
+   "yen": 1004.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1877050/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1874484": {
+   "site": "chobirich",
+   "deal_id": "1874484",
+   "title": "ファミリーファームの冒険_マルチ4",
+   "points_text": "最大8092pt",
+   "yen": 4046.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1874484/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1872108": {
+   "site": "chobirich",
+   "deal_id": "1872108",
+   "title": "Farm Block Escape（アプリランド）",
+   "points_text": "最大1833pt",
+   "yen": 916.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1872108/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1837026": {
+   "site": "chobirich",
+   "deal_id": "1837026",
+   "title": "IRIAM",
+   "points_text": "432pt",
+   "yen": 216.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1837026/",
+   "condition": "チュートリアル全突破(インストール後、条件達成)",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896036": {
+   "site": "chobirich",
+   "deal_id": "1896036",
+   "title": "聖霊伝説：最強への道",
+   "points_text": "最大3514pt",
+   "yen": 1757.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896036/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896035": {
+   "site": "chobirich",
+   "deal_id": "1896035",
+   "title": "クラシックソリティア",
+   "points_text": "最大552pt",
+   "yen": 276.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896035/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896025": {
+   "site": "chobirich",
+   "deal_id": "1896025",
+   "title": "Huuugeカジノオンラインスロット 777™（多段階）（iOS）（アプリdeちょ～リッチ）",
+   "points_text": "最大3552pt",
+   "yen": 1776.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896025/",
+   "condition": "遷移先の「アプリdeちょ～リッチ」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896023": {
+   "site": "chobirich",
+   "deal_id": "1896023",
+   "title": "魚キャッチ",
+   "points_text": "最大1080pt",
+   "yen": 540.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896023/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896022": {
+   "site": "chobirich",
+   "deal_id": "1896022",
+   "title": "フラミンゴはなぜ赤い",
+   "points_text": "最大1080pt",
+   "yen": 540.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896022/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896021": {
+   "site": "chobirich",
+   "deal_id": "1896021",
+   "title": "サンタのそりに荷物を",
+   "points_text": "最大1080pt",
+   "yen": 540.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896021/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896020": {
+   "site": "chobirich",
+   "deal_id": "1896020",
+   "title": "ワニの歯みがき係",
+   "points_text": "最大1080pt",
+   "yen": 540.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896020/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896019": {
+   "site": "chobirich",
+   "deal_id": "1896019",
+   "title": "きのこを生やす",
+   "points_text": "最大1080pt",
+   "yen": 540.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896019/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896014": {
+   "site": "chobirich",
+   "deal_id": "1896014",
+   "title": "ルナルナ　ファミリーコース",
+   "points_text": "458pt",
+   "yen": 229.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896014/",
+   "condition": "新規で、広告クリックから24時間以内に月額330円（税込）コースの有料課金登録を行うと成果となります。",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
+   "last_seen": "2026-08-05"
+  },
+  "chobirich:1896012": {
+   "site": "chobirich",
+   "deal_id": "1896012",
+   "title": "Yarn Loop",
+   "points_text": "最大16268pt",
+   "yen": 8134.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896012/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-05",
+   "first_seen_at": "2026-08-05 18:28",
    "last_seen": "2026-08-05"
   }
  }

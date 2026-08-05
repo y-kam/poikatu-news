@@ -89,6 +89,8 @@ h2 { font-size:1.3rem; border-left:4px solid var(--accent); padding-left:10px; m
 .jumpnav a { border:1px solid var(--bd); background:var(--card); color:var(--muted); border-radius:999px; padding:7px 14px; font-size:.8rem; text-decoration:none; white-space:nowrap; }
 /* ランキング・値動き履歴の関連ページタブで現在ページを塗りつぶし表示（チップのactiveと同じ配色） */
 .jumpnav a.current { background:var(--accent-bg); border-color:var(--accent-bg); color:#fff; }
+/* トップページの「値動き履歴」への導線を強調（現在ページ表示の塗りつぶしとは区別するため枠線・文字色のみ変更） */
+.jumpnav a.emphasis { border-color:var(--accent-text); color:var(--accent-text); font-weight:bold; }
 .cat { display:inline-block; background:var(--cat-bg); color:var(--cat-text); font-size:.72rem; border-radius:4px; padding:1px 6px; margin-left:6px; vertical-align:middle; white-space:nowrap; }
 .cond { color:var(--muted); font-size:.8rem; }
 .group { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:10px; }

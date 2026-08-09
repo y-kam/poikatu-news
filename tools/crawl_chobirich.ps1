@@ -53,8 +53,12 @@ python run.py --sites chobirich
 if ($LASTEXITCODE -ne 0) { Finish 1 }
 
 Write-Host "[3/3] データをコミットしてpushします..."
-# クロールが更新するファイルだけを対象にし、別作業のdataファイルを混ぜない。
-git add -- data/deals.json data/crawl_metrics.json data/history.json
+# この一時worktreeは毎回 origin/main から作り直す使い捨てなので、data/ 配下の変更は
+# すべてこの実行の成果物。CI（crawl.yml）と同じく data/ をまるごと対象にする。
+# ※ 対象ファイルを列挙していると、週明け最初の生成でだけ書かれる data/weekly.json の
+#   ような「毎回は出ない出力」を取りこぼし、直後の rebase が unstaged changes で失敗する
+#   （＝クロール結果を捨てて終了する）。列挙方式には戻さないこと。
+git add -- data/
 if ($LASTEXITCODE -ne 0) { Finish 1 }
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
@@ -65,7 +69,9 @@ git commit -m "data: chobirich local crawl"
 if ($LASTEXITCODE -ne 0) { Finish 1 }
 git fetch origin main
 if ($LASTEXITCODE -ne 0) { Finish 1 }
-git rebase origin/main
+# --autostash: data/ 以外に想定外の生成物が残っていても rebase を中断させない
+# （使い捨てworktreeなので退避内容は捨てて構わない。中断＝クロール結果消失を避ける）。
+git rebase --autostash origin/main
 if ($LASTEXITCODE -ne 0) { Finish 1 }
 
 # push の認証: GCM（Windows資格情報マネージャー）の保存エントリが壊れており
@@ -90,7 +96,7 @@ foreach ($attempt in 1..3) {
     Write-Host "pushが拒否されました。リモートの最新を取り込んで再試行します（$attempt/3）..."
     git fetch origin main
     if ($LASTEXITCODE -ne 0) { break }
-    git rebase origin/main
+    git rebase --autostash origin/main
     if ($LASTEXITCODE -ne 0) { git rebase --abort 2>&1 | Out-Null; break }
 }
 gh auth switch -u ykameyama 2>&1 | Out-Null

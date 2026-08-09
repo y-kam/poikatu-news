@@ -19,6 +19,16 @@ on:
           - "false"
           - "true"
         default: "false"
+      # 定期運用では投稿枠（post_x=true）に合わせて1日2回走るので、外部cronは渡さなくてよい。
+      # X投稿（従量課金・公開投稿）と死活チェックは無関係なので、手動で死活チェックだけ
+      # 走らせたいとき（点検・動作確認）のために独立した入力を用意する。
+      check_links:
+        description: "この実行でリンク死活チェックを走らせる（X投稿枠では指定不要。手動点検用）"
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
 
 permissions:
   contents: write
@@ -130,8 +140,9 @@ jobs:
   linkcheck:
     needs: crawl
     if: >-
-      ${{ !cancelled() &&
-      (github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true') }}
+      ${{ !cancelled() && (github.event.schedule == '7 4,12 * * *' ||
+      github.event.inputs.post_x == 'true' ||
+      github.event.inputs.check_links == 'true') }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:

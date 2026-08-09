@@ -89,7 +89,11 @@ def main() -> int:
                         help="チェック対象から除くサイトキー（カンマ区切り。--sites指定時は無視）。"
                              "CIのIPがブロックされ全件unknownになるだけのサイト（ちょびリッチ等）を"
                              "無駄なリクエストごと省くために使う")
-    parser.add_argument("--max-workers", type=int, default=8, help="同時にチェックするサイト数")
+    # 既定は全サイト同時。サイト内は直列＋CHECK_INTERVAL を守るので、並列度を上げても
+    # 1サイトあたりのリクエスト間隔（＝相手サイトへの負荷）は変わらない。全体の所要は
+    # 最大サイトの直列時間まで縮む（8並列だと待ち行列が生じ、実測で約1.5倍かかっていた）。
+    parser.add_argument("--max-workers", type=int, default=40,
+                        help="同時にチェックするサイト数（既定は全サイト同時）")
     parser.add_argument(
         "--include-backfill", action="store_true",
         help="バックフィル案件も死活チェックする（既定は除外。全件だと外部リクエストが激増するため、"
@@ -127,7 +131,10 @@ def main() -> int:
         return 0
 
     total_targets = sum(len(v) for v in targets.values())
-    print(f"[start] {len(targets)}サイト / {total_targets}件をチェック（interval={CHECK_INTERVAL}s）")
+    # flush: CIではstdoutがバッファされ、途中経過が一切出ないまま打ち切られると
+    # 原因調査ができないため、開始時点の規模だけは必ず先に出す。
+    print(f"[start] {len(targets)}サイト / {total_targets}件をチェック（interval={CHECK_INTERVAL}s）",
+          flush=True)
 
     # サイト単位で並列（サイト内は直列でリクエスト間隔を守る）。
     # ソフト404サイトは sites.json の dead_markers を渡して本文で死活判定する。

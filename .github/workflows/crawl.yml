@@ -28,6 +28,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # クロール〜デプロイ。重い後段（死活チェック）に巻き込まれてデータが失われないよう、
+  # 取得したデータのコミットとサイト反映をこのジョブで完結させる。
+  # ※ 2026-08-05〜09、死活チェックと同居していたため45分上限に当たり続け、クロール結果が
+  #   毎回破棄されていた（未コミットの新規案件を毎回取り直して更に遅くなる悪循環）。
   crawl:
     runs-on: ubuntu-latest
     timeout-minutes: 45
@@ -47,13 +51,6 @@ jobs:
       # tools/crawl_chobirich.bat で行い、データpush→deployワークフローで反映する。
       - name: Crawl and build site
         run: python run.py --exclude chobirich
-
-      # クロール直後に掲載中案件のリンク死活をチェックし、掲載終了を論理削除して再生成する
-      - name: Check links and flag delisted deals
-        run: python check_links.py --exclude chobirich
-
-      - name: Rebuild site with delisted deals removed
-        run: python run.py --generate-only
 
       - name: Commit updated data
         run: |
@@ -119,3 +116,57 @@ jobs:
       - name: Detect parser breakage (crawl health)
         if: always()
         run: python check_health.py
+
+  # 掲載中案件のリンク死活チェック（掲載終了の論理削除）。全案件へGETするため所要が長く
+  # 案件数に比例して伸び続けるので、クロール／デプロイとはジョブを分けて時間枠を独立させる。
+  #
+  # 実行はX投稿枠（JST 13/21時台）と同じ1日2回に限定する。crawler/linkcheck.py の
+  # STREAK_HIGH/LOW（連続dead回数で掲載終了を確定）が「1日2回・約7時間間隔」を前提に
+  # 設計されており、毎回（1日6〜8回）実行は前提から外れた過剰実行だった
+  # （提携サイトへ1日約1.9万リクエスト。2回なら約6千件に減る）。
+  #
+  # !cancelled(): crawlジョブの最終ステップ（パーサ破損検知）は異常を知らせるために
+  # わざと失敗するので、その失敗で死活チェックまで止めない。
+  linkcheck:
+    needs: crawl
+    if: >-
+      ${{ !cancelled() &&
+      (github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      # crawlジョブがpushした最新データを取得する（トリガー時点のSHAではなくmainの先端）
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check links and flag delisted deals
+        run: python check_links.py --exclude chobirich
+
+      - name: Rebuild site with delisted deals removed
+        run: python run.py --generate-only
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "data: link check $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push
+
+      # GITHUB_TOKEN でのpushは deploy ワークフローを発火しないため、ここで直接反映する
+      - name: Deploy to server (FTPS)
+        uses: ./.github/actions/ftps-deploy
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}

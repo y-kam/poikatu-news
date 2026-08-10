@@ -1286,7 +1286,7 @@
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=111069",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-11",
    "condition": "総合取引口座開設完了後、\n30日以内に楽天証券口座へ5万円以上の入金完了",
    "site_new": false,
    "delisted_at": "2026-07-17",
@@ -270828,17 +270828,17 @@
    "site": "moppy",
    "deal_id": "120788",
    "title": "【超還元】SBI証券（新規口座開設+50,000円以上入金）",
-   "points_text": "22,000P",
-   "yen": 22000.0,
+   "points_text": "24,000P",
+   "yen": 24000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=120788",
    "condition": "口座開設+50,000円入金（SBIハイブリッド預金へ振替）",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "site_new": true,
-   "renewed_at": "2026-08-10 07:52",
+   "renewed_at": "2026-08-11 05:00",
    "renewed_from": "19,000P"
   },
   "moppy:158981": {
@@ -270997,7 +270997,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-21"
   },
   "warau:161491": {
@@ -277819,7 +277819,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-11"
   },
   "moppy:161571": {
    "site": "moppy",
@@ -278171,7 +278171,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "moppy:161827": {
    "site": "moppy",
@@ -278366,16 +278366,18 @@
   "moppy:161201": {
    "site": "moppy",
    "deal_id": "161201",
-   "title": "信長の野望　真戦（部将lv7）_iOS",
-   "points_text": "5,100P",
-   "yen": 5100.0,
+   "title": "※超還元中※信長の野望　真戦（部将lv7）_iOS",
+   "points_text": "6,000P",
+   "yen": 6000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161201",
    "condition": "新規アプリインストール後、30日以内にシーズン1で役職部将lv7に到達",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-11",
+   "renewed_at": "2026-08-11 05:00",
+   "renewed_from": "5,100P"
   },
   "moppy:161621": {
    "site": "moppy",
@@ -349585,7 +349587,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "warau:205421": {
    "site": "warau",
@@ -349599,7 +349601,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "warau:205161": {
    "site": "warau",
@@ -349613,7 +349615,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "warau:205497": {
    "site": "warau",
@@ -354639,6 +354641,174 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 01:00",
+   "last_seen": "2026-08-11"
+  },
+  "moppy:133769": {
+   "site": "moppy",
+   "deal_id": "133769",
+   "title": "skyticket（iOS/スカイチケット）",
+   "points_text": "25P",
+   "yen": 25.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=133769",
+   "condition": "インストール後起動",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102466": {
+   "site": "hapitas",
+   "deal_id": "102466",
+   "title": "ナットソートブラスト：カラーパズル（チャレンジ11完了）（Android）",
+   "points_text": "539pt",
+   "yen": 539.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102466/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102467": {
+   "site": "hapitas",
+   "deal_id": "102467",
+   "title": "Nut Sort Blast: Color Puzzle（チャレンジ11完了）（iOS）",
+   "points_text": "539pt",
+   "yen": 539.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102467/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102468": {
+   "site": "hapitas",
+   "deal_id": "102468",
+   "title": "Screw Out Factory Puzzle 3D（経験値バーのマイルストーンを5にする（ユーザーレベル5に到達する））（Android）",
+   "points_text": "182pt",
+   "yen": 182.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102468/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102480": {
+   "site": "hapitas",
+   "deal_id": "102480",
+   "title": "タイルマッチ3D：トリプルマスター（レベル300クリア）（iOS）",
+   "points_text": "280pt",
+   "yen": 280.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102480/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102461": {
+   "site": "hapitas",
+   "deal_id": "102461",
+   "title": "Color Rush(カラーラッシュ)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102461/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102462": {
+   "site": "hapitas",
+   "deal_id": "102462",
+   "title": "Color Link",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102462/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102308": {
+   "site": "hapitas",
+   "deal_id": "102308",
+   "title": "【初回起動】エンドレスフロンティア2",
+   "points_text": "85pt",
+   "yen": 85.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102308/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102405": {
+   "site": "hapitas",
+   "deal_id": "102405",
+   "title": "ニューズピックス-ビジネスに役立つ経済ニュースアプリ",
+   "points_text": "105pt",
+   "yen": 105.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102405/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102438": {
+   "site": "hapitas",
+   "deal_id": "102438",
+   "title": "すべての女性を美しくをテーマにした商品で女性の美を応援していますーファビウス公式ECサイト(26-0722)",
+   "points_text": "7%",
+   "yen": null,
+   "percent": 7.0,
+   "url": "https://hapitas.jp/item/detail/itemid/102438/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102439": {
+   "site": "hapitas",
+   "deal_id": "102439",
+   "title": "ブランド品・貴金属の無料査定【ロデオドライブ】",
+   "points_text": "3,500pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102439/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
+   "last_seen": "2026-08-11"
+  },
+  "hapitas:102404": {
+   "site": "hapitas",
+   "deal_id": "102404",
+   "title": "BCLカンパニー",
+   "points_text": "1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://hapitas.jp/item/detail/itemid/102404/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 05:00",
    "last_seen": "2026-08-11"
   }
  }

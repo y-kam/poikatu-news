@@ -46,7 +46,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
+      # ref: main は必須。既定のcheckoutは「実行が作成された時点のSHA」に固定されるため、
+      # concurrency で待機した実行は、待っている間に別の実行がpushしたデータを見ないまま
+      # 走り出す。その古いデータでクロールすると deals.json を丸ごと書き直すため、
+      # 最後の git pull --rebase で必ず競合してクロール結果を失う（2026-08-10に発生）。
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:

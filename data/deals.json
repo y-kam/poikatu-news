@@ -214807,7 +214807,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-08-11"
   },
   "point_island:mSMRI1": {
    "site": "point_island",
@@ -226195,7 +226195,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-25"
+   "last_seen": "2026-08-11"
   },
   "point_stadium:mSMRI1": {
    "site": "point_stadium",
@@ -237637,8 +237637,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-23",
-   "renewed_at": "2026-07-15 08:00"
+   "last_seen": "2026-08-11",
+   "renewed_at": "2026-08-11 21:00"
   },
   "nyandaful:mSMRI1": {
    "site": "nyandaful",
@@ -309437,7 +309437,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 08:00",
-   "last_seen": "2026-07-22"
+   "last_seen": "2026-08-11"
   },
   "warau:204640": {
    "site": "warau",
@@ -349659,7 +349659,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "warau:205493": {
    "site": "warau",
@@ -349673,7 +349673,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "warau:205490": {
    "site": "warau",
@@ -350814,7 +350814,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "site_new": false
   },
   "amefri:139314": {
@@ -354238,7 +354238,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 21:00",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "au_point:8:1539": {
    "site": "au_point",

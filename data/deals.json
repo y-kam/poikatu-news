@@ -214379,7 +214379,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-12"
   },
   "point_island:j4076": {
    "site": "point_island",
@@ -225767,7 +225767,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-12"
   },
   "point_stadium:j4076": {
    "site": "point_stadium",
@@ -237212,8 +237212,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31",
-   "renewed_at": "2026-07-23 08:00"
+   "last_seen": "2026-08-12",
+   "renewed_at": "2026-08-12 08:00"
   },
   "nyandaful:j4076": {
    "site": "nyandaful",
@@ -322959,7 +322959,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 08:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-08-12"
   },
   "moppy:160798": {
    "site": "moppy",
@@ -349593,7 +349593,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   "warau:205410": {
    "site": "warau",

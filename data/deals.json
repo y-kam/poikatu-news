@@ -43074,16 +43074,16 @@
    "site": "pointincome",
    "deal_id": "154013",
    "title": "楽天でんき",
-   "points_text": "200,000pt",
-   "yen": 20000.0,
+   "points_text": "210,000pt",
+   "yen": 21000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154013/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-08-04 05:00",
+   "renewed_at": "2026-08-11 10:00",
    "renewed_from": "180,000pt"
   },
   "pointincome:155587": {
@@ -43311,7 +43311,7 @@
    "url": "https://pointi.jp/ad/154106/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-11",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -213934,7 +213934,7 @@
   "point_island:0411547": {
    "site": "point_island",
    "deal_id": "0411547",
-   "title": "WOWOWオンライン",
+   "title": "【実施初月無料】WOWOWオンライン",
    "points_text": "25300ポイント",
    "yen": 2530.0,
    "percent": null,
@@ -225321,7 +225321,7 @@
   "point_stadium:0411547": {
    "site": "point_stadium",
    "deal_id": "0411547",
-   "title": "WOWOWオンライン",
+   "title": "【実施初月無料】WOWOWオンライン",
    "points_text": "25300ポイント",
    "yen": 2530.0,
    "percent": null,
@@ -236756,7 +236756,7 @@
   "nyandaful:0411547": {
    "site": "nyandaful",
    "deal_id": "0411547",
-   "title": "WOWOWオンライン",
+   "title": "【実施初月無料】WOWOWオンライン",
    "points_text": "25,300pt",
    "yen": 2530.0,
    "percent": null,
@@ -271802,7 +271802,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-07-17",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-08"
   },
   "pointincome:143789": {
@@ -273209,7 +273209,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-08",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "30,000pt"
@@ -273288,7 +273288,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-08"
   },
   "pointincome:154530": {
@@ -274331,18 +274331,19 @@
   "pointincome:155740": {
    "site": "pointincome",
    "deal_id": "155740",
-   "title": "ライフカード（年会費無料）",
-   "points_text": "100,000pt",
-   "yen": 10000.0,
+   "title": "【13日までの高還元！】ライフカード（年会費無料）",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155740/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-09",
-   "renew_hold": true
+   "renewed_at": "2026-08-11 10:00",
+   "renewed_from": "100,000pt"
   },
   "pointincome:135569": {
    "site": "pointincome",
@@ -274480,7 +274481,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-09"
   },
   "pointincome:131629": {
@@ -275263,7 +275264,7 @@
   "pointincome:155730": {
    "site": "pointincome",
    "deal_id": "155730",
-   "title": "※リピート可【最大15,500円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま口座",
+   "title": "※リピート可【最大15,000円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま口座",
    "points_text": "40,000pt",
    "yen": 4000.0,
    "percent": null,
@@ -275272,7 +275273,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-09"
   },
   "chobirich:1894418": {
@@ -276380,18 +276381,18 @@
   "pointincome:153520": {
    "site": "pointincome",
    "deal_id": "153520",
-   "title": "ベルテックス資料請求",
-   "points_text": "42,000pt",
-   "yen": 4200.0,
+   "title": "【8/11までの高還元‼】ベルテックス資料請求",
+   "points_text": "48,000pt",
+   "yen": 4800.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153520/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-10",
-   "renewed_at": "2026-07-29 01:00",
+   "renewed_at": "2026-08-11 10:00",
    "renewed_from": "40,000pt"
   },
   "pointincome:145640": {
@@ -276444,7 +276445,7 @@
   "pointincome:154440": {
    "site": "pointincome",
    "deal_id": "154440",
-   "title": "【最大19,500円相当】三菱ＵＦＪ銀行 口座開設",
+   "title": "【最大15,500円相当】三菱ＵＦＪ銀行 口座開設",
    "points_text": "40,000pt",
    "yen": 4000.0,
    "percent": null,
@@ -276453,7 +276454,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-10"
   },
   "pointincome:149915": {
@@ -276468,7 +276469,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-10"
   },
   "pointincome:150735": {
@@ -276854,7 +276855,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-10"
   },
   "pointincome:154075": {
@@ -276884,7 +276885,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -301289,7 +301290,7 @@
   "point_land:0411547": {
    "site": "point_land",
    "deal_id": "0411547",
-   "title": "WOWOWオンライン",
+   "title": "【実施初月無料】WOWOWオンライン",
    "points_text": "25300ポイント",
    "yen": 2530.0,
    "percent": null,
@@ -305959,7 +305960,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 05:00",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-14"
   },
   "pointincome:155604": {
@@ -306120,7 +306121,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 11:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-14"
   },
   "pointincome:153609": {
@@ -307366,7 +307367,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-15"
   },
   "pointincome:151311": {
@@ -307434,16 +307435,18 @@
    "site": "pointincome",
    "deal_id": "8782",
    "title": "e87.com(千趣会イイハナ)",
-   "points_text": "購入金額の2%",
+   "points_text": "購入金額の12%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 12.0,
    "url": "https://pointi.jp/ad/8782/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-14",
-   "delisted_at": "2026-07-15"
+   "last_seen": "2026-08-11",
+   "delisted_at": "2026-07-15",
+   "renewed_at": "2026-08-11 10:00",
+   "renewed_from": "購入金額の2%"
   },
   "pointincome:8702": {
    "site": "pointincome",
@@ -312874,16 +312877,17 @@
    "site": "pointincome",
    "deal_id": "146067",
    "title": "ドクターシーラボ",
-   "points_text": "購入金額の20%",
+   "points_text": "購入金額の13%",
    "yen": null,
-   "percent": 20.0,
+   "percent": 13.0,
    "url": "https://pointi.jp/ad/146067/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 17:00",
-   "last_seen": "2026-07-17",
-   "delisted_at": "2026-07-17"
+   "last_seen": "2026-08-11",
+   "delisted_at": "2026-07-17",
+   "renew_hold": true
   },
   "pointincome:121768": {
    "site": "pointincome",
@@ -314278,7 +314282,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 01:00",
-   "last_seen": "2026-07-17",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-17"
   },
   "pointincome:155290": {
@@ -317999,7 +318003,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 01:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-07-21"
   },
   "pointincome:152942": {
@@ -334689,16 +334693,17 @@
    "site": "pointincome",
    "deal_id": "1360",
    "title": "生協パルシステム　無料資料請求",
-   "points_text": "15,000pt",
-   "yen": 1500.0,
+   "points_text": "12,000pt",
+   "yen": 1200.0,
    "percent": null,
    "url": "https://pointi.jp/ad/1360/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30",
-   "delisted_at": "2026-07-30"
+   "last_seen": "2026-08-11",
+   "delisted_at": "2026-07-30",
+   "renew_hold": true
   },
   "pointincome:94456": {
    "site": "pointincome",
@@ -341560,7 +341565,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-08-02"
   },
   "pointincome:155981": {
@@ -341575,7 +341580,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-11",
    "delisted_at": "2026-08-02"
   },
   "pointincome:152149": {
@@ -350787,7 +350792,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "site_new": false
   },
   "amefri:139315": {
@@ -352367,7 +352372,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-11",
    "renew_hold": true
   },
   "poikatsu_club:20244": {
@@ -354153,7 +354158,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 21:00",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "fruitmail:18469": {
    "site": "fruitmail",
@@ -354856,6 +354861,104 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 08:20",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:154748": {
+   "site": "pointincome",
+   "deal_id": "154748",
+   "title": "Pontaでんき【合計14,200円相当】",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154748/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:156043": {
+   "site": "pointincome",
+   "deal_id": "156043",
+   "title": "無料の家計相談",
+   "points_text": "80,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156043/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:156042": {
+   "site": "pointincome",
+   "deal_id": "156042",
+   "title": "資産づくりアンケート",
+   "points_text": "1,000pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156042/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:11144": {
+   "site": "pointincome",
+   "deal_id": "11144",
+   "title": "Yahoo!ショッピング（ヤフーショッピング）",
+   "points_text": "購入金額の1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://pointi.jp/ad/11144/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:155639": {
+   "site": "pointincome",
+   "deal_id": "155639",
+   "title": "SNSキャンペーン",
+   "points_text": "1,000pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155639/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:143569": {
+   "site": "pointincome",
+   "deal_id": "143569",
+   "title": "JCBギフトカード",
+   "points_text": "購入金額の0.5%",
+   "yen": null,
+   "percent": 0.5,
+   "url": "https://pointi.jp/ad/143569/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
+   "last_seen": "2026-08-11"
+  },
+  "pointincome:153974": {
+   "site": "pointincome",
+   "deal_id": "153974",
+   "title": "TSON FUNDING【100万円投資完了】",
+   "points_text": "900,000pt",
+   "yen": 90000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/153974/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-11",
+   "first_seen_at": "2026-08-11 10:00",
    "last_seen": "2026-08-11"
   }
  }

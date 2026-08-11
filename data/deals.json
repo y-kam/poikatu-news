@@ -352827,7 +352827,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "delisted_at": "2026-08-10"
   },
   "warau:205507": {
@@ -352842,7 +352842,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "delisted_at": "2026-08-10"
   },
   "poikatsu_club:20242": {
@@ -352943,7 +352943,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 11:00",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   "amefri:139346": {
    "site": "amefri",
@@ -353087,7 +353087,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 13:00",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   "fruitmail:18468": {
    "site": "fruitmail",
@@ -353576,7 +353576,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 17:00",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-12"
   },
   "warau:205539": {
    "site": "warau",
@@ -355073,6 +355073,20 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 01:00",
+   "last_seen": "2026-08-12"
+  },
+  "moppy:161992": {
+   "site": "moppy",
+   "deal_id": "161992",
+   "title": "Travel Wallet（トラベルウォレット）",
+   "points_text": "300P",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=161992",
+   "condition": "新規アプリインストール後90日以内にカード発行",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 05:00",
    "last_seen": "2026-08-12"
   }
  }

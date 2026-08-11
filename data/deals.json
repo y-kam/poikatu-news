@@ -61644,9 +61644,9 @@
    "site": "line_catalog",
    "deal_id": "temu",
    "title": "Temu（テム）【リピート購入OK】",
-   "points_text": "4.0%還元",
+   "points_text": "5.0%還元",
    "yen": null,
-   "percent": 4.0,
+   "percent": 5.0,
    "url": "https://ec.line.me/shop/temu/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -61684,14 +61684,15 @@
    "site": "line_catalog",
    "deal_id": "shiseido_onlinestore",
    "title": "資生堂オンラインストア",
-   "points_text": "10.0%還元",
+   "points_text": "2.0%還元",
    "yen": null,
-   "percent": 10.0,
+   "percent": 2.0,
    "url": "https://ec.line.me/shop/shiseido_onlinestore/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-11",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:belluna": {
    "site": "line_catalog",
@@ -64348,14 +64349,15 @@
    "site": "line_catalog",
    "deal_id": "hugoboss",
    "title": "HUGO BOSS",
-   "points_text": "4.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 4.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/hugoboss/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-11",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "line_catalog:danielwellingtonjp": {
    "site": "line_catalog",
@@ -302496,18 +302498,19 @@
   "moppy:148927": {
    "site": "moppy",
    "deal_id": "148927",
-   "title": "au PAY カード",
-   "points_text": "3,000P",
-   "yen": 3000.0,
+   "title": "※還元アップ※au PAY カード",
+   "points_text": "6,000P",
+   "yen": 6000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=148927",
    "condition": "新規カード発行",
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 01:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-11",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-08-11 11:00",
+   "renewed_from": "3,000P"
   },
   "moppy:158896": {
    "site": "moppy",
@@ -352415,7 +352418,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-11"
   },
   "poikatsu_club:2147": {
    "site": "poikatsu_club",

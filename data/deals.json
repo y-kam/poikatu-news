@@ -43289,28 +43289,29 @@
    "site": "pointincome",
    "deal_id": "155136",
    "title": "エポスカード【最短4日付与】",
-   "points_text": "120,000pt",
-   "yen": 12000.0,
+   "points_text": "121,000pt",
+   "yen": 12100.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-13",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-08-13 05:00",
+   "renewed_from": "120,000pt"
   },
   "pointincome:154106": {
    "site": "pointincome",
    "deal_id": "154106",
-   "title": "みんなのFX（新規90lot以上）【みんなでチャレンジ達成で+30,000pt!!】",
+   "title": "みんなのFX（新規90lot以上）",
    "points_text": "160,000pt",
    "yen": 16000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154106/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -43451,7 +43452,7 @@
    "url": "https://pointi.jp/ad/149212/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renewed_at": "2026-08-12 11:00",
@@ -164332,7 +164333,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-08-13"
   },
   "pointincome:153831": {
    "site": "pointincome",
@@ -164374,7 +164375,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-08-13"
   },
   "pointincome:155738": {
    "site": "pointincome",
@@ -272835,16 +272836,17 @@
    "site": "pointincome",
    "deal_id": "141542",
    "title": "イオンカードセレクト",
-   "points_text": "30,000pt",
-   "yen": 3000.0,
+   "points_text": "28,000pt",
+   "yen": 2800.0,
    "percent": null,
    "url": "https://pointi.jp/ad/141542/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-07-09",
-   "delisted_at": "2026-07-08"
+   "last_seen": "2026-08-13",
+   "delisted_at": "2026-07-08",
+   "renew_hold": true
   },
   "au_point:8:1476": {
    "site": "au_point",
@@ -274365,7 +274367,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-08-11 10:00",
    "renewed_from": "100,000pt"
@@ -274412,7 +274414,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "88,880pt"
@@ -274491,7 +274493,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-09"
   },
   "pointincome:13355": {
@@ -274506,25 +274508,24 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-09"
   },
   "pointincome:131629": {
    "site": "pointincome",
    "deal_id": "131629",
-   "title": "【月初3日間限定‼高還元‼】マネックス証券　総合取引口座",
-   "points_text": "115,000pt",
-   "yen": 11500.0,
+   "title": "マネックス証券　総合取引口座",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/131629/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-09",
-   "renewed_at": "2026-08-03 05:00",
-   "renewed_from": "100,000pt"
+   "renew_hold": true
   },
   "pointincome:155100": {
    "site": "pointincome",
@@ -276341,7 +276342,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-10"
   },
   "pointincome:101902": {
@@ -276356,7 +276357,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155153": {
@@ -276407,19 +276408,18 @@
   "pointincome:153520": {
    "site": "pointincome",
    "deal_id": "153520",
-   "title": "【8/11までの高還元‼】ベルテックス資料請求",
-   "points_text": "48,000pt",
-   "yen": 4800.0,
+   "title": "ベルテックス資料請求",
+   "points_text": "35,000pt",
+   "yen": 3500.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153520/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-10",
-   "renewed_at": "2026-08-11 10:00",
-   "renewed_from": "40,000pt"
+   "renew_hold": true
   },
   "pointincome:145640": {
    "site": "pointincome",
@@ -276433,7 +276433,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-10"
   },
   "pointincome:147716": {
@@ -296769,7 +296769,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-10"
   },
   "pointincome:149306": {
@@ -300020,7 +300020,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -302682,7 +302682,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-14",
    "renew_hold": true
   },
@@ -307443,17 +307443,18 @@
    "site": "pointincome",
    "deal_id": "151311",
    "title": "中古車買取・廃車買取　カーネクスト",
-   "points_text": "180,000pt",
-   "yen": 18000.0,
+   "points_text": "240,000pt",
+   "yen": 24000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/151311/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-15",
-   "renew_hold": true
+   "renewed_at": "2026-08-13 05:00",
+   "renewed_from": "180,000pt"
   },
   "pointincome:150674": {
    "site": "pointincome",
@@ -307573,7 +307574,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-15"
   },
   "pointincome:154396": {
@@ -320431,7 +320432,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 08:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-22"
   },
   "pointincome:154901": {
@@ -320476,7 +320477,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 08:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-07-22",
    "renewed_at": "2026-08-12 10:00",
    "renewed_from": "購入金額の3.5%"
@@ -331423,17 +331424,19 @@
   "pointincome:155331": {
    "site": "pointincome",
    "deal_id": "155331",
-   "title": "【31日間無料お試し】dアニメストア",
-   "points_text": "8,400pt",
-   "yen": 840.0,
+   "title": "【即pt】dアニメストア【31日間無料お試し】",
+   "points_text": "9,000pt",
+   "yen": 900.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155331/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-31",
-   "delisted_at": "2026-07-30"
+   "last_seen": "2026-08-13",
+   "delisted_at": "2026-07-30",
+   "renewed_at": "2026-08-13 05:00",
+   "renewed_from": "8,400pt"
   },
   "pointincome:13503": {
    "site": "pointincome",
@@ -341669,7 +341672,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-08-02"
   },
   "pointincome:155981": {
@@ -346624,8 +346627,8 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 17:00",
-   "last_seen": "2026-08-12",
-   "renewed_at": "2026-08-10 07:52"
+   "last_seen": "2026-08-13",
+   "renewed_at": "2026-08-13 05:00"
   },
   "pointtown:10909": {
    "site": "pointtown",
@@ -355011,7 +355014,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 10:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-08-12"
   },
   "pointincome:156043": {
@@ -355202,7 +355205,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 10:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "dead_streak": 2
   },
   "warau:205561": {
@@ -355246,7 +355249,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 11:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-08-12"
   },
   "warau:205564": {
@@ -355261,7 +355264,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 11:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-08-12"
   },
   "warau:205565": {
@@ -355276,7 +355279,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 11:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "delisted_at": "2026-08-12"
   },
   "amefri:139375": {
@@ -355971,7 +355974,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 17:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-13",
    "site_new": false
   },
   "warau:205587": {
@@ -356496,7 +356499,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 21:00",
-   "last_seen": "2026-08-12"
+   "last_seen": "2026-08-13"
   },
   "warau:202914": {
    "site": "warau",
@@ -357487,6 +357490,230 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 01:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102495": {
+   "site": "hapitas",
+   "deal_id": "102495",
+   "title": "Screw Out Factory Puzzle 3D（経験値バーのマイルストーンを5にする（ユーザーレベル5に到達する））（iOS）",
+   "points_text": "182pt",
+   "yen": 182.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102495/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102510": {
+   "site": "hapitas",
+   "deal_id": "102510",
+   "title": "Ball Hop(ボール ホップ)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102510/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:100168": {
+   "site": "hapitas",
+   "deal_id": "100168",
+   "title": "ロイヤルマッチ",
+   "points_text": "11,470pt",
+   "yen": 11470.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/100168/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:100666": {
+   "site": "hapitas",
+   "deal_id": "100666",
+   "title": "ロイヤルマッチ",
+   "points_text": "23,693pt",
+   "yen": 23693.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/100666/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102487": {
+   "site": "hapitas",
+   "deal_id": "102487",
+   "title": "マネーフォワード 請求書カード払い",
+   "points_text": "3,000pt",
+   "yen": 3000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102487/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102488": {
+   "site": "hapitas",
+   "deal_id": "102488",
+   "title": "【年収2,000万円以上限定】RENOSYアメリカ不動産",
+   "points_text": "50,000pt",
+   "yen": 50000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102488/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102505": {
+   "site": "hapitas",
+   "deal_id": "102505",
+   "title": "GMOクリック証券（FX）",
+   "points_text": "7,800pt",
+   "yen": 7800.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102505/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:75799": {
+   "site": "hapitas",
+   "deal_id": "75799",
+   "title": "【匠本舗】料亭おせち",
+   "points_text": "8%",
+   "yen": null,
+   "percent": 8.0,
+   "url": "https://hapitas.jp/item/detail/itemid/75799/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102493": {
+   "site": "hapitas",
+   "deal_id": "102493",
+   "title": "【最大24,000円相当】三菱ＵＦＪ銀行口座と三菱ＵＦＪカードはセットがおトク",
+   "points_text": "12,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102493/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102489": {
+   "site": "hapitas",
+   "deal_id": "102489",
+   "title": "三菱ＵＦＪ銀行資産運用プラスセット",
+   "points_text": "17,000pt",
+   "yen": 17000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102489/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102473": {
+   "site": "hapitas",
+   "deal_id": "102473",
+   "title": "215万冊以上から探す！初回購入で50%還元【BOOK WALKER】(26-0727)",
+   "points_text": "1,100pt",
+   "yen": 1100.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102473/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "hapitas:102459": {
+   "site": "hapitas",
+   "deal_id": "102459",
+   "title": "Tokyo Life （東京ライフ）",
+   "points_text": "1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://hapitas.jp/item/detail/itemid/102459/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "pointincome:156054": {
+   "site": "pointincome",
+   "deal_id": "156054",
+   "title": "【即1,000円GET】三菱ＵＦＪ銀行 口座開設【最大15,000円相当】",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156054/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "pointincome:151846": {
+   "site": "pointincome",
+   "deal_id": "151846",
+   "title": "オンライン診療・お薬の通販【med.】（メッド）　初回購入",
+   "points_text": "25,000pt",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/151846/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "pointincome:156051": {
+   "site": "pointincome",
+   "deal_id": "156051",
+   "title": "保冷力抜群のクーラーボックス　クイズ回答",
+   "points_text": "10pt",
+   "yen": 1.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156051/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
+   "last_seen": "2026-08-13"
+  },
+  "pointincome:156050": {
+   "site": "pointincome",
+   "deal_id": "156050",
+   "title": "休日の高速道路での危険予測【バイク視点】クイズ回答",
+   "points_text": "10pt",
+   "yen": 1.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156050/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 05:00",
    "last_seen": "2026-08-13"
   }
  }

@@ -43444,17 +43444,18 @@
   "pointincome:149212": {
    "site": "pointincome",
    "deal_id": "149212",
-   "title": "SBI証券　口座開設【高還元は7/31まで！】",
-   "points_text": "110,000pt",
-   "yen": 11000.0,
+   "title": "SBI証券　口座開設【高還元中！】",
+   "points_text": "140,000pt",
+   "yen": 14000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/149212/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-12",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-08-12 11:00",
+   "renewed_from": "110,000pt"
   },
   "pointincome:152294": {
    "site": "pointincome",
@@ -61980,7 +61981,7 @@
    "url": "https://ec.line.me/shop/cecile/",
    "seeded": true,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-12",
    "condition": "",
    "renew_hold": true
   },
@@ -133396,7 +133397,7 @@
    "condition": "お買い物",
    "seeded": true,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10"
+   "last_seen": "2026-08-12"
   },
   "point_hiroba:5512": {
    "site": "point_hiroba",
@@ -274401,7 +274402,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-12",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "88,880pt"
@@ -350828,7 +350829,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "site_new": false
   },
   "amefri:139315": {
@@ -350843,7 +350844,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-12",
    "site_new": false
   },
   "amefri:139314": {
@@ -350858,7 +350859,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-12",
    "site_new": false
   },
   "amefri:139306": {
@@ -355139,6 +355140,90 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 10:00",
+   "last_seen": "2026-08-12"
+  },
+  "warau:205562": {
+   "site": "warau",
+   "deal_id": "205562",
+   "title": "【GFRewards】Mafia City（StepUp）",
+   "points_text": "33,210pt",
+   "yen": 33210.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205562",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 11:00",
+   "last_seen": "2026-08-12"
+  },
+  "warau:205564": {
+   "site": "warau",
+   "deal_id": "205564",
+   "title": "【SmaAD】ぬいぐるみはどこ？（StepUp）",
+   "points_text": "1,518pt",
+   "yen": 1518.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205564",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 11:00",
+   "last_seen": "2026-08-12"
+  },
+  "warau:205565": {
+   "site": "warau",
+   "deal_id": "205565",
+   "title": "【SmaAD】ぬいぐるみはどこ？（StepUp）",
+   "points_text": "1,518pt",
+   "yen": 1518.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205565",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 11:00",
+   "last_seen": "2026-08-12"
+  },
+  "amefri:139375": {
+   "site": "amefri",
+   "deal_id": "139375",
+   "title": "Mafia City【iOS】",
+   "points_text": "453,860pt",
+   "yen": 45386.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139375",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 11:00",
+   "last_seen": "2026-08-12"
+  },
+  "powl:38653": {
+   "site": "powl",
+   "deal_id": "38653",
+   "title": "はたらくヨロコビ",
+   "points_text": "41,000pt",
+   "yen": 4100.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/38653",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 11:00",
+   "last_seen": "2026-08-12"
+  },
+  "poikatsu_club:20282": {
+   "site": "poikatsu_club",
+   "deal_id": "20282",
+   "title": "Mafia City（iOS）",
+   "points_text": "59778pt",
+   "yen": 59778.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/20282",
+   "condition": "新規アプリインストール後、広告クリックから\n60日以内に英雄を1人獲得\n7日以内に星2英雄を1人獲得\n7日以内に星3英雄を1人獲得\n7日以内に星5英雄を1人獲得\n14日以内に星5英雄を3人獲得\n21日以内に星5英雄を5人獲得\n60日以内に星5英雄を8人獲得\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：\n広告クリックから7日以内（星2英雄を1人獲得／星3英雄を1人獲得／星5英雄を1人獲得）\n広告クリックから14日以内（星5英雄を3人獲得）\n広告クリックから21日以内（星5英雄を5人獲得）\n広告クリックから60日以内（英雄を1人獲得／星5英雄を8人獲得）\n成果調査受付期限：広告クリックから64日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・Player IDのテキスト情報\n・Player IDがわかるキャプチャ画像\n・成果到達したことがわかるキャプチャ画像\n・デバイスIDのテキスト情報\n・デバイスIDがわかるキャプチャ画像\n※デバイスIDの確認方法\n・iOS端末の場合（IDFA）：「My Device ID by AppsFlyer」もしくは「adjust Insights」というアプリをインストールいただく事で確認可能\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-08-12",
+   "first_seen_at": "2026-08-12 11:00",
    "last_seen": "2026-08-12"
   }
  }

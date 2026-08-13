@@ -357098,7 +357098,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 21:00",
-   "last_seen": "2026-08-12"
+   "last_seen": "2026-08-13"
   },
   "moppy:6347": {
    "site": "moppy",
@@ -357756,6 +357756,48 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 10:00",
+   "last_seen": "2026-08-13"
+  },
+  "amefri:139421": {
+   "site": "amefri",
+   "deal_id": "139421",
+   "title": "炭酸水メーカー「aarke」公式サイト",
+   "points_text": "5.6％",
+   "yen": null,
+   "percent": 5.6,
+   "url": "https://www.amefri.net/detail/id/139421",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 11:00",
+   "last_seen": "2026-08-13"
+  },
+  "amefri:139419": {
+   "site": "amefri",
+   "deal_id": "139419",
+   "title": "中古パソコンショプ「リスタ」【REYSTA】",
+   "points_text": "3.5％",
+   "yen": null,
+   "percent": 3.5,
+   "url": "https://www.amefri.net/detail/id/139419",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 11:00",
+   "last_seen": "2026-08-13"
+  },
+  "powl:38768": {
+   "site": "powl",
+   "deal_id": "38768",
+   "title": "顧客満足度約94％！【匠本舗】どんどん売れる＜料亭おせち＞",
+   "points_text": "9%還元",
+   "yen": null,
+   "percent": 9.0,
+   "url": "https://web.powl.jp/reward/38768",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-13",
+   "first_seen_at": "2026-08-13 11:00",
    "last_seen": "2026-08-13"
   }
  }

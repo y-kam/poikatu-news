@@ -214450,7 +214450,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-15"
   },
   "point_island:220989": {
    "site": "point_island",
@@ -225838,7 +225838,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-08-15"
   },
   "point_stadium:220989": {
    "site": "point_stadium",
@@ -237285,8 +237285,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-27",
-   "renewed_at": "2026-07-18 21:00"
+   "last_seen": "2026-08-15",
+   "renewed_at": "2026-08-15 21:00"
   },
   "nyandaful:220989": {
    "site": "nyandaful",
@@ -270670,17 +270670,18 @@
    "site": "moppy",
    "deal_id": "4835",
    "title": "KKday（ケーケーデイ）",
-   "points_text": "5.0%",
+   "points_text": "9.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 9.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=4835",
    "condition": "予約後の利用完了",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-08-15",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-08-15 21:00",
+   "renewed_from": "5.0%"
   },
   "moppy:5022": {
    "site": "moppy",
@@ -317415,7 +317416,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 21:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-08-15"
   },
   "chobirich:1894818": {
    "site": "chobirich",
@@ -349239,8 +349240,8 @@
    "site": "moppy",
    "deal_id": "158910",
    "title": "au Wi-Fiアクセス",
-   "points_text": "114P",
-   "yen": 114.0,
+   "points_text": "150P",
+   "yen": 150.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158910",
    "condition": "【新規登録限定】au IDでログインし、利用規約に同意",
@@ -349248,7 +349249,9 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-15",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-15 21:00",
+   "renewed_from": "114P"
   },
   "moppy:161977": {
    "site": "moppy",
@@ -358852,7 +358855,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 17:00",
-   "last_seen": "2026-08-14"
+   "last_seen": "2026-08-15"
   },
   "poikatsu_club:20322": {
    "site": "poikatsu_club",
@@ -358866,7 +358869,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 17:00",
-   "last_seen": "2026-08-14"
+   "last_seen": "2026-08-15"
   },
   "poikatsu_club:20324": {
    "site": "poikatsu_club",
@@ -359700,7 +359703,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-14"
+   "last_seen": "2026-08-15"
   },
   "poikatsu_club:20331": {
    "site": "poikatsu_club",

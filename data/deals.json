@@ -277890,17 +277890,16 @@
    "site": "moppy",
    "deal_id": "161571",
    "title": "日本トレカセンター",
-   "points_text": "85P",
-   "yen": 85.0,
+   "points_text": "60P",
+   "yen": 60.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161571",
    "condition": "インストール後、初回起動",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-01",
-   "renewed_at": "2026-07-20 11:00",
-   "renewed_from": "30P"
+   "last_seen": "2026-08-16",
+   "renew_hold": true
   },
   "moppy:158266": {
    "site": "moppy",
@@ -314708,7 +314707,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 01:00",
-   "last_seen": "2026-08-15",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-20"
   },
   "warau:204740": {
@@ -359040,7 +359039,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-15",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-08-15"
   },
   "warau:205644": {
@@ -359070,7 +359069,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-15",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-08-15"
   },
   "warau:205642": {
@@ -360101,7 +360100,7 @@
    "seeded": false,
    "first_seen": "2026-08-14",
    "first_seen_at": "2026-08-14 01:00",
-   "last_seen": "2026-08-15"
+   "last_seen": "2026-08-16"
   },
   "poney:10000061429": {
    "site": "poney",
@@ -360509,7 +360508,7 @@
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
-   "last_seen": "2026-08-15",
+   "last_seen": "2026-08-16",
    "site_new": false
   },
   "hapitas:102521": {
@@ -361898,6 +361897,20 @@
    "seeded": false,
    "first_seen": "2026-08-16",
    "first_seen_at": "2026-08-16 01:00",
+   "last_seen": "2026-08-16"
+  },
+  "moppy:162013": {
+   "site": "moppy",
+   "deal_id": "162013",
+   "title": "ンポポ（初期設定完了）",
+   "points_text": "62P",
+   "yen": 62.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162013",
+   "condition": "【▼ポイント獲得条件】記載の条件を達成",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 05:00",
    "last_seen": "2026-08-16"
   }
  }

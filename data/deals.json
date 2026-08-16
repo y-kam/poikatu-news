@@ -43084,7 +43084,7 @@
    "url": "https://pointi.jp/ad/154013/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-16",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -43265,15 +43265,17 @@
    "site": "pointincome",
    "deal_id": "141551",
    "title": "JCB CARD LOAN FAITH（カードローン）借入予約サービス申込",
-   "points_text": "180,000pt",
-   "yen": 18000.0,
+   "points_text": "200,000pt",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/141551/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-08-16",
    "condition": "",
-   "delisted_at": "2026-07-07"
+   "delisted_at": "2026-07-07",
+   "renewed_at": "2026-08-16 10:00",
+   "renewed_from": "180,000pt"
   },
   "pointincome:51702": {
    "site": "pointincome",
@@ -43293,17 +43295,16 @@
    "site": "pointincome",
    "deal_id": "155136",
    "title": "エポスカード【最短4日付与】",
-   "points_text": "121,000pt",
-   "yen": 12100.0,
+   "points_text": "100,000pt",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-08-16",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-08-13 05:00",
-   "renewed_from": "120,000pt"
+   "renew_hold": true
   },
   "pointincome:154106": {
    "site": "pointincome",
@@ -49011,9 +49012,9 @@
    "site": "rebates",
    "deal_id": "14666",
    "title": "PLST",
-   "points_text": "3.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/plst",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -70938,7 +70939,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-10",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-07"
   },
   "pointincome:131106": {
@@ -78112,7 +78113,7 @@
    "condition": "新規会員登録完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-16"
   },
   "kurashiru_reward:16411": {
    "site": "kurashiru_reward",
@@ -164605,7 +164606,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-08-16"
   },
   "pointincome:153697": {
    "site": "pointincome",
@@ -273269,7 +273270,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-08",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "30,000pt"
@@ -273322,7 +273323,7 @@
   "pointincome:129022": {
    "site": "pointincome",
    "deal_id": "129022",
-   "title": "U-NEXT［電子書籍・動画・音楽chセット］ 31日間無料（ユーネクスト）",
+   "title": "U-NEXT31日間無料（ユーネクスト）",
    "points_text": "20,000pt",
    "yen": 2000.0,
    "percent": null,
@@ -273331,7 +273332,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-08",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "18,000pt"
@@ -273348,7 +273349,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-08"
   },
   "pointincome:154530": {
@@ -299962,7 +299963,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155741": {
@@ -300069,7 +300070,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -303228,7 +303229,7 @@
   "pointincome:155151": {
    "site": "pointincome",
    "deal_id": "155151",
-   "title": "【合計2,500円分!!】Google One （ドコモ/爆アゲ セレクション）",
+   "title": "Google One （ドコモ/爆アゲ セレクション）",
    "points_text": "5,000pt",
    "yen": 500.0,
    "percent": null,
@@ -303237,7 +303238,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-14"
   },
   "pointincome:150342": {
@@ -303252,7 +303253,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-13",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-14"
   },
   "pointincome:155013": {
@@ -304762,7 +304763,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-14",
    "renewed_at": "2026-08-14 01:00",
    "renewed_from": "70,000pt"
@@ -306084,7 +306085,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 05:00",
-   "last_seen": "2026-07-14",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-14"
   },
   "chobirich:1894668": {
@@ -307542,7 +307543,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-15"
   },
   "pointincome:8782": {
@@ -310656,7 +310657,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-07-15",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-16"
   },
   "pointincome:151508": {
@@ -310677,17 +310678,18 @@
   "pointincome:151471": {
    "site": "pointincome",
    "deal_id": "151471",
-   "title": "【7/22までの過去最高還元！】iHerb（アイハーブ）",
-   "points_text": "購入金額の5%",
+   "title": "iHerb（アイハーブ）",
+   "points_text": "購入金額の3%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.0,
    "url": "https://pointi.jp/ad/151471/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-07-16",
-   "delisted_at": "2026-07-16"
+   "last_seen": "2026-08-16",
+   "delisted_at": "2026-07-16",
+   "renew_hold": true
   },
   "pointincome:112914": {
    "site": "pointincome",
@@ -312289,17 +312291,18 @@
   "pointincome:145270": {
    "site": "pointincome",
    "deal_id": "145270",
-   "title": "【7/22までの高還元！】iHerb（アイハーブ）　初回利用",
-   "points_text": "購入金額の10%",
+   "title": "iHerb（アイハーブ）　初回利用",
+   "points_text": "購入金額の7%",
    "yen": null,
-   "percent": 10.0,
+   "percent": 7.0,
    "url": "https://pointi.jp/ad/145270/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-07-16",
-   "delisted_at": "2026-07-17"
+   "last_seen": "2026-08-16",
+   "delisted_at": "2026-07-17",
+   "renew_hold": true
   },
   "pointincome:155322": {
    "site": "pointincome",
@@ -320551,7 +320554,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 08:00",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-22",
    "renewed_at": "2026-08-12 10:00",
    "renewed_from": "購入金額の3.5%"
@@ -331493,7 +331496,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-07-30"
   },
   "pointincome:155331": {
@@ -341690,7 +341693,7 @@
   "pointincome:154179": {
    "site": "pointincome",
    "deal_id": "154179",
-   "title": "クレディセゾン「ゴールドカードセゾン」",
+   "title": "【合計11,000円分】クレディセゾン「ゴールドカードセゾン」",
    "points_text": "100,000pt",
    "yen": 10000.0,
    "percent": null,
@@ -341699,7 +341702,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-08-02"
   },
   "pointincome:154142": {
@@ -341774,7 +341777,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-08-02"
   },
   "pointincome:152149": {
@@ -342275,7 +342278,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 21:00",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-08-02"
   },
   "entamenet:421993": {
@@ -361912,6 +361915,132 @@
    "seeded": false,
    "first_seen": "2026-08-16",
    "first_seen_at": "2026-08-16 05:00",
+   "last_seen": "2026-08-16"
+  },
+  "moppy:146032": {
+   "site": "moppy",
+   "deal_id": "146032",
+   "title": "YouTube『マネーのミカタ -トクする情報ch-』",
+   "points_text": "10P",
+   "yen": 10.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=146032",
+   "condition": "無料登録",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:155113": {
+   "site": "pointincome",
+   "deal_id": "155113",
+   "title": "DMM CFD",
+   "points_text": "24,000pt",
+   "yen": 2400.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155113/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:150086": {
+   "site": "pointincome",
+   "deal_id": "150086",
+   "title": "TSUTAYA DISCAS（定額8ダブル お試し無料会員登録）",
+   "points_text": "12,000pt",
+   "yen": 1200.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150086/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:150863": {
+   "site": "pointincome",
+   "deal_id": "150863",
+   "title": "JCB Biz ONE（ゴールド）",
+   "points_text": "130,000pt",
+   "yen": 13000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150863/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:148771": {
+   "site": "pointincome",
+   "deal_id": "148771",
+   "title": "E-PRO（イープロ）英会話　無料体験レッスン",
+   "points_text": "12,000pt",
+   "yen": 1200.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/148771/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:149888": {
+   "site": "pointincome",
+   "deal_id": "149888",
+   "title": "塾比較ひろば",
+   "points_text": "3,000pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/149888/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:156060": {
+   "site": "pointincome",
+   "deal_id": "156060",
+   "title": "new balance（ニューバランス）【アウトレット】",
+   "points_text": "購入金額の0.6%",
+   "yen": null,
+   "percent": 0.6,
+   "url": "https://pointi.jp/ad/156060/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "pointincome:122124": {
+   "site": "pointincome",
+   "deal_id": "122124",
+   "title": "new balance（ニューバランス）公式オンラインストア",
+   "points_text": "購入金額の0.6%",
+   "yen": null,
+   "percent": 0.6,
+   "url": "https://pointi.jp/ad/122124/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
+   "last_seen": "2026-08-16"
+  },
+  "warau:205662": {
+   "site": "warau",
+   "deal_id": "205662",
+   "title": "【myChips】AI Takeover Tycoon（StepUp）",
+   "points_text": "2,980pt",
+   "yen": 2980.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205662",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-16",
+   "first_seen_at": "2026-08-16 10:00",
    "last_seen": "2026-08-16"
   }
  }

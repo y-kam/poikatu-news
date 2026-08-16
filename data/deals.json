@@ -357950,7 +357950,8 @@
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 11:00",
    "last_seen": "2026-08-16",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-16 15:00"
   },
   "amefri:139419": {
    "site": "amefri",
@@ -357965,7 +357966,8 @@
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 11:00",
    "last_seen": "2026-08-16",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-16 15:00"
   },
   "powl:38768": {
    "site": "powl",
@@ -358068,7 +358070,8 @@
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 13:00",
    "last_seen": "2026-08-16",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-16 15:00"
   },
   "amefri:139425": {
    "site": "amefri",
@@ -358083,7 +358086,8 @@
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 13:00",
    "last_seen": "2026-08-16",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-16 15:00"
   },
   "amefri:139424": {
    "site": "amefri",
@@ -358098,7 +358102,8 @@
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 13:00",
    "last_seen": "2026-08-16",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-16 15:00"
   },
   "amefri:139423": {
    "site": "amefri",
@@ -359103,7 +359108,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-15",
+   "last_seen": "2026-08-16",
    "delisted_at": "2026-08-15"
   },
   "warau:205640": {
@@ -359726,7 +359731,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-15"
+   "last_seen": "2026-08-16"
   },
   "poikatsu_club:20329": {
    "site": "poikatsu_club",

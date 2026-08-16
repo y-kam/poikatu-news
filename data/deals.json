@@ -59033,14 +59033,15 @@
    "site": "gpoint",
    "deal_id": "127966",
    "title": "ベルーナ（Belluna）",
-   "points_text": "3％Ｇ",
+   "points_text": "1％Ｇ",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.0,
    "url": "https://pmall.gpoint.co.jp/shoplist/allshop/127966/",
    "seeded": true,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-16",
-   "condition": ""
+   "condition": "",
+   "renew_hold": true
   },
   "gpoint:132778": {
    "site": "gpoint",
@@ -343297,7 +343298,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-16",
    "site_new": false
   },
   "warau:205196": {
@@ -343988,7 +343989,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 17:00",
-   "last_seen": "2026-08-15",
+   "last_seen": "2026-08-16",
    "site_new": true,
    "renewed_at": "2026-08-15 21:10",
    "renewed_from": "500P"
@@ -345863,7 +345864,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 13:00",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-08-16",
    "site_new": false
   },
   "moppy:142224": {

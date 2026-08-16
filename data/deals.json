@@ -214581,15 +214581,17 @@
    "site": "point_island",
    "deal_id": "0411485",
    "title": "ライフカード「ビジネスライト」",
-   "points_text": "68000ポイント",
-   "yen": 6800.0,
+   "points_text": "70000ポイント",
+   "yen": 7000.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=0411485",
    "condition": "カード利用",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-27"
+   "last_seen": "2026-08-17",
+   "renewed_at": "2026-08-17 08:00",
+   "renewed_from": "68000ポイント"
   },
   "point_island:11141552": {
    "site": "point_island",
@@ -225983,15 +225985,17 @@
    "site": "point_stadium",
    "deal_id": "0411485",
    "title": "ライフカード「ビジネスライト」",
-   "points_text": "68000ポイント",
-   "yen": 6800.0,
+   "points_text": "70000ポイント",
+   "yen": 7000.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=0411485",
    "condition": "カード利用で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-22"
+   "last_seen": "2026-08-17",
+   "renewed_at": "2026-08-17 08:00",
+   "renewed_from": "68000ポイント"
   },
   "point_stadium:11141552": {
    "site": "point_stadium",
@@ -237434,16 +237438,16 @@
    "site": "nyandaful",
    "deal_id": "0411485",
    "title": "ライフカード「ビジネスライト」",
-   "points_text": "68,000pt",
-   "yen": 6800.0,
+   "points_text": "70,000pt",
+   "yen": 7000.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=0411485",
    "condition": "カード利用で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-21",
-   "renewed_at": "2026-07-12 13:38"
+   "last_seen": "2026-08-17",
+   "renewed_at": "2026-08-17 08:00"
   },
   "nyandaful:11141552": {
    "site": "nyandaful",
@@ -278304,18 +278308,17 @@
   "moppy:160269": {
    "site": "moppy",
    "deal_id": "160269",
-   "title": "※週末限定UP※Snake Clash/スネーククラッシュ (ステージ8 オープン)_iOS",
-   "points_text": "100P",
-   "yen": 100.0,
+   "title": "Snake Clash/スネーククラッシュ (ステージ8 オープン)_iOS",
+   "points_text": "90P",
+   "yen": 90.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160269",
    "condition": "新規アプリインストール後、ステージ8 オープン",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-15",
-   "renewed_at": "2026-08-04 01:00",
-   "renewed_from": "90P"
+   "last_seen": "2026-08-17",
+   "renew_hold": true
   },
   "moppy:160298": {
    "site": "moppy",
@@ -302766,15 +302769,17 @@
    "site": "point_land",
    "deal_id": "0411485",
    "title": "ライフカード「ビジネスライト」",
-   "points_text": "68000ポイント",
-   "yen": 6800.0,
+   "points_text": "70000ポイント",
+   "yen": 7000.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=0411485",
    "condition": "カード利用",
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 08:00",
-   "last_seen": "2026-07-18"
+   "last_seen": "2026-08-17",
+   "renewed_at": "2026-08-17 08:00",
+   "renewed_from": "68000ポイント"
   },
   "pointincome:153853": {
    "site": "pointincome",
@@ -359083,7 +359088,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-16",
+   "last_seen": "2026-08-17",
    "delisted_at": "2026-08-15"
   },
   "warau:205643": {
@@ -359294,8 +359299,9 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-08-16",
-   "site_new": false
+   "last_seen": "2026-08-17",
+   "site_new": false,
+   "renewed_at": "2026-08-17 08:00"
   },
   "amefri:139445": {
    "site": "amefri",

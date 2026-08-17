@@ -1438,7 +1438,7 @@
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-11",
-   "site_new": true,
+   "site_new": false,
    "condition": "新規WEB面談完了及び獲得条件をすべてクリア",
    "renew_hold": true
   },
@@ -72040,7 +72040,8 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-17",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-08-17 21:10"
   },
   "moppy:161796": {
    "site": "moppy",
@@ -77932,7 +77933,8 @@
    "condition": "新規月額2,200円（税込）（初月無料）コース登録完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "kurashiru_reward:16465": {
    "site": "kurashiru_reward",
@@ -277353,7 +277355,7 @@
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 15:00",
    "last_seen": "2026-07-28",
-   "site_new": true,
+   "site_new": false,
    "renew_hold": true
   },
   "pointtown:10770": {
@@ -295440,7 +295442,7 @@
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
    "last_seen": "2026-07-16",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "poney:10000063856": {
    "site": "poney",
@@ -295845,7 +295847,8 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "poikatsu_club:6121": {
    "site": "poikatsu_club",
@@ -296269,8 +296272,7 @@
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
    "last_seen": "2026-07-31",
-   "site_new": true,
-   "renewed_at": "2026-08-15 21:10"
+   "site_new": false
   },
   "moppy:159460": {
    "site": "moppy",
@@ -297735,7 +297737,7 @@
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
    "last_seen": "2026-07-10",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:201204": {
    "site": "warau",
@@ -305875,7 +305877,8 @@
    "first_seen_at": "2026-07-14 05:00",
    "last_seen": "2026-08-17",
    "site_new": false,
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "hapitas:101416": {
    "site": "hapitas",
@@ -314319,9 +314322,7 @@
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 01:00",
    "last_seen": "2026-08-13",
-   "site_new": true,
-   "renewed_at": "2026-08-13 21:10",
-   "renewed_from": "14,000P"
+   "site_new": false
   },
   "moppy:157032": {
    "site": "moppy",
@@ -319407,7 +319408,8 @@
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 21:00",
    "last_seen": "2026-07-22",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "warau:204817": {
    "site": "warau",
@@ -319568,7 +319570,8 @@
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 21:00",
    "last_seen": "2026-07-24",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-08-17 21:10"
   },
   "amefri:138989": {
    "site": "amefri",
@@ -322015,7 +322018,8 @@
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
    "last_seen": "2026-07-23",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "moppy:112069": {
    "site": "moppy",
@@ -322732,7 +322736,8 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 01:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "powl:37185": {
    "site": "powl",
@@ -323332,7 +323337,8 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 10:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "powl:37190": {
    "site": "powl",
@@ -325750,8 +325756,7 @@
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
    "last_seen": "2026-07-31",
-   "site_new": true,
-   "renewed_at": "2026-08-15 21:10"
+   "site_new": false
   },
   "moppy:151356": {
    "site": "moppy",
@@ -330467,7 +330472,8 @@
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
    "last_seen": "2026-08-17",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-08-17 21:10"
   },
   "pointincome:154880": {
    "site": "pointincome",
@@ -333876,8 +333882,8 @@
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
    "last_seen": "2026-08-17",
-   "site_new": false,
-   "renewed_at": "2026-08-17 17:00",
+   "site_new": true,
+   "renewed_at": "2026-08-17 21:10",
    "renewed_from": "4,000P"
   },
   "pointincome:155293": {
@@ -338103,7 +338109,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205123": {
    "site": "warau",
@@ -338117,7 +338124,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 17:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205082": {
    "site": "warau",
@@ -338708,7 +338716,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 21:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205160": {
    "site": "warau",
@@ -338722,7 +338731,8 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 21:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-07-31",
+   "dead_streak": 1
   },
   "warau:205155": {
    "site": "warau",
@@ -339865,7 +339875,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-03",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205080": {
    "site": "warau",
@@ -340251,7 +340261,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-02",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205111": {
    "site": "warau",
@@ -340266,7 +340276,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-02",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205106": {
    "site": "warau",
@@ -340295,7 +340305,7 @@
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205103": {
    "site": "warau",
@@ -340309,8 +340319,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "last_seen": "2026-08-01"
   },
   "warau:205098": {
    "site": "warau",
@@ -340921,7 +340930,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "powl:37943": {
    "site": "powl",
@@ -343009,7 +343019,8 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
    "last_seen": "2026-08-05",
-   "site_new": false
+   "site_new": false,
+   "dead_streak": 1
   },
   "pointincome:124966": {
    "site": "pointincome",
@@ -344769,7 +344780,8 @@
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 21:00",
    "last_seen": "2026-08-05",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-08-17 21:10"
   },
   "amefri:139218": {
    "site": "amefri",
@@ -345914,8 +345926,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 13:00",
    "last_seen": "2026-08-04",
-   "site_new": true,
-   "renewed_at": "2026-08-15 21:10"
+   "site_new": false
   },
   "moppy:3530": {
    "site": "moppy",
@@ -347308,7 +347319,7 @@
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 21:00",
    "last_seen": "2026-08-05",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205320": {
    "site": "warau",
@@ -347841,7 +347852,7 @@
    "first_seen": "2026-08-05",
    "first_seen_at": "2026-08-05 01:00",
    "last_seen": "2026-08-05",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205269": {
    "site": "warau",
@@ -349836,7 +349847,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-11",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205421": {
    "site": "warau",
@@ -349851,7 +349862,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-11",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205161": {
    "site": "warau",
@@ -349894,7 +349905,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-11",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205493": {
    "site": "warau",
@@ -349909,7 +349920,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-11",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205490": {
    "site": "warau",
@@ -349966,7 +349977,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-10",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205487": {
    "site": "warau",
@@ -349981,7 +349992,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-10",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205481": {
    "site": "warau",
@@ -350010,7 +350021,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-10",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205480": {
    "site": "warau",
@@ -350025,7 +350036,7 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-10",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205470": {
    "site": "warau",
@@ -353340,8 +353351,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 13:00",
-   "last_seen": "2026-08-17",
-   "dead_streak": 1
+   "last_seen": "2026-08-17"
   },
   "fruitmail:18468": {
    "site": "fruitmail",
@@ -356202,7 +356212,7 @@
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 17:00",
    "last_seen": "2026-08-12",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205585": {
    "site": "warau",
@@ -356701,7 +356711,8 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 21:00",
-   "last_seen": "2026-08-12"
+   "last_seen": "2026-08-12",
+   "dead_streak": 1
   },
   "warau:205612": {
    "site": "warau",
@@ -357523,7 +357534,7 @@
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 01:00",
    "last_seen": "2026-08-13",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205595": {
    "site": "warau",
@@ -360676,7 +360687,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-16",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:205202": {
    "site": "warau",
@@ -360691,7 +360702,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-16",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:200534": {
    "site": "warau",
@@ -360706,7 +360717,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-16",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:192983": {
    "site": "warau",
@@ -361089,7 +361100,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-17",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139479": {
    "site": "amefri",
@@ -361104,7 +361115,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-17",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139480": {
    "site": "amefri",
@@ -361119,7 +361130,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-17",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139475": {
    "site": "amefri",
@@ -361134,7 +361145,7 @@
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
    "last_seen": "2026-08-17",
-   "site_new": true
+   "site_new": false
   },
   "amefri:139486": {
    "site": "amefri",
@@ -362113,7 +362124,7 @@
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 01:00",
    "last_seen": "2026-08-17",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:705": {
    "site": "moppy",
@@ -362128,7 +362139,7 @@
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 01:00",
    "last_seen": "2026-08-17",
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "moppy:162018": {
    "site": "moppy",
@@ -362476,7 +362487,7 @@
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 11:00",
    "last_seen": "2026-08-17",
-   "dead_streak": 1
+   "delisted_at": "2026-08-17"
   },
   "warau:183144": {
    "site": "warau",
@@ -362815,7 +362826,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205686": {
    "site": "warau",
@@ -362829,7 +362841,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205685": {
    "site": "warau",
@@ -362843,7 +362856,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205684": {
    "site": "warau",
@@ -362857,7 +362871,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205676": {
    "site": "warau",
@@ -362899,7 +362914,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205683": {
    "site": "warau",
@@ -362913,7 +362929,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205678": {
    "site": "warau",
@@ -362983,7 +363000,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139501": {
    "site": "amefri",
@@ -362997,7 +363015,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139500": {
    "site": "amefri",
@@ -363011,7 +363030,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139497": {
    "site": "amefri",
@@ -363025,7 +363045,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139496": {
    "site": "amefri",
@@ -363039,7 +363060,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139495": {
    "site": "amefri",
@@ -363053,7 +363075,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139494": {
    "site": "amefri",
@@ -363067,7 +363090,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "entamenet:5s00000012600006": {
    "site": "entamenet",
@@ -363445,7 +363469,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "moppy:162023": {
    "site": "moppy",
@@ -363459,7 +363484,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "warau:205698": {
    "site": "warau",
@@ -363473,7 +363499,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205699": {
    "site": "warau",
@@ -363487,7 +363514,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205694": {
    "site": "warau",
@@ -363501,7 +363529,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205693": {
    "site": "warau",
@@ -363515,7 +363544,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205700": {
    "site": "warau",
@@ -363585,7 +363615,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139507": {
    "site": "amefri",
@@ -363599,7 +363630,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139504": {
    "site": "amefri",
@@ -363613,7 +363645,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139503": {
    "site": "amefri",
@@ -363627,7 +363660,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "powl:38341": {
    "site": "powl",
@@ -363851,7 +363885,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "moppy:162025": {
    "site": "moppy",
@@ -363865,7 +363900,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "moppy:162024": {
    "site": "moppy",
@@ -363879,7 +363915,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "warau:205709": {
    "site": "warau",
@@ -363893,7 +363930,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205708": {
    "site": "warau",
@@ -363907,7 +363945,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "dead_streak": 1
   },
   "warau:205712": {
    "site": "warau",
@@ -364089,7 +364128,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139511": {
    "site": "amefri",
@@ -364103,7 +364143,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139513": {
    "site": "amefri",
@@ -364117,7 +364158,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "amefri:139512": {
    "site": "amefri",
@@ -364131,7 +364173,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-17",
+   "site_new": true
   },
   "chanceit:33352": {
    "site": "chanceit",

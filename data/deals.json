@@ -307856,16 +307856,18 @@
   "chobirich:1894692": {
    "site": "chobirich",
    "deal_id": "1894692",
-   "title": "Miner Fighters",
-   "points_text": "最大3637pt",
-   "yen": 1818.5,
+   "title": "マイナーファイターズ！",
+   "points_text": "最大3738pt",
+   "yen": 1869.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1894692/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-16"
+   "last_seen": "2026-08-17",
+   "renewed_at": "2026-08-17 13:29",
+   "renewed_from": "最大3637pt"
   },
   "chobirich:1894074": {
    "site": "chobirich",
@@ -348384,8 +348386,8 @@
    "site": "chobirich",
    "deal_id": "1894794",
    "title": "マイナーファイターズ！_マルチ3",
-   "points_text": "最大4584pt",
-   "yen": 2292.0,
+   "points_text": "最大4592pt",
+   "yen": 2296.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1894794/",
    "condition": "新規アプリインストール後、各ステップクリア",
@@ -348393,7 +348395,7 @@
    "first_seen": "2026-08-05",
    "first_seen_at": "2026-08-05 18:28",
    "last_seen": "2026-08-17",
-   "renewed_at": "2026-08-15 08:18",
+   "renewed_at": "2026-08-17 13:29",
    "renewed_from": "最大3616pt"
   },
   "chobirich:1894138": {
@@ -362715,6 +362717,48 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:00",
+   "last_seen": "2026-08-17"
+  },
+  "chobirich:1897168": {
+   "site": "chobirich",
+   "deal_id": "1897168",
+   "title": "東京スター銀行　不動産担保ローン",
+   "points_text": "12,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897168/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-17",
+   "first_seen_at": "2026-08-17 13:29",
+   "last_seen": "2026-08-17"
+  },
+  "chobirich:1897172": {
+   "site": "chobirich",
+   "deal_id": "1897172",
+   "title": "ウォーターパークボーイズ (WaterPark Boys)",
+   "points_text": "73pt",
+   "yen": 36.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897172/",
+   "condition": "2番目のステージSANTA_MONICA_BEACHオープンで成果",
+   "seeded": false,
+   "first_seen": "2026-08-17",
+   "first_seen_at": "2026-08-17 13:29",
+   "last_seen": "2026-08-17"
+  },
+  "chobirich:1896990": {
+   "site": "chobirich",
+   "deal_id": "1896990",
+   "title": "ステイトコネクト：交通整理",
+   "points_text": "最大2312pt",
+   "yen": 1156.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1896990/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-17",
+   "first_seen_at": "2026-08-17 13:29",
    "last_seen": "2026-08-17"
   }
  }

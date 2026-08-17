@@ -278310,7 +278310,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "renewed_at": "2026-08-10 21:00",
    "renewed_from": "1,365P"
   },
@@ -278326,7 +278326,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "renew_hold": true
   },
   "moppy:160298": {
@@ -362504,7 +362504,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 11:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-08-17"
   },
   "warau:183144": {
@@ -363978,7 +363978,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "warau:205707": {
    "site": "warau",
@@ -363992,7 +363992,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "warau:205392": {
    "site": "warau",
@@ -364006,7 +364006,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "warau:205391": {
    "site": "warau",
@@ -364020,7 +364020,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "warau:202836": {
    "site": "warau",
@@ -364584,6 +364584,146 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 01:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102572": {
+   "site": "hapitas",
+   "deal_id": "102572",
+   "title": "ウォーターパークボーイズ (WaterPark Boys)",
+   "points_text": "62pt",
+   "yen": 62.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102572/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102590": {
+   "site": "hapitas",
+   "deal_id": "102590",
+   "title": "Sort Master",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102590/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102580": {
+   "site": "hapitas",
+   "deal_id": "102580",
+   "title": "Jungle Escape",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102580/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102587": {
+   "site": "hapitas",
+   "deal_id": "102587",
+   "title": "Flappy Emoji",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102587/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102589": {
+   "site": "hapitas",
+   "deal_id": "102589",
+   "title": "Ninja Assassin",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102589/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102569": {
+   "site": "hapitas",
+   "deal_id": "102569",
+   "title": "大地を守る会　おせち（2027）",
+   "points_text": "9.1%",
+   "yen": null,
+   "percent": 9.1,
+   "url": "https://hapitas.jp/item/detail/itemid/102569/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102570": {
+   "site": "hapitas",
+   "deal_id": "102570",
+   "title": "セイコー時計の修理受付【セイコーウオッチ】",
+   "points_text": "1,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102570/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102545": {
+   "site": "hapitas",
+   "deal_id": "102545",
+   "title": "JALカード（MASTER）（発券+ショッピングマイル・プレミアム付帯）",
+   "points_text": "8,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102545/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:102506": {
+   "site": "hapitas",
+   "deal_id": "102506",
+   "title": "Rintosull（リントスル）",
+   "points_text": "1,600pt",
+   "yen": 1600.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102506/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
+   "last_seen": "2026-08-18"
+  },
+  "hapitas:84115": {
+   "site": "hapitas",
+   "deal_id": "84115",
+   "title": "oisix（おいしっくす）おせち",
+   "points_text": "4%",
+   "yen": null,
+   "percent": 4.0,
+   "url": "https://hapitas.jp/item/detail/itemid/84115/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 05:00",
    "last_seen": "2026-08-18"
   }
  }

@@ -77133,15 +77133,16 @@
    "site": "kurashiru_reward",
    "deal_id": "16780",
    "title": "【今日まで1.8倍還元】楽天カード（最短2日付与）",
-   "points_text": "600,000コイン",
-   "yen": 6000.0,
+   "points_text": "900,000コイン",
+   "yen": 9000.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/16780",
    "condition": "新規カード発行 で",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-18",
-   "renew_hold": true
+   "renewed_at": "2026-08-18 10:00",
+   "renewed_from": "600,000コイン"
   },
   "kurashiru_reward:16779": {
    "site": "kurashiru_reward",
@@ -361675,7 +361676,7 @@
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "poikatsu_club:20360": {
    "site": "poikatsu_club",
@@ -362933,7 +362934,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "dead_streak": 1
   },
   "warau:205683": {
@@ -362948,7 +362949,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 15:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "dead_streak": 1
   },
   "warau:205678": {
@@ -364739,6 +364740,20 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 07:27",
+   "last_seen": "2026-08-18"
+  },
+  "warau:205715": {
+   "site": "warau",
+   "deal_id": "205715",
+   "title": "【myChips】Merge Legend-Atlantis Mermaid（StepUp）",
+   "points_text": "19,195pt",
+   "yen": 19195.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205715",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 10:00",
    "last_seen": "2026-08-18"
   }
  }

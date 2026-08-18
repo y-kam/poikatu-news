@@ -43230,7 +43230,7 @@
    "url": "https://pointi.jp/ad/153683/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-18",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -43302,7 +43302,7 @@
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -61655,9 +61655,9 @@
    "site": "line_catalog",
    "deal_id": "temu",
    "title": "Temu（テム）【リピート購入OK】",
-   "points_text": "5.0%還元",
+   "points_text": "7.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 7.0,
    "url": "https://ec.line.me/shop/temu/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -61668,9 +61668,9 @@
    "site": "line_catalog",
    "deal_id": "aliexpress_",
    "title": "AliExpress（アリエクスプレス）",
-   "points_text": "1.0%還元",
+   "points_text": "10.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://ec.line.me/shop/aliexpress_/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -62372,9 +62372,9 @@
    "site": "line_catalog",
    "deal_id": "felissimo",
    "title": "FELISSIMO（フェリシモ）",
-   "points_text": "5.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/felissimo/",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -78040,7 +78040,7 @@
    "condition": "新規定期商品申込後、初回分受け取り で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "kurashiru_reward:16431": {
    "site": "kurashiru_reward",
@@ -164290,7 +164290,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-18"
   },
   "pointincome:154183": {
    "site": "pointincome",
@@ -164508,7 +164508,7 @@
   "pointincome:125387": {
    "site": "pointincome",
    "deal_id": "125387",
-   "title": "7/14までの高還元！NURO 光（戸建て・マンション）",
+   "title": "【8/29までの高還元！】NURO 光（戸建て・マンション）",
    "points_text": "300,000pt",
    "yen": 30000.0,
    "percent": null,
@@ -164517,7 +164517,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-14"
+   "last_seen": "2026-08-18"
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -164618,7 +164618,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-18"
   },
   "pointincome:153697": {
    "site": "pointincome",
@@ -272812,7 +272812,7 @@
   "pointincome:155152": {
    "site": "pointincome",
    "deal_id": "155152",
-   "title": "【合計2,700円分!!】YouTube Premium （ドコモ/爆アゲ セレクション）",
+   "title": "【初回31日間無料】YouTube Premium （ドコモ/爆アゲ セレクション）",
    "points_text": "7,000pt",
    "yen": 700.0,
    "percent": null,
@@ -272821,7 +272821,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-08"
   },
   "pointincome:155779": {
@@ -274504,19 +274504,18 @@
   "pointincome:155317": {
    "site": "pointincome",
    "deal_id": "155317",
-   "title": "【8/7までポイントUP】三菱ＵＦＪカード ゴールド【最大45,000円相当】",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "三菱ＵＦＪカード ゴールド【最大44,000円相当】",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155317/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-09",
-   "renewed_at": "2026-08-04 13:00",
-   "renewed_from": "120,000pt"
+   "renew_hold": true
   },
   "pointincome:153682": {
    "site": "pointincome",
@@ -276546,7 +276545,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-11",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-10"
   },
   "pointincome:150735": {
@@ -276947,7 +276946,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155596": {
@@ -300081,7 +300080,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -300749,7 +300748,7 @@
   "pointincome:154609": {
    "site": "pointincome",
    "deal_id": "154609",
-   "title": "ブライダルネット",
+   "title": "【実質2ヶ月分無料！】ブライダルネット",
    "points_text": "79,600pt",
    "yen": 7960.0,
    "percent": null,
@@ -300758,7 +300757,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-07-23",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155802": {
@@ -303241,7 +303240,7 @@
   "pointincome:155151": {
    "site": "pointincome",
    "deal_id": "155151",
-   "title": "Google One （ドコモ/爆アゲ セレクション）",
+   "title": "【合計2,500円分!!】Google One （ドコモ/爆アゲ セレクション）",
    "points_text": "5,000pt",
    "yen": 500.0,
    "percent": null,
@@ -303250,7 +303249,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-14"
   },
   "pointincome:150342": {
@@ -310702,7 +310701,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-16",
    "renew_hold": true
   },
@@ -312315,26 +312314,25 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-17",
    "renew_hold": true
   },
   "pointincome:155322": {
    "site": "pointincome",
    "deal_id": "155322",
-   "title": "【8/10まで！独占還元！】THEO+docomo（テオプラス）",
-   "points_text": "150,000pt",
-   "yen": 15000.0,
+   "title": "THEO+docomo（テオプラス）",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155322/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-17",
-   "renewed_at": "2026-08-04 13:00",
-   "renewed_from": "120,000pt"
+   "renew_hold": true
   },
   "pointincome:155358": {
    "site": "pointincome",
@@ -320552,7 +320550,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 08:00",
-   "last_seen": "2026-07-22",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-22"
   },
   "pointincome:155764": {
@@ -328508,18 +328506,17 @@
    "site": "pointincome",
    "deal_id": "155584",
    "title": "【年収700万円以上】マンション投資 個別面談 / JPリターンズ",
-   "points_text": "850,000pt",
-   "yen": 85000.0,
+   "points_text": "800,000pt",
+   "yen": 80000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155584/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-26",
-   "renewed_at": "2026-08-10 10:00",
-   "renewed_from": "800,000pt"
+   "renew_hold": true
   },
   "pointincome:155234": {
    "site": "pointincome",
@@ -328883,7 +328880,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-07-28",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-28"
   },
   "getmoney:67056": {
@@ -330492,7 +330489,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-07-28",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "130,000pt"
@@ -353065,7 +353062,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-08-11"
   },
   "pointincome:146225": {
@@ -359923,7 +359920,7 @@
    "seeded": false,
    "first_seen": "2026-08-14",
    "first_seen_at": "2026-08-14 01:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-18",
    "delisted_at": "2026-08-16"
   },
   "pointincome:141725": {
@@ -364754,6 +364751,258 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 10:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:139988": {
+   "site": "pointincome",
+   "deal_id": "139988",
+   "title": "agoda（アゴダ）",
+   "points_text": "購入金額の5%",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://pointi.jp/ad/139988/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:156068": {
+   "site": "pointincome",
+   "deal_id": "156068",
+   "title": "AGAオンライン診療med.（メッド）",
+   "points_text": "40,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156068/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:156067": {
+   "site": "pointincome",
+   "deal_id": "156067",
+   "title": "ピル処方med.（メッド）",
+   "points_text": "40,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156067/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:156059": {
+   "site": "pointincome",
+   "deal_id": "156059",
+   "title": "UNITED ARROWS ONLINE（ユナイテッドアローズ）",
+   "points_text": "購入金額の1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://pointi.jp/ad/156059/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:153124": {
+   "site": "pointincome",
+   "deal_id": "153124",
+   "title": "スマホ乗り換え.com",
+   "points_text": "70,000pt",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/153124/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:155107": {
+   "site": "pointincome",
+   "deal_id": "155107",
+   "title": "リゲインスリムマネージ",
+   "points_text": "7,840pt",
+   "yen": 784.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155107/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:150187": {
+   "site": "pointincome",
+   "deal_id": "150187",
+   "title": "DARWIN funding 出資完了 50万円以上投資",
+   "points_text": "950,000pt",
+   "yen": 95000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150187/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:151942": {
+   "site": "pointincome",
+   "deal_id": "151942",
+   "title": "あんしんセキュリティ（スタンダードプラン）",
+   "points_text": "5,000pt",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/151942/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "pointincome:114404": {
+   "site": "pointincome",
+   "deal_id": "114404",
+   "title": "オイシックス(Oisix)おためしセット",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/114404/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "warau:205716": {
+   "site": "warau",
+   "deal_id": "205716",
+   "title": "【GFRewards】ぬいぐるみはどこ？（StepUp）",
+   "points_text": "1,057pt",
+   "yen": 1057.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205716",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "warau:205717": {
+   "site": "warau",
+   "deal_id": "205717",
+   "title": "【GFRewards】ぬいぐるみはどこ？（StepUp）",
+   "points_text": "1,057pt",
+   "yen": 1057.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205717",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "warau:200097": {
+   "site": "warau",
+   "deal_id": "200097",
+   "title": "THEO+docomo",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=200097",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "warau:199897": {
+   "site": "warau",
+   "deal_id": "199897",
+   "title": "THEO [テオ]",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=199897",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "amefri:139519": {
+   "site": "amefri",
+   "deal_id": "139519",
+   "title": "ぬいぐるみはどこ？【Android】",
+   "points_text": "14,420pt",
+   "yen": 1442.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139519",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "amefri:139518": {
+   "site": "amefri",
+   "deal_id": "139518",
+   "title": "ぬいぐるみはどこ？【iOS】",
+   "points_text": "14,420pt",
+   "yen": 1442.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139518",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "powl:39166": {
+   "site": "powl",
+   "deal_id": "39166",
+   "title": "デリシアネットスーパー",
+   "points_text": "1,000pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/39166",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "poikatsu_club:20395": {
+   "site": "poikatsu_club",
+   "deal_id": "20395",
+   "title": "ぬいぐるみはどこ？（iOS）",
+   "points_text": "1904pt",
+   "yen": 1904.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/20395",
+   "condition": "新規アプリインストール後、\n・累計500ポイント獲得\n・累計1,000ポイント獲得\n・累計2,000ポイント獲得\n・累計3,000ポイント獲得\n・累計4,000ポイント獲得\n・累計5,000ポイント獲得\n・累計7,000ポイント獲得\n・累計6,000回ゲームクリア\n・累計7,000回ゲームクリア\n・累計8,000回ゲームクリア\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから34日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・累計ポイントが表示された画面のキャプチャ画像\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
+   "last_seen": "2026-08-18"
+  },
+  "poikatsu_club:20396": {
+   "site": "poikatsu_club",
+   "deal_id": "20396",
+   "title": "ぬいぐるみはどこ？（Android）",
+   "points_text": "1904pt",
+   "yen": 1904.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/20396",
+   "condition": "新規アプリインストール後、\n・累計500ポイント獲得\n・累計1,000ポイント獲得\n・累計2,000ポイント獲得\n・累計3,000ポイント獲得\n・累計4,000ポイント獲得\n・累計5,000ポイント獲得\n・累計7,000ポイント獲得\n・累計6,000回ゲームクリア\n・累計7,000回ゲームクリア\n・累計8,000回ゲームクリア\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから34日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・累計ポイントが表示された画面のキャプチャ画像\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-08-18",
+   "first_seen_at": "2026-08-18 11:00",
    "last_seen": "2026-08-18"
   }
  }

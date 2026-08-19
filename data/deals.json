@@ -216312,7 +216312,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-14"
+   "last_seen": "2026-08-20"
   },
   "point_island:d2050": {
    "site": "point_island",
@@ -227688,7 +227688,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-20"
   },
   "point_stadium:d2050": {
    "site": "point_stadium",
@@ -239155,8 +239155,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-05",
-   "renewed_at": "2026-08-01 05:00"
+   "last_seen": "2026-08-20",
+   "renewed_at": "2026-08-20 08:00"
   },
   "nyandaful:d2050": {
    "site": "nyandaful",
@@ -342093,7 +342093,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-20"
   },
   "nyandaful:s27228": {
    "site": "nyandaful",
@@ -366313,7 +366313,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 21:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-19"
   },
   "warau:205764": {

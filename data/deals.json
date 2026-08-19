@@ -278309,8 +278309,8 @@
    "site": "moppy",
    "deal_id": "149647",
    "title": "WINTICKET/ウィンチケット(初回投票)_iOS",
-   "points_text": "2,050P",
-   "yen": 2050.0,
+   "points_text": "2,200P",
+   "yen": 2200.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=149647",
    "condition": "初回投票",
@@ -278318,7 +278318,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-19",
-   "renewed_at": "2026-08-10 21:00",
+   "renewed_at": "2026-08-19 13:00",
    "renewed_from": "1,365P"
   },
   "moppy:160269": {
@@ -324393,7 +324393,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 21:00",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-19"
   },
   "pointtown:10884": {
    "site": "pointtown",
@@ -340930,7 +340930,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-19",
    "delisted_at": "2026-08-18"
   },
   "powl:37943": {
@@ -343019,7 +343019,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-08-19",
    "site_new": false,
    "delisted_at": "2026-08-18"
   },
@@ -361098,7 +361098,7 @@
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "site_new": false,
    "renewed_at": "2026-08-18 01:00"
   },
@@ -364148,7 +364148,7 @@
   "amefri:139514": {
    "site": "amefri",
    "deal_id": "139514",
-   "title": "本で最も実績のある家事代行サービス【ミニメイド・サービス】",
+   "title": "ご利用継続率96％！日本で最も実績のある家事代行サービス【ミニメイド・サービス】",
    "points_text": "30,000pt",
    "yen": 3000.0,
    "percent": null,
@@ -367595,6 +367595,34 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 11:00",
+   "last_seen": "2026-08-19"
+  },
+  "moppy:159190": {
+   "site": "moppy",
+   "deal_id": "159190",
+   "title": "オリコカードローン　CREST",
+   "points_text": "20,000P",
+   "yen": 20000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=159190",
+   "condition": "新規カード申込み発券後、30日以内に10万円以上の利用",
+   "seeded": false,
+   "first_seen": "2026-08-19",
+   "first_seen_at": "2026-08-19 13:00",
+   "last_seen": "2026-08-19"
+  },
+  "powl:39383": {
+   "site": "powl",
+   "deal_id": "39383",
+   "title": "【三井住友銀行】法人ネット口座 Trunk",
+   "points_text": "90,000pt",
+   "yen": 9000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/39383",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-19",
+   "first_seen_at": "2026-08-19 13:00",
    "last_seen": "2026-08-19"
   }
  }

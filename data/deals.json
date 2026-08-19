@@ -306397,7 +306397,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 13:00",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-19",
    "delisted_at": "2026-07-14"
   },
   "moppy:161869": {
@@ -367539,6 +367539,62 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 05:00",
+   "last_seen": "2026-08-19"
+  },
+  "warau:205769": {
+   "site": "warau",
+   "deal_id": "205769",
+   "title": "※合計最大80,400円相当※【三井住友銀行】Olive口座開設",
+   "points_text": "3,000pt",
+   "yen": 3000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205769",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-19",
+   "first_seen_at": "2026-08-19 11:00",
+   "last_seen": "2026-08-19"
+  },
+  "warau:205767": {
+   "site": "warau",
+   "deal_id": "205767",
+   "title": "東急カード",
+   "points_text": "1,200pt",
+   "yen": 1200.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205767",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-19",
+   "first_seen_at": "2026-08-19 11:00",
+   "last_seen": "2026-08-19"
+  },
+  "fruitmail:18477": {
+   "site": "fruitmail",
+   "deal_id": "18477",
+   "title": "DMM JCBカード",
+   "points_text": "72000pt",
+   "yen": 6480.0,
+   "percent": null,
+   "url": "https://www.fruitmail.net/point/detail?ksid=18477",
+   "condition": "クレジットカード発券で",
+   "seeded": false,
+   "first_seen": "2026-08-19",
+   "first_seen_at": "2026-08-19 11:00",
+   "last_seen": "2026-08-19"
+  },
+  "sugutama:41381": {
+   "site": "sugutama",
+   "deal_id": "41381",
+   "title": "スマイルビスコ企画品（買い切り）",
+   "points_text": "1,600mile",
+   "yen": 800.0,
+   "percent": null,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41381",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-19",
+   "first_seen_at": "2026-08-19 11:00",
    "last_seen": "2026-08-19"
   }
  }

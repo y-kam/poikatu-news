@@ -50999,9 +50999,9 @@
    "site": "rebates",
    "deal_id": "11973",
    "title": "iHerb(アイハーブ)【海外ストア】",
-   "points_text": "最大2.0%",
+   "points_text": "最大10.0%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 10.0,
    "url": "https://www.rebates.jp/iherb",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -278183,7 +278183,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-20",
    "renewed_at": "2026-07-25 05:00",
    "renewed_from": "90P"
   },
@@ -278332,7 +278332,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "renewed_at": "2026-08-19 13:00",
    "renewed_from": "1,365P"
   },
@@ -364990,7 +364990,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-18"
   },
   "warau:205717": {
@@ -365005,7 +365005,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-18"
   },
   "warau:200097": {
@@ -365193,7 +365193,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 13:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-18"
   },
   "warau:205720": {
@@ -365208,7 +365208,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 13:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-18"
   },
   "warau:205726": {
@@ -366366,7 +366366,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 21:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-19"
   },
   "warau:205761": {
@@ -367083,7 +367083,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 21:00",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-20"
   },
   "poikatsu_club:20411": {
    "site": "poikatsu_club",
@@ -367125,7 +367125,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 21:00",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-20"
   },
   "poikatsu_club:20412": {
    "site": "poikatsu_club",
@@ -369152,6 +369152,188 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 01:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102641": {
+   "site": "hapitas",
+   "deal_id": "102641",
+   "title": "せんたく仕分け",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102641/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102642": {
+   "site": "hapitas",
+   "deal_id": "102642",
+   "title": "パンケーキタワー",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102642/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102643": {
+   "site": "hapitas",
+   "deal_id": "102643",
+   "title": "らくがき橋",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102643/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102637": {
+   "site": "hapitas",
+   "deal_id": "102637",
+   "title": "タワースタック",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102637/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102638": {
+   "site": "hapitas",
+   "deal_id": "102638",
+   "title": "ボールソートパズル",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102638/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102639": {
+   "site": "hapitas",
+   "deal_id": "102639",
+   "title": "おかたづけ棚",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102639/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102640": {
+   "site": "hapitas",
+   "deal_id": "102640",
+   "title": "カラーブロックジャム",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102640/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102619": {
+   "site": "hapitas",
+   "deal_id": "102619",
+   "title": "Stack Blocks(スタックブロックス)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102619/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102620": {
+   "site": "hapitas",
+   "deal_id": "102620",
+   "title": "Basket Shot",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102620/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102622": {
+   "site": "hapitas",
+   "deal_id": "102622",
+   "title": "こやし本舗",
+   "points_text": "2,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102622/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:92632": {
+   "site": "hapitas",
+   "deal_id": "92632",
+   "title": "ビッグホリデー【スキーツアー＆スノボツアー】",
+   "points_text": "2.8%",
+   "yen": null,
+   "percent": 2.8,
+   "url": "https://hapitas.jp/item/detail/itemid/92632/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102602": {
+   "site": "hapitas",
+   "deal_id": "102602",
+   "title": "ラッキーステーション",
+   "points_text": "200pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102602/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
+   "last_seen": "2026-08-20"
+  },
+  "hapitas:102315": {
+   "site": "hapitas",
+   "deal_id": "102315",
+   "title": "SBI マネーアシスタント",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102315/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 05:00",
    "last_seen": "2026-08-20"
   }
  }

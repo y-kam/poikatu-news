@@ -292701,7 +292701,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "renewed_at": "2026-08-15 08:18",
    "renewed_from": "最大2220pt"
   },
@@ -370657,6 +370657,62 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 17:00",
+   "last_seen": "2026-08-20"
+  },
+  "chobirich:1897430": {
+   "site": "chobirich",
+   "deal_id": "1897430",
+   "title": "日本トレカセンター（iOS）",
+   "points_text": "60pt",
+   "yen": 30.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897430/",
+   "condition": "新規アプリインストール後、初回起動",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 19:28",
+   "last_seen": "2026-08-20"
+  },
+  "chobirich:1897406": {
+   "site": "chobirich",
+   "deal_id": "1897406",
+   "title": "パズル＆コンクエスト（アプリランド）",
+   "points_text": "最大14557pt",
+   "yen": 7278.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897406/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 19:28",
+   "last_seen": "2026-08-20"
+  },
+  "chobirich:1897403": {
+   "site": "chobirich",
+   "deal_id": "1897403",
+   "title": "Screw Out 3D: Nut Sort Jam（アプリランド）",
+   "points_text": "最大1684pt",
+   "yen": 842.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897403/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 19:28",
+   "last_seen": "2026-08-20"
+  },
+  "chobirich:1897408": {
+   "site": "chobirich",
+   "deal_id": "1897408",
+   "title": "隠しオブジェクトゲーム：探してみよう（レベル400クリア）",
+   "points_text": "544pt",
+   "yen": 272.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897408/",
+   "condition": "新規アプリインストール後、30日以内にレベル400クリア",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 19:28",
    "last_seen": "2026-08-20"
   }
  }

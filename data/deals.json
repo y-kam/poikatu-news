@@ -43085,7 +43085,7 @@
    "url": "https://pointi.jp/ad/154013/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-20",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -48948,9 +48948,9 @@
    "site": "rebates",
    "deal_id": "15756",
    "title": "PAL CLOSET",
-   "points_text": "1.5%",
+   "points_text": "2.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 2.0,
    "url": "https://www.rebates.jp/pal-closet",
    "seeded": true,
    "first_seen": "2026-07-05",
@@ -164386,7 +164386,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-08-20"
   },
   "pointincome:153831": {
    "site": "pointincome",
@@ -164414,7 +164414,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-20",
    "renew_hold": true
   },
   "pointincome:148947": {
@@ -164529,7 +164529,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-20"
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -164630,7 +164630,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-20"
   },
   "pointincome:153697": {
    "site": "pointincome",
@@ -271989,17 +271989,19 @@
   "pointincome:144992": {
    "site": "pointincome",
    "deal_id": "144992",
-   "title": "7/31までの高還元！auでんき（Mプラン用）【合計18,000円相当分(不課税)】",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "title": "auでんき（Mプラン用）【合計19,000円相当分(不課税)】",
+   "points_text": "140,000pt",
+   "yen": 14000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/144992/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-07-31",
-   "delisted_at": "2026-07-08"
+   "last_seen": "2026-08-20",
+   "delisted_at": "2026-07-08",
+   "renewed_at": "2026-08-20 10:00",
+   "renewed_from": "130,000pt"
   },
   "pointincome:155229": {
    "site": "pointincome",
@@ -273416,7 +273418,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-07-24",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-08"
   },
   "warau:204383": {
@@ -274517,7 +274519,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-09"
   },
   "pointincome:155317": {
@@ -274572,16 +274574,17 @@
    "site": "pointincome",
    "deal_id": "13355",
    "title": "松井証券 口座開設",
-   "points_text": "16,000pt",
-   "yen": 1600.0,
+   "points_text": "10,000pt",
+   "yen": 1000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/13355/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-13",
-   "delisted_at": "2026-07-09"
+   "last_seen": "2026-08-20",
+   "delisted_at": "2026-07-09",
+   "renew_hold": true
   },
   "pointincome:131629": {
    "site": "pointincome",
@@ -274643,7 +274646,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-09"
   },
   "chobirich:1893366": {
@@ -276488,7 +276491,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -276536,7 +276539,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-10"
   },
   "pointincome:154440": {
@@ -276581,7 +276584,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-10"
   },
   "pointincome:155528": {
@@ -276935,7 +276938,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-10",
    "renewed_at": "2026-08-19 05:00",
    "renewed_from": "15,000pt"
@@ -278215,7 +278218,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-15"
+   "last_seen": "2026-08-20"
   },
   "moppy:135185": {
    "site": "moppy",
@@ -300105,7 +300108,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-11"
   },
   "pointincome:155801": {
@@ -301534,8 +301537,8 @@
    "site": "powl",
    "deal_id": "36531",
    "title": "iOS_WINTICKET（ウィンチケット）_初回投票",
-   "points_text": "21,840pt",
-   "yen": 2184.0,
+   "points_text": "20,800pt",
+   "yen": 2080.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/36531",
    "condition": "",
@@ -302424,7 +302427,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-11"
   },
   "pointincome:154692": {
@@ -303278,7 +303281,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-14"
   },
   "pointincome:150342": {
@@ -307674,7 +307677,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-15",
    "renew_hold": true
   },
@@ -310746,7 +310749,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-08-02",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-16"
   },
   "pointincome:151987": {
@@ -312346,7 +312349,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-17",
    "renew_hold": true
   },
@@ -312377,7 +312380,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-17"
   },
   "pointincome:141951": {
@@ -331634,7 +331637,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-30",
    "renew_hold": true
   },
@@ -334965,7 +334968,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-07-30"
   },
   "warau:205044": {
@@ -353054,7 +353057,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-11"
   },
   "pointincome:155951": {
@@ -362237,7 +362240,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 01:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "site_new": true
   },
   "moppy:162019": {
@@ -364843,7 +364846,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 10:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-18",
    "renewed_at": "2026-08-19 10:00",
    "renewed_from": "19,195pt"
@@ -364935,7 +364938,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-20",
    "dead_streak": 2
   },
   "pointincome:150187": {
@@ -364950,7 +364953,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-08-18",
+   "last_seen": "2026-08-20",
    "dead_streak": 2
   },
   "pointincome:151942": {
@@ -367442,7 +367445,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 01:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-20",
    "delisted_at": "2026-08-19"
   },
   "nifty_point:0001258922F0": {
@@ -369353,6 +369356,160 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 07:27",
+   "last_seen": "2026-08-20"
+  },
+  "pointincome:155982": {
+   "site": "pointincome",
+   "deal_id": "155982",
+   "title": "SBIマネーアシスタント",
+   "points_text": "100,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155982/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "pointincome:136805": {
+   "site": "pointincome",
+   "deal_id": "136805",
+   "title": "源ベッド",
+   "points_text": "購入金額の1.8%",
+   "yen": null,
+   "percent": 1.8,
+   "url": "https://pointi.jp/ad/136805/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "pointincome:154782": {
+   "site": "pointincome",
+   "deal_id": "154782",
+   "title": "Ameba塾探し　口コミ投稿",
+   "points_text": "1,000pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154782/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "pointincome:7075": {
+   "site": "pointincome",
+   "deal_id": "7075",
+   "title": "@cosme SHOPPING（アットコスメ ショッピング）",
+   "points_text": "購入金額の3.5%",
+   "yen": null,
+   "percent": 3.5,
+   "url": "https://pointi.jp/ad/7075/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "rebates:24399": {
+   "site": "rebates",
+   "deal_id": "24399",
+   "title": "Off-White",
+   "points_text": "4.5%",
+   "yen": null,
+   "percent": 4.5,
+   "url": "https://www.rebates.jp/offwhite",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "rebates:25414": {
+   "site": "rebates",
+   "deal_id": "25414",
+   "title": "Palm Angels",
+   "points_text": "4.5%",
+   "yen": null,
+   "percent": 4.5,
+   "url": "https://www.rebates.jp/palmangels.com",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "rebates:24060": {
+   "site": "rebates",
+   "deal_id": "24060",
+   "title": "Roberto Cavalli",
+   "points_text": "4.5%",
+   "yen": null,
+   "percent": 4.5,
+   "url": "https://www.rebates.jp/robertocavalli.com",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "rebates:25426": {
+   "site": "rebates",
+   "deal_id": "25426",
+   "title": "とんかつさぼてん",
+   "points_text": "2.5%",
+   "yen": null,
+   "percent": 2.5,
+   "url": "https://www.rebates.jp/tonkatsu-saboten.com",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "rebates:25425": {
+   "site": "rebates",
+   "deal_id": "25425",
+   "title": "メゾン マルジェラ フレグランス",
+   "points_text": "4.5%",
+   "yen": null,
+   "percent": 4.5,
+   "url": "https://www.rebates.jp/maisonmargiela-fragrances.jp",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "au_point:8:713": {
+   "site": "au_point",
+   "deal_id": "8:713",
+   "title": "勇者ランキング",
+   "points_text": "275P",
+   "yen": 275.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=713",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
+   "last_seen": "2026-08-20"
+  },
+  "powl:39456": {
+   "site": "powl",
+   "deal_id": "39456",
+   "title": "Yarn Loop（iOS）マルチミッション",
+   "points_text": "81,800pt",
+   "yen": 8180.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/39456",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-20",
+   "first_seen_at": "2026-08-20 10:00",
    "last_seen": "2026-08-20"
   }
  }

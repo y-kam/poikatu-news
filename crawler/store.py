@@ -143,7 +143,7 @@ def _recently_new(existing: dict, today: str) -> bool:
     """初出または再浮上が直近NEW_DAYS日以内（＝現在サイトで新着/UP表示中）か。
     builder/generate.py の _is_new_or_up と同じ判定基準。"""
     cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=NEW_DAYS - 1)).strftime("%Y-%m-%d")
-    is_new = not existing.get("backfill") and existing.get("first_seen", "") >= cutoff
+    is_new = not is_catalog(existing) and existing.get("first_seen", "") >= cutoff
     return is_new or (existing.get("renewed_at") or "")[:10] >= cutoff
 
 
@@ -201,7 +201,6 @@ def upsert(store: dict, deals: list, today: str, now: str | None = None,
                 new_keys.append(key)
         else:
             # 既知案件はポイント数などの最新値だけ更新する。
-            # seededフラグは維持する（解除すると初回シード分が翌日「新着」扱いで溢れる）
             # 上書き前に報酬の変化点を値動き履歴に記録する（UPランキング・値動きページ用）
             if history is not None:
                 record_history(history, key, existing, d, today)
@@ -217,6 +216,14 @@ def upsert(store: dict, deals: list, today: str, now: str | None = None,
                     and not existing.get("seeded") and not existing.get("renew_hold")
                     and not _recently_new(existing, today)):
                 existing["renewed_at"] = now or today
+            # 初回シード（IDだけ登録）の案件を一覧クロールで本文まで取得できたら表示解禁する。
+            # 自HP初出ではない（実際にはシード時点で既に載っていた）ため seed_filled を立てて
+            # カタログ由来とみなし、新着セクションには出さない（is_catalog 参照）。
+            # 判定は上の再新着ルールより後に置く: 解禁と同時にUP判定させず、次回観測から
+            # 通常の増減比較に乗せる（解禁初回にUPバッジが大量発生するのを防ぐ）。
+            if existing.get("seeded") and not d.seeded and d.title:
+                existing["seeded"] = False
+                existing["seed_filled"] = True
             existing.update(
                 title=d.title or existing["title"],
                 points_text=d.points_text or existing["points_text"],
@@ -291,6 +298,15 @@ def purge_backfill(store: dict) -> int:
     return len(keys)
 
 
+def is_catalog(deal: dict) -> bool:
+    """自HPの「新着」ではないカタログ由来の案件か。
+    一括バックフィルで取り込んだ案件（backfill）と、初回シード（IDのみ登録）を後から
+    日次クロールで埋めた案件（seed_filled）が該当する。どちらも自HPでの初出日が
+    分からない・実際には以前からサイトに載っていた案件なので、新着扱いにせず、
+    日次リンクチェックの母集団からも既定で外す（件数が多く外部アクセスが膨らむため）。"""
+    return bool(deal.get("backfill") or deal.get("seed_filled"))
+
+
 def is_visible(deal: dict) -> bool:
     """サイトに表示され得る案件か（タイトル有・初回シードでない・掲載終了でない）"""
     return bool(deal.get("title")) and not deal.get("seeded") and not deal.get("delisted_at")
@@ -299,9 +315,10 @@ def is_visible(deal: dict) -> bool:
 def recent_visible(store: dict, today: str, days: int | None = RECENT_DAYS) -> list[dict]:
     """表示対象案件を返す（サイト生成とリンクチェックの共通母集団）。
     days を指定すると初出がその日数以内のものに絞り、None なら全期間を対象にする。
-    バックフィル案件は日付フィルタに関わらず常に表示対象にする（全案件掲載が目的のため）。"""
+    カタログ由来（バックフィル・シード埋め）の案件は日付フィルタに関わらず常に表示対象に
+    する（全案件掲載が目的で、first_seen が自HP初出日ではないため）。"""
     visible = [d for d in store["deals"].values() if is_visible(d)]
     if days is None:
         return visible
     cutoff = (datetime.strptime(today, "%Y-%m-%d") - timedelta(days=days)).strftime("%Y-%m-%d")
-    return [d for d in visible if d.get("backfill") or d["first_seen"] >= cutoff]
+    return [d for d in visible if is_catalog(d) or d["first_seen"] >= cutoff]

@@ -96,8 +96,8 @@ def main() -> int:
                         help="同時にチェックするサイト数（既定は全サイト同時）")
     parser.add_argument(
         "--include-backfill", action="store_true",
-        help="バックフィル案件も死活チェックする（既定は除外。全件だと外部リクエストが激増するため、"
-             "手動での一括点検時のみ指定する）",
+        help="カタログ由来の案件（バックフィル・シード埋め）も死活チェックする（既定は除外。"
+             "全件だと外部リクエストが激増するため、手動での一括点検時のみ指定する）",
     )
     args = parser.parse_args()
 
@@ -118,9 +118,10 @@ def main() -> int:
         site = deal["site"]
         if site not in enabled or site in excluded:
             continue
-        # バックフィル案件は数千〜数万件になり得るため、既定では日次の死活チェック対象外。
+        # カタログ由来（バックフィル・シード埋め）の案件は数千〜数万件になり得るため、
+        # 既定では日次の死活チェック対象外にして外部リクエストと所要時間を抑える。
         # （掲載終了リンクの掃除が必要なら --include-backfill で手動一括点検する）
-        if deal.get("backfill") and not args.include_backfill:
+        if store_mod.is_catalog(deal) and not args.include_backfill:
             continue
         if filter_sites and site not in filter_sites:
             continue

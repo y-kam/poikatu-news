@@ -23,6 +23,7 @@ from crawler.normalize import normalize_points_text, normalize_title, parse_poin
 from crawler.store import (
     NEW_DAYS,
     RECENT_DAYS,
+    is_catalog,
     is_visible,
     load_history,
     load_weekly,
@@ -74,9 +75,10 @@ SPARK_W, SPARK_H = 96, 26
 
 
 def _is_new(deal: dict, new_cutoff: str) -> bool:
-    """自HPへの初出が直近（new_cutoff以降）かつバックフィル分でない案件か。
-    バックフィルのfirst_seenは各サイト側の掲載日で自HP初出ではないため新着から除外する。"""
-    return not deal.get("backfill") and deal["first_seen"] >= new_cutoff
+    """自HPへの初出が直近（new_cutoff以降）かつカタログ由来でない案件か。
+    バックフィル・シード埋め（is_catalog）の first_seen は取り込んだ日や各サイト側の
+    掲載日で自HP初出ではないため新着から除外する。"""
+    return not is_catalog(deal) and deal["first_seen"] >= new_cutoff
 
 
 def _is_up(deal: dict, new_cutoff: str) -> bool:

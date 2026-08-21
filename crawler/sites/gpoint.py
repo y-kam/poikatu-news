@@ -19,6 +19,9 @@ class GpointAdapter(SiteAdapter):
     key = "gpoint"
     name = "Gポイント"
     request_interval = 5.0  # ページ数が多いため間隔を短縮（それでも全体で数分）
+    # 断続的な 403/429/503 で1ページでも落ちるとサイト全体が取得失敗になる（CI実測 4/24回）。
+    # 巡回ページ数が多く、まとまったアクセスがレート制限に触れやすいため再試行する。
+    max_retries = 2
 
     def page_url(self, page):
         # page=1 が現行dailyの先頭ページ（?page=1）と一致。以降はpageを差し替え。

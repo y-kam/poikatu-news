@@ -36,6 +36,9 @@ UNPARSABLE_RATIO = 0.5 # 解析不能率がこの値以上、かつ
 UNPARSABLE_DELTA = 0.3 # ベースライン率＋この値以上のとき spike とみなす
 EMPTY_TITLE_RATIO = 0.4
 
+SUCCESS_WINDOW = 12      # 成功率を見る直近実行回数（1日6回×約2日ぶん）
+SUCCESS_MIN_RATIO = 0.5  # 直近の成功率がこれ未満なら常態的な取得失敗とみなす
+
 KINDS = ("error", "zero", "drop", "unparsable", "empty_title")
 KIND_LABEL = {
     "error": "クロール例外",
@@ -43,6 +46,7 @@ KIND_LABEL = {
     "drop": "取得激減",
     "unparsable": "ポイント解析不能が急増",
     "empty_title": "タイトル取得不能が急増",
+    "flaky": "取得成功率の低下",
 }
 SOFT_KINDS = {"drop"}  # 連続しても warning 止まり（誤検知しやすい軟らかい信号はCIを止めない）
 
@@ -91,6 +95,20 @@ def _baseline_fetched(prior: list) -> "float | None":
     """過去実行の取得件数の中央値（例外回は除く）。判定基準にできる履歴が無ければ None。"""
     vals = [e["f"] for e in prior if not e["err"]]
     return statistics.median(vals) if vals else None
+
+
+def _success_ratio(entries: list) -> "float | None":
+    """直近 SUCCESS_WINDOW 回のうち案件を1件以上取得できた回の割合。判定できなければ None。
+
+    zero/drop はベースライン（過去の中央値）と比べる方式のため、失敗が常態化して中央値
+    まで0に沈んだサイトを検知できない（実例: ポイントインカムが約1か月17%の成功率のまま
+    無警告だった）。ベースラインに依存しない「窓の中の成功率」で常態的な取得失敗を拾う。
+    新着が無い回に0件が正常な差分取得型（cat=False）と、履歴が窓に満たないサイトは対象外。
+    """
+    recent = entries[-SUCCESS_WINDOW:]
+    if len(recent) < SUCCESS_WINDOW or not all(e.get("cat", True) for e in recent):
+        return None
+    return sum(1 for e in recent if e["f"] > 0) / len(recent)
 
 
 def _baseline_unparsable_rate(prior: list) -> float:
@@ -165,6 +183,19 @@ def evaluate(metrics: dict) -> list[dict]:
                 "severity": "critical" if critical else "warning",
                 "streak": streak,
                 "detail": _detail(cur, kind, baseline),
+            })
+        # 直近1回の比較とは別に、窓全体の成功率でも見る（失敗が常態化してベースラインごと
+        # 0に沈み、zero/drop が反応しなくなったサイトを拾う）。単発の失敗では立たない
+        # ＝すでに継続的な異常なので、streak を待たずに critical とする。
+        ratio = _success_ratio(entries)
+        if ratio is not None and ratio < SUCCESS_MIN_RATIO:
+            failed = sum(1 for e in entries[-SUCCESS_WINDOW:] if e["f"] == 0)
+            anomalies.append({
+                "site": site,
+                "kind": "flaky",
+                "severity": "critical",
+                "streak": 1,  # 窓全体の評価なので「N回連続」の表記は付けない
+                "detail": f"直近{SUCCESS_WINDOW}回中{failed}回が取得0件（成功率{ratio:.0%}）",
             })
     anomalies.sort(key=lambda a: (a["severity"] != "critical", a["site"], a["kind"]))
     return anomalies

@@ -24,11 +24,19 @@ SP_APP_CAT_URL = "https://sp.pointi.jp/pts_app.php?cat_no={}&sort=&sub=4"   # �
 APP_CAT_NOS = list(range(285, 303))
 _ID_RE = re.compile(r"/ad/(\d+)")
 
+# 一覧が0件だったときの再取得回数。ポイントインカムはデータセンター系IP（GitHub Actions）
+# からのアクセスに対し、断続的に「200 OK・案件0件」の応答を返す（CI実測の成功率は約17%・
+# 時間帯の偏りなし）。HTTPエラーにならないため PoliteFetcher の再試行では拾えず、
+# 0件を空振りとみなしてここで取り直す。再試行前の待機は fetcher の interval が担う。
+EMPTY_RETRIES = 2
+
 
 @register
 class PointIncomeAdapter(SiteAdapter):
     key = "pointincome"
     name = "ポイントインカム"
+    # PC新着はXHRエンドポイントなので、実ブラウザと同じXHRヘッダ・Refererを付ける
+    extra_headers = {"Referer": BASE, "X-Requested-With": "XMLHttpRequest"}
 
     def _sp_fetcher(self) -> PoliteFetcher:
         # sp のアプリ一覧はモバイルUA＋XHRヘッダが必須
@@ -73,9 +81,17 @@ class PointIncomeAdapter(SiteAdapter):
                 point.get_text(" ", strip=True), urljoin(SP_BASE, a["href"])))
         return deals
 
+    def _fetch_list(self, fetcher, url, parse, max_items):
+        """一覧を取得する。0件（空振り＝ブロックの疑い）なら間隔を空けて取り直す。"""
+        for _ in range(EMPTY_RETRIES + 1):
+            deals = parse(fetcher.get(url), max_items)
+            if deals:
+                return deals
+        return []
+
     def fetch_deals(self, known, max_items):
-        deals = self._parse_pc(self.make_fetcher().get(AJAX_URL), max_items)      # PC新着
-        deals += self._parse_sp(self._sp_fetcher().get(SP_ARRIVAL_URL), max_items)  # アプリ新着
+        deals = self._fetch_list(self.make_fetcher(), AJAX_URL, self._parse_pc, max_items)
+        deals += self._fetch_list(self._sp_fetcher(), SP_ARRIVAL_URL, self._parse_sp, max_items)
         return deals  # PC/spで同一 deal_id が被っても upsert が (site, deal_id) で重複排除
 
     def backfill_deals(self, known, cap):

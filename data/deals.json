@@ -43308,7 +43308,7 @@
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-22",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renew_hold": true
@@ -43436,7 +43436,7 @@
    "url": "https://pointi.jp/ad/134844/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "condition": "",
    "delisted_at": "2026-07-07"
   },
@@ -43457,18 +43457,17 @@
   "pointincome:149212": {
    "site": "pointincome",
    "deal_id": "149212",
-   "title": "SBI証券　口座開設【高還元中！】",
-   "points_text": "140,000pt",
-   "yen": 14000.0,
+   "title": "SBI証券　口座開設",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/149212/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-08-12 11:00",
-   "renewed_from": "110,000pt"
+   "renew_hold": true
   },
   "pointincome:152294": {
    "site": "pointincome",
@@ -171280,7 +171279,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -279962,7 +279961,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-08",
    "renew_hold": true
   },
@@ -280118,7 +280117,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-08"
   },
   "pointincome:129022": {
@@ -281249,7 +281248,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "88,880pt"
@@ -281360,7 +281359,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-09",
    "renew_hold": true
   },
@@ -283719,7 +283718,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-10"
   },
   "pointincome:154075": {
@@ -284731,7 +284730,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "renewed_at": "2026-08-13 17:00",
    "renewed_from": "100P"
   },
@@ -306787,19 +306786,18 @@
   "pointincome:154093": {
    "site": "pointincome",
    "deal_id": "154093",
-   "title": "8/2までの高還元！リクルートカード",
-   "points_text": "55,000pt",
-   "yen": 5500.0,
+   "title": "8/23までの高還元！リクルートカード",
+   "points_text": "51,000pt",
+   "yen": 5100.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154093/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-11",
-   "renewed_at": "2026-07-31 17:00",
-   "renewed_from": "43,000pt"
+   "renew_hold": true
   },
   "pointincome:155698": {
    "site": "pointincome",
@@ -313046,7 +313044,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 11:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-14",
    "renewed_at": "2026-08-20 21:00",
    "renewed_from": "65,000pt"
@@ -314433,7 +314431,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-15"
   },
   "pointincome:154396": {
@@ -317489,7 +317487,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-16",
    "renew_hold": true
   },
@@ -319107,7 +319105,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-17",
    "renewed_at": "2026-08-19 05:00",
    "renewed_from": "購入金額の7%"
@@ -319124,7 +319122,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-17",
    "renew_hold": true
   },
@@ -324119,7 +324117,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 15:00",
-   "last_seen": "2026-07-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-19"
   },
   "pointincome:18378": {
@@ -327362,7 +327360,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 08:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-22",
    "renewed_at": "2026-08-12 10:00",
    "renewed_from": "購入金額の3.5%"
@@ -337304,7 +337302,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-28",
    "renewed_at": "2026-08-10 10:00",
    "renewed_from": "130,000pt"
@@ -338343,7 +338341,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-30",
    "renewed_at": "2026-08-21 11:00",
    "renewed_from": "8,600pt"
@@ -338422,7 +338420,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-30",
    "renew_hold": true
   },
@@ -344172,7 +344170,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 08:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-31"
   },
   "point_land:220989": {
@@ -348648,7 +348646,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-08-02"
   },
   "pointincome:152149": {
@@ -349881,7 +349879,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-08-03"
   },
   "pointincome:155963": {
@@ -366797,7 +366795,7 @@
    "seeded": false,
    "first_seen": "2026-08-14",
    "first_seen_at": "2026-08-14 01:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-08-16"
   },
   "pointincome:141725": {
@@ -371767,7 +371765,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-08-20"
   },
   "pointincome:150187": {
@@ -377612,7 +377610,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 21:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "dead_streak": 1
   },
   "pointincome:156078": {
@@ -377627,7 +377625,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 21:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "dead_streak": 1
   },
   "pointincome:156072": {
@@ -378357,7 +378355,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 01:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "hapitas:92137": {
    "site": "hapitas",
@@ -385411,7 +385409,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 13:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "poikatsu_club:20475": {
    "site": "poikatsu_club",
@@ -385439,7 +385437,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 13:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "poikatsu_club:20472": {
    "site": "poikatsu_club",
@@ -385453,7 +385451,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 13:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "poikatsu_club:20471": {
    "site": "poikatsu_club",
@@ -385844,7 +385842,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 15:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "poikatsu_club:20478": {
    "site": "poikatsu_club",
@@ -385914,7 +385912,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "dead_streak": 1
   },
   "pointincome:154333": {
@@ -385929,7 +385927,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "dead_streak": 1
   },
   "warau:205869": {
@@ -386116,7 +386114,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "dead_streak": 1
   },
   "amefri:133232": {
@@ -386858,7 +386856,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "warau:205900": {
    "site": "warau",
@@ -386942,7 +386940,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "dead_streak": 1
   },
   "warau:205890": {
@@ -387728,6 +387726,104 @@
    "seeded": false,
    "first_seen": "2026-08-22",
    "first_seen_at": "2026-08-22 01:00",
+   "last_seen": "2026-08-22"
+  },
+  "hapitas:102675": {
+   "site": "hapitas",
+   "deal_id": "102675",
+   "title": "デイリーナンバーマッチ",
+   "points_text": "0pt",
+   "yen": 0.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102675/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
+   "last_seen": "2026-08-22"
+  },
+  "hapitas:95891": {
+   "site": "hapitas",
+   "deal_id": "95891",
+   "title": "Match Play 3D",
+   "points_text": "738pt",
+   "yen": 738.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/95891/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
+   "last_seen": "2026-08-22"
+  },
+  "hapitas:102450": {
+   "site": "hapitas",
+   "deal_id": "102450",
+   "title": "キノコ伝説：勇者と魔法のランプ",
+   "points_text": "20,613pt",
+   "yen": 20613.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102450/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
+   "last_seen": "2026-08-22"
+  },
+  "hapitas:102497": {
+   "site": "hapitas",
+   "deal_id": "102497",
+   "title": "Mistplay",
+   "points_text": "9,351pt",
+   "yen": 9351.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102497/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
+   "last_seen": "2026-08-22"
+  },
+  "hapitas:102633": {
+   "site": "hapitas",
+   "deal_id": "102633",
+   "title": "BIOAESTECH デュアルオーブディープリフト",
+   "points_text": "5,600pt",
+   "yen": 5600.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102633/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
+   "last_seen": "2026-08-22"
+  },
+  "hapitas:95039": {
+   "site": "hapitas",
+   "deal_id": "95039",
+   "title": "BitTrade（ビットトレード）「新規口座開設」",
+   "points_text": "2,100pt",
+   "yen": 2100.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/95039/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
+   "last_seen": "2026-08-22"
+  },
+  "pointincome:156074": {
+   "site": "pointincome",
+   "deal_id": "156074",
+   "title": "オリックスカーシェア【2か月間月額無料】",
+   "points_text": "11,000pt",
+   "yen": 1100.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156074/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 05:00",
    "last_seen": "2026-08-22"
   }
  }

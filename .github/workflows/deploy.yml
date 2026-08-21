@@ -27,7 +27,9 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # FTPS再試行（最悪 約17分: 120秒×4回＋待機9分）が枠内に収まるようにする。
+    # 15分のままだと最後の再試行の途中でジョブごと打ち切られる。
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 

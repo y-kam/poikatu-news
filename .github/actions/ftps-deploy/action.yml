@@ -1,11 +1,17 @@
 name: FTPS deploy with retry
 description: >-
   ./site/ をFTPSでサーバへアップロードする。レンタルサーバーのFTPSは
-  一時的にDNS解決失敗（getaddrinfo ENOTFOUND）や接続タイムアウトを起こすことが
-  あるため、失敗時は最大3回まで再試行する。
-  再試行の前には待機を入れる（60秒→120秒）。障害は数分続くことがあり、
-  間隔を空けずに叩き直すと3回とも同じ数十秒の障害窓に収まって全滅するため
-  （2026-08-09/10/12 に発生。3回とも control socket timeout で約90秒以内に失敗）。
+  一時的にDNS解決失敗（getaddrinfo ENOTFOUND）や接続タイムアウトを起こすため、
+  1回の接続に時間をかけつつ、失敗時は最大4回まで間隔を空けて再試行する。
+
+  実測（2026-08-18〜21の失敗5件）では、いずれも「接続確立の段階」で既定の
+  30秒タイムアウトちょうどに落ちており（Failed to connect → Timeout (control socket)、
+  duration 30.2秒×3回）、待機60秒→120秒の3回では障害窓（3分半以上続く）を
+  跨げずに全滅していた。対策は次の2点:
+    - timeout を120秒に延長（混雑で応答が遅れている接続を待ち切る）
+    - 再試行を4回・待機を60秒→180秒→300秒に拡大（約10分の障害窓を跨ぐ）
+  最悪ケースの所要は約17分（120秒×4＋待機9分）。呼び出し側ジョブの
+  timeout-minutes はこれを見込んだ値にすること（crawl:45分 / deploy:30分）。
 inputs:
   server:
     description: FTPサーバホスト（FTP_SERVER）
@@ -33,6 +39,7 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
+        timeout: 120000
     - name: 再試行前の待機（60秒）
       if: steps.try1.outcome == 'failure'
       shell: bash
@@ -50,13 +57,16 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
-    - name: 再試行前の待機（120秒）
+        timeout: 120000
+    - name: 再試行前の待機（180秒）
       if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure'
       shell: bash
-      run: sleep 120
+      run: sleep 180
 
     - name: FTPS upload (3回目)
+      id: try3
       if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure'
+      continue-on-error: true
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ inputs.server }}
@@ -65,3 +75,21 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
+        timeout: 120000
+    - name: 再試行前の待機（300秒）
+      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure' && steps.try3.outcome == 'failure'
+      shell: bash
+      run: sleep 300
+
+    # 最後の1回だけ continue-on-error を付けない（ここまで失敗ならジョブを失敗させて通知する）
+    - name: FTPS upload (4回目)
+      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure' && steps.try3.outcome == 'failure'
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        protocol: ftps
+        local-dir: ./site/
+        server-dir: ${{ inputs.server-dir }}
+        timeout: 120000

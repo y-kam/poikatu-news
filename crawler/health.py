@@ -38,6 +38,7 @@ EMPTY_TITLE_RATIO = 0.4
 
 SUCCESS_WINDOW = 12      # 成功率を見る直近実行回数（1日6回×約2日ぶん）
 SUCCESS_MIN_RATIO = 0.5  # 直近の成功率がこれ未満なら常態的な取得失敗とみなす
+RECOVERY_STREAK = 3      # 直近この回数が連続成功なら回復とみなし、窓に失敗が残っていても報告しない
 
 KINDS = ("error", "zero", "drop", "unparsable", "empty_title")
 KIND_LABEL = {
@@ -107,6 +108,12 @@ def _success_ratio(entries: list) -> "float | None":
     """
     recent = entries[-SUCCESS_WINDOW:]
     if len(recent) < SUCCESS_WINDOW or not all(e.get("cat", True) for e in recent):
+        return None
+    # 直近が連続成功なら回復済みとみなす。窓は約2日ぶんあり、対策を入れた直後は
+    # 修正前の失敗が窓に残り続けるため、直しても丸1日以上 critical が鳴り続けてしまう。
+    # 常態的に失敗しているサイトが連続成功することはまず無い（成功率17%なら約0.5%）ので、
+    # 「取れ続けているか」を回復の判断に使う。
+    if len(recent) >= RECOVERY_STREAK and all(e["f"] > 0 for e in recent[-RECOVERY_STREAK:]):
         return None
     return sum(1 for e in recent if e["f"] > 0) / len(recent)
 

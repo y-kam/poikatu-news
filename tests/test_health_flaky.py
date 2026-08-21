@@ -37,6 +37,18 @@ class FlakyTest(unittest.TestCase):
 
         self.assertNotIn("flaky", kinds(metrics, "s"))
 
+    def test_recovered_site_is_cleared_by_success_streak(self):
+        """対策後に取れ続けているサイトは、窓に修正前の失敗が残っていても報告しない"""
+        metrics = {"sites": {"s": entries([0] * 9 + [30, 30, 30])}}
+
+        self.assertNotIn("flaky", kinds(metrics, "s"))
+
+    def test_recovery_streak_must_be_unbroken(self):
+        """連続成功が途切れていれば（＝まだ断続的に落ちる）報告は続く"""
+        metrics = {"sites": {"s": entries([0] * 9 + [30, 30, 0])}}
+
+        self.assertIn("flaky", kinds(metrics, "s"))
+
     def test_short_history_is_not_judged(self):
         """窓に満たない履歴（導入直後・サイト追加直後）では判定しない"""
         metrics = {"sites": {"s": entries([0] * 6)}}

@@ -73,10 +73,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "data: daily crawl $(date -u +%Y-%m-%d)"
-          # 実行中に別のpushでremoteが進んでいても、rebaseで取り込んでから送る（push衝突対策）
-          git pull --rebase origin main
-          git push
+          if git diff --cached --quiet; then
+            echo "データの変更なし（コミット不要）"
+            exit 0
+          fi
+          git commit -m "data: daily crawl $(date -u +%Y-%m-%d)"
+          # 実行中に別のpushでremoteが進んでいても、rebaseで取り込んでから送る（push衝突対策）。
+          # data/deals.json は巨大なJSONなので、ローカルクロール（ちょびリッチ等）のpushと
+          # 重なると必ず衝突する。衝突したらこの回の結果は捨てる: 取得済みの案件は次回のクロールでも未知IDとして
+          # 拾われるため取りこぼしにはならない。
+          # ジョブを失敗させる（＝毎回の通知メール）より、次回に回すほうが運用上ましなため。
+          if git pull --rebase origin main; then
+            git push
+          else
+            git rebase --abort || true
+            git reset --hard origin/main
+            echo "::warning::リモートが先に進んだため、この回の結果は破棄しました（次回の実行で取り直します）"
+          fi
 
       # レンタルサーバーへFTPSでアップロード（再試行付き共通アクション）
       - name: Deploy to server (FTPS)
@@ -175,9 +188,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "data: link check $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main
-          git push
+          if git diff --cached --quiet; then
+            echo "データの変更なし（コミット不要）"
+            exit 0
+          fi
+          git commit -m "data: link check $(date -u +%Y-%m-%d)"
+          # 実行中に別のpushでremoteが進んでいても、rebaseで取り込んでから送る（push衝突対策）。
+          # data/deals.json は巨大なJSONなので、ローカルクロール（ちょびリッチ等）のpushと
+          # 重なると必ず衝突する。衝突したらこの回の結果は捨てる: 掲載終了の判定は連続回数で確定する方式なので、
+          # 次回のチェックで数え直される（誤った掲載終了が確定することはない）。
+          # ジョブを失敗させる（＝毎回の通知メール）より、次回に回すほうが運用上ましなため。
+          if git pull --rebase origin main; then
+            git push
+          else
+            git rebase --abort || true
+            git reset --hard origin/main
+            echo "::warning::リモートが先に進んだため、この回の結果は破棄しました（次回の実行で取り直します）"
+          fi
 
       # GITHUB_TOKEN でのpushは deploy ワークフローを発火しないため、ここで直接反映する
       - name: Deploy to server (FTPS)

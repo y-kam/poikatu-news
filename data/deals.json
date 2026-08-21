@@ -141350,16 +141350,18 @@
    "site": "point_museum",
    "deal_id": "0409715",
    "title": "AGクラウドファンディング☆口座開設後投資",
-   "points_text": "68,000pt",
-   "yen": 6800.0,
+   "points_text": "85,000pt",
+   "yen": 8500.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=0409715",
-   "condition": "",
+   "condition": "口座開設後投資",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-22",
    "backfill": true,
-   "backfill_dated": true
+   "backfill_dated": true,
+   "renewed_at": "2026-08-22 08:00",
+   "renewed_from": "68,000pt"
   },
   "point_museum:5s00000022171005": {
    "site": "point_museum",
@@ -220835,7 +220837,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-22",
    "renewed_at": "2026-07-21 13:00",
    "renewed_from": "68000ポイント"
   },
@@ -232224,7 +232226,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31",
+   "last_seen": "2026-08-22",
    "renewed_at": "2026-07-21 13:00",
    "renewed_from": "68000ポイント"
   },
@@ -243665,8 +243667,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-31",
-   "renewed_at": "2026-07-24 10:00",
+   "last_seen": "2026-08-22",
+   "renewed_at": "2026-08-22 08:00",
    "renewed_from": "68,000pt"
   },
   "nyandaful:011104": {
@@ -325514,7 +325516,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 13:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-22"
   },
   "point_land:11157010": {
    "site": "point_land",
@@ -385423,7 +385425,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 13:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "poikatsu_club:20473": {
    "site": "poikatsu_club",
@@ -386204,7 +386206,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "site_new": true
   },
   "au_point:3:215045": {
@@ -386870,7 +386872,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "warau:205896": {
    "site": "warau",
@@ -386884,7 +386886,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "warau:205895": {
    "site": "warau",

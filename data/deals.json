@@ -59498,16 +59498,17 @@
    "site": "rebates",
    "deal_id": "14832",
    "title": "資生堂オンラインストア",
-   "points_text": "1.0%",
+   "points_text": "10.0%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://www.rebates.jp/shiseido-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-22",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-08-22 10:00",
+   "renewed_from": "1.0%"
   },
   "rebates:24839": {
    "site": "rebates",

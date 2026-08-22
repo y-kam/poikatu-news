@@ -61595,10 +61595,11 @@
    "yen": 7000.0,
    "percent": null,
    "url": "https://pmall.gpoint.co.jp/shoplist/allshop/133318/",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-14",
-   "condition": ""
+   "last_seen": "2026-08-22",
+   "condition": "",
+   "seed_filled": true
   },
   "gpoint:132245": {
    "site": "gpoint",
@@ -284793,7 +284794,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-22",
    "renewed_at": "2026-08-10 07:52",
    "renewed_from": "1,140P"
   },

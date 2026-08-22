@@ -221251,7 +221251,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-08-23",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "2100ポイント"
   },
@@ -232642,7 +232642,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-08-23",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "2100ポイント"
   },
@@ -244093,8 +244093,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-02",
-   "renewed_at": "2026-08-01 01:00"
+   "last_seen": "2026-08-23",
+   "renewed_at": "2026-08-23 08:00"
   },
   "nyandaful:212712": {
    "site": "nyandaful",
@@ -344196,7 +344196,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 08:00",
-   "last_seen": "2026-08-01",
+   "last_seen": "2026-08-23",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "2100ポイント"
   },
@@ -379152,7 +379152,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-23"
   },
   "point_museum:11155490": {
    "site": "point_museum",
@@ -386244,7 +386244,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "site_new": true
   },
   "au_point:3:215045": {
@@ -386924,7 +386924,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-22"
+   "last_seen": "2026-08-23"
   },
   "warau:205895": {
    "site": "warau",
@@ -386938,7 +386938,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-22"
+   "last_seen": "2026-08-23"
   },
   "warau:205894": {
    "site": "warau",

@@ -142327,10 +142327,10 @@
    "yen": 4000.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=j4081",
-   "condition": "",
+   "condition": "カード発行",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-22",
    "backfill": true,
    "backfill_dated": true
   },
@@ -228166,7 +228166,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-22"
   },
   "point_island:0410761": {
    "site": "point_island",
@@ -239529,7 +239529,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-22"
   },
   "point_stadium:0410761": {
    "site": "point_stadium",
@@ -250934,7 +250934,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-22",
+   "renewed_at": "2026-08-22 21:00"
   },
   "nyandaful:0410761": {
    "site": "nyandaful",
@@ -361771,7 +361772,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 01:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "powl:38623": {
    "site": "powl",
@@ -365353,7 +365354,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 17:00",
-   "last_seen": "2026-08-20",
+   "last_seen": "2026-08-22",
    "site_new": true
   },
   "warau:205635": {
@@ -387904,6 +387905,20 @@
    "seeded": false,
    "first_seen": "2026-08-22",
    "first_seen_at": "2026-08-22 09:14",
+   "last_seen": "2026-08-22"
+  },
+  "point_land:j4081": {
+   "site": "point_land",
+   "deal_id": "j4081",
+   "title": "エポスゴールドカード",
+   "points_text": "40000ポイント",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=j4081",
+   "condition": "カード発行",
+   "seeded": false,
+   "first_seen": "2026-08-22",
+   "first_seen_at": "2026-08-22 21:00",
    "last_seen": "2026-08-22"
   }
  }

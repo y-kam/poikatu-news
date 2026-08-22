@@ -129982,16 +129982,17 @@
    "site": "tamaru_mall",
    "deal_id": "308",
    "title": "【ベルテックス】不動産投資の選べる個別面談【WEB・対面】",
-   "points_text": "50,000コイン",
-   "yen": 50000.0,
+   "points_text": "60,000コイン",
+   "yen": 60000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=308",
    "condition": "新規面談完了",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-22",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-08-22 13:01",
+   "renewed_from": "50,000コイン"
   },
   "tamaru_mall:487": {
    "site": "tamaru_mall",
@@ -280046,18 +280047,19 @@
   "pointincome:148605": {
    "site": "pointincome",
    "deal_id": "148605",
-   "title": "GFS無料特別講座（動画セミナー）",
-   "points_text": "10,000pt",
-   "yen": 1000.0,
+   "title": "【8/24までの高還元！】GFS無料特別講座（動画セミナー）",
+   "points_text": "12,000pt",
+   "yen": 1200.0,
    "percent": null,
    "url": "https://pointi.jp/ad/148605/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-12",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-08",
-   "renew_hold": true
+   "renewed_at": "2026-08-22 13:01",
+   "renewed_from": "10,000pt"
   },
   "pointincome:154791": {
    "site": "pointincome",
@@ -309530,18 +309532,19 @@
   "pointincome:144213": {
    "site": "pointincome",
    "deal_id": "144213",
-   "title": "三菱UFJ eスマート証券（初回100円以上取引）",
-   "points_text": "80,000pt",
-   "yen": 8000.0,
+   "title": "【9/5までの高還元！】三菱UFJ eスマート証券（初回100円以上取引）",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/144213/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-08-13",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-14",
-   "renew_hold": true
+   "renewed_at": "2026-08-22 13:01",
+   "renewed_from": "80,000pt"
   },
   "pointincome:115661": {
    "site": "pointincome",
@@ -310081,7 +310084,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-14",
    "renew_hold": true
   },
@@ -329848,7 +329851,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 05:00",
-   "last_seen": "2026-08-17",
+   "last_seen": "2026-08-22",
    "delisted_at": "2026-07-23",
    "renewed_at": "2026-08-03 05:00",
    "renewed_from": "20,000pt"
@@ -364485,7 +364488,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 01:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "kurashiru_reward:18216": {
    "site": "kurashiru_reward",
@@ -386909,7 +386912,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "warau:205894": {
    "site": "warau",
@@ -386923,7 +386926,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-22"
   },
   "warau:205893": {
    "site": "warau",

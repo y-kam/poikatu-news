@@ -61,12 +61,16 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      # ちょびリッチはGitHub Actions等のデータセンター系IPがWAFで403になるため
-      # （2026-07-16〜。レンタルサーバ経由の中継も同様にブロックされ不成立）、CIでは
+      # データセンター系IP（GitHub Actions）を拒否するサイトはCIから取得できないため、
       # クロール・死活チェックとも除外する。取得はローカルPC（自宅回線）から
-      # tools/crawl_chobirich.bat で行い、データpush→deployワークフローで反映する。
+      # tools/crawl_local.bat で行い、データpush→deployワークフローで反映する。
+      #   - chobirich    : WAFが403を返す（2026-07-16〜。レンタルサーバ経由の中継も不成立）
+      #   - pointincome  : 一覧は200 OKのまま案件0件、詳細ページは掲載中でも dead 判定になる
+      #                    （2026-08-22〜ほぼ全滅。それ以前も成功率17%程度で断続的に発生）。
+      #                    HTTPエラーにならないぶん chobirich より厄介で、死活チェックが
+      #                    掲載中の案件を誤って掲載終了にしていた（2026-08-23に除外）。
       - name: Crawl and build site
-        run: python run.py --exclude chobirich
+        run: python run.py --exclude chobirich,pointincome
 
       - name: Commit updated data
         run: |
@@ -178,7 +182,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Check links and flag delisted deals
-        run: python check_links.py --exclude chobirich
+        run: python check_links.py --exclude chobirich,pointincome
 
       - name: Rebuild site with delisted deals removed
         run: python run.py --generate-only

@@ -4,5 +4,5 @@ rem because cmd misparses batch files that mix "chcp 65001" with multibyte text
 rem (it loses its read position after external commands and executes comment
 rem fragments). Keep this file ASCII-only.
 rem Extra args are passed through (e.g. -SkipLinkCheck).
-powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0crawl_local.ps1" -Sites chobirich %*
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0crawl_local.ps1" -Sites pointincome %*
 exit /b %ERRORLEVEL%

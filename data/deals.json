@@ -142033,10 +142033,10 @@
    "yen": 210.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=25791",
-   "condition": "",
+   "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-24",
    "backfill": true,
    "backfill_dated": true
   },
@@ -220935,7 +220935,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-08-24"
   },
   "point_island:010829": {
    "site": "point_island",
@@ -232324,7 +232324,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-24"
   },
   "point_stadium:010829": {
    "site": "point_stadium",
@@ -243765,8 +243765,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-01",
-   "renewed_at": "2026-07-28 08:00"
+   "last_seen": "2026-08-24",
+   "renewed_at": "2026-08-24 08:00"
   },
   "nyandaful:010829": {
    "site": "nyandaful",
@@ -337378,7 +337378,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 08:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-08-24"
   },
   "warau:204972": {
    "site": "warau",
@@ -385945,8 +385945,9 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-08-23",
-   "site_new": true
+   "last_seen": "2026-08-24",
+   "site_new": true,
+   "renewed_at": "2026-08-24 08:00"
   },
   "au_point:3:215045": {
    "site": "au_point",
@@ -386614,7 +386615,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-24"
   },
   "warau:205896": {
    "site": "warau",
@@ -386628,7 +386629,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-24"
   },
   "warau:205895": {
    "site": "warau",

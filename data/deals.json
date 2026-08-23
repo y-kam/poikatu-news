@@ -222000,7 +222000,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-23"
   },
   "point_island:11155714": {
    "site": "point_island",
@@ -233391,7 +233391,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-23"
   },
   "point_stadium:11155714": {
    "site": "point_stadium",
@@ -244843,7 +244843,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-23",
+   "renewed_at": "2026-08-23 21:00"
   },
   "nyandaful:11155714": {
    "site": "nyandaful",
@@ -333081,7 +333082,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-23",
    "site_new": true,
    "renewed_at": "2026-08-21 15:00"
   },
@@ -379851,7 +379852,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-23"
   },
   "point_museum:11155714": {
    "site": "point_museum",
@@ -387740,6 +387741,20 @@
    "seeded": false,
    "first_seen": "2026-08-23",
    "first_seen_at": "2026-08-23 12:12",
+   "last_seen": "2026-08-23"
+  },
+  "point_land:s24417": {
+   "site": "point_land",
+   "deal_id": "s24417",
+   "title": "Amazon Prime Video",
+   "points_text": "5000ポイント",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=s24417",
+   "condition": "視聴完了",
+   "seeded": false,
+   "first_seen": "2026-08-23",
+   "first_seen_at": "2026-08-23 21:00",
    "last_seen": "2026-08-23"
   }
  }

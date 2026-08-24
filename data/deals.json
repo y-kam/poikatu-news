@@ -81638,10 +81638,11 @@
    "percent": null,
    "url": "https://web.powl.jp/reward/18738",
    "condition": "",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-20",
-   "renew_hold": true
+   "last_seen": "2026-08-24",
+   "renew_hold": true,
+   "seed_filled": true
   },
   "powl:6914": {
    "site": "powl",
@@ -84963,8 +84964,8 @@
    "site": "powl",
    "deal_id": "18350",
    "title": "U-NEXT_無料お試し登録",
-   "points_text": "19,000pt",
-   "yen": 1900.0,
+   "points_text": "20,000pt",
+   "yen": 2000.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/18350",
    "condition": "",
@@ -84972,7 +84973,7 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-24",
    "seed_filled": true,
-   "renewed_at": "2026-08-22 01:00",
+   "renewed_at": "2026-08-24 13:00",
    "renewed_from": "15,000pt"
   },
   "powl:24779": {
@@ -136297,9 +136298,10 @@
    "percent": null,
    "url": "https://hiroba.dpoint.docomo.ne.jp/item/5664",
    "condition": "カード発行",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-15"
+   "last_seen": "2026-08-24",
+   "seed_filled": true
   },
   "point_hiroba:5663": {
    "site": "point_hiroba",
@@ -136310,9 +136312,10 @@
    "percent": null,
    "url": "https://hiroba.dpoint.docomo.ne.jp/item/5663",
    "condition": "カード発行",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-15"
+   "last_seen": "2026-08-24",
+   "seed_filled": true
   },
   "point_hiroba:5642": {
    "site": "point_hiroba",
@@ -285885,15 +285888,17 @@
    "site": "moppy",
    "deal_id": "147269",
    "title": "放置少女〜百花繚乱の萌姫たち〜",
-   "points_text": "1,482P",
-   "yen": 1482.0,
+   "points_text": "2,470P",
+   "yen": 2470.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=147269",
    "condition": "45日以内にプレイヤーレベル120到達（1転生Lv.20到達）",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-24",
+   "renewed_at": "2026-08-24 13:00",
+   "renewed_from": "1,482P"
   },
   "moppy:160968": {
    "site": "moppy",
@@ -309560,7 +309565,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-24",
    "delisted_at": "2026-07-13"
   },
   "moppy:152830": {
@@ -336628,7 +336633,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 21:00",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-08-24"
   },
   "point_land:0401240": {
    "site": "point_land",
@@ -364244,7 +364249,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 01:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-24"
   },
   "kurashiru_reward:18216": {
    "site": "kurashiru_reward",
@@ -373370,8 +373375,8 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 21:00",
-   "last_seen": "2026-08-23",
-   "renewed_at": "2026-08-21 21:00"
+   "last_seen": "2026-08-24",
+   "renewed_at": "2026-08-24 13:00"
   },
   "ponta_bonuspark:4645": {
    "site": "ponta_bonuspark",
@@ -373875,7 +373880,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 01:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-24",
    "site_new": false
   },
   "moppy:1225": {
@@ -387257,7 +387262,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-24"
   },
   "poikatsu_club:20497": {
    "site": "poikatsu_club",
@@ -387271,7 +387276,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-24"
   },
   "warau:205897": {
    "site": "warau",
@@ -387482,7 +387487,7 @@
    "seeded": false,
    "first_seen": "2026-08-22",
    "first_seen_at": "2026-08-22 01:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-24"
   },
   "poikatsu_club:20500": {
    "site": "poikatsu_club",
@@ -387962,6 +387967,76 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 10:00",
+   "last_seen": "2026-08-24"
+  },
+  "moppy:147127": {
+   "site": "moppy",
+   "deal_id": "147127",
+   "title": "マンガ・雑誌読み放題【BOOK☆WALKER】 (836円コース)",
+   "points_text": "1,000P",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=147127",
+   "condition": "無料お試し登録終了後の有料会員転換",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 13:00",
+   "last_seen": "2026-08-24"
+  },
+  "pointtown:10027": {
+   "site": "pointtown",
+   "deal_id": "10027",
+   "title": "【貸出50万円以上】BitLending（ビットレンディング…",
+   "points_text": "11,500pt",
+   "yen": 11500.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/10027",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 13:00",
+   "last_seen": "2026-08-24"
+  },
+  "pointtown:10028": {
+   "site": "pointtown",
+   "deal_id": "10028",
+   "title": "【貸出3万円以上】BitLending（ビットレンディング…",
+   "points_text": "5,500pt",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/10028",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 13:00",
+   "last_seen": "2026-08-24"
+  },
+  "line_catalog:skylark": {
+   "site": "line_catalog",
+   "deal_id": "skylark",
+   "title": "すかいらーくの宅配",
+   "points_text": "1.0%還元",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://ec.line.me/shop/skylark/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 13:00",
+   "last_seen": "2026-08-24"
+  },
+  "amefri:139645": {
+   "site": "amefri",
+   "deal_id": "139645",
+   "title": "ご利用継続率96％！日本で最も実績のある家事代行サービス【ミニメイド・サービス】",
+   "points_text": "30,000pt",
+   "yen": 3000.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139645",
+   "condition": "新規問合せ+作業完了",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 13:00",
    "last_seen": "2026-08-24"
   }
  }

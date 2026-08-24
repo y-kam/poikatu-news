@@ -388684,7 +388684,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 21:00",
-   "last_seen": "2026-08-24"
+   "last_seen": "2026-08-25"
   },
   "warau:205935": {
    "site": "warau",
@@ -388698,7 +388698,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 21:00",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-08-25",
    "dead_streak": 1
   },
   "warau:205934": {
@@ -388713,7 +388713,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 21:00",
-   "last_seen": "2026-08-24"
+   "last_seen": "2026-08-25"
   },
   "warau:205930": {
    "site": "warau",
@@ -388727,7 +388727,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 21:00",
-   "last_seen": "2026-08-24"
+   "last_seen": "2026-08-25"
   },
   "warau:205928": {
    "site": "warau",
@@ -389491,6 +389491,76 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 01:00",
+   "last_seen": "2026-08-25"
+  },
+  "hapitas:102703": {
+   "site": "hapitas",
+   "deal_id": "102703",
+   "title": "超巨大スライム (Super Big Slime)",
+   "points_text": "77pt",
+   "yen": 77.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102703/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 05:00",
+   "last_seen": "2026-08-25"
+  },
+  "hapitas:102702": {
+   "site": "hapitas",
+   "deal_id": "102702",
+   "title": "超巨大スライム (Super Big Slime)",
+   "points_text": "69pt",
+   "yen": 69.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102702/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 05:00",
+   "last_seen": "2026-08-25"
+  },
+  "hapitas:102710": {
+   "site": "hapitas",
+   "deal_id": "102710",
+   "title": "Dungeon Escape",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102710/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 05:00",
+   "last_seen": "2026-08-25"
+  },
+  "hapitas:102709": {
+   "site": "hapitas",
+   "deal_id": "102709",
+   "title": "Match Play 3D",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102709/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 05:00",
+   "last_seen": "2026-08-25"
+  },
+  "warau:205933": {
+   "site": "warau",
+   "deal_id": "205933",
+   "title": "【SKYFLAG】Number Match-Fun Puzzle Game（StepUp）",
+   "points_text": "149pt",
+   "yen": 149.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205933",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 05:00",
    "last_seen": "2026-08-25"
   }
  }

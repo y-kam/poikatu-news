@@ -75879,14 +75879,16 @@
    "site": "point_island",
    "deal_id": "k4887",
    "title": "ホーユーコミュニティ☆無料会員登録",
-   "points_text": "1050ポイント",
-   "yen": 105.0,
+   "points_text": "1400ポイント",
+   "yen": 140.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=k4887",
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-08-25",
+   "renewed_at": "2026-08-25 08:00",
+   "renewed_from": "1050ポイント"
   },
   "point_island:s25623": {
    "site": "point_island",
@@ -76416,14 +76418,16 @@
    "site": "point_stadium",
    "deal_id": "k4887",
    "title": "ホーユーコミュニティ☆無料会員登録",
-   "points_text": "1050ポイント",
-   "yen": 105.0,
+   "points_text": "1400ポイント",
+   "yen": 140.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=k4887",
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-25",
+   "renewed_at": "2026-08-25 08:00",
+   "renewed_from": "1050ポイント"
   },
   "point_stadium:s25623": {
    "site": "point_stadium",
@@ -77322,15 +77326,15 @@
    "site": "nyandaful",
    "deal_id": "k4887",
    "title": "ホーユーコミュニティ☆無料会員登録",
-   "points_text": "1,050pt",
-   "yen": 105.0,
+   "points_text": "1,400pt",
+   "yen": 140.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=k4887",
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-05",
-   "renewed_at": "2026-08-01 01:00"
+   "last_seen": "2026-08-25",
+   "renewed_at": "2026-08-25 08:00"
   },
   "nyandaful:s25623": {
    "site": "nyandaful",
@@ -378750,15 +378754,17 @@
    "site": "point_museum",
    "deal_id": "k4887",
    "title": "ホーユーコミュニティ☆無料会員登録",
-   "points_text": "1,050pt",
-   "yen": 105.0,
+   "points_text": "1,400pt",
+   "yen": 140.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=k4887",
    "condition": "無料会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-25",
+   "renewed_at": "2026-08-25 08:00",
+   "renewed_from": "1,050pt"
   },
   "point_museum:s25666": {
    "site": "point_museum",
@@ -386937,8 +386943,9 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
-   "last_seen": "2026-08-24",
-   "site_new": false
+   "last_seen": "2026-08-25",
+   "site_new": false,
+   "renewed_at": "2026-08-25 08:00"
   },
   "amefri:139638": {
    "site": "amefri",
@@ -387914,7 +387921,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 01:00",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-08-25",
    "delisted_at": "2026-08-24"
   },
   "warau:205828": {
@@ -388278,7 +388285,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 17:00",
-   "last_seen": "2026-08-24"
+   "last_seen": "2026-08-25"
   },
   "warau:197949": {
    "site": "warau",
@@ -388743,7 +388750,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 21:00",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-08-25",
    "dead_streak": 1
   },
   "gmo_poikatsu:13129": {
@@ -389732,6 +389739,20 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 07:32",
+   "last_seen": "2026-08-25"
+  },
+  "point_land:11150755": {
+   "site": "point_land",
+   "deal_id": "11150755",
+   "title": "ワッツまとめ買いプラスオンライン",
+   "points_text": "100円購入毎に 16ポイント",
+   "yen": 1.6,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=11150755",
+   "condition": "買い物",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 08:00",
    "last_seen": "2026-08-25"
   }
  }

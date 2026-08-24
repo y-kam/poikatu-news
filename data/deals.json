@@ -120748,9 +120748,10 @@
    "percent": 6.4,
    "url": "https://web.powl.jp/reward/23503",
    "condition": "",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-24",
+   "seed_filled": true
   },
   "powl:923": {
    "site": "powl",
@@ -135617,15 +135618,16 @@
    "site": "point_hiroba",
    "deal_id": "5101",
    "title": "SBI証券",
-   "points_text": "13,000",
-   "yen": 13000.0,
+   "points_text": "10,000",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://hiroba.dpoint.docomo.ne.jp/item/5101",
    "condition": "口座開設",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-20",
-   "renew_hold": true
+   "last_seen": "2026-08-24",
+   "renew_hold": true,
+   "seed_filled": true
   },
   "point_hiroba:5603": {
    "site": "point_hiroba",
@@ -171714,7 +171716,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-24"
   },
   "warau:204341": {
    "site": "warau",
@@ -184527,7 +184529,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-24"
   },
   "nifty_point:0001246222F0": {
    "site": "nifty_point",
@@ -266099,8 +266101,8 @@
    "site": "powl",
    "deal_id": "36049",
    "title": "auでんき",
-   "points_text": "57,600pt",
-   "yen": 5760.0,
+   "points_text": "96,000pt",
+   "yen": 9600.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/36049",
    "condition": "",
@@ -266108,7 +266110,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-24",
-   "renewed_at": "2026-08-01 01:00",
+   "renewed_at": "2026-08-24 15:00",
    "renewed_from": "45,000pt"
   },
   "poikatsu_club:6029": {
@@ -277047,7 +277049,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-24"
   },
   "poikatsu_club:1980": {
    "site": "poikatsu_club",
@@ -277061,7 +277063,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-24"
   },
   "poikatsu_club:4762": {
    "site": "poikatsu_club",
@@ -284536,7 +284538,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-24",
    "renew_hold": true
   },
   "moppy:160669": {
@@ -285883,9 +285885,9 @@
   "moppy:147269": {
    "site": "moppy",
    "deal_id": "147269",
-   "title": "放置少女〜百花繚乱の萌姫たち〜",
-   "points_text": "2,470P",
-   "yen": 2470.0,
+   "title": "※還元UP※放置少女〜百花繚乱の萌姫たち〜",
+   "points_text": "2,400P",
+   "yen": 2400.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=147269",
    "condition": "45日以内にプレイヤーレベル120到達（1転生Lv.20到達）",
@@ -285893,8 +285895,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-24",
-   "renewed_at": "2026-08-24 13:00",
-   "renewed_from": "1,482P"
+   "renew_hold": true
   },
   "moppy:160968": {
    "site": "moppy",
@@ -309287,7 +309288,7 @@
   "moppy:148927": {
    "site": "moppy",
    "deal_id": "148927",
-   "title": "au PAY カード",
+   "title": "※超高還元※au PAY カード",
    "points_text": "7,000P",
    "yen": 7000.0,
    "percent": null,
@@ -337080,7 +337081,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 01:00",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-24",
    "site_new": true,
    "renewed_at": "2026-08-22 13:12"
   },
@@ -356383,7 +356384,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-24"
   },
   "pointtown:10913": {
    "site": "pointtown",
@@ -359761,7 +359762,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-24"
   },
   "poikatsu_club:20240": {
    "site": "poikatsu_club",
@@ -384697,7 +384698,8 @@
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 11:00",
    "last_seen": "2026-08-24",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-24 15:00"
   },
   "entamenet:t4887": {
    "site": "entamenet",
@@ -384869,7 +384871,8 @@
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 13:00",
    "last_seen": "2026-08-24",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-24 15:00"
   },
   "amefri:139605": {
    "site": "amefri",
@@ -387049,7 +387052,8 @@
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
    "last_seen": "2026-08-24",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-24 15:00"
   },
   "amefri:139628": {
    "site": "amefri",
@@ -387064,7 +387068,8 @@
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
    "last_seen": "2026-08-24",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-24 15:00"
   },
   "amefri:139627": {
    "site": "amefri",
@@ -387079,7 +387084,8 @@
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 21:00",
    "last_seen": "2026-08-24",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-24 15:00"
   },
   "au_point:8:1582": {
    "site": "au_point",
@@ -388045,6 +388051,146 @@
    "first_seen_at": "2026-08-24 13:00",
    "last_seen": "2026-08-24",
    "site_new": true
+  },
+  "moppy:153758": {
+   "site": "moppy",
+   "deal_id": "153758",
+   "title": "戦国布武：我が天下戦国編（StepUp）【iOS】",
+   "points_text": "16,593P",
+   "yen": 16593.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=153758",
+   "condition": "新規アプリインストール後、30日以内に各成果地点到達でクリア",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "warau:205917": {
+   "site": "warau",
+   "deal_id": "205917",
+   "title": "TOSSY（新規取引1回で15,000円相当GET）",
+   "points_text": "5,000pt",
+   "yen": 5000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205917",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "value_point:61532358": {
+   "site": "value_point",
+   "deal_id": "61532358",
+   "title": "aarke公式サイト",
+   "points_text": "購入金額の5.2％",
+   "yen": null,
+   "percent": 5.2,
+   "url": "https://www.value-point.jp/search/merchant/detail/61532358/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "amefri:110584": {
+   "site": "amefri",
+   "deal_id": "110584",
+   "title": "レディースインナー通販【tu-hacci（ツーハッチ）】",
+   "points_text": "6％",
+   "yen": null,
+   "percent": 6.0,
+   "url": "https://www.amefri.net/detail/id/110584",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "amefri:139647": {
+   "site": "amefri",
+   "deal_id": "139647",
+   "title": "【S】【Mega Offerを10回コンプリートする】Gold Miner_Android",
+   "points_text": "28,000pt",
+   "yen": 2800.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139647",
+   "condition": "新規アプリインストール後、Mega Offerを10回コンプリートするで成果となります。",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "amefri:139646": {
+   "site": "amefri",
+   "deal_id": "139646",
+   "title": "【S】【Mega Offerを10回コンプリートする】Knife Ninja_Android",
+   "points_text": "28,000pt",
+   "yen": 2800.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139646",
+   "condition": "新規アプリインストール後、Mega Offerを10回コンプリートするで成果となります。",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "amefri:139648": {
+   "site": "amefri",
+   "deal_id": "139648",
+   "title": "【M】【85,000円分以上を貯める】Freecash_iOS",
+   "points_text": "272,000pt",
+   "yen": 27200.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139648",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "point_hiroba:5706": {
+   "site": "point_hiroba",
+   "deal_id": "5706",
+   "title": "SBIマネーアシスタント",
+   "points_text": "8,500 P",
+   "yen": 8500.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5706",
+   "condition": "サービス契約・取引",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "poikatsu_club:20506": {
+   "site": "poikatsu_club",
+   "deal_id": "20506",
+   "title": "【S】【Mega Offerを10回コンプリートする】Knife Ninja_Android",
+   "points_text": "3150pt",
+   "yen": 3150.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/20506",
+   "condition": "新規アプリインストール後、Mega Offerを10回コンプリートするで成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：クリックから30日以内\r\n・成果調査受付期限：クリックから45日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・ユーザー登録メールアドレス\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
+  },
+  "poikatsu_club:20507": {
+   "site": "poikatsu_club",
+   "deal_id": "20507",
+   "title": "【S】【Mega Offerを10回コンプリートする】Gold Miner_Android",
+   "points_text": "3150pt",
+   "yen": 3150.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/20507",
+   "condition": "新規アプリインストール後、Mega Offerを10回コンプリートするで成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：クリックから30日以内\r\n・成果調査受付期限：クリックから45日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・ユーザー登録メールアドレス\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-08-24",
+   "first_seen_at": "2026-08-24 15:00",
+   "last_seen": "2026-08-24"
   }
  }
 }

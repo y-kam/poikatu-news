@@ -355503,15 +355503,17 @@
    "site": "chobirich",
    "deal_id": "1896191",
    "title": "Travel Town - Merge Adventure（アプリランド）",
-   "points_text": "最大441pt",
-   "yen": 220.5,
+   "points_text": "最大2399pt",
+   "yen": 1199.5,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1896191/",
    "condition": "遷移先の「アプリランド」ページをご確認ください",
    "seeded": false,
    "first_seen": "2026-08-06",
    "first_seen_at": "2026-08-06 20:05",
-   "last_seen": "2026-08-09"
+   "last_seen": "2026-08-25",
+   "renewed_at": "2026-08-25 19:26",
+   "renewed_from": "最大441pt"
   },
   "chobirich:1896184": {
    "site": "chobirich",
@@ -355592,8 +355594,8 @@
    "site": "chobirich",
    "deal_id": "1735714",
    "title": "コスモ・ザ・カード・オーパス",
-   "points_text": "5,000pt",
-   "yen": 2500.0,
+   "points_text": "7,500pt",
+   "yen": 3750.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1735714/",
    "condition": "",
@@ -355601,7 +355603,7 @@
    "first_seen": "2026-08-08",
    "first_seen_at": "2026-08-08 08:07",
    "last_seen": "2026-08-25",
-   "renewed_at": "2026-08-11 08:20"
+   "renewed_at": "2026-08-25 19:26"
   },
   "chobirich:1896242": {
    "site": "chobirich",
@@ -389699,7 +389701,7 @@
   "chobirich:1897565": {
    "site": "chobirich",
    "deal_id": "1897565",
-   "title": "みんなのFX（90日以内に新規90lot以上のお取引）",
+   "title": "みんなのFX（新規90lot以上）みんキャッチ成功で+3,000pt！",
    "points_text": "16,000pt",
    "yen": 8000.0,
    "percent": null,
@@ -389727,7 +389729,7 @@
   "chobirich:1897562": {
    "site": "chobirich",
    "deal_id": "1897562",
-   "title": "LIGHT FX（90日以内に新規90lot以上の取引完了）",
+   "title": "LIGHT FX（新規90lot以上）みんキャッチ成功で+3,000pt！",
    "points_text": "16,000pt",
    "yen": 8000.0,
    "percent": null,
@@ -390654,6 +390656,76 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 17:00",
+   "last_seen": "2026-08-25"
+  },
+  "chobirich:1897535": {
+   "site": "chobirich",
+   "deal_id": "1897535",
+   "title": "オリックスカーシェア",
+   "points_text": "1,000pt",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897535/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 19:26",
+   "last_seen": "2026-08-25"
+  },
+  "chobirich:1897766": {
+   "site": "chobirich",
+   "deal_id": "1897766",
+   "title": "エクストレカ - オンラインオリパ・トレカ",
+   "points_text": "960pt",
+   "yen": 480.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897766/",
+   "condition": "会員登録後、一括1000円以上課金(インストール後、条件達成)",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 19:26",
+   "last_seen": "2026-08-25"
+  },
+  "chobirich:1897764": {
+   "site": "chobirich",
+   "deal_id": "1897764",
+   "title": "メメントモリ（アプリランド）",
+   "points_text": "最大10786pt",
+   "yen": 5393.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897764/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 19:26",
+   "last_seen": "2026-08-25"
+  },
+  "chobirich:1897740": {
+   "site": "chobirich",
+   "deal_id": "1897740",
+   "title": "間違い探し 江戸時代の文化（多段階）（iOS）（アプリdeちょ～リッチ）",
+   "points_text": "最大3340pt",
+   "yen": 1670.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897740/",
+   "condition": "遷移先の「アプリdeちょ～リッチ」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 19:26",
+   "last_seen": "2026-08-25"
+  },
+  "chobirich:1886823": {
+   "site": "chobirich",
+   "deal_id": "1886823",
+   "title": "バス クレイズ - 渋滞パズル（アプリランド）",
+   "points_text": "最大2752pt",
+   "yen": 1376.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1886823/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-25",
+   "first_seen_at": "2026-08-25 19:26",
    "last_seen": "2026-08-25"
   }
  }

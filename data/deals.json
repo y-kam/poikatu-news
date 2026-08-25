@@ -304102,7 +304102,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10"
   },
   "warau:162096": {
@@ -304177,7 +304177,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -304193,7 +304193,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10"
   },
   "warau:162123": {
@@ -304223,7 +304223,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10"
   },
   "warau:174294": {
@@ -304238,7 +304238,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -304300,7 +304300,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -304377,7 +304377,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-10"
   },
   "warau:204484": {
@@ -305156,7 +305156,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-26"
   },
   "poikatsu_club:2162": {
    "site": "poikatsu_club",
@@ -305170,7 +305170,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "renew_hold": true
   },
   "poikatsu_club:2161": {
@@ -391674,6 +391674,76 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
+   "last_seen": "2026-08-26"
+  },
+  "hapitas:102728": {
+   "site": "hapitas",
+   "deal_id": "102728",
+   "title": "Knife Ninja",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102728/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 05:00",
+   "last_seen": "2026-08-26"
+  },
+  "hapitas:102743": {
+   "site": "hapitas",
+   "deal_id": "102743",
+   "title": "Gold Miner(ゴールドマイナー)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102743/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 05:00",
+   "last_seen": "2026-08-26"
+  },
+  "hapitas:102723": {
+   "site": "hapitas",
+   "deal_id": "102723",
+   "title": "ハッピーメール",
+   "points_text": "200pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102723/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 05:00",
+   "last_seen": "2026-08-26"
+  },
+  "hapitas:93585": {
+   "site": "hapitas",
+   "deal_id": "93585",
+   "title": "スピークバディ",
+   "points_text": "1,400pt",
+   "yen": 1400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/93585/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 05:00",
+   "last_seen": "2026-08-26"
+  },
+  "hapitas:50355": {
+   "site": "hapitas",
+   "deal_id": "50355",
+   "title": "JAFロードサービス",
+   "points_text": "333pt",
+   "yen": 333.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/50355/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 05:00",
    "last_seen": "2026-08-26"
   }
  }

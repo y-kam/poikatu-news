@@ -226086,7 +226086,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-26"
   },
   "point_island:0401240": {
    "site": "point_island",
@@ -237463,7 +237463,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-26"
   },
   "point_stadium:0401240": {
    "site": "point_stadium",
@@ -248854,7 +248854,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 08:00"
   },
   "nyandaful:0401240": {
    "site": "nyandaful",
@@ -383261,7 +383262,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-26"
   },
   "point_museum:s25652": {
    "site": "point_museum",
@@ -391771,6 +391772,20 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 07:32",
+   "last_seen": "2026-08-26"
+  },
+  "point_land:0411232": {
+   "site": "point_land",
+   "deal_id": "0411232",
+   "title": "セカストホビー",
+   "points_text": "13600ポイント",
+   "yen": 1360.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=0411232",
+   "condition": "買取",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 08:00",
    "last_seen": "2026-08-26"
   }
  }

@@ -303046,18 +303046,18 @@
   "moppy:159880": {
    "site": "moppy",
    "deal_id": "159880",
-   "title": "※数量限定！還元超アップ※SBI FXトレード【無料口座開設】",
-   "points_text": "4,500P",
-   "yen": 4500.0,
+   "title": "※早いもの勝ち！還元アップ中※SBI FXトレード【無料口座開設】",
+   "points_text": "5,000P",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=159880",
    "condition": "WEB申込後、30日以内に新規口座開設",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-26",
    "site_new": true,
-   "renewed_at": "2026-08-23 13:11"
+   "renewed_at": "2026-08-26 11:00"
   },
   "moppy:159460": {
    "site": "moppy",
@@ -326783,7 +326783,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-22"
   },
   "moppy:147951": {
@@ -370734,7 +370734,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "site_new": true,
    "renewed_at": "2026-08-24 13:10"
   },
@@ -391010,8 +391010,8 @@
    "site": "warau",
    "deal_id": "205988",
    "title": "【Zucks】DMM TV（DMMプレミアム有料会員登録完了）",
-   "points_text": "244pt",
-   "yen": 244.0,
+   "points_text": "280pt",
+   "yen": 280.0,
    "percent": null,
    "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205988",
    "condition": "",
@@ -391019,7 +391019,9 @@
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
    "last_seen": "2026-08-26",
-   "dead_streak": 1
+   "dead_streak": 1,
+   "renewed_at": "2026-08-26 11:00",
+   "renewed_from": "244pt"
   },
   "warau:205990": {
    "site": "warau",
@@ -391801,6 +391803,48 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 10:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206002": {
+   "site": "warau",
+   "deal_id": "206002",
+   "title": "【Zucks】TOSSY（新規アカウント登録後1回取引）",
+   "points_text": "3,500pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206002",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 11:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206003": {
+   "site": "warau",
+   "deal_id": "206003",
+   "title": "【Zucks】DMM FX（新規アカウント登録後1回取引）",
+   "points_text": "2,800pt",
+   "yen": 2800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206003",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 11:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:205999": {
+   "site": "warau",
+   "deal_id": "205999",
+   "title": "LiberNovo",
+   "points_text": "2%還元",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205999",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 11:00",
    "last_seen": "2026-08-26"
   }
  }

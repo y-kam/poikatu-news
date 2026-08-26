@@ -44003,7 +44003,7 @@
    "first_seen": "2026-07-05",
    "last_seen": "2026-07-08",
    "condition": "",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "chobirich:1824526": {
    "site": "chobirich",
@@ -278961,7 +278961,8 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 15:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:136843": {
    "site": "pointincome",
@@ -369681,7 +369682,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:29",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-21",
+   "dead_streak": 1
   },
   "warau:205687": {
    "site": "warau",
@@ -370735,7 +370737,8 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 19:33",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-21",
+   "dead_streak": 1
   },
   "chobirich:1897180": {
    "site": "chobirich",
@@ -386481,7 +386484,8 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 19:23",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-26",
+   "dead_streak": 1
   },
   "chobirich:1897473": {
    "site": "chobirich",
@@ -392843,7 +392847,7 @@
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 19:29",
    "last_seen": "2026-08-27",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "moppy:162051": {
    "site": "moppy",
@@ -393783,7 +393787,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   },
   "pointincome:156087": {
    "site": "pointincome",
@@ -393797,7 +393802,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   },
   "pointincome:147295": {
    "site": "pointincome",
@@ -393811,7 +393817,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   },
   "pointincome:155614": {
    "site": "pointincome",
@@ -393825,7 +393832,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   }
  }
 }

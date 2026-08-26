@@ -147737,14 +147737,14 @@
    "site": "point_museum",
    "deal_id": "d1308",
    "title": "予約できる駐車場 タイムズのB",
-   "points_text": "49pt (100円購入毎に)",
+   "points_text": "49pt (100円購入毎に)",
    "yen": 4.9,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=d1308",
-   "condition": "",
+   "condition": "駐車場予約",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-27",
    "backfill": true,
    "backfill_dated": true
   },
@@ -222441,7 +222441,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-27"
   },
   "point_island:s27010": {
    "site": "point_island",
@@ -233832,7 +233832,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-27"
   },
   "point_stadium:s27010": {
    "site": "point_stadium",
@@ -245299,7 +245299,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-27",
+   "renewed_at": "2026-08-27 08:00"
   },
   "nyandaful:s27010": {
    "site": "nyandaful",
@@ -284797,7 +284798,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "renewed_at": "2026-08-24 17:00",
    "renewed_from": "1,140P"
   },
@@ -344383,7 +344384,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "delisted_at": "2026-07-31",
    "renew_hold": true
   },
@@ -390087,7 +390088,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 11:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "moppy:161072": {
    "site": "moppy",
@@ -391034,7 +391035,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "delisted_at": "2026-08-26"
   },
   "warau:205997": {
@@ -391064,7 +391065,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "delisted_at": "2026-08-26"
   },
   "warau:205994": {
@@ -393834,6 +393835,20 @@
    "first_seen_at": "2026-08-27 07:34",
    "last_seen": "2026-08-27",
    "dead_streak": 1
+  },
+  "point_land:d1308": {
+   "site": "point_land",
+   "deal_id": "d1308",
+   "title": "予約できる駐車場 タイムズのB",
+   "points_text": "100円購入毎に 49ポイント",
+   "yen": 4.9,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=d1308",
+   "condition": "駐車場予約",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 08:00",
+   "last_seen": "2026-08-27"
   }
  }
 }

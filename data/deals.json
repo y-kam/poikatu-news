@@ -44584,7 +44584,7 @@
    "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=200598",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "condition": "",
    "delisted_at": "2026-07-09"
   },
@@ -303875,7 +303875,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "pointtown:3010": {
    "site": "pointtown",
@@ -303931,7 +303931,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "renew_hold": true
   },
   "pointtown:9092": {
@@ -303946,7 +303946,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "pointtown:9437": {
    "site": "pointtown",
@@ -305728,7 +305728,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 08:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "point_land:11129642": {
    "site": "point_land",
@@ -389424,7 +389424,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "warau:205948": {
    "site": "warau",
@@ -390198,7 +390198,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 13:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "moppy:161094": {
    "site": "moppy",
@@ -390783,7 +390783,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 17:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "chobirich:1897535": {
    "site": "chobirich",
@@ -391030,7 +391030,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "delisted_at": "2026-08-26"
   },
   "warau:205995": {
@@ -391609,7 +391609,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "warau:205963": {
    "site": "warau",
@@ -391623,7 +391623,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "warau:205956": {
    "site": "warau",
@@ -391637,7 +391637,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "warau:205955": {
    "site": "warau",
@@ -391651,7 +391651,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "warau:205954": {
    "site": "warau",
@@ -391665,7 +391665,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "warau:205952": {
    "site": "warau",
@@ -391693,7 +391693,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 01:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-27"
   },
   "nifty_point:0001280322F0": {
    "site": "nifty_point",
@@ -392872,7 +392872,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 21:00",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-27",
    "site_new": false
   },
   "pointtown:10978": {
@@ -393586,6 +393586,118 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 01:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102765": {
+   "site": "hapitas",
+   "deal_id": "102765",
+   "title": "タワースタック",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102765/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102766": {
+   "site": "hapitas",
+   "deal_id": "102766",
+   "title": "くもりガラスさがし",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102766/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102768": {
+   "site": "hapitas",
+   "deal_id": "102768",
+   "title": "せんたく仕分け",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102768/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102769": {
+   "site": "hapitas",
+   "deal_id": "102769",
+   "title": "らくがき橋",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102769/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102764": {
+   "site": "hapitas",
+   "deal_id": "102764",
+   "title": "みずいろソート",
+   "points_text": "75pt",
+   "yen": 75.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102764/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102751": {
+   "site": "hapitas",
+   "deal_id": "102751",
+   "title": "Spin Rush(スピンラッシュ)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102751/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102752": {
+   "site": "hapitas",
+   "deal_id": "102752",
+   "title": "Marble ZigZag(マーブルジグザグ)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102752/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
+   "last_seen": "2026-08-27"
+  },
+  "hapitas:102741": {
+   "site": "hapitas",
+   "deal_id": "102741",
+   "title": "エクストレカ - オンラインオリパ・トレカ",
+   "points_text": "840pt",
+   "yen": 840.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102741/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-27",
+   "first_seen_at": "2026-08-27 05:00",
    "last_seen": "2026-08-27"
   }
  }

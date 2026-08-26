@@ -57160,16 +57160,17 @@
    "site": "rebates",
    "deal_id": "14659",
    "title": "マウスコンピューター",
-   "points_text": "3.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/mousecomputer",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-26",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-08-26 10:00",
+   "renewed_from": "3.0%"
   },
   "rebates:14738": {
    "site": "rebates",
@@ -305142,7 +305143,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "renew_hold": true
   },
   "poikatsu_club:2163": {
@@ -388949,7 +388950,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 21:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "site_new": true
   },
   "amefri:139657": {
@@ -391032,7 +391033,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "dead_streak": 1
   },
   "warau:205987": {
@@ -391786,6 +391787,20 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 08:00",
+   "last_seen": "2026-08-26"
+  },
+  "point_hiroba:5708": {
+   "site": "point_hiroba",
+   "deal_id": "5708",
+   "title": "HOKA(R) 公式サイト（ホカ 公式サイト）",
+   "points_text": "1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5708",
+   "condition": "お買い物",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 10:00",
    "last_seen": "2026-08-26"
   }
  }

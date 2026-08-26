@@ -75216,7 +75216,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-24"
+   "last_seen": "2026-08-26"
   },
   "au_point:8:1406": {
    "site": "au_point",
@@ -75229,7 +75229,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-08-26"
   },
   "au_point:8:1386": {
    "site": "au_point",
@@ -78208,7 +78208,7 @@
   "kurashiru_reward:17231": {
    "site": "kurashiru_reward",
    "deal_id": "17231",
-   "title": "【今日まで最高還元！合計10000円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行　お子さま用口座",
+   "title": "【今日まで過去最高！合計10000円相当】【親権者さまの代理申込専用】三菱ＵＦＪ銀行　お子さま用口座",
    "points_text": "400,000コイン",
    "yen": 4000.0,
    "percent": null,
@@ -311406,7 +311406,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "site_new": true,
    "renewed_at": "2026-08-25 13:11",
    "renewed_from": "8,000P"
@@ -332438,7 +332438,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 11:00",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-26",
    "renewed_at": "2026-07-31 15:00"
   },
   "poikatsu_club:14291": {
@@ -357132,7 +357132,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-26"
   },
   "fruitmail:18464": {
    "site": "fruitmail",
@@ -358130,7 +358130,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-20",
+   "last_seen": "2026-08-26",
    "renewed_at": "2026-08-13 21:00"
   },
   "au_point:8:1533": {
@@ -358173,7 +358173,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-08-26"
   },
   "au_point:8:1530": {
    "site": "au_point",
@@ -358187,7 +358187,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-08-26"
   },
   "point_island:d1671": {
    "site": "point_island",
@@ -361647,7 +361647,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 01:00",
-   "last_seen": "2026-08-22"
+   "last_seen": "2026-08-26"
   },
   "powl:38623": {
    "site": "powl",
@@ -369340,7 +369340,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 11:00",
-   "last_seen": "2026-08-25",
+   "last_seen": "2026-08-26",
    "renewed_at": "2026-08-23 01:00"
   },
   "powl:39111": {
@@ -384834,15 +384834,17 @@
    "site": "rebates",
    "deal_id": "18631",
    "title": "ETVOS",
-   "points_text": "1.0%",
+   "points_text": "2.5%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 2.5,
    "url": "https://www.rebates.jp/etvos.com",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 11:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 15:00",
+   "renewed_from": "1.0%"
   },
   "amefri:139599": {
    "site": "amefri",
@@ -389465,7 +389467,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 01:00",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-26"
   },
   "warau:205840": {
    "site": "warau",
@@ -391998,6 +392000,146 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206012": {
+   "site": "warau",
+   "deal_id": "206012",
+   "title": "【SmaAD】マージクライム: ミステリー＆ロマンス（StepUp）",
+   "points_text": "2,798pt",
+   "yen": 2798.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206012",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206013": {
+   "site": "warau",
+   "deal_id": "206013",
+   "title": "【SmaAD】マージクライム: ミステリー＆ロマンス（StepUp）",
+   "points_text": "2,798pt",
+   "yen": 2798.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206013",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206011": {
+   "site": "warau",
+   "deal_id": "206011",
+   "title": "CTN中古車一括査定",
+   "points_text": "4,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206011",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "powl:39818": {
+   "site": "powl",
+   "deal_id": "39818",
+   "title": "ルシアクリニック",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/39818",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "tamaru_mall:2740": {
+   "site": "tamaru_mall",
+   "deal_id": "2740",
+   "title": "【FUNDINNO】株式投資型クラウドファンディング(50万円投資完了用)",
+   "points_text": "20,000コイン",
+   "yen": 20000.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2740",
+   "condition": "50万円以上の投資完了",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "tamaru_mall:2769": {
+   "site": "tamaru_mall",
+   "deal_id": "2769",
+   "title": "DMM JCBカード",
+   "points_text": "6,000コイン",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2769",
+   "condition": "新規カード発行",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "tamaru_mall:2771": {
+   "site": "tamaru_mall",
+   "deal_id": "2771",
+   "title": "tu-hacci（ツーハッチ）",
+   "points_text": "5%",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2771",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "tamaru_mall:2741": {
+   "site": "tamaru_mall",
+   "deal_id": "2741",
+   "title": "【FUNDINNO】株式投資型クラウドファンディング(20万円投資完了用)",
+   "points_text": "7,000コイン",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2741",
+   "condition": "20万円以上の投資完了",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "tamaru_mall:2742": {
+   "site": "tamaru_mall",
+   "deal_id": "2742",
+   "title": "【FUNDINNO】株式投資型クラウドファンディング(30万円投資完了用)",
+   "points_text": "10,000コイン",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2742",
+   "condition": "30万円以上の投資完了",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
+   "last_seen": "2026-08-26"
+  },
+  "tamaru_mall:2743": {
+   "site": "tamaru_mall",
+   "deal_id": "2743",
+   "title": "【FUNDINNO】株式投資型クラウドファンディング(40万円投資完了用)",
+   "points_text": "15,000コイン",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2743",
+   "condition": "40万円以上の投資完了",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 15:00",
    "last_seen": "2026-08-26"
   }
  }

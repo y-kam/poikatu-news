@@ -171344,7 +171344,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-22"
+   "last_seen": "2026-08-26"
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -278725,7 +278725,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-26",
    "renew_hold": true
   },
   "pointincome:155775": {
@@ -278770,7 +278770,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-08-10"
+   "last_seen": "2026-08-26"
   },
   "pointincome:147168": {
    "site": "pointincome",
@@ -279632,7 +279632,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-07-17"
+   "last_seen": "2026-08-26"
   },
   "pointincome:155152": {
    "site": "pointincome",
@@ -280166,7 +280166,7 @@
   "pointincome:149874": {
    "site": "pointincome",
    "deal_id": "149874",
-   "title": "【2カ月ごとに利用OK】ITトレンド ビジネスツール導入診断",
+   "title": "8/31までの高還元！ITトレンド ビジネスツール導入診断",
    "points_text": "60,000pt",
    "yen": 6000.0,
    "percent": null,
@@ -280175,7 +280175,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-26"
   },
   "pointincome:154530": {
    "site": "pointincome",
@@ -283251,17 +283251,18 @@
   "pointincome:153520": {
    "site": "pointincome",
    "deal_id": "153520",
-   "title": "ベルテックス資料請求",
-   "points_text": "35,000pt",
-   "yen": 3500.0,
+   "title": "【8/31までの高還元！】ベルテックス資料請求",
+   "points_text": "45,000pt",
+   "yen": 4500.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153520/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-20",
-   "renew_hold": true
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
+   "renewed_from": "35,000pt"
   },
   "pointincome:145640": {
    "site": "pointincome",
@@ -283714,7 +283715,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-26"
   },
   "pointincome:154075": {
    "site": "pointincome",
@@ -299963,30 +299964,34 @@
   "pointincome:149940": {
    "site": "pointincome",
    "deal_id": "149940",
-   "title": "エバーテイル（Android用）",
-   "points_text": "1,800pt ⇒ 2,000pt",
-   "yen": 180.0,
+   "title": "エバーテイル（Android用）【8/31までの高還元!!】",
+   "points_text": "2,500pt",
+   "yen": 250.0,
    "percent": null,
    "url": "https://sp.pointi.jp/ad/149940/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
+   "renewed_from": "1,800pt ⇒ 2,000pt"
   },
   "pointincome:149938": {
    "site": "pointincome",
    "deal_id": "149938",
-   "title": "エバーテイル（iOS用）",
-   "points_text": "1,800pt ⇒ 2,000pt",
-   "yen": 180.0,
+   "title": "エバーテイル（iOS用）【8/31までの高還元!!】",
+   "points_text": "2,500pt",
+   "yen": 250.0,
    "percent": null,
    "url": "https://sp.pointi.jp/ad/149938/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
+   "renewed_from": "1,800pt ⇒ 2,000pt"
   },
   "pointincome:155367": {
    "site": "pointincome",
@@ -301055,16 +301060,18 @@
   "pointincome:154546": {
    "site": "pointincome",
    "deal_id": "154546",
-   "title": "スマートニュース（iOS用）",
-   "points_text": "3,500pt ⇒ 5,000pt",
-   "yen": 350.0,
+   "title": "スマートニュース（iOS用）【高還元中！】",
+   "points_text": "7,500pt",
+   "yen": 750.0,
    "percent": null,
    "url": "https://sp.pointi.jp/ad/154546/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
+   "renewed_from": "3,500pt ⇒ 5,000pt"
   },
   "pointincome:153544": {
    "site": "pointincome",
@@ -301111,16 +301118,18 @@
   "pointincome:154545": {
    "site": "pointincome",
    "deal_id": "154545",
-   "title": "スマートニュース(Android用)",
-   "points_text": "3,500pt",
-   "yen": 350.0,
+   "title": "スマートニュース（Android用）【高還元中！】",
+   "points_text": "6,000pt",
+   "yen": 600.0,
    "percent": null,
    "url": "https://sp.pointi.jp/ad/154545/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
+   "renewed_from": "3,500pt"
   },
   "pointincome:149560": {
    "site": "pointincome",
@@ -301288,7 +301297,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-26"
   },
   "pointincome:154726": {
    "site": "pointincome",
@@ -301798,15 +301807,17 @@
    "site": "pointincome",
    "deal_id": "149647",
    "title": "Club toto（クラブトト）　無料会員登録",
-   "points_text": "3,000pt",
-   "yen": 300.0,
+   "points_text": "4,000pt",
+   "yen": 400.0,
    "percent": null,
    "url": "https://pointi.jp/ad/149647/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-07-17"
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
+   "renewed_from": "3,000pt"
   },
   "pointincome:140690": {
    "site": "pointincome",
@@ -306863,7 +306874,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-26"
   },
   "pointincome:155801": {
    "site": "pointincome",
@@ -309517,7 +309528,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-26",
    "renewed_at": "2026-08-22 13:01",
    "renewed_from": "80,000pt"
   },
@@ -310005,7 +310016,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-28"
+   "last_seen": "2026-08-26"
   },
   "pointincome:155151": {
    "site": "pointincome",
@@ -319061,7 +319072,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-26",
    "renew_hold": true
   },
   "pointincome:155358": {
@@ -324542,7 +324553,7 @@
    "seeded": false,
    "first_seen": "2026-07-19",
    "first_seen_at": "2026-07-19 01:00",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-26",
    "renewed_at": "2026-08-03 05:00",
    "renewed_from": "購入金額の30%"
   },
@@ -335250,17 +335261,17 @@
   "pointincome:150186": {
    "site": "pointincome",
    "deal_id": "150186",
-   "title": "every frecious（エブリィフレシャス）",
-   "points_text": "120,000pt",
-   "yen": 12000.0,
+   "title": "【8/31までの高還元！】every frecious（エブリィフレシャス）",
+   "points_text": "130,000pt",
+   "yen": 13000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/150186/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-08-10",
-   "renewed_at": "2026-08-02 10:00",
+   "last_seen": "2026-08-26",
+   "renewed_at": "2026-08-26 17:59",
    "renewed_from": "100,000pt"
   },
   "pointincome:155889": {
@@ -348462,7 +348473,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-26"
   },
   "pointincome:154179": {
    "site": "pointincome",
@@ -348535,7 +348546,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-26"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -348549,7 +348560,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-08-26"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -376131,7 +376142,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 10:00",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-08-26"
   },
   "pointincome:136805": {
    "site": "pointincome",
@@ -392367,6 +392378,230 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:00",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:151900": {
+   "site": "pointincome",
+   "deal_id": "151900",
+   "title": "マイナチュレオールインワンカラートリートメント",
+   "points_text": "5,000pt",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/151900/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:154613": {
+   "site": "pointincome",
+   "deal_id": "154613",
+   "title": "ハッピーパス（2カ月継続時初月無料/550円コース）",
+   "points_text": "6,000pt",
+   "yen": 600.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154613/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:153785": {
+   "site": "pointincome",
+   "deal_id": "153785",
+   "title": "YOSHIKEI（ヨシケイ）8つの選べるミールキットお試し5days",
+   "points_text": "12,000pt",
+   "yen": 1200.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/153785/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:153667": {
+   "site": "pointincome",
+   "deal_id": "153667",
+   "title": "オンライン占い＆メール占いセレーネ（会員登録＋広告利用）",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/153667/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:155805": {
+   "site": "pointincome",
+   "deal_id": "155805",
+   "title": "JAカード",
+   "points_text": "62,000pt",
+   "yen": 6200.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155805/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:152508": {
+   "site": "pointincome",
+   "deal_id": "152508",
+   "title": "Q.ENESTでんきよるトクプラン（キューエネスでんき）",
+   "points_text": "100,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/152508/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:154432": {
+   "site": "pointincome",
+   "deal_id": "154432",
+   "title": "みんな電力",
+   "points_text": "151,000pt",
+   "yen": 15100.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154432/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:151847": {
+   "site": "pointincome",
+   "deal_id": "151847",
+   "title": "ファクログ(口コミ投稿)",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/151847/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:153260": {
+   "site": "pointincome",
+   "deal_id": "153260",
+   "title": "ZOZOUSED（新規購入）",
+   "points_text": "5,000pt",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/153260/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:133307": {
+   "site": "pointincome",
+   "deal_id": "133307",
+   "title": "【500円OFFクーポン発行中！】ユアマイスター【高還元】",
+   "points_text": "31,000pt",
+   "yen": 3100.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/133307/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:147885": {
+   "site": "pointincome",
+   "deal_id": "147885",
+   "title": "8/31までの高還元！三井のカーシェアーズ 会員登録",
+   "points_text": "8,000pt",
+   "yen": 800.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/147885/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:150392": {
+   "site": "pointincome",
+   "deal_id": "150392",
+   "title": "くまポン初回購入",
+   "points_text": "1,200pt",
+   "yen": 120.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150392/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:156077": {
+   "site": "pointincome",
+   "deal_id": "156077",
+   "title": "Travel Town - マージアドベンチャーアプリ（Android用）",
+   "points_text": "7,000pt",
+   "yen": 700.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/156077/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:155816": {
+   "site": "pointincome",
+   "deal_id": "155816",
+   "title": "ホットペッパービューティー（Android用）",
+   "points_text": "31,000pt",
+   "yen": 3100.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/155816/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:155722": {
+   "site": "pointincome",
+   "deal_id": "155722",
+   "title": "Arrow Fever（Android用）【8/31までの高還元!!】",
+   "points_text": "1,300pt",
+   "yen": 130.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/155722/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
+   "last_seen": "2026-08-26"
+  },
+  "pointincome:155721": {
+   "site": "pointincome",
+   "deal_id": "155721",
+   "title": "Arrow Fever（iOS用）【8/31までの高還元!!】",
+   "points_text": "1,300pt",
+   "yen": 130.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/155721/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 17:59",
    "last_seen": "2026-08-26"
   }
  }

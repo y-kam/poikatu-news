@@ -72647,17 +72647,17 @@
   "moppy:119456": {
    "site": "moppy",
    "deal_id": "119456",
-   "title": "【8/16まで超還元！】U-NEXT[31日間無料お試し]",
-   "points_text": "2,000P",
-   "yen": 2000.0,
+   "title": "【大人気！】U-NEXT[31日間無料お試し]",
+   "points_text": "1,800P",
+   "yen": 1800.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=119456",
    "condition": "無料トライアル登録完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-10",
+   "last_seen": "2026-08-26",
    "site_new": true,
-   "renewed_at": "2026-08-21 13:11"
+   "renew_hold": true
   },
   "moppy:100822": {
    "site": "moppy",
@@ -73857,7 +73857,7 @@
   "moppy:157811": {
    "site": "moppy",
    "deal_id": "157811",
-   "title": "【超高還元】持ち家売却（訪問査定）",
+   "title": "【8月末まで超還元】持ち家売却（訪問査定）",
    "points_text": "19,000P",
    "yen": 19000.0,
    "percent": null,
@@ -73865,7 +73865,7 @@
    "condition": "訪問査定申し込み後、訪問査定・相談",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-26",
    "site_new": true,
    "renewed_at": "2026-08-22 13:12",
    "renewed_from": "18,000P"
@@ -79828,7 +79828,7 @@
    "condition": "550円コース登録完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-26"
   },
   "kurashiru_reward:16443": {
    "site": "kurashiru_reward",
@@ -130382,7 +130382,7 @@
    "yen": 10000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2404",
-   "condition": "新規口座開設後、45日以内に1万円以上の投資完了",
+   "condition": "新規口座開設後、90日以内に1万円以上の投資完了",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-26",
@@ -130820,7 +130820,7 @@
    "yen": 24000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2112",
-   "condition": "新規口座開設後、45日以内に累計100万円以上の投資完了",
+   "condition": "新規口座開設後、90日以内に累計100万円以上の投資完了",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-26",
@@ -131074,7 +131074,7 @@
    "yen": 12000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2101",
-   "condition": "新規口座開設後、45日以内に累計30万円以上の投資完了",
+   "condition": "新規口座開設後、90日以内に累計30万円以上の投資完了",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-26",
@@ -131088,7 +131088,7 @@
    "yen": 72000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2113",
-   "condition": "新規口座開設後、45日以内に累計300万円以上の投資完了",
+   "condition": "新規口座開設後、90日以内に累計300万円以上の投資完了",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-08-26",
@@ -309314,16 +309314,17 @@
    "site": "moppy",
    "deal_id": "161501",
    "title": "※還元UP中※2社以上自宅査定【持ち家売却】",
-   "points_text": "40,000P",
-   "yen": 40000.0,
+   "points_text": "38,000P",
+   "yen": 38000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161501",
    "condition": "2社以上との自宅査定完了",
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 13:00",
-   "last_seen": "2026-08-02",
-   "site_new": false
+   "last_seen": "2026-08-26",
+   "site_new": false,
+   "renew_hold": true
   },
   "moppy:102162": {
    "site": "moppy",
@@ -310211,7 +310212,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-13"
   },
   "warau:204544": {
@@ -310316,7 +310317,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-07-13"
   },
   "warau:204493": {
@@ -310710,7 +310711,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-26"
   },
   "poikatsu_club:6142": {
    "site": "poikatsu_club",
@@ -310724,7 +310725,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-26"
   },
   "poikatsu_club:6156": {
    "site": "poikatsu_club",
@@ -358607,7 +358608,7 @@
   "kurashiru_reward:18143": {
    "site": "kurashiru_reward",
    "deal_id": "18143",
-   "title": "年会費無料！イオングループで便利に使えるクレジットカード【コスモ・ザ・カード・オーパス】",
+   "title": "【年会費無料】コスモ・ザ・カード・オーパス",
    "points_text": "360,000コイン",
    "yen": 3600.0,
    "percent": null,
@@ -361294,7 +361295,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 21:00",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-08-26",
    "renewed_at": "2026-08-13 21:00"
   },
   "au_point:8:1539": {
@@ -362251,7 +362252,7 @@
    "seeded": false,
    "first_seen": "2026-08-12",
    "first_seen_at": "2026-08-12 11:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-26",
    "delisted_at": "2026-08-16"
   },
   "poikatsu_club:20282": {
@@ -374064,7 +374065,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 01:00",
-   "last_seen": "2026-08-19",
+   "last_seen": "2026-08-26",
    "site_new": false,
    "dead_streak": 1
   },
@@ -388160,7 +388161,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 13:00",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-26"
   },
   "pointtown:10028": {
    "site": "pointtown",
@@ -391845,6 +391846,146 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 11:00",
+   "last_seen": "2026-08-26"
+  },
+  "pointtown:5147": {
+   "site": "pointtown",
+   "deal_id": "5147",
+   "title": "レディースインナー通販【tu-hacci（ツーハッチ）】",
+   "points_text": "4%",
+   "yen": null,
+   "percent": 4.0,
+   "url": "https://www.pointtown.com/item/5147",
+   "condition": "お買い物で",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206007": {
+   "site": "warau",
+   "deal_id": "206007",
+   "title": "【SmaAD】Freecash（StepUp）",
+   "points_text": "20,951pt",
+   "yen": 20951.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206007",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:206006": {
+   "site": "warau",
+   "deal_id": "206006",
+   "title": "【SmaAD】Freecash（StepUp）",
+   "points_text": "13,830pt",
+   "yen": 13830.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206006",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:205941": {
+   "site": "warau",
+   "deal_id": "205941",
+   "title": "ソコカラ",
+   "points_text": "22,000pt",
+   "yen": 22000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205941",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "warau:205795": {
+   "site": "warau",
+   "deal_id": "205795",
+   "title": "DMM JCBカード（発行）",
+   "points_text": "5,600pt",
+   "yen": 5600.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=205795",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "value_point:61714703": {
+   "site": "value_point",
+   "deal_id": "61714703",
+   "title": "三井住友カード【ビジネスオーナーズ】",
+   "points_text": "5808pt",
+   "yen": 5808.0,
+   "percent": null,
+   "url": "https://www.value-point.jp/search/merchant/detail/61714703/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "value_point:61661511": {
+   "site": "value_point",
+   "deal_id": "61661511",
+   "title": "三井住友カード【ビジネスオーナーズ(プラチナプリファード)】",
+   "points_text": "17820pt",
+   "yen": 17820.0,
+   "percent": null,
+   "url": "https://www.value-point.jp/search/merchant/detail/61661511/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "value_point:61661510": {
+   "site": "value_point",
+   "deal_id": "61661510",
+   "title": "三井住友カード 【ビジネスオーナーズ（ゴールド）】",
+   "points_text": "15180pt",
+   "yen": 15180.0,
+   "percent": null,
+   "url": "https://www.value-point.jp/search/merchant/detail/61661510/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "amefri:139700": {
+   "site": "amefri",
+   "deal_id": "139700",
+   "title": "税務調査を国税OB税理士が丸ごとサポート！【シロクマくん税務調査あんしんメンバーシップ】",
+   "points_text": "25,500pt",
+   "yen": 2550.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139700",
+   "condition": "新規年払いプラン入会完了",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
+   "last_seen": "2026-08-26"
+  },
+  "entamenet:5s00000020503002": {
+   "site": "entamenet",
+   "deal_id": "5s00000020503002",
+   "title": "ファビウス公式オンラインショップ",
+   "points_text": "100円購入毎に9円",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=5s00000020503002",
+   "condition": "商品購入（リピートOK）",
+   "seeded": false,
+   "first_seen": "2026-08-26",
+   "first_seen_at": "2026-08-26 13:00",
    "last_seen": "2026-08-26"
   }
  }

@@ -72791,7 +72791,8 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-07-06",
+   "dead_streak": 1
   },
   "pointtown:1006": {
    "site": "pointtown",
@@ -278966,7 +278967,7 @@
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 15:00",
    "last_seen": "2026-08-01",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "pointincome:136843": {
    "site": "pointincome",
@@ -317543,7 +317544,8 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-07-22"
+   "last_seen": "2026-07-22",
+   "dead_streak": 1
   },
   "chobirich:1894780": {
    "site": "chobirich",
@@ -335011,7 +335013,8 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 06:38",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "chobirich:1895245": {
    "site": "chobirich",
@@ -340321,7 +340324,8 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:36",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointtown:10895": {
    "site": "pointtown",
@@ -369691,7 +369695,7 @@
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:29",
    "last_seen": "2026-08-21",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "warau:205687": {
    "site": "warau",
@@ -370746,7 +370750,7 @@
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 19:33",
    "last_seen": "2026-08-21",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "chobirich:1897180": {
    "site": "chobirich",
@@ -386498,7 +386502,7 @@
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 19:23",
    "last_seen": "2026-08-26",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "chobirich:1897473": {
    "site": "chobirich",
@@ -392722,7 +392726,8 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 18:45",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   },
   "chobirich:1897841": {
    "site": "chobirich",
@@ -393747,7 +393752,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   },
   "chobirich:1897874": {
    "site": "chobirich",
@@ -393804,7 +393810,7 @@
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
    "last_seen": "2026-08-27",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "pointincome:156087": {
    "site": "pointincome",
@@ -393834,7 +393840,7 @@
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
    "last_seen": "2026-08-27",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "pointincome:155614": {
    "site": "pointincome",
@@ -393849,7 +393855,7 @@
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 07:34",
    "last_seen": "2026-08-27",
-   "dead_streak": 1
+   "delisted_at": "2026-08-27"
   },
   "point_land:d1308": {
    "site": "point_land",
@@ -395059,7 +395065,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 18:31",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   },
   "pointincome:156006": {
    "site": "pointincome",
@@ -395073,7 +395080,8 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 18:31",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-27",
+   "dead_streak": 1
   }
  }
 }

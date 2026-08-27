@@ -96,9 +96,26 @@ gtag('config', '{{ publish.ga4_id }}');
 {% block content %}{% endblock %}
 </main>
 <footer>
-  <nav class="footlinks"><a href="/ranking.html">ポイントUP額ランキング</a><a href="/weekly.html">週間ポイントUPまとめ</a><a href="/history.html">値動き履歴</a><a href="/about.html">運営者情報・お問い合わせ</a><a href="/privacy.html">プライバシーポリシー</a></nav>
+  <nav class="footlinks"><a href="/ranking.html">ポイントUP額ランキング</a><a href="/popular.html">人気案件ランキング</a><a href="/weekly.html">週間ポイントUPまとめ</a><a href="/history.html">値動き履歴</a><a href="/about.html">運営者情報・お問い合わせ</a><a href="/privacy.html">プライバシーポリシー</a></nav>
   <p>掲載しているポイント数・条件は収集時点の情報です。最新の内容は各ポイントサイトでご確認ください。</p>
 </footer>
+{# 人気案件ランキング用のクリック計測。外部リンク（案件・紹介リンク）のクリック時に、リンク先URLだけを
+   click.php へ匿名送信する（Cookie・個人情報なし）。sendBeaconは遷移を妨げず、非対応環境では何もしない。
+   クライアント描画（全案件一覧）のリンクも拾えるよう、個別リンクではなくdocumentへの委譲で束ねる #}
+<script>
+(function () {
+  function report(e) {
+    var a = e.target && e.target.closest ? e.target.closest('a[href^="http"]') : null;
+    if (!a || !navigator.sendBeacon) return;
+    try {
+      if (new URL(a.href).host === location.host) return; // 内部リンクは数えない
+      navigator.sendBeacon('/click.php', new URLSearchParams({ u: a.getAttribute('href') }));
+    } catch (err) { /* 計測失敗で遷移を妨げない */ }
+  }
+  document.addEventListener('click', report);
+  document.addEventListener('auxclick', report); // 中クリック（新規タブ）も数える
+})();
+</script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

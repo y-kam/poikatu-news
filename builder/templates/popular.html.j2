@@ -1,0 +1,74 @@
+{% extends "base.html.j2" %}
+{% block title %}人気案件ランキング | ポイ活ニュース{% endblock %}
+{% block description %}当サイト内で直近{{ popular_days }}日間に多くクリックされた人気案件のランキング。毎日自動更新。{% endblock %}
+{% block canonical %}{{ base_url }}/popular.html{% endblock %}
+{% block jsonld %}
+{# 日次で内容が入れ替わる人気ランキング。CollectionPage＋ItemList＋パンくずの構成は ranking.html.j2 と同じ #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "url": "{{ base_url }}/popular.html",
+      "name": {{ self.title() | tojson }},
+      "description": {{ self.description() | tojson }},
+      "isPartOf": { "@id": "{{ base_url }}/#website" },
+      "inLanguage": "ja",
+      "dateModified": "{{ updated_at_iso }}",
+      "mainEntity": { "@id": "{{ base_url }}/popular.html#itemlist" }
+    },
+    {# ランキングの中身を機械可読に伝えるItemList（列挙は上位{{ jsonld_item_cap }}件・numberOfItemsは全体数） #}
+    {
+      "@type": "ItemList",
+      "@id": "{{ base_url }}/popular.html#itemlist",
+      "name": "人気案件ランキング",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "numberOfItems": {{ rows | length }},
+      "itemListElement": [{% for r in rows[:jsonld_item_cap] %}{{ "," if not loop.first }}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ r.title | tojson }}, "url": {{ r.url | tojson }} }{% endfor %}
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ base_url }}/" },
+        { "@type": "ListItem", "position": 2, "name": "人気案件ランキング", "item": "{{ base_url }}/popular.html" }
+      ]
+    }
+  ]
+}
+</script>
+{% endblock %}
+{% block header_meta %}
+  <div class="meta">最終更新: {{ updated_at }}</div>
+{% endblock %}
+{% block content %}
+{# 関連ページタブ: 他のランキング系ページと行き来しやすくする（現在ページは塗りつぶし表示） #}
+<nav class="jumpnav" aria-label="関連ページ">
+  <a href="/">← ホーム</a>
+  <a href="/ranking.html">UP額ランキング</a>
+  <a href="/popular.html" class="current" aria-current="page">人気ランキング</a>
+  <a href="/weekly.html">週間まとめ</a>
+  <a href="/history.html">値動き履歴</a>
+</nav>
+<section>
+  <h2>人気案件ランキング<span class="allcount">（直近{{ popular_days }}日）</span></h2>
+  <p class="note">当サイト内で直近{{ popular_days }}日間に多くクリックされた掲載中の案件を、クリック数の多い順に並べています。掲載が終了した案件は自動的にランキングから外れます。</p>
+  {% if rows %}
+  <ol class="ranklist">
+    {% for r in rows %}
+    <li>
+      <span class="rank">{{ loop.index }}</span>
+      <span class="rankmeta"><span class="site">{{ site_names[r.site] if r.site in site_names else r.site }}</span></span>
+      <span class="ttl"><a href="{{ r.url }}" rel="nofollow noopener" target="_blank">{{ r.title }}</a><span class="cat">{{ category_names.get(r.category, r.category) }}</span></span>
+      <span class="vals">{% if r.yen %}<strong>{{ r.yen|yen }}円</strong><span class="sub">（{{ r.points_text }}）</span>{% else %}<strong>{{ r.points_text }}</strong>{% endif %}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty">集計を開始してから間もないため、まだ表示できるランキングがありません。データが集まりしだい自動で掲載されます。</p>
+  {% endif %}
+  <p class="note">今まさに増額中の案件は<a href="/ranking.html">UP額ランキング</a>、案件ごとのポイント推移は<a href="/history.html">値動き履歴</a>で確認できます。</p>
+</section>
+{% endblock %}

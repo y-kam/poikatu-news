@@ -15,7 +15,20 @@
       "description": {{ self.description() | tojson }},
       "isPartOf": { "@id": "{{ base_url }}/#website" },
       "inLanguage": "ja",
-      "dateModified": "{{ updated_at_iso }}"
+      "dateModified": "{{ updated_at_iso }}",
+      "mainEntity": { "@id": "{{ base_url }}/ranking.html#itemlist" }
+    },
+    {# ランキングの中身（順位・案件名・リンク先）を機械可読に伝えるItemList。
+       HTML肥大化（転送量増）を避けるため列挙は上位{{ jsonld_item_cap }}件に留める（numberOfItemsは全体数） #}
+    {
+      "@type": "ItemList",
+      "@id": "{{ base_url }}/ranking.html#itemlist",
+      "name": "今週のポイントUP額ランキング",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "numberOfItems": {{ rows | length }},
+      "itemListElement": [{% for r in rows[:jsonld_item_cap] %}{{ "," if not loop.first }}
+        { "@type": "ListItem", "position": {{ loop.index }}, "name": {{ r.title | tojson }}, "url": {{ r.url | tojson }} }{% endfor %}
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -36,6 +49,7 @@
 <nav class="jumpnav" aria-label="関連ページ">
   <a href="/">← ホーム</a>
   <a href="/ranking.html" class="current" aria-current="page">UP額ランキング</a>
+  <a href="/popular.html">人気ランキング</a>
   <a href="/weekly.html">週間まとめ</a>
   <a href="/history.html">値動き履歴</a>
 </nav>

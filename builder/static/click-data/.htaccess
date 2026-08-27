@@ -1,0 +1,8 @@
+# クリック集計データ（clicks.json）への直接アクセスを拒否する（読み出しは click.php?export 経由のみ）
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>

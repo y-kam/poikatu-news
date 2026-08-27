@@ -18,6 +18,7 @@ import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from builder.fetch_clicks import fetch_clicks
 from builder.generate import generate
 from crawler import health
 from crawler import store as store_mod
@@ -207,6 +208,8 @@ def main() -> int:
         health.report(health.evaluate(metrics))
         if failures:
             print(f"[warn] 失敗サイト: {', '.join(failures)}", file=sys.stderr)
+        # 人気案件ランキング用のクリック集計をサーバから取り込む（失敗しても前回分で生成を継続）
+        fetch_clicks()
 
     out = generate(store, sites_config, today)
     print(f"[ok] サイト生成: {out}")

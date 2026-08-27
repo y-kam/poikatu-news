@@ -20,6 +20,8 @@
 
   <h3>アクセス解析について</h3>
   <p>本サイトは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用する場合があります。Googleアナリティクスはトラフィックデータの収集のためにCookieを使用します。このデータは匿名で収集されており、個人を特定するものではありません。ブラウザの設定でCookieを無効にすることで収集を拒否できます。詳細は<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" rel="noopener" target="_blank">Googleアナリティクス利用規約</a>をご確認ください。</p>
+  {# 人気案件ランキング（popular.html）用の自前クリック集計。収集内容が最小限（URLと回数のみ）であることを明示する #}
+  <p>また、本サイトでは人気ランキングの作成のため、サイト内のリンクが何回クリックされたかを当サイトのサーバで集計しています。集計・保存するのはリンク先のURLとクリック回数のみで、Cookieは使用せず、IPアドレス等の個人を特定しうる情報は保存しません。</p>
 
   {# 広告・紹介リンクを実際に掲載している時だけ表示（紹介リンク=has_referral / AdSense=adsense_client_id に連動） #}
   {% if has_promotion %}

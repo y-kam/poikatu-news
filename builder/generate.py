@@ -61,6 +61,16 @@ NEW_DISPLAY_CAP = 200
 UP_RANKING_DAYS = 7
 UP_RANKING_CAP = 100
 
+# 構造化データ(ItemList)に列挙するランキング上位件数。本文の掲載上限より小さく抑え、
+# JSON-LDでのHTML肥大化（転送量増）を防ぐ（numberOfItemsには全体数を載せる）
+JSONLD_ITEM_CAP = 20
+
+# 人気案件ランキング（popular.html）の集計期間（直近日数）と掲載上限。
+# クリック数はサーバの click.php が集計し、デイリークロールが data/clicks.json へ取り込む
+POPULAR_DAYS = 7
+POPULAR_CAP = 30
+CLICKS_FILE = ROOT / "data" / "clicks.json"
+
 # 値動き履歴ページ（history.html）の掲載上限（過去最高・値上がり・値下がりの順で上位N件）
 HISTORY_PAGE_CAP = 200
 
@@ -314,6 +324,53 @@ def _history_series(deal: dict, history: dict) -> "tuple[str, list[tuple[str, fl
 
     points = [(entry[0], entry[index]) for entry in entries if entry[index] is not None]
     return (unit, points) if len(points) >= 2 else None
+
+
+def _load_click_totals(today: str) -> dict:
+    """data/clicks.json（click.phpの集計スナップショット）から、直近POPULAR_DAYS日の
+    「リンク先URLのsha1ハッシュ → クリック合計」を返す。ファイル無し・破損時は空dict。"""
+    try:
+        days = json.loads(CLICKS_FILE.read_text(encoding="utf-8")).get("days", {})
+    except (OSError, json.JSONDecodeError):
+        return {}
+    cutoff = (
+        datetime.strptime(today, "%Y-%m-%d") - timedelta(days=POPULAR_DAYS - 1)
+    ).strftime("%Y-%m-%d")
+    totals = {}
+    for day, counts in days.items():
+        if day < cutoff or not isinstance(counts, dict):
+            continue
+        for key, n in counts.items():
+            if isinstance(n, int) and n > 0:
+                totals[key] = totals.get(key, 0) + n
+    return totals
+
+
+def _popular_rows(recent: list, today: str) -> list:
+    """人気案件ランキングの行データ。当サイト内のクリック数（直近POPULAR_DAYS日）が多い順に
+    現在掲載中の案件を返す。クリックはURL単位の集計のため、同一URLが複数案件で使われる場合は
+    最高還元の1件に代表させる。掲載終了した案件は recent に居ないため自然に外れる。"""
+    totals = _load_click_totals(today)
+    if not totals:
+        return []
+    by_hash = {}
+    for deal in recent:
+        h = hashlib.sha1(deal["url"].encode("utf-8")).hexdigest()
+        if h not in totals:
+            continue
+        cur = by_hash.get(h)
+        if cur is None or (deal.get("yen") or 0) > (cur.get("yen") or 0):
+            by_hash[h] = deal
+    rows = [
+        {
+            "site": deal["site"], "title": deal["title"], "url": deal["url"],
+            "category": deal["category"], "points_text": deal["points_text"],
+            "yen": deal.get("yen"), "clicks": totals[h],
+        }
+        for h, deal in by_hash.items()
+    ]
+    rows.sort(key=lambda r: (-r["clicks"], -(r["yen"] or 0)))
+    return rows[:POPULAR_CAP]
 
 
 def _up_ranking_rows(recent: list, history: dict, today: str) -> list:
@@ -699,6 +756,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         updated_at=updated_at,
         updated_at_iso=updated_at_iso,
         up_days=UP_RANKING_DAYS,
+        jsonld_item_cap=JSONLD_ITEM_CAP,
         category_names=category_names,
         site_names={k: v["name"] for k, v in enabled_sites.items()},
         **common,
@@ -722,6 +780,14 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
             week_end=_date_md(week_end),
             week_cap=WEEKLY_CAP,
             **page_ctx,
+        ),
+        encoding="utf-8",
+    )
+    # 人気案件ランキング（当サイト内クリック数・直近POPULAR_DAYS日）。集計データが
+    # 無い間も空状態のページを出し、ナビ・URLを安定させる
+    (OUTPUT_DIR / "popular.html").write_text(
+        env.get_template("popular.html.j2").render(
+            rows=_popular_rows(personal, today), popular_days=POPULAR_DAYS, **page_ctx
         ),
         encoding="utf-8",
     )
@@ -754,6 +820,8 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
         "<changefreq>daily</changefreq><priority>1.0</priority></url>\n"
         f"  <url><loc>{BASE_URL}/ranking.html</loc><lastmod>{updated_at_iso}</lastmod>"
         "<changefreq>daily</changefreq><priority>0.6</priority></url>\n"
+        f"  <url><loc>{BASE_URL}/popular.html</loc><lastmod>{updated_at_iso}</lastmod>"
+        "<changefreq>daily</changefreq><priority>0.6</priority></url>\n"
         f"  <url><loc>{BASE_URL}/history.html</loc><lastmod>{updated_at_iso}</lastmod>"
         "<changefreq>daily</changefreq><priority>0.5</priority></url>\n"
         # 週次まとめは週明け（対象週の翌月曜）に内容が確定し、次の月曜まで変わらないため
@@ -782,6 +850,7 @@ def generate(store: dict, sites_config: dict, today: str) -> Path:
 ## 主要ページ
 - [トップページ]({BASE_URL}/): 全案件の検索/絞り込み・新着案件・複数サイトの還元比較
 - [ポイントUP額ランキング]({BASE_URL}/ranking.html): 直近{UP_RANKING_DAYS}日にポイントが増額され現在も増額中の案件を増額幅（円換算）順に掲載
+- [人気案件ランキング]({BASE_URL}/popular.html): 当サイト内で直近{POPULAR_DAYS}日間に多くクリックされた掲載中の案件のランキング
 - [今週のポイントUPまとめ]({BASE_URL}/weekly.html): 直近の1週間（月〜日）に増額された案件の上位{WEEKLY_CAP}件。毎週月曜に更新し、確定後は内容が変わらない週次の記録
 - [値動き履歴]({BASE_URL}/history.html): ポイント数が変動した案件の推移と過去最高値（観測開始以降）
 - [運営者情報・お問い合わせ]({BASE_URL}/about.html): サイトの趣旨・掲載データの方針・連絡先

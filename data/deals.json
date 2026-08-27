@@ -75459,7 +75459,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "renew_hold": true
   },
   "au_point:8:1398": {
@@ -285012,7 +285012,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "moppy:135185": {
    "site": "moppy",
@@ -392382,7 +392382,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "site_new": true
   },
   "chanceit:33365": {
@@ -393485,7 +393485,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 21:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "poikatsu_club:20560": {
    "site": "poikatsu_club",
@@ -394506,7 +394506,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 15:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "warau:206069": {
    "site": "warau",
@@ -394520,7 +394520,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 15:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "warau:206070": {
    "site": "warau",
@@ -394865,7 +394865,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 17:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "warau:206073": {
    "site": "warau",
@@ -394879,7 +394879,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 17:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "fruitmail:18492": {
    "site": "fruitmail",
@@ -395989,6 +395989,48 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 01:00",
+   "last_seen": "2026-08-28"
+  },
+  "hapitas:102775": {
+   "site": "hapitas",
+   "deal_id": "102775",
+   "title": "歩数計あるくん〜シンプルなウォーキングアプリ（メールアドレス登録完了）（Android）",
+   "points_text": "112pt",
+   "yen": 112.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102775/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 05:00",
+   "last_seen": "2026-08-28"
+  },
+  "hapitas:102782": {
+   "site": "hapitas",
+   "deal_id": "102782",
+   "title": "ETVOS（エトヴォス）",
+   "points_text": "2.5%",
+   "yen": null,
+   "percent": 2.5,
+   "url": "https://hapitas.jp/item/detail/itemid/102782/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 05:00",
+   "last_seen": "2026-08-28"
+  },
+  "hapitas:102778": {
+   "site": "hapitas",
+   "deal_id": "102778",
+   "title": "auでんき（オール電化プラン）",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102778/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 05:00",
    "last_seen": "2026-08-28"
   }
  }

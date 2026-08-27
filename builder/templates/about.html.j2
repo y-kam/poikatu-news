@@ -35,8 +35,11 @@
   </ul>
 
   <h3>お問い合わせ</h3>
+  {# 窓口はフォーム優先・無ければメール・両方未設定なら準備中（config/publish.json で切替） #}
   {% if publish.contact_form_url %}
   <p><a href="{{ publish.contact_form_url }}" rel="noopener" target="_blank">お問い合わせフォーム</a>よりご連絡ください。</p>
+  {% elif publish.contact_email %}
+  <p>メールにて <a href="mailto:{{ publish.contact_email }}">{{ publish.contact_email }}</a> までご連絡ください。</p>
   {% else %}
   <p>お問い合わせ窓口は現在準備中です。</p>
   {% endif %}

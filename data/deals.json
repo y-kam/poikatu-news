@@ -141834,10 +141834,10 @@
    "yen": 280.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=212712",
-   "condition": "",
+   "condition": "アンケート回答",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-28",
    "backfill": true,
    "backfill_dated": true
   },
@@ -221351,7 +221351,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-08-28"
   },
   "point_island:s27176": {
    "site": "point_island",
@@ -232742,7 +232742,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-02"
+   "last_seen": "2026-08-28"
   },
   "point_stadium:0401027": {
    "site": "point_stadium",
@@ -244192,8 +244192,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-01",
-   "renewed_at": "2026-07-29 21:00"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 08:00"
   },
   "nyandaful:0401027": {
    "site": "nyandaful",
@@ -341521,7 +341521,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-28"
   },
   "powl:37763": {
    "site": "powl",
@@ -391378,8 +391378,9 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-27",
-   "site_new": true
+   "last_seen": "2026-08-28",
+   "site_new": true,
+   "renewed_at": "2026-08-28 08:00"
   },
   "amefri:139694": {
    "site": "amefri",
@@ -393478,7 +393479,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 21:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "poikatsu_club:20566": {
    "site": "poikatsu_club",
@@ -394555,7 +394556,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 15:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "warau:206063": {
    "site": "warau",
@@ -394569,7 +394570,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 15:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "fruitmail:18491": {
    "site": "fruitmail",

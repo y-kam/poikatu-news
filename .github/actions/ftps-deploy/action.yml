@@ -1,17 +1,27 @@
 name: FTPS deploy with retry
 description: >-
-  ./site/ をFTPSでサーバへアップロードする。レンタルサーバーのFTPSは
-  一時的にDNS解決失敗（getaddrinfo ENOTFOUND）や接続タイムアウトを起こすため、
-  1回の接続に時間をかけつつ、失敗時は最大4回まで間隔を空けて再試行する。
+  ./site/ をFTPSでサーバへアップロードする。レンタルサーバー（sv6055.wpx.ne.jp / エックスサーバー系）の
+  FTPは数十分単位で「接続そのものが成立しない」窓が発生するため、その窓を跨げるまで再試行する。
 
-  実測（2026-08-18〜21の失敗5件）では、いずれも「接続確立の段階」で既定の
-  30秒タイムアウトちょうどに落ちており（Failed to connect → Timeout (control socket)、
-  duration 30.2秒×3回）、待機60秒→120秒の3回では障害窓（3分半以上続く）を
-  跨げずに全滅していた。対策は次の2点:
-    - timeout を120秒に延長（混雑で応答が遅れている接続を待ち切る）
-    - 再試行を4回・待機を60秒→180秒→300秒に拡大（約10分の障害窓を跨ぐ）
-  最悪ケースの所要は約17分（120秒×4＋待機9分）。呼び出し側ジョブの
-  timeout-minutes はこれを見込んだ値にすること（crawl:45分 / deploy:30分）。
+  ■ 障害の実態（2026-08-23〜27の失敗7件から）
+    - 失敗はすべて接続確立の段階（Failed to connect → Timeout (control socket)）で、
+      設定したtimeout値ちょうどで落ちる。timeoutを30秒→120秒に延ばしても「30.2秒ちょうど」が
+      「120.2秒ちょうど」に変わっただけで、1件も救えていない。＝応答が遅いのではなく
+      接続要求が破棄されている（SYNが返らない）状態。
+    - 正常時のアップロードは9〜14秒で完了する。つまり長いtimeoutは待つ意味がなく、
+      1回あたり2分を空費して再試行の回数を削るだけで逆効果だった。
+    - 2026-08-26は別ランナー（＝別IP）の2実行が09:45〜10:21にそろって失敗し、10:30の実行は
+      29秒で成功。単一ランナーIPのBANではなく、ホスティング側の一時的な遮断・輻輳窓。
+      窓の長さは実測で最大約34分（09:46の失敗〜10:30の成功）。
+
+  ■ 対策（上記から導いた設計）
+    - timeout は45秒（既定30秒＋余裕。120秒は空費と実証されたため戻す）
+    - 再試行は6回・待機を 60→180→300→540→720秒 に拡大し、
+      最初の試行から最後の試行まで約34分＝実測の最長障害窓を跨げるようにする
+    - 最悪ケースの所要は約35分（45秒×6＋待機30分）。呼び出し側ジョブの timeout-minutes は
+      これを見込んだ値にすること（crawl:55分 / linkcheck:90分 / deploy:45分）。
+    - 全滅した場合は最後に切り分け情報（ランナーの外向きIP・FTPポートへの到達性）を出してから
+      ジョブを失敗させる。次に失敗したとき「IP固有の遮断か・サーバ側の停止か」をログだけで判断できる。
 inputs:
   server:
     description: FTPサーバホスト（FTP_SERVER）
@@ -28,6 +38,9 @@ inputs:
 runs:
   using: composite
   steps:
+    # 各試行の `if` は「直前の試行が failure か」だけを見る。直前の試行は、さらにその前が
+    # 失敗したときしか実行されない（成功・スキップ時の outcome は 'success' / 'skipped'）ので、
+    # これだけで「前回まで全滅のときだけ再試行する」が成立する。条件の連結を伸ばさずに済む。
     - name: FTPS upload (1回目)
       id: try1
       continue-on-error: true
@@ -39,12 +52,12 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
-        timeout: 120000
+        timeout: 45000
+
     - name: 再試行前の待機（60秒）
       if: steps.try1.outcome == 'failure'
       shell: bash
       run: sleep 60
-
     - name: FTPS upload (2回目)
       id: try2
       if: steps.try1.outcome == 'failure'
@@ -57,15 +70,15 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
-        timeout: 120000
+        timeout: 45000
+
     - name: 再試行前の待機（180秒）
-      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure'
+      if: steps.try2.outcome == 'failure'
       shell: bash
       run: sleep 180
-
     - name: FTPS upload (3回目)
       id: try3
-      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure'
+      if: steps.try2.outcome == 'failure'
       continue-on-error: true
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
@@ -75,15 +88,16 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
-        timeout: 120000
+        timeout: 45000
+
     - name: 再試行前の待機（300秒）
-      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure' && steps.try3.outcome == 'failure'
+      if: steps.try3.outcome == 'failure'
       shell: bash
       run: sleep 300
-
-    # 最後の1回だけ continue-on-error を付けない（ここまで失敗ならジョブを失敗させて通知する）
     - name: FTPS upload (4回目)
-      if: steps.try1.outcome == 'failure' && steps.try2.outcome == 'failure' && steps.try3.outcome == 'failure'
+      id: try4
+      if: steps.try3.outcome == 'failure'
+      continue-on-error: true
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ inputs.server }}
@@ -92,4 +106,67 @@ runs:
         protocol: ftps
         local-dir: ./site/
         server-dir: ${{ inputs.server-dir }}
-        timeout: 120000
+        timeout: 45000
+
+    - name: 再試行前の待機（540秒）
+      if: steps.try4.outcome == 'failure'
+      shell: bash
+      run: sleep 540
+    - name: FTPS upload (5回目)
+      id: try5
+      if: steps.try4.outcome == 'failure'
+      continue-on-error: true
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        protocol: ftps
+        local-dir: ./site/
+        server-dir: ${{ inputs.server-dir }}
+        timeout: 45000
+
+    - name: 再試行前の待機（720秒）
+      if: steps.try5.outcome == 'failure'
+      shell: bash
+      run: sleep 720
+    # 最終試行も continue-on-error にしておき、失敗の確定は次の判定ステップで行う。
+    # ここで即座にジョブを落とすと、切り分け情報を出す機会がなくなるため。
+    - name: FTPS upload (6回目)
+      id: try6
+      if: steps.try5.outcome == 'failure'
+      continue-on-error: true
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ inputs.server }}
+        username: ${{ inputs.username }}
+        password: ${{ inputs.password }}
+        protocol: ftps
+        local-dir: ./site/
+        server-dir: ${{ inputs.server-dir }}
+        timeout: 45000
+
+    # 全滅時のみ、原因切り分けに必要な情報を残してからジョブを失敗させる。
+    #   - 外向きIP     : 次回以降、失敗が特定のIPレンジに偏るかを見るため
+    #   - FTPポート到達: 判定時点でも繋がらないのか（障害継続中）／もう繋がるのか（窓を跨げなかった）
+    # ホスト名はsecretなのでログ上はマスクされるが、到達可否の結果は読み取れる。
+    - name: 結果判定（全滅時は切り分け情報を出して失敗させる）
+      if: always()
+      shell: bash
+      env:
+        FTP_HOST: ${{ inputs.server }}
+      run: |
+        if [ "${{ steps.try6.outcome }}" != "failure" ]; then
+          exit 0
+        fi
+        echo "::group::FTPS全滅時の切り分け情報"
+        echo "runner egress IP: $(curl -s --max-time 10 https://api.ipify.org || echo '(取得失敗)')"
+        # ホスト名はenv経由で内側のbashに展開させる（外側で展開してコマンド文字列に埋めない）
+        if timeout 10 bash -c 'exec 3<>/dev/tcp/$FTP_HOST/21' 2>/dev/null; then
+          echo "FTP port 21 到達: OK（判定時点では接続可能＝約34分の再試行窓を跨げなかった）"
+        else
+          echo "FTP port 21 到達: NG（判定時点でも接続不可＝障害が継続中）"
+        fi
+        echo "::endgroup::"
+        echo "::error::FTPSアップロードが6回とも失敗しました（約35分・接続確立せず）"
+        exit 1

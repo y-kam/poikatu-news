@@ -227254,15 +227254,17 @@
    "site": "point_island",
    "deal_id": "220722",
    "title": "クランクイン！ビデオ",
-   "points_text": "9800ポイント",
-   "yen": 980.0,
+   "points_text": "11200ポイント",
+   "yen": 1120.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=220722",
    "condition": "有料会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-29",
+   "renewed_at": "2026-08-29 08:00",
+   "renewed_from": "9800ポイント"
   },
   "point_island:11109699": {
    "site": "point_island",
@@ -238661,15 +238663,17 @@
    "site": "point_stadium",
    "deal_id": "220722",
    "title": "クランクイン！ビデオ",
-   "points_text": "9800ポイント",
-   "yen": 980.0,
+   "points_text": "11200ポイント",
+   "yen": 1120.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=220722",
    "condition": "有料会員登録で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-29",
+   "renewed_at": "2026-08-29 08:00",
+   "renewed_from": "9800ポイント"
   },
   "point_stadium:11109699": {
    "site": "point_stadium",
@@ -250030,15 +250034,17 @@
    "site": "nyandaful",
    "deal_id": "220722",
    "title": "クランクイン！ビデオ",
-   "points_text": "9,800pt",
-   "yen": 980.0,
+   "points_text": "11,200pt",
+   "yen": 1120.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=220722",
    "condition": "P 有料会員登録で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-29",
+   "renewed_at": "2026-08-29 08:00",
+   "renewed_from": "9,800pt"
   },
   "nyandaful:11109699": {
    "site": "nyandaful",
@@ -384242,15 +384248,17 @@
    "site": "point_museum",
    "deal_id": "220722",
    "title": "クランクイン！ビデオ",
-   "points_text": "9,800pt",
-   "yen": 980.0,
+   "points_text": "11,200pt",
+   "yen": 1120.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=220722",
    "condition": "有料会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-29",
+   "renewed_at": "2026-08-29 08:00",
+   "renewed_from": "9,800pt"
   },
   "point_museum:f53670": {
    "site": "point_museum",
@@ -396279,7 +396287,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
-   "last_seen": "2026-08-28"
+   "last_seen": "2026-08-29"
   },
   "amefri:139749": {
    "site": "amefri",
@@ -399266,6 +399274,20 @@
    "seeded": false,
    "first_seen": "2026-08-29",
    "first_seen_at": "2026-08-29 07:30",
+   "last_seen": "2026-08-29"
+  },
+  "point_land:220722": {
+   "site": "point_land",
+   "deal_id": "220722",
+   "title": "クランクイン！ビデオ",
+   "points_text": "11200ポイント",
+   "yen": 1120.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=220722",
+   "condition": "有料会員登録",
+   "seeded": false,
+   "first_seen": "2026-08-29",
+   "first_seen_at": "2026-08-29 08:00",
    "last_seen": "2026-08-29"
   }
  }

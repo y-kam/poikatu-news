@@ -283359,7 +283359,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-08-28"
   },
   "pointincome:154440": {
    "site": "pointincome",
@@ -283518,7 +283518,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 11:00",
-   "last_seen": "2026-08-14",
+   "last_seen": "2026-08-28",
    "renew_hold": true
   },
   "pointincome:155737": {
@@ -299903,7 +299903,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "renewed_at": "2026-08-27 07:34",
    "renewed_from": "2,000pt"
   },
@@ -299919,7 +299919,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "renewed_at": "2026-08-27 07:34",
    "renewed_from": "2,000pt"
   },
@@ -300947,7 +300947,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-28"
   },
   "pointincome:155362": {
    "site": "pointincome",
@@ -301224,21 +301224,22 @@
   "pointincome:153390": {
    "site": "pointincome",
    "deal_id": "153390",
-   "title": "ピッコマ（Android用）",
-   "points_text": "4,000pt",
-   "yen": 400.0,
+   "title": "8/30で終了!!ピッコマ（Android用）",
+   "points_text": "3,000pt",
+   "yen": 300.0,
    "percent": null,
    "url": "https://sp.pointi.jp/ad/153390/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-28",
+   "renew_hold": true
   },
   "pointincome:153389": {
    "site": "pointincome",
    "deal_id": "153389",
-   "title": "ピッコマ（iOS用）",
+   "title": "8/30で終了!!ピッコマ（iOS用）",
    "points_text": "4,000pt",
    "yen": 400.0,
    "percent": null,
@@ -301247,7 +301248,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09"
+   "last_seen": "2026-08-28"
   },
   "pointincome:154580": {
    "site": "pointincome",
@@ -306857,16 +306858,16 @@
   "pointincome:154093": {
    "site": "pointincome",
    "deal_id": "154093",
-   "title": "8/23までの高還元！リクルートカード",
-   "points_text": "50,000pt",
-   "yen": 5000.0,
+   "title": "リクルートカード",
+   "points_text": "43,000pt",
+   "yen": 4300.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154093/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-08-23",
+   "last_seen": "2026-08-28",
    "renew_hold": true
   },
   "pointincome:155698": {
@@ -306937,7 +306938,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-28"
   },
   "pointincome:155801": {
    "site": "pointincome",
@@ -307644,7 +307645,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-28"
   },
   "pointincome:144659": {
    "site": "pointincome",
@@ -310066,7 +310067,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-07-14"
+   "last_seen": "2026-08-28"
   },
   "pointincome:153700": {
    "site": "pointincome",
@@ -311506,16 +311507,18 @@
   "pointincome:155749": {
    "site": "pointincome",
    "deal_id": "155749",
-   "title": "DMM JCBカード",
-   "points_text": "50,000pt",
-   "yen": 5000.0,
+   "title": "【8月限定超高還元!!】DMM JCBカード",
+   "points_text": "73,000pt",
+   "yen": 7300.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155749/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-07-16"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 18:36",
+   "renewed_from": "50,000pt"
   },
   "pointincome:155820": {
    "site": "pointincome",
@@ -314345,15 +314348,17 @@
    "site": "pointincome",
    "deal_id": "150674",
    "title": "資生堂オンラインストア",
-   "points_text": "購入金額の1%",
+   "points_text": "購入金額の10%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 10.0,
    "url": "https://pointi.jp/ad/150674/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-14"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 18:36",
+   "renewed_from": "購入金額の1%"
   },
   "pointincome:122189": {
    "site": "pointincome",
@@ -317506,7 +317511,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-28",
    "renew_hold": true
   },
   "pointincome:112914": {
@@ -319899,7 +319904,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 17:00",
-   "last_seen": "2026-07-17"
+   "last_seen": "2026-08-28"
   },
   "pointincome:154839": {
    "site": "pointincome",
@@ -332005,7 +332010,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 01:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-28"
   },
   "pointincome:155159": {
    "site": "pointincome",
@@ -338406,7 +338411,7 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "renew_hold": true
   },
   "pointincome:136387": {
@@ -348646,7 +348651,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-28"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -349895,7 +349900,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-28"
   },
   "pointincome:148316": {
    "site": "pointincome",
@@ -349937,7 +349942,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-08-28"
   },
   "pointincome:143584": {
    "site": "pointincome",
@@ -367295,15 +367300,17 @@
    "site": "chobirich",
    "deal_id": "1806806",
    "title": "放置少女〜百花繚乱の萌姫たち〜",
-   "points_text": "1716pt",
-   "yen": 858.0,
+   "points_text": "1820pt",
+   "yen": 910.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1806806/",
    "condition": "45日以内にプレイヤーレベル120到達（1転生Lv.20到達）(インストール後、条件達成)",
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 08:18",
-   "last_seen": "2026-08-17"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 18:36",
+   "renewed_from": "1716pt"
   },
   "chobirich:1897083": {
    "site": "chobirich",
@@ -392767,7 +392774,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-28",
    "delisted_at": "2026-08-26"
   },
   "pointincome:155721": {
@@ -392782,7 +392789,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-08-28",
    "delisted_at": "2026-08-26"
   },
   "chobirich:1897854": {
@@ -397728,6 +397735,272 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 17:00",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1897938": {
+   "site": "chobirich",
+   "deal_id": "1897938",
+   "title": "選ばれた会社員だけの不動産投資術",
+   "points_text": "1,300pt",
+   "yen": 650.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897938/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1897935": {
+   "site": "chobirich",
+   "deal_id": "1897935",
+   "title": "auでんき オール電化プラン",
+   "points_text": "3,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897935/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1898050": {
+   "site": "chobirich",
+   "deal_id": "1898050",
+   "title": "PLUSTEE GOLF ONLINE",
+   "points_text": "10％",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://www.chobirich.com/ad_details/1898050/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1898047": {
+   "site": "chobirich",
+   "deal_id": "1898047",
+   "title": "ALGO Chair Pro",
+   "points_text": "15,000pt",
+   "yen": 7500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898047/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1898046": {
+   "site": "chobirich",
+   "deal_id": "1898046",
+   "title": "個性派マーケットプレイス【ramuno】",
+   "points_text": "3％",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://www.chobirich.com/ad_details/1898046/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1897862": {
+   "site": "chobirich",
+   "deal_id": "1897862",
+   "title": "レンズAAA",
+   "points_text": "5％",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://www.chobirich.com/ad_details/1897862/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1898048": {
+   "site": "chobirich",
+   "deal_id": "1898048",
+   "title": "ファミリーファームの冒険（アプリランド）",
+   "points_text": "最大4258pt",
+   "yen": 2129.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898048/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1898043": {
+   "site": "chobirich",
+   "deal_id": "1898043",
+   "title": "ステイトコネクト：交通整理",
+   "points_text": "最大2618pt",
+   "yen": 1309.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898043/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1898032": {
+   "site": "chobirich",
+   "deal_id": "1898032",
+   "title": "Golden Tiger（アプリランド）",
+   "points_text": "最大4640pt",
+   "yen": 2320.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898032/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1897962": {
+   "site": "chobirich",
+   "deal_id": "1897962",
+   "title": "Daily Number Match",
+   "points_text": "最大552pt",
+   "yen": 276.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897962/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1897960": {
+   "site": "chobirich",
+   "deal_id": "1897960",
+   "title": "歩数計あるくん〜シンプルなウォーキングアプリ",
+   "points_text": "96pt",
+   "yen": 48.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897960/",
+   "condition": "新規インストール後、表示される広告をタップしメールアドレス登録完了\n\n▼成果までの流れ\n1.インストール後、起動\n2.アプリの利用規約に同意後、性別、生年月日、体重の基本情報を登録\n3.トラッキングのポップアップ表示に同意\n4.ポップアップされるVitalityのハーゲンダッツ無料引換券の広告が出現「無料引換券を受け取る」をタップ\n5.Vitality体験版(無料)のメールアドレス登録完了で成果\n※表示されたポップアップ広告をスキップしてしまった場合、ホーム画面の「ミッション」をタップ→メールアドレス登録完了",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "chobirich:1897949": {
+   "site": "chobirich",
+   "deal_id": "1897949",
+   "title": "私有正史-美少女x戦略SLG・神姫と駆ける乱世",
+   "points_text": "26pt",
+   "yen": 13.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1897949/",
+   "condition": "新規アプリインストール後、初回起動",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:155456": {
+   "site": "pointincome",
+   "deal_id": "155456",
+   "title": "筋肉食堂DELI",
+   "points_text": "購入金額の40%",
+   "yen": null,
+   "percent": 40.0,
+   "url": "https://pointi.jp/ad/155456/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:156089": {
+   "site": "pointincome",
+   "deal_id": "156089",
+   "title": "Zenplace(ゼンプレイス)ピラティス【Wチャンスキャンペーン開催中!!】",
+   "points_text": "25,000pt",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156089/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:156106": {
+   "site": "pointincome",
+   "deal_id": "156106",
+   "title": "Gift Fund（ギフトファンド）",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156106/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:151326": {
+   "site": "pointincome",
+   "deal_id": "151326",
+   "title": "ビッグホリデー（スキーツアー＆スノボツアー）",
+   "points_text": "購入金額の3%",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://pointi.jp/ad/151326/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:37952": {
+   "site": "pointincome",
+   "deal_id": "37952",
+   "title": "匠本舗",
+   "points_text": "購入金額の10%",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://pointi.jp/ad/37952/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:156108": {
+   "site": "pointincome",
+   "deal_id": "156108",
+   "title": "あるくん（iOS用）",
+   "points_text": "1,000pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/156108/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
+   "last_seen": "2026-08-28"
+  },
+  "pointincome:155850": {
+   "site": "pointincome",
+   "deal_id": "155850",
+   "title": "TikTok（10分間視聴/iOS用）【8/31までの高還元!!】",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/155850/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 18:36",
    "last_seen": "2026-08-28"
   }
  }

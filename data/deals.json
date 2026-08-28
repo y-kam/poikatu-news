@@ -75480,7 +75480,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "au_point:8:1396": {
    "site": "au_point",
@@ -143926,8 +143926,8 @@
    "site": "point_museum",
    "deal_id": "0409708",
    "title": "【初月100％以上還元】ニコニコ動画",
-   "points_text": "14,000pt",
-   "yen": 1400.0,
+   "points_text": "16,000pt",
+   "yen": 1600.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=0409708",
    "condition": "会員登録",
@@ -143935,7 +143935,9 @@
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-28",
    "backfill": true,
-   "backfill_dated": true
+   "backfill_dated": true,
+   "renewed_at": "2026-08-28 15:00",
+   "renewed_from": "14,000pt"
   },
   "point_museum:j1247": {
    "site": "point_museum",
@@ -223156,15 +223158,17 @@
    "site": "point_island",
    "deal_id": "0409708",
    "title": "【初月100％以上還元】ニコニコ動画",
-   "points_text": "14000ポイント",
-   "yen": 1400.0,
+   "points_text": "16000ポイント",
+   "yen": 1600.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=0409708",
    "condition": "会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-28"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 15:00",
+   "renewed_from": "14000ポイント"
   },
   "point_island:d2050": {
    "site": "point_island",
@@ -234533,15 +234537,17 @@
    "site": "point_stadium",
    "deal_id": "0409708",
    "title": "【初月100％以上還元】ニコニコ動画",
-   "points_text": "14000ポイント",
-   "yen": 1400.0,
+   "points_text": "16000ポイント",
+   "yen": 1600.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=0409708",
    "condition": "会員登録で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-28"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 15:00",
+   "renewed_from": "14000ポイント"
   },
   "point_stadium:d2050": {
    "site": "point_stadium",
@@ -246003,8 +246009,8 @@
    "site": "nyandaful",
    "deal_id": "0409708",
    "title": "【初月100％以上還元】ニコニコ動画",
-   "points_text": "14,000pt",
-   "yen": 1400.0,
+   "points_text": "16,000pt",
+   "yen": 1600.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=0409708",
    "condition": "会員登録で",
@@ -246012,7 +246018,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-28",
-   "renewed_at": "2026-08-20 08:00"
+   "renewed_at": "2026-08-28 15:00"
   },
   "nyandaful:d2050": {
    "site": "nyandaful",
@@ -284987,7 +284993,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-28",
    "renew_hold": true
   },
   "moppy:158257": {
@@ -330666,7 +330672,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 15:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "renewed_at": "2026-07-29 01:00"
   },
   "kurashiru_reward:17819": {
@@ -335390,7 +335396,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 13:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-28",
    "site_new": true,
    "renewed_at": "2026-08-27 17:00"
   },
@@ -348882,15 +348888,17 @@
    "site": "point_land",
    "deal_id": "0409708",
    "title": "【初月100％以上還元】ニコニコ動画",
-   "points_text": "14000ポイント",
-   "yen": 1400.0,
+   "points_text": "16000ポイント",
+   "yen": 1600.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=0409708",
    "condition": "会員登録",
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-28",
+   "renewed_at": "2026-08-28 15:00",
+   "renewed_from": "14000ポイント"
   },
   "nyandaful:s27228": {
    "site": "nyandaful",
@@ -358821,7 +358829,7 @@
   "powl:38346": {
    "site": "powl",
    "deal_id": "38346",
-   "title": "【還元大幅UP中】dアニメストア_無料お試し登録",
+   "title": "【8/30まで！】dアニメストア_無料お試し登録",
    "points_text": "8,650pt",
    "yen": 865.0,
    "percent": null,
@@ -380776,7 +380784,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-28"
   },
   "point_museum:s25791": {
    "site": "point_museum",
@@ -389664,7 +389672,8 @@
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 01:00",
    "last_seen": "2026-08-28",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-28 15:00"
   },
   "amefri:139671": {
    "site": "amefri",
@@ -393253,7 +393262,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 21:00",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-28"
   },
   "point_land:s25337": {
    "site": "point_land",
@@ -393575,7 +393584,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 21:00",
-   "last_seen": "2026-08-27"
+   "last_seen": "2026-08-28"
   },
   "poikatsu_club:20558": {
    "site": "poikatsu_club",
@@ -396988,6 +396997,146 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 13:00",
+   "last_seen": "2026-08-28"
+  },
+  "pointtown:10805": {
+   "site": "pointtown",
+   "deal_id": "10805",
+   "title": "ｽﾏﾎ電池長持ち･快適･管理ｱﾌﾟﾘ集 for dバリューパス",
+   "points_text": "1,200pt",
+   "yen": 1200.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/10805",
+   "condition": "有料会員登録で",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "warau:206119": {
+   "site": "warau",
+   "deal_id": "206119",
+   "title": "ロイヤルマッチ（StepUp）",
+   "points_text": "7,120pt",
+   "yen": 7120.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206119",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "warau:206117": {
+   "site": "warau",
+   "deal_id": "206117",
+   "title": "プロの撮影",
+   "points_text": "7,000pt",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206117",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "getmoney:67072": {
+   "site": "getmoney",
+   "deal_id": "67072",
+   "title": "キッズチアダンススクールGravis（グラビス）　体験レッスン",
+   "points_text": "8,000Pt",
+   "yen": 800.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67072",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "amefri:139761": {
+   "site": "amefri",
+   "deal_id": "139761",
+   "title": "Survival Defense:Zombie（多段階）【Android】",
+   "points_text": "116,180pt",
+   "yen": 11618.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/139761",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "entamenet:5s00000025052001": {
+   "site": "entamenet",
+   "deal_id": "5s00000025052001",
+   "title": "毎年完売グルメ杵屋のおせち料理「ときめく！お取り寄せ」",
+   "points_text": "100円購入毎に9円",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=5s00000025052001",
+   "condition": "対象おせち商品購入（リピートOK）",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "powl:40042": {
+   "site": "powl",
+   "deal_id": "40042",
+   "title": "Habitto",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/40042",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "point_hiroba:5710": {
+   "site": "point_hiroba",
+   "deal_id": "5710",
+   "title": "ライフカード「学生専用」",
+   "points_text": "3,600 P",
+   "yen": 3600.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5710",
+   "condition": "カード発行",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "point_hiroba:5709": {
+   "site": "point_hiroba",
+   "deal_id": "5709",
+   "title": "ライフカード「年会費無料」",
+   "points_text": "4,000 P",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5709",
+   "condition": "カード発行",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
+   "last_seen": "2026-08-28"
+  },
+  "poikatsu_club:20603": {
+   "site": "poikatsu_club",
+   "deal_id": "20603",
+   "title": "Survival Defense:Zombie（Android）",
+   "points_text": "12757pt",
+   "yen": 12757.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/20603",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/8/28以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して60日以内まで、\nお問い合わせ受付期限はインストール日から起算して90日以内までとなります。\n\n■StepUpミッション!!\n①：3日以内にレベル6に到達\n②：7日以内にレベル11に到達\n③：14日以内にレベル25に到達\n④：20日以内にレベル42に到達\n⑤：25日以内にレベル60に到達\n⑥：60日以内にレベル80に到達\n⑦：60日以内にレベル125に到達\n⑧：7日以内に金券×999を購入\n⑨：14日以内に金券×1499を購入\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n『〇〇日以内にレベル〇〇に到達』\n条件達成がわかる個人情報画面(キャプチャ①)とホーム画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］左上のアイコンをタップ⇒［個人情報画面］を表示\nキャプチャ②：［アプリを起動］⇒［ホーム画面］を表示\n\n『〇〇日以内に金券×〇〇を購入』\n条件達成がわかる購入履歴画面もしくは予算と履歴画面(キャプチャ①)と○○画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：iOS：［App Store］⇒ 画面右上［アカウント］アイコン ⇒［自分の名前］⇒［購入履歴］⇒ 検索窓に『アプリ名』を入力し、検索 ⇒［購入履歴画面］を表示\n　　　　　　Android：［Google Play ストア］⇒ 画面右上［アカウント］アイコン ⇒［お支払いと定期購入］⇒［予算と履歴画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-08-28",
+   "first_seen_at": "2026-08-28 15:00",
    "last_seen": "2026-08-28"
   }
  }

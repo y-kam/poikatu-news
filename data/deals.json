@@ -146224,10 +146224,10 @@
    "yen": 70.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=220041",
-   "condition": "",
+   "condition": "食卓画像アップロード",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-29",
    "backfill": true,
    "backfill_dated": true
   },
@@ -230190,7 +230190,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-29"
   },
   "point_island:s18391": {
    "site": "point_island",
@@ -241529,7 +241529,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-29"
   },
   "point_stadium:s18391": {
    "site": "point_stadium",
@@ -252985,7 +252985,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-29",
+   "renewed_at": "2026-08-29 21:00"
   },
   "nyandaful:s18391": {
    "site": "nyandaful",
@@ -316661,18 +316662,20 @@
   "moppy:161880": {
    "site": "moppy",
    "deal_id": "161880",
-   "title": "隠しオブジェクトゲーム：探してみよう(レベル300)_iOS",
-   "points_text": "640P",
-   "yen": 640.0,
+   "title": "隠しオブジェクトゲーム：探してみよう(レベル400)_iOS",
+   "points_text": "700P",
+   "yen": 700.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161880",
-   "condition": "新規アプリインストール後、30日以内にレベル300クリア",
+   "condition": "新規アプリインストール後、30日以内にレベル400クリア",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 13:00",
-   "last_seen": "2026-07-30",
+   "last_seen": "2026-08-29",
    "site_new": false,
-   "delisted_at": "2026-08-19"
+   "delisted_at": "2026-08-19",
+   "renewed_at": "2026-08-29 21:00",
+   "renewed_from": "640P"
   },
   "moppy:161189": {
    "site": "moppy",
@@ -391646,7 +391649,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "renewed_at": "2026-08-28 01:00"
   },
   "point_land:s23890": {
@@ -399327,6 +399330,20 @@
    "first_seen_at": "2026-08-29 11:00",
    "last_seen": "2026-08-29",
    "site_new": false
+  },
+  "point_land:220041": {
+   "site": "point_land",
+   "deal_id": "220041",
+   "title": "リア食",
+   "points_text": "700ポイント",
+   "yen": 70.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=220041",
+   "condition": "食卓画像アップロード",
+   "seeded": false,
+   "first_seen": "2026-08-29",
+   "first_seen_at": "2026-08-29 21:00",
+   "last_seen": "2026-08-29"
   }
  }
 }

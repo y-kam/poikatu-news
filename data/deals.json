@@ -72666,17 +72666,17 @@
   "moppy:119456": {
    "site": "moppy",
    "deal_id": "119456",
-   "title": "【週末限定！】U-NEXT[31日間無料お試し]",
-   "points_text": "2,000P",
-   "yen": 2000.0,
+   "title": "【8月末まで超還元】U-NEXT[31日間無料お試し]",
+   "points_text": "2,400P",
+   "yen": 2400.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=119456",
    "condition": "無料トライアル登録完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "site_new": true,
-   "renewed_at": "2026-08-28 01:00",
+   "renewed_at": "2026-08-29 11:00",
    "renewed_from": "1,800P"
   },
   "moppy:100822": {
@@ -284777,8 +284777,8 @@
    "site": "moppy",
    "deal_id": "161571",
    "title": "日本トレカセンター",
-   "points_text": "60P",
-   "yen": 60.0,
+   "points_text": "75P",
+   "yen": 75.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161571",
    "condition": "インストール後、初回起動",
@@ -284786,7 +284786,8 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-29",
-   "renew_hold": true
+   "renewed_at": "2026-08-29 11:00",
+   "renewed_from": "60P"
   },
   "moppy:158266": {
    "site": "moppy",
@@ -309967,17 +309968,17 @@
    "site": "moppy",
    "deal_id": "6314",
    "title": "【Klook】クルック・ワクワクが見つかる旅行・レジャー予約サイト！",
-   "points_text": "9.0%",
+   "points_text": "10.0%",
    "yen": null,
-   "percent": 9.0,
+   "percent": 10.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=6314",
    "condition": "予約完了（入金確認必須）",
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-21",
+   "last_seen": "2026-08-29",
    "delisted_at": "2026-07-13",
-   "renewed_at": "2026-08-21 01:00",
+   "renewed_at": "2026-08-29 11:00",
    "renewed_from": "5.0%"
   },
   "moppy:5989": {
@@ -335459,7 +335460,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 13:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "site_new": true,
    "renewed_at": "2026-08-27 17:00"
   },
@@ -356185,8 +356186,8 @@
    "site": "moppy",
    "deal_id": "161995",
    "title": "Offly（オフリー）[インストール後1時間以内にサインイン]",
-   "points_text": "50P",
-   "yen": 50.0,
+   "points_text": "60P",
+   "yen": 60.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161995",
    "condition": "新規アプリインストール後、1時間以内に新規会員登録＆サインアップ",
@@ -356194,7 +356195,9 @@
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-29",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-29 11:00",
+   "renewed_from": "50P"
   },
   "moppy:161987": {
    "site": "moppy",
@@ -356215,8 +356218,8 @@
    "site": "moppy",
    "deal_id": "158910",
    "title": "au Wi-Fiアクセス",
-   "points_text": "114P",
-   "yen": 114.0,
+   "points_text": "160P",
+   "yen": 160.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158910",
    "condition": "【新規登録限定】au IDでログインし、利用規約に同意",
@@ -356225,7 +356228,8 @@
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-08-29",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-08-29 11:00",
+   "renewed_from": "114P"
   },
   "moppy:161977": {
    "site": "moppy",
@@ -388124,8 +388128,8 @@
    "site": "moppy",
    "deal_id": "162035",
    "title": "ンポポ",
-   "points_text": "57P",
-   "yen": 57.0,
+   "points_text": "70P",
+   "yen": 70.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162035",
    "condition": "オンボーディング完了",
@@ -388133,7 +388137,9 @@
    "first_seen": "2026-08-23",
    "first_seen_at": "2026-08-23 05:00",
    "last_seen": "2026-08-29",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-29 11:00",
+   "renewed_from": "57P"
   },
   "pointincome:156082": {
    "site": "pointincome",
@@ -399288,6 +399294,20 @@
    "seeded": false,
    "first_seen": "2026-08-29",
    "first_seen_at": "2026-08-29 08:00",
+   "last_seen": "2026-08-29"
+  },
+  "moppy:162050": {
+   "site": "moppy",
+   "deal_id": "162050",
+   "title": "Merge Restyle",
+   "points_text": "1,900P",
+   "yen": 1900.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162050",
+   "condition": "レベル40クリア",
+   "seeded": false,
+   "first_seen": "2026-08-29",
+   "first_seen_at": "2026-08-29 11:00",
    "last_seen": "2026-08-29"
   }
  }

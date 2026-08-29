@@ -222110,7 +222110,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-30"
   },
   "point_island:11148743": {
    "site": "point_island",
@@ -233505,7 +233505,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-30"
   },
   "point_stadium:11148743": {
    "site": "point_stadium",
@@ -244961,7 +244961,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-30",
+   "renewed_at": "2026-08-30 08:00"
   },
   "nyandaful:11148743": {
    "site": "nyandaful",
@@ -373498,7 +373499,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 21:00",
-   "last_seen": "2026-08-29"
+   "last_seen": "2026-08-30"
   },
   "sugutama:6554": {
    "site": "sugutama",
@@ -380290,7 +380291,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-08-30"
   },
   "point_museum:11148743": {
    "site": "point_museum",
@@ -397156,7 +397157,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 15:00",
-   "last_seen": "2026-08-29"
+   "last_seen": "2026-08-30"
   },
   "warau:206117": {
    "site": "warau",
@@ -397170,7 +397171,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 15:00",
-   "last_seen": "2026-08-29"
+   "last_seen": "2026-08-30"
   },
   "getmoney:67072": {
    "site": "getmoney",
@@ -399402,6 +399403,20 @@
    "seeded": false,
    "first_seen": "2026-08-30",
    "first_seen_at": "2026-08-30 01:00",
+   "last_seen": "2026-08-30"
+  },
+  "point_land:s27096": {
+   "site": "point_land",
+   "deal_id": "s27096",
+   "title": "マンション口コミ書き込みキャンペーン",
+   "points_text": "1680ポイント",
+   "yen": 168.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=s27096",
+   "condition": "口コミ",
+   "seeded": false,
+   "first_seen": "2026-08-30",
+   "first_seen_at": "2026-08-30 08:00",
    "last_seen": "2026-08-30"
   }
  }

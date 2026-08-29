@@ -284467,8 +284467,8 @@
    "site": "moppy",
    "deal_id": "160830",
    "title": "Wick まんが×SNS（まんがWick）",
-   "points_text": "50P",
-   "yen": 50.0,
+   "points_text": "60P",
+   "yen": 60.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160830",
    "condition": "新規アプリインストール後、初回起動",
@@ -284476,7 +284476,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-08-29",
-   "renewed_at": "2026-08-01 05:00",
+   "renewed_at": "2026-08-29 10:00",
    "renewed_from": "25P"
   },
   "moppy:146059": {
@@ -396272,7 +396272,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "delisted_at": "2026-08-28"
   },
   "warau:206106": {
@@ -396346,7 +396346,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "site_new": true
   },
   "au_point:8:1598": {
@@ -396375,7 +396375,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
-   "last_seen": "2026-08-28"
+   "last_seen": "2026-08-29"
   },
   "poikatsu_club:20601": {
    "site": "poikatsu_club",
@@ -396431,7 +396431,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
-   "last_seen": "2026-08-28"
+   "last_seen": "2026-08-29"
   },
   "moppy:159572": {
    "site": "moppy",
@@ -396561,7 +396561,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 13:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "site_new": true
   },
   "moppy:162060": {

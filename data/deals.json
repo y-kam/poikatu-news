@@ -340752,16 +340752,17 @@
    "site": "moppy",
    "deal_id": "161945",
    "title": "ベルテックス資料請求",
-   "points_text": "4,800P",
-   "yen": 4800.0,
+   "points_text": "4,000P",
+   "yen": 4000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161945",
    "condition": "新規資料請求及び本人確認",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
-   "last_seen": "2026-08-18",
-   "site_new": false
+   "last_seen": "2026-08-29",
+   "site_new": false,
+   "renew_hold": true
   },
   "pointincome:155293": {
    "site": "pointincome",
@@ -350224,18 +350225,19 @@
   "moppy:161120": {
    "site": "moppy",
    "deal_id": "161120",
-   "title": "※超還元※Alterna Bank（オルタナバンク）1万円投資完了",
-   "points_text": "10,000P",
-   "yen": 10000.0,
+   "title": "※8月末まで超還元※Alterna Bank（オルタナバンク）1万円投資完了",
+   "points_text": "11,000P",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161120",
    "condition": "新規口座開設申込後、90日以内に1万円以上の投資",
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 13:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-29",
    "site_new": true,
-   "renew_hold": true
+   "renewed_at": "2026-08-29 13:00",
+   "renewed_from": "10,000P"
   },
   "warau:205196": {
    "site": "warau",
@@ -350929,7 +350931,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 17:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "site_new": false,
    "renew_hold": true
   },
@@ -395775,7 +395777,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 21:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "renew_hold": true
   },
   "poikatsu_club:20593": {

@@ -308663,18 +308663,19 @@
   "moppy:161599": {
    "site": "moppy",
    "deal_id": "161599",
-   "title": "DMM JCBカード",
-   "points_text": "6,000P",
-   "yen": 6000.0,
+   "title": "【30日限定緊急UP】DMM JCBカード",
+   "points_text": "8,000P",
+   "yen": 8000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161599",
    "condition": "新規カード発行（受け取り確認必須）",
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 01:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-30",
    "site_new": true,
-   "renew_hold": true
+   "renewed_at": "2026-08-30 11:00",
+   "renewed_from": "6,000P"
   },
   "moppy:160952": {
    "site": "moppy",
@@ -335469,7 +335470,7 @@
   "moppy:160483": {
    "site": "moppy",
    "deal_id": "160483",
-   "title": "※早期終了あり※超高還元！SBI証券(新規総合口座開設+NISA口座開設)",
+   "title": "※8/31まで超高還元※SBI証券(新規総合口座開設+NISA口座開設)",
    "points_text": "8,000P",
    "yen": 8000.0,
    "percent": null,

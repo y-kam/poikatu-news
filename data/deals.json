@@ -285023,7 +285023,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-31",
    "renew_hold": true
   },
   "moppy:158257": {
@@ -397333,7 +397333,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 17:00",
-   "last_seen": "2026-08-30"
+   "last_seen": "2026-08-31"
   },
   "warau:206126": {
    "site": "warau",
@@ -397392,7 +397392,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 17:00",
-   "last_seen": "2026-08-30"
+   "last_seen": "2026-08-31"
   },
   "fruitmail:18493": {
    "site": "fruitmail",
@@ -397795,7 +397795,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 17:00",
-   "last_seen": "2026-08-30"
+   "last_seen": "2026-08-31"
   },
   "poikatsu_club:20606": {
    "site": "poikatsu_club",
@@ -398445,7 +398445,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
-   "last_seen": "2026-08-30"
+   "last_seen": "2026-08-31"
   },
   "warau:206144": {
    "site": "warau",
@@ -398459,7 +398459,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
-   "last_seen": "2026-08-30",
+   "last_seen": "2026-08-31",
    "delisted_at": "2026-08-29"
   },
   "amefri:139784": {
@@ -399727,6 +399727,20 @@
    "seeded": false,
    "first_seen": "2026-08-31",
    "first_seen_at": "2026-08-31 01:00",
+   "last_seen": "2026-08-31"
+  },
+  "hapitas:102833": {
+   "site": "hapitas",
+   "deal_id": "102833",
+   "title": "LINE ポコポコ",
+   "points_text": "45pt",
+   "yen": 45.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102833/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 05:00",
    "last_seen": "2026-08-31"
   }
  }

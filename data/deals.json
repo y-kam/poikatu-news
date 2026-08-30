@@ -74368,7 +74368,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-03",
+   "last_seen": "2026-08-30",
    "delisted_at": "2026-08-03"
   },
   "getmoney:67029": {
@@ -145991,10 +145991,10 @@
    "yen": 14000.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=5s00000017675001",
-   "condition": "",
+   "condition": "契約",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-08-30",
    "backfill": true,
    "backfill_dated": true
   },
@@ -230056,7 +230056,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-30"
   },
   "point_island:k447": {
    "site": "point_island",
@@ -241395,7 +241395,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-30"
   },
   "point_stadium:k447": {
    "site": "point_stadium",
@@ -252838,7 +252838,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-08-30",
+   "renewed_at": "2026-08-30 21:00"
   },
   "nyandaful:k447": {
    "site": "nyandaful",
@@ -391659,7 +391660,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 21:00",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "renewed_at": "2026-08-28 01:00"
   },
   "point_land:s23890": {
@@ -399458,6 +399459,20 @@
    "first_seen_at": "2026-08-30 09:19",
    "last_seen": "2026-08-30",
    "dead_streak": 1
+  },
+  "point_land:5s00000017675001": {
+   "site": "point_land",
+   "deal_id": "5s00000017675001",
+   "title": "ガス屋の窓口",
+   "points_text": "140000ポイント",
+   "yen": 14000.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=5s00000017675001",
+   "condition": "契約",
+   "seeded": false,
+   "first_seen": "2026-08-30",
+   "first_seen_at": "2026-08-30 21:00",
+   "last_seen": "2026-08-30"
   }
  }
 }

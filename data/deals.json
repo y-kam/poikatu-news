@@ -135815,7 +135815,7 @@
    "condition": "サービス予約・申込",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-30",
    "seed_filled": true
   },
   "point_hiroba:5025": {
@@ -316677,7 +316677,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 13:00",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "site_new": false,
    "delisted_at": "2026-08-19",
    "renewed_at": "2026-08-29 21:00",
@@ -330003,7 +330003,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 10:00",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "site_new": true,
    "delisted_at": "2026-07-24"
   },
@@ -395834,7 +395834,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 21:00",
-   "last_seen": "2026-08-29"
+   "last_seen": "2026-08-30"
   },
   "poikatsu_club:20587": {
    "site": "poikatsu_club",

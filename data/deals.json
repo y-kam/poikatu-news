@@ -59142,16 +59142,17 @@
    "site": "rebates",
    "deal_id": "21378",
    "title": "無印良品ネットストア",
-   "points_text": "1.5%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/muji.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-31",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-08-31 15:00",
+   "renewed_from": "1.5%"
   },
   "rebates:21220": {
    "site": "rebates",
@@ -63271,15 +63272,17 @@
    "site": "line_catalog",
    "deal_id": "muji_store",
    "title": "無印良品ネットストア",
-   "points_text": "2.0%還元",
+   "points_text": "3.0%還元",
    "yen": null,
-   "percent": 2.0,
+   "percent": 3.0,
    "url": "https://ec.line.me/shop/muji_store/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-08-31",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-08-31 15:00",
+   "renewed_from": "2.0%還元"
   },
   "line_catalog:toysrus_babiesrus": {
    "site": "line_catalog",
@@ -73869,7 +73872,7 @@
    "condition": "訪問査定申し込み後、訪問査定・相談",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-31",
    "site_new": false
   },
   "moppy:161796": {
@@ -284755,7 +284758,7 @@
   "moppy:161571": {
    "site": "moppy",
    "deal_id": "161571",
-   "title": "日本トレカセンター",
+   "title": "日本トレカセンター(初回起動)",
    "points_text": "75P",
    "yen": 75.0,
    "percent": null,
@@ -309420,7 +309423,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 13:00",
-   "last_seen": "2026-08-27",
+   "last_seen": "2026-08-31",
    "site_new": false,
    "renew_hold": true
   },
@@ -332794,7 +332797,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-08-31"
   },
   "moppy:156211": {
    "site": "moppy",
@@ -388834,7 +388837,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 17:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-31",
    "renewed_at": "2026-08-27 01:00",
    "renewed_from": "35,000pt",
    "delisted_at": "2026-08-29"
@@ -396325,7 +396328,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139751": {
    "site": "amefri",
@@ -396340,7 +396344,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139750": {
    "site": "amefri",
@@ -396355,7 +396360,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 10:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139748": {
    "site": "amefri",
@@ -396500,7 +396506,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 11:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "powl:40035": {
    "site": "powl",
@@ -396691,7 +396698,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 13:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "chanceit:33366": {
    "site": "chanceit",
@@ -397491,8 +397499,9 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 17:00",
-   "last_seen": "2026-08-30",
-   "site_new": false
+   "last_seen": "2026-08-31",
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139770": {
    "site": "amefri",
@@ -397521,8 +397530,9 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 17:00",
-   "last_seen": "2026-08-28",
-   "site_new": false
+   "last_seen": "2026-08-31",
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139768": {
    "site": "amefri",
@@ -398492,7 +398502,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139787": {
    "site": "amefri",
@@ -398507,7 +398518,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139786": {
    "site": "amefri",
@@ -398522,7 +398534,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139785": {
    "site": "amefri",
@@ -398537,7 +398550,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "amefri:139783": {
    "site": "amefri",
@@ -398582,7 +398596,8 @@
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 21:00",
    "last_seen": "2026-08-31",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-08-31 15:00"
   },
   "au_point:8:944": {
    "site": "au_point",
@@ -400155,6 +400170,104 @@
    "seeded": false,
    "first_seen": "2026-08-31",
    "first_seen_at": "2026-08-31 13:00",
+   "last_seen": "2026-08-31"
+  },
+  "warau:206186": {
+   "site": "warau",
+   "deal_id": "206186",
+   "title": "ハナユメフェスタ",
+   "points_text": "3,800pt",
+   "yen": 3800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206186",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
+   "last_seen": "2026-08-31"
+  },
+  "warau:206181": {
+   "site": "warau",
+   "deal_id": "206181",
+   "title": "GREEN SPOON - グリーンスプーン",
+   "points_text": "3,500pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206181",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
+   "last_seen": "2026-08-31"
+  },
+  "fruitmail:18495": {
+   "site": "fruitmail",
+   "deal_id": "18495",
+   "title": "孤独アジトVIP",
+   "points_text": "6300pt",
+   "yen": 567.0,
+   "percent": null,
+   "url": "https://www.fruitmail.net/point/detail?ksid=18495",
+   "condition": "新規VIP会員登録で",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
+   "last_seen": "2026-08-31"
+  },
+  "fruitmail:18494": {
+   "site": "fruitmail",
+   "deal_id": "18494",
+   "title": "テレ朝動画「ぐるり遠回りVIP」",
+   "points_text": "6300pt",
+   "yen": 567.0,
+   "percent": null,
+   "url": "https://www.fruitmail.net/point/detail?ksid=18494",
+   "condition": "新規VIP会員登録で",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
+   "last_seen": "2026-08-31"
+  },
+  "entamenet:5s00000015770007": {
+   "site": "entamenet",
+   "deal_id": "5s00000015770007",
+   "title": "ハナユメフェスタ　来場",
+   "points_text": "4,205円",
+   "yen": 4205.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=5s00000015770007",
+   "condition": "新規ハナユメフェスタ来場",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
+   "last_seen": "2026-08-31"
+  },
+  "ponta_bonuspark:4648": {
+   "site": "ponta_bonuspark",
+   "deal_id": "4648",
+   "title": "VAIOストア",
+   "points_text": "0.5%P還元",
+   "yen": null,
+   "percent": 0.5,
+   "url": "https://www.bonuspark.jp/other/4648.html",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
+   "last_seen": "2026-08-31"
+  },
+  "powl:40105": {
+   "site": "powl",
+   "deal_id": "40105",
+   "title": "ダーウィンアセットパートナーズの不動産投資（LINE友だち追加経由の面談お申し込み）",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/40105",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-08-31",
+   "first_seen_at": "2026-08-31 15:00",
    "last_seen": "2026-08-31"
   }
  }

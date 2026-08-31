@@ -75812,14 +75812,16 @@
    "site": "point_island",
    "deal_id": "1771313",
    "title": "ユーカーパック 車買取、車査定",
-   "points_text": "280000ポイント",
-   "yen": 28000.0,
+   "points_text": "350000ポイント",
+   "yen": 35000.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=1771313",
    "condition": "売却",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 08:00",
+   "renewed_from": "280000ポイント"
   },
   "point_island:s26928": {
    "site": "point_island",
@@ -76353,14 +76355,16 @@
    "site": "point_stadium",
    "deal_id": "1771313",
    "title": "ユーカーパック 車買取、車査定",
-   "points_text": "280000ポイント",
-   "yen": 28000.0,
+   "points_text": "350000ポイント",
+   "yen": 35000.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=1771313",
    "condition": "売却で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-18"
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 08:00",
+   "renewed_from": "280000ポイント"
   },
   "point_stadium:s26928": {
    "site": "point_stadium",
@@ -76522,7 +76526,7 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-30"
+   "last_seen": "2026-09-01"
   },
   "point_stadium:1834668": {
    "site": "point_stadium",
@@ -76755,14 +76759,16 @@
    "site": "point_land",
    "deal_id": "1771313",
    "title": "ユーカーパック 車買取、車査定",
-   "points_text": "280000ポイント",
-   "yen": 28000.0,
+   "points_text": "350000ポイント",
+   "yen": 35000.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=1771313",
    "condition": "売却",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-11"
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 08:00",
+   "renewed_from": "280000ポイント"
   },
   "point_land:s26928": {
    "site": "point_land",
@@ -76883,7 +76889,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-28"
+   "last_seen": "2026-09-01"
   },
   "yattayo:35870": {
    "site": "yattayo",
@@ -77273,14 +77279,16 @@
    "site": "nyandaful",
    "deal_id": "1771313",
    "title": "ユーカーパック 車買取、車査定",
-   "points_text": "280,000pt",
-   "yen": 28000.0,
+   "points_text": "350,000pt",
+   "yen": 35000.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=1771313",
    "condition": "売却で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-15"
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 08:00",
+   "renewed_from": "280,000pt"
   },
   "nyandaful:s26928": {
    "site": "nyandaful",
@@ -77433,8 +77441,8 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-28",
-   "renewed_at": "2026-08-20 21:00"
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 08:00"
   },
   "nyandaful:1834668": {
    "site": "nyandaful",
@@ -140983,16 +140991,18 @@
    "site": "point_museum",
    "deal_id": "1771313",
    "title": "ユーカーパック 車買取、車査定",
-   "points_text": "280,000pt",
-   "yen": 28000.0,
+   "points_text": "350,000pt",
+   "yen": 35000.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=1771313",
    "condition": "売却",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-26",
+   "last_seen": "2026-09-01",
    "backfill": true,
-   "backfill_dated": true
+   "backfill_dated": true,
+   "renewed_at": "2026-09-01 08:00",
+   "renewed_from": "280,000pt"
   },
   "point_museum:v22984": {
    "site": "point_museum",
@@ -267657,7 +267667,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-03"
+   "last_seen": "2026-09-01"
   },
   "poikatsu_club:3634": {
    "site": "poikatsu_club",
@@ -268121,7 +268131,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-09-01"
   },
   "poikatsu_club:5929": {
    "site": "poikatsu_club",
@@ -331216,7 +331226,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
-   "last_seen": "2026-07-24"
+   "last_seen": "2026-09-01"
   },
   "poikatsu_club:14045": {
    "site": "poikatsu_club",
@@ -346863,7 +346873,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-09-01"
   },
   "warau:205174": {
    "site": "warau",
@@ -356846,7 +356856,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-09-01"
   },
   "pointtown:10918": {
    "site": "pointtown",
@@ -356916,7 +356926,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-08-24"
+   "last_seen": "2026-09-01"
   },
   "pointtown:10913": {
    "site": "pointtown",
@@ -404990,6 +405000,76 @@
    "first_seen_at": "2026-09-01 07:28",
    "last_seen": "2026-09-01",
    "dead_streak": 1
+  },
+  "pointtown:10814": {
+   "site": "pointtown",
+   "deal_id": "10814",
+   "title": "ライフカード（学生専用）",
+   "points_text": "8,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/10814",
+   "condition": "カード発行で",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 08:00",
+   "last_seen": "2026-09-01"
+  },
+  "pointtown:10932": {
+   "site": "pointtown",
+   "deal_id": "10932",
+   "title": "投資信託セゾン投信",
+   "points_text": "5,500pt",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/10932",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 08:00",
+   "last_seen": "2026-09-01"
+  },
+  "warau:206211": {
+   "site": "warau",
+   "deal_id": "206211",
+   "title": "恋するコーデ「ペアリウム」アバター着せ替え・結婚できるゲーム（StepUp）",
+   "points_text": "5,700pt",
+   "yen": 5700.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206211",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 08:00",
+   "last_seen": "2026-09-01"
+  },
+  "warau:206204": {
+   "site": "warau",
+   "deal_id": "206204",
+   "title": "三菱ＵＦＪカード ゴールド",
+   "points_text": "15,000pt",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206204",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 08:00",
+   "last_seen": "2026-09-01"
+  },
+  "warau:206169": {
+   "site": "warau",
+   "deal_id": "206169",
+   "title": "三菱ＵＦＪカード",
+   "points_text": "15,000pt",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206169",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 08:00",
+   "last_seen": "2026-09-01"
   }
  }
 }

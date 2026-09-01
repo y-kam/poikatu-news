@@ -326545,7 +326545,8 @@
    "first_seen_at": "2026-07-21 18:52",
    "last_seen": "2026-08-12",
    "renewed_at": "2026-08-08 08:07",
-   "renewed_from": "最大3872pt"
+   "renewed_from": "最大3872pt",
+   "dead_streak": 1
   },
   "moppy:6881": {
    "site": "moppy",
@@ -378215,7 +378216,8 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 19:28",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-25",
+   "dead_streak": 1
   },
   "chobirich:1897403": {
    "site": "chobirich",
@@ -393522,7 +393524,7 @@
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 18:45",
    "last_seen": "2026-08-31",
-   "dead_streak": 1
+   "delisted_at": "2026-09-01"
   },
   "chobirich:1897871": {
    "site": "chobirich",
@@ -405258,7 +405260,8 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 07:28",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-01",
+   "dead_streak": 1
   },
   "pointincome:154794": {
    "site": "pointincome",
@@ -405856,7 +405859,7 @@
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 12:14",
    "last_seen": "2026-09-01",
-   "dead_streak": 1
+   "delisted_at": "2026-09-01"
   },
   "pointincome:153926": {
    "site": "pointincome",
@@ -405871,7 +405874,7 @@
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 12:14",
    "last_seen": "2026-09-01",
-   "dead_streak": 1
+   "delisted_at": "2026-09-01"
   },
   "pointincome:156130": {
    "site": "pointincome",
@@ -405886,7 +405889,7 @@
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 12:14",
    "last_seen": "2026-09-01",
-   "dead_streak": 1
+   "delisted_at": "2026-09-01"
   },
   "moppy:137833": {
    "site": "moppy",
@@ -407127,7 +407130,8 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 18:20",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-01",
+   "dead_streak": 1
   },
   "pointincome:156133": {
    "site": "pointincome",
@@ -407141,7 +407145,8 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 18:20",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-01",
+   "dead_streak": 1
   }
  }
 }

@@ -280524,16 +280524,18 @@
   "pointincome:128612": {
    "site": "pointincome",
    "deal_id": "128612",
-   "title": "IHG ホテルズ & リゾーツ",
-   "points_text": "購入金額の4%",
+   "title": "【9/6までの高還元！】IHG ホテルズ & リゾーツ",
+   "points_text": "購入金額の6%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 6.0,
    "url": "https://pointi.jp/ad/128612/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 12:14",
+   "renewed_from": "購入金額の4%"
   },
   "warau:204383": {
    "site": "warau",
@@ -281636,17 +281638,18 @@
   "pointincome:155317": {
    "site": "pointincome",
    "deal_id": "155317",
-   "title": "三菱ＵＦＪカード ゴールド【最大44,000円相当】",
-   "points_text": "120,000pt",
-   "yen": 12000.0,
+   "title": "三菱ＵＦＪカード ゴールド【最大47,000円相当】",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155317/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-18",
-   "renew_hold": true
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 12:14",
+   "renewed_from": "120,000pt"
   },
   "pointincome:153682": {
    "site": "pointincome",
@@ -309888,7 +309891,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-09-01",
    "renewed_at": "2026-08-22 13:01",
    "renewed_from": "80,000pt"
   },
@@ -327638,7 +327641,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 08:00",
-   "last_seen": "2026-08-13"
+   "last_seen": "2026-09-01"
   },
   "pointincome:154901": {
    "site": "pointincome",
@@ -338723,17 +338726,18 @@
   "pointincome:150905": {
    "site": "pointincome",
    "deal_id": "150905",
-   "title": "三菱ＵＦＪカード【最大42,000円相当】",
-   "points_text": "120,000pt",
-   "yen": 12000.0,
+   "title": "三菱ＵＦＪカード【最大45,000円相当】",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/150905/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-08-31",
-   "renew_hold": true
+   "last_seen": "2026-09-01",
+   "renewed_at": "2026-09-01 12:14",
+   "renewed_from": "120,000pt"
   },
   "pointincome:136387": {
    "site": "pointincome",
@@ -352488,7 +352492,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-08-04"
+   "last_seen": "2026-09-01"
   },
   "pointincome:146771": {
    "site": "pointincome",
@@ -356097,8 +356101,8 @@
    "site": "chobirich",
    "deal_id": "1735714",
    "title": "コスモ・ザ・カード・オーパス",
-   "points_text": "1,200pt",
-   "yen": 600.0,
+   "points_text": "7,700pt",
+   "yen": 3850.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1735714/",
    "condition": "",
@@ -356106,7 +356110,8 @@
    "first_seen": "2026-08-08",
    "first_seen_at": "2026-08-08 08:07",
    "last_seen": "2026-09-01",
-   "renew_hold": true
+   "renewed_at": "2026-09-01 12:14",
+   "renewed_from": "1,200pt"
   },
   "chobirich:1896242": {
    "site": "chobirich",
@@ -367191,7 +367196,7 @@
    "seeded": false,
    "first_seen": "2026-08-14",
    "first_seen_at": "2026-08-14 01:00",
-   "last_seen": "2026-08-29"
+   "last_seen": "2026-09-01"
   },
   "pointincome:141725": {
    "site": "pointincome",
@@ -388530,7 +388535,7 @@
    "seeded": false,
    "first_seen": "2026-08-23",
    "first_seen_at": "2026-08-23 12:12",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-09-01",
    "delisted_at": "2026-08-26"
   },
   "pointincome:156032": {
@@ -395600,7 +395605,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 18:31",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-09-01",
    "delisted_at": "2026-08-28"
   },
   "pointincome:156006": {
@@ -395615,7 +395620,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 18:31",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-09-01",
    "delisted_at": "2026-08-28"
   },
   "moppy:157301": {
@@ -405441,6 +405446,104 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 11:00",
+   "last_seen": "2026-09-01"
+  },
+  "chobirich:1898371": {
+   "site": "chobirich",
+   "deal_id": "1898371",
+   "title": "Pop Block Puzzle: Match 3 Game（アプリランド）",
+   "points_text": "最大2152pt",
+   "yen": 1076.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898371/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
+   "last_seen": "2026-09-01"
+  },
+  "chobirich:1898362": {
+   "site": "chobirich",
+   "deal_id": "1898362",
+   "title": "オリパなら 日本トレカセンター公式 オリパ・トレカ アプリ（iOS）",
+   "points_text": "56pt",
+   "yen": 28.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898362/",
+   "condition": "新規インストール後、初回起動で成果",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
+   "last_seen": "2026-09-01"
+  },
+  "chobirich:1898288": {
+   "site": "chobirich",
+   "deal_id": "1898288",
+   "title": "dips",
+   "points_text": "最大207pt",
+   "yen": 103.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898288/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
+   "last_seen": "2026-09-01"
+  },
+  "pointincome:156102": {
+   "site": "pointincome",
+   "deal_id": "156102",
+   "title": "ジャストフィット[不動産小口キャンペーン第三弾]",
+   "points_text": "50,000pt",
+   "yen": 5000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156102/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
+   "last_seen": "2026-09-01"
+  },
+  "pointincome:153927": {
+   "site": "pointincome",
+   "deal_id": "153927",
+   "title": "イケメン戦国 時をかける恋 -永縁-（12話読了/Android用）",
+   "points_text": "2,000pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/153927/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
+   "last_seen": "2026-09-01"
+  },
+  "pointincome:153926": {
+   "site": "pointincome",
+   "deal_id": "153926",
+   "title": "イケメン戦国 時をかける恋 -永縁-（12話読了/iOS用）",
+   "points_text": "2,000pt",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/153926/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
+   "last_seen": "2026-09-01"
+  },
+  "pointincome:156130": {
+   "site": "pointincome",
+   "deal_id": "156130",
+   "title": "日本トレカセンター（iOS用）",
+   "points_text": "500pt",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://sp.pointi.jp/ad/156130/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-01",
+   "first_seen_at": "2026-09-01 12:14",
    "last_seen": "2026-09-01"
   }
  }

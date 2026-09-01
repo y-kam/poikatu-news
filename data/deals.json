@@ -401979,7 +401979,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-02",
    "site_new": false
   },
   "pointtown:9822": {
@@ -402266,7 +402266,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-02",
    "delisted_at": "2026-09-01"
   },
   "warau:206229": {
@@ -402281,7 +402281,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-02",
    "delisted_at": "2026-09-01"
   },
   "warau:206225": {
@@ -402311,7 +402311,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-02",
    "delisted_at": "2026-09-01"
   },
   "warau:206236": {
@@ -404236,7 +404236,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-02"
   },
   "poikatsu_club:20672": {
    "site": "poikatsu_club",
@@ -405675,7 +405675,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 10:00",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-02"
   },
   "pointtown:5595": {
    "site": "pointtown",
@@ -405962,7 +405962,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 13:00",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-09-02",
    "delisted_at": "2026-09-01"
   },
   "warau:195284": {
@@ -407413,7 +407413,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 21:00",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-02"
   },
   "warau:206324": {
    "site": "warau",
@@ -407427,7 +407427,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 21:00",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-09-02"
   },
   "warau:206322": {
    "site": "warau",
@@ -408869,6 +408869,132 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 01:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102893": {
+   "site": "hapitas",
+   "deal_id": "102893",
+   "title": "パクパクフィッシュ-Fish Eat Fish.io（魚を18種類アンロック）（iOS）",
+   "points_text": "196pt",
+   "yen": 196.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102893/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102914": {
+   "site": "hapitas",
+   "deal_id": "102914",
+   "title": "DATE ALIVE :Love Limit Break（iOS）",
+   "points_text": "28pt",
+   "yen": 28.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102914/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102911": {
+   "site": "hapitas",
+   "deal_id": "102911",
+   "title": "Cube Jump(キューブジャンプ)",
+   "points_text": "1,758pt",
+   "yen": 1758.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102911/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:101873": {
+   "site": "hapitas",
+   "deal_id": "101873",
+   "title": "TikTok Lite",
+   "points_text": "1,485pt",
+   "yen": 1485.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/101873/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:101872": {
+   "site": "hapitas",
+   "deal_id": "101872",
+   "title": "TikTok Lite",
+   "points_text": "3,813pt",
+   "yen": 3813.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/101872/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102917": {
+   "site": "hapitas",
+   "deal_id": "102917",
+   "title": "MUSINSA – 韓国ファッション&コスメの公式通販",
+   "points_text": "840pt",
+   "yen": 840.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102917/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102885": {
+   "site": "hapitas",
+   "deal_id": "102885",
+   "title": "【航空券予約】agoda（アゴダ）",
+   "points_text": "1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://hapitas.jp/item/detail/itemid/102885/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102886": {
+   "site": "hapitas",
+   "deal_id": "102886",
+   "title": "【遊び・体験予約】agoda（アゴダ）",
+   "points_text": "3.5%",
+   "yen": null,
+   "percent": 3.5,
+   "url": "https://hapitas.jp/item/detail/itemid/102886/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
+   "last_seen": "2026-09-02"
+  },
+  "hapitas:102781": {
+   "site": "hapitas",
+   "deal_id": "102781",
+   "title": "Shokz（ショックス）",
+   "points_text": "4.2%",
+   "yen": null,
+   "percent": 4.2,
+   "url": "https://hapitas.jp/item/detail/itemid/102781/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 05:00",
    "last_seen": "2026-09-02"
   }
  }

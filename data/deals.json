@@ -221849,7 +221849,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-18"
+   "last_seen": "2026-09-03"
   },
   "point_island:s19683": {
    "site": "point_island",
@@ -233264,7 +233264,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-16"
+   "last_seen": "2026-09-03"
   },
   "point_stadium:s19683": {
    "site": "point_stadium",
@@ -244729,8 +244729,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-13",
-   "renewed_at": "2026-08-04 08:00"
+   "last_seen": "2026-09-03",
+   "renewed_at": "2026-09-03 08:00"
   },
   "nyandaful:s19683": {
    "site": "nyandaful",
@@ -352802,7 +352802,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 08:00",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-09-03"
   },
   "warau:205294": {
    "site": "warau",
@@ -379597,7 +379597,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-09-03"
   },
   "point_museum:d2056": {
    "site": "point_museum",
@@ -407750,7 +407750,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 21:00",
-   "last_seen": "2026-09-02",
+   "last_seen": "2026-09-03",
    "site_new": true
   },
   "amefri:140215": {
@@ -408739,7 +408739,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 01:00",
-   "last_seen": "2026-09-02",
+   "last_seen": "2026-09-03",
    "site_new": true
   },
   "au_point:8:1626": {
@@ -409722,7 +409722,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 13:00",
-   "last_seen": "2026-09-02",
+   "last_seen": "2026-09-03",
    "delisted_at": "2026-09-02"
   },
   "warau:206335": {
@@ -409737,7 +409737,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 13:00",
-   "last_seen": "2026-09-02",
+   "last_seen": "2026-09-03",
    "delisted_at": "2026-09-02"
   },
   "amefri:140235": {
@@ -409866,7 +409866,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 15:00",
-   "last_seen": "2026-09-02"
+   "last_seen": "2026-09-03"
   },
   "warau:206343": {
    "site": "warau",
@@ -410135,7 +410135,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 17:00",
-   "last_seen": "2026-09-02"
+   "last_seen": "2026-09-03"
   },
   "warau:199231": {
    "site": "warau",
@@ -410149,7 +410149,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 17:00",
-   "last_seen": "2026-09-02"
+   "last_seen": "2026-09-03"
   },
   "chanceit:33369": {
    "site": "chanceit",

@@ -171745,17 +171745,18 @@
   "pointincome:154098": {
    "site": "pointincome",
    "deal_id": "154098",
-   "title": "三井住友カード ゴールド（NL）家族カード追加",
-   "points_text": "180,000pt",
-   "yen": 18000.0,
+   "title": "【数量限定超高還元!!】三井住友カード ゴールド（NL）家族カード追加",
+   "points_text": "200,000pt",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154098/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-02",
-   "renew_hold": true
+   "last_seen": "2026-09-02",
+   "renewed_at": "2026-09-02 10:23",
+   "renewed_from": "180,000pt"
   },
   "pointincome:155600": {
    "site": "pointincome",
@@ -409327,6 +409328,20 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 10:00",
+   "last_seen": "2026-09-02"
+  },
+  "chobirich:1898445": {
+   "site": "chobirich",
+   "deal_id": "1898445",
+   "title": "はぴけん（チュートリアル完了）（iOS）",
+   "points_text": "56pt",
+   "yen": 28.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1898445/",
+   "condition": "新規インストール後、チュートリアル完了",
+   "seeded": false,
+   "first_seen": "2026-09-02",
+   "first_seen_at": "2026-09-02 10:23",
    "last_seen": "2026-09-02"
   }
  }

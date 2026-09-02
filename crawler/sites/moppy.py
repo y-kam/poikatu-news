@@ -1,9 +1,13 @@
-"""モッピー — PC新着一覧 ＋ スマホ限定の「アプリ広告カテゴリ」から取得。
+"""モッピー — 新着一覧（PC/モバイル両UA）＋ スマホ限定の「アプリ広告カテゴリ」から取得。
 
 アプリ・ゲームのインストール案件はPCサイトには表示されず、スマホ版のアプリ広告
 カテゴリ（/ajax/category/get_list.php）にのみ出る。このカテゴリAPIはモバイルUAと
 XHRヘッダ(X-Requested-With)の両方が揃って初めて案件を返すため、両方を備えた
-専用フェッチャで取得する。PC新着一覧も同じフェッチャで問題なく取得できる。
+専用フェッチャで取得する。
+
+新着一覧はUAによって中身が入れ替わる（2026-09-03実測: 29件中10件が入れ替わり）。
+モバイルUAではアプリ・占い等のスマホ向け案件が、PC UAでは光回線・クレカ等のPC限定案件が
+出るため、同じ一覧を両UAで取得してマージする（同一IDは upsert が重複排除する）。
 
 新着一覧・カテゴリAPIとも1ページ30件。ページ送りはJS（無限スクロール/ページャ）で、
 新着は ?page= が効かないため1ページ目を毎日取得する。カテゴリAPIは current_page で
@@ -14,7 +18,7 @@ import re
 
 from bs4 import BeautifulSoup
 
-from crawler.fetch import PoliteFetcher, MOBILE_UA
+from crawler.fetch import PoliteFetcher, DEFAULT_UA, MOBILE_UA
 from crawler.sites import register
 from crawler.sites.base import SiteAdapter
 
@@ -26,6 +30,10 @@ APP_LIST_URL = (
     "?parent_category=4&child_category=52&af_sorter=new&current_page={}"
 )
 APP_REFERER = "https://pc.moppy.jp/category/list.php?parent_category=4&child_category=52"
+# 新着一覧をPC表示で取るためのリクエスト単位のヘッダ上書き。フェッチャを分けるとレート制御
+# （10秒間隔）が独立して同時アクセスになるため、1つのフェッチャのままUAだけ差し替える。
+# 値が None のヘッダは requests がセッションヘッダから取り除く（PC表示にXHR用ヘッダは不要）。
+PC_LIST_HEADERS = {"User-Agent": DEFAULT_UA, "X-Requested-With": None, "Referer": None}
 # 全件バックフィル用: child_category を省略した親カテゴリ単位の一覧API。
 # 有効な親カテゴリは実測で 1〜6・8（7・9は0件。2026-07-12時点。各30件/頁・重複なしでページング可）。
 # 1=サービス系 2=クレジットカード 3=金融・口座 4=アプリ・無料登録 5=旅行 6=ショッピング 8=査定・訪問系
@@ -44,7 +52,8 @@ class MoppyAdapter(SiteAdapter):
     name = "モッピー"
 
     def make_fetcher(self, interval: float | None = None) -> PoliteFetcher:
-        # アプリ広告カテゴリAPIはモバイルUA＋XHRヘッダが必須。PC新着もこの構成で取得可。
+        # アプリ広告カテゴリAPIはモバイルUA＋XHRヘッダが必須。既定はこの構成とし、
+        # PC表示が要る新着一覧だけ PC_LIST_HEADERS でリクエスト単位に上書きする。
         return PoliteFetcher(
             interval=interval or self.request_interval,
             user_agent=MOBILE_UA,
@@ -76,10 +85,12 @@ class MoppyAdapter(SiteAdapter):
 
     def fetch_deals(self, known, max_items):
         fetcher = self.make_fetcher()
-        # PC新着（クレカ・口座・買い物などPC向け案件）＋ アプリ広告カテゴリ新着（アプリ・ゲーム）
+        # 新着（モバイル表示：アプリ・占い等）＋ 新着（PC表示：光回線・クレカ等のPC限定案件）
+        # ＋ アプリ広告カテゴリ新着（アプリ・ゲーム。モバイルUAでのみ案件が返る）
         deals = self._parse_items(fetcher.get(LIST_URL).text, max_items)
+        deals += self._parse_items(fetcher.get(LIST_URL, headers=PC_LIST_HEADERS).text, max_items)
         deals += self._parse_items(fetcher.get(APP_LIST_URL.format(1)).text, max_items)
-        return deals  # PC/アプリで同一IDが被っても upsert が (site, deal_id) で重複排除する
+        return deals  # 各一覧で同一IDが被っても upsert が (site, deal_id) で重複排除する
 
     # --- 全件バックフィル用: 一覧APIを親カテゴリごとに全ページ巡回する -------------------
     # page_url は単一のページ系列しか表せず複数カテゴリを回れないため、backfill_deals 自体を

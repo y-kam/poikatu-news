@@ -45478,16 +45478,17 @@
    "site": "rebates",
    "deal_id": "16035",
    "title": "ANAトラベラーズ",
-   "points_text": "1.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/www.ana.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-09-03",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-09-03 10:00",
+   "renewed_from": "1.0%"
   },
   "rebates:16294": {
    "site": "rebates",
@@ -51184,7 +51185,7 @@
   "rebates:24603": {
    "site": "rebates",
    "deal_id": "24603",
-   "title": "atmos公式オンラインショップ",
+   "title": "atmos公式サイト",
    "points_text": "1.0%",
    "yen": null,
    "percent": 1.0,
@@ -55307,16 +55308,17 @@
    "site": "rebates",
    "deal_id": "23827",
    "title": "スナイデルビューティ",
-   "points_text": "3.5%",
+   "points_text": "4.5%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 4.5,
    "url": "https://www.rebates.jp/snidelbeauty.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-09-03",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-09-03 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:21050": {
    "site": "rebates",
@@ -59582,16 +59584,17 @@
    "site": "rebates",
    "deal_id": "14832",
    "title": "資生堂オンラインストア",
-   "points_text": "1.0%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/shiseido-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-09-03",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-09-03 10:00",
+   "renewed_from": "1.0%"
   },
   "rebates:24839": {
    "site": "rebates",
@@ -102713,15 +102716,16 @@
    "site": "powl",
    "deal_id": "23509",
    "title": "【『4回半額！』お花の定期便 bloomee（ブルーミー）】新規定期購入プログラム",
-   "points_text": "11,000pt",
-   "yen": 1100.0,
+   "points_text": "5,460pt",
+   "yen": 546.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/23509",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-09-03",
-   "seed_filled": true
+   "seed_filled": true,
+   "renew_hold": true
   },
   "powl:22913": {
    "site": "powl",
@@ -402987,7 +402991,7 @@
   "amefri:139807": {
    "site": "amefri",
    "deal_id": "139807",
-   "title": "三菱ＵＦＪカード ゴールド",
+   "title": "【過去最高還元】三菱ＵＦＪカード ゴールド【最大47,000円相当】",
    "points_text": "150,000pt",
    "yen": 15000.0,
    "percent": null,
@@ -403004,7 +403008,7 @@
   "amefri:139806": {
    "site": "amefri",
    "deal_id": "139806",
-   "title": "三菱ＵＦＪカード",
+   "title": "【過去最高還元】三菱ＵＦＪカード【最大45,000円相当】",
    "points_text": "150,000pt",
    "yen": 15000.0,
    "percent": null,
@@ -408165,7 +408169,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 21:00",
-   "last_seen": "2026-09-02"
+   "last_seen": "2026-09-03"
   },
   "poikatsu_club:20707": {
    "site": "poikatsu_club",
@@ -411867,6 +411871,62 @@
    "first_seen_at": "2026-09-03 07:26",
    "last_seen": "2026-09-03",
    "dead_streak": 1
+  },
+  "warau:206370": {
+   "site": "warau",
+   "deal_id": "206370",
+   "title": "【myChips】WSOP - ポーカーテキサスホールデムアプリ（StepUp）",
+   "points_text": "3,825pt",
+   "yen": 3825.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=206370",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-03",
+   "first_seen_at": "2026-09-03 10:00",
+   "last_seen": "2026-09-03"
+  },
+  "rebates:25446": {
+   "site": "rebates",
+   "deal_id": "25446",
+   "title": "LASIEM公式ストア",
+   "points_text": "3.5%",
+   "yen": null,
+   "percent": 3.5,
+   "url": "https://www.rebates.jp/morevalue.shop",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-03",
+   "first_seen_at": "2026-09-03 10:00",
+   "last_seen": "2026-09-03"
+  },
+  "rebates:25436": {
+   "site": "rebates",
+   "deal_id": "25436",
+   "title": "SURPRISE BOX",
+   "points_text": "5.0%",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://www.rebates.jp/surprisebox.jp",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-09-03",
+   "first_seen_at": "2026-09-03 10:00",
+   "last_seen": "2026-09-03"
+  },
+  "kurashiru_reward:18718": {
+   "site": "kurashiru_reward",
+   "deal_id": "18718",
+   "title": "マウスピース矯正のZenyum",
+   "points_text": "3,600,000コイン",
+   "yen": 36000.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/18718",
+   "condition": "はじめてZenyumで契約完了 で",
+   "seeded": false,
+   "first_seen": "2026-09-03",
+   "first_seen_at": "2026-09-03 10:00",
+   "last_seen": "2026-09-03"
   }
  }
 }

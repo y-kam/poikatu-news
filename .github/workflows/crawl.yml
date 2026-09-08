@@ -4,22 +4,22 @@ on:
   # GitHub内蔵scheduleは停止（2026-07-09）。当初は不達だったが発火するようになり、外部cronと
   # 二重に実行されて重複クロール・push衝突・X二重投稿の恐れが出たため無効化。定期実行は
   # 外部cron（レンタルサーバ JST 01/05/09/13/17/21:07）→workflow_dispatch に一本化する。
-  # 再びフォールバックが必要なときは下2行のコメントを外して戻す（X投稿枠は cron "7 4,12"）。
+  # 再びフォールバックが必要なときは下2行のコメントを外して戻す（X投稿枠は cron "7 0"）。
   # schedule:
-  #   - cron: "7 4,12 * * *"       # クロール＋X投稿（JST 13:07 / 21:07）
-  #   - cron: "7 0,8,16,20 * * *"  # クロールのみ（JST 09:07 / 17:07 / 01:07 / 05:07）
+  #   - cron: "7 0 * * *"             # クロール＋X投稿（JST 09:07）
+  #   - cron: "7 4,8,12,16,20 * * *"  # クロールのみ（JST 13:07 / 17:07 / 21:07 / 01:07 / 05:07）
   # 外部トリガー（サーバのcron等）からGitHub APIで叩く運用。確実な定期実行を担保する。
   # X投稿(従量課金)は投稿枠だけに絞るため、外部トリガー側が post_x=true/false を渡す。
   workflow_dispatch:
     inputs:
       post_x:
-        description: "この実行でX投稿する（投稿枠=JST 13/21時台のみ true。手動実行時も true でのみ投稿）"
+        description: "この実行でX投稿する（投稿枠=JST 09時台のみ true。手動実行時も true でのみ投稿）"
         type: choice
         options:
           - "false"
           - "true"
         default: "false"
-      # 定期運用では投稿枠（post_x=true）に合わせて1日2回走るので、外部cronは渡さなくてよい。
+      # 定期運用では投稿枠（post_x=true）に合わせて1日1回走るので、外部cronは渡さなくてよい。
       # X投稿（従量課金・公開投稿）と死活チェックは無関係なので、手動で死活チェックだけ
       # 走らせたいとき（点検・動作確認）のために独立した入力を用意する。
       check_links:
@@ -32,6 +32,9 @@ on:
 
 permissions:
   contents: write
+  # FTPSデプロイの継続障害を追跡Issueとして起票／復旧時にクローズするため
+  # （ワークフローの失敗通知は件名を変えられないので、件名で知らせる手段はIssueだけ）
+  issues: write
 
 concurrency:
   group: daily-crawl
@@ -108,12 +111,12 @@ jobs:
           server-dir: ${{ secrets.FTP_REMOTE_DIR }}
 
       # 広報用SNS投稿（デプロイ成功後のみ。新着0件・キー未設定時は自動スキップ）。
-      # X課金(従量)抑制のため投稿枠(GitHub schedule 7 4,12)または post_x=true の実行のみ投稿する。
-      # 外部トリガー(workflow_dispatch)では投稿枠=JST 13/21時台だけ post_x=true を渡す運用。
+      # X課金(従量)抑制のため投稿枠(GitHub schedule 7 0)または post_x=true の実行のみ投稿する。
+      # 外部トリガー(workflow_dispatch)では投稿枠=JST 09時台だけ post_x=true を渡す運用（1日1回）。
       # 手動実行は post_x=true を選んだ時だけ投稿（既定 false＝誤爆による課金を防止）。投稿しない
-      # 回の新着も、次の投稿枠で post_sns.py が first_seen==today を対象にまとめて拾う。
+      # 回の新着も、次の投稿枠で post_sns.py が当日＋前日ぶん（DIGEST_WINDOW_DAYS）をまとめて拾う。
       - name: Post daily digest to X
-        if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
+        if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -125,7 +128,7 @@ jobs:
       # 自分で判定し、該当しなければX APIを叩かずに正常終了するため、投稿枠の実行から毎回呼んでよい
       # （実際に課金されるのは週1回の投稿時のみ）。日次ダイジェストとは別枠なので、月曜は2投稿になる。
       - name: Post weekly digest to X
-        if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
+        if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -134,7 +137,7 @@ jobs:
         run: python post_sns.py --weekly
 
       - name: Commit SNS state
-        if: github.event.schedule == '7 4,12 * * *' || github.event.inputs.post_x == 'true'
+        if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
         run: |
           # 投稿スキップ時（キー未設定・新着なし）はファイルが無いので何もしない
           if [ -f data/sns_state.json ]; then
@@ -156,17 +159,17 @@ jobs:
   # 掲載中案件のリンク死活チェック（掲載終了の論理削除）。全案件へGETするため所要が長く
   # 案件数に比例して伸び続けるので、クロール／デプロイとはジョブを分けて時間枠を独立させる。
   #
-  # 実行はX投稿枠（JST 13/21時台）と同じ1日2回に限定する。crawler/linkcheck.py の
-  # STREAK_HIGH/LOW（連続dead回数で掲載終了を確定）が「1日2回・約7時間間隔」を前提に
-  # 設計されており、毎回（1日6〜8回）実行は前提から外れた過剰実行だった
-  # （提携サイトへ1日約1.9万リクエスト。2回なら約6千件に減る）。
+  # 実行はX投稿枠（JST 09時台）と同じ1日1回に限定する。crawler/linkcheck.py の
+  # STREAK_HIGH/LOW（連続dead回数で掲載終了を確定）は連続dead回数で猶予を設ける設計なので、
+  # 実行間隔が約24時間になったぶん掲載終了の確定までの日数が伸びる（同ファイルのコメント参照）。
+  # 毎回（1日6〜8回）実行は過剰で提携サイトへ1日約1.9万リクエストだった。1回なら約3千件。
   #
   # !cancelled(): crawlジョブの最終ステップ（パーサ破損検知）は異常を知らせるために
   # わざと失敗するので、その失敗で死活チェックまで止めない。
   linkcheck:
     needs: crawl
     if: >-
-      ${{ !cancelled() && (github.event.schedule == '7 4,12 * * *' ||
+      ${{ !cancelled() && (github.event.schedule == '7 0 * * *' ||
       github.event.inputs.post_x == 'true' ||
       github.event.inputs.check_links == 'true') }}
     runs-on: ubuntu-latest

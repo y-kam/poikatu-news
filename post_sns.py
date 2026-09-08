@@ -7,12 +7,15 @@
 
 環境変数: X_API_KEY / X_API_SECRET / X_ACCESS_TOKEN / X_ACCESS_TOKEN_SECRET
 - 新着0件・APIキー未設定時は何もせず正常終了する（ワークフローを止めない）
+- 投稿対象は「当日＋前日」の新着／ポイントUP（DIGEST_WINDOW_DAYS 参照）。投稿は1日1回・
+  朝なので、当日分だけを対象にすると前日の日中〜夜に見つかった新着を丸ごと落としてしまう。
 - 1日複数回実行に対応: data/sns_state.json の posted_today に当日の投稿済み案件キーを
   記録し、未投稿の新着があるときだけ投稿する（同じ案件を当日二度投稿しない）
 - 過去の投稿との被り防止: posted_titles に投稿済み案件を「正規化タイトル→最高報酬額」で
   日をまたいで永続記録する。同一商品が別サイト・別deal_idで再登場しても、報酬が過去の
   投稿を上回らない限り再投稿しない（上回れば「お得情報の更新」として再投稿を許可）。
-- 投稿の主役は「当日ポイントUP（renewed_at＝増額での再浮上）した案件」。過去最高値を
+  対象期間が複数日にまたがっても、前日に投稿済みの案件はこの履歴で除外される。
+- 投稿の主役は「直近のポイントUP（renewed_at＝増額での再浮上）した案件」。過去最高値を
   更新したUP→増額幅の大きいUPの順に選び、枠が余ったぶんだけ初出の新着で補う。
   本文ではUPに「⤴+○円」、過去最高値の更新には「🔥最高値」を付けて区別する。
 - 誘導先URLは本文の中身に合わせて切り替える。UP案件を載せた日はUP額ランキング
@@ -51,6 +54,13 @@ MEDALS = ("🥇", "🥈", "🥉")
 # 投稿済みタイトル履歴の保持日数。これを超えて再登場した商品は再投稿を許容する
 # （履歴ファイルの肥大化防止と、長期間ぶりの再登場を「新情報」とみなす妥協点）。
 TITLE_HISTORY_DAYS = 365
+
+# 日次ダイジェストが投稿対象にする日数（当日を含む）。投稿枠は1日1回・JST 09時台なので、
+# 当日分（＝当日0時〜投稿時刻）だけを見ると前日の日中〜夜に見つかった新着が一度も
+# 投稿されずに埋もれる。前日ぶんまで遡ることで、投稿枠が1日2回だった頃と同じ
+# 「取りこぼしゼロ」を保つ。重複投稿は posted_titles（永続の投稿済みタイトル履歴）が防ぐ。
+# ※ 投稿枠の回数・時刻を変えるならこの値も見直すこと（枠の間隔と対の設計）。
+DIGEST_WINDOW_DAYS = 2
 
 # 週次まとめ投稿で本文に載せる件数（日次と同じメダル3枠）
 WEEKLY_POST_CAP = len(MEDALS)
@@ -130,14 +140,21 @@ def _is_easy(deal: dict) -> bool:
     return bool(EASY_RE.search(text)) and not HURDLE_RE.search(text)
 
 
-def _is_up_today(deal: dict, today: str) -> bool:
-    """当日ポイントUP（増額で再浮上）した案件か。初出新着と文言を変えるための判定。
-    初出も当日の案件は通常の新着として扱う。サイト表示（builder/generate._is_up）と同じく、
-    旧値（renewed_from）が無くいくら増えたか示せない案件（サイト側バッジ検知のみ）は
+def _window_dates(today: str) -> set[str]:
+    """日次ダイジェストの対象日（当日から DIGEST_WINDOW_DAYS 日ぶん遡った日付）"""
+    base = datetime.strptime(today, "%Y-%m-%d")
+    return {(base - timedelta(days=i)).strftime("%Y-%m-%d")
+            for i in range(DIGEST_WINDOW_DAYS)}
+
+
+def _is_recent_up(deal: dict, dates: set[str]) -> bool:
+    """対象期間内にポイントUP（増額で再浮上）した案件か。初出新着と文言を変えるための判定。
+    初出も対象期間内の案件は通常の新着として扱う。サイト表示（builder/generate._is_up）と
+    同じく、旧値（renewed_from）が無くいくら増えたか示せない案件（サイト側バッジ検知のみ）は
     UP扱い・投稿対象にしない（増額幅不明のUPは誤解を招くため）。"""
     return (bool(deal.get("renewed_from"))
-            and (deal.get("renewed_at") or "")[:10] == today
-            and deal["first_seen"] != today)
+            and (deal.get("renewed_at") or "")[:10] in dates
+            and deal["first_seen"] not in dates)
 
 
 def _already_posted(deal: dict, posted_titles: dict) -> bool:
@@ -221,14 +238,14 @@ def _order_ups(ups: list[dict], history: dict, rates: dict) -> list[dict]:
     )
 
 
-def _cta(shown: list[dict], today: str, rates: dict) -> tuple[str, str]:
+def _cta(shown: list[dict], dates: set[str], rates: dict) -> tuple[str, str]:
     """本文末尾の誘導文とURL。本文に載せた案件に合わせて飛び先を変える。
 
     UP案件を載せた日はUP額ランキング（ranking.html）へ直接送る。同ページは投稿と同じ
     「増額幅（円換算）の大きい順」で現在も増額中の案件を並べており、投稿の続きをそのまま
     見せられるため。ただし同ページは円換算できる増額のみが対象なので、載せたUPが%還元
     だけで増額幅を円で出せない日は、案件が並ばない恐れがあるためトップへ送る。"""
-    if any(_is_up_today(d, today) and _up_gain(d, rates) > 0 for d in shown):
+    if any(_is_recent_up(d, dates) and _up_gain(d, rates) > 0 for d in shown):
         return "増額中の案件はこちら👇", f"{BASE_URL}/ranking.html"
     return "最新情報はこちら👇", f"{BASE_URL}/"
 
@@ -239,16 +256,16 @@ def _reward_text(deal: dict) -> str:
     return deal["points_text"]
 
 
-def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: bool,
-            history: dict, rates: dict) -> tuple[str, list[dict]]:
+def compose(new_deals: list[dict], today: str, dates: set[str], site_names: dict,
+            is_first_post: bool, history: dict, rates: dict) -> tuple[str, list[dict]]:
     """ダイジェスト本文と、実際に本文へ載せた案件リストを返す（280ウェイトに収まるまで
-    掲載件数・タイトル長を削る）。
+    掲載件数・タイトル長を削る）。today は見出しの日付、dates は投稿対象日の集合。
 
-    掲載枠は「当日ポイントUPした案件」を主役にする（値上がりはポイ活で最も価値が高く、
+    掲載枠は「対象期間にポイントUPした案件」を主役にする（値上がりはポイ活で最も価値が高く、
     初出の新着より拡散されやすいため）。UPの並びは _order_ups（過去最高を最優先）。
     UPが3件に満たない日だけ、残り枠を従来どおりの新着（手軽さ優先→報酬額順）で補う。"""
-    ups = _order_ups([d for d in new_deals if _is_up_today(d, today)], history, rates)
-    fresh = sorted([d for d in new_deals if not _is_up_today(d, today)],
+    ups = _order_ups([d for d in new_deals if _is_recent_up(d, dates)], history, rates)
+    fresh = sorted([d for d in new_deals if not _is_recent_up(d, dates)],
                    key=lambda d: (0 if _is_easy(d) else 1, -_yen_of(d)))
     top = (ups + fresh)[:len(MEDALS)]
 
@@ -282,9 +299,9 @@ def compose(new_deals: list[dict], today: str, site_names: dict, is_first_post: 
                 if len(title) > title_limit:
                     title = title[:title_limit] + "…"
                 site = site_names.get(deal["site"], deal["site"])
-                mark = _up_mark(deal, history, rates) if _is_up_today(deal, today) else ""
+                mark = _up_mark(deal, history, rates) if _is_recent_up(deal, dates) else ""
                 lines.append(f"{medal}{title} {_reward_text(deal)}{mark}（{site}）")
-            cta, url = _cta(shown, today, rates)
+            cta, url = _cta(shown, dates, rates)
             lines += ["", cta, url, "#ポイ活 #ポイントサイト"]
             text = "\n".join(lines)
             if post_weight(text) <= MAX_WEIGHT:
@@ -453,6 +470,7 @@ def main() -> int:
         return run_weekly(args.dry_run)
 
     today = datetime.now(JST).strftime("%Y-%m-%d")
+    dates = _window_dates(today)  # 投稿対象日（当日＋前日。DIGEST_WINDOW_DAYS 参照）
     store = store_mod.load()
     history = store_mod.load_history()  # 「過去最高値」判定に使う値動き履歴
     posted_today, posted_titles = _load_state(store, today)
@@ -461,11 +479,11 @@ def main() -> int:
     # 表示時に毎回判定する仕組みでstoreには持たないため、ここでも読み込んで判定する。
     corp = load_corporate()
 
-    # 当日初出（またはポイントUP再浮上）・表示対象・当日未投稿・属性制限なし・法人向けでない・
-    # 過去投稿と被らない案件を抽出。
+    # 対象期間内の初出（またはポイントUP再浮上）・表示対象・当日未投稿・属性制限なし・
+    # 法人向けでない・過去投稿と被らない案件を抽出。
     eligible = [
         d for d in store["deals"].values()
-        if (d["first_seen"] == today or _is_up_today(d, today))
+        if (d["first_seen"] in dates or _is_recent_up(d, dates))
         and store_mod.is_visible(d)  # title有・非seed・非掲載終了
         and f"{d['site']}:{d['deal_id']}" not in posted_today  # 当日投稿済みは除外
         and not _is_restricted(d)  # 属性制限系（年収○○以上など）は投稿対象外
@@ -484,7 +502,7 @@ def main() -> int:
     site_names = {k: v["name"] for k, v in sites_config.items()}
     rates = {k: v.get("rate", 1.0) for k, v in sites_config.items()}  # 増額幅の円換算に使う
 
-    text, shown = compose(new_deals, today, site_names, is_first_post=not posted_today,
+    text, shown = compose(new_deals, today, dates, site_names, is_first_post=not posted_today,
                           history=history, rates=rates)
     print(f"--- 投稿本文（weight={post_weight(text)}） ---")
     print(text)

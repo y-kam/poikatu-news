@@ -19,6 +19,9 @@ on:
 
 permissions:
   contents: read
+  # FTPSデプロイの継続障害を追跡Issueとして起票／復旧時にクローズするため
+  # （ワークフローの失敗通知は件名を変えられないので、件名で知らせる手段はIssueだけ）
+  issues: write
 
 concurrency:
   group: deploy

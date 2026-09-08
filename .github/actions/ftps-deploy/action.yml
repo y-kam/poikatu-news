@@ -22,6 +22,20 @@ description: >-
       これを見込んだ値にすること（crawl:55分 / linkcheck:90分 / deploy:45分）。
     - 全滅した場合は最後に切り分け情報（ランナーの外向きIP・FTPポートへの到達性）を出してから
       ジョブを失敗させる。次に失敗したとき「IP固有の遮断か・サーバ側の停止か」をログだけで判断できる。
+
+  ■ 失敗の見せ方（2026-08-31 追加）
+    上記のとおり全滅の大半は「サーバ側の一時的な遮断窓」で、コードの不具合ではない。ところが
+    GitHubの失敗通知は種別を問わず同じ赤い失敗として届くため、本当に対処が要る失敗
+    （パーサ破損・認証不備）と区別がつかず「何かバグったのか」を毎回ログで確かめる必要があった。
+    そこで失敗の重さを判定し、伝え方を3段階に分ける。
+      判定軸は「公開サイトが実際に何時間反映されていないか」（Last-Modified）。FTPSの連続失敗
+      回数ではなく実害で測るので、状態ファイルを持たずに済み、ローカルクロール等の別経路で
+      反映済みなら警告しない。health-check.yml の「3日以上古い」判定と同じ軸で一貫させる。
+      1) 反映停止が20時間未満・ポート21も不通 → 【対応不要】。赤いままだが本文の先頭で断定する
+      2) 反映停止が20時間以上（＝4時間おきの定期実行で5回連続に相当） → 【要対応】。
+         追跡Issueを自動作成する。GitHubの失敗通知は件名を変えられない（ワークフロー名固定）が、
+         Issueの通知なら件名＝Issueタイトルになり、件名だけで事態が分かる。復旧時は自動クローズ
+      3) ポート21には到達できるのに失敗 → 【要確認】。遮断窓ではなく認証・設定側の疑いがある
 inputs:
   server:
     description: FTPサーバホスト（FTP_SERVER）
@@ -35,6 +49,14 @@ inputs:
   server-dir:
     description: アップロード先ディレクトリ（末尾スラッシュ必須・FTP_REMOTE_DIR）
     required: true
+  site-url:
+    description: 反映確認に使う公開サイトURL（実際に何時間止まっているかの判定に使う）
+    required: false
+    default: https://poikatu-news.com/
+  stale-hours:
+    description: この時間以上サイトが反映されていなければ【要対応】として追跡Issueを立てる
+    required: false
+    default: "20"
 runs:
   using: composite
   steps:
@@ -146,27 +168,129 @@ runs:
         server-dir: ${{ inputs.server-dir }}
         timeout: 45000
 
-    # 全滅時のみ、原因切り分けに必要な情報を残してからジョブを失敗させる。
-    #   - 外向きIP     : 次回以降、失敗が特定のIPレンジに偏るかを見るため
+    # 成否にかかわらず必ず走り、結果の伝え方を決める。狙いは「赤い失敗を見た瞬間に、
+    # 対処が要るのか要らないのかが分かる」こと（詳細は冒頭の description を参照）。
+    #   - 外向きIP     : 失敗が特定のIPレンジに偏るかを見るため
     #   - FTPポート到達: 判定時点でも繋がらないのか（障害継続中）／もう繋がるのか（窓を跨げなかった）
+    #   - サイト最終更新: FTPSの失敗回数ではなく「実際に何時間反映が止まっているか」で重さを測る
     # ホスト名はsecretなのでログ上はマスクされるが、到達可否の結果は読み取れる。
-    - name: 結果判定（全滅時は切り分け情報を出して失敗させる）
+    - name: 結果判定（失敗の重さを見極めて伝え方を分ける）
       if: always()
       shell: bash
       env:
         FTP_HOST: ${{ inputs.server }}
+        SITE_URL: ${{ inputs.site-url }}
+        STALE_HOURS: ${{ inputs.stale-hours }}
+        UPLOAD_FAILED: ${{ steps.try6.outcome == 'failure' }}
+        GH_TOKEN: ${{ github.token }}
+        ISSUE_LABEL: ftps-outage
       run: |
-        if [ "${{ steps.try6.outcome }}" != "failure" ]; then
+        # 切り分けの各チェックは失敗しても続行し、成否は最後に明示的に返す（-e を解除）
+        set +e
+
+        # 継続障害を追跡する既存Issue（未クローズ）の番号。無ければ空文字。
+        open_issue() {
+          gh issue list --label "$ISSUE_LABEL" --state open --limit 1 \
+            --json number --jq '.[0].number // empty' 2>/dev/null
+        }
+        run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+
+        # ---- どこかの試行で上がった場合：継続障害が明けたなら追跡Issueを閉じて終わる ----
+        if [ "$UPLOAD_FAILED" != "true" ]; then
+          issue=$(open_issue)
+          if [ -n "$issue" ]; then
+            if gh issue close "$issue" --comment "サイトへの反映が復旧しました（${run_url}）。"; then
+              echo "### ✅ FTPSデプロイ復旧（追跡Issue #${issue} をクローズ）" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "::warning::追跡Issue #${issue} のクローズに失敗しました（issues:write 権限を確認）"
+            fi
+          fi
           exit 0
         fi
+
+        # ---- 6回とも接続できなかった：切り分け情報を集める ----
         echo "::group::FTPS全滅時の切り分け情報"
-        echo "runner egress IP: $(curl -s --max-time 10 https://api.ipify.org || echo '(取得失敗)')"
+        egress=$(curl -s --max-time 10 https://api.ipify.org || echo '(取得失敗)')
+        echo "runner egress IP: ${egress}"
         # ホスト名はenv経由で内側のbashに展開させる（外側で展開してコマンド文字列に埋めない）
         if timeout 10 bash -c 'exec 3<>/dev/tcp/$FTP_HOST/21' 2>/dev/null; then
-          echo "FTP port 21 到達: OK（判定時点では接続可能＝約34分の再試行窓を跨げなかった）"
+          port21="到達OK"
         else
-          echo "FTP port 21 到達: NG（判定時点でも接続不可＝障害が継続中）"
+          port21="到達NG"
         fi
+        echo "FTP port 21: ${port21}"
+        # 公開サイトの実反映時刻。別経路（ローカルクロールのdeploy等）で上がっていれば止まっていない。
+        last_mod=$(curl -sI --max-time 15 "$SITE_URL" 2>/dev/null | tr -d '\r' \
+          | sed -n 's/^[Ll]ast-[Mm]odified:[[:space:]]*//p' | head -1)
+        stale_h=""
+        if [ -n "$last_mod" ]; then
+          lm_epoch=$(date -d "$last_mod" +%s 2>/dev/null)
+          [ -n "$lm_epoch" ] && stale_h=$(( ($(date +%s) - lm_epoch) / 3600 ))
+        fi
+        echo "site last-modified: ${last_mod:-(取得失敗)} / 経過: ${stale_h:-?}時間"
         echo "::endgroup::"
-        echo "::error::FTPSアップロードが6回とも失敗しました（約35分・接続確立せず）"
+
+        # ---- 重さを判定する（この文言がそのまま通知メール本文の先頭に出る）----
+        issue=""
+        if [ -z "$stale_h" ]; then
+          verdict="【要確認】"
+          headline="FTPSデプロイに失敗し、公開サイトの最終更新時刻も取得できませんでした（サイト自体の異常の可能性）"
+          next="サイトが表示できるかを確認してください。"
+        elif [ "$stale_h" -ge "$STALE_HOURS" ]; then
+          verdict="【要対応・サイト反映停止】"
+          headline="FTPSデプロイの失敗が続き、公開サイトが約${stale_h}時間更新されていません"
+          next="サーバ管理画面の「FTP制限設定（国外IPアクセス制限）」を確認してください。"
+          issue=$(open_issue)
+          if [ -z "$issue" ]; then
+            # 通知メールの件名を変えられるのはIssueだけ（ワークフローの失敗通知は件名固定）。
+            # 公開リポジトリなのでIssue本文にはホスト名・認証情報を書かず、実行URLからログを辿らせる。
+            gh label create "$ISSUE_LABEL" --color B60205 \
+              --description "FTPSデプロイの継続障害（自動起票）" >/dev/null 2>&1
+            title="【サイト反映停止】FTPSデプロイが失敗し続けています（最終反映から約${stale_h}時間）"
+            body=$(printf '%s\n' \
+              "公開サイトの反映が **約${stale_h}時間** 止まっています（しきい値 ${STALE_HOURS}時間 ＝ 4時間おきの定期実行で5回連続の失敗に相当）。" \
+              "" \
+              "- 失敗した実行: ${run_url}" \
+              "- サイト最終更新: ${last_mod}" \
+              "- FTPポート21（判定時点）: ${port21}" \
+              "" \
+              "**確認の順番**" \
+              "1. サーバ管理画面の「FTP制限設定（国外IPアクセス制限）」。GitHub Actionsは全て海外IPのため、有効だと遮断される" \
+              "2. 手元の回線からFTPサーバの21番へ接続できるか（できる＝IP・経路単位の遮断／できない＝サーバ側の停止）" \
+              "3. 続くようであれば、サーバ側cronからのpull型デプロイへの切り替えを検討する" \
+              "" \
+              "デプロイが成功すると、このIssueは自動でクローズされます。")
+            url=$(gh issue create --title "$title" --body "$body" --label "$ISSUE_LABEL" \
+              --assignee "$GITHUB_REPOSITORY_OWNER" 2>/dev/null) \
+              || url=$(gh issue create --title "$title" --body "$body" --label "$ISSUE_LABEL" 2>/dev/null)
+            issue=$(echo "$url" | grep -oE '[0-9]+$')
+            [ -z "$issue" ] && echo "::warning::追跡Issueの作成に失敗しました（issues:write 権限を確認）"
+          fi
+          [ -n "$issue" ] && headline="${headline}（Issue #${issue}）"
+        elif [ "$port21" = "到達NG" ]; then
+          verdict="【対応不要・サーバ側の一時障害】"
+          headline="FTPSデプロイを見送りました（接続確立せず／最終反映から約${stale_h}時間・許容内）。クロールとデータ保存は完了しており、次回の実行で反映されます"
+          next="対応は不要です。${STALE_HOURS}時間以上反映が止まった場合のみ、追跡Issueを起票して通知します。"
+        else
+          verdict="【要確認】"
+          headline="FTPSに6回とも失敗しましたが、判定時点ではFTPポート21に到達できます（遮断窓を跨げなかったか、認証・パス設定の問題の可能性）"
+          next="FTP_USERNAME / FTP_PASSWORD / FTP_REMOTE_DIR のsecretが有効かを確認してください。"
+        fi
+
+        {
+          echo "## FTPSデプロイ: 失敗（6回・約35分・接続確立せず）"
+          echo ""
+          echo "| 項目 | 値 |"
+          echo "| --- | --- |"
+          echo "| 判定 | ${verdict} |"
+          echo "| 公開サイトの反映停止 | $([ -n "$stale_h" ] && echo "${stale_h}時間" || echo "判定不能")（しきい値 ${STALE_HOURS}時間） |"
+          echo "| サイト最終更新 | ${last_mod:-(取得失敗)} |"
+          echo "| FTPポート21（判定時点） | ${port21} |"
+          echo "| ランナー外向きIP | ${egress} |"
+          [ -n "$issue" ] && echo "| 追跡Issue | #${issue} |"
+          echo ""
+          echo "${next}"
+        } >> "$GITHUB_STEP_SUMMARY"
+
+        echo "::error::${verdict}${headline}"
         exit 1

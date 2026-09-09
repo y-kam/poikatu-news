@@ -13,6 +13,9 @@ API_URL = "https://api.poikatsu.club/api/projects?order_by=newest&page=1&per_pag
 # 案件詳細ページ（ユーザー向けURL）
 DETAIL_URL = "https://poikatsu.club/projects/{}"
 MAX_PAGES = 120  # last_page=89。全ページ巡回時の暴走防止上限
+# 日次で見る新着順の先頭ページ数（30件/頁）。新着が多い日は最大61件/日あり、1頁だけでは
+# 4時間おきのクロール間に押し出された案件を取りこぼしていた（2026-09-09監査: 2〜8頁目に散発）
+DAILY_PAGES = 3
 
 
 @register
@@ -54,6 +57,11 @@ class PoikatsuClubAdapter(SiteAdapter):
         return deals
 
     def fetch_deals(self, known, max_items):
-        # 日次は新着順1頁目のみ（挙動は従来どおり）
+        # 日次は新着順の先頭 DAILY_PAGES 頁
         fetcher = self.make_fetcher()
-        return self.parse_list(fetcher.get(self.page_url(1)))[:max_items]
+        deals = []
+        for page in range(1, DAILY_PAGES + 1):
+            deals += self.parse_list(fetcher.get(self.page_url(page)))
+            if len(deals) >= max_items:
+                break
+        return deals[:max_items]

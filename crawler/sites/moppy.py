@@ -30,6 +30,9 @@ APP_LIST_URL = (
     "?parent_category=4&child_category=52&af_sorter=new&current_page={}"
 )
 APP_REFERER = "https://pc.moppy.jp/category/list.php?parent_category=4&child_category=52"
+# 日次で見るアプリ広告カテゴリの先頭ページ数（30件/頁）。アプリ案件は入れ替わりが多く、
+# 1頁だけでは押し出された案件を取りこぼしていた（2026-09-09監査: 2〜3頁目に9件）
+APP_DAILY_PAGES = 3
 # 新着一覧をPC表示で取るためのリクエスト単位のヘッダ上書き。フェッチャを分けるとレート制御
 # （10秒間隔）が独立して同時アクセスになるため、1つのフェッチャのままUAだけ差し替える。
 # 値が None のヘッダは requests がセッションヘッダから取り除く（PC表示にXHR用ヘッダは不要）。
@@ -86,10 +89,11 @@ class MoppyAdapter(SiteAdapter):
     def fetch_deals(self, known, max_items):
         fetcher = self.make_fetcher()
         # 新着（モバイル表示：アプリ・占い等）＋ 新着（PC表示：光回線・クレカ等のPC限定案件）
-        # ＋ アプリ広告カテゴリ新着（アプリ・ゲーム。モバイルUAでのみ案件が返る）
+        # ＋ アプリ広告カテゴリ新着の先頭 APP_DAILY_PAGES 頁（アプリ・ゲーム。モバイルUAでのみ案件が返る）
         deals = self._parse_items(fetcher.get(LIST_URL).text, max_items)
         deals += self._parse_items(fetcher.get(LIST_URL, headers=PC_LIST_HEADERS).text, max_items)
-        deals += self._parse_items(fetcher.get(APP_LIST_URL.format(1)).text, max_items)
+        for page in range(1, APP_DAILY_PAGES + 1):
+            deals += self._parse_items(fetcher.get(APP_LIST_URL.format(page)).text, max_items)
         return deals  # 各一覧で同一IDが被っても upsert が (site, deal_id) で重複排除する
 
     # --- 全件バックフィル用: 一覧APIを親カテゴリごとに全ページ巡回する -------------------

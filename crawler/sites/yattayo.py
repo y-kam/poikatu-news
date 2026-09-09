@@ -2,6 +2,8 @@
 
 http://pint.yattayo.net/?UACT=cmpnL&USRT=0 が新着順（USRT=0）の1ページ目。
 新着が先頭に来るポーリング型のためシード登録は不要で、1ページだけ取得して返す。
+2ページ目以降は &UPAG=N（1始まり・21件/頁・約7頁）で取得できる（2026-09-09確認）ため、
+全件バックフィルは page_url でこれを巡回する。
 サーバはHTTPS未対応・charset宣言も無いため、UTF-8を明示してからパースする。
 10pt = 1円（rate=0.1）。
 """
@@ -14,6 +16,7 @@ from crawler.sites.base import SiteAdapter
 
 LIST_URL = "http://pint.yattayo.net/?UACT=cmpnL&USRT=0"
 BASE = "http://pint.yattayo.net/"
+MAX_PAGES = 30  # 21件/頁・約7頁。安全側に余裕を持たせる
 
 _UID_RE = re.compile(r"UID1=(\d+)")
 
@@ -23,14 +26,20 @@ class YattayoAdapter(SiteAdapter):
     key = "yattayo"
     name = "やったよ.ねっと"
 
-    def fetch_deals(self, known, max_items):
-        fetcher = self.make_fetcher()
-        resp = fetcher.get(LIST_URL)
+    def page_url(self, page):
+        # 1頁目は現行の新着順LIST_URLそのまま、2頁目以降は &UPAG=N（1始まり）。
+        if page > MAX_PAGES:
+            return None
+        if page == 1:
+            return LIST_URL
+        return f"{LIST_URL}&UPAG={page}"
+
+    def parse_list(self, resp):
         resp.encoding = "utf-8"  # charset宣言が無いためUTF-8を明示
         soup = BeautifulSoup(resp.text, "lxml")
         deals = []
         # campaignlist1/2 が案件ブロック（新着順に並ぶ）
-        for item in soup.select("div.campaignlist1, div.campaignlist2")[:max_items]:
+        for item in soup.select("div.campaignlist1, div.campaignlist2"):
             link = item.select_one("a[href*='UACT=cmpnV']")
             content1 = item.select_one("div.content1")
             if not (link and content1):
@@ -70,3 +79,8 @@ class YattayoAdapter(SiteAdapter):
                 condition,
             ))
         return deals
+
+    def fetch_deals(self, known, max_items):
+        # 日次は新着順1頁目のみ（挙動は従来どおり）
+        fetcher = self.make_fetcher()
+        return self.parse_list(fetcher.get(self.page_url(1)))[:max_items]

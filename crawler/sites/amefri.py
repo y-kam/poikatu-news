@@ -7,8 +7,11 @@
 
 アプリ・ゲームのインストール案件は asp_device=pc 表示には出ず、asp_device=sp
 （スマホ表示）にのみ並ぶ（UAはPCのままでよい）。pc表示（クレカ・買い物等）と
-sp表示（アプリ）は排他なので、日次は両方の新着1頁を取得し、バックフィルは
-アプリを取りこぼさないよう sp 表示を全ページ巡回する。
+sp表示（アプリ）は排他なので、日次は pc の新着1頁と sp の先頭 SP_DAILY_PAGES 頁を取得し、
+バックフィルはアプリを取りこぼさないよう sp 表示を全ページ巡回する。
+sp表示はiOS/Android別IDの「〜_マルチ」案件が1日30〜50件入れ替わるため、1頁（15件）だけでは
+4時間おきのクロール間に押し出された案件を取りこぼしていた（2026-09-09監査: 2〜6頁目が
+ほぼ全件未取得）。
 """
 import re
 
@@ -21,6 +24,7 @@ PC_LIST_URL = "https://point.i2i.jp/item_list?asp_device=pc&sort=-start"
 SP_LIST_URL = "https://point.i2i.jp/item_list?asp_device=sp&sort=-start"
 BASE = "https://www.amefri.net"
 MAX_PAGES = 210  # 15件/頁・約199頁。安全側に余裕を持たせる
+SP_DAILY_PAGES = 5  # 日次で見る sp 表示（アプリ）の先頭ページ数（75件。1日の入れ替わり量の約2倍）
 _ID_RE = re.compile(r"/detail/id/(\d+)")
 
 
@@ -73,8 +77,12 @@ class AmefriAdapter(SiteAdapter):
         return deals
 
     def fetch_deals(self, known, max_items):
-        # 日次はpc表示（クレカ・買い物等）とsp表示（アプリ・ゲーム）の新着1頁ずつ
+        # 日次はpc表示（クレカ・買い物等）の新着1頁と、sp表示（アプリ・ゲーム）の先頭数頁
         fetcher = self.make_fetcher()
         deals = self.parse_list(fetcher.get(PC_LIST_URL))[:max_items]
-        deals += self.parse_list(fetcher.get(SP_LIST_URL))[:max_items]
-        return deals
+        sp = []
+        for page in range(1, SP_DAILY_PAGES + 1):
+            sp += self.parse_list(fetcher.get(self.page_url(page)))
+            if len(sp) >= max_items:
+                break
+        return deals + sp[:max_items]

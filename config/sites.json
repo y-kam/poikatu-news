@@ -290,5 +290,22 @@
     "domain": "web.mikoshi.jp",
     "referral_url": "",
     "enabled": true
+  },
+  "gendama": {
+    "name": "げん玉",
+    "rate": 0.1,
+    "domain": "gendama.jp",
+    "referral_url": "",
+    "enabled": true,
+    "dead_markers": [
+      "このサービスは終了いたしました"
+    ]
+  },
+  "pointchips": {
+    "name": "PointChips",
+    "rate": 1.0,
+    "domain": "pointchips.com",
+    "referral_url": "",
+    "enabled": true
   }
 }

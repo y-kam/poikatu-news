@@ -97,7 +97,8 @@ def main() -> int:
     parser.add_argument(
         "--include-backfill", action="store_true",
         help="カタログ由来の案件（バックフィル・シード埋め）も死活チェックする（既定は除外。"
-             "全件だと外部リクエストが激増するため、手動での一括点検時のみ指定する）",
+             "全件だと外部リクエストが激増するため、手動での一括点検時のみ指定する。当日の"
+             "クロールで一覧に載っていた案件は飛ばす。dead が出た案件は以後の日次で追跡される）",
     )
     args = parser.parse_args()
 
@@ -120,9 +121,16 @@ def main() -> int:
             continue
         # カタログ由来（バックフィル・シード埋め）の案件は数千〜数万件になり得るため、
         # 既定では日次の死活チェック対象外にして外部リクエストと所要時間を抑える。
-        # （掲載終了リンクの掃除が必要なら --include-backfill で手動一括点検する）
-        if store_mod.is_catalog(deal) and not args.include_backfill:
-            continue
+        # ただし一括点検（--include-backfill）で dead が1回出た案件（dead_streak>0）だけは
+        # 日次でも追跡し、連続判定で掲載終了を確定させる（一括点検を日を空けて繰り返さずに済む。
+        # 対象は疑い案件のみなので件数は小さい）。
+        # 一括点検では、当日のクロールで一覧に載っていた（last_seen が今日）案件は生存が
+        # 確認済みなので飛ばす（全件取得型サイトの数千件分のリクエストを省く）。
+        if store_mod.is_catalog(deal):
+            if not args.include_backfill and not deal.get("dead_streak"):
+                continue
+            if args.include_backfill and deal.get("last_seen") == today:
+                continue
         if filter_sites and site not in filter_sites:
             continue
         targets[site].append(deal)

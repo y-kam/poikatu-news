@@ -116,7 +116,9 @@ jobs:
       # 手動実行は post_x=true を選んだ時だけ投稿（既定 false＝誤爆による課金を防止）。投稿しない
       # 回の新着も、次の投稿枠で post_sns.py が当日＋前日ぶん（DIGEST_WINDOW_DAYS）をまとめて拾う。
       - name: Post daily digest to X
-        if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
+        # X自動投稿を一時停止中（2026-09-18）。再開する場合は下のifを元に戻す。
+        # if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
+        if: false
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
@@ -128,7 +130,9 @@ jobs:
       # 自分で判定し、該当しなければX APIを叩かずに正常終了するため、投稿枠の実行から毎回呼んでよい
       # （実際に課金されるのは週1回の投稿時のみ）。日次ダイジェストとは別枠なので、月曜は2投稿になる。
       - name: Post weekly digest to X
-        if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
+        # X自動投稿を一時停止中（2026-09-18）。再開する場合は下のifを元に戻す。
+        # if: github.event.schedule == '7 0 * * *' || github.event.inputs.post_x == 'true'
+        if: false
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
           X_API_SECRET: ${{ secrets.X_API_SECRET }}

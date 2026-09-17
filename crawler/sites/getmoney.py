@@ -16,6 +16,9 @@ from crawler.sites.base import SiteAdapter
 LIST_URL = "https://dietnavi.com/pc/point/search.php"
 BASE = "https://dietnavi.com/pc/"
 MAX_PAGES = 12  # 21件/頁・約7頁。安全側に余裕を持たせる
+# 日次で見る新着順の先頭ページ数。order=1 は更新順のため、更新された古い案件が2〜3頁目に
+# 浮上して1頁目だけでは拾えない（2026-09-09/09-17監査: 各回3〜4件）
+DAILY_PAGES = 3
 _ID_RE = re.compile(r"ad_detail\.php\?id=(\d+)")
 
 
@@ -57,6 +60,9 @@ class GetMoneyAdapter(SiteAdapter):
         return deals
 
     def fetch_deals(self, known, max_items):
-        # 日次は新着順1頁目のみ（挙動は従来どおり）
+        # 日次は新着順（更新順）の先頭 DAILY_PAGES 頁
         fetcher = self.make_fetcher()
-        return self.parse_list(fetcher.get(self.page_url(1)))[:max_items]
+        deals = []
+        for page in range(1, DAILY_PAGES + 1):
+            deals += self.parse_list(fetcher.get(self.page_url(page)))
+        return deals[:max_items]

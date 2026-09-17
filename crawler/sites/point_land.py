@@ -1,7 +1,9 @@
 """ポイントランド — 新着順一覧（旧ASP・Shift_JIS）から取得。
 
 `top.asp?c=0100&s=0` は「すべて表示」カテゴリの新着順一覧（c=0100=全カテゴリ横断,
-s=0=新着順）。1ページ18件で先頭が最新のため、新着ポーリング型として1ページのみ取得する。
+s=0=新着順）。1ページ約18件で先頭が最新のため、日次は新着ポーリング型として1ページのみ取得する。
+2ページ目以降は `&pn=N`（`p=N` は無視される。2026-09-09/09-17実測）で、全件バックフィルは
+base.backfill_deals が page_url で全ページを巡回する。
 旧世代のテーブルレイアウトでCSSクラスがほぼ無いため、1案件=table[height="140"]を単位に
 advviewアンカーとimg[alt]見出しを手がかりに抽出する。10ポイント=1円（rate=0.1）。
 """
@@ -14,6 +16,7 @@ from crawler.sites.base import SiteAdapter
 
 BASE = "https://www.point-land.net"
 LIST_URL = BASE + "/top.asp?c=0100&s=0"  # c=0100:すべて表示 / s=0:新着順
+MAX_PAGES = 120  # 約18件/頁。2026-09-17時点で40頁超あり。全ページ巡回時の暴走防止上限
 
 # advview('ID') の引数が案件ID。数字IDのほか j4174/s26928 等の英字プレフィックス付きもある
 _ID_RE = re.compile(r"advview\('([^']+)'\)")
@@ -24,15 +27,20 @@ class PointLandAdapter(SiteAdapter):
     key = "point_land"
     name = "ポイントランド"
 
-    def fetch_deals(self, known, max_items):
-        fetcher = self.make_fetcher()
-        resp = fetcher.get(LIST_URL)
+    def page_url(self, page):
+        # 1頁目は現行の新着順LIST_URLそのまま、2頁目以降は &pn=N（1始まり）。
+        if page > MAX_PAGES:
+            return None
+        if page == 1:
+            return LIST_URL
+        return f"{LIST_URL}&pn={page}"
+
+    def parse_list(self, resp):
         resp.encoding = "cp932"  # ヘッダにcharset宣言が無くShift_JIS（cp932）
         soup = BeautifulSoup(resp.text, "lxml")
-
         deals = []
         # 1案件カード = 高さ140のテーブル（旧レイアウトのためclassが無くheight属性で特定）
-        for card in soup.select('table[height="140"]')[:max_items]:
+        for card in soup.select('table[height="140"]'):
             deal_id, title = self._extract_id_title(card)
             if not deal_id:
                 continue
@@ -48,6 +56,11 @@ class PointLandAdapter(SiteAdapter):
                 condition,
             ))
         return deals
+
+    def fetch_deals(self, known, max_items):
+        # 日次は新着順1頁目のみ（新着ポーリング型）
+        fetcher = self.make_fetcher()
+        return self.parse_list(fetcher.get(LIST_URL))[:max_items]
 
     def _extract_id_title(self, card):
         """カード内のadvviewアンカーから案件IDと案件名を得る。

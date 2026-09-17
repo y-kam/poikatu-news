@@ -1,4 +1,8 @@
-"""すぐたま — 掲載開始日降順の案件一覧（SSR）から取得。単位はmile（2mile=1円）。"""
+"""すぐたま — 掲載開始日降順の案件一覧（SSR）から取得。単位はmile（2mile=1円）。
+
+2ページ目以降は `&page=N`（20件/頁。2026-09-09/09-17実測）。日次は1ページ目のみの
+新着ポーリング、全件バックフィルは base.backfill_deals が page_url で全ページを巡回する。
+"""
 import re
 
 from bs4 import BeautifulSoup
@@ -8,6 +12,7 @@ from crawler.sites.base import SiteAdapter
 
 LIST_URL = "https://www.netmile.co.jp/sugutama/ads/list?q%5Bs%5D=start_date+desc"
 BASE = "https://www.netmile.co.jp"
+MAX_PAGES = 150  # 20件/頁。2026-09-17時点で40頁超あり。全ページ巡回時の暴走防止上限
 
 
 @register
@@ -15,11 +20,18 @@ class SugutamaAdapter(SiteAdapter):
     key = "sugutama"
     name = "すぐたま"
 
-    def fetch_deals(self, known, max_items):
-        fetcher = self.make_fetcher()
-        soup = BeautifulSoup(fetcher.get(LIST_URL).text, "lxml")
+    def page_url(self, page):
+        # 1頁目は現行の新着順LIST_URLそのまま、2頁目以降は &page=N（1始まり）。
+        if page > MAX_PAGES:
+            return None
+        if page == 1:
+            return LIST_URL
+        return f"{LIST_URL}&page={page}"
+
+    def parse_list(self, resp):
+        soup = BeautifulSoup(resp.text, "lxml")
         deals = []
-        for item in soup.select("div.main_detail.searchlist")[:max_items]:
+        for item in soup.select("div.main_detail.searchlist"):
             link = item.select_one("a.area[href]")
             title = item.select_one("div.cp_title")
             mile = item.select_one("div.cp_mile")
@@ -44,3 +56,8 @@ class SugutamaAdapter(SiteAdapter):
                 BASE + link["href"].split("?")[0],
             ))
         return deals
+
+    def fetch_deals(self, known, max_items):
+        # 日次は新着順1頁目のみ（新着ポーリング型）
+        fetcher = self.make_fetcher()
+        return self.parse_list(fetcher.get(LIST_URL))[:max_items]

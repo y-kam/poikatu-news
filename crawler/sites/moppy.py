@@ -45,6 +45,11 @@ PARENT_LIST_URL = (
     "https://pc.moppy.jp/ajax/category/get_list.php"
     "?parent_category={}&af_sorter=new&current_page={}"
 )
+# 日次で見るサービス系（parent=1）カテゴリ新着順の先頭ページ数（30件/頁）。占い（500円コース・
+# 月額コース）等の案件は /newarrivals/ に載らず、このカテゴリ一覧でしか拾えない
+# （2026-09-17監査: 新着順1〜2頁に9件。他の親カテゴリは1〜2頁とも未取得0件）
+SERVICE_PARENT = 1
+SERVICE_DAILY_PAGES = 2
 # 一覧リンクの案件ID。PC一覧は site_id=、スマホ一覧は s_id= と表記が異なるため両対応。
 _ID_RE = re.compile(r"s(?:ite)?_id=(\d+)")
 
@@ -94,6 +99,10 @@ class MoppyAdapter(SiteAdapter):
         deals += self._parse_items(fetcher.get(LIST_URL, headers=PC_LIST_HEADERS).text, max_items)
         for page in range(1, APP_DAILY_PAGES + 1):
             deals += self._parse_items(fetcher.get(APP_LIST_URL.format(page)).text, max_items)
+        # ＋ サービス系カテゴリ新着順の先頭 SERVICE_DAILY_PAGES 頁（新着一覧に載らない占い等）
+        for page in range(1, SERVICE_DAILY_PAGES + 1):
+            deals += self._parse_items(
+                fetcher.get(PARENT_LIST_URL.format(SERVICE_PARENT, page)).text, max_items)
         return deals  # 各一覧で同一IDが被っても upsert が (site, deal_id) で重複排除する
 
     # --- 全件バックフィル用: 一覧APIを親カテゴリごとに全ページ巡回する -------------------

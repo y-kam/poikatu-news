@@ -71,7 +71,7 @@ POPULAR_DAYS = 7
 POPULAR_CAP = 30
 CLICKS_FILE = ROOT / "data" / "clicks.json"
 
-# 値動き履歴ページ（history.html）の掲載上限（過去最高・値上がり・値下がりの順で上位N件）
+# 値動き履歴ページ（history.html）の掲載上限（変動日の新しい順に上位N件。区分は問わない）
 HISTORY_PAGE_CAP = 200
 
 # 週次まとめ（weekly.html）の掲載件数と、確定スナップショット（data/weekly.json）の保持週数。
@@ -407,7 +407,9 @@ def _up_ranking_rows(recent: list, history: dict, today: str) -> list:
 def _history_rows(recent: list, history: dict) -> tuple[list, int]:
     """値動き履歴ページの行データ（過去最高→値上がり→値下がり・各区分内は新しい順）
     と対象総数を返す。変化点のある案件のみ対象。系列は最後の変化点の型（円換算 or
-    %還元）に合わせ、現在値が観測開始以降の最高なら「過去最高」バッジを付ける。"""
+    %還元）に合わせ、現在値が観測開始以降の最高なら「過去最高」バッジを付ける。
+    掲載上限は区分に関係なく「変動日の新しい順」で先に適用する（区分順に切ると過去最高が
+    上限を超えた時点で値下がりが1件も載らなくなる）。"""
     rows = []
     for deal in recent:
         trend = _history_series(deal, history)
@@ -436,10 +438,13 @@ def _history_rows(recent: list, history: dict) -> tuple[list, int]:
             "sort_group": sort_group,
             "sort_key": series[-1][0],
         })
-    # 安定ソートを2回使い、区分を保ったまま各区分内の日付だけを新しい順にする。
+    # 直近の変動から上限件数を取り、その後で区分順に並べ直す（安定ソートなので
+    # 各区分内は新しい順のまま保たれる）。
+    total = len(rows)
     rows.sort(key=lambda r: r["sort_key"], reverse=True)
+    rows = rows[:HISTORY_PAGE_CAP]
     rows.sort(key=lambda r: r["sort_group"])
-    return rows[:HISTORY_PAGE_CAP], len(rows)
+    return rows, total
 
 
 def _week_key(day: date) -> str:

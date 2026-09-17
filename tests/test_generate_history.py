@@ -68,3 +68,31 @@ class HistorySeriesTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class HistoryRowsCapTest(unittest.TestCase):
+    """値動き履歴ページの掲載上限は区分（過去最高/値上がり/値下がり）に関係なく
+    変動日の新しい順で切る（区分順に切ると値下がりが全滅する回帰の防止）。"""
+
+    def test_cap_keeps_recent_rows_across_groups(self):
+        from unittest import mock
+        from builder.generate import _history_rows
+
+        deals, history = [], {}
+        # 古い日付の「過去最高」を上限より多く用意し、値下がりは最新日付で1件だけ置く
+        for i in range(5):
+            d = dict(deal(yen=200), deal_id=str(i))
+            deals.append(d)
+            history[f"test:{i}"] = [["2026-08-01", 100, None], ["2026-08-02", 200, None]]
+        down = dict(deal(yen=100), deal_id="down")
+        deals.append(down)
+        history["test:down"] = [["2026-08-01", 200, None], ["2026-08-10", 100, None]]
+
+        with mock.patch("builder.generate.HISTORY_PAGE_CAP", 3):
+            rows, total = _history_rows(deals, history)
+
+        self.assertEqual(total, 6)
+        self.assertEqual(len(rows), 3)
+        # 最新の値下がりは残り、表示順は区分（過去最高→値下がり）を保つ
+        self.assertFalse(rows[-1]["up"])
+        self.assertTrue(all(r["peak"] for r in rows[:-1]))

@@ -15,7 +15,7 @@ import argparse
 import json
 import sys
 from collections import Counter, defaultdict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -154,38 +154,48 @@ def main() -> int:
         return (site, check_site(site, deals, cfg.get("dead_markers"),
                                  cfg.get("dead_title_markers"), cfg.get("new_markers")))
 
-    with ThreadPoolExecutor(max_workers=args.max_workers) as ex:
-        site_results = list(ex.map(run, targets.items()))
-
+    # サイトごとに完了した順に判定を反映し、その都度保存する（数時間かかる一括点検が途中で
+    # 落ちても完了済みサイトの結果は残る。dry-run 時は保存しない）。
     newly_delisted = 0
     newly_renewed = 0
-    for site, results in site_results:
-        counts = Counter(verdict for _, verdict, _, _ in results)
-        guard = len(results) > 0 and counts["unknown"] / len(results) > UNKNOWN_GUARD_RATIO
-        applied = 0
-        renewed = 0
-        for deal, verdict, threshold, site_new in results:
-            if guard and verdict == "dead":
-                verdict = "unknown"  # 全体障害の疑い → この回は dead を確定させない
-            if linkcheck.apply_result(deal, verdict, threshold, today):
-                applied += 1
-            # サイト側NEW表記の遷移（無→有）を再新着（ポイントUP等の再掲載）として記録する
-            if linkcheck.apply_new_marker(deal, site_new, now_at):
-                renewed += 1
-        newly_delisted += applied
-        newly_renewed += renewed
-        flag = " ※全体障害の疑い→dead無効化" if guard else ""
-        renew_note = f" / NEW遷移{renewed}件" if renewed else ""
-        print(
-            f"  [{site}] alive{counts['alive']} / dead{counts['dead']} / "
-            f"unknown{counts['unknown']} → 新規掲載終了{applied}件{renew_note}{flag}"
-        )
+    with ThreadPoolExecutor(max_workers=args.max_workers) as ex:
+        futures = [ex.submit(run, item) for item in targets.items()]
+        site_results = (f.result() for f in as_completed(futures))
+        for site, results in site_results:
+            counts = Counter(verdict for _, verdict, _, _ in results)
+            applied, renewed, guard = _apply_site_results(results, today, now_at)
+            newly_delisted += applied
+            newly_renewed += renewed
+            flag = " ※全体障害の疑い→dead無効化" if guard else ""
+            renew_note = f" / NEW遷移{renewed}件" if renewed else ""
+            print(
+                f"  [{site}] alive{counts['alive']} / dead{counts['dead']} / "
+                f"unknown{counts['unknown']} → 新規掲載終了{applied}件{renew_note}{flag}",
+                flush=True,
+            )
+            if not args.dry_run:
+                store_mod.save(store)
 
     tail = "（dry-run: 未保存）" if args.dry_run else ""
     print(f"[done] 新規掲載終了 合計{newly_delisted}件 / NEW遷移 合計{newly_renewed}件{tail}")
-    if not args.dry_run:
-        store_mod.save(store)
     return 0
+
+
+def _apply_site_results(results: list, today: str, now_at: str) -> tuple[int, int, bool]:
+    """1サイト分の判定結果を各案件に反映し (新規掲載終了数, NEW遷移数, 全体障害ガード発動) を返す。"""
+    counts = Counter(verdict for _, verdict, _, _ in results)
+    guard = len(results) > 0 and counts["unknown"] / len(results) > UNKNOWN_GUARD_RATIO
+    applied = 0
+    renewed = 0
+    for deal, verdict, threshold, site_new in results:
+        if guard and verdict == "dead":
+            verdict = "unknown"  # 全体障害の疑い → この回は dead を確定させない
+        if linkcheck.apply_result(deal, verdict, threshold, today):
+            applied += 1
+        # サイト側NEW表記の遷移（無→有）を再新着（ポイントUP等の再掲載）として記録する
+        if linkcheck.apply_new_marker(deal, site_new, now_at):
+            renewed += 1
+    return applied, renewed, guard
 
 
 if __name__ == "__main__":

@@ -55,13 +55,14 @@ SOFT_KINDS = {"drop"}  # 連続しても warning 止まり（誤検知しやす�
 def site_stat(deals=None, error: str | None = None, catalog: bool = True) -> dict:
     """1サイト1実行分の記録を作る。deals は fetch_deals の戻り（Deal のリスト）。
     catalog=False は差分取得型（新着0件が正常なサイト）で件数系の判定を無効にする印。
-    抽出品質（u/t）の母数 b は seeded（IDのみ登録・本文空が正常）を除いた件数。"""
+    抽出品質（u/t）の母数 b は seeded（IDのみ登録・本文空が正常）を除いた件数。
+    title_kept（保存済みの名前を残すため意図的に空にした title）は取得失敗と数えない。"""
     if error is not None:
         return {"f": 0, "b": 0, "u": 0, "t": 0, "err": error, "cat": catalog}
     deals = deals or []
     body = [d for d in deals if not getattr(d, "seeded", False)]
     unparsable = sum(1 for d in body if d.yen is None and d.percent is None)
-    empty_title = sum(1 for d in body if not d.title)
+    empty_title = sum(1 for d in body if not d.title and not d.title_kept)
     return {"f": len(deals), "b": len(body), "u": unparsable, "t": empty_title,
             "err": None, "cat": catalog}
 

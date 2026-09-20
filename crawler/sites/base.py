@@ -21,6 +21,9 @@ class Deal:
     condition: str = ""     # 獲得条件テキスト（カテゴリ分類・表示に使用）
     seeded: bool = False    # 初回実行時にIDだけ登録した案件（表示対象外）
     backfill: bool = False  # 一度きりの全件バックフィルで取得した案件（後で一括削除できる印）
+    # 保存済みの名前を残すため意図的に title を空にした印（例: げん玉の一覧が返す省略名）。
+    # 取得失敗ではないので health のタイトル取得不能判定から除く（crawler/health.py）
+    title_kept: bool = False
     first_seen_override: str | None = None  # 出の日付が分かる場合の初出日（不明ならNone→2000-01-01）
     # 一覧アイテムにサイト側のNEW/UPバッジが付いているか（list_new_markers設定サイトのみ。
     # None=判定対象外。既知案件でTrueなら再新着＝ポイントUP扱いにする。store.upsert が参照）

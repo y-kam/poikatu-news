@@ -112,6 +112,7 @@ class GendamaAdapter(SiteAdapter):
                 continue
             if deal.deal_id in known:
                 deal.title = ""  # 既存の（省略無しの）名前を省略名で上書きしない
+                deal.title_kept = True  # 意図的な空欄（パーサ破損と区別する印）
             elif not deal.seeded and fetched < MAX_DETAIL_FETCH:
                 self._fill_title(fetcher, deal)
                 fetched += 1

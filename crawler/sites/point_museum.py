@@ -9,7 +9,7 @@ sitemap未収録、38頁目・76頁目は0件）。日次は各カテゴリ先�
 一覧HTMLにタイトル・ポイント・獲得条件が揃っているため詳細ページの取得は不要。
 
 対象カテゴリはサービス全件（cat=0000・約76頁）と買い物（cat=0800・約27頁）の2系列。
-案件IDは onclick="advview('<id>')" から取り、詳細URLは従来と同じ ct.asp?adv=<id>
+案件IDは一覧のタイトルリンク href="ct.asp?adv=<id>" から取り、詳細URLは従来と同じ形
 （既存データ・リンク死活チェックと互換）。レスポンス・metaともcharset宣言が無い
 Shift_JISのため cp932 を明示する。10pt=1円（rate=0.1）。
 """
@@ -30,8 +30,10 @@ DAILY_PAGES = 3                # 日次で見る各カテゴリの先頭ペー�
 # 溢れるのを防ぐ。シードは次回以降のクロールで本文取得済みとして表示解禁される
 # （store.upsert の seed_filled。新着扱いにはならない）
 SEED_THRESHOLD = 30
-# 一覧アイテムの onclick="advview('<id>');" から案件ID（英数字混在）を抽出する
-_ID_RE = re.compile(r"advview\('([^']+)'\)")
+# 一覧アイテムのリンクから案件ID（英数字混在）を抽出する。2026-09-21にタイトルリンクが
+# onclick="advview('<id>');" から href="ct.asp?adv=<id>" に変わったため href を主に見る
+# （サイドバーのランキング等は今も onclick 形式のため、従来形式も引き続き拾う）
+_ID_RE = re.compile(r"(?:advview\('|[?&]adv=)([A-Za-z0-9]+)")
 
 
 @register
@@ -53,7 +55,9 @@ class PointMuseumAdapter(SiteAdapter):
             point = item.select_one(".text p.pt")
             if not (link and point):
                 continue
-            m = _ID_RE.search(link.get("onclick", "")) or _ID_RE.search(str(item))
+            m = (_ID_RE.search(link.get("href", "") or "")
+                 or _ID_RE.search(link.get("onclick", "") or "")
+                 or _ID_RE.search(str(item)))
             if not m:
                 continue
             title = link.get_text(strip=True)

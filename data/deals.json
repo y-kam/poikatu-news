@@ -680656,7 +680656,7 @@
    "seeded": false,
    "first_seen": "2026-09-28",
    "first_seen_at": "2026-09-28 13:00",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "renewed_at": "2026-10-05 11:00",
    "renewed_from": "最大 2,340 pt"
   },
@@ -700444,9 +700444,9 @@
    "seeded": false,
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 21:00",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "site_new": false,
-   "renewed_at": "2026-10-08 15:00"
+   "renewed_at": "2026-10-11 13:00"
   },
   "powl:42073": {
    "site": "powl",
@@ -719076,6 +719076,20 @@
    "seeded": false,
    "first_seen": "2026-10-11",
    "first_seen_at": "2026-10-11 05:00",
+   "last_seen": "2026-10-11"
+  },
+  "getmoney:67105": {
+   "site": "getmoney",
+   "deal_id": "67105",
+   "title": "エコスタイル 「ブランド宅配買取」新規買取",
+   "points_text": "54,000Pt",
+   "yen": 5400.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67105",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-11",
+   "first_seen_at": "2026-10-11 13:00",
    "last_seen": "2026-10-11"
   }
  }

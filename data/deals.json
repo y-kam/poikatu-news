@@ -148428,7 +148428,7 @@
    "condition": "面談後アンケート回答",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-26",
+   "last_seen": "2026-10-11",
    "backfill": true,
    "backfill_dated": true
   },
@@ -228589,7 +228589,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-05"
+   "last_seen": "2026-10-11"
   },
   "point_island:221067": {
    "site": "point_island",
@@ -243062,7 +243062,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-18"
+   "last_seen": "2026-10-11"
   },
   "point_stadium:d2043": {
    "site": "point_stadium",
@@ -254593,8 +254593,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-16",
-   "renewed_at": "2026-09-09 21:00"
+   "last_seen": "2026-10-11",
+   "renewed_at": "2026-10-11 21:00"
   },
   "nyandaful:d2043": {
    "site": "nyandaful",
@@ -293431,7 +293431,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "renew_hold": true
   },
   "moppy:161651": {
@@ -293940,7 +293940,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-03"
+   "last_seen": "2026-10-11"
   },
   "moppy:159949": {
    "site": "moppy",
@@ -318114,8 +318114,8 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 01:00",
-   "last_seen": "2026-09-11",
-   "renewed_at": "2026-09-11 11:00",
+   "last_seen": "2026-10-11",
+   "renewed_at": "2026-10-11 21:00",
    "renewed_from": "9,000円"
   },
   "au_point:8:1486": {
@@ -342711,18 +342711,18 @@
    "site": "moppy",
    "deal_id": "161933",
    "title": "※還元超アップ中※みずほ銀行 法人口座",
-   "points_text": "30,000P",
-   "yen": 30000.0,
+   "points_text": "35,000P",
+   "yen": 35000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161933",
    "condition": "新規法人口座開設",
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-11",
    "site_new": false,
    "delisted_at": "2026-09-19",
-   "renewed_at": "2026-10-02 21:00",
+   "renewed_at": "2026-10-11 21:00",
    "renewed_from": "28,000P"
   },
   "pointtown:10888": {
@@ -371033,7 +371033,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 21:00",
-   "last_seen": "2026-09-15"
+   "last_seen": "2026-10-11"
   },
   "powl:38248": {
    "site": "powl",
@@ -480718,7 +480718,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-11",
    "backfill_dated": true
   },
   "moppy:6592": {
@@ -680712,7 +680712,7 @@
    "seeded": false,
    "first_seen": "2026-09-28",
    "first_seen_at": "2026-09-28 13:00",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "renew_hold": true
   },
   "pointchips:1095": {
@@ -682155,7 +682155,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 01:00",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-11",
    "renewed_at": "2026-10-05 11:00",
    "renewed_from": "最大 6,417 pt"
   },
@@ -708720,7 +708720,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 17:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-11"
   },
   "poikatsu_club:21274": {
    "site": "poikatsu_club",
@@ -708734,7 +708734,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 17:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-11"
   },
   "moppy:162266": {
    "site": "moppy",
@@ -715291,7 +715291,7 @@
   "moppy:162235": {
    "site": "moppy",
    "deal_id": "162235",
-   "title": "退職サポーターズ",
+   "title": "退職サポーターズ（新規LINE追加）",
    "points_text": "20P",
    "yen": 20.0,
    "percent": null,
@@ -715300,7 +715300,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 21:00",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-11",
    "site_new": true
   },
   "moppy:162283": {
@@ -717095,15 +717095,17 @@
    "site": "poikatsu_club",
    "deal_id": "21367",
    "title": "AEON Pay(イオンペイ)（iOS）",
-   "points_text": "86pt",
-   "yen": 86.0,
+   "points_text": "230pt",
+   "yen": 230.0,
    "percent": null,
    "url": "https://poikatsu.club/projects/21367",
    "condition": "▼成果条件<br/>・新規アプリインストール後、7日以内にAEON_Pay新規会員登録で成果<br/><br/>【成果受付期間】インストール後、7日以内<br/>【成果調査受付期間】案件クリック後、30日以内<br/><br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから8日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/><br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ） <br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/><br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から31日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■会員登録完了メールの受信日時<br/>■会員ID<br/>■メールアドレスがわかるキャプチャ",
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 17:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-11",
+   "renewed_at": "2026-10-11 21:00",
+   "renewed_from": "86pt"
   },
   "poikatsu_club:4074": {
    "site": "poikatsu_club",

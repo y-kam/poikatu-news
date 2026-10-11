@@ -83005,7 +83005,7 @@
    "condition": "回線開通で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-01 21:00"
   },
   "nyandaful:0406141": {
@@ -147655,7 +147655,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "backfill": true,
    "backfill_dated": true
   },
@@ -233410,7 +233410,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11"
+   "last_seen": "2026-10-12"
   },
   "point_island:e14910": {
    "site": "point_island",
@@ -294620,16 +294620,18 @@
    "site": "moppy",
    "deal_id": "158774",
    "title": "Idle Food Bar（マップ3アンロック）",
-   "points_text": "133P",
-   "yen": 133.0,
+   "points_text": "240P",
+   "yen": 240.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158774",
    "condition": "【▼ポイント獲得条件】記載の条件を達成",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
-   "site_new": false
+   "last_seen": "2026-10-12",
+   "site_new": false,
+   "renewed_at": "2026-10-12 05:00",
+   "renewed_from": "133P"
   },
   "moppy:161012": {
    "site": "moppy",
@@ -325020,7 +325022,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-10-12",
    "site_new": false,
    "renew_hold": true
   },
@@ -325822,7 +325824,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 13:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "site_new": false,
    "delisted_at": "2026-08-19",
    "renewed_at": "2026-08-29 21:00",
@@ -471454,7 +471456,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471582,7 +471584,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471630,7 +471632,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471902,7 +471904,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472063,7 +472065,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472368,7 +472370,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-14",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": true
   },
@@ -472384,7 +472386,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": true
   },
@@ -480833,7 +480835,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -696559,7 +696561,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 13:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-09 13:00",
    "renewed_from": "1680000ポイント"
   },
@@ -700421,7 +700423,7 @@
    "seeded": false,
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 21:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "site_new": false,
    "renewed_at": "2026-10-11 13:00"
   },
@@ -708153,7 +708155,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 15:00",
-   "last_seen": "2026-10-11"
+   "last_seen": "2026-10-12"
   },
   "nyandaful:s27606": {
    "site": "nyandaful",
@@ -710399,7 +710401,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 13:00",
-   "last_seen": "2026-10-11"
+   "last_seen": "2026-10-12"
   },
   "poikatsu_club:21289": {
    "site": "poikatsu_club",
@@ -710939,7 +710941,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 15:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-08 21:00",
    "renewed_from": "225pt"
   },
@@ -711751,7 +711753,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 17:00",
-   "last_seen": "2026-10-11"
+   "last_seen": "2026-10-12"
   },
   "poikatsu_club:21298": {
    "site": "poikatsu_club",
@@ -719084,7 +719086,7 @@
    "seeded": false,
    "first_seen": "2026-10-11",
    "first_seen_at": "2026-10-11 05:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "site_new": false
   },
   "getmoney:67105": {

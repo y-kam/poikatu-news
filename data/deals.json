@@ -471328,7 +471328,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-13",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471840,7 +471840,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-13",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472722,7 +472722,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-13",
    "backfill_dated": true,
    "site_new": true
   },
@@ -509446,7 +509446,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-13",
    "site_new": false
   },
   "moppy:157271": {
@@ -638120,7 +638120,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-13",
    "site_new": false
   },
   "moppy:155266": {
@@ -695905,7 +695905,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 05:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "site_new": false
   },
   "moppy:145274": {
@@ -710935,7 +710935,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 15:00",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-13",
    "renewed_at": "2026-10-08 21:00",
    "renewed_from": "225pt"
   },
@@ -711749,7 +711749,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 17:00",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-13"
   },
   "poikatsu_club:21298": {
    "site": "poikatsu_club",
@@ -712906,7 +712906,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 21:00",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-13"
   },
   "gendama:1587864": {
    "site": "gendama",

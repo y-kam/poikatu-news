@@ -293467,7 +293467,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-10"
+   "last_seen": "2026-10-12"
   },
   "moppy:161609": {
    "site": "moppy",
@@ -682153,7 +682153,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 01:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-05 11:00",
    "renewed_from": "最大 6,417 pt"
   },
@@ -698300,9 +698300,9 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 21:00",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-12",
    "site_new": false,
-   "renewed_at": "2026-10-09 01:00"
+   "renewed_at": "2026-10-12 13:00"
   },
   "amefri:141218": {
    "site": "amefri",
@@ -708735,7 +708735,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 17:00",
-   "last_seen": "2026-10-11"
+   "last_seen": "2026-10-12"
   },
   "moppy:162266": {
    "site": "moppy",
@@ -717119,7 +717119,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 17:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-11 21:00",
    "renewed_from": "86pt"
   },

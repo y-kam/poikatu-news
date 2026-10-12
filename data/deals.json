@@ -293204,7 +293204,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-03"
+   "last_seen": "2026-10-12"
   },
   "moppy:159931": {
    "site": "moppy",
@@ -698316,9 +698316,9 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 21:00",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-12",
    "site_new": false,
-   "renewed_at": "2026-10-09 17:00"
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141214": {
    "site": "amefri",
@@ -709340,7 +709340,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 21:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-12"
   },
   "poikatsu_club:21282": {
    "site": "poikatsu_club",
@@ -715969,7 +715969,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 01:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "pointier:16792": {
    "site": "pointier",
@@ -716300,7 +716301,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 11:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141407": {
    "site": "amefri",
@@ -716315,7 +716317,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 11:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141406": {
    "site": "amefri",
@@ -716330,7 +716333,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 11:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141405": {
    "site": "amefri",
@@ -716345,7 +716349,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 11:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141404": {
    "site": "amefri",
@@ -716360,7 +716365,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 11:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141403": {
    "site": "amefri",
@@ -716375,7 +716381,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 11:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "au_point:8:1707": {
    "site": "au_point",
@@ -716589,7 +716596,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 13:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "kurashiru_reward:19455": {
    "site": "kurashiru_reward",
@@ -717120,15 +717128,17 @@
    "site": "poikatsu_club",
    "deal_id": "4074",
    "title": "とっしんユニコーン（iOS）",
-   "points_text": "86pt",
-   "yen": 86.0,
+   "points_text": "230pt",
+   "yen": 230.0,
    "percent": null,
    "url": "https://poikatsu.club/projects/4074",
    "condition": "▼成果条件<br/>・新規アプリインストール後、7日以内にAEON_Pay新規会員登録で成果<br/><br/>【成果受付期間】インストール後、7日以内<br/>【成果調査受付期間】案件クリック後、30日以内<br/><br/><br/>▼却下条件<br/>・インストール後、履歴の『挑戦中』に表示されない場合は成果対象外となります。また、お問合せも受け付けておりませんのでご了承ください。<br/>・インストールから8日以上経過して成果条件まで到達した場合は成果対象外となります。<br/>・本ページ経由以外のインストールは成果対象外となります。<br/>・過去にアプリをダウンロードしたことがある場合は成果対象外となります。<br/>・過去に成果地点まで到達したことがある場合は成果対象外となります。<br/>・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外となります。<br/>・案件クリックから同一ブラウザ内でアプリストアへ遷移後、そのままインストールされなかった場合は成果対象外となります。<br/>・案件クリックから1時間以内に初回成果地点まで完了しなかった場合、成果対象外となることがあります。<br/>・海外IPはアクセスおよび成果対象外となります。<br/><br/><br/>▼注意事項<br/>・使用中のアプリと、チャレンジ中のアプリでトラッキングが<br/>オフになっていると、ポイントが付与できなくなります。端末の下記設定で変更ができます。<br/>「プライバシー」 ⇒「トラッキング」⇒ 「 App からのトラッキング要求を許可（iOSのみ） <br/>・成果調査の際には成果達成画面のキャプチャに対象ゲームアプリ(サイト)名を付けた物を請求させていただく場合がございます。<br/>・インストールしてから開始まで1時間以上かかる場合はアプリ初回起動前に再度案件をクリックしてください。<br/>・クリックされた時点で表示されていた条件が適用されます。<br/>・予告なく条件が変更となる可能性があります。<br/><br/><br/>▼成果調査に関して<br/>・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。<br/>・直接スポンサーサイトへ問い合わせることはお控えください。<br/>・クリック発生から31日以上経過したものは調査不可となります。<br/>・成果調査のためにご提供いただいた情報はお問い合わせ内容の照合・調査のみに利用し、その他の目的で利用することはございません。<br/>・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。<br/>■会員登録完了メールの受信日時<br/>■会員ID<br/>■メールアドレスがわかるキャプチャ",
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 17:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-12",
+   "renewed_at": "2026-10-12 15:00",
+   "renewed_from": "86pt"
   },
   "pointchips:1152": {
    "site": "pointchips",
@@ -718069,7 +718079,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141422": {
    "site": "amefri",
@@ -718084,7 +718095,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141421": {
    "site": "amefri",
@@ -718114,7 +718126,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "amefri:141419": {
    "site": "amefri",
@@ -718129,7 +718142,8 @@
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
    "last_seen": "2026-10-12",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 15:00"
   },
   "au_point:8:1708": {
    "site": "au_point",

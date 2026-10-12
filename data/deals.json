@@ -276317,7 +276317,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-10 21:00",
    "renewed_from": "51pt"
   },
@@ -276333,7 +276333,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "renewed_at": "2026-10-11 17:00",
    "renewed_from": "51pt"
   },
@@ -293585,7 +293585,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-12",
    "site_new": false
   },
   "moppy:157175": {
@@ -480433,17 +480433,19 @@
    "site": "moppy",
    "deal_id": "161494",
    "title": "くらしノート懸賞キャンペーン",
-   "points_text": "200P",
-   "yen": 200.0,
+   "points_text": "220P",
+   "yen": 220.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161494",
    "condition": "新規懸賞応募",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-12",
    "backfill_dated": true,
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-12 10:00",
+   "renewed_from": "200P"
   },
   "moppy:6692": {
    "site": "moppy",
@@ -498464,17 +498466,18 @@
   "moppy:162169": {
    "site": "moppy",
    "deal_id": "162169",
-   "title": "【超還元】SBI証券 こども口座",
-   "points_text": "13,000P",
-   "yen": 13000.0,
+   "title": "SBI証券 こども口座",
+   "points_text": "12,000P",
+   "yen": 12000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162169",
    "condition": "こども口座開設(申込から60日以内)",
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-09-20",
-   "site_new": false
+   "last_seen": "2026-10-12",
+   "site_new": false,
+   "renew_hold": true
   },
   "warau:206563": {
    "site": "warau",
@@ -698281,9 +698284,9 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 21:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "site_new": false,
-   "renewed_at": "2026-10-09 01:00"
+   "renewed_at": "2026-10-12 10:00"
   },
   "amefri:141219": {
    "site": "amefri",
@@ -699855,7 +699858,7 @@
    "seeded": false,
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 17:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "site_new": false,
    "renewed_at": "2026-10-11 17:00"
   },
@@ -712912,7 +712915,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 21:00",
-   "last_seen": "2026-10-11"
+   "last_seen": "2026-10-12"
   },
   "poikatsu_club:21301": {
    "site": "poikatsu_club",

@@ -293086,7 +293086,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-14"
   },
   "moppy:159931": {
    "site": "moppy",
@@ -293784,7 +293784,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "site_new": false
   },
   "moppy:159941": {
@@ -324775,7 +324775,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-14",
    "site_new": true,
    "delisted_at": "2026-09-04",
    "renew_hold": true
@@ -353706,7 +353706,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "site_new": false,
    "delisted_at": "2026-10-02",
    "renewed_at": "2026-10-13 01:00",
@@ -471666,7 +471666,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-14",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472548,7 +472548,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-14",
    "backfill_dated": true,
    "site_new": true
   },
@@ -473108,7 +473108,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-14",
    "backfill_dated": true,
    "site_new": true
   },
@@ -508460,7 +508460,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 17:00",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-14",
    "site_new": false,
    "renew_hold": true
   },
@@ -509560,7 +509560,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-09-15",
+   "last_seen": "2026-10-14",
    "site_new": false
   },
   "moppy:145288": {
@@ -667069,7 +667069,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 08:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "site_new": false
   },
   "hapitas:103217": {
@@ -712655,7 +712655,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 21:00",
-   "last_seen": "2026-10-13"
+   "last_seen": "2026-10-14"
   },
   "poikatsu_club:21309": {
    "site": "poikatsu_club",
@@ -712669,7 +712669,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 21:00",
-   "last_seen": "2026-10-13"
+   "last_seen": "2026-10-14"
   },
   "poikatsu_club:21310": {
    "site": "poikatsu_club",
@@ -720422,6 +720422,188 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 01:00",
+   "last_seen": "2026-10-14"
+  },
+  "moppy:162295": {
+   "site": "moppy",
+   "deal_id": "162295",
+   "title": "韓国スキンケアならメディヒール",
+   "points_text": "10P",
+   "yen": 10.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162295",
+   "condition": "広告をクリックしてページ遷移後、5秒滞在",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103654": {
+   "site": "hapitas",
+   "deal_id": "103654",
+   "title": "エンドレスオネット：タイル集め（レベル140クリア）（Android）",
+   "points_text": "140pt",
+   "yen": 140.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103654/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103660": {
+   "site": "hapitas",
+   "deal_id": "103660",
+   "title": "ニコニコ動画",
+   "points_text": "1,188pt",
+   "yen": 1188.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103660/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103633": {
+   "site": "hapitas",
+   "deal_id": "103633",
+   "title": "野球まんが倉庫【月額2,200円（税込）】",
+   "points_text": "1,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103633/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103634": {
+   "site": "hapitas",
+   "deal_id": "103634",
+   "title": "野球まんが倉庫【月額3300円(税込)コース】",
+   "points_text": "1,400pt",
+   "yen": 1400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103634/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103635": {
+   "site": "hapitas",
+   "deal_id": "103635",
+   "title": "野球まんが倉庫【月額5500円(税込)コース】",
+   "points_text": "2,700pt",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103635/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103638": {
+   "site": "hapitas",
+   "deal_id": "103638",
+   "title": "熱血！スポーツまんが【月額5500円(税込)コース】",
+   "points_text": "2,700pt",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103638/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103639": {
+   "site": "hapitas",
+   "deal_id": "103639",
+   "title": "熱血！スポーツまんが【月額3300円(税込)コース】",
+   "points_text": "1,400pt",
+   "yen": 1400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103639/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103640": {
+   "site": "hapitas",
+   "deal_id": "103640",
+   "title": "熱血！スポーツまんが【月額2200円(税込)コース】",
+   "points_text": "1,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103640/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103641": {
+   "site": "hapitas",
+   "deal_id": "103641",
+   "title": "科学に基づく本格スポーツサプリ【ニュートリミュスクル】",
+   "points_text": "10.5%",
+   "yen": null,
+   "percent": 10.5,
+   "url": "https://hapitas.jp/item/detail/itemid/103641/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103646": {
+   "site": "hapitas",
+   "deal_id": "103646",
+   "title": "【オンラインセミナー】あの最強国策・FITの恩恵を『今』も得られる方法とは？ZUU online",
+   "points_text": "6,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103646/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103632": {
+   "site": "hapitas",
+   "deal_id": "103632",
+   "title": "NIMASO（ニマソ）",
+   "points_text": "3.5%",
+   "yen": null,
+   "percent": 3.5,
+   "url": "https://hapitas.jp/item/detail/itemid/103632/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
+   "last_seen": "2026-10-14"
+  },
+  "hapitas:103661": {
+   "site": "hapitas",
+   "deal_id": "103661",
+   "title": "Expedia【海外航空券・国内航空券予約】（エクスペディア）",
+   "points_text": "50pt",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103661/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-14",
+   "first_seen_at": "2026-10-14 05:00",
    "last_seen": "2026-10-14"
   }
  }

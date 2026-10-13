@@ -48264,7 +48264,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-13",
    "condition": ""
   },
   "pointincome:152587": {
@@ -287372,7 +287372,7 @@
   "pointincome:155152": {
    "site": "pointincome",
    "deal_id": "155152",
-   "title": "【合計2,700円分!!】YouTube Premium （ドコモ/爆アゲ セレクション）",
+   "title": "YouTube Premium （ドコモ/爆アゲ セレクション）",
    "points_text": "7,000pt",
    "yen": 700.0,
    "percent": null,
@@ -287381,7 +287381,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-09-19"
+   "last_seen": "2026-10-13"
   },
   "pointincome:155779": {
    "site": "pointincome",
@@ -289141,7 +289141,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-10-13",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-07-30 13:00",
    "renewed_from": "370,000pt"
@@ -289172,7 +289172,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-08-31"
+   "last_seen": "2026-10-13"
   },
   "chobirich:1893366": {
    "site": "chobirich",
@@ -291114,7 +291114,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-13"
   },
   "pointincome:155528": {
    "site": "pointincome",
@@ -315800,15 +315800,16 @@
    "site": "pointincome",
    "deal_id": "153711",
    "title": "VAIOストア(バイオストア)",
-   "points_text": "購入金額の6%",
+   "points_text": "購入金額の4.5%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 4.5,
    "url": "https://pointi.jp/ad/153711/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-07-11"
+   "last_seen": "2026-10-13",
+   "renew_hold": true
   },
   "pointincome:129205": {
    "site": "pointincome",
@@ -319078,12 +319079,12 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-13"
   },
   "pointincome:154107": {
    "site": "pointincome",
    "deal_id": "154107",
-   "title": "LIGHTFX（新規90lot以上）",
+   "title": "LIGHTFX（新規90lot以上）【みんなでチャレンジ達成で+30,000pt!!】",
    "points_text": "160,000pt",
    "yen": 16000.0,
    "percent": null,
@@ -319092,7 +319093,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-13"
   },
   "pointincome:153700": {
    "site": "pointincome",
@@ -319111,7 +319112,7 @@
   "pointincome:155151": {
    "site": "pointincome",
    "deal_id": "155151",
-   "title": "【合計2,500円分!!】Google One （ドコモ/爆アゲ セレクション）",
+   "title": "Google One （ドコモ/爆アゲ セレクション）",
    "points_text": "5,000pt",
    "yen": 500.0,
    "percent": null,
@@ -319120,7 +319121,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-20"
+   "last_seen": "2026-10-13"
   },
   "pointincome:150342": {
    "site": "pointincome",
@@ -319148,7 +319149,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-13",
    "renewed_at": "2026-10-03 19:31",
    "renewed_from": "250,000pt"
   },
@@ -341155,7 +341156,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 01:00",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-10-13",
    "renew_hold": true
   },
   "pointincome:151628": {
@@ -357948,7 +357949,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-10-03"
+   "last_seen": "2026-10-13"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -371531,7 +371532,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 10:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-13"
   },
   "pointincome:156043": {
    "site": "pointincome",
@@ -410612,7 +410613,7 @@
    "seeded": false,
    "first_seen": "2026-08-31",
    "first_seen_at": "2026-08-31 18:33",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-13",
    "renewed_at": "2026-09-25 19:17",
    "renewed_from": "5,000pt"
   },
@@ -414642,15 +414643,17 @@
    "site": "pointincome",
    "deal_id": "153955",
    "title": "JALカード CLUB EST VISA",
-   "points_text": "60,000pt",
-   "yen": 6000.0,
+   "points_text": "100,000pt",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153955/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 07:28",
-   "last_seen": "2026-09-01"
+   "last_seen": "2026-10-13",
+   "renewed_at": "2026-10-13 18:20",
+   "renewed_from": "60,000pt"
   },
   "pointincome:154281": {
    "site": "pointincome",
@@ -674661,7 +674664,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 18:49",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-13",
    "renewed_at": "2026-09-30 07:31"
   },
   "chobirich:1899775": {
@@ -697294,8 +697297,8 @@
    "site": "chobirich",
    "deal_id": "1864770",
    "title": "DARWIN funding（出資完了）300万以上の出資完了",
-   "points_text": "260,000pt",
-   "yen": 130000.0,
+   "points_text": "320,000pt",
+   "yen": 160000.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1864770/",
    "condition": "",
@@ -697303,15 +697306,15 @@
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
    "last_seen": "2026-10-13",
-   "renewed_at": "2026-10-09 19:22",
+   "renewed_at": "2026-10-13 18:20",
    "renewed_from": "220,000pt"
   },
   "chobirich:1827708": {
    "site": "chobirich",
    "deal_id": "1827708",
    "title": "DARWIN funding（出資完了）100万以上の出資完了",
-   "points_text": "86,000pt",
-   "yen": 43000.0,
+   "points_text": "126,000pt",
+   "yen": 63000.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1827708/",
    "condition": "",
@@ -697319,15 +697322,15 @@
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
    "last_seen": "2026-10-13",
-   "renewed_at": "2026-10-09 19:22",
+   "renewed_at": "2026-10-13 18:20",
    "renewed_from": "46,000pt"
   },
   "chobirich:1900577": {
    "site": "chobirich",
    "deal_id": "1900577",
    "title": "DARWIN funding（出資完了）50万以上の出資完了",
-   "points_text": "75,000pt",
-   "yen": 37500.0,
+   "points_text": "110,000pt",
+   "yen": 55000.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1900577/",
    "condition": "",
@@ -697335,7 +697338,7 @@
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
    "last_seen": "2026-10-13",
-   "renewed_at": "2026-10-09 19:22",
+   "renewed_at": "2026-10-13 18:20",
    "renewed_from": "35,000pt"
   },
   "chobirich:1900559": {
@@ -719869,6 +719872,132 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 17:00",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1900890": {
+   "site": "chobirich",
+   "deal_id": "1900890",
+   "title": "メンビュー［クレオズボーテのキャンペーン応募］",
+   "points_text": "20pt",
+   "yen": 10.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1900890/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901185": {
+   "site": "chobirich",
+   "deal_id": "1901185",
+   "title": "Pop Block Puzzle: Match 3 Game（アプリランド）",
+   "points_text": "最大4772pt",
+   "yen": 2386.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901185/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901181": {
+   "site": "chobirich",
+   "deal_id": "1901181",
+   "title": "Okiki Friends",
+   "points_text": "最大2143pt",
+   "yen": 1071.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901181/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901174": {
+   "site": "chobirich",
+   "deal_id": "1901174",
+   "title": "首なし騎士：異世界伝説",
+   "points_text": "40pt",
+   "yen": 20.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901174/",
+   "condition": "新規アプリインストール後、初回起動",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901168": {
+   "site": "chobirich",
+   "deal_id": "1901168",
+   "title": "スカイアイランド：マージ＆ストーリー_マルチ",
+   "points_text": "最大2016pt",
+   "yen": 1008.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901168/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901167": {
+   "site": "chobirich",
+   "deal_id": "1901167",
+   "title": "なめこの巣",
+   "points_text": "最大674pt",
+   "yen": 337.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901167/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901165": {
+   "site": "chobirich",
+   "deal_id": "1901165",
+   "title": "獅子の如く",
+   "points_text": "最大333pt",
+   "yen": 166.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901165/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901164": {
+   "site": "chobirich",
+   "deal_id": "1901164",
+   "title": "ドゥームズデイ：ラストサバイバー（アプリランド）",
+   "points_text": "最大13998pt",
+   "yen": 6999.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901164/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
+   "last_seen": "2026-10-13"
+  },
+  "chobirich:1901160": {
+   "site": "chobirich",
+   "deal_id": "1901160",
+   "title": "We Are Warriors!",
+   "points_text": "最大3377pt",
+   "yen": 1688.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901160/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-13",
+   "first_seen_at": "2026-10-13 18:20",
    "last_seen": "2026-10-13"
   }
  }

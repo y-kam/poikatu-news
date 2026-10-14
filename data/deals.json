@@ -293189,7 +293189,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-15",
    "site_new": false
   },
   "moppy:161650": {
@@ -350512,7 +350512,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "site_new": true,
    "renew_hold": true
   },
@@ -384388,7 +384388,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 17:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "site_new": false
   },
   "warau:205782": {
@@ -471521,7 +471521,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471650,7 +471650,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471698,7 +471698,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471906,7 +471906,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472035,7 +472035,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472115,7 +472115,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "site_new": false
   },
@@ -509405,16 +509405,18 @@
    "site": "moppy",
    "deal_id": "157268",
    "title": "【過去登録者も可】究極の恋愛科学[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157268",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-14",
-   "site_new": false
+   "last_seen": "2026-10-15",
+   "site_new": false,
+   "renewed_at": "2026-10-15 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157271": {
    "site": "moppy",
@@ -509465,16 +509467,18 @@
    "site": "moppy",
    "deal_id": "157247",
    "title": "宿命と予言[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157247",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-10",
-   "site_new": false
+   "last_seen": "2026-10-15",
+   "site_new": false,
+   "renewed_at": "2026-10-15 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157260": {
    "site": "moppy",
@@ -509647,31 +509651,35 @@
    "site": "moppy",
    "deal_id": "145210",
    "title": "エジプト占星術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145210",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-09-26",
-   "site_new": false
+   "last_seen": "2026-10-15",
+   "site_new": false,
+   "renewed_at": "2026-10-15 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145209": {
    "site": "moppy",
    "deal_id": "145209",
    "title": "【過去登録者も可】月と太陽[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145209",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-08",
-   "site_new": false
+   "last_seen": "2026-10-15",
+   "site_new": false,
+   "renewed_at": "2026-10-15 05:00",
+   "renewed_from": "400P"
   },
   "warau:206772": {
    "site": "warau",
@@ -722475,6 +722483,76 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 01:00",
+   "last_seen": "2026-10-15"
+  },
+  "hapitas:103669": {
+   "site": "hapitas",
+   "deal_id": "103669",
+   "title": "Tiles Mystery: Stacked Match（レベル400クリア）（Android）",
+   "points_text": "301pt",
+   "yen": 301.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103669/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 05:00",
+   "last_seen": "2026-10-15"
+  },
+  "hapitas:103643": {
+   "site": "hapitas",
+   "deal_id": "103643",
+   "title": "ドゥームズデイ：ラストサバイバー",
+   "points_text": "22,345pt",
+   "yen": 22345.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103643/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 05:00",
+   "last_seen": "2026-10-15"
+  },
+  "hapitas:103667": {
+   "site": "hapitas",
+   "deal_id": "103667",
+   "title": "【注意事項必読】TikTok Lite",
+   "points_text": "3,711pt",
+   "yen": 3711.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103667/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 05:00",
+   "last_seen": "2026-10-15"
+  },
+  "hapitas:103680": {
+   "site": "hapitas",
+   "deal_id": "103680",
+   "title": "【最大72,500円相当】三井住友カード プラチナプリファード ハローキティ デザイン",
+   "points_text": "7,500pt",
+   "yen": 7500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103680/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 05:00",
+   "last_seen": "2026-10-15"
+  },
+  "hapitas:103668": {
+   "site": "hapitas",
+   "deal_id": "103668",
+   "title": "アイリスプラザ",
+   "points_text": "2.1%",
+   "yen": null,
+   "percent": 2.1,
+   "url": "https://hapitas.jp/item/detail/itemid/103668/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 05:00",
    "last_seen": "2026-10-15"
   }
  }

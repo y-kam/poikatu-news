@@ -78195,16 +78195,17 @@
    "site": "pointincome",
    "deal_id": "142964",
    "title": "【過去最高還元】楽天Car車買取",
-   "points_text": "300,000pt",
-   "yen": 30000.0,
+   "points_text": "310,000pt",
+   "yen": 31000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/142964/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-15",
    "delisted_at": "2026-08-28",
-   "renew_hold": true
+   "renewed_at": "2026-10-15 19:45",
+   "renewed_from": "300,000pt"
   },
   "pointtown:1006": {
    "site": "pointtown",
@@ -177670,7 +177671,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-08"
+   "last_seen": "2026-10-15"
   },
   "pointincome:155631": {
    "site": "pointincome",
@@ -177774,7 +177775,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-15",
    "backfill_dated": true,
    "renewed_at": "2026-09-17 18:57",
    "renewed_from": "28,000pt"
@@ -177821,7 +177822,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "renewed_at": "2026-10-14 18:32",
    "renewed_from": "76,000pt"
   },
@@ -286495,19 +286496,18 @@
   "pointincome:155743": {
    "site": "pointincome",
    "deal_id": "155743",
-   "title": "【9/30までの高還元！】ライフカード（学生専用）",
-   "points_text": "120,000pt",
-   "yen": 12000.0,
+   "title": "ライフカード（学生専用）",
+   "points_text": "90,000pt",
+   "yen": 9000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155743/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-10-15",
    "delisted_at": "2026-07-08",
-   "renewed_at": "2026-09-25 19:17",
-   "renewed_from": "60,000pt"
+   "renew_hold": true
   },
   "pointincome:149865": {
    "site": "pointincome",
@@ -287391,7 +287391,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-15"
   },
   "pointincome:155152": {
    "site": "pointincome",
@@ -287838,18 +287838,17 @@
   "pointincome:148605": {
    "site": "pointincome",
    "deal_id": "148605",
-   "title": "【9/30までの高還元！】GFS無料特別講座（動画セミナー）",
-   "points_text": "12,000pt",
-   "yen": 1200.0,
+   "title": "GFS無料特別講座（動画セミナー）",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/148605/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-09-30",
-   "renewed_at": "2026-09-29 18:02",
-   "renewed_from": "10,000pt"
+   "last_seen": "2026-10-15",
+   "renew_hold": true
   },
   "pointincome:154791": {
    "site": "pointincome",
@@ -291247,7 +291246,7 @@
   "pointincome:154972": {
    "site": "pointincome",
    "deal_id": "154972",
-   "title": "10/15までの高還元！キューモニター　アンケート回答完了",
+   "title": "【高還元中！】キューモニター　アンケート回答完了",
    "points_text": "4,500pt",
    "yen": 450.0,
    "percent": null,
@@ -291256,7 +291255,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 11:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "renewed_at": "2026-09-17 07:30",
    "renewed_from": "2,500pt"
   },
@@ -310853,7 +310852,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-15"
   },
   "pointincome:149647": {
    "site": "pointincome",
@@ -315959,7 +315958,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-15",
    "renew_hold": true
   },
   "pointincome:155801": {
@@ -318327,16 +318326,16 @@
    "site": "pointincome",
    "deal_id": "154338",
    "title": "Fマネーカード",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "points_text": "131,000pt",
+   "yen": 13100.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154338/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-10-09",
-   "renewed_at": "2026-09-29 07:27",
+   "last_seen": "2026-10-15",
+   "renewed_at": "2026-10-15 19:45",
    "renewed_from": "70,000pt"
   },
   "pointincome:155776": {
@@ -319114,7 +319113,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-13"
+   "last_seen": "2026-10-15"
   },
   "pointincome:153700": {
    "site": "pointincome",
@@ -319170,7 +319169,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-15",
    "renewed_at": "2026-10-03 19:31",
    "renewed_from": "250,000pt"
   },
@@ -320667,7 +320666,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-15",
    "renewed_at": "2026-10-09 19:22",
    "renewed_from": "70,000pt"
   },
@@ -333254,7 +333253,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 15:00",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-10-15",
    "delisted_at": "2026-07-19",
    "renew_hold": true
   },
@@ -352383,7 +352382,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 21:00",
-   "last_seen": "2026-07-31"
+   "last_seen": "2026-10-15"
   },
   "pointtown:1265": {
    "site": "pointtown",
@@ -353465,16 +353464,18 @@
   "pointincome:155980": {
    "site": "pointincome",
    "deal_id": "155980",
-   "title": "【即pt】DMM TV（無料トライアル）",
-   "points_text": "2,000pt",
-   "yen": 200.0,
+   "title": "10月限定！【即pt】DMM TV（無料トライアル）",
+   "points_text": "5,500pt",
+   "yen": 550.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155980/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 08:00",
-   "last_seen": "2026-08-23"
+   "last_seen": "2026-10-15",
+   "renewed_at": "2026-10-15 19:45",
+   "renewed_from": "2,000pt"
   },
   "point_land:220989": {
    "site": "point_land",
@@ -357935,7 +357936,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-15",
    "delisted_at": "2026-08-02"
   },
   "pointincome:154142": {
@@ -357995,7 +357996,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-15"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -381424,7 +381425,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-15"
   },
   "pointincome:114404": {
    "site": "pointincome",
@@ -384114,7 +384115,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 05:00",
-   "last_seen": "2026-09-24"
+   "last_seen": "2026-10-15"
   },
   "pointincome:154036": {
    "site": "pointincome",
@@ -402613,7 +402614,7 @@
   "pointincome:147885": {
    "site": "pointincome",
    "deal_id": "147885",
-   "title": "三井のカーシェアーズ 会員登録",
+   "title": "10/31までの高還元！三井のカーシェアーズ 会員登録",
    "points_text": "8,000pt",
    "yen": 800.0,
    "percent": null,
@@ -402622,7 +402623,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-15"
   },
   "pointincome:150392": {
    "site": "pointincome",
@@ -427722,7 +427723,7 @@
    "seeded": false,
    "first_seen": "2026-09-06",
    "first_seen_at": "2026-09-06 08:21",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "renewed_at": "2026-09-10 19:58",
    "renewed_from": "30,000pt"
   },
@@ -513746,7 +513747,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 13:36",
-   "last_seen": "2026-09-16"
+   "last_seen": "2026-10-15"
   },
   "pointincome:156159": {
    "site": "pointincome",
@@ -516281,7 +516282,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 07:30",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-15"
   },
   "point_land:11151390": {
    "site": "point_land",
@@ -671775,7 +671776,7 @@
    "seeded": false,
    "first_seen": "2026-09-19",
    "first_seen_at": "2026-09-19 07:21",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-15",
    "renew_hold": true
   },
   "pointincome:156225": {
@@ -676425,7 +676426,7 @@
    "seeded": false,
    "first_seen": "2026-09-25",
    "first_seen_at": "2026-09-25 07:31",
-   "last_seen": "2026-10-08"
+   "last_seen": "2026-10-15"
   },
   "pointincome:146290": {
    "site": "pointincome",
@@ -679605,15 +679606,17 @@
    "site": "chobirich",
    "deal_id": "1899977",
    "title": "Rise of Kingdoms ―万国覚醒―",
-   "points_text": "最大110664pt",
-   "yen": 55332.0,
+   "points_text": "最大125658pt",
+   "yen": 62829.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1899977/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "first_seen": "2026-09-26",
    "first_seen_at": "2026-09-26 09:35",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-15",
+   "renewed_at": "2026-10-15 19:45",
+   "renewed_from": "最大110664pt"
   },
   "pointincome:156230": {
    "site": "pointincome",
@@ -683789,7 +683792,7 @@
   "chobirich:1884541": {
    "site": "chobirich",
    "deal_id": "1884541",
-   "title": "AEON Pay",
+   "title": "AEON Pay(イオンペイ)",
    "points_text": "212pt",
    "yen": 106.0,
    "percent": null,
@@ -720186,7 +720189,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 18:20",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-15",
    "delisted_at": "2026-10-14"
   },
   "chobirich:1901168": {
@@ -724482,6 +724485,244 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 17:00",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901321": {
+   "site": "chobirich",
+   "deal_id": "1901321",
+   "title": "dバリューパス「定番ゲーム集」",
+   "points_text": "3,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901321/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901320": {
+   "site": "chobirich",
+   "deal_id": "1901320",
+   "title": "JALウォーター",
+   "points_text": "4,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901320/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1900885": {
+   "site": "chobirich",
+   "deal_id": "1900885",
+   "title": "即モバ",
+   "points_text": "4,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1900885/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901243": {
+   "site": "chobirich",
+   "deal_id": "1901243",
+   "title": "総合電子書籍ストア【楽天Kobo】",
+   "points_text": "2％",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://www.chobirich.com/ad_details/1901243/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901240": {
+   "site": "chobirich",
+   "deal_id": "1901240",
+   "title": "MiiS LIFT BRUSH",
+   "points_text": "12,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901240/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901345": {
+   "site": "chobirich",
+   "deal_id": "1901345",
+   "title": "Survival Defense:Zombie（アプリランド）",
+   "points_text": "最大4622pt",
+   "yen": 2311.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901345/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901331": {
+   "site": "chobirich",
+   "deal_id": "1901331",
+   "title": "ポイ活ゲームズ 〜本格ポイント麻雀〜",
+   "points_text": "最大615pt",
+   "yen": 307.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901331/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901326": {
+   "site": "chobirich",
+   "deal_id": "1901326",
+   "title": "Tile Tap Master: Match 3 Tiles（多段階）（iOS）（アプリdeちょ～リッチ）",
+   "points_text": "最大7660pt",
+   "yen": 3830.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901326/",
+   "condition": "遷移先の「アプリdeちょ～リッチ」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901325": {
+   "site": "chobirich",
+   "deal_id": "1901325",
+   "title": "Onet Master: Puzzle & Art（アプリランド）",
+   "points_text": "最大13369pt",
+   "yen": 6684.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901325/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901324": {
+   "site": "chobirich",
+   "deal_id": "1901324",
+   "title": "Tile Triple Match: 3D puzzle（アプリランド）",
+   "points_text": "最大6843pt",
+   "yen": 3421.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901324/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901292": {
+   "site": "chobirich",
+   "deal_id": "1901292",
+   "title": "Ruler Match: タイルパズル",
+   "points_text": "最大4054pt",
+   "yen": 2027.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901292/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901285": {
+   "site": "chobirich",
+   "deal_id": "1901285",
+   "title": "UNO!™",
+   "points_text": "最大22074pt",
+   "yen": 11037.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901285/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1900855": {
+   "site": "chobirich",
+   "deal_id": "1900855",
+   "title": "MUSINSA – 韓国ファッション&コスメの公式通販",
+   "points_text": "1440pt",
+   "yen": 720.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1900855/",
+   "condition": "7日以内に5000円以上の初回購入(インストール後、条件達成)",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "chobirich:1901294": {
+   "site": "chobirich",
+   "deal_id": "1901294",
+   "title": "ロックンキャッシュカジノ-スロットゲーム（アプリランド）",
+   "points_text": "最大106799pt",
+   "yen": 53399.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901294/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "pointincome:74630": {
+   "site": "pointincome",
+   "deal_id": "74630",
+   "title": "PizzaHut（ピザハットオンライン）",
+   "points_text": "購入金額の12%",
+   "yen": null,
+   "percent": 12.0,
+   "url": "https://pointi.jp/ad/74630/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "pointincome:125555": {
+   "site": "pointincome",
+   "deal_id": "125555",
+   "title": "【即pt】Oh!Ya(オーヤ)無料アンケートキャンペーン",
+   "points_text": "3,000pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/125555/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
+   "last_seen": "2026-10-15"
+  },
+  "pointincome:156315": {
+   "site": "pointincome",
+   "deal_id": "156315",
+   "title": "楽天証券　こども口座開設",
+   "points_text": "90,000pt",
+   "yen": 9000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156315/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-15",
+   "first_seen_at": "2026-10-15 19:45",
    "last_seen": "2026-10-15"
   }
  }

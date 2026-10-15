@@ -81594,7 +81594,7 @@
    "condition": "ポイント購入",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-29",
+   "last_seen": "2026-10-16",
    "delisted_at": "2026-07-16"
   },
   "point_island:k3765": {
@@ -239580,7 +239580,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-16"
   },
   "point_stadium:k3765": {
    "site": "point_stadium",
@@ -251123,8 +251123,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25",
-   "renewed_at": "2026-09-17 21:00"
+   "last_seen": "2026-10-16",
+   "renewed_at": "2026-10-16 08:00"
   },
   "nyandaful:k3765": {
    "site": "nyandaful",
@@ -583806,7 +583806,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-24"
+   "last_seen": "2026-10-16"
   },
   "point_land:d1103": {
    "site": "point_land",
@@ -718617,7 +718617,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-16"
   },
   "poikatsu_club:21373": {
    "site": "poikatsu_club",
@@ -718631,7 +718631,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-16"
   },
   "poikatsu_club:21379": {
    "site": "poikatsu_club",
@@ -724298,7 +724298,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 17:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "dead_streak": 1
   },
   "warau:207938": {

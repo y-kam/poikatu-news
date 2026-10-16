@@ -125992,15 +125992,16 @@
    "site": "powl",
    "deal_id": "35152",
    "title": "Temu既存",
-   "points_text": "2.5%還元",
+   "points_text": "2%還元",
    "yen": null,
-   "percent": 2.5,
+   "percent": 2.0,
    "url": "https://web.powl.jp/reward/35152",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-16",
-   "seed_filled": true
+   "seed_filled": true,
+   "renew_hold": true
   },
   "powl:34941": {
    "site": "powl",
@@ -139774,15 +139775,17 @@
   "tamaru_mall:2490": {
    "site": "tamaru_mall",
    "deal_id": "2490",
-   "title": "Binance Japan【新規口座開設＋入金】",
-   "points_text": "5,000コイン",
-   "yen": 5000.0,
+   "title": "Binance Japan（バイナンス ジャパン）",
+   "points_text": "4,500コイン",
+   "yen": 4500.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2490",
    "condition": "新規口座開設＋入金完了",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-07-30"
+   "last_seen": "2026-10-16",
+   "renew_hold": true,
+   "seed_filled": true
   },
   "tamaru_mall:2504": {
    "site": "tamaru_mall",
@@ -205065,7 +205068,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-16"
   },
   "getmoney:67005": {
    "site": "getmoney",
@@ -294946,16 +294949,16 @@
   "moppy:158232": {
    "site": "moppy",
    "deal_id": "158232",
-   "title": "TikTok Lite（StepUp）【iOS】",
-   "points_text": "4,244P",
-   "yen": 4244.0,
+   "title": "※還元UP中※TikTok Lite（StepUp）【iOS】",
+   "points_text": "4,193P",
+   "yen": 4193.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158232",
    "condition": "新規アプリインストール後、【StepUpミッション】クリア",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-20",
+   "last_seen": "2026-10-16",
    "renew_hold": true,
    "site_new": false
   },
@@ -325887,7 +325890,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 13:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-16",
    "delisted_at": "2026-07-15",
    "renewed_at": "2026-09-18 01:00",
    "renewed_from": "500P"
@@ -398552,7 +398555,7 @@
   "moppy:159063": {
    "site": "moppy",
    "deal_id": "159063",
-   "title": "【PR】creal PB(年収1,000万円以上)【不動産投資個別面談/クリアルPB】",
+   "title": "※16日までUP!!※【PR】creal PB(年収1,000万円以上)【不動産投資個別面談/クリアルPB】",
    "points_text": "83,000P",
    "yen": 83000.0,
    "percent": null,
@@ -398561,7 +398564,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 17:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "site_new": true,
    "renewed_at": "2026-10-15 13:16",
    "renewed_from": "40,000P"
@@ -514498,7 +514501,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-10"
+   "last_seen": "2026-10-16"
   },
   "point_island:g16824": {
    "site": "point_island",
@@ -639759,8 +639762,8 @@
    "site": "gendama",
    "deal_id": "1505913",
    "title": "【100％以上還元】ABEMAプレミアム | Disney+（新規有料会員登録）",
-   "points_text": "30,000pt",
-   "yen": 3000.0,
+   "points_text": "35,000pt",
+   "yen": 3500.0,
    "percent": null,
    "url": "https://www.gendama.jp/service/item/1505913",
    "condition": "新規有料会員登録完了",
@@ -639769,7 +639772,9 @@
    "first_seen_at": "2026-09-17 15:00",
    "last_seen": "2026-10-16",
    "backfill": true,
-   "backfill_dated": true
+   "backfill_dated": true,
+   "renewed_at": "2026-10-16 13:00",
+   "renewed_from": "30,000pt"
   },
   "gendama:1531592": {
    "site": "gendama",
@@ -710463,7 +710468,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 11:00",
-   "last_seen": "2026-10-07"
+   "last_seen": "2026-10-16"
   },
   "au_point:8:1697": {
    "site": "au_point",
@@ -715617,7 +715622,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 21:00",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-16",
    "site_new": false
   },
   "moppy:162283": {
@@ -726170,6 +726175,90 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 11:00",
+   "last_seen": "2026-10-16"
+  },
+  "warau:207964": {
+   "site": "warau",
+   "deal_id": "207964",
+   "title": "【GFRewards】クランクイン！コミック（初回最大1か月無料プラン登録完了）",
+   "points_text": "990pt",
+   "yen": 990.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=207964",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-16",
+   "first_seen_at": "2026-10-16 13:00",
+   "last_seen": "2026-10-16"
+  },
+  "warau:207965": {
+   "site": "warau",
+   "deal_id": "207965",
+   "title": "【SKYFLAG】Sweet Impact - Match 3 Game（StepUp）",
+   "points_text": "2,576pt",
+   "yen": 2576.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=207965",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-16",
+   "first_seen_at": "2026-10-16 13:00",
+   "last_seen": "2026-10-16"
+  },
+  "amefri:141603": {
+   "site": "amefri",
+   "deal_id": "141603",
+   "title": "初期費用0円！東京都戸建て限定の定額制太陽光発電サービス【RESOLA】",
+   "points_text": "180,000pt",
+   "yen": 18000.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141603",
+   "condition": "新規契約",
+   "seeded": false,
+   "first_seen": "2026-10-16",
+   "first_seen_at": "2026-10-16 13:00",
+   "last_seen": "2026-10-16"
+  },
+  "amefri:141602": {
+   "site": "amefri",
+   "deal_id": "141602",
+   "title": "その旅、日々の暮らしで。マイルがたまる、ウォーターサーバー【JALウォーター】",
+   "points_text": "60,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141602",
+   "condition": "新規申込",
+   "seeded": false,
+   "first_seen": "2026-10-16",
+   "first_seen_at": "2026-10-16 13:00",
+   "last_seen": "2026-10-16"
+  },
+  "amefri:141601": {
+   "site": "amefri",
+   "deal_id": "141601",
+   "title": "結婚相談所「オーネット」（スタンダードプラン）",
+   "points_text": "400,000pt",
+   "yen": 40000.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141601",
+   "condition": "新規入会",
+   "seeded": false,
+   "first_seen": "2026-10-16",
+   "first_seen_at": "2026-10-16 13:00",
+   "last_seen": "2026-10-16"
+  },
+  "powl:42735": {
+   "site": "powl",
+   "deal_id": "42735",
+   "title": "【おもちゃのサブスクCha Cha Cha】新規WEB申込みプログラム",
+   "points_text": "40,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/42735",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-16",
+   "first_seen_at": "2026-10-16 13:00",
    "last_seen": "2026-10-16"
   }
  }

@@ -152503,7 +152503,7 @@
    "condition": "投資",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-10-17",
    "backfill": true,
    "backfill_dated": true
   },
@@ -229202,7 +229202,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-10-17"
   },
   "point_island:mSMRI1": {
    "site": "point_island",
@@ -240703,7 +240703,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-10-17"
   },
   "point_stadium:mSMRI1": {
    "site": "point_stadium",
@@ -252251,8 +252251,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-20",
-   "renewed_at": "2026-08-11 21:00"
+   "last_seen": "2026-10-17",
+   "renewed_at": "2026-10-17 08:00"
   },
   "nyandaful:mSMRI1": {
    "site": "nyandaful",
@@ -325682,7 +325682,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 08:00",
-   "last_seen": "2026-08-18"
+   "last_seen": "2026-10-17"
   },
   "warau:204640": {
    "site": "warau",
@@ -697152,7 +697152,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 15:00",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-10-05 01:00"
   },
   "point_island:k4995": {
@@ -709512,7 +709512,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 21:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-10-13 15:00"
   },
   "kurashiru_reward:19340": {
@@ -727832,7 +727832,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "warau:208005": {
    "site": "warau",

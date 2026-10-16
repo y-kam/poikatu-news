@@ -293029,7 +293029,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "renew_hold": true,
    "site_new": false
   },
@@ -294198,7 +294198,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-07-31 21:00",
    "renewed_from": "225P"
   },
@@ -324941,7 +324941,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-17",
    "site_new": true,
    "delisted_at": "2026-09-04",
    "renewed_at": "2026-10-15 01:00",
@@ -365824,7 +365824,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": false,
    "renew_hold": true
   },
@@ -471647,7 +471647,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472160,7 +472160,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-26",
+   "last_seen": "2026-10-17",
    "backfill_dated": true,
    "site_new": false
   },
@@ -480962,7 +480962,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-10-17",
    "backfill_dated": true,
    "site_new": false
   },
@@ -500731,17 +500731,17 @@
    "site": "moppy",
    "deal_id": "157286",
    "title": "【過去登録者も可】新橋の母◆占霊術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157286",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-10-17",
    "site_new": true,
-   "renewed_at": "2026-10-15 13:16"
+   "renewed_at": "2026-10-17 05:00"
   },
   "moppy:157277": {
    "site": "moppy",
@@ -500755,7 +500755,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": false
   },
   "moppy:157245": {
@@ -509741,7 +509741,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": true,
    "renewed_at": "2026-10-15 13:16",
    "renewed_from": "400P"
@@ -509830,17 +509830,17 @@
    "site": "moppy",
    "deal_id": "155418",
    "title": "【過去登録者も可】安斎流開運鑑定[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=155418",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-17",
    "site_new": true,
-   "renewed_at": "2026-10-15 13:16"
+   "renewed_at": "2026-10-17 05:00"
   },
   "moppy:156250": {
    "site": "moppy",
@@ -638347,7 +638347,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": false
   },
   "moppy:145192": {
@@ -672758,17 +672758,17 @@
    "site": "moppy",
    "deal_id": "145241",
    "title": "笑う霊能者◆波羅門 (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145241",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 08:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-17",
    "site_new": true,
-   "renewed_at": "2026-10-15 13:16"
+   "renewed_at": "2026-10-17 05:00"
   },
   "moppy:162220": {
    "site": "moppy",
@@ -711215,7 +711215,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 15:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-10-14 01:00",
    "renewed_from": "85P"
   },
@@ -720214,7 +720214,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "poikatsu_club:21393": {
    "site": "poikatsu_club",
@@ -727804,7 +727804,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "warau:207971": {
    "site": "warau",
@@ -727818,7 +727818,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "warau:207966": {
    "site": "warau",
@@ -728590,6 +728590,104 @@
    "seeded": false,
    "first_seen": "2026-10-17",
    "first_seen_at": "2026-10-17 01:00",
+   "last_seen": "2026-10-17"
+  },
+  "moppy:155324": {
+   "site": "moppy",
+   "deal_id": "155324",
+   "title": "タイトーオンラインクレーン",
+   "points_text": "74P",
+   "yen": 74.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=155324",
+   "condition": "新規会員登録完了",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
+   "last_seen": "2026-10-17"
+  },
+  "hapitas:103734": {
+   "site": "hapitas",
+   "deal_id": "103734",
+   "title": "フランチャイズ「トータルリペア」加盟募集オンライン説明会",
+   "points_text": "30,000pt",
+   "yen": 30000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103734/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
+   "last_seen": "2026-10-17"
+  },
+  "hapitas:103738": {
+   "site": "hapitas",
+   "deal_id": "103738",
+   "title": "定額制太陽光発電サービス【RESOLA】",
+   "points_text": "15,800pt",
+   "yen": 15800.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103738/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
+   "last_seen": "2026-10-17"
+  },
+  "hapitas:103739": {
+   "site": "hapitas",
+   "deal_id": "103739",
+   "title": "ガーデンプラス",
+   "points_text": "8,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103739/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
+   "last_seen": "2026-10-17"
+  },
+  "hapitas:103727": {
+   "site": "hapitas",
+   "deal_id": "103727",
+   "title": "DARWIN funding 出資完了　50万以上の出資完了（2回目以降出資）",
+   "points_text": "72,800pt",
+   "yen": 72800.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103727/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
+   "last_seen": "2026-10-17"
+  },
+  "hapitas:103728": {
+   "site": "hapitas",
+   "deal_id": "103728",
+   "title": "DARWIN funding 出資完了　100万以上の出資完了（2回目以降出資）",
+   "points_text": "84,000pt",
+   "yen": 84000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103728/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
+   "last_seen": "2026-10-17"
+  },
+  "hapitas:103729": {
+   "site": "hapitas",
+   "deal_id": "103729",
+   "title": "DARWIN funding 出資完了　300万以上の出資完了（2回目以降出資）",
+   "points_text": "196,000pt",
+   "yen": 196000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103729/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-17",
+   "first_seen_at": "2026-10-17 05:00",
    "last_seen": "2026-10-17"
   }
  }

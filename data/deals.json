@@ -228733,7 +228733,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-10-17"
   },
   "point_island:11151151": {
    "site": "point_island",
@@ -240233,7 +240233,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-17"
   },
   "point_stadium:11151151": {
    "site": "point_stadium",
@@ -251790,8 +251790,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25",
-   "renewed_at": "2026-09-18 08:00"
+   "last_seen": "2026-10-17",
+   "renewed_at": "2026-10-17 21:00"
   },
   "nyandaful:11151151": {
    "site": "nyandaful",
@@ -294561,7 +294561,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-11",
+   "last_seen": "2026-10-17",
    "site_new": false
   },
   "moppy:160013": {
@@ -330210,7 +330210,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 21:00",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-17"
   },
   "powl:36984": {
    "site": "powl",
@@ -480533,7 +480533,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-17",
    "backfill_dated": true
   },
   "moppy:145942": {
@@ -710855,7 +710855,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 13:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-17"
   },
   "pointchips:1134": {
    "site": "pointchips",
@@ -727873,7 +727873,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "warau:208002": {
    "site": "warau",

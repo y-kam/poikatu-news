@@ -59189,17 +59189,16 @@
    "site": "rebates",
    "deal_id": "24216",
    "title": "オリーブヤング公式ストア",
-   "points_text": "12.0%",
+   "points_text": "8.0%",
    "yen": null,
-   "percent": 12.0,
+   "percent": 8.0,
    "url": "https://www.rebates.jp/global.oliveyoung.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-17",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-15 10:00",
-   "renewed_from": "8.0%"
+   "renew_hold": true
   },
   "rebates:15123": {
    "site": "rebates",
@@ -684899,7 +684898,7 @@
    "seeded": false,
    "first_seen": "2026-09-30",
    "first_seen_at": "2026-09-30 01:00",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-10-07 01:00"
   },
   "au_point:8:1679": {
@@ -710556,7 +710555,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 11:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "au_point:8:1697": {
    "site": "au_point",
@@ -715141,9 +715140,9 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": false,
-   "renewed_at": "2026-10-14 01:00"
+   "renewed_at": "2026-10-17 10:00"
   },
   "amefri:141372": {
    "site": "amefri",
@@ -719824,7 +719823,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 11:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "poikatsu_club:21385": {
    "site": "poikatsu_club",
@@ -719838,7 +719837,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 11:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "amefri:141448": {
    "site": "amefri",
@@ -720228,7 +720227,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "poikatsu_club:21392": {
    "site": "poikatsu_club",
@@ -726095,7 +726094,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 10:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "delisted_at": "2026-10-16"
   },
   "warau:207954": {

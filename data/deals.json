@@ -293357,7 +293357,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-18",
    "site_new": false
   },
   "moppy:161650": {
@@ -294591,7 +294591,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "site_new": false
   },
   "moppy:159417": {
@@ -295905,7 +295905,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "renewed_at": "2026-09-04 17:00",
    "renewed_from": "147P"
   },
@@ -324976,7 +324976,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-18",
    "site_new": false,
    "delisted_at": "2026-09-09",
    "renewed_at": "2026-10-15 01:00",
@@ -471989,7 +471989,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-28",
+   "last_seen": "2026-10-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472294,7 +472294,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472471,7 +472471,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -480856,7 +480856,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "backfill_dated": true
   },
   "moppy:159287": {
@@ -509820,17 +509820,17 @@
    "site": "moppy",
    "deal_id": "157242",
    "title": "【過去登録者も可】奇跡鑑定◆沖縄の父[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157242",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-18",
    "site_new": true,
-   "renewed_at": "2026-10-15 13:16"
+   "renewed_at": "2026-10-18 05:00"
   },
   "moppy:155418": {
    "site": "moppy",
@@ -638403,7 +638403,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-18",
    "site_new": true,
    "renewed_at": "2026-10-15 13:16",
    "renewed_from": "400P"
@@ -672576,7 +672576,7 @@
    "seeded": false,
    "first_seen": "2026-09-23",
    "first_seen_at": "2026-09-23 05:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-18",
    "site_new": true,
    "renewed_at": "2026-10-15 13:16",
    "renewed_from": "400P"
@@ -700382,7 +700382,7 @@
    "seeded": false,
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 21:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "site_new": false
   },
   "moppy:162258": {
@@ -720231,7 +720231,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "poikatsu_club:21393": {
    "site": "poikatsu_club",
@@ -726921,7 +726921,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "delisted_at": "2026-10-17"
   },
   "warau:207993": {

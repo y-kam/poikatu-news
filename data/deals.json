@@ -292905,7 +292905,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "moppy:161071": {
    "site": "moppy",
@@ -294182,7 +294182,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-17",
    "site_new": false
   },
   "moppy:160804": {
@@ -340086,7 +340086,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 15:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-07-29 01:00"
   },
   "kurashiru_reward:17819": {
@@ -481030,7 +481030,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "backfill_dated": true,
    "site_new": false
   },
@@ -714712,9 +714712,9 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 13:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": false,
-   "renewed_at": "2026-10-14 01:00"
+   "renewed_at": "2026-10-17 17:00"
   },
   "amefri:141363": {
    "site": "amefri",
@@ -714929,7 +714929,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 13:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "moppy:159353": {
    "site": "moppy",
@@ -725653,7 +725653,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "poikatsu_club:21460": {
    "site": "poikatsu_club",
@@ -725667,7 +725667,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "mikoshi_mall:3475": {
    "site": "mikoshi_mall",

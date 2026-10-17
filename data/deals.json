@@ -293220,22 +293220,23 @@
    "site": "moppy",
    "deal_id": "158739",
    "title": "三國志 真戦（iOS）（勢力15000）",
-   "points_text": "5,300P",
-   "yen": 5300.0,
+   "points_text": "4,000P",
+   "yen": 4000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158739",
    "condition": "新規インストール後、30日以内に「シーズン1」で勢力15,000到達",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-17",
+   "renew_hold": true
   },
   "moppy:161201": {
    "site": "moppy",
    "deal_id": "161201",
    "title": "信長の野望 真戦（部将lv7）_iOS",
-   "points_text": "5,100P",
-   "yen": 5100.0,
+   "points_text": "5,300P",
+   "yen": 5300.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161201",
    "condition": "新規アプリインストール後、30日以内にシーズン1で役職部将lv7に到達",
@@ -293243,7 +293244,8 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-10-17",
-   "renew_hold": true
+   "renewed_at": "2026-10-17 13:00",
+   "renewed_from": "5,100P"
   },
   "moppy:161621": {
    "site": "moppy",
@@ -336869,26 +336871,26 @@
    "site": "moppy",
    "deal_id": "159392",
    "title": "DARWIN funding 100万円出資完了（ダーウィンファンディング）",
-   "points_text": "160,000P",
-   "yen": 160000.0,
+   "points_text": "170,000P",
+   "yen": 170000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=159392",
    "condition": "新規会員登録後、60日以内の新規投資完了（一括100万円）",
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 13:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": true,
    "delisted_at": "2026-07-24",
-   "renewed_at": "2026-10-16 21:00",
+   "renewed_at": "2026-10-17 13:00",
    "renewed_from": "30,000P"
   },
   "moppy:154759": {
    "site": "moppy",
    "deal_id": "154759",
-   "title": "DARWIN funding 50万以上の出資完了（ダーウィンファンディング）",
-   "points_text": "150,000P",
-   "yen": 150000.0,
+   "title": "【超ド級還元】DARWIN funding 50万以上の出資完了（ダーウィンファンディング）",
+   "points_text": "152,000P",
+   "yen": 152000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=154759",
    "condition": "新規会員登録後、60日以内の新規投資完了（一括50万円）",
@@ -336898,7 +336900,7 @@
    "last_seen": "2026-10-17",
    "site_new": true,
    "delisted_at": "2026-07-24",
-   "renewed_at": "2026-10-16 21:00",
+   "renewed_at": "2026-10-17 13:00",
    "renewed_from": "28,000P"
   },
   "pointtown:10873": {
@@ -342728,7 +342730,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-17",
    "site_new": false
   },
   "moppy:160385": {
@@ -365798,8 +365800,8 @@
    "site": "moppy",
    "deal_id": "158910",
    "title": "au Wi-Fiアクセス",
-   "points_text": "120P",
-   "yen": 120.0,
+   "points_text": "130P",
+   "yen": 130.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158910",
    "condition": "【新規登録限定】au IDでログインし、利用規約に同意",
@@ -365808,8 +365810,9 @@
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-10-17",
    "site_new": false,
-   "renew_hold": true,
-   "delisted_at": "2026-10-02"
+   "delisted_at": "2026-10-02",
+   "renewed_at": "2026-10-17 13:00",
+   "renewed_from": "120P"
   },
   "moppy:161977": {
    "site": "moppy",
@@ -371552,8 +371555,8 @@
    "site": "moppy",
    "deal_id": "133769",
    "title": "skyticket（iOS/スカイチケット）",
-   "points_text": "32P",
-   "yen": 32.0,
+   "points_text": "40P",
+   "yen": 40.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=133769",
    "condition": "インストール後起動",
@@ -371561,7 +371564,9 @@
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 05:00",
    "last_seen": "2026-10-17",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-17 13:00",
+   "renewed_from": "32P"
   },
   "hapitas:102466": {
    "site": "hapitas",
@@ -416839,8 +416844,8 @@
    "site": "moppy",
    "deal_id": "162079",
    "title": "ラグナロク：アドベンチャーズ(ストア事前登録)_iOS",
-   "points_text": "50P",
-   "yen": 50.0,
+   "points_text": "60P",
+   "yen": 60.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162079",
    "condition": "新規ストア事前登録完了",
@@ -416848,7 +416853,9 @@
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 21:00",
    "last_seen": "2026-10-17",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-17 13:00",
+   "renewed_from": "50P"
   },
   "moppy:157151": {
    "site": "moppy",
@@ -432535,8 +432542,8 @@
    "site": "moppy",
    "deal_id": "162168",
    "title": "マビノギモバイル(チュートリアル完了)_iOS",
-   "points_text": "290P",
-   "yen": 290.0,
+   "points_text": "330P",
+   "yen": 330.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162168",
    "condition": "新規アプリインストール後、チュートリアル完了",
@@ -432546,7 +432553,7 @@
    "last_seen": "2026-10-17",
    "site_new": false,
    "delisted_at": "2026-10-01",
-   "renewed_at": "2026-10-15 17:00",
+   "renewed_at": "2026-10-17 13:00",
    "renewed_from": "65P"
   },
   "moppy:162167": {
@@ -480615,18 +480622,18 @@
    "site": "moppy",
    "deal_id": "161494",
    "title": "くらしノート懸賞キャンペーン",
-   "points_text": "220P",
-   "yen": 220.0,
+   "points_text": "240P",
+   "yen": 240.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161494",
    "condition": "新規懸賞応募",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-17",
    "backfill_dated": true,
    "site_new": false,
-   "renewed_at": "2026-10-12 10:00",
+   "renewed_at": "2026-10-17 13:00",
    "renewed_from": "200P"
   },
   "moppy:6692": {
@@ -498654,18 +498661,19 @@
   "moppy:162169": {
    "site": "moppy",
    "deal_id": "162169",
-   "title": "※高還元※SBI証券 こども口座",
-   "points_text": "12,000P",
-   "yen": 12000.0,
+   "title": "※18日まで超還元※SBI証券 こども口座",
+   "points_text": "13,800P",
+   "yen": 13800.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162169",
    "condition": "こども口座開設(申込から60日以内)",
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-17",
    "site_new": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-17 13:00",
+   "renewed_from": "12,000P"
   },
   "warau:206563": {
    "site": "warau",
@@ -514299,17 +514307,18 @@
    "site": "moppy",
    "deal_id": "162199",
    "title": "ピクセルブレイブ：伝説の勇者たち",
-   "points_text": "60P",
-   "yen": 60.0,
+   "points_text": "57P",
+   "yen": 57.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162199",
    "condition": "新規アプリインストール後、初回起動",
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-10",
+   "last_seen": "2026-10-17",
    "site_new": false,
-   "delisted_at": "2026-09-25"
+   "delisted_at": "2026-09-25",
+   "renew_hold": true
   },
   "pointtown:11049": {
    "site": "pointtown",
@@ -514565,7 +514574,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "point_island:g16824": {
    "site": "point_island",
@@ -693441,8 +693450,8 @@
    "site": "moppy",
    "deal_id": "162232",
    "title": "auウェルネス",
-   "points_text": "90P",
-   "yen": 90.0,
+   "points_text": "100P",
+   "yen": 100.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162232",
    "condition": "auID登録完了",
@@ -693451,7 +693460,7 @@
    "first_seen_at": "2026-10-01 05:00",
    "last_seen": "2026-10-17",
    "delisted_at": "2026-10-02",
-   "renewed_at": "2026-10-11 10:00",
+   "renewed_at": "2026-10-17 13:00",
    "renewed_from": "71P"
   },
   "hapitas:100501": {
@@ -709113,8 +709122,8 @@
    "site": "moppy",
    "deal_id": "162266",
    "title": "【19日まで超高還元】AEON Pay(イオンペイ)",
-   "points_text": "800P",
-   "yen": 800.0,
+   "points_text": "1,160P",
+   "yen": 1160.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162266",
    "condition": "新規アプリインストール後、7日以内の会員登録",
@@ -709123,7 +709132,7 @@
    "first_seen_at": "2026-10-06 21:00",
    "last_seen": "2026-10-17",
    "site_new": true,
-   "renewed_at": "2026-10-16 21:00",
+   "renewed_at": "2026-10-17 13:00",
    "renewed_from": "80P"
   },
   "moppy:162264": {
@@ -715156,9 +715165,9 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "site_new": false,
-   "renewed_at": "2026-10-14 01:00"
+   "renewed_at": "2026-10-17 13:00"
   },
   "amefri:141371": {
    "site": "amefri",
@@ -717656,7 +717665,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 17:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "chobirich:1901096": {
    "site": "chobirich",
@@ -720269,7 +720278,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-17",
    "renewed_at": "2026-10-15 17:00",
    "renewed_from": "2295pt"
   },
@@ -727845,7 +727854,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-17"
   },
   "warau:208006": {
    "site": "warau",

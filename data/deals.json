@@ -148406,7 +148406,7 @@
    "condition": "口座開設",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-18",
    "backfill": true,
    "backfill_dated": true
   },
@@ -228603,7 +228603,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-18"
   },
   "point_island:f47268": {
    "site": "point_island",
@@ -240104,7 +240104,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-28"
+   "last_seen": "2026-10-18"
   },
   "point_stadium:f47268": {
    "site": "point_stadium",
@@ -251657,8 +251657,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25",
-   "renewed_at": "2026-09-19 08:00"
+   "last_seen": "2026-10-18",
+   "renewed_at": "2026-10-18 08:00"
   },
   "nyandaful:f47268": {
    "site": "nyandaful",
@@ -333418,7 +333418,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 08:00",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-18"
   },
   "pointincome:155847": {
    "site": "pointincome",
@@ -715298,7 +715298,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "au_point:8:1705": {
    "site": "au_point",
@@ -726936,7 +726936,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "delisted_at": "2026-10-17"
   },
   "warau:207986": {

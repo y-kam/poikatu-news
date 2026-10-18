@@ -68828,17 +68828,16 @@
    "site": "line_catalog",
    "deal_id": "starbucks_onlinestore",
    "title": "スターバックス公式オンラインストア",
-   "points_text": "3.0%還元",
+   "points_text": "1.0%還元",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.0,
    "url": "https://ec.line.me/shop/starbucks_onlinestore/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-18",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-09-29 11:00",
-   "renewed_from": "1.0%還元"
+   "renew_hold": true
   },
   "line_catalog:jalpak_kokunai": {
    "site": "line_catalog",
@@ -684927,7 +684926,7 @@
    "seeded": false,
    "first_seen": "2026-09-30",
    "first_seen_at": "2026-09-30 01:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "renewed_at": "2026-10-07 01:00"
   },
   "au_point:8:1679": {
@@ -709547,7 +709546,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 21:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "renewed_at": "2026-10-13 15:00"
   },
   "kurashiru_reward:19340": {
@@ -710591,7 +710590,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 11:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "au_point:8:1697": {
    "site": "au_point",
@@ -715177,7 +715176,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "site_new": false,
    "renewed_at": "2026-10-17 10:00"
   },
@@ -719948,7 +719947,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 13:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "gendama:1588948": {
    "site": "gendama",

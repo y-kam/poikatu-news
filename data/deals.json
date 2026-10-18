@@ -228295,7 +228295,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-27"
+   "last_seen": "2026-10-19"
   },
   "point_island:f47673": {
    "site": "point_island",
@@ -239799,7 +239799,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-19"
   },
   "point_stadium:f47673": {
    "site": "point_stadium",
@@ -251348,8 +251348,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25",
-   "renewed_at": "2026-09-15 21:00"
+   "last_seen": "2026-10-19",
+   "renewed_at": "2026-10-19 08:00"
   },
   "nyandaful:f47673": {
    "site": "nyandaful",
@@ -292891,7 +292891,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   "moppy:161071": {
    "site": "moppy",
@@ -293043,7 +293043,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "site_new": false,
    "renew_hold": true
   },
@@ -293286,7 +293286,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   "moppy:160874": {
    "site": "moppy",
@@ -293506,7 +293506,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-19"
   },
   "moppy:161609": {
    "site": "moppy",
@@ -295676,7 +295676,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "renewed_at": "2026-09-01 15:00",
    "renewed_from": "378P",
    "site_new": false
@@ -317458,7 +317458,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-09-22"
+   "last_seen": "2026-10-19"
   },
   "kurashiru_reward:17579": {
    "site": "kurashiru_reward",
@@ -388737,7 +388737,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02"
+   "last_seen": "2026-10-19"
   },
   "point_museum:g16744": {
    "site": "point_museum",
@@ -471721,7 +471721,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-19",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471737,7 +471737,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471898,7 +471898,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-19",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471914,7 +471914,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-19",
    "backfill_dated": true,
    "site_new": false
   },
@@ -508755,7 +508755,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 17:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "site_new": false,
    "renew_hold": true
   },
@@ -684816,7 +684816,7 @@
    "seeded": false,
    "first_seen": "2026-09-30",
    "first_seen_at": "2026-09-30 01:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "renewed_at": "2026-10-06 08:00"
   },
   "au_point:8:1678": {
@@ -715041,7 +715041,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "site_new": false,
    "renewed_at": "2026-10-17 01:00"
   },
@@ -720134,7 +720134,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   "poikatsu_club:21395": {
    "site": "poikatsu_club",
@@ -720148,7 +720148,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   "poikatsu_club:21393": {
    "site": "poikatsu_club",
@@ -720403,7 +720403,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 17:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   "poikatsu_club:21400": {
    "site": "poikatsu_club",
@@ -727650,7 +727650,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "delisted_at": "2026-10-17"
   },
   "warau:208008": {
@@ -727680,7 +727680,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "delisted_at": "2026-10-17"
   },
   "warau:207989": {

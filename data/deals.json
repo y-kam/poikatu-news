@@ -60561,17 +60561,16 @@
    "site": "rebates",
    "deal_id": "24929",
    "title": "スターバックス公式オンラインストア",
-   "points_text": "3.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/starbucks.co.jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-18",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-09-29 10:00",
-   "renewed_from": "1.0%"
+   "renew_hold": true
   },
   "rebates:23827": {
    "site": "rebates",
@@ -312297,7 +312296,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-18",
    "site_new": true,
    "delisted_at": "2026-08-30",
    "renewed_at": "2026-10-16 21:00",
@@ -327665,17 +327664,18 @@
    "site": "moppy",
    "deal_id": "1066",
    "title": "ビックカメラ.com",
-   "points_text": "1.5%",
+   "points_text": "2.8%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 2.8,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=1066",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-18",
    "delisted_at": "2026-07-16",
-   "renew_hold": true
+   "renewed_at": "2026-10-18 10:00",
+   "renewed_from": "1.5%"
   },
   "warau:204657": {
    "site": "warau",
@@ -407377,8 +407377,8 @@
    "site": "moppy",
    "deal_id": "162061",
    "title": "歩数計あるくん〜シンプルなウォーキングアプリ（メールアドレス登録完了）（iOS）",
-   "points_text": "240P",
-   "yen": 240.0,
+   "points_text": "260P",
+   "yen": 260.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162061",
    "condition": "新規アプリインストール後、30日以内にメールアドレス登録",
@@ -407388,7 +407388,7 @@
    "last_seen": "2026-10-18",
    "site_new": false,
    "delisted_at": "2026-09-30",
-   "renewed_at": "2026-10-16 11:00",
+   "renewed_at": "2026-10-18 10:00",
    "renewed_from": "200P"
   },
   "warau:206133": {
@@ -427460,8 +427460,8 @@
    "site": "moppy",
    "deal_id": "149734",
    "title": "LINE ポコポコ",
-   "points_text": "530P",
-   "yen": 530.0,
+   "points_text": "550P",
+   "yen": 550.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=149734",
    "condition": "30日以内にステージ100クリア",
@@ -427471,7 +427471,7 @@
    "last_seen": "2026-10-18",
    "site_new": false,
    "delisted_at": "2026-09-08",
-   "renewed_at": "2026-10-16 11:00",
+   "renewed_at": "2026-10-18 10:00",
    "renewed_from": "228P"
   },
   "warau:206458": {
@@ -432550,8 +432550,8 @@
    "site": "moppy",
    "deal_id": "162168",
    "title": "マビノギモバイル(チュートリアル完了)_iOS",
-   "points_text": "330P",
-   "yen": 330.0,
+   "points_text": "350P",
+   "yen": 350.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162168",
    "condition": "新規アプリインストール後、チュートリアル完了",
@@ -432561,7 +432561,7 @@
    "last_seen": "2026-10-18",
    "site_new": false,
    "delisted_at": "2026-10-01",
-   "renewed_at": "2026-10-17 13:00",
+   "renewed_at": "2026-10-18 10:00",
    "renewed_from": "65P"
   },
   "moppy:162167": {
@@ -680021,8 +680021,8 @@
    "site": "moppy",
    "deal_id": "162227",
    "title": "ちいかわぽけっと(初回起動)_iOS",
-   "points_text": "70P",
-   "yen": 70.0,
+   "points_text": "80P",
+   "yen": 80.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162227",
    "condition": "新規アプリインストール後、初回起動",
@@ -680031,7 +680031,7 @@
    "first_seen_at": "2026-09-27 01:00",
    "last_seen": "2026-10-18",
    "site_new": true,
-   "renewed_at": "2026-10-11 10:00",
+   "renewed_at": "2026-10-18 10:00",
    "renewed_from": "50P",
    "delisted_at": "2026-10-04"
   },
@@ -717680,7 +717680,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 17:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "pointchips:1137": {
    "site": "pointchips",
@@ -719862,7 +719862,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 11:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "poikatsu_club:21385": {
    "site": "poikatsu_club",
@@ -719876,7 +719876,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 11:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "amefri:141448": {
    "site": "amefri",
@@ -720266,7 +720266,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   "poikatsu_club:21392": {
    "site": "poikatsu_club",
@@ -727748,7 +727748,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-18",
    "delisted_at": "2026-10-17"
   },
   "warau:207998": {

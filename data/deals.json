@@ -147968,17 +147968,18 @@
    "site": "point_museum",
    "deal_id": "0410418",
    "title": "三井のカーシェアーズ",
-   "points_text": "3,000pt",
-   "yen": 300.0,
+   "points_text": "8,300pt",
+   "yen": 830.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=0410418",
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-20",
    "backfill": true,
    "backfill_dated": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-20 08:00",
+   "renewed_from": "3,000pt"
   },
   "point_museum:j3730": {
    "site": "point_museum",
@@ -229201,7 +229202,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-07-21 21:00",
    "renewed_from": "3000ポイント"
   },
@@ -240704,7 +240705,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-28",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-07-21 21:00",
    "renewed_from": "3000ポイント"
   },
@@ -252254,8 +252255,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-26",
-   "renewed_at": "2026-09-19 21:00",
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 08:00",
    "renewed_from": "3,000pt"
   },
   "nyandaful:s27130": {
@@ -335696,7 +335697,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 21:00",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-20"
   },
   "powl:35713": {
    "site": "powl",
@@ -402112,7 +402113,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 13:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "delisted_at": "2026-10-01"
   },
   "warau:205795": {
@@ -720020,7 +720021,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 15:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "site_new": false,
    "renewed_at": "2026-10-19 01:00"
   },
@@ -721419,7 +721420,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 13:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "poikatsu_club:21418": {
    "site": "poikatsu_club",
@@ -730954,7 +730955,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 21:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "fruitmail:18556": {
    "site": "fruitmail",

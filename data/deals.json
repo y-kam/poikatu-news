@@ -289201,7 +289201,8 @@
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
    "last_seen": "2026-10-13",
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "pointincome:155100": {
    "site": "pointincome",
@@ -319155,7 +319156,8 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-14",
+   "dead_streak": 1
   },
   "pointincome:154107": {
    "site": "pointincome",
@@ -320926,7 +320928,8 @@
    "first_seen_at": "2026-07-13 21:00",
    "last_seen": "2026-08-26",
    "renewed_at": "2026-08-21 19:23",
-   "renewed_from": "最大3616pt"
+   "renewed_from": "最大3616pt",
+   "dead_streak": 1
   },
   "chobirich:1890850": {
    "site": "chobirich",
@@ -323718,7 +323721,8 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-07-16"
+   "last_seen": "2026-07-16",
+   "dead_streak": 1
   },
   "chobirich:1894717": {
    "site": "chobirich",
@@ -339126,7 +339130,8 @@
    "first_seen_at": "2026-07-23 05:00",
    "last_seen": "2026-10-14",
    "renewed_at": "2026-10-14 06:12",
-   "renewed_from": "11,000pt"
+   "renewed_from": "11,000pt",
+   "dead_streak": 1
   },
   "pointincome:155792": {
    "site": "pointincome",
@@ -347701,7 +347706,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointincome:149629": {
    "site": "pointincome",
@@ -347715,7 +347721,8 @@
    "seeded": false,
    "first_seen": "2026-07-28",
    "first_seen_at": "2026-07-28 17:00",
-   "last_seen": "2026-07-29"
+   "last_seen": "2026-07-29",
+   "dead_streak": 1
   },
   "pointincome:154848": {
    "site": "pointincome",
@@ -387412,7 +387419,8 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 19:28",
-   "last_seen": "2026-08-25"
+   "last_seen": "2026-08-25",
+   "dead_streak": 1
   },
   "chobirich:1897431": {
    "site": "chobirich",
@@ -431797,7 +431805,8 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 15:24",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-10",
+   "dead_streak": 1
   },
   "chobirich:1898803": {
    "site": "chobirich",
@@ -516347,7 +516356,8 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 07:30",
-   "last_seen": "2026-10-08"
+   "last_seen": "2026-10-08",
+   "dead_streak": 1
   },
   "pointincome:156206": {
    "site": "pointincome",
@@ -682602,7 +682612,8 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 07:27",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-01",
+   "dead_streak": 1
   },
   "chobirich:1900051": {
    "site": "chobirich",
@@ -693850,7 +693861,8 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 07:40",
-   "last_seen": "2026-10-06"
+   "last_seen": "2026-10-06",
+   "dead_streak": 1
   },
   "chobirich:1861082": {
    "site": "chobirich",
@@ -724926,7 +724938,8 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 19:45",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-19",
+   "dead_streak": 1
   },
   "chobirich:1901326": {
    "site": "chobirich",

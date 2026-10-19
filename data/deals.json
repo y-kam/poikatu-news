@@ -294525,7 +294525,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-10-20",
    "site_new": false
   },
   "moppy:158793": {
@@ -294587,7 +294587,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-20"
   },
   "moppy:161854": {
    "site": "moppy",
@@ -350584,7 +350584,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "site_new": false,
    "renew_hold": true
   },
@@ -412800,7 +412800,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "au_point:8:1060": {
    "site": "au_point",
@@ -432473,7 +432473,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 21:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "site_new": false
   },
   "warau:206558": {
@@ -471495,7 +471495,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471623,7 +471623,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473276,17 +473276,19 @@
    "site": "moppy",
    "deal_id": "145287",
    "title": "【過去登録者も可】クロノ占星術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145287",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-20 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145235": {
    "site": "moppy",
@@ -473300,7 +473302,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-15 01:00",
@@ -509705,7 +509707,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "site_new": false
   },
   "moppy:155418": {
@@ -638252,7 +638254,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-20",
    "site_new": false
   },
   "moppy:155266": {
@@ -683500,7 +683502,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 17:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-05 17:00"
   },
   "point_island:221228": {
@@ -696157,23 +696159,25 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 05:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-20",
    "site_new": false
   },
   "moppy:145195": {
    "site": "moppy",
    "deal_id": "145195",
    "title": "捨てて磨いて結婚できた[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145195",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 05:00",
-   "last_seen": "2026-10-09",
-   "site_new": false
+   "last_seen": "2026-10-20",
+   "site_new": false,
+   "renewed_at": "2026-10-20 05:00",
+   "renewed_from": "400P"
   },
   "hapitas:103464": {
    "site": "hapitas",
@@ -721169,7 +721173,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 10:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "poikatsu_club:21380": {
    "site": "poikatsu_club",
@@ -730925,7 +730929,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 21:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "warau:208070": {
    "site": "warau",
@@ -731533,6 +731537,174 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 01:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:102930": {
+   "site": "hapitas",
+   "deal_id": "102930",
+   "title": "ブラウザ三国志 天",
+   "points_text": "9,755pt",
+   "yen": 9755.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102930/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103328": {
+   "site": "hapitas",
+   "deal_id": "103328",
+   "title": "TIPSTAR",
+   "points_text": "7,424pt",
+   "yen": 7424.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103328/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:102903": {
+   "site": "hapitas",
+   "deal_id": "102903",
+   "title": "Vegas Craze Casino",
+   "points_text": "112,345pt",
+   "yen": 112345.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102903/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103370": {
+   "site": "hapitas",
+   "deal_id": "103370",
+   "title": "オリコビジネスカード「EX Gold for BizM」（法人向け）",
+   "points_text": "1,500pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103370/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103369": {
+   "site": "hapitas",
+   "deal_id": "103369",
+   "title": "オリコビジネスカード「EX Gold for BizS」（個人事業主向け）",
+   "points_text": "1,500pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103369/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103737": {
+   "site": "hapitas",
+   "deal_id": "103737",
+   "title": "即モバ",
+   "points_text": "3,150pt",
+   "yen": 3150.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103737/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103746": {
+   "site": "hapitas",
+   "deal_id": "103746",
+   "title": "Hotels.com【国内＆海外ホテル予約】（ホテルズドットコム）",
+   "points_text": "8%",
+   "yen": null,
+   "percent": 8.0,
+   "url": "https://hapitas.jp/item/detail/itemid/103746/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103753": {
+   "site": "hapitas",
+   "deal_id": "103753",
+   "title": "Expedia【海外ホテル・国内ホテル予約】（エクスペディア）",
+   "points_text": "9%",
+   "yen": null,
+   "percent": 9.0,
+   "url": "https://hapitas.jp/item/detail/itemid/103753/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103752": {
+   "site": "hapitas",
+   "deal_id": "103752",
+   "title": "Expedia【航空券＋宿泊の同時予約】 （エクスペディア）",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://hapitas.jp/item/detail/itemid/103752/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103751": {
+   "site": "hapitas",
+   "deal_id": "103751",
+   "title": "Expedia【海外航空券・国内航空券予約】（エクスペディア）",
+   "points_text": "1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://hapitas.jp/item/detail/itemid/103751/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103691": {
+   "site": "hapitas",
+   "deal_id": "103691",
+   "title": "Enepoke（エネルギーポケット）",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103691/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
+   "last_seen": "2026-10-20"
+  },
+  "hapitas:103451": {
+   "site": "hapitas",
+   "deal_id": "103451",
+   "title": "LEVECHY Fund",
+   "points_text": "1,200pt",
+   "yen": 1200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103451/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 05:00",
    "last_seen": "2026-10-20"
   }
  }

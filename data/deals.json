@@ -48464,14 +48464,14 @@
   "pointincome:153568": {
    "site": "pointincome",
    "deal_id": "153568",
-   "title": "povo2.0【高還元中！】",
+   "title": "povo2.0【本日までの高還元！】",
    "points_text": "45,500pt",
    "yen": 4550.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153568/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "condition": "",
    "delisted_at": "2026-07-07",
    "renewed_at": "2026-10-16 14:03",
@@ -289066,7 +289066,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-10-14 06:12",
    "renewed_from": "90,000pt"
@@ -291159,7 +291159,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 10:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "pointincome:154440": {
    "site": "pointincome",
@@ -316032,7 +316032,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renew_hold": true
   },
   "pointincome:155801": {
@@ -359377,7 +359377,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-20",
    "renew_hold": true
   },
   "pointincome:148316": {
@@ -424416,16 +424416,17 @@
    "site": "chobirich",
    "deal_id": "1898538",
    "title": "我が天下（アプリランド）",
-   "points_text": "最大7069pt",
-   "yen": 3534.5,
+   "points_text": "最大7329pt",
+   "yen": 3664.5,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1898538/",
    "condition": "遷移先の「アプリランド」ページをご確認ください",
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 07:32",
-   "last_seen": "2026-09-28",
-   "renew_hold": true
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 19:33",
+   "renewed_from": "最大7069pt"
   },
   "chobirich:1898534": {
    "site": "chobirich",
@@ -697745,7 +697746,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-08 07:28"
   },
   "chobirich:1900556": {
@@ -697760,7 +697761,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-08 07:28"
   },
   "chobirich:1900552": {
@@ -697775,7 +697776,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-08 07:28"
   },
   "chobirich:1900551": {
@@ -697790,7 +697791,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-08 07:28"
   },
   "chobirich:1699935": {
@@ -697805,7 +697806,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-08 07:28"
   },
   "chobirich:1760881": {
@@ -697820,7 +697821,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-08 07:28"
   },
   "chobirich:1900560": {
@@ -722406,15 +722407,17 @@
    "site": "chobirich",
    "deal_id": "1901238",
    "title": "オキキフレンズ(Okiki Friends)（アプリランド）",
-   "points_text": "最大1523pt",
-   "yen": 761.5,
+   "points_text": "最大1566pt",
+   "yen": 783.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1901238/",
    "condition": "遷移先の「アプリランド」ページをご確認ください",
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 18:32",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 19:33",
+   "renewed_from": "最大1523pt"
   },
   "chobirich:1899888": {
    "site": "chobirich",
@@ -726048,15 +726051,17 @@
    "site": "chobirich",
    "deal_id": "1901353",
    "title": "タイトーオンラインクレーン",
-   "points_text": "62pt",
-   "yen": 31.0,
+   "points_text": "72pt",
+   "yen": 36.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1901353/",
    "condition": "新規会員登録完了(インストール後、条件達成)",
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 07:28",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 19:33",
+   "renewed_from": "62pt"
   },
   "warau:207957": {
    "site": "warau",
@@ -730752,7 +730757,7 @@
    "yen": 450.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1901508/",
-   "condition": "新規アプリインストール後、初回起動し第14の城【近未来と標的の城】クリア",
+   "condition": "新規アプリインストール後、初回起動し、第14の城【天象儀と魔術の城】クリア",
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 18:46",
@@ -731783,15 +731788,17 @@
    "site": "chobirich",
    "deal_id": "1901522",
    "title": "ブレードウォー（多段階）（iOS）（アプリdeちょ～リッチ）",
-   "points_text": "最大6804pt",
-   "yen": 3402.0,
+   "points_text": "最大7285pt",
+   "yen": 3642.5,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1901522/",
    "condition": "遷移先の「アプリdeちょ～リッチ」ページをご確認ください",
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 07:28",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 19:33",
+   "renewed_from": "最大6804pt"
   },
   "warau:208089": {
    "site": "warau",
@@ -732898,6 +732905,48 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "chobirich:1901618": {
+   "site": "chobirich",
+   "deal_id": "1901618",
+   "title": "ウォリアーマスター！",
+   "points_text": "最大1320pt",
+   "yen": 660.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901618/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 19:33",
+   "last_seen": "2026-10-20"
+  },
+  "chobirich:1901610": {
+   "site": "chobirich",
+   "deal_id": "1901610",
+   "title": "LINE：ディズニーツムツム",
+   "points_text": "288pt",
+   "yen": 144.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901610/",
+   "condition": "30日以内にプレイヤーレベル20到達(インストール後、条件達成)",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 19:33",
+   "last_seen": "2026-10-20"
+  },
+  "chobirich:1828895": {
+   "site": "chobirich",
+   "deal_id": "1828895",
+   "title": "Shufoo!シュフー",
+   "points_text": "77pt",
+   "yen": 38.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1828895/",
+   "condition": "無料会員登録(インストール後、条件達成)",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 19:33",
    "last_seen": "2026-10-20"
   }
  }

@@ -147325,7 +147325,7 @@
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-25",
+   "last_seen": "2026-10-21",
    "backfill": true,
    "backfill_dated": true
   },
@@ -229202,7 +229202,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-21",
+   "last_seen": "2026-10-21",
    "backfill_dated": true
   },
   "point_island:0410418": {
@@ -240705,7 +240705,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-10-21",
    "backfill_dated": true
   },
   "point_stadium:0410418": {
@@ -252254,8 +252254,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-15",
-   "renewed_at": "2026-09-08 08:00",
+   "last_seen": "2026-10-21",
+   "renewed_at": "2026-10-21 08:00",
    "backfill_dated": true
   },
   "nyandaful:0410418": {
@@ -319783,7 +319783,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-10-21"
   },
   "pointier:16745": {
    "site": "pointier",
@@ -733294,7 +733294,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   "warau:208126": {
    "site": "warau",

@@ -81148,7 +81148,7 @@
    "condition": "回線開通",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "point_island:mHIM99": {
    "site": "point_island",
@@ -81161,7 +81161,7 @@
    "condition": "口座開設後取引",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "point_island:j4174": {
    "site": "point_island",
@@ -82176,7 +82176,7 @@
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-20",
    "renew_hold": true
   },
   "point_land:11142265": {
@@ -146798,7 +146798,7 @@
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "backfill": true,
    "backfill_dated": true,
    "renewed_at": "2026-09-29 13:00",
@@ -209045,16 +209045,18 @@
    "site": "amefri",
    "deal_id": "138015",
    "title": "くらしノート懸賞キャンペーン",
-   "points_text": "1,500pt",
-   "yen": 150.0,
+   "points_text": "2,250pt",
+   "yen": 225.0,
    "percent": null,
    "url": "https://www.amefri.net/detail/id/138015",
    "condition": "懸賞応募完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
-   "site_new": false
+   "last_seen": "2026-10-20",
+   "site_new": false,
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "1,500pt"
   },
   "amefri:138017": {
    "site": "amefri",
@@ -220804,7 +220806,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:32609": {
    "site": "chanceit",
@@ -220818,7 +220820,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:32885": {
    "site": "chanceit",
@@ -220846,7 +220848,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:33187": {
    "site": "chanceit",
@@ -220902,7 +220904,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:33203": {
    "site": "chanceit",
@@ -220986,7 +220988,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:33198": {
    "site": "chanceit",
@@ -221098,7 +221100,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:12463": {
    "site": "chanceit",
@@ -221112,7 +221114,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:25518": {
    "site": "chanceit",
@@ -222070,15 +222072,17 @@
    "site": "chanceit",
    "deal_id": "33091",
    "title": "おせちの千賀屋",
-   "points_text": "35pt",
-   "yen": 3.5,
+   "points_text": "→ 56pt",
+   "yen": 5.6,
    "percent": null,
    "url": "https://www.chance.com/items/detail.jsp?id=33091",
    "condition": "条件：100円ごと 加算：約45日後",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "35pt"
   },
   "chanceit:33084": {
    "site": "chanceit",
@@ -223730,7 +223734,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:32902": {
    "site": "chanceit",
@@ -224038,7 +224042,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:32880": {
    "site": "chanceit",
@@ -226102,15 +226106,17 @@
    "site": "chanceit",
    "deal_id": "32463",
    "title": "ベルーナグルメ",
-   "points_text": "10pt",
-   "yen": 1.0,
+   "points_text": "→ 46pt",
+   "yen": 4.6,
    "percent": null,
    "url": "https://www.chance.com/items/detail.jsp?id=32463",
    "condition": "条件：100円ごと 加算：約45日後",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "10pt"
   },
   "chanceit:32457": {
    "site": "chanceit",
@@ -226488,7 +226494,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:32208": {
    "site": "chanceit",
@@ -227000,7 +227006,7 @@
    "site": "chanceit",
    "deal_id": "19261",
    "title": "三越伊勢丹オンラインストア",
-   "points_text": "12pt",
+   "points_text": "-",
    "yen": 1.2,
    "percent": null,
    "url": "https://www.chance.com/items/detail.jsp?id=19261",
@@ -227008,7 +227014,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:29332": {
    "site": "chanceit",
@@ -227148,7 +227154,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:25455": {
    "site": "chanceit",
@@ -227988,7 +227994,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-20"
   },
   "chanceit:20299": {
    "site": "chanceit",
@@ -228086,8 +228092,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
-   "renewed_at": "2026-10-15 01:00",
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
    "renewed_from": "10,345円"
   },
   "entamenet:1863714": {
@@ -228819,7 +228825,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-20",
    "renew_hold": true
   },
   "point_island:11141552": {
@@ -228878,7 +228884,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "backfill_dated": true
   },
   "point_island:s19683": {
@@ -240554,7 +240560,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "point_stadium:11129642": {
    "site": "point_stadium",
@@ -240568,7 +240574,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-20",
    "backfill_dated": true
   },
   "point_stadium:mSMRI11": {
@@ -240816,7 +240822,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "point_stadium:11139602": {
    "site": "point_stadium",
@@ -251909,7 +251915,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-12 21:00"
   },
   "nyandaful:0411479": {
@@ -251940,7 +251946,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-12 08:00"
   },
   "nyandaful:0411286": {
@@ -252498,7 +252504,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-11 08:00"
   },
   "nyandaful:11148743": {
@@ -254530,7 +254536,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-10-11 21:00"
   },
   "nyandaful:d2043": {
@@ -331064,7 +331070,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 08:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "powl:3718": {
    "site": "powl",
@@ -338129,7 +338135,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-20",
    "site_new": false,
    "delisted_at": "2026-08-18",
    "renew_hold": true
@@ -371149,7 +371155,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 01:00",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-20",
    "site_new": false,
    "renew_hold": true
   },
@@ -377868,7 +377874,7 @@
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
-   "last_seen": "2026-09-09"
+   "last_seen": "2026-10-20"
   },
   "entamenet:5s00000027662001": {
    "site": "entamenet",
@@ -386678,7 +386684,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 13:00",
-   "last_seen": "2026-09-18"
+   "last_seen": "2026-10-20"
   },
   "chanceit:33354": {
    "site": "chanceit",
@@ -392954,7 +392960,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "point_museum:k4286": {
    "site": "point_museum",
@@ -402472,7 +402478,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-09-01 01:00",
    "renewed_from": "1,500pt"
   },
@@ -472595,7 +472601,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472627,7 +472633,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472643,7 +472649,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473535,7 +473541,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473551,7 +473557,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474575,7 +474581,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474591,7 +474597,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -500175,7 +500181,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 21:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "point_land:0411283": {
    "site": "point_land",
@@ -503434,8 +503440,8 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 21:00",
-   "last_seen": "2026-10-16",
-   "renewed_at": "2026-10-15 01:00",
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
    "renewed_from": "10,345円"
   },
   "au_point:7:834570905": {
@@ -641755,8 +641761,8 @@
    "site": "gendama",
    "deal_id": "1382635",
    "title": "【全国申込OK！WEBで完結】静岡銀行カードローン「SELECA」",
-   "points_text": "315,000pt",
-   "yen": 31500.0,
+   "points_text": "401,000pt",
+   "yen": 40100.0,
    "percent": null,
    "url": "https://www.gendama.jp/service/item/1382635",
    "condition": "新規カード発行＋振込融資＋90日以上の残高保有",
@@ -641765,7 +641771,9 @@
    "first_seen_at": "2026-09-17 15:00",
    "last_seen": "2026-10-20",
    "backfill": true,
-   "backfill_dated": true
+   "backfill_dated": true,
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "315,000pt"
   },
   "gendama:1496485": {
    "site": "gendama",
@@ -683741,7 +683749,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 17:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "point_museum:s27389": {
    "site": "point_museum",
@@ -683755,7 +683763,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 17:00",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-20"
   },
   "point_museum:1365026": {
    "site": "point_museum",
@@ -693108,7 +693116,7 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 01:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "poikatsu_club:21211": {
    "site": "poikatsu_club",
@@ -695919,7 +695927,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 01:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-20"
   },
   "pointtown:8214": {
    "site": "pointtown",
@@ -699195,7 +699203,7 @@
    "seeded": false,
    "first_seen": "2026-10-03",
    "first_seen_at": "2026-10-03 01:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-20"
   },
   "pointtown:11083": {
    "site": "pointtown",
@@ -699209,7 +699217,7 @@
    "seeded": false,
    "first_seen": "2026-10-03",
    "first_seen_at": "2026-10-03 01:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-20"
   },
   "warau:207480": {
    "site": "warau",
@@ -715181,7 +715189,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "au_point:8:1705": {
    "site": "au_point",
@@ -721532,7 +721540,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 15:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-20"
   },
   "fruitmail:18550": {
    "site": "fruitmail",
@@ -724104,15 +724112,17 @@
    "site": "tamaru_mall",
    "deal_id": "2853",
    "title": "プロパンガス料金の見直し相談【エネポケ】",
-   "points_text": "12,000コイン",
-   "yen": 12000.0,
+   "points_text": "30,000コイン",
+   "yen": 30000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2853",
    "condition": "新規切替完了",
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 15:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "12,000コイン"
   },
   "poikatsu_club:21454": {
    "site": "poikatsu_club",
@@ -725494,15 +725504,17 @@
    "site": "entamenet",
    "deal_id": "5s00000027749001",
    "title": "プロパンガス料金を見直して最大2万円還元！「エネポケ」",
-   "points_text": "12,750円",
-   "yen": 12750.0,
+   "points_text": "29,750円",
+   "yen": 29750.0,
    "percent": null,
    "url": "https://www.yentame.net/detailad.asp?aid=5s00000027749001",
    "condition": "新規切替完了",
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 21:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "12,750円"
   },
   "powl:42832": {
    "site": "powl",
@@ -726664,7 +726676,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 15:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "nyandaful:s27678": {
    "site": "nyandaful",
@@ -727950,15 +727962,17 @@
    "site": "sugutama",
    "deal_id": "41915",
    "title": "プロパンガス料金を見直して最大2万円還元！【エネポケ】",
-   "points_text": "12,000mile",
-   "yen": 6000.0,
+   "points_text": "28,000mile",
+   "yen": 14000.0,
    "percent": null,
    "url": "https://www.netmile.co.jp/sugutama/ads/41915",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-20",
+   "renewed_at": "2026-10-20 17:00",
+   "renewed_from": "12,000mile"
   },
   "sugutama:41913": {
    "site": "sugutama",
@@ -732534,6 +732548,356 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 15:16",
+   "last_seen": "2026-10-20"
+  },
+  "warau:208110": {
+   "site": "warau",
+   "deal_id": "208110",
+   "title": "【SKYFLAG】Meowtile: Cat Match Puzzle（StepUp）",
+   "points_text": "17,929pt",
+   "yen": 17929.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208110",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "warau:208105": {
+   "site": "warau",
+   "deal_id": "208105",
+   "title": "【SKYFLAG】Wooly Sort - Unravel Yarn（StepUp）",
+   "points_text": "18,890pt",
+   "yen": 18890.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208105",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "warau:208106": {
+   "site": "warau",
+   "deal_id": "208106",
+   "title": "AEON Pay - イオンペイ（新規会員登録完了）",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208106",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "warau:208107": {
+   "site": "warau",
+   "deal_id": "208107",
+   "title": "AEON Pay - イオンペイ（新規会員登録完了）",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208107",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "warau:207251": {
+   "site": "warau",
+   "deal_id": "207251",
+   "title": "オリコビジネスカード EX Gold for Biz M",
+   "points_text": "1,500pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=207251",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "warau:207252": {
+   "site": "warau",
+   "deal_id": "207252",
+   "title": "オリコビジネスカード EX Gold for Biz S",
+   "points_text": "1,500pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=207252",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "amefri:141696": {
+   "site": "amefri",
+   "deal_id": "141696",
+   "title": "Block Puzzle: Blast Master（多段階）【Android】",
+   "points_text": "179,190pt",
+   "yen": 17919.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141696",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "amefri:141695": {
+   "site": "amefri",
+   "deal_id": "141695",
+   "title": "Meowtile: Cat Match Puzzle（多段階）【Android】",
+   "points_text": "179,190pt",
+   "yen": 17919.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141695",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "amefri:141694": {
+   "site": "amefri",
+   "deal_id": "141694",
+   "title": "Wooly Sort - Unravel Yarn（多段階）【Android】",
+   "points_text": "188,810pt",
+   "yen": 18881.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141694",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "chanceit:33090": {
+   "site": "chanceit",
+   "deal_id": "33090",
+   "title": "大人気のoisixおせち",
+   "points_text": "→ 42pt",
+   "yen": 4.2,
+   "percent": null,
+   "url": "https://www.chance.com/items/detail.jsp?id=33090",
+   "condition": "条件：100円ごと 加算：約45日後",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "entamenet:11158382": {
+   "site": "entamenet",
+   "deal_id": "11158382",
+   "title": "USEN光01 XG 「10GBプラン」",
+   "points_text": "9,340円",
+   "yen": 9340.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=11158382",
+   "condition": "新規申込後、開通完了",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "au_point:8:1724": {
+   "site": "au_point",
+   "deal_id": "8:1724",
+   "title": "Phase 10：ワールドツアー",
+   "points_text": "120P",
+   "yen": 120.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1724",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "au_point:8:1723": {
+   "site": "au_point",
+   "deal_id": "8:1723",
+   "title": "Color Bolts Sort",
+   "points_text": "3720P",
+   "yen": 3720.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1723",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "point_island:11158382": {
+   "site": "point_island",
+   "deal_id": "11158382",
+   "title": "USEN光01 XG 『10GBプラン』",
+   "points_text": "85000ポイント",
+   "yen": 8500.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=11158382",
+   "condition": "回線開通",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "point_stadium:11158382": {
+   "site": "point_stadium",
+   "deal_id": "11158382",
+   "title": "USEN光01 XG 『10GBプラン』",
+   "points_text": "85000ポイント",
+   "yen": 8500.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=11158382",
+   "condition": "回線開通で",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "point_land:11158382": {
+   "site": "point_land",
+   "deal_id": "11158382",
+   "title": "USEN光01 XG 『10GBプラン』",
+   "points_text": "85000ポイント",
+   "yen": 8500.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=11158382",
+   "condition": "回線開通",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "nyandaful:11158382": {
+   "site": "nyandaful",
+   "deal_id": "11158382",
+   "title": "USEN光01 XG 『10GBプラン』",
+   "points_text": "85,000pt",
+   "yen": 8500.0,
+   "percent": null,
+   "url": "https://www.nyandaful.jp/p_detail.asp?m=11158382",
+   "condition": "回線開通で",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "powl:43373": {
+   "site": "powl",
+   "deal_id": "43373",
+   "title": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "points_text": "29,000pt",
+   "yen": 2900.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43373",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "powl:43329": {
+   "site": "powl",
+   "deal_id": "43329",
+   "title": "デコりMAX(550円コース)",
+   "points_text": "3,200pt",
+   "yen": 320.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43329",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "powl:43372": {
+   "site": "powl",
+   "deal_id": "43372",
+   "title": "BEYOND FREE（ビヨンドフリー）",
+   "points_text": "17,760pt",
+   "yen": 1776.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43372",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "point_hiroba:5738": {
+   "site": "point_hiroba",
+   "deal_id": "5738",
+   "title": "三井住友カード プラチナプリファード ハローキティ デザイン",
+   "points_text": "5,950 P",
+   "yen": 5950.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5738",
+   "condition": "カード発行",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "point_hiroba:5737": {
+   "site": "point_hiroba",
+   "deal_id": "5737",
+   "title": "総合電子書籍ストア【楽天Kobo】※リピート購入可※",
+   "points_text": "1.5%",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5737",
+   "condition": "お買い物",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "point_museum:11158382": {
+   "site": "point_museum",
+   "deal_id": "11158382",
+   "title": "USEN光01 XG 『10GBプラン』",
+   "points_text": "85,000pt",
+   "yen": 8500.0,
+   "percent": null,
+   "url": "https://www.point-museum.com/ct.asp?adv=11158382",
+   "condition": "回線開通",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "poikatsu_club:21538": {
+   "site": "poikatsu_club",
+   "deal_id": "21538",
+   "title": "Block Puzzle: Blast Master（Android）",
+   "points_text": "19677pt",
+   "yen": 19677.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21538",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/10/20以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：レベル6クリア\n②：レベル15クリア\n③：レベル35クリア\n④：レベル60クリア\n⑤：レベル110クリア\n⑥：レベル160クリア\n⑦：レベル220クリア\n⑧：レベル300クリア\n⑨：レベル400クリア\n⑩：レベル520クリア\n⑪：レベル800クリア\n⑫：レベル1000クリア\n⑬：レベル2000クリア\n⑭：レベル5000クリア\n⑮：レベル10000クリア\n⑯：レベル20000クリア\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n条件達成がわかるホーム画面(キャプチャ①)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
+   "last_seen": "2026-10-20"
+  },
+  "poikatsu_club:21537": {
+   "site": "poikatsu_club",
+   "deal_id": "21537",
+   "title": "Meowtile: Cat Match Puzzle（Android）",
+   "points_text": "19677pt",
+   "yen": 19677.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21537",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/10/20以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：レベル6クリア\n②：レベル15クリア\n③：レベル35クリア\n④：レベル60クリア\n⑤：レベル110クリア\n⑥：レベル160クリア\n⑦：レベル220クリア\n⑧：レベル300クリア\n⑨：レベル400クリア\n⑩：レベル520クリア\n⑪：レベル800クリア\n⑫：レベル1000クリア\n⑬：レベル2000クリア\n⑭：レベル5000クリア\n⑮：レベル10000クリア\n⑯：レベル20000クリア\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n条件達成がわかるホーム画面(キャプチャ①)とプレイ画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］を表示\nキャプチャ②：［アプリを起動］⇒［ホーム画面］の［LEVEL］をタップ⇒［プレイ画面］を表示\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-10-20",
+   "first_seen_at": "2026-10-20 17:00",
    "last_seen": "2026-10-20"
   }
  }

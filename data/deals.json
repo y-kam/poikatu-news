@@ -293163,7 +293163,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-21"
   },
   "moppy:159931": {
    "site": "moppy",
@@ -293530,7 +293530,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-21"
   },
   "moppy:159218": {
    "site": "moppy",
@@ -294088,7 +294088,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-21",
    "site_new": false
   },
   "moppy:160804": {
@@ -325063,17 +325063,18 @@
    "site": "moppy",
    "deal_id": "157281",
    "title": "良縁自由が丘の母[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157281",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-09-14",
+   "last_seen": "2026-10-21",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-10-21 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157280": {
    "site": "moppy",
@@ -325102,7 +325103,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-21",
    "site_new": false
   },
   "moppy:157276": {
@@ -471781,17 +471782,19 @@
    "site": "moppy",
    "deal_id": "156252",
    "title": "365誕生日大占術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156252",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-14",
+   "last_seen": "2026-10-21",
    "backfill_dated": true,
-   "site_new": true
+   "site_new": true,
+   "renewed_at": "2026-10-21 05:00",
+   "renewed_from": "400P"
   },
   "moppy:161057": {
    "site": "moppy",
@@ -471885,7 +471888,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-21",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472769,7 +472772,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-21",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-15 01:00",
@@ -472813,17 +472816,19 @@
    "site": "moppy",
    "deal_id": "145228",
    "title": "改運姓名術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145228",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-14",
+   "last_seen": "2026-10-21",
    "backfill_dated": true,
-   "site_new": true
+   "site_new": true,
+   "renewed_at": "2026-10-21 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145284": {
    "site": "moppy",
@@ -481171,7 +481176,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "backfill_dated": true,
    "site_new": false
   },
@@ -500724,16 +500729,18 @@
    "site": "moppy",
    "deal_id": "157255",
    "title": "風水芸人◆出雲阿国[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157255",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-09-10",
-   "site_new": false
+   "last_seen": "2026-10-21",
+   "site_new": false,
+   "renewed_at": "2026-10-21 05:00",
+   "renewed_from": "400P"
   },
   "moppy:162048": {
    "site": "moppy",
@@ -733265,7 +733272,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   "warau:208128": {
    "site": "warau",
@@ -734209,6 +734216,34 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 01:00",
+   "last_seen": "2026-10-21"
+  },
+  "moppy:162331": {
+   "site": "moppy",
+   "deal_id": "162331",
+   "title": "LINE：ディズニーツムツム",
+   "points_text": "342P",
+   "yen": 342.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162331",
+   "condition": "30日以内にプレイヤーレベル20到達",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 05:00",
+   "last_seen": "2026-10-21"
+  },
+  "moppy:162328": {
+   "site": "moppy",
+   "deal_id": "162328",
+   "title": "Phase 10：ワールドツアー",
+   "points_text": "285P",
+   "yen": 285.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162328",
+   "condition": "7日目にゲームをプレイ",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 05:00",
    "last_seen": "2026-10-21"
   }
  }

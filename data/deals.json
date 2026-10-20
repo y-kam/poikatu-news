@@ -51645,15 +51645,16 @@
    "site": "rebates",
    "deal_id": "25058",
    "title": "DECOチョコ",
-   "points_text": "6.0%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/decocho.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-20",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renew_hold": true
   },
   "rebates:24421": {
    "site": "rebates",
@@ -51673,16 +51674,17 @@
    "site": "rebates",
    "deal_id": "14700",
    "title": "DHC",
-   "points_text": "2.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/dhc",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-20",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-20 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:24497": {
    "site": "rebates",
@@ -59263,15 +59265,16 @@
    "site": "rebates",
    "deal_id": "21062",
    "title": "カステルバジャック",
-   "points_text": "5.0%",
+   "points_text": "3.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.5,
    "url": "https://www.rebates.jp/castelbajac.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-20",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renew_hold": true
   },
   "rebates:14819": {
    "site": "rebates",
@@ -61884,17 +61887,16 @@
    "site": "rebates",
    "deal_id": "14708",
    "title": "フェリシモ",
-   "points_text": "7.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 7.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/felissimo",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-20",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-06 10:00",
-   "renewed_from": "3.0%"
+   "renew_hold": true
   },
   "rebates:18658": {
    "site": "rebates",
@@ -62117,16 +62119,17 @@
    "site": "rebates",
    "deal_id": "14751",
    "title": "プーマ公式ストア",
-   "points_text": "4.5%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/puma-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-20",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-10-20 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:24896": {
    "site": "rebates",
@@ -481144,7 +481147,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -504461,7 +504464,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 11:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "renewed_at": "2026-09-17 08:00"
   },
   "poikatsu_club:20898": {
@@ -715780,7 +715783,7 @@
   "nifty_point:0001282922F0": {
    "site": "nifty_point",
    "deal_id": "0001282922F0",
-   "title": "【新規登録キャンペーンは10/19まで】AEON Pay（イオンペイ）Android",
+   "title": "AEON Pay（イオンペイ）Android",
    "points_text": "190P",
    "yen": 190.0,
    "percent": null,
@@ -717261,7 +717264,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 17:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "amefri:141418": {
    "site": "amefri",
@@ -719403,7 +719406,7 @@
    "seeded": false,
    "first_seen": "2026-10-10",
    "first_seen_at": "2026-10-10 10:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "site_new": false,
    "renewed_at": "2026-10-19 01:00"
   },
@@ -721796,7 +721799,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 15:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "poikatsu_club:21424": {
    "site": "poikatsu_club",
@@ -721810,7 +721813,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 15:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "poikatsu_club:21426": {
    "site": "poikatsu_club",
@@ -721824,7 +721827,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 15:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "fruitmail:18551": {
    "site": "fruitmail",
@@ -729850,7 +729853,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 15:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "dead_streak": 1
   },
   "warau:208042": {
@@ -730425,7 +730428,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 17:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   "warau:208059": {
    "site": "warau",

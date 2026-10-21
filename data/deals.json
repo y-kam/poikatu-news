@@ -48269,7 +48269,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "condition": "",
    "renew_hold": true
   },
@@ -48465,8 +48465,8 @@
    "site": "pointincome",
    "deal_id": "153568",
    "title": "povo2.0",
-   "points_text": "33,000pt",
-   "yen": 3300.0,
+   "points_text": "33,500pt",
+   "yen": 3350.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153568/",
    "seeded": false,
@@ -48474,7 +48474,8 @@
    "last_seen": "2026-10-21",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renew_hold": true
+   "renewed_at": "2026-10-21 15:03",
+   "renewed_from": "33,000pt"
   },
   "pointincome:152609": {
    "site": "pointincome",
@@ -177827,7 +177828,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-21"
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -287954,7 +287955,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-10-16 14:03",
    "renewed_from": "5,000pt"
   },
@@ -288041,7 +288042,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "renew_hold": true
   },
   "pointincome:154791": {
@@ -288072,7 +288073,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-10-16 14:03",
    "renewed_from": "50,000pt"
   },
@@ -291468,7 +291469,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 11:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   "warau:204437": {
    "site": "warau",
@@ -320874,7 +320875,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 21:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-10-09 19:22",
    "renewed_from": "70,000pt"
   },
@@ -322144,7 +322145,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 05:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-10-03 19:31",
    "renewed_from": "125,000pt"
   },
@@ -329345,7 +329346,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 17:00",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-21",
    "delisted_at": "2026-09-01"
   },
   "pointincome:147760": {
@@ -344821,7 +344822,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 05:00",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-09-24 18:49",
    "renewed_from": "390,000pt"
   },
@@ -351241,7 +351242,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-09-18 05:02",
    "renewed_from": "12,000pt"
   },
@@ -358230,7 +358231,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-21"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -386225,7 +386226,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 10:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-10-19 07:29",
    "renewed_from": "1,000pt"
   },
@@ -428009,7 +428010,7 @@
    "seeded": false,
    "first_seen": "2026-09-06",
    "first_seen_at": "2026-09-06 08:21",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-21",
    "renewed_at": "2026-09-10 19:58",
    "renewed_from": "30,000pt"
   },
@@ -735048,6 +735049,118 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 13:00",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901429": {
+   "site": "chobirich",
+   "deal_id": "1901429",
+   "title": "セイハ英語学院",
+   "points_text": "2,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901429/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901679": {
+   "site": "chobirich",
+   "deal_id": "1901679",
+   "title": "Coin Master - Board Adventure（アプリランド）",
+   "points_text": "最大4529pt",
+   "yen": 2264.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901679/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901667": {
+   "site": "chobirich",
+   "deal_id": "1901667",
+   "title": "スワイプ・イット：木製ボードパズル (Swipe It : Board Wooden Puzzle)（アプリランド）",
+   "points_text": "最大3460pt",
+   "yen": 1730.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901667/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901665": {
+   "site": "chobirich",
+   "deal_id": "1901665",
+   "title": "ミラポイ",
+   "points_text": "48pt",
+   "yen": 24.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901665/",
+   "condition": "新規アプリインストール後、1日以内に初回起動",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901662": {
+   "site": "chobirich",
+   "deal_id": "1901662",
+   "title": "間違い探し 海の生き物（アプリランド）",
+   "points_text": "最大1536pt",
+   "yen": 768.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901662/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901652": {
+   "site": "chobirich",
+   "deal_id": "1901652",
+   "title": "Ruler Match: タイルパズル",
+   "points_text": "最大3527pt",
+   "yen": 1763.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901652/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "chobirich:1901650": {
+   "site": "chobirich",
+   "deal_id": "1901650",
+   "title": "Spades - Classic Card Games",
+   "points_text": "最大734pt",
+   "yen": 367.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901650/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
+   "last_seen": "2026-10-21"
+  },
+  "pointincome:150673": {
+   "site": "pointincome",
+   "deal_id": "150673",
+   "title": "持ち家計画　家族来場キャンペーン",
+   "points_text": "120,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/150673/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 15:03",
    "last_seen": "2026-10-21"
   }
  }

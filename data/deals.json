@@ -100756,15 +100756,17 @@
    "site": "powl",
    "deal_id": "35740",
    "title": "東京ガス【基本プラン】",
-   "points_text": "10,000pt",
-   "yen": 1000.0,
+   "points_text": "14,000pt",
+   "yen": 1400.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/35740",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-21",
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-10-21 11:00",
+   "renewed_from": "10,000pt"
   },
   "powl:17001": {
    "site": "powl",
@@ -108650,7 +108652,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "renew_hold": true,
    "seed_filled": true,
    "delisted_at": "2026-09-17"
@@ -143655,7 +143657,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "renew_hold": true,
    "seed_filled": true
   },
@@ -219232,16 +219234,18 @@
    "site": "amefri",
    "deal_id": "126533",
    "title": "【無料】Club toto",
-   "points_text": "2,500pt",
-   "yen": 250.0,
+   "points_text": "2,700pt",
+   "yen": 270.0,
    "percent": null,
    "url": "https://www.amefri.net/detail/id/126533",
    "condition": "新規無料会員登録完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
-   "site_new": false
+   "last_seen": "2026-10-21",
+   "site_new": false,
+   "renewed_at": "2026-10-21 11:00",
+   "renewed_from": "2,500pt"
   },
   "amefri:125157": {
    "site": "amefri",
@@ -419738,7 +419742,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 15:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-21",
    "delisted_at": "2026-10-19"
   },
   "kurashiru_reward:18474": {
@@ -680479,15 +680483,17 @@
    "site": "au_point",
    "deal_id": "8:57",
    "title": "TikTok",
-   "points_text": "544P",
-   "yen": 544.0,
+   "points_text": "680P",
+   "yen": 680.0,
    "percent": null,
    "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=57",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-28",
    "first_seen_at": "2026-09-28 01:00",
-   "last_seen": "2026-09-28"
+   "last_seen": "2026-10-21",
+   "renewed_at": "2026-10-21 11:00",
+   "renewed_from": "544P"
   },
   "chobirich:1830082": {
    "site": "chobirich",
@@ -685967,7 +685973,7 @@
    "seeded": false,
    "first_seen": "2026-09-30",
    "first_seen_at": "2026-09-30 17:00",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-21"
   },
   "sugutama:41736": {
    "site": "sugutama",
@@ -721797,7 +721803,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 15:00",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "site_new": false,
    "renewed_at": "2026-10-20 01:00"
   },
@@ -723665,7 +723671,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 13:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   "poikatsu_club:21448": {
    "site": "poikatsu_club",
@@ -734408,6 +734414,34 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 10:00",
+   "last_seen": "2026-10-21"
+  },
+  "warau:208138": {
+   "site": "warau",
+   "deal_id": "208138",
+   "title": "タイトーオンラインクレーン（新規会員登録）",
+   "points_text": "80pt",
+   "yen": 80.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208138",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 11:00",
+   "last_seen": "2026-10-21"
+  },
+  "warau:208139": {
+   "site": "warau",
+   "deal_id": "208139",
+   "title": "タイトーオンラインクレーン（新規会員登録）",
+   "points_text": "80pt",
+   "yen": 80.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208139",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-21",
+   "first_seen_at": "2026-10-21 11:00",
    "last_seen": "2026-10-21"
   }
  }

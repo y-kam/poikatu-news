@@ -293378,7 +293378,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-22"
   },
   "moppy:159670": {
    "site": "moppy",
@@ -293511,7 +293511,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "moppy:161651": {
@@ -296002,7 +296002,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:138723": {
    "site": "amefri",
@@ -325005,7 +325005,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-22",
    "site_new": true,
    "delisted_at": "2026-09-04",
    "renewed_at": "2026-10-15 01:00",
@@ -325041,7 +325041,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "delisted_at": "2026-09-09",
    "renewed_at": "2026-10-15 01:00",
@@ -325086,33 +325086,35 @@
    "site": "moppy",
    "deal_id": "157258",
    "title": "祈祷師びびこ (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157258",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-22",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-10-22 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157259": {
    "site": "moppy",
    "deal_id": "157259",
    "title": "洗心・比叡山の母 (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157259",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-10-22",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-10-22 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157264": {
    "site": "moppy",
@@ -350750,7 +350752,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "renew_hold": true
   },
@@ -471681,7 +471683,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "backfill_dated": true,
    "site_new": false
   },
@@ -480939,7 +480941,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-22",
    "backfill_dated": true
   },
   "moppy:159287": {
@@ -500750,7 +500752,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:157256": {
@@ -509863,16 +509865,18 @@
    "site": "moppy",
    "deal_id": "157243",
    "title": "奇跡の力◆上地一美[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157243",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-09-15",
-   "site_new": false
+   "last_seen": "2026-10-22",
+   "site_new": false,
+   "renewed_at": "2026-10-22 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157244": {
    "site": "moppy",
@@ -729929,7 +729933,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 13:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "poikatsu_club:21495": {
    "site": "poikatsu_club",
@@ -736470,6 +736474,20 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 01:00",
+   "last_seen": "2026-10-22"
+  },
+  "moppy:162327": {
+   "site": "moppy",
+   "deal_id": "162327",
+   "title": "Color Bolts Sort",
+   "points_text": "8,835P",
+   "yen": 8835.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162327",
+   "condition": "ユーザーレベル30に到達",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 05:00",
    "last_seen": "2026-10-22"
   }
  }

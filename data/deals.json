@@ -48517,7 +48517,7 @@
    "condition": "",
    "renewed_at": "2026-10-05 06:13",
    "renewed_from": "220,000pt",
-   "dead_streak": 1
+   "delisted_at": "2026-10-21"
   },
   "pointincome:144260": {
    "site": "pointincome",
@@ -398090,7 +398090,7 @@
    "first_seen": "2026-08-22",
    "first_seen_at": "2026-08-22 09:14",
    "last_seen": "2026-08-26",
-   "dead_streak": 1
+   "delisted_at": "2026-10-21"
   },
   "point_land:j4081": {
    "site": "point_land",
@@ -409415,7 +409415,8 @@
    "first_seen": "2026-08-29",
    "first_seen_at": "2026-08-29 07:30",
    "last_seen": "2026-09-01",
-   "renew_hold": true
+   "renew_hold": true,
+   "dead_streak": 1
   },
   "chobirich:1898068": {
    "site": "chobirich",
@@ -719735,7 +719736,8 @@
    "seeded": false,
    "first_seen": "2026-10-12",
    "first_seen_at": "2026-10-12 08:41",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-15",
+   "dead_streak": 1
   },
   "chobirich:1900955": {
    "site": "chobirich",
@@ -723137,7 +723139,8 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 07:26",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-19",
+   "dead_streak": 1
   },
   "gmo_poikatsu:13296": {
    "site": "gmo_poikatsu",
@@ -725226,7 +725229,7 @@
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 19:45",
    "last_seen": "2026-10-20",
-   "dead_streak": 1
+   "delisted_at": "2026-10-21"
   },
   "chobirich:1901285": {
    "site": "chobirich",
@@ -733186,7 +733189,8 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 19:33",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-21",
+   "dead_streak": 1
   },
   "chobirich:1828895": {
    "site": "chobirich",

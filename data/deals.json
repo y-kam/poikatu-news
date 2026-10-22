@@ -79822,7 +79822,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-07-16 11:00",
    "renewed_from": "14,000Pt"
   },
@@ -79837,7 +79837,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "getmoney:67043": {
@@ -79851,7 +79851,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67041": {
    "site": "getmoney",
@@ -79864,7 +79864,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67035": {
    "site": "getmoney",
@@ -79905,7 +79905,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "delisted_at": "2026-08-03",
    "renewed_at": "2026-09-02 17:00",
    "renewed_from": "54,000Pt"
@@ -79921,7 +79921,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67028": {
    "site": "getmoney",
@@ -79934,7 +79934,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67027": {
    "site": "getmoney",
@@ -79947,7 +79947,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-08-13 21:00",
    "renewed_from": "1,000Pt"
   },
@@ -79962,7 +79962,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67024": {
    "site": "getmoney",
@@ -79989,7 +79989,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:51957": {
    "site": "getmoney",
@@ -80030,7 +80030,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "getmoney:67017": {
@@ -80058,7 +80058,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-09-17 15:00",
    "renewed_from": "40,000Pt"
   },
@@ -81261,7 +81261,7 @@
    "condition": "買い物",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-02"
+   "last_seen": "2026-10-22"
   },
   "point_island:1903020": {
    "site": "point_island",
@@ -81817,7 +81817,7 @@
    "condition": "買い物で 100円毎に",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-10-22"
   },
   "point_stadium:1903020": {
    "site": "point_stadium",
@@ -82237,7 +82237,7 @@
    "condition": "買い物",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-26"
+   "last_seen": "2026-10-22"
   },
   "point_land:1903020": {
    "site": "point_land",
@@ -82758,8 +82758,8 @@
    "condition": "P 100円購入毎に",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-29",
-   "renewed_at": "2026-09-23 08:00"
+   "last_seen": "2026-10-22",
+   "renewed_at": "2026-10-22 21:00"
   },
   "nyandaful:1903020": {
    "site": "nyandaful",
@@ -83940,7 +83940,7 @@
    "condition": "新規査定完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-22"
   },
   "kurashiru_reward:17138": {
    "site": "kurashiru_reward",
@@ -83953,7 +83953,7 @@
    "condition": "新規購入 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "kurashiru_reward:17134": {
@@ -83999,7 +83999,7 @@
    "condition": "新規カード発券 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-07"
+   "last_seen": "2026-10-22"
   },
   "kurashiru_reward:17070": {
    "site": "kurashiru_reward",
@@ -84026,7 +84026,7 @@
    "condition": "新規カード発行+ショッピング利用 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "kurashiru_reward:17051": {
@@ -84040,7 +84040,7 @@
    "condition": "新規見積完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "120,000コイン"
   },
@@ -84083,7 +84083,7 @@
    "condition": "新規WEB申込後、60日以内に22,000円（税込）以上の施術契約 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-06"
+   "last_seen": "2026-10-22"
   },
   "kurashiru_reward:17011": {
    "site": "kurashiru_reward",
@@ -102328,7 +102328,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "seed_filled": true
   },
   "powl:18016": {
@@ -204713,7 +204713,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66994": {
    "site": "getmoney",
@@ -204727,7 +204727,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:61136": {
    "site": "getmoney",
@@ -204785,7 +204785,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-10-15 15:00",
    "renewed_from": "91,000Pt"
   },
@@ -204816,7 +204816,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:63063": {
    "site": "getmoney",
@@ -204845,7 +204845,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66970": {
    "site": "getmoney",
@@ -204859,7 +204859,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-09-21 21:00",
    "renewed_from": "43,000Pt"
   },
@@ -204875,7 +204875,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-09-21 21:00",
    "renewed_from": "22,000Pt"
   },
@@ -204891,7 +204891,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66848": {
    "site": "getmoney",
@@ -204905,7 +204905,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:65190": {
    "site": "getmoney",
@@ -204919,7 +204919,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66182": {
    "site": "getmoney",
@@ -204933,7 +204933,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:52756": {
    "site": "getmoney",
@@ -204947,7 +204947,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66928": {
    "site": "getmoney",
@@ -204975,7 +204975,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:51981": {
    "site": "getmoney",
@@ -204989,7 +204989,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66916": {
    "site": "getmoney",
@@ -205003,7 +205003,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66907": {
    "site": "getmoney",
@@ -205017,7 +205017,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66946": {
    "site": "getmoney",
@@ -205031,7 +205031,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-09-17 15:00",
    "renewed_from": "2,000Pt"
   },
@@ -205047,7 +205047,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66900": {
    "site": "getmoney",
@@ -205061,7 +205061,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66899": {
    "site": "getmoney",
@@ -205075,7 +205075,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66895": {
    "site": "getmoney",
@@ -205089,7 +205089,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:66147": {
    "site": "getmoney",
@@ -205118,7 +205118,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67005": {
    "site": "getmoney",
@@ -285344,7 +285344,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:159018": {
@@ -285359,7 +285359,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:148149": {
@@ -286840,7 +286840,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 15:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:161604": {
@@ -287929,7 +287929,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "delisted_at": "2026-07-31"
   },
@@ -288850,7 +288850,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 13:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:138355": {
    "site": "amefri",
@@ -293693,7 +293693,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-20",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:161811": {
@@ -318940,7 +318940,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 15:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "chanceit:33294": {
    "site": "chanceit",
@@ -321481,19 +321481,18 @@
    "site": "moppy",
    "deal_id": "156674",
    "title": "静岡銀行カードローンSELECA※口座振り込みでの融資申込のみ※",
-   "points_text": "27,000P",
-   "yen": 27000.0,
+   "points_text": "25,000P",
+   "yen": 25000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156674",
    "condition": "新規カード発行＋振込融資の同時申込、90日以上の残高保有",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 01:00",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "delisted_at": "2026-07-21",
-   "renewed_at": "2026-08-03 11:00",
-   "renewed_from": "20,000P"
+   "renew_hold": true
   },
   "moppy:140425": {
    "site": "moppy",
@@ -332115,7 +332114,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 21:00",
-   "last_seen": "2026-07-17",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:161897": {
@@ -342793,7 +342792,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:151298": {
@@ -342808,7 +342807,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-22",
    "site_new": false
   },
   "moppy:160385": {
@@ -344947,7 +344946,7 @@
    "seeded": false,
    "first_seen": "2026-07-26",
    "first_seen_at": "2026-07-26 17:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "moppy:5153": {
    "site": "moppy",
@@ -345216,7 +345215,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "au_point:8:1267": {
@@ -350510,7 +350509,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 17:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67059": {
    "site": "getmoney",
@@ -353193,7 +353192,7 @@
   "moppy:157203": {
    "site": "moppy",
    "deal_id": "157203",
-   "title": "出光カード_apollostation THE PLATINUM セゾン・アメリカン・エキスプレス®・カード（アポロステーション ザ プラチナ）",
+   "title": "出光カード apollostation THE PLATINUM セゾン・アメリカン・エキスプレス®・カード（アポロステーション ザ プラチナ）",
    "points_text": "22,000P",
    "yen": 22000.0,
    "percent": null,
@@ -353202,7 +353201,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 01:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "dead_streak": 1
   },
@@ -359230,7 +359229,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 01:01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:139175": {
    "site": "amefri",
@@ -362601,7 +362600,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 13:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:139232": {
    "site": "amefri",
@@ -367395,7 +367394,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "amefri:139332": {
@@ -379367,16 +379366,17 @@
    "site": "moppy",
    "deal_id": "153445",
    "title": "千葉銀行カードローン（ちばぎんこう）",
-   "points_text": "20,000P",
-   "yen": 20000.0,
+   "points_text": "5,000P",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=153445",
    "condition": "新規カードローン申し込み後、60日以内にカード発行＋ちばぎんアプリインストール後の会員登録",
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:00",
-   "last_seen": "2026-08-24",
-   "site_new": false
+   "last_seen": "2026-10-22",
+   "site_new": false,
+   "renew_hold": true
   },
   "moppy:142954": {
    "site": "moppy",
@@ -387983,7 +387983,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 21:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "amefri:139596": {
@@ -395291,7 +395291,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 13:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:139607": {
    "site": "amefri",
@@ -405739,7 +405739,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 21:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-08-28 01:00",
    "renewed_from": "1,000Pt"
   },
@@ -407387,7 +407387,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 15:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:139761": {
    "site": "amefri",
@@ -415345,7 +415345,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 10:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:139873": {
    "site": "amefri",
@@ -423897,7 +423897,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 01:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67079": {
    "site": "getmoney",
@@ -423911,7 +423911,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 01:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67078": {
    "site": "getmoney",
@@ -423925,7 +423925,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 01:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67077": {
    "site": "getmoney",
@@ -423939,7 +423939,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 01:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "getmoney:67076": {
    "site": "getmoney",
@@ -423953,7 +423953,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 01:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:140356": {
    "site": "amefri",
@@ -428427,7 +428427,7 @@
    "seeded": false,
    "first_seen": "2026-09-07",
    "first_seen_at": "2026-09-07 13:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-09-25 15:00",
    "renewed_from": "24,000Pt"
   },
@@ -433797,7 +433797,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 13:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:140393": {
    "site": "amefri",
@@ -498712,7 +498712,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-22",
    "backfill_dated": true,
    "site_new": false
   },
@@ -503966,7 +503966,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 01:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "delisted_at": "2026-09-27",
    "renewed_at": "2026-10-15 13:00",
    "renewed_from": "91,000Pt"
@@ -511470,7 +511470,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 17:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "point_island:11161738": {
    "site": "point_island",
@@ -638835,7 +638835,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renewed_at": "2026-10-20 21:00",
    "renewed_from": "360,000Pt"
   },
@@ -638851,7 +638851,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:140848": {
    "site": "amefri",
@@ -648152,7 +648152,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 17:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:140853": {
    "site": "amefri",
@@ -655874,7 +655874,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "gendama:1572950": {
    "site": "gendama",
@@ -669562,7 +669562,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 17:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "amefri:140896": {
@@ -719783,7 +719783,7 @@
    "seeded": false,
    "first_seen": "2026-10-11",
    "first_seen_at": "2026-10-11 13:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "powl:42423": {
    "site": "powl",
@@ -720860,7 +720860,7 @@
    "seeded": false,
    "first_seen": "2026-10-13",
    "first_seen_at": "2026-10-13 21:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:141479": {
    "site": "amefri",
@@ -724215,7 +724215,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 15:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   "amefri:141570": {
    "site": "amefri",
@@ -726573,7 +726573,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 11:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "dead_streak": 1
   },
   "poikatsu_club:21464": {
@@ -727427,7 +727427,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "site_new": true,
    "renewed_at": "2026-10-21 21:51"
   },
@@ -738198,6 +738198,314 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 20:10",
+   "last_seen": "2026-10-22"
+  },
+  "moppy:162350": {
+   "site": "moppy",
+   "deal_id": "162350",
+   "title": "トリイク（自宅deトリイク）",
+   "points_text": "100P",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162350",
+   "condition": "新規アプリインストール後、「自宅deトリイク」へ会員登録",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "moppy:159710": {
+   "site": "moppy",
+   "deal_id": "159710",
+   "title": "CAMEL(キャメル)[200万円以上の投資完了]",
+   "points_text": "240,000P",
+   "yen": 240000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=159710",
+   "condition": "新規口座開設完了後、90日以内に一括200万円以上の新規投資実行",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "moppy:159581": {
+   "site": "moppy",
+   "deal_id": "159581",
+   "title": "CAMEL[100万円以上の投資完了]",
+   "points_text": "120,000P",
+   "yen": 120000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=159581",
+   "condition": "新規口座開設完了後、90日以内に一括100万円以上の新規投資実行",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "moppy:158347": {
+   "site": "moppy",
+   "deal_id": "158347",
+   "title": "CAMEL(キャメル)[50万円以上の投資完了]",
+   "points_text": "60,000P",
+   "yen": 60000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=158347",
+   "condition": "新規口座開設後、90日以内に一括50万円以上の新規投資実行",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "moppy:158263": {
+   "site": "moppy",
+   "deal_id": "158263",
+   "title": "CAMEL(キャメル)[20万円以上の投資完了]",
+   "points_text": "22,000P",
+   "yen": 22000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=158263",
+   "condition": "新規口座開設完了後、90日以内に一括20万円以上の新規投資実行",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "pointtown:11125": {
+   "site": "pointtown",
+   "deal_id": "11125",
+   "title": "三井住友カード（NL）オーロラデザイン",
+   "points_text": "12,000pt",
+   "yen": 12000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/11125",
+   "condition": "カード発行で",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "pointtown:11126": {
+   "site": "pointtown",
+   "deal_id": "11126",
+   "title": "三井住友カード（NL） ハローキティ デザイン",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/11126",
+   "condition": "カード発行で",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208214": {
+   "site": "warau",
+   "deal_id": "208214",
+   "title": "【Zucks】Snail In Hole - Puzzle Game（StepUp）",
+   "points_text": "5,649pt",
+   "yen": 5649.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208214",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208215": {
+   "site": "warau",
+   "deal_id": "208215",
+   "title": "【Zucks】Snail In Hole - Puzzle Game（StepUp）",
+   "points_text": "6,262pt",
+   "yen": 6262.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208215",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208217": {
+   "site": "warau",
+   "deal_id": "208217",
+   "title": "【SmaAD】GameTalkTalk（Welcom Bounusを受け取る）",
+   "points_text": "121pt",
+   "yen": 121.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208217",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208216": {
+   "site": "warau",
+   "deal_id": "208216",
+   "title": "【SmaAD】GameTalkTalk（Welcom Bounusを受け取る）",
+   "points_text": "121pt",
+   "yen": 121.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208216",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208213": {
+   "site": "warau",
+   "deal_id": "208213",
+   "title": "【SKYFLAG】Arrow Junction: Logic Puzzle（StepUp）",
+   "points_text": "11,397pt",
+   "yen": 11397.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208213",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "sugutama:41980": {
+   "site": "sugutama",
+   "deal_id": "41980",
+   "title": "SHIPS（シップス）",
+   "points_text": "2.0%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41980",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "sugutama:41977": {
+   "site": "sugutama",
+   "deal_id": "41977",
+   "title": "国産・メーカー直販で安心。品質にこだわる女性向け下着通販【SUBROSA】",
+   "points_text": "10.0%",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41977",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "sugutama:41976": {
+   "site": "sugutama",
+   "deal_id": "41976",
+   "title": "メーカー直営だから安心！正規品SSD・メモリを送料無料でお届け【シリコンパワーダイレクト】",
+   "points_text": "10.0%",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://www.netmile.co.jp/sugutama/ads/41976",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "amefri:141800": {
+   "site": "amefri",
+   "deal_id": "141800",
+   "title": "Arrow Junction: Logic Puzzle（多段階）【iOS】",
+   "points_text": "113,910pt",
+   "yen": 11391.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141800",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "amefri:141802": {
+   "site": "amefri",
+   "deal_id": "141802",
+   "title": "【M】【30日以内にレベル4500をクリア】Snail In Hole - Puzzle Game_Android",
+   "points_text": "64,600pt",
+   "yen": 6460.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141802",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "amefri:141801": {
+   "site": "amefri",
+   "deal_id": "141801",
+   "title": "【M】【30日以内にレベル4500をクリア】Snail In Hole - Puzzle Game_iOS",
+   "points_text": "71,600pt",
+   "yen": 7160.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141801",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "kurashiru_reward:18520": {
+   "site": "kurashiru_reward",
+   "deal_id": "18520",
+   "title": "アセットテクノロジー（賃貸管理/区分マンション）",
+   "points_text": "1,080,000コイン",
+   "yen": 10800.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/18520",
+   "condition": "新規WEB面談及び獲得条件をすべてクリア で",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "poikatsu_club:21615": {
+   "site": "poikatsu_club",
+   "deal_id": "21615",
+   "title": "Arrow Junction: Logic Puzzle（iOS）",
+   "points_text": "12509pt",
+   "yen": 12509.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21615",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/10/22以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：レベル6クリア\n②：レベル20クリア\n③：レベル50クリア\n④：レベル80クリア\n⑤：レベル120クリア\n⑥：レベル160クリア\n⑦：レベル220クリア\n⑧：レベル300クリア\n⑨：レベル400クリア\n⑩：レベル520クリア\n⑪：レベル650クリア\n⑫：レベル800クリア\n⑬：レベル1000クリア\n⑭：レベル1500クリア\n⑮：レベル2000クリア\n⑯：レベル10000クリア\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n条件達成がわかるホーム画面(キャプチャ①)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "poikatsu_club:21616": {
+   "site": "poikatsu_club",
+   "deal_id": "21616",
+   "title": "【M】【30日以内にレベル4500をクリア】Snail In Hole - Puzzle Game_iOS",
+   "points_text": "8055pt",
+   "yen": 8055.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21616",
+   "condition": "新規アプリインストール後、30日以内にレベル4500をクリアで成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから30日以内\r\n・成果調査受付期限：インストールから60日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n・IDFA/GAID\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
+   "last_seen": "2026-10-22"
+  },
+  "poikatsu_club:21617": {
+   "site": "poikatsu_club",
+   "deal_id": "21617",
+   "title": "【M】【30日以内にレベル4500をクリア】Snail In Hole - Puzzle Game_Android",
+   "points_text": "7268pt",
+   "yen": 7268.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21617",
+   "condition": "新規アプリインストール後、30日以内にレベル4500をクリアで成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから30日以内\r\n・成果調査受付期限：インストールから60日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n・IDFA/GAID\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 21:00",
    "last_seen": "2026-10-22"
   }
  }

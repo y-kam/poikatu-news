@@ -244,7 +244,7 @@
    "url": "https://www.poney.jp/みんなのFX/detail/10000061920",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "condition": "新規口座開設申込後、90日以内に初回入金10万円+新規90lot以上の取引完了 で"
   },
   "poney:10000060817": {
@@ -257,7 +257,7 @@
    "url": "https://www.poney.jp/みんなのFX/detail/10000060817",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "condition": "新規口座開設申込後、「みんなのFX」で90日以内に新規90lot以上のお取引 で"
   },
   "poney:10000063838": {
@@ -100122,7 +100122,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-22",
    "seed_filled": true
   },
   "powl:33857": {
@@ -318743,7 +318743,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 01:00",
-   "last_seen": "2026-07-12",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "dead_streak": 1
   },
@@ -324964,7 +324964,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-22",
    "delisted_at": "2026-07-15"
   },
   "moppy:158376": {
@@ -332909,7 +332909,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 01:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-22",
    "delisted_at": "2026-07-18"
   },
   "moppy:750": {
@@ -343806,7 +343806,7 @@
   "moppy:159641": {
    "site": "moppy",
    "deal_id": "159641",
-   "title": "※超還元アップ※みんなのFX（新規口座開設申込後、90日以内に初回入金30万円+新規90lot以上の取引完了）",
+   "title": "みんなのFX（新規口座開設申込後、90日以内に初回入金30万円+新規90lot以上の取引完了）",
    "points_text": "28,000P",
    "yen": 28000.0,
    "percent": null,
@@ -343815,7 +343815,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-22",
    "site_new": false,
    "dead_streak": 1
   },
@@ -480001,7 +480001,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-22",
    "backfill_dated": true,
    "site_new": false
   },
@@ -480145,7 +480145,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-22",
    "backfill_dated": true,
    "site_new": false
   },
@@ -613696,7 +613696,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-22"
   },
   "sugutama:39729": {
    "site": "sugutama",
@@ -622572,7 +622572,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-22"
   },
   "sugutama:29283": {
    "site": "sugutama",
@@ -650265,7 +650265,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-08"
+   "last_seen": "2026-10-22"
   },
   "gendama:1532543": {
    "site": "gendama",
@@ -736900,8 +736900,8 @@
    "site": "warau",
    "deal_id": "208182",
    "title": "【GFRewards】ドゥームズデイ：アンデッドブライド（StepUp）",
-   "points_text": "155,426pt",
-   "yen": 155426.0,
+   "points_text": "72,866pt",
+   "yen": 72866.0,
    "percent": null,
    "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208182",
    "condition": "",
@@ -736909,7 +736909,8 @@
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 11:00",
    "last_seen": "2026-10-22",
-   "dead_streak": 1
+   "dead_streak": 1,
+   "renew_hold": true
   },
   "line_catalog:atmos_japan": {
    "site": "line_catalog",
@@ -737852,6 +737853,244 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 15:30",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208211": {
+   "site": "warau",
+   "deal_id": "208211",
+   "title": "【GFRewards】突撃！悪魔団（StepUp）",
+   "points_text": "2,158pt",
+   "yen": 2158.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208211",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208212": {
+   "site": "warau",
+   "deal_id": "208212",
+   "title": "【GFRewards】突撃！悪魔団（StepUp）",
+   "points_text": "2,158pt",
+   "yen": 2158.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208212",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208210": {
+   "site": "warau",
+   "deal_id": "208210",
+   "title": "SAIBU LAND - サイブランド（無料会員登録）",
+   "points_text": "50pt",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208210",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208197": {
+   "site": "warau",
+   "deal_id": "208197",
+   "title": "タウンシップ（StepUp）",
+   "points_text": "16,160pt",
+   "yen": 16160.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208197",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208207": {
+   "site": "warau",
+   "deal_id": "208207",
+   "title": "HAPPY PLUS",
+   "points_text": "2.6%還元",
+   "yen": null,
+   "percent": 2.6,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208207",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "warau:208206": {
+   "site": "warau",
+   "deal_id": "208206",
+   "title": "SBI証券 確定拠出年金（iDeCo）",
+   "points_text": "8,300pt",
+   "yen": 8300.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208206",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "amefri:120831": {
+   "site": "amefri",
+   "deal_id": "120831",
+   "title": "犬猫の療法食、医薬品、サプリメントなどのペットヘルスケア通販【ペットゴー（petgo）】",
+   "points_text": "3％",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://www.amefri.net/detail/id/120831",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "amefri:141797": {
+   "site": "amefri",
+   "deal_id": "141797",
+   "title": "突撃！悪魔団【iOS】",
+   "points_text": "29,470pt",
+   "yen": 2947.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141797",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "amefri:141796": {
+   "site": "amefri",
+   "deal_id": "141796",
+   "title": "突撃！悪魔団【Android】",
+   "points_text": "29,470pt",
+   "yen": 2947.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141796",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "chanceit:33389": {
+   "site": "chanceit",
+   "deal_id": "33389",
+   "title": "ホットヨガスタジオLAVA",
+   "points_text": "→ 22,500pt",
+   "yen": 2250.0,
+   "percent": null,
+   "url": "https://www.chance.com/items/detail.jsp?id=33389",
+   "condition": "条件：新規申し込み後の体験完了 加算：約100日後",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "ponta_bonuspark:4661": {
+   "site": "ponta_bonuspark",
+   "deal_id": "4661",
+   "title": "TOWER RECORDS ONLINE",
+   "points_text": "0.5%P還元",
+   "yen": null,
+   "percent": 0.5,
+   "url": "https://www.bonuspark.jp/entertainment/4661.html",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "powl:43503": {
+   "site": "powl",
+   "deal_id": "43503",
+   "title": "ミスターカワウソシェフ（ワールド5のステージ7に到達(小石の村のイタリアンレストランへ進入)）（iOS）",
+   "points_text": "2,400pt",
+   "yen": 240.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43503",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "powl:43504": {
+   "site": "powl",
+   "deal_id": "43504",
+   "title": "ミスター・カワウソシェフ（ワールド5のステージ7に到達(小石の村のイタリアンレストランへ進入)）（Android）",
+   "points_text": "2,400pt",
+   "yen": 240.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43504",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "powl:43505": {
+   "site": "powl",
+   "deal_id": "43505",
+   "title": "ガチョウと料理（ワールド5のステージ7到達（雪積もる街（夜）のココア売り場へ進入））（Android）",
+   "points_text": "2,400pt",
+   "yen": 240.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43505",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "point_hiroba:5740": {
+   "site": "point_hiroba",
+   "deal_id": "5740",
+   "title": "atmos公式サイト",
+   "points_text": "1%",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5740",
+   "condition": "お買い物",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "poikatsu_club:21614": {
+   "site": "poikatsu_club",
+   "deal_id": "21614",
+   "title": "突撃！悪魔団（Android）",
+   "points_text": "3889pt",
+   "yen": 3889.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21614",
+   "condition": "新規アプリインストール後、広告クリックから30日以内に\n・チャプター3クリア\n・チャプター5クリア\n・チャプター10クリア\n・チャプター89クリア\n・チャプター146クリア\n・成長メンバーシップ 初回購入\n・チャプター クリアパッケージ\n・スペシャルメンバーシップ 初回購入\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\nこのキャンペーンは2026/10/22以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから45日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "poikatsu_club:21613": {
+   "site": "poikatsu_club",
+   "deal_id": "21613",
+   "title": "突撃！悪魔団（iOS）",
+   "points_text": "3889pt",
+   "yen": 3889.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21613",
+   "condition": "新規アプリインストール後、広告クリックから30日以内に\n・チャプター3クリア\n・チャプター5クリア\n・チャプター10クリア\n・チャプター89クリア\n・チャプター146クリア\n・成長メンバーシップ 初回購入\n・チャプター クリアパッケージ\n・スペシャルメンバーシップ 初回購入\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\nこのキャンペーンは2026/10/22以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから45日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 17:00",
    "last_seen": "2026-10-22"
   }
  }

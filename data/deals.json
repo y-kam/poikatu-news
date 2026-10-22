@@ -148225,7 +148225,7 @@
    "condition": "アンケート回答",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-23",
    "backfill": true,
    "backfill_dated": true
   },
@@ -228870,7 +228870,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02"
+   "last_seen": "2026-10-23"
   },
   "point_island:s27176": {
    "site": "point_island",
@@ -240372,7 +240372,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-10-23"
   },
   "point_stadium:0401027": {
    "site": "point_stadium",
@@ -251927,8 +251927,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-29",
-   "renewed_at": "2026-09-23 21:00"
+   "last_seen": "2026-10-23",
+   "renewed_at": "2026-10-23 08:00"
   },
   "nyandaful:0401027": {
    "site": "nyandaful",
@@ -340256,7 +340256,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 17:00",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-23",
    "site_new": false,
    "renew_hold": true
   },
@@ -351127,7 +351127,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-09-26"
+   "last_seen": "2026-10-23"
   },
   "powl:37763": {
    "site": "powl",
@@ -683806,7 +683806,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 17:00",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-23",
    "renewed_at": "2026-10-05 17:00"
   },
   "point_island:221228": {
@@ -715518,15 +715518,16 @@
    "site": "au_point",
    "deal_id": "8:1706",
    "title": "今夜も出ます！百鬼夜行",
-   "points_text": "238P",
-   "yen": 238.0,
+   "points_text": "204P",
+   "yen": 204.0,
    "percent": null,
    "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1706",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 15:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-23",
+   "renew_hold": true
   },
   "au_point:8:1705": {
    "site": "au_point",
@@ -738010,7 +738011,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 17:00",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   "warau:208207": {
    "site": "warau",

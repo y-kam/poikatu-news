@@ -316039,7 +316039,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-22",
    "renew_hold": true
   },
   "pointincome:129205": {
@@ -508289,17 +508289,18 @@
   "pointincome:155263": {
    "site": "pointincome",
    "deal_id": "155263",
-   "title": "みずほ銀行【お子様向け口座開設】",
-   "points_text": "60,000pt",
-   "yen": 6000.0,
+   "title": "【10/25までの高還元！】みずほ銀行【お子様向け口座開設】",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155263/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 07:22",
-   "last_seen": "2026-10-13",
-   "renew_hold": true
+   "last_seen": "2026-10-22",
+   "renewed_at": "2026-10-22 20:10",
+   "renewed_from": "60,000pt"
   },
   "pointincome:150408": {
    "site": "pointincome",
@@ -719828,15 +719829,17 @@
    "site": "chobirich",
    "deal_id": "1900955",
    "title": "ブレードウォー三国（アプリランド）",
-   "points_text": "最大3108pt",
-   "yen": 1554.0,
+   "points_text": "最大4692pt",
+   "yen": 2346.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1900955/",
    "condition": "遷移先の「アプリランド」ページをご確認ください",
    "seeded": false,
    "first_seen": "2026-10-12",
    "first_seen_at": "2026-10-12 08:41",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-22",
+   "renewed_at": "2026-10-22 20:10",
+   "renewed_from": "最大3108pt"
   },
   "pointincome:153960": {
    "site": "pointincome",
@@ -721430,7 +721433,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 06:12",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-22"
   },
   "pointincome:155755": {
    "site": "pointincome",
@@ -725401,7 +725404,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 19:45",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-10-22"
   },
   "moppy:142067": {
    "site": "moppy",
@@ -738091,6 +738094,90 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 17:00",
+   "last_seen": "2026-10-22"
+  },
+  "chobirich:1901643": {
+   "site": "chobirich",
+   "deal_id": "1901643",
+   "title": "Riene",
+   "points_text": "10％",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://www.chobirich.com/ad_details/1901643/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 20:10",
+   "last_seen": "2026-10-22"
+  },
+  "chobirich:1886810": {
+   "site": "chobirich",
+   "deal_id": "1886810",
+   "title": "シリコンパワーダイレクト",
+   "points_text": "7％",
+   "yen": null,
+   "percent": 7.0,
+   "url": "https://www.chobirich.com/ad_details/1886810/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 20:10",
+   "last_seen": "2026-10-22"
+  },
+  "chobirich:1901751": {
+   "site": "chobirich",
+   "deal_id": "1901751",
+   "title": "Arrow Junction: Logic Puzzle（アプリランド）",
+   "points_text": "最大11118pt",
+   "yen": 5559.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901751/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 20:10",
+   "last_seen": "2026-10-22"
+  },
+  "chobirich:1901744": {
+   "site": "chobirich",
+   "deal_id": "1901744",
+   "title": "突撃！悪魔団",
+   "points_text": "最大2876pt",
+   "yen": 1438.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1901744/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 20:10",
+   "last_seen": "2026-10-22"
+  },
+  "pointincome:149914": {
+   "site": "pointincome",
+   "deal_id": "149914",
+   "title": "【最短10日付与】CAMEL(キャメル)20万円以上投資",
+   "points_text": "200,000pt",
+   "yen": 20000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/149914/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 20:10",
+   "last_seen": "2026-10-22"
+  },
+  "pointincome:124112": {
+   "site": "pointincome",
+   "deal_id": "124112",
+   "title": "【10/31で終了！】食べログ WEB予約",
+   "points_text": "800pt",
+   "yen": 80.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/124112/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-22",
+   "first_seen_at": "2026-10-22 20:10",
    "last_seen": "2026-10-22"
   }
  }

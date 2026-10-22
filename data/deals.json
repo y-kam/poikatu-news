@@ -287587,7 +287587,8 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-21",
+   "dead_streak": 1
   },
   "pointincome:155152": {
    "site": "pointincome",
@@ -287601,7 +287602,8 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-21",
+   "dead_streak": 1
   },
   "pointincome:155779": {
    "site": "pointincome",
@@ -291755,7 +291757,8 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-19",
+   "dead_streak": 1
   },
   "pointincome:155751": {
    "site": "pointincome",
@@ -316186,7 +316189,8 @@
    "first_seen_at": "2026-07-10 17:00",
    "last_seen": "2026-08-14",
    "renewed_at": "2026-08-14 01:00",
-   "renewed_from": "90,000pt"
+   "renewed_from": "90,000pt",
+   "dead_streak": 1
   },
   "pointincome:153015": {
    "site": "pointincome",
@@ -319343,7 +319347,8 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-08-26"
+   "last_seen": "2026-08-26",
+   "dead_streak": 1
   },
   "pointincome:155151": {
    "site": "pointincome",
@@ -319357,7 +319362,8 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-14",
+   "dead_streak": 1
   },
   "pointincome:150342": {
    "site": "pointincome",
@@ -322171,7 +322177,8 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 05:00",
-   "last_seen": "2026-08-12"
+   "last_seen": "2026-08-12",
+   "dead_streak": 1
   },
   "pointincome:151652": {
    "site": "pointincome",
@@ -326826,7 +326833,8 @@
    "first_seen_at": "2026-07-15 21:00",
    "last_seen": "2026-10-21",
    "renewed_at": "2026-09-03 07:26",
-   "renewed_from": "4,000pt"
+   "renewed_from": "4,000pt",
+   "dead_streak": 1
   },
   "pointincome:148552": {
    "site": "pointincome",
@@ -326930,7 +326938,8 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-07-15"
+   "last_seen": "2026-07-15",
+   "dead_streak": 1
   },
   "chobirich:1894783": {
    "site": "chobirich",
@@ -358320,7 +358329,8 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-08-01"
+   "last_seen": "2026-08-01",
+   "dead_streak": 1
   },
   "pointincome:156008": {
    "site": "pointincome",
@@ -381707,7 +381717,8 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 11:00",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-15",
+   "dead_streak": 1
   },
   "pointincome:114404": {
    "site": "pointincome",
@@ -405431,7 +405442,8 @@
    "first_seen_at": "2026-08-27 18:31",
    "last_seen": "2026-10-21",
    "renewed_at": "2026-10-16 14:03",
-   "renewed_from": "11,000pt"
+   "renewed_from": "11,000pt",
+   "dead_streak": 1
   },
   "pointincome:156007": {
    "site": "pointincome",
@@ -410969,7 +410981,8 @@
    "seeded": false,
    "first_seen": "2026-08-31",
    "first_seen_at": "2026-08-31 18:33",
-   "last_seen": "2026-08-31"
+   "last_seen": "2026-08-31",
+   "dead_streak": 1
   },
   "pointincome:155883": {
    "site": "pointincome",
@@ -503223,7 +503236,8 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 19:58",
-   "last_seen": "2026-09-10"
+   "last_seen": "2026-09-10",
+   "dead_streak": 1
   },
   "pointincome:150690": {
    "site": "pointincome",
@@ -684214,7 +684228,8 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 18:02",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-09-30",
+   "dead_streak": 1
   },
   "pointincome:155495": {
    "site": "pointincome",
@@ -694166,7 +694181,8 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 07:40",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-01",
+   "dead_streak": 1
   },
   "pointincome:156251": {
    "site": "pointincome",
@@ -694180,7 +694196,8 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 07:40",
-   "last_seen": "2026-10-03"
+   "last_seen": "2026-10-03",
+   "dead_streak": 1
   },
   "pointincome:156255": {
    "site": "pointincome",
@@ -696065,7 +696082,8 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 21:17",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-21",
+   "dead_streak": 1
   },
   "pointincome:155754": {
    "site": "pointincome",
@@ -696139,7 +696157,8 @@
    "first_seen_at": "2026-10-01 21:17",
    "last_seen": "2026-10-21",
    "renewed_at": "2026-10-18 09:27",
-   "renewed_from": "3,000pt"
+   "renewed_from": "3,000pt",
+   "dead_streak": 1
   },
   "pointtown:8196": {
    "site": "pointtown",
@@ -736582,7 +736601,8 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 08:07",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-22",
+   "dead_streak": 1
   },
   "pointincome:156355": {
    "site": "pointincome",

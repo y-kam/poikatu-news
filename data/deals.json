@@ -292976,7 +292976,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-24"
   },
   "moppy:161071": {
    "site": "moppy",
@@ -293710,7 +293710,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "moppy:157175": {
@@ -295980,7 +295980,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-24",
    "renewed_at": "2026-09-04 17:00",
    "renewed_from": "147P"
   },
@@ -350840,7 +350840,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renew_hold": true
   },
@@ -354066,7 +354066,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "delisted_at": "2026-10-02",
    "renew_hold": true
@@ -471847,7 +471847,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472378,7 +472378,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472507,7 +472507,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473082,17 +473082,19 @@
    "site": "moppy",
    "deal_id": "145220",
    "title": "【過去登録者も可】前世からの約束[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145220",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
-   "site_new": true
+   "site_new": true,
+   "renewed_at": "2026-10-24 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145228": {
    "site": "moppy",
@@ -473336,7 +473338,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474876,7 +474878,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481250,7 +481252,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -500994,7 +500996,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "moppy:157261": {
@@ -505108,7 +505110,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 15:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "warau:206679": {
@@ -638581,7 +638583,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "moppy:145192": {
@@ -683904,7 +683906,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 17:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "renewed_at": "2026-10-05 17:00"
   },
   "point_island:221228": {
@@ -725669,7 +725671,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 21:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "moppy:162311": {
@@ -739534,7 +739536,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 11:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": true,
    "renewed_at": "2026-10-23 21:00",
    "renewed_from": "68P"
@@ -740581,7 +740583,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 15:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "dead_streak": 1
   },
   "warau:207536": {
@@ -741546,7 +741548,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "warau:208283": {
    "site": "warau",
@@ -742535,6 +742537,90 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
+   "last_seen": "2026-10-24"
+  },
+  "hapitas:103910": {
+   "site": "hapitas",
+   "deal_id": "103910",
+   "title": "【注意事項必読】歩数計あるくん",
+   "points_text": "81pt",
+   "yen": 81.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103910/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-24",
+   "first_seen_at": "2026-10-24 05:00",
+   "last_seen": "2026-10-24"
+  },
+  "hapitas:103911": {
+   "site": "hapitas",
+   "deal_id": "103911",
+   "title": "【注意事項必読】歩数計あるくん",
+   "points_text": "81pt",
+   "yen": 81.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103911/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-24",
+   "first_seen_at": "2026-10-24 05:00",
+   "last_seen": "2026-10-24"
+  },
+  "hapitas:103887": {
+   "site": "hapitas",
+   "deal_id": "103887",
+   "title": "Proton VPN",
+   "points_text": "21%",
+   "yen": null,
+   "percent": 21.0,
+   "url": "https://hapitas.jp/item/detail/itemid/103887/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-24",
+   "first_seen_at": "2026-10-24 05:00",
+   "last_seen": "2026-10-24"
+  },
+  "hapitas:103856": {
+   "site": "hapitas",
+   "deal_id": "103856",
+   "title": "シリコンパワーダイレクト",
+   "points_text": "7%",
+   "yen": null,
+   "percent": 7.0,
+   "url": "https://hapitas.jp/item/detail/itemid/103856/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-24",
+   "first_seen_at": "2026-10-24 05:00",
+   "last_seen": "2026-10-24"
+  },
+  "hapitas:103773": {
+   "site": "hapitas",
+   "deal_id": "103773",
+   "title": "Qualit（クオリット）",
+   "points_text": "10.5%",
+   "yen": null,
+   "percent": 10.5,
+   "url": "https://hapitas.jp/item/detail/itemid/103773/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-24",
+   "first_seen_at": "2026-10-24 05:00",
+   "last_seen": "2026-10-24"
+  },
+  "hapitas:103891": {
+   "site": "hapitas",
+   "deal_id": "103891",
+   "title": "ブルーミー（bloomee）",
+   "points_text": "2,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103891/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-24",
+   "first_seen_at": "2026-10-24 05:00",
    "last_seen": "2026-10-24"
   }
  }

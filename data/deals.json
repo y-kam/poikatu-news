@@ -54090,16 +54090,17 @@
    "site": "rebates",
    "deal_id": "10632",
    "title": "NARS公式オンラインショップ",
-   "points_text": "2.5%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/narscosmetics.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:21825": {
    "site": "rebates",
@@ -54505,16 +54506,17 @@
    "site": "rebates",
    "deal_id": "14666",
    "title": "PLST",
-   "points_text": "1.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/plst",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "1.5%"
   },
   "rebates:20442": {
    "site": "rebates",
@@ -56923,16 +56925,17 @@
    "site": "rebates",
    "deal_id": "23824",
    "title": "to/one(トーン)",
-   "points_text": "3.5%",
+   "points_text": "4.5%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 4.5,
    "url": "https://www.rebates.jp/toonecosmetics.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:24186": {
    "site": "rebates",
@@ -58763,16 +58766,17 @@
    "site": "rebates",
    "deal_id": "14712",
    "title": "インナーショップ白鳩",
-   "points_text": "3.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/shirohato",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:10580": {
    "site": "rebates",
@@ -59731,16 +59735,17 @@
    "site": "rebates",
    "deal_id": "14749",
    "title": "クロックス",
-   "points_text": "3.5%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/crocs-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:19842": {
    "site": "rebates",
@@ -62226,17 +62231,16 @@
    "site": "rebates",
    "deal_id": "14751",
    "title": "プーマ公式ストア",
-   "points_text": "7.5%",
+   "points_text": "4.5%",
    "yen": null,
-   "percent": 7.5,
+   "percent": 4.5,
    "url": "https://www.rebates.jp/puma-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-20 10:00",
-   "renewed_from": "4.5%"
+   "renew_hold": true
   },
   "rebates:24896": {
    "site": "rebates",
@@ -62640,16 +62644,17 @@
    "site": "rebates",
    "deal_id": "14679",
    "title": "マルイウェブチャネル",
-   "points_text": "2.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/marui",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-23",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:14365": {
    "site": "rebates",
@@ -94327,7 +94332,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "seed_filled": true
   },
   "powl:30727": {
@@ -138513,9 +138518,9 @@
   "tamaru_mall:1801": {
    "site": "tamaru_mall",
    "deal_id": "1801",
-   "title": "【合計24,500円相当】三菱ＵＦＪカード",
-   "points_text": "14,500コイン",
-   "yen": 14500.0,
+   "title": "【大好評につき過去最高還元！】三菱ＵＦＪカード",
+   "points_text": "15,000コイン",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=1801",
    "condition": "新規クレジットカード発行完了（カード受取必須）",
@@ -138523,7 +138528,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-23",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "14,500コイン"
   },
   "tamaru_mall:1802": {
    "site": "tamaru_mall",
@@ -139778,9 +139784,9 @@
   "tamaru_mall:2484": {
    "site": "tamaru_mall",
    "deal_id": "2484",
-   "title": "【合計26,500円相当】三菱ＵＦＪカード ゴールド",
-   "points_text": "14,500コイン",
-   "yen": 14500.0,
+   "title": "【大好評につき過去最高還元！】三菱ＵＦＪカード ゴールド",
+   "points_text": "15,000コイン",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2484",
    "condition": "新規クレジットカード発行完了（カード受取必須）",
@@ -139788,7 +139794,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-23",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "14,500コイン"
   },
   "tamaru_mall:2485": {
    "site": "tamaru_mall",
@@ -224185,7 +224192,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   "chanceit:32880": {
    "site": "chanceit",
@@ -327677,16 +327684,18 @@
    "site": "moppy",
    "deal_id": "2229",
    "title": "RING BELL（リンベル）贈り物のコンシェルジュ",
-   "points_text": "11.0%",
+   "points_text": "12.0%",
    "yen": null,
-   "percent": 11.0,
+   "percent": 12.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=2229",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 01:00",
-   "last_seen": "2026-07-16",
-   "delisted_at": "2026-07-16"
+   "last_seen": "2026-10-23",
+   "delisted_at": "2026-07-16",
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "11.0%"
   },
   "moppy:1335": {
    "site": "moppy",
@@ -380540,7 +380549,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 17:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-23",
    "renew_hold": true,
    "dead_streak": 1
   },
@@ -384811,17 +384820,16 @@
    "site": "au_point",
    "deal_id": "8:1572",
    "title": "うんちく建てました",
-   "points_text": "238P",
-   "yen": 238.0,
+   "points_text": "204P",
+   "yen": 204.0,
    "percent": null,
    "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1572",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 17:00",
-   "last_seen": "2026-10-01",
-   "renewed_at": "2026-09-17 17:00",
-   "renewed_from": "102P"
+   "last_seen": "2026-10-23",
+   "renew_hold": true
   },
   "point_island:0411624": {
    "site": "point_island",
@@ -732661,7 +732669,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 13:00",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   "poikatsu_club:21525": {
    "site": "poikatsu_club",
@@ -733008,7 +733016,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 15:16",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   "warau:208110": {
    "site": "warau",
@@ -739165,15 +739173,17 @@
    "site": "poikatsu_club",
    "deal_id": "21619",
    "title": "NBA Basketball World 2026（iOS）",
-   "points_text": "59pt",
-   "yen": 59.0,
+   "points_text": "75pt",
+   "yen": 75.0,
    "percent": null,
    "url": "https://poikatsu.club/projects/21619",
    "condition": "▼承認条件\r\n新規インストール後、初回起動\r\n※成果到達目安：新規インストール後、15分程度\r\n※iOSのみ成果対象となります。\r\n\r\n▼成果までの流れ\r\n1.インストール後、起動\r\n\r\n▼却下条件\r\n・公共WiFiを使用してインストールした場合\r\n・同じIPアドレスから他の端末でインストールまたは成果地点に到達した場合\r\n・インストール時に回線が不安定な場合\r\n・インストール中に他の操作をした場合\r\n・広告ブロックを使用している場合\r\n・オフラインでアプリを使用した場合\r\n・エミュレータでご参加された場合\r\n・過去に同じアプリをインストールしたことがある場合、または成果地点到達をしたことがある場合\r\n・新しい端末にデータを引き継いで成果条件に到達した場合、または新しい端末とは別の端末にデータを引き継いで成果条件に到達した場合\r\n・不備や不正、虚偽、重複、いたずらの申請を行った場合\r\n・本広告以外からのインストールを行った場合\r\n・お問い合わせ時に該当アプリをアンインストールしている場合、または成果条件達成までにアプリをアンインストールしている場合\r\n・広告主が正常な成果でないと判断した場合\r\n・日本国外からのアクセスまたは日本国外のIPアドレスからクリックした場合\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合\r\n・該当アプリ起動時の「Webサイトを横断してアクティビティをトラッキングする」を許可しない場合\r\n\r\n▼注意事項\r\n・ストア（サイト）に遷移しない場合は、端末のOSを最新のものにアップデートして再度お試しください。\r\n・広告をクリックしてから1時間以内に初回起動が完了しない場合、広告成果とはみなされない場合がございます。\r\n※初回起動が1時間以上かかる場合は、もう一度広告をクリックしてください。\r\n・同じアプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\r\n※異なる成果地点で広告参加をされたことがある場合も成果となりません。\r\n・過去に同じアプリで広告参加をしたことがある場合は別の端末で初回インストールをしても成果になりません。\r\n・成果達成後、ポイントの獲得がされるまでに最大24時間かかる場合がございます。\r\n・アプリ内のキャンペーン（イベント）は予告なく変更または終了する場合がございます。\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合、ポイントを獲得できない可能性がございます。\r\n・URLを他のユーザーと共有したり、コピーしたURLのご使用はお控えください。コピーしたURLからのインストールは成果対象外となります。\r\n・意図的に広告IDを削除またはリセットすると、不正利用とみなされる場合がございますので、削除やリセットはお控えください。\r\n・アプリ内バグなどのお問合せを頂く際に広告IDをご提供頂く場合がございます。\r\n※ご提供頂けない場合は調査不可となる恐れがございます。\r\n\r\n▼成果調査に関して\r\n・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。\r\n・直接スポンサーサイトへ問い合わせることはお控えください。\r\n・クリック発生から60日以上経過したものは調査不可となります。\r\n・成果調査完了までにアプリをアンインストールされた場合は成果調査対象外となりますのでご了承ください。\r\n・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。\r\n①クリック日時\r\n②広告をクリックしてから成果地点到達まで掛かった日数\r\n③成果到達日時\r\n④アプリインストールが確認できるキャプチャ",
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 01:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-23",
+   "renewed_at": "2026-10-23 10:00",
+   "renewed_from": "59pt"
   },
   "poikatsu_club:21618": {
    "site": "poikatsu_club",
@@ -739271,6 +739281,48 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 07:27",
+   "last_seen": "2026-10-23"
+  },
+  "pointtown:11143": {
+   "site": "pointtown",
+   "deal_id": "11143",
+   "title": "フランチャイズ比較.net",
+   "points_text": "6,600pt",
+   "yen": 6600.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/11143",
+   "condition": "資料請求で",
+   "seeded": false,
+   "first_seen": "2026-10-23",
+   "first_seen_at": "2026-10-23 10:00",
+   "last_seen": "2026-10-23"
+  },
+  "powl:43602": {
+   "site": "powl",
+   "deal_id": "43602",
+   "title": "Merge Coin Brain POP:ASMR Sort（レベル200到達）（iOS）",
+   "points_text": "4,000pt",
+   "yen": 400.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43602",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-23",
+   "first_seen_at": "2026-10-23 10:00",
+   "last_seen": "2026-10-23"
+  },
+  "powl:43603": {
+   "site": "powl",
+   "deal_id": "43603",
+   "title": "Merge Coin Brain POP:ASMR Sort（レベル200到達）（Android）",
+   "points_text": "4,000pt",
+   "yen": 400.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43603",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-23",
+   "first_seen_at": "2026-10-23 10:00",
    "last_seen": "2026-10-23"
   }
  }

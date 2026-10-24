@@ -294347,7 +294347,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "moppy:159101": {
@@ -318803,7 +318803,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 01:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": true,
    "renewed_at": "2026-10-23 13:16",
    "renewed_from": "9,000P"
@@ -364377,7 +364377,7 @@
    "seeded": false,
    "first_seen": "2026-08-05",
    "first_seen_at": "2026-08-05 01:00",
-   "last_seen": "2026-08-05",
+   "last_seen": "2026-10-24",
    "site_new": false
   },
   "moppy:160378": {
@@ -480032,7 +480032,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -480176,7 +480176,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-24",
    "backfill_dated": true,
    "site_new": false
   },
@@ -498883,8 +498883,8 @@
    "site": "moppy",
    "deal_id": "162169",
    "title": "※26日まで超高還元※SBI証券 こども口座",
-   "points_text": "15,000P",
-   "yen": 15000.0,
+   "points_text": "17,000P",
+   "yen": 17000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162169",
    "condition": "こども口座開設(申込から60日以内)",
@@ -498893,7 +498893,7 @@
    "first_seen_at": "2026-09-09 15:12",
    "last_seen": "2026-10-24",
    "site_new": false,
-   "renewed_at": "2026-10-24 01:00",
+   "renewed_at": "2026-10-24 11:00",
    "renewed_from": "13,000P"
   },
   "warau:206563": {
@@ -693737,8 +693737,8 @@
    "site": "moppy",
    "deal_id": "162232",
    "title": "auウェルネス",
-   "points_text": "100P",
-   "yen": 100.0,
+   "points_text": "120P",
+   "yen": 120.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162232",
    "condition": "auID登録完了",
@@ -693747,7 +693747,7 @@
    "first_seen_at": "2026-10-01 05:00",
    "last_seen": "2026-10-24",
    "delisted_at": "2026-10-02",
-   "renewed_at": "2026-10-17 13:00",
+   "renewed_at": "2026-10-24 11:00",
    "renewed_from": "71P"
   },
   "hapitas:100501": {
@@ -739819,7 +739819,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 11:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "au_point:8:1738": {
    "site": "au_point",

@@ -83846,7 +83846,7 @@
    "condition": "新規会員登録後、LINE連携+本名フルネームとお住まいの都道府県名をLINEのトークへ送信完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "renewed_at": "2026-08-10 11:00",
    "renewed_from": "18,000コイン"
   },
@@ -147770,7 +147770,7 @@
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "backfill": true,
    "backfill_dated": true
   },
@@ -285700,9 +285700,9 @@
   "moppy:120788": {
    "site": "moppy",
    "deal_id": "120788",
-   "title": "※高還元※SBI証券（新規口座開設+50,000円以上入金）",
-   "points_text": "16,000P",
-   "yen": 16000.0,
+   "title": "※26日まで超P※SBI証券（新規口座開設+50,000円以上入金）",
+   "points_text": "21,000P",
+   "yen": 21000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=120788",
    "condition": "口座開設+50,000円入金（SBIハイブリッド預金へ振替）",
@@ -285711,7 +285711,7 @@
    "first_seen_at": "2026-07-07 10:36",
    "last_seen": "2026-10-24",
    "site_new": false,
-   "renewed_at": "2026-10-24 01:00",
+   "renewed_at": "2026-10-24 13:00",
    "renewed_from": "14,000P"
   },
   "moppy:158981": {
@@ -350311,18 +350311,17 @@
    "site": "moppy",
    "deal_id": "161945",
    "title": "※超高還元※ベルテックス資料請求",
-   "points_text": "4,800P",
-   "yen": 4800.0,
+   "points_text": "4,000P",
+   "yen": 4000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161945",
    "condition": "新規資料請求及び本人確認",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": true,
-   "renewed_at": "2026-10-21 21:51",
-   "renewed_from": "3,000P"
+   "renew_hold": true
   },
   "pointincome:155293": {
    "site": "pointincome",
@@ -514533,7 +514532,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "delisted_at": "2026-09-25",
    "renew_hold": true
@@ -514793,7 +514792,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "point_island:g16824": {
    "site": "point_island",
@@ -730111,7 +730110,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 13:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-22 15:00"
   },
@@ -736134,7 +736133,7 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 17:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "poikatsu_club:21580": {
    "site": "poikatsu_club",

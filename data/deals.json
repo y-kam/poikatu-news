@@ -228243,8 +228243,8 @@
    "site": "entamenet",
    "deal_id": "1595780",
    "title": "SBI証券　口座開設",
-   "points_text": "17,392円",
-   "yen": 17392.0,
+   "points_text": "14,782円",
+   "yen": 14782.0,
    "percent": null,
    "url": "https://www.yentame.net/detailad.asp?aid=1595780",
    "condition": "口座開設",
@@ -228252,8 +228252,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-10-24",
-   "renewed_at": "2026-10-24 01:00",
-   "renewed_from": "10,345円"
+   "renew_hold": true
   },
   "entamenet:1863714": {
    "site": "entamenet",
@@ -293740,7 +293739,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-22 01:00",
    "renewed_from": "7,125P"
@@ -675817,7 +675816,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 21:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "delisted_at": "2026-10-23"
   },
   "warau:201988": {
@@ -675832,7 +675831,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 21:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "delisted_at": "2026-10-23"
   },
   "warau:207115": {
@@ -724118,7 +724117,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 13:00",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-24"
   },
   "pointchips:1180": {
    "site": "pointchips",
@@ -726436,7 +726435,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 01:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "renewed_at": "2026-10-20 21:00",
    "renewed_from": "最大 70 pt"
   },
@@ -726452,7 +726451,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 01:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "renewed_at": "2026-10-20 21:00",
    "renewed_from": "最大 70 pt"
   },
@@ -726716,7 +726715,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 11:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-22 01:00"
   },
@@ -727681,7 +727680,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-23 05:00"
   },
@@ -727697,7 +727696,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-23 15:00"
   },
@@ -728573,7 +728572,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-23 01:00"
   },
@@ -728589,7 +728588,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": false,
    "renewed_at": "2026-10-23 01:00"
   },
@@ -734356,7 +734355,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "poikatsu_club:21547": {
    "site": "poikatsu_club",
@@ -734370,7 +734369,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "poikatsu_club:21549": {
    "site": "poikatsu_club",
@@ -736467,7 +736466,8 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24",
+   "renewed_at": "2026-10-24 21:00"
   },
   "au_point:8:1728": {
    "site": "au_point",
@@ -738040,7 +738040,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 15:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "chobirich:1901707": {
    "site": "chobirich",
@@ -740859,7 +740859,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 17:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-24",
    "site_new": true
   },
   "pointtown:2892": {
@@ -741613,7 +741613,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   "warau:208282": {
    "site": "warau",

@@ -294014,7 +294014,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-25",
    "site_new": false
   },
   "moppy:159941": {
@@ -668780,8 +668780,8 @@
    "site": "mikoshi_mall",
    "deal_id": "2182",
    "title": "SBI証券　こども口座開設",
-   "points_text": "22778pt",
-   "yen": 20500.2,
+   "points_text": "17391pt",
+   "yen": 15651.9,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/2182",
    "condition": "こども口座新規開設完了",
@@ -668789,8 +668789,7 @@
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 13:00",
    "last_seen": "2026-10-25",
-   "renewed_at": "2026-10-24 01:00",
-   "renewed_from": "12173pt"
+   "renew_hold": true
   },
   "mikoshi_mall:2183": {
    "site": "mikoshi_mall",
@@ -726414,7 +726413,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 01:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "renewed_at": "2026-10-20 21:00",
    "renewed_from": "最大 70 pt"
   },
@@ -726430,7 +726429,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 01:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "renewed_at": "2026-10-20 21:00",
    "renewed_from": "最大 70 pt"
   },
@@ -727659,7 +727658,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "site_new": false,
    "renewed_at": "2026-10-23 05:00"
   },
@@ -727675,7 +727674,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "site_new": false,
    "renewed_at": "2026-10-23 15:00"
   },
@@ -728567,7 +728566,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 21:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "site_new": false,
    "renewed_at": "2026-10-23 01:00"
   },
@@ -730378,7 +730377,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 13:00",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   "warau:208044": {
    "site": "warau",
@@ -734335,7 +734334,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   "poikatsu_club:21547": {
    "site": "poikatsu_club",

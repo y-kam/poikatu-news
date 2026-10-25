@@ -278441,7 +278441,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-25",
    "renewed_at": "2026-09-15 17:00",
    "renewed_from": "216pt"
   },
@@ -278457,7 +278457,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-25",
    "renew_hold": true
   },
   "poikatsu_club:5683": {
@@ -293358,7 +293358,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   "moppy:160874": {
    "site": "moppy",
@@ -293667,7 +293667,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-10-25",
    "site_new": false
   },
   "moppy:156162": {
@@ -675796,7 +675796,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 21:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "delisted_at": "2026-10-23"
   },
   "warau:201988": {
@@ -724095,7 +724095,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 13:00",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   "pointchips:1180": {
    "site": "pointchips",
@@ -724109,7 +724109,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 13:00",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-25"
   },
   "pointchips:1177": {
    "site": "pointchips",
@@ -726693,9 +726693,9 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 11:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-25",
    "site_new": false,
-   "renewed_at": "2026-10-22 01:00"
+   "renewed_at": "2026-10-25 21:00"
   },
   "amefri:141589": {
    "site": "amefri",
@@ -726709,9 +726709,9 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 11:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-25",
    "site_new": false,
-   "renewed_at": "2026-10-22 01:00"
+   "renewed_at": "2026-10-25 21:00"
   },
   "amefri:141594": {
    "site": "amefri",
@@ -734348,7 +734348,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   "poikatsu_club:21549": {
    "site": "poikatsu_club",
@@ -734362,7 +734362,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-25"
   },
   "poikatsu_club:21548": {
    "site": "poikatsu_club",
@@ -734376,7 +734376,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-25"
   },
   "poikatsu_club:21546": {
    "site": "poikatsu_club",
@@ -734390,7 +734390,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 21:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-25"
   },
   "poikatsu_club:21542": {
    "site": "poikatsu_club",
@@ -741600,7 +741600,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   "warau:208281": {
    "site": "warau",

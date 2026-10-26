@@ -58755,17 +58755,16 @@
    "site": "rebates",
    "deal_id": "14712",
    "title": "インナーショップ白鳩",
-   "points_text": "5.0%",
+   "points_text": "3.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.5,
    "url": "https://www.rebates.jp/shirohato",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-26",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-23 10:00",
-   "renewed_from": "3.5%"
+   "renew_hold": true
   },
   "rebates:10580": {
    "site": "rebates",
@@ -402477,7 +402476,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 15:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-26",
    "delisted_at": "2026-10-23"
   },
   "tamaru_mall:2740": {
@@ -623018,7 +623017,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-26"
   },
   "sugutama:28707": {
    "site": "sugutama",
@@ -730295,7 +730294,7 @@
    "seeded": false,
    "first_seen": "2026-10-19",
    "first_seen_at": "2026-10-19 13:00",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-26"
   },
   "pointchips:1184": {
    "site": "pointchips",
@@ -736078,7 +736077,7 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 17:00",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-26"
   },
   "poikatsu_club:21580": {
    "site": "poikatsu_club",
@@ -736745,7 +736744,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 01:00",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-26"
   },
   "moppy:162327": {
    "site": "moppy",
@@ -737980,7 +737979,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 15:00",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-26"
   },
   "chobirich:1901707": {
    "site": "chobirich",
@@ -738998,7 +738997,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 01:00",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "delisted_at": "2026-10-23"
   },
   "warau:208220": {
@@ -739404,7 +739403,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 05:00",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "delisted_at": "2026-10-23"
   },
   "chobirich:1901770": {
@@ -742648,15 +742647,17 @@
    "site": "pointtown",
    "deal_id": "11144",
    "title": "三井住友カード ANA VISA カード 一般カード",
-   "points_text": "2,500pt",
-   "yen": 2500.0,
+   "points_text": "3,500pt",
+   "yen": 3500.0,
    "percent": null,
    "url": "https://www.pointtown.com/item/11144",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 01:00",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-26",
+   "renewed_at": "2026-10-26 10:00",
+   "renewed_from": "2,500pt"
   },
   "warau:208263": {
    "site": "warau",
@@ -742740,6 +742741,202 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 01:00",
+   "last_seen": "2026-10-26"
+  },
+  "moppy:162362": {
+   "site": "moppy",
+   "deal_id": "162362",
+   "title": "三井住友カード ANA VISA ワイドゴールドカード",
+   "points_text": "5,500P",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162362",
+   "condition": "新規クレジットカード発行後、翌月末までに10,000円（税込）以上利用",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "moppy:162365": {
+   "site": "moppy",
+   "deal_id": "162365",
+   "title": "三井住友カード ANA VISA プラチナプレミアムカード",
+   "points_text": "5,500P",
+   "yen": 5500.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162365",
+   "condition": "新規クレジットカード発行後、翌月末までに10,000円（税込）以上利用",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "moppy:162361": {
+   "site": "moppy",
+   "deal_id": "162361",
+   "title": "三井住友カード ANA VISA カード 一般カード",
+   "points_text": "4,000P",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162361",
+   "condition": "新規クレジットカード発行後、翌月末までに5,000円（税込）以上利用",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "pointtown:11145": {
+   "site": "pointtown",
+   "deal_id": "11145",
+   "title": "三井住友カード ANA VISA ワイドゴールドカード",
+   "points_text": "5,000pt",
+   "yen": 5000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/11145",
+   "condition": "カード発行で",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "pointtown:11147": {
+   "site": "pointtown",
+   "deal_id": "11147",
+   "title": "三井住友カード ANA VISA プラチナプレミアムカード",
+   "points_text": "5,000pt",
+   "yen": 5000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/11147",
+   "condition": "カード発行で",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "warau:208291": {
+   "site": "warau",
+   "deal_id": "208291",
+   "title": "マネーフォワードME（3口座連携完了）",
+   "points_text": "700pt",
+   "yen": 700.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208291",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "warau:208292": {
+   "site": "warau",
+   "deal_id": "208292",
+   "title": "マネーフォワードME（3口座連携完了）",
+   "points_text": "700pt",
+   "yen": 700.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208292",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "pointier:16802": {
+   "site": "pointier",
+   "deal_id": "16802",
+   "title": "Riene",
+   "points_text": "5.5％",
+   "yen": null,
+   "percent": 5.5,
+   "url": "https://pointier.net/open/16802.html",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "kurashiru_reward:19677": {
+   "site": "kurashiru_reward",
+   "deal_id": "19677",
+   "title": "三井住友カードANAプラチナ",
+   "points_text": "510,000コイン",
+   "yen": 5100.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/19677",
+   "condition": "新規クレジットカード発行＋カード利用 で",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "kurashiru_reward:19676": {
+   "site": "kurashiru_reward",
+   "deal_id": "19676",
+   "title": "三井住友カードANAゴールド",
+   "points_text": "510,000コイン",
+   "yen": 5100.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/19676",
+   "condition": "新規クレジットカード発行＋カード利用 で",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "kurashiru_reward:19675": {
+   "site": "kurashiru_reward",
+   "deal_id": "19675",
+   "title": "三井住友カードANAクラシック",
+   "points_text": "382,200コイン",
+   "yen": 3822.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/19675",
+   "condition": "新規クレジットカード発行＋カード利用 で",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "powl:43500": {
+   "site": "powl",
+   "deal_id": "43500",
+   "title": "三井住友カード ANA VISA カード 一般カード",
+   "points_text": "40,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43500",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "powl:43501": {
+   "site": "powl",
+   "deal_id": "43501",
+   "title": "三井住友カード ANA VISA ワイドゴールドカード",
+   "points_text": "54,400pt",
+   "yen": 5440.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43501",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
+   "last_seen": "2026-10-26"
+  },
+  "powl:43604": {
+   "site": "powl",
+   "deal_id": "43604",
+   "title": "三井住友カード ANA VISA プラチナプレミアムカード",
+   "points_text": "54,400pt",
+   "yen": 5440.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43604",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-26",
+   "first_seen_at": "2026-10-26 10:00",
    "last_seen": "2026-10-26"
   }
  }

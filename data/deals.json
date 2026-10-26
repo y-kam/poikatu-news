@@ -293550,7 +293550,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "moppy:161609": {
    "site": "moppy",
@@ -293654,7 +293654,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "moppy:159218": {
    "site": "moppy",
@@ -293790,7 +293790,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-27"
   },
   "moppy:147035": {
    "site": "moppy",
@@ -325001,7 +325001,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-27",
    "site_new": true,
    "delisted_at": "2026-09-04",
    "renewed_at": "2026-10-15 01:00",
@@ -325134,17 +325134,18 @@
    "site": "moppy",
    "deal_id": "157264",
    "title": "まじめに姓名判断[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157264",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-09-14",
+   "last_seen": "2026-10-27",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-10-27 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157265": {
    "site": "moppy",
@@ -325222,7 +325223,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "site_new": false,
    "renewed_at": "2026-10-21 05:00",
    "renewed_from": "400P"
@@ -377318,18 +377319,19 @@
    "site": "moppy",
    "deal_id": "157287",
    "title": "【過去登録者も可】池袋の母[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157287",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-10-27",
    "site_new": true,
    "delisted_at": "2026-09-05",
-   "renew_hold": true
+   "renewed_at": "2026-10-27 05:00",
+   "renewed_from": "400P"
   },
   "moppy:162001": {
    "site": "moppy",
@@ -472122,7 +472124,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472531,17 +472533,19 @@
    "site": "moppy",
    "deal_id": "157254",
    "title": "マドモアゼル愛◆星語り (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157254",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-27",
    "backfill_dated": true,
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-10-27 05:00",
+   "renewed_from": "400P"
   },
   "moppy:160253": {
    "site": "moppy",
@@ -473024,7 +473028,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-16 05:00",
@@ -672758,7 +672762,7 @@
    "seeded": false,
    "first_seen": "2026-09-23",
    "first_seen_at": "2026-09-23 05:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-27",
    "site_new": false
   },
   "hapitas:94384": {
@@ -696583,7 +696587,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 05:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-27",
    "site_new": false,
    "renewed_at": "2026-10-20 05:00",
    "renewed_from": "400P"
@@ -743825,7 +743829,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 15:00",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "warau:207852": {
    "site": "warau",
@@ -745043,6 +745047,90 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 01:00",
+   "last_seen": "2026-10-27"
+  },
+  "hapitas:103945": {
+   "site": "hapitas",
+   "deal_id": "103945",
+   "title": "Wish: アバター着せ替え",
+   "points_text": "84pt",
+   "yen": 84.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103945/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 05:00",
+   "last_seen": "2026-10-27"
+  },
+  "hapitas:103944": {
+   "site": "hapitas",
+   "deal_id": "103944",
+   "title": "Wish: アバター着せ替え",
+   "points_text": "84pt",
+   "yen": 84.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103944/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 05:00",
+   "last_seen": "2026-10-27"
+  },
+  "hapitas:103912": {
+   "site": "hapitas",
+   "deal_id": "103912",
+   "title": "music.jp【お試し無料次月1958円(税込)コース】",
+   "points_text": "105pt",
+   "yen": 105.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103912/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 05:00",
+   "last_seen": "2026-10-27"
+  },
+  "hapitas:103875": {
+   "site": "hapitas",
+   "deal_id": "103875",
+   "title": "三井住友カード ANA VISA プラチナプレミアムカード",
+   "points_text": "4,800pt",
+   "yen": 4800.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103875/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 05:00",
+   "last_seen": "2026-10-27"
+  },
+  "hapitas:103873": {
+   "site": "hapitas",
+   "deal_id": "103873",
+   "title": "三井住友カード ANA VISA カード 一般カード",
+   "points_text": "3,500pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103873/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 05:00",
+   "last_seen": "2026-10-27"
+  },
+  "hapitas:103874": {
+   "site": "hapitas",
+   "deal_id": "103874",
+   "title": "三井住友カード ANA VISA ワイドゴールドカード",
+   "points_text": "4,800pt",
+   "yen": 4800.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103874/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 05:00",
    "last_seen": "2026-10-27"
   }
  }

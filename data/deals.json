@@ -102411,7 +102411,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
    "seed_filled": true
   },
   "powl:24328": {
@@ -142242,7 +142242,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-27",
    "seed_filled": true
   },
   "point_hiroba:5561": {
@@ -142256,7 +142256,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-27",
    "seed_filled": true
   },
   "point_hiroba:2922": {
@@ -142286,7 +142286,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-27",
    "seed_filled": true,
    "renewed_at": "2026-08-25 21:00",
    "renewed_from": "75 P"
@@ -142302,7 +142302,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-27",
    "seed_filled": true
   },
   "point_hiroba:5339": {
@@ -144858,7 +144858,7 @@
    "condition": "お買い物",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
    "seed_filled": true
   },
   "point_hiroba:5321": {
@@ -147376,10 +147376,10 @@
    "yen": 70.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=k2296",
-   "condition": "",
+   "condition": "無料登録後投稿",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06",
+   "last_seen": "2026-10-27",
    "backfill": true,
    "backfill_dated": true
   },
@@ -232286,7 +232286,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-27"
   },
   "point_island:220935": {
    "site": "point_island",
@@ -243806,7 +243806,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-27"
   },
   "point_stadium:220935": {
    "site": "point_stadium",
@@ -255314,7 +255314,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-10-27",
+   "renewed_at": "2026-10-27 17:00"
   },
   "nyandaful:220935": {
    "site": "nyandaful",
@@ -287829,7 +287830,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-27",
    "site_new": false
   },
   "moppy:108990": {
@@ -398601,18 +398602,20 @@
   "moppy:153758": {
    "site": "moppy",
    "deal_id": "153758",
-   "title": "戦国布武：我が天下戦国編（StepUp）【iOS】",
-   "points_text": "16,593P",
-   "yen": 16593.0,
+   "title": "戦国布武：我が天下戦国編（StepUp）_iOS",
+   "points_text": "19,492P",
+   "yen": 19492.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=153758",
-   "condition": "新規アプリインストール後、30日以内に各成果地点到達でクリア",
+   "condition": "新規アプリインストール後、各ミッションクリア",
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 15:00",
-   "last_seen": "2026-08-24",
+   "last_seen": "2026-10-27",
    "site_new": false,
-   "delisted_at": "2026-09-16"
+   "delisted_at": "2026-09-16",
+   "renewed_at": "2026-10-27 17:00",
+   "renewed_from": "16,593P"
   },
   "warau:205917": {
    "site": "warau",
@@ -398760,7 +398763,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 17:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-27",
    "site_new": false
   },
   "warau:205923": {
@@ -587081,7 +587084,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-02"
+   "last_seen": "2026-10-27"
   },
   "point_land:w103146351": {
    "site": "point_land",
@@ -723923,7 +723926,7 @@
   "powl:40779": {
    "site": "powl",
    "deal_id": "40779",
-   "title": "最大9,000円分還元！メルスプランWEB入会",
+   "title": "*最大9,000円分還元！メルスプランWEB入会",
    "points_text": "60,000pt",
    "yen": 6000.0,
    "percent": null,
@@ -740176,7 +740179,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-27",
    "renewed_at": "2026-10-26 01:00"
   },
   "point_island:v1790": {
@@ -742416,8 +742419,9 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
-   "last_seen": "2026-10-26",
-   "site_new": true
+   "last_seen": "2026-10-27",
+   "site_new": true,
+   "renewed_at": "2026-10-27 17:00"
   },
   "amefri:141856": {
    "site": "amefri",
@@ -742463,8 +742467,9 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
-   "last_seen": "2026-10-26",
-   "site_new": true
+   "last_seen": "2026-10-27",
+   "site_new": true,
+   "renewed_at": "2026-10-27 17:00"
   },
   "au_point:8:1742": {
    "site": "au_point",
@@ -742535,7 +742540,7 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "poikatsu_club:21655": {
    "site": "poikatsu_club",
@@ -742577,7 +742582,7 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "poikatsu_club:21622": {
    "site": "poikatsu_club",
@@ -744160,29 +744165,33 @@
    "site": "warau",
    "deal_id": "208319",
    "title": "【Zucks】キノコ伝説（StepUp）",
-   "points_text": "9,926pt",
-   "yen": 9926.0,
+   "points_text": "11,760pt",
+   "yen": 11760.0,
    "percent": null,
    "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208319",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 17:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-27",
+   "renewed_at": "2026-10-27 17:00",
+   "renewed_from": "9,926pt"
   },
   "warau:208318": {
    "site": "warau",
    "deal_id": "208318",
    "title": "【Zucks】キノコ伝説（StepUp）",
-   "points_text": "9,926pt",
-   "yen": 9926.0,
+   "points_text": "11,760pt",
+   "yen": 11760.0,
    "percent": null,
    "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208318",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 17:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-27",
+   "renewed_at": "2026-10-27 17:00",
+   "renewed_from": "9,926pt"
   },
   "warau:208327": {
    "site": "warau",
@@ -746380,6 +746389,482 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 15:00",
+   "last_seen": "2026-10-27"
+  },
+  "moppy:162370": {
+   "site": "moppy",
+   "deal_id": "162370",
+   "title": "monomane（モノマネ）修理",
+   "points_text": "1,000P",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162370",
+   "condition": "修理依頼後、実施＋代金の決済",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208380": {
+   "site": "warau",
+   "deal_id": "208380",
+   "title": "【GFRewards】Snail In Hole - Puzzle Game（StepUp）",
+   "points_text": "3,632pt",
+   "yen": 3632.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208380",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208378": {
+   "site": "warau",
+   "deal_id": "208378",
+   "title": "【GFRewards】スカイアイランド：マージ＆ストーリー（StepUp）",
+   "points_text": "1,512pt",
+   "yen": 1512.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208378",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208379": {
+   "site": "warau",
+   "deal_id": "208379",
+   "title": "【GFRewards】スカイアイランド：マージ＆ストーリー（StepUp）",
+   "points_text": "1,512pt",
+   "yen": 1512.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208379",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208381": {
+   "site": "warau",
+   "deal_id": "208381",
+   "title": "スカイアイランド:マージ＆ストーリー - Sky Island: Merge & Story（StepUp）",
+   "points_text": "1,710pt",
+   "yen": 1710.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208381",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208382": {
+   "site": "warau",
+   "deal_id": "208382",
+   "title": "スカイアイランド:マージ＆ストーリー - Sky Island: Merge & Story（StepUp）",
+   "points_text": "1,710pt",
+   "yen": 1710.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208382",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208377": {
+   "site": "warau",
+   "deal_id": "208377",
+   "title": "棚整理マスター（StepUp）",
+   "points_text": "5,520pt",
+   "yen": 5520.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208377",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208374": {
+   "site": "warau",
+   "deal_id": "208374",
+   "title": "Shelf Sort: Match 3 Puzzle（StepUp）",
+   "points_text": "995pt",
+   "yen": 995.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208374",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141964": {
+   "site": "amefri",
+   "deal_id": "141964",
+   "title": "Snail In Hole - Puzzle Game【Android】",
+   "points_text": "49,600pt",
+   "yen": 4960.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141964",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141963": {
+   "site": "amefri",
+   "deal_id": "141963",
+   "title": "Slime Loop: Color Puzzle_AOS_JP",
+   "points_text": "163,990pt",
+   "yen": 16399.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141963",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141962": {
+   "site": "amefri",
+   "deal_id": "141962",
+   "title": "King of Solitaire: Word Puzzle_IOS",
+   "points_text": "28,920pt",
+   "yen": 2892.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141962",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141961": {
+   "site": "amefri",
+   "deal_id": "141961",
+   "title": "King of Solitaire: Word Puzzle_AOS",
+   "points_text": "28,920pt",
+   "yen": 2892.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141961",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141960": {
+   "site": "amefri",
+   "deal_id": "141960",
+   "title": "Snail In Hole_AOS_261009",
+   "points_text": "70,790pt",
+   "yen": 7079.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141960",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141959": {
+   "site": "amefri",
+   "deal_id": "141959",
+   "title": "Pop Block Puzzle_iOS_261009",
+   "points_text": "72,140pt",
+   "yen": 7214.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141959",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141958": {
+   "site": "amefri",
+   "deal_id": "141958",
+   "title": "Pop Block Puzzle_AOS_261009",
+   "points_text": "72,140pt",
+   "yen": 7214.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141958",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141957": {
+   "site": "amefri",
+   "deal_id": "141957",
+   "title": "War of Towers-AOS",
+   "points_text": "32,660pt",
+   "yen": 3266.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141957",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141956": {
+   "site": "amefri",
+   "deal_id": "141956",
+   "title": "Heroes vs Crazy Wiggler_iOS",
+   "points_text": "196,060pt",
+   "yen": 19606.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141956",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141955": {
+   "site": "amefri",
+   "deal_id": "141955",
+   "title": "Heroes vs Crazy Wiggler_AOS",
+   "points_text": "201,600pt",
+   "yen": 20160.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141955",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141951": {
+   "site": "amefri",
+   "deal_id": "141951",
+   "title": "スカイアイランド：マージ＆ストーリー【iOS】",
+   "points_text": "20,640pt",
+   "yen": 2064.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141951",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141952": {
+   "site": "amefri",
+   "deal_id": "141952",
+   "title": "スカイアイランド：マージ＆ストーリー【Android】",
+   "points_text": "20,640pt",
+   "yen": 2064.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141952",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141950": {
+   "site": "amefri",
+   "deal_id": "141950",
+   "title": "ヤンキーサバイバー（事前登録）",
+   "points_text": "200pt",
+   "yen": 20.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141950",
+   "condition": "事前登録完了で条件達成となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "point_island:11160072": {
+   "site": "point_island",
+   "deal_id": "11160072",
+   "title": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "points_text": "27000ポイント",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=11160072",
+   "condition": "回線開通",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "point_stadium:11160072": {
+   "site": "point_stadium",
+   "deal_id": "11160072",
+   "title": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "points_text": "27000ポイント",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=11160072",
+   "condition": "回線開通で",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "point_land:11160072": {
+   "site": "point_land",
+   "deal_id": "11160072",
+   "title": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "points_text": "27000ポイント",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=11160072",
+   "condition": "回線開通",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "nyandaful:11160072": {
+   "site": "nyandaful",
+   "deal_id": "11160072",
+   "title": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "points_text": "27,000pt",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://www.nyandaful.jp/p_detail.asp?m=11160072",
+   "condition": "回線開通で",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "kurashiru_reward:19830": {
+   "site": "kurashiru_reward",
+   "deal_id": "19830",
+   "title": "USEN光01 XG 『10GBプラン』",
+   "points_text": "654,000コイン",
+   "yen": 6540.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/19830",
+   "condition": "新規申込後、開通完了 で",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "point_hiroba:5320": {
+   "site": "point_hiroba",
+   "deal_id": "5320",
+   "title": "「みんなのニュースパーク」無料会員登録",
+   "points_text": "100 P",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5320",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "point_museum:11160072": {
+   "site": "point_museum",
+   "deal_id": "11160072",
+   "title": "【公式】BIGLOBE光プラス by auひかりプラス",
+   "points_text": "27,000pt",
+   "yen": 2700.0,
+   "percent": null,
+   "url": "https://www.point-museum.com/ct.asp?adv=11160072",
+   "condition": "回線開通",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "poikatsu_club:21699": {
+   "site": "poikatsu_club",
+   "deal_id": "21699",
+   "title": "Snail In Hole - Puzzle Game（Android）",
+   "points_text": "6542pt",
+   "yen": 6542.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21699",
+   "condition": "新規アプリインストール後、広告クリックから30日以内に\n・STEP1：レベル30クリア\n・STEP2：レベル130クリア\n・STEP3：累計1600円以上の購入\n・STEP4：レベル400クリア\n・STEP5：レベル700クリア\n・STEP6：累計3200円以上の購入\n・STEP7：レベル1000クリア\n・STEP8：レベル1500クリア\n・STEP9：累計8000円以上の購入\n・STEP10：レベル2000クリア\n・STEP11：レベル3500クリア\n・STEP12：累計16000円以上の購入\n・STEP13：レベル4500クリア\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n※キャンペーンは予告なく変更・終了する場合がございます。\n※確実に成果にするため、アプリ起動後、ブラウザが起動するのを確認できるまでお待ちください。\n※4G,LTEなどのキャリア回線の使用を推奨致します。Wifiを使用してインストールした場合、成果にならない場合がございます。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから57日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・案件名\n・成果達成日時\n・成果到達したことがわかるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不備・不正・虚偽・重複・いたずら・キャンセル、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・過去にアプリをインストールしたことがある\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "poikatsu_club:21700": {
+   "site": "poikatsu_club",
+   "deal_id": "21700",
+   "title": "スカイアイランド：マージ＆ストーリー（iOS）",
+   "points_text": "2721pt",
+   "yen": 2721.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21700",
+   "condition": "新規アプリインストール後、広告クリックから15日以内に\n・プレイヤーレベル13達成\n・プレイヤーレベル17達成\n・プレイヤーレベル23達成\n・初回課金\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから15日以内\n成果調査受付期限：広告クリックから22日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n・成果到達したことがわかるすべてのキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "poikatsu_club:21701": {
+   "site": "poikatsu_club",
+   "deal_id": "21701",
+   "title": "スカイアイランド：マージ＆ストーリー（Android）",
+   "points_text": "2721pt",
+   "yen": 2721.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21701",
+   "condition": "新規アプリインストール後、広告クリックから15日以内に\n・プレイヤーレベル13達成\n・プレイヤーレベル17達成\n・プレイヤーレベル23達成\n・初回課金\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから15日以内\n成果調査受付期限：広告クリックから22日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・ゲーム内ユーザーIDのテキスト情報\n・ゲーム内ユーザーIDが確認できるキャプチャ画像\n・成果到達したことがわかるすべてのキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "poikatsu_club:21702": {
+   "site": "poikatsu_club",
+   "deal_id": "21702",
+   "title": "【M】【累計16000スター獲得】絵解き探偵_iOS",
+   "points_text": "2206pt",
+   "yen": 2206.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21702",
+   "condition": "新規アプリインストール後、累計16000スター獲得で成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから30日以内\r\n・成果調査受付期限：インストールから45日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・ゲーム内ユーザーID\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "poikatsu_club:21703": {
+   "site": "poikatsu_club",
+   "deal_id": "21703",
+   "title": "【M】【累計16000スター獲得】絵解き探偵_Android",
+   "points_text": "2206pt",
+   "yen": 2206.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21703",
+   "condition": "新規アプリインストール後、累計16000スター獲得で成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから30日以内\r\n・成果調査受付期限：インストールから45日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・ゲーム内ユーザーID\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
+   "last_seen": "2026-10-27"
+  },
+  "gendama:1591817": {
+   "site": "gendama",
+   "deal_id": "1591817",
+   "title": "[注目] 寅さんのデイトレ＆スイング「ハイブリッドコース」",
+   "points_text": "6,500pt",
+   "yen": 650.0,
+   "percent": null,
+   "url": "https://www.gendama.jp/service/item/1591817",
+   "condition": "公式LINE新規登録＋アンケート回答完了",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 17:00",
    "last_seen": "2026-10-27"
   }
  }

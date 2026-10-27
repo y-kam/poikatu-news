@@ -70784,17 +70784,16 @@
    "site": "line_catalog",
    "deal_id": "aquagarage",
    "title": "【公式】aquagarage-アクアガレージ",
-   "points_text": "14.0%還元",
+   "points_text": "12.0%還元",
    "yen": null,
-   "percent": 14.0,
+   "percent": 12.0,
    "url": "https://ec.line.me/shop/aquagarage/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-27",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-06 11:00",
-   "renewed_from": "12.0%還元"
+   "renew_hold": true
   },
   "line_catalog:tsunagu-uchiiwai": {
    "site": "line_catalog",
@@ -70916,17 +70915,16 @@
    "site": "line_catalog",
    "deal_id": "o-ohsho",
    "title": "大阪王将公式通販",
-   "points_text": "7.0%還元",
+   "points_text": "2.0%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 2.0,
    "url": "https://ec.line.me/shop/o-ohsho/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-27",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-06 11:00",
-   "renewed_from": "2.0%還元"
+   "renew_hold": true
   },
   "line_catalog:pc-koubou": {
    "site": "line_catalog",
@@ -71100,17 +71098,16 @@
    "site": "line_catalog",
    "deal_id": "murasaki",
    "title": "ムラサキスポーツ",
-   "points_text": "5.0%還元",
+   "points_text": "3.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.0,
    "url": "https://ec.line.me/shop/murasaki/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-27",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-06 11:00",
-   "renewed_from": "3.0%還元"
+   "renew_hold": true
   },
   "line_catalog:ms-1-houkouen": {
    "site": "line_catalog",
@@ -71216,16 +71213,16 @@
    "site": "line_catalog",
    "deal_id": "sogoseibu",
    "title": "西武・そごう公式オンラインストア",
-   "points_text": "2.0%還元",
+   "points_text": "5.0%還元",
    "yen": null,
-   "percent": 2.0,
+   "percent": 5.0,
    "url": "https://ec.line.me/shop/sogoseibu/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-27",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-06 11:00",
+   "renewed_at": "2026-10-27 11:00",
    "renewed_from": "1.0%還元"
   },
   "line_catalog:hugoboss": {
@@ -77795,16 +77792,17 @@
    "site": "line_catalog",
    "deal_id": "oliveyoung",
    "title": "オリーブヤング",
-   "points_text": "1.0%還元",
+   "points_text": "11.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 11.0,
    "url": "https://ec.line.me/shop/oliveyoung/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-27",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-27 11:00",
+   "renewed_from": "1.0%還元"
   },
   "line_catalog:crestbridgeonlinestore": {
    "site": "line_catalog",
@@ -83696,7 +83694,7 @@
    "condition": "商品購入後、決済完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "kurashiru_reward:17355": {
    "site": "kurashiru_reward",
@@ -83737,7 +83735,7 @@
    "condition": "新規口座開設完了 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "kurashiru_reward:17307": {
    "site": "kurashiru_reward",
@@ -83778,7 +83776,7 @@
    "condition": "新規オンライン診療後、発毛トライアルプランライトの決済 で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   "kurashiru_reward:17287": {
    "site": "kurashiru_reward",
@@ -90932,7 +90930,7 @@
   "powl:19232": {
    "site": "powl",
    "deal_id": "19232",
-   "title": "*Hulu（フールー）月額有料登録",
+   "title": "Hulu（フールー）月額有料登録",
    "points_text": "17,200pt",
    "yen": 1720.0,
    "percent": null,
@@ -356819,7 +356817,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 01:00",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-10-27"
   },
   "poney:10000053881": {
    "site": "poney",
@@ -648646,7 +648644,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-27"
   },
   "gendama:1544146": {
    "site": "gendama",
@@ -648674,7 +648672,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-27"
   },
   "gendama:1349772": {
    "site": "gendama",
@@ -648718,7 +648716,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-27"
   },
   "gendama:1533490": {
    "site": "gendama",
@@ -648760,7 +648758,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-27"
   },
   "gendama:1517684": {
    "site": "gendama",
@@ -648788,7 +648786,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-27"
   },
   "gendama:966106": {
    "site": "gendama",
@@ -701364,7 +701362,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 01:00",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-27",
    "delisted_at": "2026-10-16"
   },
   "warau:207424": {
@@ -745173,6 +745171,244 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 10:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208244": {
+   "site": "warau",
+   "deal_id": "208244",
+   "title": "USEN光01 XG",
+   "points_text": "9,000pt",
+   "yen": 9000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208244",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208347": {
+   "site": "warau",
+   "deal_id": "208347",
+   "title": "maniau - マニアウ",
+   "points_text": "7%還元",
+   "yen": null,
+   "percent": 7.0,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208347",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208322": {
+   "site": "warau",
+   "deal_id": "208322",
+   "title": "Merge Coin Brain POP:ASMR Sort（レベル200到達）",
+   "points_text": "410pt",
+   "yen": 410.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208322",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "warau:208320": {
+   "site": "warau",
+   "deal_id": "208320",
+   "title": "Merge Coin Brain POP:ASMR Sort（レベル200到達）",
+   "points_text": "410pt",
+   "yen": 410.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208320",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141903": {
+   "site": "amefri",
+   "deal_id": "141903",
+   "title": "イオンカードセレクト（ミッキーマウス デザイン）",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141903",
+   "condition": "初回クレジットカード発行",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141902": {
+   "site": "amefri",
+   "deal_id": "141902",
+   "title": "イオンカードセレクト（VISA/mastercardのみ）",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141902",
+   "condition": "初回クレジットカード発行",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141908": {
+   "site": "amefri",
+   "deal_id": "141908",
+   "title": "Falling Match -3D Tidy Master（LVL320）",
+   "points_text": "6,400pt",
+   "yen": 640.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141908",
+   "condition": "新規アプリインストール後、30日以内にレベル320をクリアで条件達成となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141907": {
+   "site": "amefri",
+   "deal_id": "141907",
+   "title": "Pixel Tap Away: Block Puzzle",
+   "points_text": "2,800pt",
+   "yen": 280.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141907",
+   "condition": "新規アプリインストール後、30日以内にレベル400クリアで条件達成となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141906": {
+   "site": "amefri",
+   "deal_id": "141906",
+   "title": "Falling Match -3D Tidy Master",
+   "points_text": "3,600pt",
+   "yen": 360.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141906",
+   "condition": "新規アプリインストール後、【30日以内にレベル400をクリア】で条件達成となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141905": {
+   "site": "amefri",
+   "deal_id": "141905",
+   "title": "Tile Match 3D：Triple Master",
+   "points_text": "3,440pt",
+   "yen": 344.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141905",
+   "condition": "新規アプリインストール後、【30日以内にレベル400をクリア】で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141901": {
+   "site": "amefri",
+   "deal_id": "141901",
+   "title": "Cat Drop: Cute Slide &amp; Match",
+   "points_text": "4,080pt",
+   "yen": 408.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141901",
+   "condition": "新規アプリインストール後、30日以内にレベル400クリアで条件達成となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141900": {
+   "site": "amefri",
+   "deal_id": "141900",
+   "title": "Bounce Bliss（広告視聴30回完了）",
+   "points_text": "680pt",
+   "yen": 68.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141900",
+   "condition": "新規アプリインストール後、30日以内に広告視聴30回完了で条件達成となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141899": {
+   "site": "amefri",
+   "deal_id": "141899",
+   "title": "間違い探し - 見つけてスポット_2",
+   "points_text": "4,320pt",
+   "yen": 432.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141899",
+   "condition": "新規アプリインストール後、【30日以内にレベル700をクリア】で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141898": {
+   "site": "amefri",
+   "deal_id": "141898",
+   "title": "2248：数字パズル2048",
+   "points_text": "3,680pt",
+   "yen": 368.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141898",
+   "condition": "新規アプリインストール後、【30日以内にステップ500突破】で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141897": {
+   "site": "amefri",
+   "deal_id": "141897",
+   "title": "2248：数字パズル2048",
+   "points_text": "3,680pt",
+   "yen": 368.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141897",
+   "condition": "新規アプリインストール後、【30日以内にステップ500突破】で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "amefri:141904": {
+   "site": "amefri",
+   "deal_id": "141904",
+   "title": "Travel Stories : Merge Journey（多段階）【iOS】",
+   "points_text": "42,350pt",
+   "yen": 4235.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/141904",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
+   "last_seen": "2026-10-27"
+  },
+  "poikatsu_club:21689": {
+   "site": "poikatsu_club",
+   "deal_id": "21689",
+   "title": "Travel Stories : Merge Journey（iOS）",
+   "points_text": "4654pt",
+   "yen": 4654.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21689",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/10/27以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：30日以内にプレイヤ一レベル12到達\n②：30日以内にプレイヤ一レベル20到達\n③：30日以内にプレイヤ一レベル30到達\n④：30日以内にプレイヤ一レベル40到達\n⑤：1日以内に任意$1.99パック（300円）を購入\n⑥：7日以内に累計課金$10（1700円）\n⑦：20日以内に累計課金$20（3400円）\n⑧：28日以内に累計課金$40（6700円）\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n『「○○○」を購入』『累計課金○○円』\n条件達成がわかる購入履歴画面もしくは予算と履歴画面(キャプチャ①)とレベル画面(キャプチャ②)とUID(テキスト③)をお送りください。\n＊手順\nキャプチャ①：iOS：［App Store］⇒ 画面右上［アカウント］アイコン ⇒［自分の名前］⇒［購入履歴］⇒ 検索窓に『アプリ名』を入力し、検索 ⇒［購入履歴画面］を表示\n　　　　　　Android：［Google Play ストア］⇒ 画面右上［アカウント］アイコン ⇒［お支払いと定期購入］⇒［予算と履歴画面］を表示\nキャプチャ②：［アプリを起動］⇒［プレイ画面］右下の矢印マークをタップ⇒［ホーム画面］左上のアイコンをタップ⇒［レベル画面］を表示\nテキスト③：［レベル画面］に記載されている［UID］\n\n『プレイヤ一レベル〇〇到達』\n条件達成がわかるプレイ画面(キャプチャ①)とレベル画面(キャプチャ②)とUID(テキスト③)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［プレイ画面］を表示\nキャプチャ②：［アプリを起動］⇒［プレイ画面］右下の矢印マークをタップ⇒［ホーム画面］左上のアイコンをタップ⇒［レベル画面］を表示\nテキスト③：［レベル画面］に記載されている［UID］\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-10-27",
+   "first_seen_at": "2026-10-27 11:00",
    "last_seen": "2026-10-27"
   }
  }

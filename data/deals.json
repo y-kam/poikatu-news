@@ -293565,7 +293565,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "moppy:161609": {
    "site": "moppy",
@@ -293896,7 +293896,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "site_new": false
   },
   "moppy:158211": {
@@ -294229,7 +294229,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-28",
    "site_new": false
   },
   "moppy:160804": {
@@ -294570,16 +294570,18 @@
    "site": "moppy",
    "deal_id": "157514",
    "title": "ナムコオンラインクレーン（初回課金（NPチャージ））",
-   "points_text": "352P",
-   "yen": 352.0,
+   "points_text": "540P",
+   "yen": 540.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157514",
    "condition": "【▼ポイント獲得条件】記載の条件を達成",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
-   "site_new": false
+   "last_seen": "2026-10-28",
+   "site_new": false,
+   "renewed_at": "2026-10-28 05:00",
+   "renewed_from": "352P"
   },
   "moppy:159174": {
    "site": "moppy",
@@ -325036,7 +325038,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-28",
    "site_new": true,
    "delisted_at": "2026-09-04",
    "renewed_at": "2026-10-15 01:00",
@@ -379277,7 +379279,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 05:00",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "renew_hold": true
   },
   "chobirich:1894071": {
@@ -400043,7 +400045,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 01:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "poikatsu_club:20508": {
    "site": "poikatsu_club",
@@ -471837,7 +471839,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471933,7 +471935,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472080,7 +472082,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-10-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473314,7 +473316,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-10-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474310,7 +474312,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -638541,7 +638543,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "site_new": false
   },
   "moppy:135486": {
@@ -667637,7 +667639,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 08:00",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-28",
    "site_new": false
   },
   "moppy:145203": {
@@ -701386,7 +701388,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 01:00",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "delisted_at": "2026-10-16"
   },
   "warau:207424": {
@@ -723200,7 +723202,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 01:00",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-28",
    "site_new": false
   },
   "amefri:112778": {
@@ -743199,7 +743201,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 11:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "amefri:141862": {
    "site": "amefri",
@@ -743213,7 +743215,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 11:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "amefri:141861": {
    "site": "amefri",
@@ -743325,7 +743327,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 11:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "poikatsu_club:21658": {
    "site": "poikatsu_club",
@@ -743679,7 +743681,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 13:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "powl:43612": {
    "site": "powl",
@@ -745223,7 +745225,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "warau:208347": {
    "site": "warau",
@@ -745237,7 +745239,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "warau:208322": {
    "site": "warau",
@@ -745461,7 +745463,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "amefri:141940": {
    "site": "amefri",
@@ -746021,7 +746023,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 15:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "warau:208349": {
    "site": "warau",
@@ -746035,7 +746037,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 15:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "amefri:141945": {
    "site": "amefri",
@@ -748290,6 +748292,20 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 01:02",
+   "last_seen": "2026-10-28"
+  },
+  "moppy:162371": {
+   "site": "moppy",
+   "deal_id": "162371",
+   "title": "Merge: Dream Home",
+   "points_text": "798P",
+   "yen": 798.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162371",
+   "condition": "レベル21達成",
+   "seeded": false,
+   "first_seen": "2026-10-28",
+   "first_seen_at": "2026-10-28 05:00",
    "last_seen": "2026-10-28"
   }
  }

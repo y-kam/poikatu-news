@@ -745212,7 +745212,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 10:00",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   "warau:207907": {
    "site": "warau",
@@ -748405,6 +748405,20 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 07:32",
+   "last_seen": "2026-10-28"
+  },
+  "powl:43834": {
+   "site": "powl",
+   "deal_id": "43834",
+   "title": "iOS_TikTok_SUR_初回起動日から連続7日間起動",
+   "points_text": "51,500pt",
+   "yen": 5150.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43834",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-28",
+   "first_seen_at": "2026-10-28 10:00",
    "last_seen": "2026-10-28"
   }
  }

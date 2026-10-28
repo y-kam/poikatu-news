@@ -293708,7 +293708,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-29",
    "site_new": false,
    "renewed_at": "2026-10-22 01:00",
    "renewed_from": "7,125P"
@@ -294131,7 +294131,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-29",
    "renew_hold": true
   },
   "moppy:161645": {
@@ -296010,7 +296010,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-29"
   },
   "amefri:138723": {
    "site": "amefri",
@@ -333435,7 +333435,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 05:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-29",
    "site_new": false,
    "delisted_at": "2026-07-23",
    "renewed_at": "2026-09-19 05:00",
@@ -398557,7 +398557,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 13:00",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-29",
    "site_new": false
   },
   "pointtown:10027": {
@@ -472479,7 +472479,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472746,17 +472746,19 @@
    "site": "moppy",
    "deal_id": "157272",
    "title": "ダーリン完全マニュアル[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157272",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-29",
    "backfill_dated": true,
-   "site_new": true
+   "site_new": true,
+   "renewed_at": "2026-10-29 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145285": {
    "site": "moppy",
@@ -472916,7 +472918,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-29",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481451,7 +481453,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-29",
    "backfill_dated": true,
    "site_new": false
   },
@@ -500922,16 +500924,18 @@
    "site": "moppy",
    "deal_id": "157285",
    "title": "【過去登録者も可】桃玉◆最後の神の眼[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157285",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-09-10",
-   "site_new": false
+   "last_seen": "2026-10-29",
+   "site_new": false,
+   "renewed_at": "2026-10-29 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157253": {
    "site": "moppy",
@@ -500975,7 +500979,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-29",
    "site_new": false
   },
   "moppy:157245": {
@@ -638604,7 +638608,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-29",
    "site_new": false
   },
   "moppy:155266": {
@@ -682775,7 +682779,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 05:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-29",
    "site_new": false
   },
   "hapitas:103372": {
@@ -737547,7 +737551,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "pointchips:1213": {
    "site": "pointchips",
@@ -737561,7 +737565,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "pointchips:1211": {
    "site": "pointchips",
@@ -742079,7 +742083,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21643": {
    "site": "poikatsu_club",
@@ -742093,7 +742097,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21639": {
    "site": "poikatsu_club",
@@ -744660,7 +744664,8 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29",
+   "renewed_at": "2026-10-29 05:00"
   },
   "amefri:141883": {
    "site": "amefri",
@@ -745486,7 +745491,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21689": {
    "site": "poikatsu_club",
@@ -748982,7 +748987,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 15:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "warau:208407": {
    "site": "warau",
@@ -748996,7 +749001,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 15:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "warau:206870": {
    "site": "warau",
@@ -750036,7 +750041,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "warau:208434": {
    "site": "warau",
@@ -750176,7 +750181,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "powl:36805": {
    "site": "powl",
@@ -750232,7 +750237,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21742": {
    "site": "poikatsu_club",
@@ -750792,6 +750797,20 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 01:00",
+   "last_seen": "2026-10-29"
+  },
+  "moppy:162373": {
+   "site": "moppy",
+   "deal_id": "162373",
+   "title": "GameTalkTalk（Welcom Bounusを受け取る）",
+   "points_text": "190P",
+   "yen": 190.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162373",
+   "condition": "【▼ポイント獲得条件】記載の条件を達成",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 05:00",
    "last_seen": "2026-10-29"
   }
  }

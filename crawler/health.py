@@ -161,13 +161,15 @@ def _detail(cur: dict, kind: str, baseline: "float | None") -> str:
     return ""
 
 
-def evaluate(metrics: dict) -> list[dict]:
+def evaluate(metrics: dict, sites: "set[str] | None" = None) -> list[dict]:
     """蓄積した実績から、直近1回を過去のベースラインと比較して異常を返す。
     末尾から同じ異常が続く回数(streak)を数え、CRITICAL_STREAK 以上なら critical
-    （SOFT_KINDS は連続でも warning 止まり）。critical→site 名順に並べて返す。"""
+    （SOFT_KINDS は連続でも warning 止まり）。critical→site 名順に並べて返す。
+    sites を渡すとそのサイトだけを評価する。無効化（enabled=false）したサイトは
+    クロールされず記録が更新されないため、停止直前の異常が残り続けてCIが失敗し続けるのを防ぐ。"""
     anomalies = []
     for site, entries in metrics.get("sites", {}).items():
-        if not entries:
+        if not entries or (sites is not None and site not in sites):
             continue
         cur, prior = entries[-1], entries[:-1]
         baseline = _baseline_fetched(prior)

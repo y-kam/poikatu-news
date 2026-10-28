@@ -12,13 +12,23 @@
 判定基準・しきい値は crawler/health.py に集約（run.py の実行時サマリと同一ロジック）。
 """
 import argparse
+import json
 import sys
+from pathlib import Path
 
 from crawler import health
+
+SITES_CONFIG = Path(__file__).resolve().parent / "config" / "sites.json"
 
 # Windowsコンソール（cp932）での日本語出力の文字化けを防ぐ
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
+
+def enabled_sites() -> set:
+    """評価対象＝有効（enabled=true）なサイトのキー集合。無効化したサイトの古い記録は見ない。"""
+    with SITES_CONFIG.open(encoding="utf-8") as f:
+        return {k for k, v in json.load(f).items() if v.get("enabled")}
 
 
 def main() -> int:
@@ -28,7 +38,7 @@ def main() -> int:
     args = parser.parse_args()
 
     metrics = health.load()
-    anomalies = health.evaluate(metrics)
+    anomalies = health.evaluate(metrics, enabled_sites())
     criticals = health.report(anomalies)
     if args.strict and anomalies:
         return 1

@@ -59,7 +59,7 @@
     "rate": 0.09,
     "domain": "fruitmail.net",
     "referral_url": "",
-    "enabled": true,
+    "enabled": false,
     "list_new_markers": [
       "point_value__up"
     ]
@@ -111,7 +111,7 @@
     "rate": 1.0,
     "domain": "gpoint.co.jp",
     "referral_url": "",
-    "enabled": true
+    "enabled": false
   },
   "line_catalog": {
     "name": "LINEブランドカタログ",

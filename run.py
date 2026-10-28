@@ -205,7 +205,8 @@ def main() -> int:
         metrics = health.load()
         health.record(metrics, run_stats, now_at)
         health.save(metrics)
-        health.report(health.evaluate(metrics))
+        health.report(health.evaluate(
+            metrics, {k for k, v in sites_config.items() if v.get("enabled")}))
         if failures:
             print(f"[warn] 失敗サイト: {', '.join(failures)}", file=sys.stderr)
         # 人気案件ランキング用のクリック集計をサーバから取り込む（失敗しても前回分で生成を継続）

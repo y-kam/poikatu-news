@@ -55,6 +55,13 @@ class FlakyTest(unittest.TestCase):
 
         self.assertNotIn("flaky", kinds(metrics, "s"))
 
+    def test_disabled_site_is_not_judged(self):
+        """無効化したサイトは記録が更新されないので、停止直前の異常を報告し続けない"""
+        metrics = {"sites": {"stopped": entries([0] * 12), "s": entries([30] * 12)}}
+
+        self.assertEqual(health.evaluate(metrics, {"s"}), [])
+        self.assertIn("flaky", [a["kind"] for a in health.evaluate(metrics)])  # 未指定なら全サイト
+
 
 if __name__ == "__main__":
     unittest.main()

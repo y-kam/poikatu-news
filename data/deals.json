@@ -716,9 +716,9 @@
    "url": "https://lifemedia.jp/service/detail/0001275022F0",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-29",
    "condition": "アップグレードによるカード発行（VISAブランド／Mastercardブランド対象）",
-   "renewed_at": "2026-10-13 13:00",
+   "renewed_at": "2026-10-29 15:00",
    "renewed_from": "5,600P"
   },
   "nifty_point:0001257422F0": {
@@ -731,9 +731,9 @@
    "url": "https://lifemedia.jp/service/detail/0001257422F0",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-29",
    "condition": "新規カード発行完了",
-   "renewed_at": "2026-10-08 01:00",
+   "renewed_at": "2026-10-29 15:00",
    "renewed_from": "3,000P"
   },
   "nifty_point:0000292422F0": {
@@ -746,9 +746,9 @@
    "url": "https://lifemedia.jp/service/detail/0000292422F0",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-10-29",
    "condition": "新規カード発行",
-   "renewed_at": "2026-10-08 01:00",
+   "renewed_at": "2026-10-29 15:00",
    "renewed_from": "11,000P"
   },
   "nifty_point:0000271922F0": {
@@ -761,9 +761,9 @@
    "url": "https://lifemedia.jp/service/detail/0000271922F0",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-29",
    "condition": "新規カード発行",
-   "renewed_at": "2026-10-07 01:00",
+   "renewed_at": "2026-10-29 15:00",
    "renewed_from": "500P"
   },
   "nifty_point:0001270622F0": {
@@ -87757,7 +87757,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-29",
    "seed_filled": true
   },
   "powl:31447": {
@@ -190997,7 +190997,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-31",
+   "last_seen": "2026-10-29",
    "renewed_at": "2026-08-31 01:00"
   },
   "nifty_point:0001007122F0": {
@@ -204947,7 +204947,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-29"
   },
   "getmoney:66925": {
    "site": "getmoney",
@@ -351695,7 +351695,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 10:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-29",
    "renew_hold": true
   },
   "poikatsu_club:15220": {
@@ -481252,7 +481252,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-29",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481912,7 +481912,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-10-26 21:00",
@@ -693297,8 +693297,8 @@
    "site": "powl",
    "deal_id": "41813",
    "title": "JCB Biz ONE（一般）",
-   "points_text": "170,000pt",
-   "yen": 17000.0,
+   "points_text": "175,000pt",
+   "yen": 17500.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/41813",
    "condition": "",
@@ -693306,15 +693306,15 @@
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 01:00",
    "last_seen": "2026-10-29",
-   "renewed_at": "2026-10-28 11:00",
+   "renewed_at": "2026-10-29 15:00",
    "renewed_from": "135,000pt"
   },
   "powl:41814": {
    "site": "powl",
    "deal_id": "41814",
    "title": "JCB Biz ONE（ゴールド）",
-   "points_text": "172,000pt",
-   "yen": 17200.0,
+   "points_text": "177,000pt",
+   "yen": 17700.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/41814",
    "condition": "",
@@ -693322,7 +693322,7 @@
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 01:00",
    "last_seen": "2026-10-29",
-   "renewed_at": "2026-10-28 11:00",
+   "renewed_at": "2026-10-29 15:00",
    "renewed_from": "145,000pt"
   },
   "powl:41828": {
@@ -694599,7 +694599,7 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 10:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-29",
    "delisted_at": "2026-10-23"
   },
   "powl:41781": {
@@ -740421,7 +740421,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21631": {
    "site": "poikatsu_club",
@@ -740435,7 +740435,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21520": {
    "site": "poikatsu_club",
@@ -740505,7 +740505,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "renewed_at": "2026-10-23 21:00",
    "renewed_from": "最大 75 pt"
   },
@@ -740521,7 +740521,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "renewed_at": "2026-10-23 21:00",
    "renewed_from": "最大 75 pt"
   },
@@ -740888,7 +740888,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 15:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21634": {
    "site": "poikatsu_club",
@@ -742150,7 +742150,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   "poikatsu_club:21640": {
    "site": "poikatsu_club",
@@ -751399,6 +751399,230 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 13:00",
+   "last_seen": "2026-10-29"
+  },
+  "warau:208476": {
+   "site": "warau",
+   "deal_id": "208476",
+   "title": "【GFRewards】Abyss Defenders（StepUp）",
+   "points_text": "9,188pt",
+   "yen": 9188.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208476",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "warau:195717": {
+   "site": "warau",
+   "deal_id": "195717",
+   "title": "【SKYFLAG】みんなのFX（新規口座開設申込後、「みんなのFX」で90日以内に新規5l…",
+   "points_text": "7,995pt",
+   "yen": 7995.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=195717",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "warau:208490": {
+   "site": "warau",
+   "deal_id": "208490",
+   "title": "Alice's Mergeland（StepUp）",
+   "points_text": "2,250pt",
+   "yen": 2250.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208490",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "warau:208501": {
+   "site": "warau",
+   "deal_id": "208501",
+   "title": "DOOR賃貸（新規物件お問合せ完了）",
+   "points_text": "2,000pt",
+   "yen": 2000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208501",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "getmoney:67131": {
+   "site": "getmoney",
+   "deal_id": "67131",
+   "title": "女性限定 マネカツ オンラインセミナー",
+   "points_text": "210,000Pt",
+   "yen": 21000.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67131",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "getmoney:67130": {
+   "site": "getmoney",
+   "deal_id": "67130",
+   "title": "手取りUPを目指す！税金対策セミナー",
+   "points_text": "150,000Pt",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67130",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "amefri:142071": {
+   "site": "amefri",
+   "deal_id": "142071",
+   "title": "【PR】ANAのふるさと納税",
+   "points_text": "0％",
+   "yen": null,
+   "percent": 0.0,
+   "url": "https://www.amefri.net/detail/id/142071",
+   "condition": "ポイント対象外",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "amefri:142076": {
+   "site": "amefri",
+   "deal_id": "142076",
+   "title": "Slime Loop: Color Puzzle_AOS_20261029",
+   "points_text": "614,880pt",
+   "yen": 61488.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142076",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "amefri:142072": {
+   "site": "amefri",
+   "deal_id": "142072",
+   "title": "Abyss Defenders【iOS】",
+   "points_text": "125,570pt",
+   "yen": 12557.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142072",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "ponta_bonuspark:4664": {
+   "site": "ponta_bonuspark",
+   "deal_id": "4664",
+   "title": "ワンバンク(iOS)",
+   "points_text": "450P",
+   "yen": 450.0,
+   "percent": null,
+   "url": "https://www.bonuspark.jp/app/4664.html",
+   "condition": "新規アプリインストール後、30日以内にあとばらいチャージの初回入金完了",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "powl:43933": {
+   "site": "powl",
+   "deal_id": "43933",
+   "title": "GameTalkTalk（Welcom Bounusを受け取る）（Android）",
+   "points_text": "1,520pt",
+   "yen": 152.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43933",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "powl:43903": {
+   "site": "powl",
+   "deal_id": "43903",
+   "title": "iOS_ラストアサイラム：プレイグ_SUR_45日以内に教会Lv.28に到達",
+   "points_text": "117,000pt",
+   "yen": 11700.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43903",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "powl:43917": {
+   "site": "powl",
+   "deal_id": "43917",
+   "title": "And_ラストアサイラム：プレイグ_SUR_45日以内に教会Lv.28に到達",
+   "points_text": "109,000pt",
+   "yen": 10900.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43917",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "powl:43929": {
+   "site": "powl",
+   "deal_id": "43929",
+   "title": "And_【注意事項必読】TikTok Lite_SUR_初回起動日から2日連続でチェックインタスク完了",
+   "points_text": "12,500pt",
+   "yen": 1250.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43929",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "poikatsu_club:21748": {
+   "site": "poikatsu_club",
+   "deal_id": "21748",
+   "title": "Abyss Defenders（iOS）",
+   "points_text": "16554pt",
+   "yen": 16554.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21748",
+   "condition": "新規アプリインストール後、広告クリックから30日以内に\n・第1章-3をクリア\n・第1章-5をクリア\n・第2章-1をクリア\n・第2章-2をクリア\n・第2章-3をクリア\n・第2章-5をクリア\n・第3章-5をクリア\n・第4章-5をクリア\n・第5章-5をクリア\n・第6章-5をクリア\n・第7章-5をクリア\n・第8章-5をクリア\n・第9章-5をクリア\n・第10章-5をクリア\n・第11章-5をクリア\n・ルビー4990個を購入\n・ルビー9990個を購入\n・ルビー19990個を購入\n・ルビー29990個を購入\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから37日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
+   "last_seen": "2026-10-29"
+  },
+  "poikatsu_club:21749": {
+   "site": "poikatsu_club",
+   "deal_id": "21749",
+   "title": "iOS_ゼタ(zeta) ≪インストール後　サインアップ完了≫",
+   "points_text": "30pt",
+   "yen": 30.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21749",
+   "condition": "<p><span style=\"color: rgb(51, 51, 51)\">新規インストール後、サインアップ完了</span><br class=\"hard-break\"><br class=\"hard-break\"><strong>※</strong><span style=\"color: rgb(255, 0, 0)\"><strong>本広告はSNS等での投稿および拡散は禁止となります。</strong></span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">※本広告は1日ごとに上限数が設定されている場合がございます。ストアページなどに遷移しない場合は、翌日0時以降ご確認ください。</span><br class=\"hard-break\"><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">【却下条件】</span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">●広告クリックから獲得に至るまで、同一ブラウザで行われない場合</span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">●同一ユーザー／IPでの2回目以降の利用</span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">●広告主へ直接お問い合わせする事を固く禁じます。</span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">●不備・不正・虚偽・架空・重複・いたずら・キャンセル・未入金・返品</span><br class=\"hard-break\"><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">【ポイント未反映・否認】</span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">本広告はポイント調査対象外です。</span><br class=\"hard-break\"><span style=\"color: rgb(51, 51, 51)\">いかなる場合も受付不可となりますので、予めご了承ください。</span></p>",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 15:00",
    "last_seen": "2026-10-29"
   }
  }

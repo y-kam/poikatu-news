@@ -48267,7 +48267,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-29",
    "condition": "",
    "renew_hold": true
   },
@@ -177820,7 +177820,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29"
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -289195,7 +289195,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-10-14 06:12",
    "renewed_from": "90,000pt"
@@ -290106,7 +290106,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-29",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-09-01 07:28",
    "renewed_from": "55,000pt"
@@ -291681,18 +291681,17 @@
   "pointincome:155420": {
    "site": "pointincome",
    "deal_id": "155420",
-   "title": "【10/22までの高還元！】GREEN SPOON（グリーンスプーン）",
-   "points_text": "50,000pt",
-   "yen": 5000.0,
+   "title": "GREEN SPOON（グリーンスプーン）",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155420/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-10-19",
-   "renewed_at": "2026-10-14 18:32",
-   "renewed_from": "15,000pt"
+   "last_seen": "2026-10-29",
+   "renew_hold": true
   },
   "pointincome:155645": {
    "site": "pointincome",
@@ -312820,7 +312819,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-10-29",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -323771,7 +323770,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-10-29",
    "renewed_at": "2026-08-27 18:31",
    "renewed_from": "8,000pt"
   },
@@ -361892,7 +361891,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-29"
   },
   "pointincome:145649": {
    "site": "pointincome",
@@ -369744,7 +369743,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-10-13"
+   "last_seen": "2026-10-29"
   },
   "pointincome:127195": {
    "site": "pointincome",
@@ -396197,7 +396196,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 17:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-29",
    "renewed_at": "2026-10-02 20:01",
    "renewed_from": "200,000pt"
   },
@@ -403006,7 +403005,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-29"
   },
   "pointincome:150392": {
    "site": "pointincome",
@@ -415049,16 +415048,16 @@
    "site": "chobirich",
    "deal_id": "1883609",
    "title": "iAEON（アイイオン）",
-   "points_text": "101pt",
-   "yen": 50.5,
+   "points_text": "127pt",
+   "yen": 63.5,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1883609/",
    "condition": "新規アプリインストール後、初回会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 07:28",
-   "last_seen": "2026-10-26",
-   "renewed_at": "2026-10-23 18:56",
+   "last_seen": "2026-10-29",
+   "renewed_at": "2026-10-29 19:44",
    "renewed_from": "58pt"
   },
   "chobirich:1898132": {
@@ -424841,7 +424840,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 07:32",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-29"
   },
   "pointincome:156073": {
    "site": "pointincome",
@@ -499973,7 +499972,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 18:43",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "renew_hold": true
   },
   "moppy:153214": {
@@ -509295,7 +509294,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 19:14",
-   "last_seen": "2026-09-15"
+   "last_seen": "2026-10-29"
   },
   "pointincome:155324": {
    "site": "pointincome",
@@ -516650,15 +516649,17 @@
    "site": "chobirich",
    "deal_id": "1899449",
    "title": "デイリー麻雀マッチ",
-   "points_text": "最大600pt",
-   "yen": 300.0,
+   "points_text": "最大934pt",
+   "yen": 467.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1899449/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 07:30",
-   "last_seen": "2026-09-18"
+   "last_seen": "2026-10-29",
+   "renewed_at": "2026-10-29 19:44",
+   "renewed_from": "最大600pt"
   },
   "pointincome:127063": {
    "site": "pointincome",
@@ -698493,7 +698494,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-02"
+   "last_seen": "2026-10-29"
   },
   "pointincome:154239": {
    "site": "pointincome",
@@ -741518,15 +741519,17 @@
    "site": "chobirich",
    "deal_id": "1839008",
    "title": "ColorSing",
-   "points_text": "960pt",
-   "yen": 480.0,
+   "points_text": "1440pt",
+   "yen": 720.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1839008/",
    "condition": "1人のライバーに対して1K推しポイント獲得(インストール後、条件達成)",
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 18:56",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29",
+   "renewed_at": "2026-10-29 19:44",
+   "renewed_from": "960pt"
   },
   "pointincome:144453": {
    "site": "pointincome",
@@ -741554,7 +741557,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 18:56",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-29"
   },
   "pointincome:146383": {
    "site": "pointincome",
@@ -747630,15 +747633,17 @@
    "site": "chobirich",
    "deal_id": "1901647",
    "title": "ホワイト急便【宅配クリーニング】",
-   "points_text": "1,000pt",
-   "yen": 500.0,
+   "points_text": "1,400pt",
+   "yen": 700.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1901647/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 22:06",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-29",
+   "renewed_at": "2026-10-29 19:44",
+   "renewed_from": "1,000pt"
   },
   "chobirich:1901646": {
    "site": "chobirich",
@@ -747756,15 +747761,17 @@
    "site": "chobirich",
    "deal_id": "1902086",
    "title": "スカイアイランド：マージ＆ストーリー",
-   "points_text": "最大2016pt",
-   "yen": 1008.0,
+   "points_text": "最大3024pt",
+   "yen": 1512.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1902086/",
    "condition": "新規アプリインストール後、各ステップクリア",
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 22:06",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-29",
+   "renewed_at": "2026-10-29 19:44",
+   "renewed_from": "最大2016pt"
   },
   "chobirich:1902081": {
    "site": "chobirich",
@@ -751919,6 +751926,188 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 17:00",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902171": {
+   "site": "chobirich",
+   "deal_id": "1902171",
+   "title": "QQEnglish",
+   "points_text": "5,000pt",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902171/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902170": {
+   "site": "chobirich",
+   "deal_id": "1902170",
+   "title": "music.jp",
+   "points_text": "100pt",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902170/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902126": {
+   "site": "chobirich",
+   "deal_id": "1902126",
+   "title": "monomane（モノマネ）修理",
+   "points_text": "600pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902126/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902318": {
+   "site": "chobirich",
+   "deal_id": "1902318",
+   "title": "マルカイチ水産",
+   "points_text": "3％",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://www.chobirich.com/ad_details/1902318/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902326": {
+   "site": "chobirich",
+   "deal_id": "1902326",
+   "title": "出荷ぶた冬ver（アプリランド）",
+   "points_text": "最大456pt",
+   "yen": 228.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902326/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902325": {
+   "site": "chobirich",
+   "deal_id": "1902325",
+   "title": "ウエスタン農場(クロンダイクの冒険)（アプリランド）",
+   "points_text": "最大5273pt",
+   "yen": 2636.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902325/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902323": {
+   "site": "chobirich",
+   "deal_id": "1902323",
+   "title": "出荷ぶた（アプリランド）",
+   "points_text": "最大456pt",
+   "yen": 228.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902323/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902307": {
+   "site": "chobirich",
+   "deal_id": "1902307",
+   "title": "実りの地",
+   "points_text": "最大826pt",
+   "yen": 413.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902307/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902290": {
+   "site": "chobirich",
+   "deal_id": "1902290",
+   "title": "Abyss Defenders",
+   "points_text": "最大12253pt",
+   "yen": 6126.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902290/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902235": {
+   "site": "chobirich",
+   "deal_id": "1902235",
+   "title": "勝利の女神：NIKKE（多段階）（iOS）（アプリdeちょ～リッチ）",
+   "points_text": "最大1648pt",
+   "yen": 824.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902235/",
+   "condition": "遷移先の「アプリdeちょ～リッチ」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "chobirich:1902232": {
+   "site": "chobirich",
+   "deal_id": "1902232",
+   "title": "Ruler Match: タイルパズル",
+   "points_text": "最大2975pt",
+   "yen": 1487.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1902232/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "pointincome:154571": {
+   "site": "pointincome",
+   "deal_id": "154571",
+   "title": "デジタル証券renga（レンガ）[30万円取引]",
+   "points_text": "80,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154571/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
+   "last_seen": "2026-10-29"
+  },
+  "pointincome:155140": {
+   "site": "pointincome",
+   "deal_id": "155140",
+   "title": "10/31までの高還元！エックスモバイル",
+   "points_text": "35,000pt",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155140/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-29",
+   "first_seen_at": "2026-10-29 19:44",
    "last_seen": "2026-10-29"
   }
  }

@@ -48268,7 +48268,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "condition": "",
    "renew_hold": true
   },
@@ -48544,7 +48544,7 @@
    "url": "https://pointi.jp/ad/134844/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-30",
    "condition": ""
   },
   "pointincome:155078": {
@@ -177822,16 +177822,17 @@
   "pointincome:125387": {
    "site": "pointincome",
    "deal_id": "125387",
-   "title": "【10/29までの高還元！】NURO 光（戸建て・マンション）",
-   "points_text": "300,000pt",
-   "yen": 30000.0,
+   "title": "NURO 光（戸建て・マンション）",
+   "points_text": "200,000pt",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/125387/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renew_hold": true
   },
   "pointincome:126927": {
    "site": "pointincome",
@@ -287608,7 +287609,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-10-23",
    "renewed_at": "2026-10-29 07:29",
    "renewed_from": "7,000pt"
@@ -289211,7 +289212,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-10-14 06:12",
    "renewed_from": "90,000pt"
@@ -289228,7 +289229,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-09-16",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-07-09",
    "renew_hold": true
   },
@@ -290122,7 +290123,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-09-01 07:28",
    "renewed_from": "55,000pt"
@@ -291706,7 +291707,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 13:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renew_hold": true
   },
   "pointincome:155645": {
@@ -312834,7 +312835,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-07-10",
    "renew_hold": true
   },
@@ -316109,7 +316110,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-07-11",
    "renew_hold": true
   },
@@ -316197,7 +316198,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renew_hold": true
   },
   "pointincome:155801": {
@@ -319416,7 +319417,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-10-03 19:31",
    "renewed_from": "250,000pt"
   },
@@ -323785,7 +323786,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-08-27 18:31",
    "renewed_from": "8,000pt"
   },
@@ -326902,18 +326903,17 @@
   "pointincome:151471": {
    "site": "pointincome",
    "deal_id": "151471",
-   "title": "【10/29までの高還元！】iHerb（アイハーブ）",
-   "points_text": "購入金額の3%",
+   "title": "iHerb（アイハーブ）",
+   "points_text": "購入金額の2%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 2.0,
    "url": "https://pointi.jp/ad/151471/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-10-29",
-   "renewed_at": "2026-10-23 18:56",
-   "renewed_from": "購入金額の2%"
+   "last_seen": "2026-10-30",
+   "renew_hold": true
   },
   "pointincome:112914": {
    "site": "pointincome",
@@ -328538,19 +328538,18 @@
   "pointincome:145270": {
    "site": "pointincome",
    "deal_id": "145270",
-   "title": "【10/29までの高還元！】iHerb（アイハーブ）　初回利用",
-   "points_text": "購入金額の14%",
+   "title": "iHerb（アイハーブ）　初回利用",
+   "points_text": "購入金額の9%",
    "yen": null,
-   "percent": 14.0,
+   "percent": 9.0,
    "url": "https://pointi.jp/ad/145270/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-08-26",
-   "renewed_at": "2026-10-23 18:56",
-   "renewed_from": "購入金額の10%"
+   "renew_hold": true
   },
   "pointincome:155322": {
    "site": "pointincome",
@@ -358339,7 +358338,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -361905,7 +361904,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 05:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:145649": {
    "site": "pointincome",
@@ -369757,7 +369756,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:127195": {
    "site": "pointincome",
@@ -403025,7 +403024,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:150392": {
    "site": "pointincome",
@@ -424860,7 +424859,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 07:32",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:156073": {
    "site": "pointincome",
@@ -509315,7 +509314,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 19:14",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:155324": {
    "site": "pointincome",
@@ -510629,7 +510628,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 07:29",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-10-08 07:28",
    "renewed_from": "3,300pt"
   },
@@ -694374,7 +694373,7 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 07:40",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-10-22 15:30",
    "renewed_from": "40,000pt"
   },
@@ -698515,7 +698514,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 20:01",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:154239": {
    "site": "pointincome",
@@ -720146,7 +720145,7 @@
    "seeded": false,
    "first_seen": "2026-10-12",
    "first_seen_at": "2026-10-12 08:41",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "powl:42071": {
    "site": "powl",
@@ -741580,7 +741579,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 18:56",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:146383": {
    "site": "pointincome",
@@ -741594,7 +741593,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 18:56",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "warau:208284": {
    "site": "warau",
@@ -750015,7 +750014,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 18:49",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "moppy:162376": {
    "site": "moppy",
@@ -752159,7 +752158,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 19:44",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointincome:155140": {
    "site": "pointincome",
@@ -752173,7 +752172,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 19:44",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "moppy:162377": {
    "site": "moppy",

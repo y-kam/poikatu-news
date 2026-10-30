@@ -54499,16 +54499,17 @@
    "site": "rebates",
    "deal_id": "14666",
    "title": "PLST",
-   "points_text": "1.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/plst",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-30",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 10:00",
+   "renewed_from": "1.5%"
   },
   "rebates:20442": {
    "site": "rebates",
@@ -55316,16 +55317,17 @@
    "site": "rebates",
    "deal_id": "14830",
    "title": "Shoplist",
-   "points_text": "4.5%",
+   "points_text": "10.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 10.0,
    "url": "https://www.rebates.jp/shop-list",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-30",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:16320": {
    "site": "rebates",
@@ -60565,16 +60567,17 @@
    "site": "rebates",
    "deal_id": "24929",
    "title": "スターバックス公式オンラインストア",
-   "points_text": "1.0%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/starbucks.co.jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-30",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 10:00",
+   "renewed_from": "1.0%"
   },
   "rebates:23827": {
    "site": "rebates",
@@ -81062,14 +81065,16 @@
    "site": "ponta_bonuspark",
    "deal_id": "4626",
    "title": "ソコカラ　愛車の高価買取・全国対応",
-   "points_text": "18,000P",
-   "yen": 18000.0,
+   "points_text": "20,000P",
+   "yen": 20000.0,
    "percent": null,
    "url": "https://www.bonuspark.jp/life/4626.html",
    "condition": "車両売却契約完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 10:00",
+   "renewed_from": "18,000P"
   },
   "ponta_bonuspark:4622": {
    "site": "ponta_bonuspark",
@@ -744967,7 +744972,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 21:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "poikatsu_club:21684": {
    "site": "poikatsu_club",
@@ -745461,7 +745466,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 10:00"
   },
   "amefri:141900": {
    "site": "amefri",
@@ -749500,7 +749506,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 15:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "poikatsu_club:21724": {
    "site": "poikatsu_club",
@@ -749514,7 +749520,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 15:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-10-28 17:00",
    "renewed_from": "4110pt"
   },
@@ -751908,15 +751914,17 @@
    "site": "poikatsu_club",
    "deal_id": "21698",
    "title": "ヤンキーサバイバー（事前登録）（iOS）",
-   "points_text": "22pt",
-   "yen": 22.0,
+   "points_text": "25pt",
+   "yen": 25.0,
    "percent": null,
    "url": "https://poikatsu.club/projects/21698",
    "condition": "事前登録完了で条件達成となります。\n\n■注意事項\n・本広告は成果調査不可となります。\n・広告をクリックしてから1時間以内に事前登録まで完了しなかった場合、報酬の対象外となることがあります。\n※広告をクリックしてから事前登録までに1時間を超える場合は、アプリ起動前に再度広告をクリックしてください。\n・本広告経由でアプリを事前登録した際の条件が適用されます。\n※同時期に同一アプリの他の広告に参加されている場合は、本広告に参加できません。\n・広告をクリックした端末でアプリを事前登録してください。\n・広告をクリックしてから条件を達成するまでに、ブラウザおよび通信環境を変更した場合、報酬の対象外となることがあります。\n・通信環境が不安定な状態やオフラインモードで条件を達成した場合、報酬の対象外となることがあります。\n・条件達成後、報酬の反映までに一定の時間を要する場合があります。\n・広告は予告なく変更・終了する場合があります。\n・iOS15以降をご利用で、iCloud+ を利用しておりプライベートリレーの設定をONにされている場合、正常に計測できず、報酬の対象外となることがあります。\nプライベートリレーの設定をOFFにしてからご利用ください。\n※設定方法：設定→Apple ID→iCloud→プライベートリレー→スライドボタンOFF\n\n■却下条件\n・通信環境が不安定な状態でアプリを事前登録した場合\n・本広告を経由したアプリの事前登録が確認できない場合\n・過去に同一アプリを事前登録したことがある場合\n・過去に同一アプリ内で条件を達成したことがある場合\n・アプリを新規事前登録した端末に、異なる端末のデータを引き継いで条件を達成した場合\n・アプリを新規事前登録した端末とは異なる端末に、データを引き継いで条件を達成した場合\n・同一IPアドレスで複数端末からアプリを事前登録した場合、または条件を達成した場合\n※ご家族やご友人などによる、同一IPアドレス環境下での複数端末からのアプリ事前登録や条件達成が確認された場合は報酬対象外となります。\n・広告の利用にあたって不正があったことが認められた場合\n・公共WiFiを利用してアプリを事前登録した場合、または条件を達成した場合\n・日本国以外からの利用、または日本国以外のIPアドレスを利用した場合\n・「Appからのトラッキング要求を許可」設定がOFFになっている場合\n※設定方法：設定→プライバシー→トラッキング→「Appからのトラッキング要求を許可」をON",
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 17:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 10:00",
+   "renewed_from": "22pt"
   },
   "poikatsu_club:21753": {
    "site": "poikatsu_club",
@@ -752910,6 +752918,20 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 05:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208530": {
+   "site": "warau",
+   "deal_id": "208530",
+   "title": "【最短4日付与！】エポスカード",
+   "points_text": "11,500pt",
+   "yen": 11500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208530",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 10:00",
    "last_seen": "2026-10-30"
   }
  }

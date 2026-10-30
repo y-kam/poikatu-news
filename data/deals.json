@@ -289435,7 +289435,8 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-07-08"
+   "last_seen": "2026-07-08",
+   "dead_streak": 1
   },
   "warau:204409": {
    "site": "warau",
@@ -377135,7 +377136,8 @@
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 08:18",
-   "last_seen": "2026-08-19"
+   "last_seen": "2026-08-19",
+   "dead_streak": 1
   },
   "chobirich:1893287": {
    "site": "chobirich",
@@ -701641,7 +701643,8 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 07:26",
-   "last_seen": "2026-10-06"
+   "last_seen": "2026-10-06",
+   "dead_streak": 1
   },
   "moppy:152129": {
    "site": "moppy",
@@ -718388,7 +718391,8 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 19:22",
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-14",
+   "dead_streak": 1
   },
   "chobirich:1900950": {
    "site": "chobirich",
@@ -720103,7 +720107,8 @@
    "seeded": false,
    "first_seen": "2026-10-12",
    "first_seen_at": "2026-10-12 08:41",
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-15",
+   "dead_streak": 1
   },
   "chobirich:1900955": {
    "site": "chobirich",
@@ -726652,7 +726657,8 @@
    "first_seen_at": "2026-10-16 07:28",
    "last_seen": "2026-10-23",
    "renewed_at": "2026-10-20 19:33",
-   "renewed_from": "62pt"
+   "renewed_from": "62pt",
+   "dead_streak": 1
   },
   "warau:207957": {
    "site": "warau",
@@ -747809,7 +747815,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 22:06",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-29",
+   "dead_streak": 1
   },
   "chobirich:1902104": {
    "site": "chobirich",
@@ -747823,7 +747830,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 22:06",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-30",
+   "dead_streak": 1
   },
   "chobirich:1902100": {
    "site": "chobirich",
@@ -748543,7 +748551,8 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 07:32",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-29",
+   "dead_streak": 1
   },
   "pointincome:145335": {
    "site": "pointincome",

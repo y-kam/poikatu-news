@@ -169768,8 +169768,8 @@
    "site": "mikoshi_mall",
    "deal_id": "1148",
    "title": "三井住友カード ゴールド（NL） ハローキティ デザイン",
-   "points_text": "11625pt",
-   "yen": 10462.5,
+   "points_text": "13480pt",
+   "yen": 12132.0,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/1148",
    "condition": "新規クレジットカード発行",
@@ -169777,7 +169777,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 17:00",
+   "renewed_from": "11625pt"
   },
   "mikoshi_mall:1562": {
    "site": "mikoshi_mall",
@@ -169881,8 +169882,8 @@
    "site": "mikoshi_mall",
    "deal_id": "1147",
    "title": "三井住友カード（NL） ハローキティ デザイン",
-   "points_text": "11625pt",
-   "yen": 10462.5,
+   "points_text": "11480pt",
+   "yen": 10332.0,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/1147",
    "condition": "新規クレジットカード発行完了",
@@ -169890,8 +169891,7 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renewed_at": "2026-10-01 01:00",
-   "renewed_from": "7621pt"
+   "renew_hold": true
   },
   "mikoshi_mall:997": {
    "site": "mikoshi_mall",
@@ -169928,8 +169928,8 @@
    "site": "mikoshi_mall",
    "deal_id": "1141",
    "title": "三井住友カード カードレス",
-   "points_text": "5000pt",
-   "yen": 4500.0,
+   "points_text": "8501pt",
+   "yen": 7650.9,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/1141",
    "condition": "新規クレジットカード発行",
@@ -169937,7 +169937,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 17:00",
+   "renewed_from": "5000pt"
   },
   "mikoshi_mall:1261": {
    "site": "mikoshi_mall",
@@ -171514,8 +171515,8 @@
    "site": "mikoshi_mall",
    "deal_id": "943",
    "title": "三井住友カード ゴールド（NL）オーロラデザイン",
-   "points_text": "8000pt",
-   "yen": 7200.0,
+   "points_text": "13480pt",
+   "yen": 12132.0,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/943",
    "condition": "新規カード発行",
@@ -171523,7 +171524,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 17:00",
+   "renewed_from": "8000pt"
   },
   "mikoshi_mall:1312": {
    "site": "mikoshi_mall",
@@ -172928,8 +172930,8 @@
    "site": "mikoshi_mall",
    "deal_id": "941",
    "title": "三井住友カード（NL）（オーロラ券種専用）",
-   "points_text": "8000pt",
-   "yen": 7200.0,
+   "points_text": "13480pt",
+   "yen": 12132.0,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/941",
    "condition": "新規カード発行",
@@ -172937,7 +172939,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 17:00",
+   "renewed_from": "8000pt"
   },
   "mikoshi_mall:2110": {
    "site": "mikoshi_mall",
@@ -175372,8 +175375,8 @@
    "site": "mikoshi_mall",
    "deal_id": "944",
    "title": "三井住友カード PLATINUM PREFERRED(プラチナプリファード)",
-   "points_text": "9600pt",
-   "yen": 8640.0,
+   "points_text": "13480pt",
+   "yen": 12132.0,
    "percent": null,
    "url": "https://web.mikoshi.jp/shopping/944",
    "condition": "新規カード発行",
@@ -175381,7 +175384,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 17:00",
+   "renewed_from": "9600pt"
   },
   "mikoshi_mall:154": {
    "site": "mikoshi_mall",
@@ -285645,11 +285649,11 @@
    "yen": 15000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=154750",
-   "condition": "新規auでんき申込後、90日以内に開通完了",
+   "condition": "新規お申し込み＋お申し込み日が属する月の6か月後の末日までの継続利用",
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-09-23",
+   "last_seen": "2026-10-30",
    "site_new": false,
    "delisted_at": "2026-10-02"
   },
@@ -286868,7 +286872,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 15:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-30",
    "site_new": false
   },
   "pointincome:153180": {
@@ -293334,15 +293338,15 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-30",
    "site_new": false
   },
   "moppy:160001": {
    "site": "moppy",
    "deal_id": "160001",
    "title": "ColorSing",
-   "points_text": "1,710P",
-   "yen": 1710.0,
+   "points_text": "1,700P",
+   "yen": 1700.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160001",
    "condition": "1人のライバーに対して1K推しポイント獲得",
@@ -293350,8 +293354,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-10-30",
-   "renewed_at": "2026-10-29 11:00",
-   "renewed_from": "760P"
+   "renew_hold": true
   },
   "moppy:159535": {
    "site": "moppy",
@@ -332709,8 +332712,8 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 21:00",
-   "last_seen": "2026-10-21",
-   "renewed_at": "2026-10-19 01:00",
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 17:00",
    "renewed_from": "9,954円"
   },
   "au_point:8:1030": {
@@ -342857,7 +342860,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-30",
    "site_new": false
   },
   "moppy:160385": {
@@ -359582,7 +359585,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 05:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "site_new": false,
    "delisted_at": "2026-08-18"
   },
@@ -360995,7 +360998,7 @@
   "moppy:161969": {
    "site": "moppy",
    "deal_id": "161969",
-   "title": "Lendee（レンディー）",
+   "title": "Lendee（レンディー）[50万円レンディング]",
    "points_text": "12,000P",
    "yen": 12000.0,
    "percent": null,
@@ -361004,7 +361007,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 21:00",
-   "last_seen": "2026-08-04",
+   "last_seen": "2026-10-30",
    "site_new": false
   },
   "moppy:150148": {
@@ -412538,16 +412541,17 @@
    "site": "poney",
    "deal_id": "10000063247",
    "title": "【三井住友銀行】Olive口座開設",
-   "points_text": "4,100pt",
-   "yen": 4100.0,
+   "points_text": "2,000pt",
+   "yen": 2000.0,
    "percent": null,
    "url": "https://www.poney.jp/【三井住友銀行】Olive口座開設/detail/10000063247",
    "condition": "新規Olive口座開設完了 で",
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-09-04",
-   "delisted_at": "2026-10-08"
+   "last_seen": "2026-10-30",
+   "delisted_at": "2026-10-08",
+   "renew_hold": true
   },
   "sugutama:41479": {
    "site": "sugutama",
@@ -484392,7 +484396,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-10-02 01:00",
@@ -507871,7 +507875,7 @@
   "moppy:162189": {
    "site": "moppy",
    "deal_id": "162189",
-   "title": "JALマイレージバンクアプリ_iOS",
+   "title": "※10/31終了※JALマイレージバンクアプリ_iOS",
    "points_text": "500P",
    "yen": 500.0,
    "percent": null,
@@ -512456,15 +512460,17 @@
    "site": "au_point",
    "deal_id": "8:1660",
    "title": "ザ・グランドマフィア",
-   "points_text": "3400P",
-   "yen": 3400.0,
+   "points_text": "3570P",
+   "yen": 3570.0,
    "percent": null,
    "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1660",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 21:00",
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 17:00",
+   "renewed_from": "3400P"
   },
   "poikatsu_club:20972": {
    "site": "poikatsu_club",
@@ -558078,7 +558084,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-30"
   },
   "poikatsu_club:3748": {
    "site": "poikatsu_club",
@@ -563188,7 +563194,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-30"
   },
   "poikatsu_club:2658": {
    "site": "poikatsu_club",
@@ -570958,7 +570964,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-10-30"
   },
   "poikatsu_club:1727": {
    "site": "poikatsu_club",
@@ -648946,7 +648952,7 @@
    "yen": 400.0,
    "percent": null,
    "url": "https://www.gendama.jp/service/item/1412662",
-   "condition": "【定額8ダブル】お試し無料会員登録で成果(キャリア決済のみ成果)",
+   "condition": "お試し無料会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
@@ -650941,7 +650947,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-30"
   },
   "gendama:1498339": {
    "site": "gendama",
@@ -709918,7 +709924,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 21:00",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-10-13 15:00"
   },
   "kurashiru_reward:19340": {
@@ -716180,7 +716186,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 21:00",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-30",
    "site_new": false
   },
   "moppy:160022": {
@@ -736241,7 +736247,7 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 17:00",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-30"
   },
   "moppy:162339": {
    "site": "moppy",
@@ -737418,7 +737424,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-30",
    "delisted_at": "2026-10-23"
   },
   "pointchips:1224": {
@@ -743377,7 +743383,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "poikatsu_club:21660": {
    "site": "poikatsu_club",
@@ -744806,7 +744812,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 21:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "entamenet:5s00000027757001": {
    "site": "entamenet",
@@ -753906,6 +753912,230 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 15:00",
+   "last_seen": "2026-10-30"
+  },
+  "moppy:6896": {
+   "site": "moppy",
+   "deal_id": "6896",
+   "title": "ギガチャージeSIM",
+   "points_text": "15.0%",
+   "yen": null,
+   "percent": 15.0,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=6896",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208583": {
+   "site": "warau",
+   "deal_id": "208583",
+   "title": "【Zucks】モンスターサバイバル（StepUp）",
+   "points_text": "6,908pt",
+   "yen": 6908.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208583",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208580": {
+   "site": "warau",
+   "deal_id": "208580",
+   "title": "【Zucks】Tap Jump（StepUp）",
+   "points_text": "8,916pt",
+   "yen": 8916.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208580",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208582": {
+   "site": "warau",
+   "deal_id": "208582",
+   "title": "【SKYFLAG】【注意事項必読】Monster Hunter Outlanders（StepUp）",
+   "points_text": "375pt",
+   "yen": 375.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208582",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208555": {
+   "site": "warau",
+   "deal_id": "208555",
+   "title": "SBI証券（口座開設）",
+   "points_text": "11,000pt",
+   "yen": 11000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208555",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208572": {
+   "site": "warau",
+   "deal_id": "208572",
+   "title": "Happy Chef Mania: Cooking Game（StepUp）",
+   "points_text": "2,150pt",
+   "yen": 2150.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208572",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208568": {
+   "site": "warau",
+   "deal_id": "208568",
+   "title": "Happy Chef Mania: Cooking Game（StepUp）",
+   "points_text": "2,150pt",
+   "yen": 2150.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208568",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208545": {
+   "site": "warau",
+   "deal_id": "208545",
+   "title": "【SmaAD】マビノギモバイル（アベンジオとの会話で成果）",
+   "points_text": "283pt",
+   "yen": 283.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208545",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "amefri:142114": {
+   "site": "amefri",
+   "deal_id": "142114",
+   "title": "【注意事項必読】Monster Hunter Outlanders（多段階）【iOS】",
+   "points_text": "3,730pt",
+   "yen": 373.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142114",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "ponta_bonuspark:4667": {
+   "site": "ponta_bonuspark",
+   "deal_id": "4667",
+   "title": "SBI証券 こども口座",
+   "points_text": "6,250P",
+   "yen": 6250.0,
+   "percent": null,
+   "url": "https://www.bonuspark.jp/finance/4667.html",
+   "condition": "WEB申込後、60日以内にこども口座開設完了",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "ponta_bonuspark:4666": {
+   "site": "ponta_bonuspark",
+   "deal_id": "4666",
+   "title": "スルガJCBカード",
+   "points_text": "1,000P",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://www.bonuspark.jp/card_loan/4666.html",
+   "condition": "新規カード発行後、翌月末までに5,000円（税込）以上のカード利用完了",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_island:215829": {
+   "site": "point_island",
+   "deal_id": "215829",
+   "title": "年賀状プリント決定版2027☆無料会員登録",
+   "points_text": "210ポイント",
+   "yen": 21.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=215829",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_stadium:215829": {
+   "site": "point_stadium",
+   "deal_id": "215829",
+   "title": "年賀状プリント決定版2027☆無料会員登録",
+   "points_text": "210ポイント",
+   "yen": 21.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=215829",
+   "condition": "無料会員登録で",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_museum:215829": {
+   "site": "point_museum",
+   "deal_id": "215829",
+   "title": "年賀状プリント決定版2027☆無料会員登録",
+   "points_text": "210pt",
+   "yen": 21.0,
+   "percent": null,
+   "url": "https://www.point-museum.com/ct.asp?adv=215829",
+   "condition": "無料会員登録",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "poikatsu_club:21779": {
+   "site": "poikatsu_club",
+   "deal_id": "21779",
+   "title": "【注意事項必読】Monster Hunter Outlanders（iOS）",
+   "points_text": "411pt",
+   "yen": 411.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21779",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n※インストールのためには、端末の空き容量が40GB以上必要となります※\n※空き容量が足りず一度インストールを中断し、後日インストールを再開した場合であっても、挑戦中に反映されていない場合は獲得対象外となりますので予めご了承ください※\n\n2026/10/30以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：30日以内にキャラクター作成\n②：30日以内にチュートリアル突破\n③：30日以内に月額プラン購入\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n『〇〇日以内にキャラクター作成/チュートリアル突破』\n条件達成がわかるプライバシー画面(キャプチャ①)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［タイトル画面］の［画面をタップしてゲームを開始］をタップ⇒［プレイ画面］右上のメニューをタップ⇒右端の歯車マークをタップ⇒［設定画面］の［プライバシー］をタップ⇒［プライバシー画面］を表示\n\n『〇〇日以内に月額プラン購入』\n条件達成がわかる購入履歴画面もしくは予算と履歴画面(キャプチャ①)をお送りください。\n＊手順\nキャプチャ①：iOS：［App Store］⇒ 画面右上［アカウント］アイコン ⇒［自分の名前］⇒［購入履歴］⇒ 検索窓に『アプリ名』を入力し、検索 ⇒［購入履歴画面］を表示\n　　　　　　Android：［Google Play ストア］⇒ 画面右上［アカウント］アイコン ⇒［お支払いと定期購入］⇒［予算と履歴画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
+   "last_seen": "2026-10-30"
+  },
+  "pointchips:1270": {
+   "site": "pointchips",
+   "deal_id": "1270",
+   "title": "ウエスタン農場(クロンダイクの冒険)",
+   "points_text": "最大 7,262 pt",
+   "yen": 7262.0,
+   "percent": null,
+   "url": "https://pointchips.com/promotion/detail/1270",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 17:00",
    "last_seen": "2026-10-30"
   }
  }

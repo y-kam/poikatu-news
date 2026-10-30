@@ -68850,16 +68850,17 @@
    "site": "line_catalog",
    "deal_id": "starbucks_onlinestore",
    "title": "スターバックス公式オンラインストア",
-   "points_text": "1.0%還元",
+   "points_text": "3.0%還元",
    "yen": null,
-   "percent": 1.0,
+   "percent": 3.0,
    "url": "https://ec.line.me/shop/starbucks_onlinestore/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-10-30",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-10-30 13:00",
+   "renewed_from": "1.0%還元"
   },
   "line_catalog:jalpak_kokunai": {
    "site": "line_catalog",
@@ -110672,17 +110673,16 @@
    "site": "powl",
    "deal_id": "35111",
    "title": "Cleam（クリーム）新規利用",
-   "points_text": "12,000pt",
-   "yen": 1200.0,
+   "points_text": "2,800pt",
+   "yen": 280.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/35111",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "seed_filled": true,
-   "renewed_at": "2026-09-05 01:00",
-   "renewed_from": "2,800pt"
+   "renew_hold": true
   },
   "powl:35114": {
    "site": "powl",
@@ -140652,15 +140652,16 @@
    "site": "tamaru_mall",
    "deal_id": "2547",
    "title": "ドコモmini（ドコモミニ）",
-   "points_text": "14,000コイン",
-   "yen": 14000.0,
+   "points_text": "10,000コイン",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2547",
    "condition": "対象プランを申込後、30日以内に回線開通完了",
-   "seeded": true,
+   "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-08-05",
-   "renew_hold": true
+   "last_seen": "2026-10-30",
+   "renew_hold": true,
+   "seed_filled": true
   },
   "tamaru_mall:2549": {
    "site": "tamaru_mall",
@@ -293141,7 +293142,7 @@
   "moppy:149647": {
    "site": "moppy",
    "deal_id": "149647",
-   "title": "※10/31まで!!※WINTICKET/ウィンチケット(初回投票)_iOS",
+   "title": "※明日まで!!※WINTICKET/ウィンチケット(初回投票)_iOS",
    "points_text": "4,500P",
    "yen": 4500.0,
    "percent": null,
@@ -370657,15 +370658,16 @@
    "site": "powl",
    "deal_id": "38096",
    "title": "Survival Defense:Zombie（多段階）（Android） - 金券購入（チケット×999枚）",
-   "points_text": "92,000pt",
-   "yen": 9200.0,
+   "points_text": "6,600pt",
+   "yen": 660.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/38096",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 17:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-30",
+   "renew_hold": true
   },
   "powl:38327": {
    "site": "powl",
@@ -380802,7 +380804,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "site_new": false,
    "renew_hold": true
   },
@@ -737655,7 +737657,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "pointchips:1206": {
    "site": "pointchips",
@@ -744704,7 +744706,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 21:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-30",
    "renewed_at": "2026-10-29 05:00"
   },
   "amefri:141883": {
@@ -745481,7 +745483,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 13:00"
   },
   "amefri:141899": {
    "site": "amefri",
@@ -745495,7 +745498,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 13:00"
   },
   "amefri:141898": {
    "site": "amefri",
@@ -745509,7 +745513,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 13:00"
   },
   "amefri:141897": {
    "site": "amefri",
@@ -745523,7 +745528,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 13:00"
   },
   "amefri:141904": {
    "site": "amefri",
@@ -745537,7 +745543,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 13:00"
   },
   "poikatsu_club:21689": {
    "site": "poikatsu_club",
@@ -746999,7 +747006,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 17:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   "gendama:1591817": {
    "site": "gendama",
@@ -747312,7 +747319,8 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 21:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30",
+   "renewed_at": "2026-10-30 13:00"
   },
   "amefri:141987": {
    "site": "amefri",
@@ -753030,6 +753038,314 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 11:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208549": {
+   "site": "warau",
+   "deal_id": "208549",
+   "title": "【GFRewards】ヴァイキングライズ（StepUp）",
+   "points_text": "10,783pt",
+   "yen": 10783.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208549",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208550": {
+   "site": "warau",
+   "deal_id": "208550",
+   "title": "【GFRewards】ヴァイキングライズ（StepUp）",
+   "points_text": "11,953pt",
+   "yen": 11953.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208550",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208551": {
+   "site": "warau",
+   "deal_id": "208551",
+   "title": "HOT TAB - ホットタブ",
+   "points_text": "2,800pt",
+   "yen": 2800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208551",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208461": {
+   "site": "warau",
+   "deal_id": "208461",
+   "title": "Color Bus Trip（StepUp）",
+   "points_text": "5,830pt",
+   "yen": 5830.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208461",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "warau:208544": {
+   "site": "warau",
+   "deal_id": "208544",
+   "title": "【SmaAD】マビノギモバイル（アベンジオとの会話で成果）",
+   "points_text": "283pt",
+   "yen": 283.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208544",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "nifty_point:0001287922F0": {
+   "site": "nifty_point",
+   "deal_id": "0001287922F0",
+   "title": "GFS無料特別講座",
+   "points_text": "900P",
+   "yen": 900.0,
+   "percent": null,
+   "url": "https://lifemedia.jp/service/detail/0001287922F0",
+   "condition": "無料セミナー新規受講完了",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "amefri:142105": {
+   "site": "amefri",
+   "deal_id": "142105",
+   "title": "ホットヨガのカルドが作ったマシンピラティス専門店【マピラ】",
+   "points_text": "45,000pt",
+   "yen": 4500.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142105",
+   "condition": "体験・入会完了",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "amefri:142102": {
+   "site": "amefri",
+   "deal_id": "142102",
+   "title": "Heroes Survival Battle_AOS",
+   "points_text": "426,050pt",
+   "yen": 42605.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142102",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "amefri:142101": {
+   "site": "amefri",
+   "deal_id": "142101",
+   "title": "Heroes Survival Battle_iOS",
+   "points_text": "426,070pt",
+   "yen": 42607.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142101",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "au_point:7:762318686": {
+   "site": "au_point",
+   "deal_id": "7:762318686",
+   "title": "Cat Drop: Cute Slide & Match（レベル380クリア）（iOS）",
+   "points_text": "90P",
+   "yen": 90.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=7&campaignId=762318686",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_island:11166270": {
+   "site": "point_island",
+   "deal_id": "11166270",
+   "title": "お茶専門店「祇園辻利」",
+   "points_text": "80ポイント",
+   "yen": 8.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=11166270",
+   "condition": "買い物",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_stadium:11166270": {
+   "site": "point_stadium",
+   "deal_id": "11166270",
+   "title": "お茶専門店「祇園辻利」",
+   "points_text": "80ポイント",
+   "yen": 8.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=11166270",
+   "condition": "買い物で 100円毎に",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_land:11166270": {
+   "site": "point_land",
+   "deal_id": "11166270",
+   "title": "お茶専門店「祇園辻利」",
+   "points_text": "100円購入毎に 80ポイント",
+   "yen": 8.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=11166270",
+   "condition": "買い物",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "nyandaful:11166270": {
+   "site": "nyandaful",
+   "deal_id": "11166270",
+   "title": "お茶専門店「祇園辻利」",
+   "points_text": "80pt",
+   "yen": 8.0,
+   "percent": null,
+   "url": "https://www.nyandaful.jp/p_detail.asp?m=11166270",
+   "condition": "100円購入毎に",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "kurashiru_reward:19882": {
+   "site": "kurashiru_reward",
+   "deal_id": "19882",
+   "title": "三菱ＵＦＪカード・プラチナ・アメリカン・エキスプレス®・カード",
+   "points_text": "1,500,000コイン",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/19882",
+   "condition": "新規申込み後、45日以内の初回クレジットカード発行完了 で",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "powl:43955": {
+   "site": "powl",
+   "deal_id": "43955",
+   "title": "杖と剣の伝説（iOS）マルチミッション",
+   "points_text": "102,000pt",
+   "yen": 10200.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43955",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "powl:43966": {
+   "site": "powl",
+   "deal_id": "43966",
+   "title": "杖と剣の伝説（Android）マルチミッション",
+   "points_text": "102,000pt",
+   "yen": 10200.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43966",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "tamaru_mall:2855": {
+   "site": "tamaru_mall",
+   "deal_id": "2855",
+   "title": "ドコモMAX（ドコモマックス）",
+   "points_text": "15,000コイン",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2855",
+   "condition": "はじめてドコモMAX (ドコモポイ活MAX除く) にのりかえ（MNP）でお申込み後、回線開通完了",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "point_museum:11166270": {
+   "site": "point_museum",
+   "deal_id": "11166270",
+   "title": "お茶専門店「祇園辻利」",
+   "points_text": "80pt (100円購入毎に)",
+   "yen": 8.0,
+   "percent": null,
+   "url": "https://www.point-museum.com/ct.asp?adv=11166270",
+   "condition": "買い物",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "poikatsu_club:21773": {
+   "site": "poikatsu_club",
+   "deal_id": "21773",
+   "title": "ヴァイキングライズ（iOS）",
+   "points_text": "19410pt",
+   "yen": 19410.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21773",
+   "condition": "※反映までに最大24時間程度かかる場合がありますので、あらかじめご了承ください。\n新規アプリインストール後、\n・首領本部ﾚﾍﾞﾙ2に到達\n・首領本部ﾚﾍﾞﾙ3に到達\n・首領本部ﾚﾍﾞﾙ5に到達\n・首領本部ﾚﾍﾞﾙ7に到達\n・首領本部ﾚﾍﾞﾙ8に到達\n・首領本部ﾚﾍﾞﾙ11に到達\n・首領本部ﾚﾍﾞﾙ14に到達\n・首領本部ﾚﾍﾞﾙ17に到達\n・首領本部ﾚﾍﾞﾙ20に到達\n・首領本部ﾚﾍﾞﾙ21に到達\n・首領本部ﾚﾍﾞﾙ23に到達\n・首領本部ﾚﾍﾞﾙ24に到達\n・累計2回課金後、首領本部ﾚﾍﾞﾙ 16到達\n・累計3回課金後、首領本部ﾚﾍﾞﾙ 19到達\n・累計3回課金後、首領本部ﾚﾍﾞﾙ 22到達\n・上級宝箱繁栄度ﾚﾍﾞﾙ2購入(首領本部ﾚﾍﾞﾙ2到達後購入可能)\n・上級宝箱繁栄度ﾚﾍﾞﾙ3購入(首領本部ﾚﾍﾞﾙ2到達後購入可能)\n・上級宝箱繁栄度ﾚﾍﾞﾙ4購入(首領本部ﾚﾍﾞﾙ2到達後購入可能)\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\nこのキャンペーンは2026/10/30以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから45日以内\n成果調査受付期限：広告クリックから71日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果達成日時\n・成果到達したことがわかるキャプチャ画像\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "poikatsu_club:21774": {
+   "site": "poikatsu_club",
+   "deal_id": "21774",
+   "title": "ヴァイキングライズ（Android）",
+   "points_text": "21517pt",
+   "yen": 21517.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21774",
+   "condition": "※反映までに最大24時間程度かかる場合がありますので、あらかじめご了承ください。\n新規アプリインストール後、\n・首領本部ﾚﾍﾞﾙ2に到達\n・首領本部ﾚﾍﾞﾙ3に到達\n・首領本部ﾚﾍﾞﾙ5に到達\n・首領本部ﾚﾍﾞﾙ7に到達\n・首領本部ﾚﾍﾞﾙ8に到達\n・首領本部ﾚﾍﾞﾙ11に到達\n・首領本部ﾚﾍﾞﾙ14に到達\n・首領本部ﾚﾍﾞﾙ17に到達\n・首領本部ﾚﾍﾞﾙ20に到達\n・首領本部ﾚﾍﾞﾙ21に到達\n・首領本部ﾚﾍﾞﾙ23に到達\n・首領本部ﾚﾍﾞﾙ24に到達\n・累計1回課金後、首領本部ﾚﾍﾞﾙ 9到達\n・累計2回課金後、首領本部ﾚﾍﾞﾙ 16到達\n・累計3回課金後、首領本部ﾚﾍﾞﾙ 19到達\n・累計3回課金後、首領本部ﾚﾍﾞﾙ 22到達\n・上級宝箱繁栄度ﾚﾍﾞﾙ2購入(首領本部ﾚﾍﾞﾙ2到達後購入可能)\n・上級宝箱繁栄度ﾚﾍﾞﾙ3購入(首領本部ﾚﾍﾞﾙ2到達後購入可能)\n・上級宝箱繁栄度ﾚﾍﾞﾙ4購入(首領本部ﾚﾍﾞﾙ2到達後購入可能)\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\nこのキャンペーンは2026/10/30以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから45日以内\n成果調査受付期限：広告クリックから71日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果達成日時\n・成果到達したことがわかるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
+   "last_seen": "2026-10-30"
+  },
+  "poikatsu_club:21772": {
+   "site": "poikatsu_club",
+   "deal_id": "21772",
+   "title": "Number PREMIER",
+   "points_text": "360pt",
+   "yen": 360.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21772",
+   "condition": "ポイント獲得条件<br/>新規月額300円(税込)コース登録で成果<br/><成果却下条件><br/>※案件クリックから成果に至るまで、同一ブラウザで行わないと成果対象外となります。<br/>※同一ユーザーの二回目以降の申込は対象外となります",
+   "seeded": false,
+   "first_seen": "2026-10-30",
+   "first_seen_at": "2026-10-30 13:00",
    "last_seen": "2026-10-30"
   }
  }

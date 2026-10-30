@@ -292667,7 +292667,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-31",
    "renew_hold": true
   },
   "moppy:149863": {
@@ -293146,7 +293146,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-31",
    "site_new": false,
    "renew_hold": true
   },
@@ -293955,7 +293955,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "site_new": false
   },
   "moppy:159927": {
@@ -325263,17 +325263,18 @@
    "site": "moppy",
    "deal_id": "157283",
    "title": "1分開運・琉球秘術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157283",
    "condition": "月額396円（税込）コース、初回会員登録",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-31",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-10-31 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157281": {
    "site": "moppy",
@@ -343946,7 +343947,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-31",
    "site_new": true,
    "renewed_at": "2026-10-25 13:16",
    "renewed_from": "190P"
@@ -400639,7 +400640,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 15:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-31",
    "site_new": false
   },
   "moppy:160945": {
@@ -472187,7 +472188,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-31",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472251,7 +472252,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-31",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472347,7 +472348,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-31",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472883,7 +472884,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-31",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474947,7 +474948,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-31",
    "backfill_dated": true,
    "site_new": false
   },
@@ -476323,7 +476324,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-10-31",
    "backfill_dated": true,
    "site_new": false
   },
@@ -509074,7 +509075,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 17:00",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-31",
    "site_new": false,
    "renew_hold": true
   },
@@ -744281,7 +744282,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 15:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "pointtown:10427": {
    "site": "pointtown",
@@ -745229,7 +745230,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 01:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "hapitas:103945": {
    "site": "hapitas",
@@ -745603,7 +745604,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "warau:208351": {
    "site": "warau",
@@ -746393,7 +746394,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 15:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "poikatsu_club:21693": {
    "site": "poikatsu_club",
@@ -747589,7 +747590,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 21:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "poikatsu_club:21716": {
    "site": "poikatsu_club",
@@ -752867,7 +752868,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 01:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "warau:208450": {
    "site": "warau",
@@ -753162,7 +753163,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 13:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "warau:208461": {
    "site": "warau",
@@ -753176,7 +753177,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 13:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "warau:208544": {
    "site": "warau",
@@ -753484,7 +753485,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 15:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "warau:208540": {
    "site": "warau",
@@ -753498,7 +753499,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 15:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "getmoney:66673": {
    "site": "getmoney",
@@ -755166,6 +755167,160 @@
    "seeded": false,
    "first_seen": "2026-10-31",
    "first_seen_at": "2026-10-31 01:00",
+   "last_seen": "2026-10-31"
+  },
+  "moppy:162271": {
+   "site": "moppy",
+   "deal_id": "162271",
+   "title": "マビノギモバイル",
+   "points_text": "313P",
+   "yen": 313.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162271",
+   "condition": "「オオカミの森」へ向かう直前の「アベンジオと会話」",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "moppy:162379": {
+   "site": "moppy",
+   "deal_id": "162379",
+   "title": "Heroes Adventure（ステージ50到達）",
+   "points_text": "380P",
+   "yen": 380.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162379",
+   "condition": "【▼ポイント獲得条件】記載の条件を達成",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104075": {
+   "site": "hapitas",
+   "deal_id": "104075",
+   "title": "Cat Drop: Cute Slide & Match（レベル380クリア）（Android）",
+   "points_text": "252pt",
+   "yen": 252.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104075/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104076": {
+   "site": "hapitas",
+   "deal_id": "104076",
+   "title": "Cat Drop: Cute Slide & Match（レベル380クリア）（iOS）",
+   "points_text": "252pt",
+   "yen": 252.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104076/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104069": {
+   "site": "hapitas",
+   "deal_id": "104069",
+   "title": "Heroes Adventure（ステージ50到達）（Android）",
+   "points_text": "266pt",
+   "yen": 266.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104069/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104068": {
+   "site": "hapitas",
+   "deal_id": "104068",
+   "title": "Heroes Adventure（ステージ50到達）（iOS）",
+   "points_text": "266pt",
+   "yen": 266.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104068/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104099": {
+   "site": "hapitas",
+   "deal_id": "104099",
+   "title": "マビノギモバイル",
+   "points_text": "297pt",
+   "yen": 297.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104099/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104100": {
+   "site": "hapitas",
+   "deal_id": "104100",
+   "title": "マビノギモバイル",
+   "points_text": "297pt",
+   "yen": 297.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104100/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104077": {
+   "site": "hapitas",
+   "deal_id": "104077",
+   "title": "TikTok",
+   "points_text": "4,320pt",
+   "yen": 4320.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104077/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104070": {
+   "site": "hapitas",
+   "deal_id": "104070",
+   "title": "Number PREMIER【初月月額300円(税込)】",
+   "points_text": "300pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104070/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
+   "last_seen": "2026-10-31"
+  },
+  "hapitas:104074": {
+   "site": "hapitas",
+   "deal_id": "104074",
+   "title": "オンライン教育サービス【Coursera（コーセラ）】",
+   "points_text": "16%",
+   "yen": null,
+   "percent": 16.0,
+   "url": "https://hapitas.jp/item/detail/itemid/104074/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-10-31",
+   "first_seen_at": "2026-10-31 05:00",
    "last_seen": "2026-10-31"
   }
  }

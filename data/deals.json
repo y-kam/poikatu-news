@@ -563177,7 +563177,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "poikatsu_club:2658": {
    "site": "poikatsu_club",
@@ -744222,15 +744222,17 @@
    "site": "pointchips",
    "deal_id": "1231",
    "title": "Fruit Drop Puzzle",
-   "points_text": "最大 17,486 pt",
-   "yen": 17486.0,
+   "points_text": "最大 17,596 pt",
+   "yen": 17596.0,
    "percent": null,
    "url": "https://pointchips.com/promotion/detail/1231",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 15:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01",
+   "renewed_at": "2026-11-01 08:00",
+   "renewed_from": "最大 17,486 pt"
   },
   "pointchips:1230": {
    "site": "pointchips",
@@ -759088,6 +759090,34 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 05:00",
+   "last_seen": "2026-11-01"
+  },
+  "hapitas:94545": {
+   "site": "hapitas",
+   "deal_id": "94545",
+   "title": "三菱ＵＦＪカード・プラチナ・アメリカン・エキスプレス®・カード",
+   "points_text": "15,500pt",
+   "yen": 15500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/94545/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 08:00",
+   "last_seen": "2026-11-01"
+  },
+  "hapitas:88902": {
+   "site": "hapitas",
+   "deal_id": "88902",
+   "title": "ラクスル（年賀状印刷）",
+   "points_text": "700pt",
+   "yen": 700.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/88902/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 08:00",
    "last_seen": "2026-11-01"
   }
  }

@@ -293344,9 +293344,9 @@
   "moppy:160001": {
    "site": "moppy",
    "deal_id": "160001",
-   "title": "ColorSing",
-   "points_text": "1,700P",
-   "yen": 1700.0,
+   "title": "ColorSing(カラーシング)",
+   "points_text": "2,050P",
+   "yen": 2050.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160001",
    "condition": "1人のライバーに対して1K推しポイント獲得",
@@ -293354,7 +293354,8 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-10-31",
-   "renew_hold": true
+   "renewed_at": "2026-10-31 13:00",
+   "renewed_from": "1,700P"
   },
   "moppy:159535": {
    "site": "moppy",
@@ -312352,7 +312353,7 @@
   "moppy:159880": {
    "site": "moppy",
    "deal_id": "159880",
-   "title": "【10末まで超還元】SBI FXトレード【無料口座開設】",
+   "title": "※10月31日まで超還元※ SBI FXトレード【無料口座開設】",
    "points_text": "7,000P",
    "yen": 7000.0,
    "percent": null,
@@ -312361,7 +312362,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-10-31",
    "site_new": true,
    "delisted_at": "2026-08-30",
    "renewed_at": "2026-10-28 01:02",
@@ -318789,7 +318790,7 @@
   "moppy:155681": {
    "site": "moppy",
    "deal_id": "155681",
-   "title": "※10/31まで超高還元※JCBゴールドカード",
+   "title": "※超高還元※JCBゴールドカード",
    "points_text": "14,000P",
    "yen": 14000.0,
    "percent": null,
@@ -514571,7 +514572,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-10-31",
    "site_new": false,
    "delisted_at": "2026-09-25",
    "renew_hold": true
@@ -514831,7 +514832,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   "point_island:g16824": {
    "site": "point_island",
@@ -745432,7 +745433,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 11:00",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "renewed_at": "2026-10-30 01:00"
   },
   "amefri:141907": {

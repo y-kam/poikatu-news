@@ -317611,7 +317611,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "powl:36531": {
    "site": "powl",
@@ -752763,7 +752763,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 21:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "poikatsu_club:21757": {
    "site": "poikatsu_club",
@@ -753029,7 +753029,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 01:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "poikatsu_club:21752": {
    "site": "poikatsu_club",
@@ -757256,15 +757256,17 @@
    "site": "kurashiru_reward",
    "deal_id": "19916",
    "title": "アイフル",
-   "points_text": "960,000コイン",
-   "yen": 9600.0,
+   "points_text": "1,020,000コイン",
+   "yen": 10200.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/19916",
    "condition": "契約完了 で",
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-01",
+   "renewed_at": "2026-11-01 15:00",
+   "renewed_from": "960,000コイン"
   },
   "kurashiru_reward:19915": {
    "site": "kurashiru_reward",
@@ -759350,6 +759352,174 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "warau:208552": {
+   "site": "warau",
+   "deal_id": "208552",
+   "title": "古本市場（ふるいち）《フィギュア・プラモ買取》",
+   "points_text": "2,500pt",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208552",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "warau:208553": {
+   "site": "warau",
+   "deal_id": "208553",
+   "title": "古本市場（ふるいち）《トレカ買取》",
+   "points_text": "2,500pt",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208553",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67155": {
+   "site": "getmoney",
+   "deal_id": "67155",
+   "title": "三菱商事エネルギー・イオンカード",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67155",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67154": {
+   "site": "getmoney",
+   "deal_id": "67154",
+   "title": "イオンTHRU WAYカード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67154",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67153": {
+   "site": "getmoney",
+   "deal_id": "67153",
+   "title": "ベネッセ・イオンカード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67153",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67152": {
+   "site": "getmoney",
+   "deal_id": "67152",
+   "title": "サンエックスカード（リラックマ）（イオンカード）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67152",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67151": {
+   "site": "getmoney",
+   "deal_id": "67151",
+   "title": "住友不動産 ショッピングシティイオンカード",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67151",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67150": {
+   "site": "getmoney",
+   "deal_id": "67150",
+   "title": "やまやカード（イオンカード）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67150",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67149": {
+   "site": "getmoney",
+   "deal_id": "67149",
+   "title": "フジ・イオンカード（中四国エリアの方におすすめ）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67149",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67148": {
+   "site": "getmoney",
+   "deal_id": "67148",
+   "title": "イオンJMBカード（JMB WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67148",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67147": {
+   "site": "getmoney",
+   "deal_id": "67147",
+   "title": "イオンNEXCO西日本カード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67147",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67146": {
+   "site": "getmoney",
+   "deal_id": "67146",
+   "title": "イオンE-NEXCO passカード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67146",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 15:00",
    "last_seen": "2026-11-01"
   }
  }

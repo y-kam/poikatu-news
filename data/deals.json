@@ -737456,7 +737456,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "pointchips:1225": {
    "site": "pointchips",
@@ -737470,21 +737470,23 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "pointchips:1223": {
    "site": "pointchips",
    "deal_id": "1223",
    "title": "スワイプ・イット：木製ボードパズル",
-   "points_text": "最大 3,677 pt",
-   "yen": 3677.0,
+   "points_text": "最大 3,700 pt",
+   "yen": 3700.0,
    "percent": null,
    "url": "https://pointchips.com/promotion/detail/1223",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01",
+   "renewed_at": "2026-11-01 17:00",
+   "renewed_from": "最大 3,677 pt"
   },
   "pointchips:1222": {
    "site": "pointchips",
@@ -737512,7 +737514,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "pointchips:1220": {
    "site": "pointchips",
@@ -745843,7 +745845,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "renewed_at": "2026-10-30 01:00"
   },
   "amefri:141920": {
@@ -745858,7 +745860,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "renewed_at": "2026-10-30 01:00"
   },
   "amefri:141919": {
@@ -752054,7 +752056,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 17:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "renewed_at": "2026-10-30 10:00",
    "renewed_from": "22pt"
   },

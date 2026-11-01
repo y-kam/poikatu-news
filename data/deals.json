@@ -293645,7 +293645,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-01",
    "site_new": false
   },
   "moppy:156162": {
@@ -294493,7 +294493,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-11-01",
    "site_new": false
   },
   "moppy:156317": {
@@ -737528,7 +737528,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "pointchips:1218": {
    "site": "pointchips",
@@ -752072,7 +752072,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 17:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "poikatsu_club:21751": {
    "site": "poikatsu_club",
@@ -752100,7 +752100,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 17:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "poikatsu_club:21754": {
    "site": "poikatsu_club",
@@ -759522,6 +759522,62 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 15:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67157": {
+   "site": "getmoney",
+   "deal_id": "67157",
+   "title": "三井住友カード ゴールド（NL）Mastercard用",
+   "points_text": "75,000Pt",
+   "yen": 7500.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67157",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 21:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67156": {
+   "site": "getmoney",
+   "deal_id": "67156",
+   "title": "三井住友カード（NL）Mastercard用",
+   "points_text": "75,000Pt",
+   "yen": 7500.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67156",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 21:00",
+   "last_seen": "2026-11-01"
+  },
+  "kurashiru_reward:19904": {
+   "site": "kurashiru_reward",
+   "deal_id": "19904",
+   "title": "ANAのふるさと納税",
+   "points_text": "1.2%",
+   "yen": null,
+   "percent": 1.2,
+   "url": "https://www.rewards.kurashiru.com/ads/19904",
+   "condition": "納税（寄付完了の入金確認）完了 で",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 21:00",
+   "last_seen": "2026-11-01"
+  },
+  "kurashiru_reward:19569": {
+   "site": "kurashiru_reward",
+   "deal_id": "19569",
+   "title": "ダイナースクラブ ゴールド",
+   "points_text": "50,000コイン",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://www.rewards.kurashiru.com/ads/19569",
+   "condition": "新規カード発行 で",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 21:00",
    "last_seen": "2026-11-01"
   }
  }

@@ -152466,8 +152466,8 @@
    "site": "point_museum",
    "deal_id": "mSMRI1",
    "title": "Alterna Bank（オルタナバンク）【1万円投資完了】",
-   "points_text": "88,880pt",
-   "yen": 8888.0,
+   "points_text": "40,000pt",
+   "yen": 4000.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=mSMRI1",
    "condition": "投資",
@@ -152476,8 +152476,7 @@
    "last_seen": "2026-11-01",
    "backfill": true,
    "backfill_dated": true,
-   "renewed_at": "2026-11-01 05:00",
-   "renewed_from": "40,000pt"
+   "renew_hold": true
   },
   "point_museum:mSMRI10": {
    "site": "point_museum",
@@ -229214,8 +229213,8 @@
    "site": "point_island",
    "deal_id": "mSMRI1",
    "title": "Alterna Bank（オルタナバンク）【1万円投資完了】",
-   "points_text": "88880ポイント",
-   "yen": 8888.0,
+   "points_text": "40000ポイント",
+   "yen": 4000.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=mSMRI1",
    "condition": "投資",
@@ -229223,8 +229222,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-11-01",
-   "renewed_at": "2026-11-01 05:00",
-   "renewed_from": "40000ポイント"
+   "renew_hold": true
   },
   "point_island:11145091": {
    "site": "point_island",
@@ -288911,7 +288909,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 13:00",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-11-01",
    "renewed_at": "2026-10-23 01:00",
    "renewed_from": "4420P"
   },
@@ -558087,7 +558085,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "poikatsu_club:3748": {
    "site": "poikatsu_club",
@@ -737443,7 +737441,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "delisted_at": "2026-10-23"
   },
   "pointchips:1224": {
@@ -742302,7 +742300,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 21:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   "warau:208286": {
    "site": "warau",
@@ -745830,7 +745828,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-01",
    "renewed_at": "2026-10-30 01:00"
   },
   "amefri:141921": {
@@ -755437,7 +755435,7 @@
   "pointtown:2360": {
    "site": "pointtown",
    "deal_id": "2360",
-   "title": "【先着ボーナス実施中★】三井住友カード Visa（NL…",
+   "title": "三井住友カード Visa（NL）",
    "points_text": "12,000pt",
    "yen": 12000.0,
    "percent": null,
@@ -759170,6 +759168,188 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 10:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67145": {
+   "site": "getmoney",
+   "deal_id": "67145",
+   "title": "イオン首都高カード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67145",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67144": {
+   "site": "getmoney",
+   "deal_id": "67144",
+   "title": "イオン NEXCO中日本カード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67144",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67143": {
+   "site": "getmoney",
+   "deal_id": "67143",
+   "title": "KASUMIカード（イオンカード）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67143",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67142": {
+   "site": "getmoney",
+   "deal_id": "67142",
+   "title": "マルエツカード（イオンカード）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67142",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67140": {
+   "site": "getmoney",
+   "deal_id": "67140",
+   "title": "イオンカード（ミニオンズ）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67140",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67139": {
+   "site": "getmoney",
+   "deal_id": "67139",
+   "title": "イオンカードセレクト（ミニオンズ）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67139",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67138": {
+   "site": "getmoney",
+   "deal_id": "67138",
+   "title": "イオンカード（WAON一体型/トイ・ストーリー デザイン）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67138",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67137": {
+   "site": "getmoney",
+   "deal_id": "67137",
+   "title": "イオンカード（WAON一体型/ミッキーマウス デザイン）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67137",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67141": {
+   "site": "getmoney",
+   "deal_id": "67141",
+   "title": "ウエルシアカード（イオンカード）",
+   "points_text": "3,000Pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67141",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67136": {
+   "site": "getmoney",
+   "deal_id": "67136",
+   "title": "イオンカード（WAON一体型）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67136",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67135": {
+   "site": "getmoney",
+   "deal_id": "67135",
+   "title": "イオンカードセレクト（トイ・ストーリー デザイン）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67135",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67134": {
+   "site": "getmoney",
+   "deal_id": "67134",
+   "title": "イオンカードセレクト（ミッキーマウス デザイン）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67134",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
+   "last_seen": "2026-11-01"
+  },
+  "getmoney:67133": {
+   "site": "getmoney",
+   "deal_id": "67133",
+   "title": "イオンカードセレクト（VISA/mastercardのみ）",
+   "points_text": "15,700Pt",
+   "yen": 1570.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67133",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-01",
+   "first_seen_at": "2026-11-01 13:00",
    "last_seen": "2026-11-01"
   }
  }

@@ -78191,7 +78191,7 @@
    "condition": "口座開設",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-11-02",
    "site_new": false
   },
   "moppy:6612": {
@@ -86872,7 +86872,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-02",
    "seed_filled": true
   },
   "powl:1808": {
@@ -137522,7 +137522,7 @@
    "condition": "会員登録完了後、90日以内に50万円以上の投資完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-02",
    "seed_filled": true
   },
   "tamaru_mall:1576": {
@@ -140175,7 +140175,7 @@
    "condition": "会員登録完了後、90日以内に10万円以上の投資完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-02",
    "seed_filled": true,
    "renewed_at": "2026-10-19 01:00",
    "renewed_from": "8,500コイン"
@@ -140832,7 +140832,7 @@
    "condition": "国内線予約＋搭乗完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-02",
    "renew_hold": true,
    "seed_filled": true
   },
@@ -140847,7 +140847,7 @@
    "condition": "国際線予約＋搭乗完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-02",
    "renew_hold": true,
    "seed_filled": true
   },
@@ -140862,7 +140862,7 @@
    "condition": "ホテル予約＋宿泊完了",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-02",
    "renew_hold": true,
    "seed_filled": true
   },
@@ -294272,7 +294272,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-02",
    "renewed_at": "2026-07-31 21:00",
    "renewed_from": "225P"
   },
@@ -336372,7 +336372,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 01:00",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-11-02",
    "delisted_at": "2026-07-22",
    "renewed_at": "2026-10-17 01:00",
    "renewed_from": "8,000P"
@@ -350845,7 +350845,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-02",
    "site_new": false,
    "renew_hold": true
   },
@@ -479650,7 +479650,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-02",
    "backfill_dated": true,
    "site_new": false
   },
@@ -505111,7 +505111,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-02"
   },
   "tamaru_mall:2808": {
    "site": "tamaru_mall",
@@ -649047,7 +649047,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-02"
   },
   "gendama:1497801": {
    "site": "gendama",
@@ -650498,8 +650498,8 @@
    "site": "gendama",
    "deal_id": "1404382",
    "title": "[還元超UP] JAバンクのクレジットカード【JAカード】",
-   "points_text": "19,125pt",
-   "yen": 1912.5,
+   "points_text": "45,000pt",
+   "yen": 4500.0,
    "percent": null,
    "url": "https://www.gendama.jp/service/item/1404382",
    "condition": "新規カード入会申込(カード発券完了)",
@@ -650507,7 +650507,8 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-11-02",
-   "renew_hold": true
+   "renewed_at": "2026-11-02 15:00",
+   "renewed_from": "19,125pt"
   },
   "gendama:1532543": {
    "site": "gendama",
@@ -683410,7 +683411,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-02"
   },
   "tamaru_mall:2818": {
    "site": "tamaru_mall",
@@ -683424,7 +683425,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 13:00",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-02"
   },
   "point_museum:s27091": {
    "site": "point_museum",
@@ -693354,17 +693355,16 @@
    "site": "powl",
    "deal_id": "41610",
    "title": "静岡銀行カードローンSELECA（セレカ）※口座振り込みでの融資申込のみ",
-   "points_text": "310,000pt",
-   "yen": 31000.0,
+   "points_text": "260,000pt",
+   "yen": 26000.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/41610",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 01:00",
-   "last_seen": "2026-10-31",
-   "renewed_at": "2026-10-28 01:02",
-   "renewed_from": "270,000pt"
+   "last_seen": "2026-11-02",
+   "renew_hold": true
   },
   "powl:41825": {
    "site": "powl",
@@ -694939,7 +694939,7 @@
   "warau:207390": {
    "site": "warau",
    "deal_id": "207390",
-   "title": "AGクラウドファンディング",
+   "title": "AGクラウドファンディング（10万円以上投資）",
    "points_text": "12,000pt",
    "yen": 12000.0,
    "percent": null,
@@ -694948,7 +694948,7 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 13:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-11-02",
    "delisted_at": "2026-10-08"
   },
   "warau:207383": {
@@ -726439,7 +726439,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 01:00",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-11-02"
   },
   "amefri:141588": {
    "site": "amefri",
@@ -737545,7 +737545,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 13:00",
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02"
   },
   "pointchips:1223": {
    "site": "pointchips",
@@ -752521,7 +752521,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 21:00",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-02"
   },
   "warau:208523": {
    "site": "warau",
@@ -756100,7 +756100,7 @@
   "gmo_poikatsu:13333": {
    "site": "gmo_poikatsu",
    "deal_id": "13333",
-   "title": "【合計27,000円相当】三菱ＵＦＪカード ゴールド",
+   "title": "【大好評につき過去最高還元！】三菱ＵＦＪカード ゴールド",
    "points_text": "15,000 P",
    "yen": 15000.0,
    "percent": null,
@@ -756114,7 +756114,7 @@
   "gmo_poikatsu:13332": {
    "site": "gmo_poikatsu",
    "deal_id": "13332",
-   "title": "【合計25,000円相当】三菱ＵＦＪカード",
+   "title": "【大好評につき過去最高還元！】三菱ＵＦＪカード",
    "points_text": "15,000 P",
    "yen": 15000.0,
    "percent": null,
@@ -756277,7 +756277,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02"
   },
   "nifty_point:0001287522F0": {
    "site": "nifty_point",
@@ -756291,7 +756291,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02"
   },
   "amefri:142120": {
    "site": "amefri",
@@ -761199,6 +761199,286 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:208650": {
+   "site": "warau",
+   "deal_id": "208650",
+   "title": "【Zucks】ロケットナウドライバー（初回配達完了）",
+   "points_text": "2,450pt",
+   "yen": 2450.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208650",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:208647": {
+   "site": "warau",
+   "deal_id": "208647",
+   "title": "【GFRewards】Piupiu Heroes Team（StepUp）",
+   "points_text": "12,401pt",
+   "yen": 12401.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208647",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:208645": {
+   "site": "warau",
+   "deal_id": "208645",
+   "title": "【GFRewards】Merge Restaurant - Makeover（StepUp）",
+   "points_text": "2,971pt",
+   "yen": 2971.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208645",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:208649": {
+   "site": "warau",
+   "deal_id": "208649",
+   "title": "みずほ銀行（口座開設＋10万円以上入金）",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208649",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:208646": {
+   "site": "warau",
+   "deal_id": "208646",
+   "title": "【SKYFLAG】Z ルート：リデンプション（StepUp）",
+   "points_text": "12,481pt",
+   "yen": 12481.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208646",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:208648": {
+   "site": "warau",
+   "deal_id": "208648",
+   "title": "【SKYFLAG】Z ルート：リデンプション（StepUp）",
+   "points_text": "12,481pt",
+   "yen": 12481.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208648",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "warau:202633": {
+   "site": "warau",
+   "deal_id": "202633",
+   "title": "UcarPAC - ユーカーパック",
+   "points_text": "25,000pt",
+   "yen": 25000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=202633",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "amefri:142171": {
+   "site": "amefri",
+   "deal_id": "142171",
+   "title": "漫画、ラノベが読み放題！14日間無料で体験【BOOK☆WALKER 読み放題】",
+   "points_text": "18,000pt",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142171",
+   "condition": "新規有料会員登録",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "amefri:142172": {
+   "site": "amefri",
+   "deal_id": "142172",
+   "title": "Piupiu Heroes Team【Android】",
+   "points_text": "169,450pt",
+   "yen": 16945.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142172",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "amefri:142169": {
+   "site": "amefri",
+   "deal_id": "142169",
+   "title": "Merge Restaurant - Makeover【iOS】",
+   "points_text": "40,590pt",
+   "yen": 4059.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142169",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "amefri:142174": {
+   "site": "amefri",
+   "deal_id": "142174",
+   "title": "【S】【初回配達完了】ロケットナウドライバー_Android",
+   "points_text": "28,000pt",
+   "yen": 2800.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142174",
+   "condition": "新規アプリインストール後、初回配達で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "powl:43837": {
+   "site": "powl",
+   "deal_id": "43837",
+   "title": "デジタル証券renga（レンガ）[30万円取引]",
+   "points_text": "72,000pt",
+   "yen": 7200.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43837",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "powl:44100": {
+   "site": "powl",
+   "deal_id": "44100",
+   "title": "デジタル証券renga（レンガ）[100万円取引]",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/44100",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "powl:44101": {
+   "site": "powl",
+   "deal_id": "44101",
+   "title": "デジタル証券renga（レンガ）[300万円取引]",
+   "points_text": "300,000pt",
+   "yen": 30000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/44101",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "powl:43836": {
+   "site": "powl",
+   "deal_id": "43836",
+   "title": "monomane（モノマネ）修理",
+   "points_text": "9,600pt",
+   "yen": 960.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43836",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "powl:43657": {
+   "site": "powl",
+   "deal_id": "43657",
+   "title": "フォーチュンクッキー（1,000円課金プログラム）",
+   "points_text": "10,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/43657",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "poikatsu_club:21823": {
+   "site": "poikatsu_club",
+   "deal_id": "21823",
+   "title": "Piupiu Heroes Team（Android）",
+   "points_text": "22330pt",
+   "yen": 22330.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21823",
+   "condition": "新規アプリインストール後、広告クリックから30日以内に\n・レベル10をクリア\n・レベル50をクリア\n・レベル100をクリア\n・レベル300をクリア\n・レベル600をクリア\n・レベル1000をクリア\n・レベル1500をクリア\n・レベル2200をクリア\n・レベル3000をクリア\n・レベル4000をクリア\n・レベル5000をクリア\n・レベル6500をクリア\n・レベル8300をクリア\n・ショップでダイヤモンド（4.99ドル）を購入\n・ショップでダイヤモンド（9.99ドル）を購入\n・ショップでダイヤモンド（19.99ドル）を購入\nで成果となります。各成果地点毎に報酬が発生します。\n\n【課金条件に関するご注意】\n課金条件はドル建てで判定されます。\n日本円でのお支払い額は「条件達成時点の為替レート」でドルに換算されるため、\n同じ金額のご購入でも、時期によって条件を満たさない場合があります。（1ドル＝約150〜160円で計算／為替により変動）\r\n\r\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから30日以内\n成果調査受付期限：広告クリックから37日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n※同一アプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\n※同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・成果到達したことがわかるキャプチャ画像\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・インストールが他の広告成果としてみなされている\n\n【課金条件に関するご注意】\n課金条件はドル建てで判定されます。\n日本円でのお支払い額は「条件達成時点の為替レート」でドルに換算されるため、\n同じ金額のご購入でも、時期によって条件を満たさない場合があります。（1ドル＝約150〜160円で計算／為替により変動）",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "poikatsu_club:21824": {
+   "site": "poikatsu_club",
+   "deal_id": "21824",
+   "title": "Merge Restaurant - Makeover（iOS）",
+   "points_text": "5496pt",
+   "yen": 5496.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21824",
+   "condition": "新規アプリインストール後、広告クリックから60日以内に\n・レベル5クリア\n・レベル8クリア\n・レベル10クリア\n・レベル13クリア\n・レベル15クリア\n・レベル18クリア\n・レベル20クリア\n・レベル25クリア\n・レベル30クリア\n・レベル35クリア\n・レベル37クリア\n・課金完了\n・一括800円以上の課金完了\nで成果となります。各成果地点毎に報酬が発生します。\r\n\r\nこのキャンペーンは2026/11/2以降にインストールされた方が対象です。\n\n成果地点到達後、報酬が24時間経過しても反映されない場合は、お問い合わせください。\n\n成果受付期限　　：広告クリックから60日以内\n成果調査受付期限：広告クリックから71日以内\n※掲載が終了した場合も成果受取期間内に達成された場合は成果対象となります。\n\n同一アプリの成果地点違いのキャンペーンを複数利用いただくことはできません。\n【例】\nキャンペーン①アプリA/成果地点レベル10\nキャンペーン②アプリA/成果地点レベル20\n・インストール時に進行中のミッションに表示があることを確認できたキャンペーンがご利用いただけます。\n・キャンペーン①経由でインストールし、進行中のミッションに反映した後、キャンペーン②経由で再度インストールしても初回インストールではないため、進行中のミッションに表示されません。\n\n■成果調査に関して\n成果条件達成後に報酬が未付与の場合、本サイトのお問合せフォームよりご連絡ください。\n※広告主やスポンサーサイトへ直接問い合わせする事を固く禁じます。\n問い合わせた場合、いかなる理由があろうと報酬付与対象外となりますのでご了承ください。\n報酬未付与に関する調査の際は下記が必要になりますのでご準備ください。\n・広告クリック日時\n・成果達成日時\n・成果到達したことがわかるキャプチャ画像\n・OSのバージョン\n\n※iOSを11.0以上にアップグレードしていて、Safariの設定（設定≫Safari≫プライバシーとセキュリティ）で「サイト越えトラッキングを防ぐ」を有効にしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「サイト越えトラッキングを防ぐ」をOFFにしてください。\n※iOSを14.0以上にアップグレードしていて、トラッキングの設定（設定≫プライバシーとセキュリティ≫トラッキング）で「アプリからのトラッキング要求を許可」をOFFにしている方は、成果対象外となることがあります。広告をご利用の前に、必ず端末の設定をご確認いただき、「アプリからのトラッキング要求を許可」をONにしてください。\nまた該当インストールアプリの設定においても「アプリからのトラッキング要求を許可」をOFFにしている場合も成果対象外となることがあります。端末での許可だけでなく各アプリの設定でも「アプリからのトラッキング要求を許可」をONにしてください。「他社が所有するAppやWebサイトを横断してあなたを追跡する許可」が表示された場合はOKと回答していただくと該当設定がONになります。\n\nまた下記内容に該当する場合、成果対象外となることがあります。\n・別の広告経由でインストールまたは成果到達した\n・既にアプリをインストールしている\n・広告クリックから成果に至るまで、同一の標準ブラウザ内で遷移されていない\n・【1時間以内】に広告クリックからアプリ初回起動までが完了しなかった\n・広告クリックから初回起動までに通信環境を変更した\n・回線が不安定な状態でインストールまたは成果地点に到達した\n・広告クリックした端末とは違う端末にデータを引き継いで成果地点まで到達した\n・他端末での同一IPアドレスからのインストールまたは成果到達した\n・他端末やご家族、ご友人と同一IPアドレスでのインストール\n・不正･虚偽の申請、その他異常値等\n・成果調査依頼時から完了までに該当アプリをアンインストールしている\n・端末の「追跡型広告を制限」設定がONになっている\n・公共WiFiをご利用しインストールまたは成果地点に到達した\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセス\n・異なる成果条件のキャンペーンからアプリをインストール\n・エミュレーターによるインストール及び成果達成\n・リセットマラソンやアカウント引き継ぎなどの行為により到達時間が短い成果",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "poikatsu_club:21826": {
+   "site": "poikatsu_club",
+   "deal_id": "21826",
+   "title": "【M】【インストールから1週間以内に累計8,000ポイント獲得（招待ポイントは除外）】ンポポ_iOS",
+   "points_text": "221pt",
+   "yen": 221.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21826",
+   "condition": "新規アプリインストール後、インストールから1週間以内に累計8,000ポイント獲得（招待ポイントは除外）で成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから30日以内\r\n・成果調査受付期限：インストールから45日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n・ユーザーID\r\n----------------------------------\r\n\r\n\r\n▼注意事項\r\n達成期限：\r\n成果地点\r\n①（50円）はインストールから1日以内\r\n②（100円）・③（200円）はインストールから7日以内に達成したものを成果対象とする。\r\n累計ポイントの成果地点は招待ポイントを除外して判定。\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
+   "last_seen": "2026-11-02"
+  },
+  "poikatsu_club:21825": {
+   "site": "poikatsu_club",
+   "deal_id": "21825",
+   "title": "【S】【初回配達完了】ロケットナウドライバー_Android",
+   "points_text": "3150pt",
+   "yen": 3150.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21825",
+   "condition": "新規アプリインストール後、初回配達で成果となります。\r\n▼【必読】注意事項\r\nロケットナウサポートセンター等、広告主への報酬や成果到達に関する問い合わせは禁止となります。\r\n連絡された場合、いかなる場合においても報酬対象外となりますのでご留意ください。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから30日以内\r\n・成果調査受付期限：インストールから45日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n・成果に到達したことがわかるすべてのキャプチャ（画像URL）\r\n・ユーザーID\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 15:00",
    "last_seen": "2026-11-02"
   }
  }

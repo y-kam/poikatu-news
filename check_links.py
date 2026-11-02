@@ -5,15 +5,24 @@
   python check_links.py               # enabled 全サイトをチェックして保存
   python check_links.py --dry-run     # 保存せず判定サマリだけ表示
   python check_links.py --sites moppy # 指定サイトのみ（カンマ区切り）
+  python check_links.py --time-budget 50  # 50分で打ち切り、残りは次回に続きから（CI用）
 
 誤削除防止:
   - 一時障害（接続不可/タイムアウト/5xx/403/429）は判定不能として据え置く
   - dead は連続 STREAK_HIGH/STREAK_LOW 回で初めて確定する
   - サイトの unknown 率が高い（全体障害の疑い）回は、そのサイトの dead を無効化する
+
+時間予算（--time-budget）:
+  サイト内は間隔を空けて直列に確認するため、所要時間は最大件数のサイトで決まる。
+  予算を超えたサイトは途中で打ち切り、そこまでの結果だけ反映して巡回位置
+  （data/linkcheck_cursor.json）を保存する。次回はその続きから確認するので、
+  件数が増えても数回に分けて全件を一巡できる（ジョブのタイムアウトで全結果を失わない）。
 """
 import argparse
+import bisect
 import json
 import sys
+import time
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
@@ -62,16 +71,21 @@ def probe_final(fetcher: PoliteFetcher, url: str):
 
 
 def check_site(site_key: str, deals: list[dict], dead_markers=None,
-               dead_title_markers=None, new_markers=None) -> list[tuple]:
+               dead_title_markers=None, new_markers=None,
+               deadline: float | None = None) -> list[tuple]:
     """1サイト分の案件を直列に probe し (deal, verdict, threshold, site_new) のリストを返す。
     サイト単位でスレッドに割り当てる前提（PoliteFetcher/Session をスレッド間で共有しない）。
     dead_markers / dead_title_markers を渡すと、200応答でも本文/タイトルにマーカーを
     含む案件を掲載終了とみなす（掲載終了ページも200を返すソフト404サイト向け）。
     new_markers を渡すと、生存ページの本文からサイト側「NEW」表記の有無（site_new）も抽出する
-    （詳細ページにしか出ないNEW表記を死活チェックの取得本文に相乗りして検知。追加リクエスト無し）。"""
+    （詳細ページにしか出ないNEW表記を死活チェックの取得本文に相乗りして検知。追加リクエスト無し）。
+    deadline（time.monotonic() 基準）を渡すと、その時刻を過ぎた時点で残りを打ち切り、
+    チェック済みの先頭部分だけの結果を返す。"""
     fetcher = PoliteFetcher(interval=CHECK_INTERVAL)
     results = []
     for deal in deals:
+        if deadline is not None and time.monotonic() >= deadline:
+            break
         outcome, final_url = probe_final(fetcher, deal["url"])
         verdict, threshold = linkcheck.classify_response(
             outcome, final_url, dead_markers, dead_title_markers)
@@ -79,6 +93,32 @@ def check_site(site_key: str, deals: list[dict], dead_markers=None,
         site_new = linkcheck.find_new_marker(outcome, new_markers) if verdict == "alive" else None
         results.append((deal, verdict, threshold, site_new))
     return results
+
+
+def order_for_check(deals: list[dict], cursor_id: str | None) -> tuple[list[dict], int]:
+    """1サイト分の案件をチェック順に並べ、(並べた案件, 先頭の優先分の件数) を返す。
+    掲載終了の疑い（dead_streak>0）は毎回先頭で確認し、連続判定での確定を巡回待ちで遅らせない。
+    残りは deal_id 順に cursor_id の次から並べ、末尾まで行ったら先頭に戻る（巡回）。"""
+    def key(d):
+        return str(d["deal_id"])
+
+    suspects = sorted((d for d in deals if d.get("dead_streak")), key=key)
+    rest = sorted((d for d in deals if not d.get("dead_streak")), key=key)
+    if cursor_id is not None:
+        start = bisect.bisect_right(rest, cursor_id, key=key)
+        rest = rest[start:] + rest[:start]
+    return suspects + rest, len(suspects)
+
+
+def next_cursor(ordered: list[dict], n_priority: int, checked: int,
+                old_cursor: str | None) -> str | None:
+    """チェック後の巡回位置を返す。全件確認できたら None（次回は先頭から）、
+    時間切れなら最後に確認した巡回分の deal_id。巡回分に入る前に切れたら位置は据え置く。"""
+    if checked >= len(ordered):
+        return None
+    if checked <= n_priority:
+        return old_cursor
+    return str(ordered[checked - 1]["deal_id"])
 
 
 def main() -> int:
@@ -100,10 +140,18 @@ def main() -> int:
              "全件だと外部リクエストが激増するため、手動での一括点検時のみ指定する。当日の"
              "クロールで一覧に載っていた案件は飛ばす。dead が出た案件は以後の日次で追跡される）",
     )
+    parser.add_argument(
+        "--time-budget", type=float, metavar="MINUTES",
+        help="チェック全体の時間予算（分）。超えたサイトは途中で打ち切り、次回は続きから確認する"
+             "（CIのジョブタイムアウトで全結果を失わないため。未指定なら全件を確認する）",
+    )
     args = parser.parse_args()
 
+    # 予算は開始時点から数える（母集団の構築時間も含めてジョブ時間に収めるため）
+    deadline = time.monotonic() + args.time_budget * 60 if args.time_budget else None
     sites_config = load_sites_config()
     store = store_mod.load()
+    cursor = store_mod.load_linkcheck_cursor()
     now_dt = datetime.now(JST)
     today = now_dt.strftime("%Y-%m-%d")
     now_at = now_dt.strftime("%Y-%m-%d %H:%M")  # NEW表記遷移の再新着日時（renewed_at）用
@@ -139,27 +187,31 @@ def main() -> int:
         print("[skip] チェック対象の案件なし")
         return 0
 
+    # 疑い案件を先頭に、残りは前回の打ち切り位置の続きから確認する
+    ordered = {site: order_for_check(deals, cursor.get(site)) for site, deals in targets.items()}
     total_targets = sum(len(v) for v in targets.values())
     # flush: CIではstdoutがバッファされ、途中経過が一切出ないまま打ち切られると
     # 原因調査ができないため、開始時点の規模だけは必ず先に出す。
-    print(f"[start] {len(targets)}サイト / {total_targets}件をチェック（interval={CHECK_INTERVAL}s）",
-          flush=True)
+    budget_note = f" / 時間予算{args.time_budget:g}分" if args.time_budget else ""
+    print(f"[start] {len(targets)}サイト / {total_targets}件をチェック"
+          f"（interval={CHECK_INTERVAL}s{budget_note}）", flush=True)
 
     # サイト単位で並列（サイト内は直列でリクエスト間隔を守る）。
     # ソフト404サイトは sites.json の dead_markers を渡して本文で死活判定する。
     # new_markers を設定したサイトはNEW表記の有無も同じ応答から抽出する。
-    def run(item):
-        site, deals = item
+    def run(site):
         cfg = sites_config.get(site, {})
-        return (site, check_site(site, deals, cfg.get("dead_markers"),
-                                 cfg.get("dead_title_markers"), cfg.get("new_markers")))
+        return (site, check_site(site, ordered[site][0], cfg.get("dead_markers"),
+                                 cfg.get("dead_title_markers"), cfg.get("new_markers"),
+                                 deadline=deadline))
 
     # サイトごとに完了した順に判定を反映し、その都度保存する（数時間かかる一括点検が途中で
     # 落ちても完了済みサイトの結果は残る。dry-run 時は保存しない）。
     newly_delisted = 0
     newly_renewed = 0
+    unchecked = 0
     with ThreadPoolExecutor(max_workers=args.max_workers) as ex:
-        futures = [ex.submit(run, item) for item in targets.items()]
+        futures = [ex.submit(run, site) for site in targets]
         site_results = (f.result() for f in as_completed(futures))
         for site, results in site_results:
             counts = Counter(verdict for _, verdict, _, _ in results)
@@ -168,16 +220,31 @@ def main() -> int:
             newly_renewed += renewed
             flag = " ※全体障害の疑い→dead無効化" if guard else ""
             renew_note = f" / NEW遷移{renewed}件" if renewed else ""
+            site_deals, n_priority = ordered[site]
+            cut_note = ""
+            if len(results) < len(site_deals):
+                unchecked += len(site_deals) - len(results)
+                cut_note = f" ※時間切れ {len(results)}/{len(site_deals)}件（次回は続きから）"
+            new_pos = next_cursor(site_deals, n_priority, len(results), cursor.get(site))
+            cursor_changed = new_pos != cursor.get(site)
+            if new_pos is None:
+                cursor.pop(site, None)
+            else:
+                cursor[site] = new_pos
             print(
                 f"  [{site}] alive{counts['alive']} / dead{counts['dead']} / "
-                f"unknown{counts['unknown']} → 新規掲載終了{applied}件{renew_note}{flag}",
+                f"unknown{counts['unknown']} → 新規掲載終了{applied}件{renew_note}{flag}{cut_note}",
                 flush=True,
             )
             if not args.dry_run:
                 store_mod.save(store)
+                # 巡回位置は変化した時だけ書く（ローカル実行などで無用な差分・push衝突を出さない）
+                if cursor_changed:
+                    store_mod.save_linkcheck_cursor(cursor)
 
     tail = "（dry-run: 未保存）" if args.dry_run else ""
-    print(f"[done] 新規掲載終了 合計{newly_delisted}件 / NEW遷移 合計{newly_renewed}件{tail}")
+    cut = f" / 時間切れで次回に回した 合計{unchecked}件" if unchecked else ""
+    print(f"[done] 新規掲載終了 合計{newly_delisted}件 / NEW遷移 合計{newly_renewed}件{cut}{tail}")
     return 0
 
 

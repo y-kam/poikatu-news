@@ -19,6 +19,11 @@ HISTORY_FILE = DATA_FILE.parent / "history.json"
 # 焼き付けて、確定後は内容が変わらないようにする（過去の記録としての一貫性を保つ）。
 WEEKLY_FILE = DATA_FILE.parent / "weekly.json"
 
+# リンク死活チェックの巡回位置。キーはサイト、値は時間切れで打ち切った時点の最後の deal_id。
+# 時間予算内に回り切れないサイトを複数回に分けて巡回するために使う（check_links.py）。
+# 案件ごとに最終チェック日時を持たせると deals.json に毎回大量の差分が出るため別ファイルにする。
+LINKCHECK_CURSOR_FILE = DATA_FILE.parent / "linkcheck_cursor.json"
+
 # 表示・リンクチェックの対象母集団を「初出からこの日数以内」に制限する。
 # None なら全期間（掲載中の案件は日数によらず表示し、掲載終了はリンクチェックで自動除外）。
 # 将来コスト（外部アクセス数・deals.json容量）を抑えたくなったら日数を設定する。
@@ -57,6 +62,21 @@ def save_history(history: dict) -> None:
     with tmp.open("w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
     tmp.replace(HISTORY_FILE)  # deals.json と同様の原子的置換
+
+
+def load_linkcheck_cursor() -> dict:
+    if LINKCHECK_CURSOR_FILE.exists():
+        with LINKCHECK_CURSOR_FILE.open(encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_linkcheck_cursor(cursor: dict) -> None:
+    LINKCHECK_CURSOR_FILE.parent.mkdir(parents=True, exist_ok=True)
+    tmp = LINKCHECK_CURSOR_FILE.with_suffix(".json.tmp")
+    with tmp.open("w", encoding="utf-8") as f:
+        json.dump(cursor, f, ensure_ascii=False, indent=1, sort_keys=True)
+    tmp.replace(LINKCHECK_CURSOR_FILE)  # deals.json と同様の原子的置換
 
 
 def load_weekly() -> dict:

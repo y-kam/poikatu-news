@@ -177,7 +177,10 @@ jobs:
       github.event.inputs.post_x == 'true' ||
       github.event.inputs.check_links == 'true') }}
     runs-on: ubuntu-latest
-    # 死活チェック実測 約40分＋FTPS再試行の最悪 約35分。案件数に比例して伸びるので余裕を持たせる。
+    # 死活チェックの時間予算 50分＋再生成・コミット 約5分＋FTPS再試行の最悪 約35分。
+    # 死活チェックは最大件数のサイトで所要が決まり（3秒間隔の直列）、件数増で90分を超えて
+    # ジョブごと打ち切られ全結果を失っていた（2026-10下旬）。そこで --time-budget で打ち切り、
+    # 回り切れないサイトは次回に続きから確認する（data/linkcheck_cursor.json）。
     timeout-minutes: 90
     steps:
       # crawlジョブがpushした最新データを取得する（トリガー時点のSHAではなくmainの先端）
@@ -193,7 +196,7 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Check links and flag delisted deals
-        run: python check_links.py --exclude chobirich,pointincome
+        run: python check_links.py --exclude chobirich,pointincome --time-budget 50
 
       - name: Rebuild site with delisted deals removed
         run: python run.py --generate-only

@@ -177911,18 +177911,19 @@
   "pointincome:153697": {
    "site": "pointincome",
    "deal_id": "153697",
-   "title": "ABEMAプレミアム | Disney+",
-   "points_text": "28,000pt",
-   "yen": 2800.0,
+   "title": "ABEMAプレミアム | Disney+【11/3までの高還元!!】",
+   "points_text": "31,200pt",
+   "yen": 3120.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153697/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-02",
    "backfill_dated": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-02 10:39",
+   "renewed_from": "28,000pt"
   },
   "pointincome:154247": {
    "site": "pointincome",
@@ -760330,6 +760331,48 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 10:00",
+   "last_seen": "2026-11-02"
+  },
+  "chobirich:1730985": {
+   "site": "chobirich",
+   "deal_id": "1730985",
+   "title": "イオンカード（WAON一体型/ミッキーマウス デザイン）",
+   "points_text": "3,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1730985/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 10:39",
+   "last_seen": "2026-11-02"
+  },
+  "chobirich:1737435": {
+   "site": "chobirich",
+   "deal_id": "1737435",
+   "title": "イオンカード（WAON一体型）",
+   "points_text": "3,100pt",
+   "yen": 1550.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1737435/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 10:39",
+   "last_seen": "2026-11-02"
+  },
+  "pointincome:156390": {
+   "site": "pointincome",
+   "deal_id": "156390",
+   "title": "【ブランドごとに申込可能！】三井住友カード ゴールド Visa（NL）",
+   "points_text": "130,000pt",
+   "yen": 13000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156390/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-02",
+   "first_seen_at": "2026-11-02 10:39",
    "last_seen": "2026-11-02"
   }
  }

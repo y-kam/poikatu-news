@@ -292857,16 +292857,17 @@
    "site": "moppy",
    "deal_id": "161508",
    "title": "隠しオブジェクトゲーム：探してみよう（レベル300到達）",
-   "points_text": "640P",
-   "yen": 640.0,
+   "points_text": "400P",
+   "yen": 400.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161508",
    "condition": "【▼ポイント獲得条件】記載の条件を達成",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-12",
-   "site_new": false
+   "last_seen": "2026-11-04",
+   "site_new": false,
+   "renew_hold": true
   },
   "moppy:161789": {
    "site": "moppy",
@@ -293786,7 +293787,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "site_new": false
   },
   "moppy:161811": {
@@ -294194,7 +294195,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "site_new": false,
    "renew_hold": true
   },
@@ -294332,7 +294333,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-07-31 21:00",
    "renewed_from": "225P"
   },
@@ -294802,7 +294803,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-19",
+   "last_seen": "2026-11-04",
    "site_new": false
   },
   "moppy:158774": {
@@ -325384,7 +325385,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-11-04",
    "site_new": true,
    "renewed_at": "2026-11-02 21:15",
    "renewed_from": "400P"
@@ -472172,7 +472173,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-11-04",
    "backfill_dated": true,
    "site_new": false
   },
@@ -761384,7 +761385,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:208402": {
@@ -762159,7 +762160,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 15:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:202633": {
@@ -762772,7 +762773,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:208671": {
@@ -762787,7 +762788,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:208669": {

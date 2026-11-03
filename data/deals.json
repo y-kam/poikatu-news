@@ -80726,7 +80726,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-02"
+   "last_seen": "2026-11-03"
   },
   "au_point:8:1419": {
    "site": "au_point",
@@ -286608,7 +286608,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:00",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-11-03"
   },
   "tamaru_mall:2692": {
    "site": "tamaru_mall",
@@ -286636,7 +286636,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:00",
-   "last_seen": "2026-09-14"
+   "last_seen": "2026-11-03"
   },
   "poikatsu_club:6053": {
    "site": "poikatsu_club",
@@ -293794,7 +293794,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-03",
    "site_new": false
   },
   "moppy:161811": {
@@ -294202,7 +294202,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "site_new": false,
    "renew_hold": true
   },
@@ -322415,7 +322415,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 10:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "delisted_at": "2026-10-01"
   },
   "powl:36667": {
@@ -351318,7 +351318,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-02 10:00",
    "renewed_from": "4741pt"
   },
@@ -744841,7 +744841,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 15:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-01 10:00",
    "renewed_from": "最大 962 pt"
   },
@@ -746830,7 +746830,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 15:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-02 01:00"
   },
   "amefri:141946": {
@@ -747514,7 +747514,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 17:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-02 01:00"
   },
   "point_island:11160072": {
@@ -762619,7 +762619,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "dead_streak": 1
   },
   "warau:208664": {

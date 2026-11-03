@@ -275208,7 +275208,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-11-02 10:00",
    "renewed_from": "1875pt"
   },
@@ -746662,7 +746662,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "最大 15,002 pt",
    "dead_streak": 1
@@ -747468,7 +747468,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 17:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-11-02 01:00",
    "site_new": false
   },
@@ -747484,7 +747484,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 17:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-11-02 01:00",
    "site_new": false
   },
@@ -756341,7 +756341,7 @@
    "seeded": false,
    "first_seen": "2026-10-31",
    "first_seen_at": "2026-10-31 10:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-11-03 05:00"
   },
   "pointtown:2099": {
@@ -762807,7 +762807,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:208664": {
@@ -764051,6 +764051,20 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 07:29",
+   "last_seen": "2026-11-04"
+  },
+  "warau:208511": {
+   "site": "warau",
+   "deal_id": "208511",
+   "title": "【SKYFLAG】マージキャンプ(Merge Camp)動物の癒しの島を飾ろう（StepUp）",
+   "points_text": "1,101pt",
+   "yen": 1101.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208511",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-04",
+   "first_seen_at": "2026-11-04 08:00",
    "last_seen": "2026-11-04"
   }
  }

@@ -50772,16 +50772,17 @@
    "site": "rebates",
    "deal_id": "10644",
    "title": "AliExpress",
-   "points_text": "最大3.5%",
+   "points_text": "最大9.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 9.0,
    "url": "https://www.rebates.jp/aliexpress.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-03",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-03 10:00",
+   "renewed_from": "最大3.5%"
   },
   "rebates:16689": {
    "site": "rebates",
@@ -55922,16 +55923,17 @@
    "site": "rebates",
    "deal_id": "14400",
    "title": "Udemy",
-   "points_text": "5.0%",
+   "points_text": "最大10.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 10.0,
    "url": "https://www.rebates.jp/udemy.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-03",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-03 10:00",
+   "renewed_from": "5.0%"
   },
   "rebates:25193": {
    "site": "rebates",
@@ -293413,8 +293415,8 @@
    "site": "moppy",
    "deal_id": "160001",
    "title": "ColorSing(カラーシング)",
-   "points_text": "2,050P",
-   "yen": 2050.0,
+   "points_text": "1,000P",
+   "yen": 1000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=160001",
    "condition": "1人のライバーに対して1K推しポイント獲得",
@@ -293422,8 +293424,7 @@
    "backfill": true,
    "first_seen": "2000-01-01",
    "last_seen": "2026-11-03",
-   "renewed_at": "2026-10-31 13:00",
-   "renewed_from": "1,700P"
+   "renew_hold": true
   },
   "moppy:159535": {
    "site": "moppy",
@@ -293598,7 +293599,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-30",
+   "last_seen": "2026-11-03",
    "site_new": false
   },
   "moppy:160765": {
@@ -360674,7 +360675,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 15:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "8253pt"
   },
@@ -744817,7 +744818,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 15:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-01 08:00",
    "renewed_from": "最大 17,486 pt"
   },
@@ -746657,7 +746658,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "最大 6,500 pt"
   },
@@ -746673,7 +746674,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "最大 15,002 pt",
    "dead_streak": 1
@@ -747463,7 +747464,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 17:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "renewed_at": "2026-11-02 01:00"
   },
   "amefri:141951": {
@@ -761960,7 +761961,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 15:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "dead_streak": 1
   },
   "warau:208648": {
@@ -762392,7 +762393,7 @@
   "warau:208680": {
    "site": "warau",
    "deal_id": "208680",
-   "title": "【myChips】BIGO LIVE-Live Stream, Live Chat, Go Live（StepUp）",
+   "title": "【myChips】ビゴ ライブ(BIGO LIVE) （StepUp）",
    "points_text": "4,635pt",
    "yen": 4635.0,
    "percent": null,
@@ -762401,13 +762402,13 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "dead_streak": 1
   },
   "warau:208679": {
    "site": "warau",
    "deal_id": "208679",
-   "title": "【myChips】BIGO LIVE-Live Stream, Live Chat, Go Live（StepUp）",
+   "title": "【myChips】ビゴライブ（StepUp）",
    "points_text": "5,958pt",
    "yen": 5958.0,
    "percent": null,
@@ -762416,7 +762417,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-03",
    "dead_streak": 1
   },
   "warau:208678": {

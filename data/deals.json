@@ -51405,15 +51405,17 @@
    "site": "rebates",
    "deal_id": "18880",
    "title": "Cake.jp",
-   "points_text": "3.0%",
+   "points_text": "4.5%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 4.5,
    "url": "https://www.rebates.jp/cake.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-11-04 10:00",
+   "renewed_from": "3.0%"
   },
   "rebates:25049": {
    "site": "rebates",
@@ -55747,31 +55749,33 @@
    "site": "rebates",
    "deal_id": "16097",
    "title": "Trip.com（ホテル）",
-   "points_text": "3.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/jp.trip.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-04 10:00",
+   "renewed_from": "3.0%"
   },
   "rebates:18289": {
    "site": "rebates",
    "deal_id": "18289",
    "title": "Trip.com（航空券）",
-   "points_text": "1.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/jp_trip_com_flights",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-04 10:00",
+   "renewed_from": "1.0%"
   },
   "rebates:24065": {
    "site": "rebates",
@@ -60909,16 +60913,17 @@
    "site": "rebates",
    "deal_id": "10672",
    "title": "ダイソン公式オンラインストア",
-   "points_text": "2.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/dyson",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-04 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:21606": {
    "site": "rebates",
@@ -61800,17 +61805,16 @@
    "site": "rebates",
    "deal_id": "14645",
    "title": "ピザハット",
-   "points_text": "20.0%",
+   "points_text": "8.0%",
    "yen": null,
-   "percent": 20.0,
+   "percent": 8.0,
    "url": "https://www.rebates.jp/pizzahut",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-01 01:00",
-   "renewed_from": "19.5%"
+   "renew_hold": true
   },
   "rebates:14823": {
    "site": "rebates",
@@ -63565,31 +63569,33 @@
    "site": "rebates",
    "deal_id": "15797",
    "title": "伊藤久右衛門",
-   "points_text": "4.5%",
+   "points_text": "7.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 7.0,
    "url": "https://www.rebates.jp/itohkyuemon.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-04 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:24215": {
    "site": "rebates",
    "deal_id": "24215",
    "title": "元禄三年創業　山本山",
-   "points_text": "5.0%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/yamamotoyama.co.jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-04 10:00",
+   "renewed_from": "5.0%"
   },
   "rebates:23889": {
    "site": "rebates",
@@ -64486,17 +64492,16 @@
    "site": "rebates",
    "deal_id": "21378",
    "title": "無印良品ネットストア",
-   "points_text": "3.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/muji.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-04",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-23 01:00",
-   "renewed_from": "1.5%"
+   "renew_hold": true
   },
   "rebates:21220": {
    "site": "rebates",
@@ -143046,7 +143051,7 @@
   "point_hiroba:5198": {
    "site": "point_hiroba",
    "deal_id": "5198",
-   "title": "最大120,000円相当の特典還元！GMOとくとくBB×ドコモ光",
+   "title": "最大115,000円相当の特典還元！GMOとくとくBB×ドコモ光",
    "points_text": "17,500 P",
    "yen": 17500.0,
    "percent": null,
@@ -504236,7 +504241,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 01:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-11-04",
    "site_new": false
   },
   "warau:206652": {
@@ -746679,7 +746684,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "最大 6,500 pt"
   },
@@ -762597,7 +762602,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:208679": {
@@ -762612,7 +762617,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "delisted_at": "2026-11-03"
   },
   "warau:208678": {
@@ -764065,6 +764070,48 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 08:00",
+   "last_seen": "2026-11-04"
+  },
+  "point_hiroba:5754": {
+   "site": "point_hiroba",
+   "deal_id": "5754",
+   "title": "三井住友カード ゴールド Mastercard（NL）",
+   "points_text": "4,250 P",
+   "yen": 4250.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5754",
+   "condition": "カード発行",
+   "seeded": false,
+   "first_seen": "2026-11-04",
+   "first_seen_at": "2026-11-04 10:00",
+   "last_seen": "2026-11-04"
+  },
+  "point_hiroba:5750": {
+   "site": "point_hiroba",
+   "deal_id": "5750",
+   "title": "三井住友カード Mastercard（NL）",
+   "points_text": "4,000",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://hiroba.dpoint.docomo.ne.jp/item/5750",
+   "condition": "カード発行",
+   "seeded": false,
+   "first_seen": "2026-11-04",
+   "first_seen_at": "2026-11-04 10:00",
+   "last_seen": "2026-11-04"
+  },
+  "poikatsu_club:21844": {
+   "site": "poikatsu_club",
+   "deal_id": "21844",
+   "title": "イオンNEXCO西日本カード（WAON一体型）（初回クレジットカード発行完了）",
+   "points_text": "1530pt",
+   "yen": 1530.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21844",
+   "condition": "▼承認条件\r\n新規初回クレジットカード発行完了で成果\r\n※成果到達目安：15分程度\r\n※成果判定目安：初回クレジットカード発行完了後、30日程度\r\n※対象カード：イオンNEXCO西日本カード（WAON一体型）\r\n※初めて「イオンNEXCO西日本カード（WAON一体型）」にお申込みされる方が対象\r\n※他のイオンカードをお持ちの方も対象\r\n※同一券種で家族カードをお持ちの場合も、ご自身の名義で初めてカード発行された場合は対象となります。\r\n\r\n▼成果までの流れ\r\n1.広告サイトへアクセス\r\n2.「お申込みはこちら」をクリック\r\n3.規約に同意し入力フォーム（お客様情報・ご職業など）を入力\r\n4.申込完了\r\n5.申込書・本人確認書類を返送\r\n6.審査\r\n7.ご本人様確認\r\n8.カード到着\r\n9.カード発行完了\r\n\r\n▼却下条件\r\n・該当広告経由以外の成果地点到達は成果対象外となります。\r\n・日本以外のIPアドレスからの成果は対象外となります。\r\n・同一カードの二回目以降の申込\r\n・カード申込みから3ヶ月以内にカード発行に至らなかった場合\r\n・対象カード以外のカードを申込みされた場合\r\n・虚偽・いたずら、不正・重複（IP、住所）、申込不備、キャンセル・即時解約、不正集客\r\n・ご注文完了メールの未着があった場合\r\n・ご連絡がつかない場合\r\n・その他、著しく不正と判断される場合\r\n・カード会員資格を喪失している場合\r\n・お支払いが遅延している場合\r\n・その他、カード利用が制限されている場合\r\n・オークション転売行為があった場合\r\n\r\n▼注意事項\r\n・24時間以内に成果地点まで到達しなかった場合は、再度広告をクリック頂かないと成果にならない可能性がございます。\r\n・iPhoneの方は、Safariにデフォルトで入っている「サイト越えトラッキングを防ぐ」がONのままの場合、成果にならない可能性がございます。\r\n\r\n▼成果調査に関して\r\n・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。\r\n・直接スポンサーサイトへ問い合わせることはお控えください。\r\n・クリック発生から151日以上経過したものは調査不可となります。\r\n・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。\r\n①受付番号\r\n②カード券種\r\n③お申込み日",
+   "seeded": false,
+   "first_seen": "2026-11-04",
+   "first_seen_at": "2026-11-04 10:00",
    "last_seen": "2026-11-04"
   }
  }

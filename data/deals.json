@@ -220955,7 +220955,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04"
+   "last_seen": "2026-11-05"
   },
   "chanceit:33187": {
    "site": "chanceit",
@@ -293704,7 +293704,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "site_new": false
   },
   "moppy:156162": {
@@ -293825,7 +293825,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-05",
    "site_new": false,
    "renew_hold": true
   },
@@ -294644,7 +294644,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "site_new": false
   },
   "moppy:159742": {
@@ -295648,7 +295648,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-05",
+   "last_seen": "2026-11-05",
    "renewed_at": "2026-09-02 13:00",
    "renewed_from": "315P"
   },
@@ -313886,7 +313886,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 01:00",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "delisted_at": "2026-07-13"
   },
   "warau:197234": {
@@ -400699,7 +400699,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 15:00",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "site_new": true,
    "renewed_at": "2026-11-04 21:16",
    "renewed_from": "1,000P"
@@ -471817,7 +471817,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "backfill_dated": true,
    "site_new": false
   },
@@ -471961,7 +471961,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472235,7 +472235,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-11-05",
    "backfill_dated": true,
    "site_new": false
   },
@@ -504823,7 +504823,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 11:00",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "delisted_at": "2026-09-12"
   },
   "warau:206659": {
@@ -756213,7 +756213,7 @@
    "seeded": false,
    "first_seen": "2026-10-31",
    "first_seen_at": "2026-10-31 10:00",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "renewed_at": "2026-11-03 05:00"
   },
   "pointtown:2099": {
@@ -764194,7 +764194,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "delisted_at": "2026-11-04"
   },
   "warau:208707": {
@@ -764252,7 +764252,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-04"
+   "last_seen": "2026-11-05"
   },
   "amefri:142221": {
    "site": "amefri",
@@ -766669,6 +766669,104 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-05"
+  },
+  "hapitas:96018": {
+   "site": "hapitas",
+   "deal_id": "96018",
+   "title": "東京ディバンカー",
+   "points_text": "264pt",
+   "yen": 264.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/96018/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
+   "last_seen": "2026-11-05"
+  },
+  "hapitas:96166": {
+   "site": "hapitas",
+   "deal_id": "96166",
+   "title": "東京ディバンカー",
+   "points_text": "264pt",
+   "yen": 264.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/96166/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
+   "last_seen": "2026-11-05"
+  },
+  "hapitas:104160": {
+   "site": "hapitas",
+   "deal_id": "104160",
+   "title": "自動システム アクセスオンライン説明会",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104160/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
+   "last_seen": "2026-11-05"
+  },
+  "hapitas:104162": {
+   "site": "hapitas",
+   "deal_id": "104162",
+   "title": "みずほ楽天カード（口座開設+カード利用必須）",
+   "points_text": "6,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104162/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
+   "last_seen": "2026-11-05"
+  },
+  "getmoney:67164": {
+   "site": "getmoney",
+   "deal_id": "67164",
+   "title": "ゼヒトモ　外壁塗装",
+   "points_text": "36,000Pt",
+   "yen": 3600.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67164",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
+   "last_seen": "2026-11-05"
+  },
+  "getmoney:67166": {
+   "site": "getmoney",
+   "deal_id": "67166",
+   "title": "ゼヒトモ　屋根修理",
+   "points_text": "30,000Pt",
+   "yen": 3000.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67166",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
+   "last_seen": "2026-11-05"
+  },
+  "getmoney:67165": {
+   "site": "getmoney",
+   "deal_id": "67165",
+   "title": "ゼヒトモ　戸建てリフォーム",
+   "points_text": "21,000Pt",
+   "yen": 2100.0,
+   "percent": null,
+   "url": "https://dietnavi.com/pc/ad_detail.php?id=67165",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-05",
+   "first_seen_at": "2026-11-05 05:00",
    "last_seen": "2026-11-05"
   }
  }

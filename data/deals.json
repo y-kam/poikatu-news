@@ -275731,7 +275731,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renew_hold": true
   },
   "poikatsu_club:1645": {
@@ -275746,7 +275746,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renew_hold": true
   },
   "poikatsu_club:1779": {
@@ -275817,7 +275817,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renewed_at": "2026-11-02 10:00",
    "renewed_from": "3326pt"
   },
@@ -337758,7 +337758,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 15:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "kurashiru_reward:17798": {
    "site": "kurashiru_reward",
@@ -743971,7 +743971,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 13:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-06",
    "site_new": false
   },
   "warau:208311": {
@@ -752154,7 +752154,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 13:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renewed_at": "2026-11-04 01:00",
    "site_new": false
   },
@@ -752170,7 +752170,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 13:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renewed_at": "2026-11-04 01:00",
    "site_new": false
   },
@@ -752488,7 +752488,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 15:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renewed_at": "2026-11-04 01:00",
    "site_new": false
   },
@@ -756294,8 +756294,8 @@
    "seeded": false,
    "first_seen": "2026-10-31",
    "first_seen_at": "2026-10-31 10:00",
-   "last_seen": "2026-11-05",
-   "renewed_at": "2026-11-03 05:00"
+   "last_seen": "2026-11-06",
+   "renewed_at": "2026-11-06 08:00"
   },
   "pointtown:2099": {
    "site": "pointtown",
@@ -768509,7 +768509,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 21:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "dead_streak": 1
   },
   "warau:208797": {
@@ -768524,7 +768524,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 21:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "dead_streak": 1
   },
   "warau:208804": {

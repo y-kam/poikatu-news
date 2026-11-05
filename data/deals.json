@@ -148089,7 +148089,7 @@
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "backfill": true,
    "backfill_dated": true,
    "renew_hold": true
@@ -220931,7 +220931,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "chanceit:32609": {
    "site": "chanceit",
@@ -293021,7 +293021,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "moppy:161071": {
    "site": "moppy",
@@ -293580,7 +293580,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "site_new": false
   },
   "moppy:160765": {
@@ -294180,7 +294180,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "site_new": false,
    "renew_hold": true
   },
@@ -343633,7 +343633,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "powl:36421": {
    "site": "powl",
@@ -350883,7 +350883,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 21:00",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-06",
    "site_new": false,
    "renew_hold": true
   },
@@ -381046,7 +381046,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "delisted_at": "2026-10-01"
   },
   "sugutama:41368": {
@@ -432955,7 +432955,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 21:00",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-06",
    "site_new": false,
    "delisted_at": "2026-10-01",
    "renewed_at": "2026-11-02 21:00",
@@ -472276,7 +472276,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-11-06",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-21 05:00",
@@ -472663,7 +472663,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-11-06",
    "backfill_dated": true,
    "site_new": false
   },
@@ -510307,16 +510307,18 @@
    "site": "moppy",
    "deal_id": "155419",
    "title": "【過去登録者も可】横浜中華街◆鳳占やかた[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=155419",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-12",
-   "site_new": false
+   "last_seen": "2026-11-06",
+   "site_new": false,
+   "renewed_at": "2026-11-06 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145286": {
    "site": "moppy",
@@ -555419,7 +555421,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renew_hold": true
   },
   "poikatsu_club:4665": {
@@ -555434,7 +555436,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renew_hold": true
   },
   "poikatsu_club:4658": {
@@ -638794,7 +638796,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-06",
    "site_new": false
   },
   "moppy:152666": {
@@ -667940,7 +667942,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 08:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "site_new": false
   },
   "hapitas:103217": {
@@ -728289,7 +728291,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "delisted_at": "2026-10-21"
   },
   "point_land:k5009": {
@@ -752432,7 +752434,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 15:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "renewed_at": "2026-11-04 01:00",
    "site_new": false
   },
@@ -754432,7 +754434,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 15:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "point_stadium:s27623": {
    "site": "point_stadium",
@@ -757645,7 +757647,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "point_stadium:0409671": {
    "site": "point_stadium",
@@ -757953,7 +757955,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "nyandaful:0409677": {
    "site": "nyandaful",
@@ -766428,7 +766430,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 21:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "entamenet:1387471": {
    "site": "entamenet",
@@ -766855,7 +766857,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 10:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "delisted_at": "2026-11-05"
   },
   "warau:208732": {
@@ -766870,7 +766872,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 10:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "delisted_at": "2026-11-05"
   },
   "poney:10000017554": {
@@ -767505,7 +767507,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 15:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-06",
    "dead_streak": 1
   },
   "warau:208754": {
@@ -768437,7 +768439,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 21:00",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-06"
   },
   "warau:208802": {
    "site": "warau",
@@ -769154,6 +769156,48 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 01:00",
+   "last_seen": "2026-11-06"
+  },
+  "hapitas:104180": {
+   "site": "hapitas",
+   "deal_id": "104180",
+   "title": "WOWOWオンライン",
+   "points_text": "2,530pt",
+   "yen": 2530.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104180/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-06",
+   "first_seen_at": "2026-11-06 05:00",
+   "last_seen": "2026-11-06"
+  },
+  "warau:208793": {
+   "site": "warau",
+   "deal_id": "208793",
+   "title": "【SKYFLAG】Sand Sorting Challenge（StepUp）",
+   "points_text": "2,430pt",
+   "yen": 2430.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208793",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-06",
+   "first_seen_at": "2026-11-06 05:00",
+   "last_seen": "2026-11-06"
+  },
+  "warau:208792": {
+   "site": "warau",
+   "deal_id": "208792",
+   "title": "【SKYFLAG】Sand Sorting Challenge（StepUp）",
+   "points_text": "2,430pt",
+   "yen": 2430.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208792",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-06",
+   "first_seen_at": "2026-11-06 05:00",
    "last_seen": "2026-11-06"
   }
  }

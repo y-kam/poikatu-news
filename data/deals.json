@@ -345550,7 +345550,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "kurashiru_reward:17866": {
    "site": "kurashiru_reward",
@@ -754329,7 +754329,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 13:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -755741,7 +755741,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -755757,7 +755757,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -756548,31 +756548,33 @@
    "site": "pointtown",
    "deal_id": "2360",
    "title": "【2枚持ちOK】三井住友カード Visa（NL）",
-   "points_text": "10,000pt",
-   "yen": 10000.0,
+   "points_text": "16,000pt",
+   "yen": 16000.0,
    "percent": null,
    "url": "https://www.pointtown.com/item/2360",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-06",
-   "renew_hold": true
+   "last_seen": "2026-11-07",
+   "renewed_at": "2026-11-07 08:00",
+   "renewed_from": "10,000pt"
   },
   "pointtown:6929": {
    "site": "pointtown",
    "deal_id": "6929",
    "title": "三井住友カード（NL）オーロラデザイン",
-   "points_text": "10,000pt",
-   "yen": 10000.0,
+   "points_text": "16,000pt",
+   "yen": 16000.0,
    "percent": null,
    "url": "https://www.pointtown.com/item/6929",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-06",
-   "renew_hold": true
+   "last_seen": "2026-11-07",
+   "renewed_at": "2026-11-07 08:00",
+   "renewed_from": "10,000pt"
   },
   "pointtown:10357": {
    "site": "pointtown",
@@ -762014,7 +762016,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 15:00"
   },
   "powl:813": {
@@ -762113,7 +762115,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21819": {
    "site": "poikatsu_club",
@@ -762127,7 +762129,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21817": {
    "site": "poikatsu_club",
@@ -762141,7 +762143,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renew_hold": true
   },
   "poikatsu_club:21812": {
@@ -762156,7 +762158,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21814": {
    "site": "poikatsu_club",
@@ -770015,7 +770017,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "delisted_at": "2026-11-06"
   },
   "warau:208827": {
@@ -770929,7 +770931,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 15:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "dead_streak": 1
   },
   "warau:208841": {
@@ -772462,7 +772464,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "dead_streak": 1
   },
   "warau:208865": {
@@ -773318,6 +773320,20 @@
    "seeded": false,
    "first_seen": "2026-11-07",
    "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "pointtown:9270": {
+   "site": "pointtown",
+   "deal_id": "9270",
+   "title": "GMOあおぞらネット銀行【Mastercardプラチナデビッ…",
+   "points_text": "5,000pt",
+   "yen": 5000.0,
+   "percent": null,
+   "url": "https://www.pointtown.com/item/9270",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 08:00",
    "last_seen": "2026-11-07"
   }
  }

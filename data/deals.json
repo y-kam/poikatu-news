@@ -83018,7 +83018,7 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-02 05:00",
    "delisted_at": "2026-08-20"
   },
@@ -221094,7 +221094,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "chanceit:32885": {
    "site": "chanceit",
@@ -293640,7 +293640,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "site_new": false
   },
   "moppy:161650": {
@@ -294306,15 +294306,15 @@
    "site": "moppy",
    "deal_id": "147269",
    "title": "放置少女〜百花繚乱の萌姫たち〜",
-   "points_text": "1,729P",
-   "yen": 1729.0,
+   "points_text": "1,667P",
+   "yen": 1667.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=147269",
    "condition": "45日以内にプレイヤーレベル120到達（1転生Lv.20到達）",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-09",
+   "last_seen": "2026-11-07",
    "renew_hold": true
   },
   "moppy:160968": {
@@ -325430,17 +325430,18 @@
    "site": "moppy",
    "deal_id": "157251",
    "title": "空海密教◆迎運術[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157251",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-09-21",
+   "last_seen": "2026-11-07",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-11-07 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157283": {
    "site": "moppy",
@@ -345777,7 +345778,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 15:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-08-12 10:00",
    "renewed_from": "1,440,000コイン"
   },
@@ -472140,7 +472141,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472204,7 +472205,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472285,7 +472286,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472381,7 +472382,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472688,7 +472689,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472849,7 +472850,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473844,7 +473845,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-11-07",
    "backfill_dated": true,
    "site_new": false
   },
@@ -698501,7 +698502,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 17:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "delisted_at": "2026-10-21",
    "renew_hold": true
   },
@@ -742046,7 +742047,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 17:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "point_museum:s27657": {
    "site": "point_museum",
@@ -755708,7 +755709,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -755724,7 +755725,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -757607,8 +757608,8 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-06",
-   "renewed_at": "2026-11-04 01:00"
+   "last_seen": "2026-11-07",
+   "renewed_at": "2026-11-07 05:00"
   },
   "au_point:8:1759": {
    "site": "au_point",
@@ -757764,7 +757765,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "point_island:0409665": {
    "site": "point_island",
@@ -762070,7 +762071,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21816": {
    "site": "poikatsu_club",
@@ -762098,7 +762099,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21818": {
    "site": "poikatsu_club",
@@ -765120,7 +765121,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "point_land:0409668": {
    "site": "point_land",
@@ -769999,7 +770000,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "delisted_at": "2026-11-06"
   },
   "warau:208825": {
@@ -770913,7 +770914,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 15:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "dead_streak": 1
   },
   "warau:208839": {
@@ -773107,6 +773108,216 @@
    "seeded": false,
    "first_seen": "2026-11-07",
    "first_seen_at": "2026-11-07 01:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:103791": {
+   "site": "hapitas",
+   "deal_id": "103791",
+   "title": "ブレードウォー(ブレードウォー三国)",
+   "points_text": "10,366pt",
+   "yen": 10366.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103791/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:103783": {
+   "site": "hapitas",
+   "deal_id": "103783",
+   "title": "ブレードウォー(ブレードウォー三国)",
+   "points_text": "10,366pt",
+   "yen": 10366.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103783/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:101023": {
+   "site": "hapitas",
+   "deal_id": "101023",
+   "title": "ペタペタペンギン団",
+   "points_text": "8,635pt",
+   "yen": 8635.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/101023/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104092": {
+   "site": "hapitas",
+   "deal_id": "104092",
+   "title": "メメントモリ",
+   "points_text": "20,349pt",
+   "yen": 20349.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104092/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104091": {
+   "site": "hapitas",
+   "deal_id": "104091",
+   "title": "メメントモリ",
+   "points_text": "20,349pt",
+   "yen": 20349.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104091/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:103401": {
+   "site": "hapitas",
+   "deal_id": "103401",
+   "title": "LazyRewards",
+   "points_text": "16,813pt",
+   "yen": 16813.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103401/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104211": {
+   "site": "hapitas",
+   "deal_id": "104211",
+   "title": "オリパワン -トレカのオリパ-",
+   "points_text": "5,400pt",
+   "yen": 5400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104211/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:101022": {
+   "site": "hapitas",
+   "deal_id": "101022",
+   "title": "ペタペタペンギン団",
+   "points_text": "8,635pt",
+   "yen": 8635.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/101022/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:103424": {
+   "site": "hapitas",
+   "deal_id": "103424",
+   "title": "タウンシップ",
+   "points_text": "11,429pt",
+   "yen": 11429.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103424/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104188": {
+   "site": "hapitas",
+   "deal_id": "104188",
+   "title": "全世代で楽しむ温泉旅行【大江戸温泉物語】",
+   "points_text": "1,100pt",
+   "yen": 1100.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104188/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104176": {
+   "site": "hapitas",
+   "deal_id": "104176",
+   "title": "McAfee（マカフィー）",
+   "points_text": "21%",
+   "yen": null,
+   "percent": 21.0,
+   "url": "https://hapitas.jp/item/detail/itemid/104176/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104187": {
+   "site": "hapitas",
+   "deal_id": "104187",
+   "title": "ベイクルーズストア【初めての方専用】",
+   "points_text": "1.3%",
+   "yen": null,
+   "percent": 1.3,
+   "url": "https://hapitas.jp/item/detail/itemid/104187/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104218": {
+   "site": "hapitas",
+   "deal_id": "104218",
+   "title": "ピュアクリニック来店",
+   "points_text": "4.1%",
+   "yen": null,
+   "percent": 4.1,
+   "url": "https://hapitas.jp/item/detail/itemid/104218/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104071": {
+   "site": "hapitas",
+   "deal_id": "104071",
+   "title": "オリックスカーリース",
+   "points_text": "25,200pt",
+   "yen": 25200.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104071/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
+   "last_seen": "2026-11-07"
+  },
+  "hapitas:104175": {
+   "site": "hapitas",
+   "deal_id": "104175",
+   "title": "stera pack light（ステラパックライト）",
+   "points_text": "8,400pt",
+   "yen": 8400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104175/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-07",
+   "first_seen_at": "2026-11-07 05:00",
    "last_seen": "2026-11-07"
   }
  }

@@ -83016,7 +83016,7 @@
    "condition": "無料会員登録で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "renewed_at": "2026-11-02 05:00",
    "delisted_at": "2026-08-20"
   },
@@ -294134,7 +294134,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:158211": {
@@ -294467,7 +294467,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:160804": {
@@ -295977,7 +295977,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-08",
    "renewed_at": "2026-09-01 15:00",
    "renewed_from": "378P",
    "site_new": false
@@ -296070,7 +296070,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:157109": {
@@ -325400,17 +325400,18 @@
    "site": "moppy",
    "deal_id": "157265",
    "title": "【過去登録者も可】あなたの恋と運命[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157265",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-11-08",
    "site_new": false,
-   "renew_hold": true
+   "renewed_at": "2026-11-08 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157266": {
    "site": "moppy",
@@ -345781,7 +345782,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 15:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "renewed_at": "2026-08-12 10:00",
    "renewed_from": "1,440,000コイン"
   },
@@ -481676,7 +481677,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "backfill_dated": true,
    "site_new": false
   },
@@ -501463,7 +501464,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:162048": {
@@ -510459,7 +510460,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:157244": {
@@ -510566,7 +510567,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-17",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:145288": {
@@ -510596,7 +510597,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:145209": {
@@ -639036,7 +639037,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:135486": {
@@ -639096,7 +639097,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "site_new": false
   },
   "moppy:155268": {
@@ -673491,16 +673492,18 @@
    "site": "moppy",
    "deal_id": "145189",
    "title": "LUCY (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145189",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 08:00",
-   "last_seen": "2026-09-28",
-   "site_new": false
+   "last_seen": "2026-11-08",
+   "site_new": false,
+   "renewed_at": "2026-11-08 05:00",
+   "renewed_from": "400P"
   },
   "moppy:145241": {
    "site": "moppy",
@@ -698506,7 +698509,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 17:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-10-21",
    "renew_hold": true
   },
@@ -742052,7 +742055,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 17:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "point_museum:s27657": {
    "site": "point_museum",
@@ -755719,8 +755722,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 05:00",
    "site_new": false
   },
   "amefri:142122": {
@@ -755735,8 +755738,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 05:00",
    "site_new": false
   },
   "amefri:142121": {
@@ -755751,8 +755754,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 05:00",
    "site_new": false
   },
   "amefri:142123": {
@@ -757779,7 +757782,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "point_island:0409665": {
    "site": "point_island",
@@ -762028,8 +762031,8 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 15:00"
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 05:00"
   },
   "powl:813": {
    "site": "powl",
@@ -762085,7 +762088,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21816": {
    "site": "poikatsu_club",
@@ -762113,7 +762116,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21818": {
    "site": "poikatsu_club",
@@ -762141,7 +762144,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21817": {
    "site": "poikatsu_club",
@@ -765134,7 +765137,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "point_land:0409668": {
    "site": "point_land",
@@ -771354,7 +771357,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-11-07"
   },
   "warau:208852": {
@@ -771384,7 +771387,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-11-07"
   },
   "warau:208848": {

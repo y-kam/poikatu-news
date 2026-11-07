@@ -754342,8 +754342,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 13:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 08:00",
    "site_new": false
   },
   "amefri:142101": {
@@ -755770,8 +755770,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 08:00",
    "site_new": false
   },
   "amefri:142130": {
@@ -756563,33 +756563,31 @@
    "site": "pointtown",
    "deal_id": "2360",
    "title": "【2枚持ちOK】三井住友カード Visa（NL）",
-   "points_text": "16,000pt",
-   "yen": 16000.0,
+   "points_text": "10,000pt",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://www.pointtown.com/item/2360",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-07 08:00",
-   "renewed_from": "10,000pt"
+   "last_seen": "2026-11-08",
+   "renew_hold": true
   },
   "pointtown:6929": {
    "site": "pointtown",
    "deal_id": "6929",
    "title": "三井住友カード（NL）オーロラデザイン",
-   "points_text": "16,000pt",
-   "yen": 16000.0,
+   "points_text": "10,000pt",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://www.pointtown.com/item/6929",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-07 08:00",
-   "renewed_from": "10,000pt"
+   "last_seen": "2026-11-08",
+   "renew_hold": true
   },
   "pointtown:10357": {
    "site": "pointtown",
@@ -762130,7 +762128,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21819": {
    "site": "poikatsu_club",
@@ -762158,7 +762156,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "renew_hold": true
   },
   "poikatsu_club:21812": {
@@ -762173,7 +762171,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21814": {
    "site": "poikatsu_club",
@@ -769723,7 +769721,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 11:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-11-06"
   },
   "warau:208744": {

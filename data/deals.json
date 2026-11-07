@@ -63230,17 +63230,16 @@
    "site": "rebates",
    "deal_id": "9265",
    "title": "レゴ公式サイト",
-   "points_text": "4.0%",
+   "points_text": "2.5%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 2.5,
    "url": "https://www.rebates.jp/lego",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-07",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-01 10:00",
-   "renewed_from": "2.5%"
+   "renew_hold": true
   },
   "rebates:20707": {
    "site": "rebates",
@@ -740659,7 +740658,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 11:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-10-29 10:00"
   },
   "powl:43605": {
@@ -754153,7 +754152,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 11:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -754345,7 +754344,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 13:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "renewed_at": "2026-11-05 01:00",
    "site_new": false
   },
@@ -762172,7 +762171,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21813": {
    "site": "poikatsu_club",
@@ -762186,7 +762185,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21811": {
    "site": "poikatsu_club",
@@ -763503,7 +763502,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   "poikatsu_club:21830": {
    "site": "poikatsu_club",
@@ -769630,7 +769629,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 10:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "delisted_at": "2026-11-06"
   },
   "warau:208817": {
@@ -772479,7 +772478,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-07",
    "dead_streak": 1
   },
   "warau:208861": {

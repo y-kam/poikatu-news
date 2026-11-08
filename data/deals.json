@@ -53929,17 +53929,16 @@
    "site": "rebates",
    "deal_id": "22123",
    "title": "MUSINSA",
-   "points_text": "10.0%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 10.0,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/global.musinsa.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-08",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-09 10:00",
-   "renewed_from": "5.0%"
+   "renew_hold": true
   },
   "rebates:25039": {
    "site": "rebates",
@@ -55809,33 +55808,31 @@
    "site": "rebates",
    "deal_id": "16097",
    "title": "Trip.com（ホテル）",
-   "points_text": "6.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/jp.trip.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-08",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-04 10:00",
-   "renewed_from": "3.0%"
+   "renew_hold": true
   },
   "rebates:18289": {
    "site": "rebates",
    "deal_id": "18289",
    "title": "Trip.com（航空券）",
-   "points_text": "3.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/jp_trip_com_flights",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-08",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-04 10:00",
-   "renewed_from": "1.0%"
+   "renew_hold": true
   },
   "rebates:24065": {
    "site": "rebates",
@@ -345554,7 +345551,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "kurashiru_reward:17866": {
    "site": "kurashiru_reward",
@@ -754358,8 +754355,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 13:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 10:00",
    "site_new": false
   },
   "au_point:7:762318686": {
@@ -757623,7 +757620,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "renewed_at": "2026-11-07 05:00"
   },
   "au_point:8:1759": {
@@ -762185,7 +762182,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21813": {
    "site": "poikatsu_club",
@@ -769990,7 +769987,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-11-06"
   },
   "warau:208803": {
@@ -770005,7 +770002,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-11-06"
   },
   "warau:208822": {

@@ -381127,7 +381127,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "site_new": false,
    "delisted_at": "2026-10-14"
   },
@@ -481361,17 +481361,18 @@
    "site": "moppy",
    "deal_id": "154946",
    "title": "auひかり",
-   "points_text": "60,000P",
-   "yen": 60000.0,
+   "points_text": "50,000P",
+   "yen": 50000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=154946",
    "condition": "auひかりに新規お申し込みし、半年以内に開通完了された方",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-11-08",
    "backfill_dated": true,
-   "site_new": false
+   "site_new": false,
+   "renew_hold": true
   },
   "moppy:147570": {
    "site": "moppy",
@@ -754163,8 +754164,8 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 11:00",
-   "last_seen": "2026-11-07",
-   "renewed_at": "2026-11-05 01:00",
+   "last_seen": "2026-11-08",
+   "renewed_at": "2026-11-08 11:00",
    "site_new": false
   },
   "amefri:142095": {
@@ -762196,7 +762197,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   "poikatsu_club:21811": {
    "site": "poikatsu_club",
@@ -763613,7 +763614,7 @@
    "seeded": false,
    "first_seen": "2026-11-03",
    "first_seen_at": "2026-11-03 05:00",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-08",
    "site_new": true
   },
   "moppy:162384": {
@@ -772490,7 +772491,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "delisted_at": "2026-11-07"
   },
   "warau:208866": {

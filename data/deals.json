@@ -293812,7 +293812,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "renew_hold": true
   },
   "moppy:161651": {
@@ -294397,7 +294397,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "site_new": false,
    "renew_hold": true
   },
@@ -294428,7 +294428,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "renewed_at": "2026-11-08 01:00",
    "renewed_from": "500P"
   },
@@ -294459,7 +294459,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-09",
+   "last_seen": "2026-11-09",
    "site_new": false
   },
   "moppy:160568": {
@@ -294795,7 +294795,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-09",
    "site_new": false
   },
   "moppy:156317": {
@@ -296246,7 +296246,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "renewed_at": "2026-09-04 17:00",
    "renewed_from": "147P"
   },
@@ -325448,7 +325448,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-09",
    "site_new": false
   },
   "moppy:157265": {
@@ -325496,7 +325496,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "site_new": false,
    "renewed_at": "2026-11-07 05:00",
    "renewed_from": "400P"
@@ -345627,7 +345627,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 13:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "renewed_at": "2026-09-08 17:00",
    "renewed_from": "9,900コイン"
   },
@@ -390496,17 +390496,18 @@
    "site": "point_museum",
    "deal_id": "s27079",
    "title": "ワタミの宅食ダイレクト",
-   "points_text": "26,400pt",
-   "yen": 2640.0,
+   "points_text": "32,000pt",
+   "yen": 3200.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=s27079",
    "condition": "買い物",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "backfill_dated": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-09 05:00",
+   "renewed_from": "26,400pt"
   },
   "point_museum:0411026": {
    "site": "point_museum",
@@ -472335,7 +472336,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-09",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473059,7 +473060,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-10-27 05:00",
@@ -474086,7 +474087,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-11-09",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-10-20 05:00",
@@ -474154,7 +474155,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-09",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481560,7 +481561,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-09",
    "backfill_dated": true
   },
   "moppy:159287": {
@@ -755792,7 +755793,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "renewed_at": "2026-11-08 05:00",
    "site_new": false
   },
@@ -762083,7 +762084,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "renewed_at": "2026-11-08 05:00"
   },
   "powl:813": {
@@ -762168,7 +762169,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "poikatsu_club:21818": {
    "site": "poikatsu_club",
@@ -762196,7 +762197,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 13:00",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   "poikatsu_club:21817": {
    "site": "poikatsu_club",
@@ -769775,7 +769776,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 11:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "delisted_at": "2026-11-06"
   },
   "warau:208744": {
@@ -771444,7 +771445,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "delisted_at": "2026-11-07"
   },
   "warau:208851": {
@@ -774386,6 +774387,20 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 01:00",
+   "last_seen": "2026-11-09"
+  },
+  "hapitas:104210": {
+   "site": "hapitas",
+   "deal_id": "104210",
+   "title": "スマイルゼミ（入会）",
+   "points_text": "500pt",
+   "yen": 500.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104210/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-09",
+   "first_seen_at": "2026-11-09 05:00",
    "last_seen": "2026-11-09"
   }
  }

@@ -1259,7 +1259,7 @@
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-06",
    "condition": "展示場への来場後、相談・見学完了",
-   "site_new": true,
+   "site_new": false,
    "renew_hold": true
   },
   "moppy:118028": {
@@ -291055,9 +291055,7 @@
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 01:00",
    "last_seen": "2026-11-06",
-   "site_new": true,
-   "renewed_at": "2026-11-05 21:15",
-   "renewed_from": "6,000P"
+   "site_new": false
   },
   "moppy:155083": {
    "site": "moppy",
@@ -353518,8 +353516,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 01:00",
    "last_seen": "2026-11-06",
-   "site_new": true,
-   "renewed_at": "2026-11-04 21:16"
+   "site_new": false
   },
   "warau:205079": {
    "site": "warau",
@@ -381095,7 +381092,7 @@
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
    "last_seen": "2026-11-06",
-   "site_new": true,
+   "site_new": false,
    "renew_hold": true
   },
   "moppy:162025": {
@@ -421229,7 +421226,7 @@
    "first_seen": "2026-09-03",
    "first_seen_at": "2026-09-03 01:00",
    "last_seen": "2026-09-03",
-   "dead_streak": 1
+   "delisted_at": "2026-11-08"
   },
   "warau:206352": {
    "site": "warau",
@@ -499981,7 +499978,7 @@
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 17:00",
    "last_seen": "2026-11-08",
-   "dead_streak": 1
+   "delisted_at": "2026-11-08"
   },
   "powl:40782": {
    "site": "powl",
@@ -774093,7 +774090,8 @@
    "seeded": false,
    "first_seen": "2026-11-08",
    "first_seen_at": "2026-11-08 21:00",
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-08",
+   "dead_streak": 1
   },
   "amefri:142353": {
    "site": "amefri",

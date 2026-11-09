@@ -148172,17 +148172,18 @@
    "site": "point_museum",
    "deal_id": "0410418",
    "title": "三井のカーシェアーズ",
-   "points_text": "3,000pt",
-   "yen": 300.0,
+   "points_text": "8,300pt",
+   "yen": 830.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=0410418",
    "condition": "無料会員登録",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-10",
    "backfill": true,
    "backfill_dated": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-10 05:00",
+   "renewed_from": "3,000pt"
   },
   "point_museum:j3730": {
    "site": "point_museum",
@@ -229433,7 +229434,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-10",
    "renewed_at": "2026-07-21 21:00",
    "renewed_from": "3000ポイント"
   },
@@ -240938,7 +240939,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-10",
    "renewed_at": "2026-07-21 21:00",
    "renewed_from": "3000ポイント"
   },
@@ -252490,8 +252491,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30",
-   "renewed_at": "2026-10-20 08:00",
+   "last_seen": "2026-11-10",
+   "renewed_at": "2026-11-10 05:00",
    "renewed_from": "3,000pt"
   },
   "nyandaful:s27130": {
@@ -294185,7 +294186,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": false
   },
   "moppy:159941": {
@@ -294579,7 +294580,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": false,
    "renew_hold": true
   },
@@ -294793,7 +294794,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": false
   },
   "moppy:160013": {
@@ -295782,7 +295783,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-10",
    "renewed_at": "2026-09-02 13:00",
    "renewed_from": "315P"
   },
@@ -336068,7 +336069,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 21:00",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-11-10"
   },
   "powl:35713": {
    "site": "powl",
@@ -433143,7 +433144,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 21:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": true,
    "delisted_at": "2026-09-11",
    "renew_hold": true
@@ -472221,7 +472222,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-10",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472576,7 +472577,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-10",
    "backfill_dated": true,
    "site_new": false
   },
@@ -501389,7 +501390,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-10",
    "site_new": false
   },
   "moppy:157245": {
@@ -501434,7 +501435,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": false
   },
   "moppy:162048": {
@@ -683255,7 +683256,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 05:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": false
   },
   "moppy:145281": {
@@ -697137,7 +697138,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 05:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": false
   },
   "moppy:155267": {
@@ -774618,7 +774619,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 13:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "delisted_at": "2026-11-09"
   },
   "warau:208898": {
@@ -775246,7 +775247,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 15:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "dead_streak": 1
   },
   "warau:208905": {
@@ -776014,7 +776015,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 21:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": true
   },
   "pointtown:10712": {
@@ -777710,6 +777711,90 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 01:00",
+   "last_seen": "2026-11-10"
+  },
+  "hapitas:104240": {
+   "site": "hapitas",
+   "deal_id": "104240",
+   "title": "移住に関するアンケート（新規アンケート回答）",
+   "points_text": "45pt",
+   "yen": 45.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104240/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 05:00",
+   "last_seen": "2026-11-10"
+  },
+  "hapitas:104255": {
+   "site": "hapitas",
+   "deal_id": "104255",
+   "title": "Merge Fruits Gravity（Score9000点到達）（Android）",
+   "points_text": "70pt",
+   "yen": 70.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104255/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 05:00",
+   "last_seen": "2026-11-10"
+  },
+  "hapitas:104267": {
+   "site": "hapitas",
+   "deal_id": "104267",
+   "title": "三国ドライブ",
+   "points_text": "24pt",
+   "yen": 24.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104267/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 05:00",
+   "last_seen": "2026-11-10"
+  },
+  "hapitas:104085": {
+   "site": "hapitas",
+   "deal_id": "104085",
+   "title": "TikTok Lite（多段階）（iOS）",
+   "points_text": "6,048pt",
+   "yen": 6048.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104085/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 05:00",
+   "last_seen": "2026-11-10"
+  },
+  "hapitas:103825": {
+   "site": "hapitas",
+   "deal_id": "103825",
+   "title": "TikTok（2日間連続ログイン）（Android）",
+   "points_text": "3,129pt",
+   "yen": 3129.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/103825/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 05:00",
+   "last_seen": "2026-11-10"
+  },
+  "hapitas:92057": {
+   "site": "hapitas",
+   "deal_id": "92057",
+   "title": "ちょっと世界がひろがるコミュニティ きっかけ Supported by 産経新聞",
+   "points_text": "100pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/92057/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 05:00",
    "last_seen": "2026-11-10"
   }
  }

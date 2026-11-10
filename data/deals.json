@@ -293212,7 +293212,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-10"
+   "last_seen": "2026-11-11"
   },
   "moppy:161071": {
    "site": "moppy",
@@ -325504,7 +325504,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-11",
    "site_new": false
   },
   "moppy:157280": {
@@ -472772,7 +472772,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473274,7 +473274,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-11",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-15 01:00",
@@ -473548,7 +473548,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-11",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-15 01:00",
@@ -473638,7 +473638,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-11-11",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-15 01:00",
@@ -510599,7 +510599,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "site_new": false
   },
   "moppy:156250": {
@@ -772519,7 +772519,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-11",
    "site_new": true
   },
   "moppy:162401": {
@@ -777493,7 +777493,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 01:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "renewed_at": "2026-11-10 11:00",
    "renewed_from": "45P",
    "site_new": true
@@ -778175,7 +778175,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 11:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "site_new": true
   },
   "warau:208960": {
@@ -779866,7 +779866,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "dead_streak": 1
   },
   "warau:208992": {
@@ -779881,7 +779881,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "dead_streak": 1
   },
   "warau:209006": {
@@ -781063,6 +781063,104 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 01:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104271": {
+   "site": "hapitas",
+   "deal_id": "104271",
+   "title": "三国ドライブ　三国武将×リアルタイム対戦RPG（iOS）",
+   "points_text": "31pt",
+   "yen": 31.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104271/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104287": {
+   "site": "hapitas",
+   "deal_id": "104287",
+   "title": "CatSudoku（SCORE2,500点到達）（Android）",
+   "points_text": "70pt",
+   "yen": 70.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104287/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104275": {
+   "site": "hapitas",
+   "deal_id": "104275",
+   "title": "ルラ（LULA）美容クリニック",
+   "points_text": "10,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104275/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104277": {
+   "site": "hapitas",
+   "deal_id": "104277",
+   "title": "納得転職のエージェント紹介【POSIWILLエージェント紹介】",
+   "points_text": "1,400pt",
+   "yen": 1400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104277/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104282": {
+   "site": "hapitas",
+   "deal_id": "104282",
+   "title": "不動産物上げアンケート",
+   "points_text": "300pt",
+   "yen": 300.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104282/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104274": {
+   "site": "hapitas",
+   "deal_id": "104274",
+   "title": "L'OCCITANE（ロクシタン）",
+   "points_text": "2%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://hapitas.jp/item/detail/itemid/104274/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
+   "last_seen": "2026-11-11"
+  },
+  "hapitas:104266": {
+   "site": "hapitas",
+   "deal_id": "104266",
+   "title": "TRINITY FUND（トリニティファンド）【100万円以上投資】",
+   "points_text": "80,000pt",
+   "yen": 80000.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104266/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 05:00",
    "last_seen": "2026-11-11"
   }
  }

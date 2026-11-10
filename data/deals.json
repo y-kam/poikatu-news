@@ -427474,8 +427474,8 @@
    "site": "point_island",
    "deal_id": "s27412",
    "title": "くじらファンディング[100万円以上の一括投資]",
-   "points_text": "525000ポイント",
-   "yen": 52500.0,
+   "points_text": "700000ポイント",
+   "yen": 70000.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=s27412",
    "condition": "投資",
@@ -427483,7 +427483,9 @@
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 21:00",
    "last_seen": "2026-11-10",
-   "delisted_at": "2026-09-09"
+   "delisted_at": "2026-09-09",
+   "renewed_at": "2026-11-10 15:00",
+   "renewed_from": "525000ポイント"
   },
   "point_stadium:s27241": {
    "site": "point_stadium",
@@ -427548,8 +427550,8 @@
    "site": "point_stadium",
    "deal_id": "s27412",
    "title": "くじらファンディング[100万円以上の一括投資]",
-   "points_text": "525000ポイント",
-   "yen": 52500.0,
+   "points_text": "700000ポイント",
+   "yen": 70000.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=s27412",
    "condition": "投資で",
@@ -427557,7 +427559,9 @@
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 21:00",
    "last_seen": "2026-11-10",
-   "delisted_at": "2026-09-09"
+   "delisted_at": "2026-09-09",
+   "renewed_at": "2026-11-10 15:00",
+   "renewed_from": "525000ポイント"
   },
   "point_land:s27241": {
    "site": "point_land",
@@ -427622,8 +427626,8 @@
    "site": "point_land",
    "deal_id": "s27412",
    "title": "くじらファンディング[100万円以上の一括投資]",
-   "points_text": "525000ポイント",
-   "yen": 52500.0,
+   "points_text": "700000ポイント",
+   "yen": 70000.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=s27412",
    "condition": "投資",
@@ -427631,7 +427635,9 @@
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 21:00",
    "last_seen": "2026-11-10",
-   "delisted_at": "2026-09-09"
+   "delisted_at": "2026-09-09",
+   "renewed_at": "2026-11-10 15:00",
+   "renewed_from": "525000ポイント"
   },
   "nyandaful:s27241": {
    "site": "nyandaful",
@@ -427697,8 +427703,8 @@
    "site": "nyandaful",
    "deal_id": "s27412",
    "title": "くじらファンディング[100万円以上の一括投資]",
-   "points_text": "525,000pt",
-   "yen": 52500.0,
+   "points_text": "700,000pt",
+   "yen": 70000.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=s27412",
    "condition": "投資で",
@@ -427707,7 +427713,7 @@
    "first_seen_at": "2026-09-04 21:00",
    "last_seen": "2026-11-10",
    "delisted_at": "2026-09-09",
-   "renewed_at": "2026-11-06 13:00"
+   "renewed_at": "2026-11-10 15:00"
   },
   "powl:40122": {
    "site": "powl",
@@ -427844,8 +427850,8 @@
    "site": "point_museum",
    "deal_id": "s27412",
    "title": "くじらファンディング[100万円以上の一括投資]",
-   "points_text": "525,000pt",
-   "yen": 52500.0,
+   "points_text": "700,000pt",
+   "yen": 70000.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=s27412",
    "condition": "投資",
@@ -427853,7 +427859,9 @@
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 21:00",
    "last_seen": "2026-11-10",
-   "delisted_at": "2026-09-09"
+   "delisted_at": "2026-09-09",
+   "renewed_at": "2026-11-10 15:00",
+   "renewed_from": "525,000pt"
   },
   "poikatsu_club:20784": {
    "site": "poikatsu_club",
@@ -733546,7 +733554,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 13:00",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-11-10"
   },
   "kurashiru_reward:19638": {
    "site": "kurashiru_reward",
@@ -743279,7 +743287,7 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-10",
    "delisted_at": "2026-11-03"
   },
   "warau:208100": {
@@ -746912,7 +746920,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-10"
   },
   "point_hiroba:5744": {
    "site": "point_hiroba",
@@ -746926,7 +746934,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-10"
   },
   "point_hiroba:5745": {
    "site": "point_hiroba",
@@ -746940,7 +746948,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 13:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-10"
   },
   "pointchips:1235": {
    "site": "pointchips",
@@ -771735,7 +771743,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142321": {
    "site": "amefri",
@@ -771750,7 +771759,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142320": {
    "site": "amefri",
@@ -772806,7 +772816,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142349": {
    "site": "amefri",
@@ -772821,7 +772832,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142342": {
    "site": "amefri",
@@ -772851,7 +772863,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142334": {
    "site": "amefri",
@@ -772881,7 +772894,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142326": {
    "site": "amefri",
@@ -772896,7 +772910,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142331": {
    "site": "amefri",
@@ -772911,7 +772926,8 @@
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
    "last_seen": "2026-11-10",
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-10 15:00"
   },
   "amefri:142344": {
    "site": "amefri",
@@ -776118,7 +776134,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 21:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-10",
    "site_new": true
   },
   "moppy:162408": {
@@ -778772,6 +778788,244 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 13:00",
+   "last_seen": "2026-11-10"
+  },
+  "warau:208970": {
+   "site": "warau",
+   "deal_id": "208970",
+   "title": "【Zucks】エクストレカ（会員登録後、一括1,000円以上課金）",
+   "points_text": "909pt",
+   "yen": 909.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208970",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "warau:208969": {
+   "site": "warau",
+   "deal_id": "208969",
+   "title": "【Zucks】エクストレカ（会員登録後、一括1,000円以上課金）",
+   "points_text": "909pt",
+   "yen": 909.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208969",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "warau:208974": {
+   "site": "warau",
+   "deal_id": "208974",
+   "title": "引越しラクっとNAVI",
+   "points_text": "1,100pt",
+   "yen": 1100.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208974",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "warau:202708": {
+   "site": "warau",
+   "deal_id": "202708",
+   "title": "WESTERモール",
+   "points_text": "5.1%還元",
+   "yen": null,
+   "percent": 5.1,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=202708",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "warau:208971": {
+   "site": "warau",
+   "deal_id": "208971",
+   "title": "【SKYFLAG】Diner Merge - Dish Dash（StepUp）",
+   "points_text": "5,398pt",
+   "yen": 5398.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208971",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "amefri:142419": {
+   "site": "amefri",
+   "deal_id": "142419",
+   "title": "Diner Merge - Dish Dash（多段階）【iOS】",
+   "points_text": "53,920pt",
+   "yen": 5392.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142419",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "amefri:142418": {
+   "site": "amefri",
+   "deal_id": "142418",
+   "title": "【S】【会員登録後、一括1,000円以上課金】エクストレカ_Android",
+   "points_text": "10,400pt",
+   "yen": 1040.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142418",
+   "condition": "新規アプリインストール後、会員登録後、一括1,000円以上課金で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "amefri:142417": {
+   "site": "amefri",
+   "deal_id": "142417",
+   "title": "【S】【会員登録後、一括1,000円以上課金】エクストレカ_iOS",
+   "points_text": "10,400pt",
+   "yen": 1040.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142417",
+   "condition": "新規アプリインストール後、会員登録後、一括1,000円以上課金で成果となります。",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "entamenet:f52983": {
+   "site": "entamenet",
+   "deal_id": "f52983",
+   "title": "Yogibo（ヨギボー）",
+   "points_text": "200円購入毎に5円",
+   "yen": 200.0,
+   "percent": null,
+   "url": "https://www.yentame.net/detailad.asp?aid=f52983",
+   "condition": "商品購入（リピートOK）",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "powl:45096": {
+   "site": "powl",
+   "deal_id": "45096",
+   "title": "iOS_Wild Survival_SUR_30日以内に難易度レベル 50 最高ラウンド450 に到達",
+   "points_text": "642,550pt",
+   "yen": 64255.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/45096",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "powl:45114": {
+   "site": "powl",
+   "deal_id": "45114",
+   "title": "iOS_Screw Out 3D: Nut Sort Jam_SUR_30日以内にレベル1000を完了する",
+   "points_text": "16,050pt",
+   "yen": 1605.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/45114",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "powl:45120": {
+   "site": "powl",
+   "deal_id": "45120",
+   "title": "And_Screw Out 3D: Nut Sort Jam_SUR_30日以内にレベル1000を完了する",
+   "points_text": "16,050pt",
+   "yen": 1605.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/45120",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "powl:45126": {
+   "site": "powl",
+   "deal_id": "45126",
+   "title": "iOS_【広告内＜条件＞必読】Cup Heroes_SUR_30日以内に広告削除の課金アイテムを購入",
+   "points_text": "100,350pt",
+   "yen": 10035.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/45126",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "powl:45138": {
+   "site": "powl",
+   "deal_id": "45138",
+   "title": "And_【広告内＜条件＞必読】Cup Heroes_SUR_30日以内に広告削除の課金アイテムを購入",
+   "points_text": "100,350pt",
+   "yen": 10035.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/45138",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "poikatsu_club:21977": {
+   "site": "poikatsu_club",
+   "deal_id": "21977",
+   "title": "【S】【会員登録後、一括1,000円以上課金】エクストレカ_iOS",
+   "points_text": "1170pt",
+   "yen": 1170.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21977",
+   "condition": "新規アプリインストール後、会員登録後、一括1,000円以上課金で成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから2日以内\r\n・成果調査受付期限：インストールから30日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n成果に到達したことがわかる、決済完了メール画面①、メールアドレス変更画面②をお送りください。\r\n①決済完了時に届いた「決済完了メール」のキャプチャ\r\n②「マイページ画面」のご登録情報をタップ⇒メールアドレス変更をタップ⇒「メールアドレス変更画面」のキャプチャ\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "poikatsu_club:21978": {
+   "site": "poikatsu_club",
+   "deal_id": "21978",
+   "title": "【S】【会員登録後、一括1,000円以上課金】エクストレカ_Android",
+   "points_text": "1170pt",
+   "yen": 1170.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21978",
+   "condition": "新規アプリインストール後、会員登録後、一括1,000円以上課金で成果となります。\r\nご注意：このアプリは無料でお楽しみいただけますが、一部のゲーム内アイテムは有料です。また、ネットワーク接続がない環境でもプレイできますが「アイテム購入」「動画リワード」など一部の機能を使用するためにはネットワーク接続が必要です。\r\n\r\n\r\n▼成果調査に関して\r\n成果調査可否：可\r\n・成果到達期限：インストールから2日以内\r\n・成果調査受付期限：インストールから30日以内\r\n・必要な成果調査エビデンス：\r\n----------------------------------\r\n成果に到達したことがわかる、決済完了メール画面①、メールアドレス変更画面②をお送りください。\r\n①決済完了時に届いた「決済完了メール」のキャプチャ\r\n②「マイページ画面」のご登録情報をタップ⇒メールアドレス変更をタップ⇒「メールアドレス変更画面」のキャプチャ\r\n----------------------------------\r\n\r\n\r\n▼却下条件\r\n・4G/5Gなどのキャリア回線を使用すること。Wi-Fiは使用しないことを推奨します。\r\n・回線が不安定な状態でインストールした場合\r\n・インストールが他の広告成果としてみなされている場合\r\n・過去にアプリをダウンロードしたことがある場合\r\n・過去に成果地点まで到達したことがある場合\r\n・他端末での同一IPからのインストールの場合\r\n・別の端末やご家族、ご友人と同一IPアドレスでのインストールの場合\r\n・不備・不正・虚偽・重複・いたずら・キャンセルされた場合\r\n・新規インストールした端末とは別の端末にデータを引き継いで成果地点まで到達した場合\r\n・成果調査依頼時に該当アプリをアンインストールしている場合は成果対象外\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFになっている場合\r\n・公共WiFiをご利用しインストールまたは成果地点に到達した場合\r\n・日本国内以外からのアクセスまたは日本国以外のIPを利用したアクセスは成果対象外\r\n・その他お申込内容に不備がある場合\r\n・モニター/インセンティブ媒体以外で掲載された場合",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
+   "last_seen": "2026-11-10"
+  },
+  "poikatsu_club:21979": {
+   "site": "poikatsu_club",
+   "deal_id": "21979",
+   "title": "Diner Merge - Dish Dash（iOS）",
+   "points_text": "5924pt",
+   "yen": 5924.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/21979",
+   "condition": "新規アプリインストール後、各ミッションクリアで報酬獲得となります。\n※下記注意事項を読んだ上でご挑戦ください。ご挑戦された方は本注意事項に同意の上、ご利用するものとします※\n※広告クリックから必ず1時間以内にアプリ初回起動をしてください※\n※同アプリにて複数キャンペーンがある場合は初回にインストールされたキャンペーンが適用されます※\n\n2026/11/10以降にインストールされた方が条件適用となります。\nそれ以前にインストールされた方はインストールした際の条件が適用されます。\n\n獲得条件達成期限はインストール日から起算して30日以内まで、\nお問い合わせ受付期限はインストール日から起算して60日以内までとなります。\n\n■StepUpミッション!!\n①：7日以内にプレイヤーレベル12到達\n②：12日以内にプレイヤーレベル22到達\n③：30日以内にプレイヤーレベル33到達\n④：30日以内にプレイヤーレベル40到達\n⑤：30日以内にプレイヤーレベル50到達\n⑥：1日以内に300円のパックを購入\n⑦：21日以内に累計で1700円課金\n⑧：30日以内に累計で3400円課金\n⑨：30日以内に累計で6700円課金\n\n■注意事項\n・本案件は日本国内でのみ挑戦可能です。\n・同一アプリに関する報酬獲得は1人1回までとなります。\n・広告クリックから1時間以内にアプリを初回起動してください。\n　※1時間以上かかる場合は、起動前に再度広告をクリックしてください。\n・獲得条件達成期限までに条件を達成した場合のみ報酬対象となります。\n・条件達成から報酬反映までの間に時間を要する場合があります。\n・広告クリックから条件達成まで、必ず同一の標準ブラウザで遷移してください。同一の標準ブラウザで遷移されていない場合、報酬が獲得できない可能性があります。\n・広告クリックから条件達成までに通信環境を変更した場合、獲得対象外となることがあります。\n・端末の広告計測設定を必ず有効にしてください。有効になっていない場合、報酬が獲得できない可能性があります。\n　（例：iOS ⇒ 「設定」＞「プライバシー」＞「トラッキング」＞「Appからのトラッキング要求を許可」をON）\n　（例：Android ⇒ 「設定」＞「Google」＞「広告」＞「広告のパーソナライズをオプトアウト」をOFF）\n・URLを他のユーザーに対し共有したり、コピーしたURLを用いたキャンペーン紹介はお控えください。\n・広告IDを意図的に削除/リセットした場合、不正利用とみなされることがあります。\n・広告クリックから180日を経過している場合、調査できない可能性があります。\n・キャンペーンは予告なく変更・終了する可能性があります。\n・商品の購入によって報酬を獲得した場合、報酬獲得後に対象商品を返金・キャンセルすると、不正とみなされる可能性がございます。\n\n■獲得対象外条件\n以下のいずれかに当てはまる場合は、報酬対象外となります。\n・挑戦中/チャレンジ中（またはポイント通帳）に反映されない場合。\n　※挑戦中に反映されましても、2度目の挑戦の場合は獲得対象外となります。\n・広告クリックから1時間以内にアプリの初回起動が完了しなかった場合。\n・過去に同一アプリをインストール/条件到達したことがある場合。\n・過去に同一アプリでキャンペーン参加したことがある場合（他ポイントサイトや別OS・別端末を含む）。\n・新規インストールした端末とは異なる端末にデータ引き継ぎや共有を行った場合。\n　※PCやエミュレーターへの引き継ぎ・共有も同様となります \n・エミュレーターを使用してインストール・プレイした場合。\n　※引き継ぎの有無にかかわらず、エミュレーターの使用は不可となります\n・公共Wi-Fiを利用してインストール/条件到達した場合。\n・他端末で同一IPを利用したインストール/条件到達をした場合（家族・友人の利用を含む）。\n・回線が不安定な状態でインストールした場合。\n・広告クリック後に、異なるブラウザで条件到達した場合。\n・端末の広告計測設定が無効の場合。\n・アドブロック（広告ブロック）を利用している場合。\n・プライベートモードまたはシークレットモードを使用していた場合。\n・VPNやプライベートリレーなどの利用により、ご自身のIPアドレスが確認できない場合。\n・日本国外からのアクセス、または国外IPを使用してのアクセスが確認された場合。\n・インストールが他の広告成果とみなされた場合。\n・インストール中に他の操作を行った場合や、SNS等で動画視聴をした場合。\n・不備・不正・虚偽・重複・いたずら申請、画像改ざん、不正ツール（BOTやチート）利用が確認された場合。\n・本キャンペーンページ以外からお申し込みされた場合。\n（個人のブログやSNS等に記載されたリンクや、他者に共有・コピーされたURLからのお申し込みも含みます。）\n・広告主に正常な申込でないと判断された場合。\n・報酬加算前にアプリをアンインストールしていた場合。\n　※iOS端末で「非使用のAppを取り除く」設定がONになっており、自動アンインストールされた場合も獲得対象外となります。\n・過去に条件達成まで到達したことがある場合。\n\n■お問い合わせに関して\nアプリ案件に関しましてはインストール＆初回起動後、チャレンジ中/挑戦中に反映されない場合はお問い合わせ対象外となります。（ご利用のサイトにより判定中、発生など文言が異なります。挑戦中/チャレンジ中などのメニューが無い場合もございます。）\n上記に該当せず、獲得条件達成後に報酬が未獲得の場合、本サイトのお問い合わせフォームよりご連絡ください。\n※広告主へ直接お問い合わせする事を固く禁じます。お問い合わせされた場合、いかなる理由があろうと報酬獲得対象外と致します。\n報酬未獲得に関する調査の際は下記が必要になりますのでご準備ください。\n獲得条件に到達した日時をご連絡ください。\n\n『〇〇日以内にプレイヤーレベル〇〇到達』\n条件達成がわかるプレイ画面(キャプチャ①)と個人情報画面(キャプチャ②)をお送りください。\n＊手順\nキャプチャ①：［アプリを起動］⇒［ホーム画面］右下の帽子のボタンをタップ⇒［プレイ画面］を表示\nキャプチャ②：［アプリを起動］⇒［ホーム画面］左上のアイコンをタップ⇒［個人情報画面］を表示\n\n『〇〇日以内に〇〇円のパックを購入/累計で〇〇円課金』\n条件達成がわかる購入履歴画面もしくは予算と履歴画面(キャプチャ①)をお送りください。\n＊手順\nキャプチャ①：iOS：［App Store］⇒ 画面右上［アカウント］アイコン ⇒［自分の名前］⇒［購入履歴］⇒ 検索窓に『アプリ名』を入力し、検索 ⇒［購入履歴画面］を表示\n　　　　　　Android：［Google Play ストア］⇒ 画面右上［アカウント］アイコン ⇒［お支払いと定期購入］⇒［予算と履歴画面］を表示\n\n※報酬未獲得につきまして、広告主側で調査が必要なため、1ヶ月以上お待たせする場合がございます",
+   "seeded": false,
+   "first_seen": "2026-11-10",
+   "first_seen_at": "2026-11-10 15:00",
    "last_seen": "2026-11-10"
   }
  }

@@ -53463,16 +53463,17 @@
    "site": "rebates",
    "deal_id": "16055",
    "title": "Koh Gen Do 公式オンラインショップ",
-   "points_text": "4.5%",
+   "points_text": "10.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 10.0,
    "url": "https://www.rebates.jp/kohgendocosmetics.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-11",
    "condition": "",
-   "renew_hold": true,
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-11-11 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:20029": {
    "site": "rebates",
@@ -61849,17 +61850,16 @@
    "site": "rebates",
    "deal_id": "14645",
    "title": "ピザハット",
-   "points_text": "20.0%",
+   "points_text": "8.0%",
    "yen": null,
-   "percent": 20.0,
+   "percent": 8.0,
    "url": "https://www.rebates.jp/pizzahut",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-11",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-06 10:00",
-   "renewed_from": "8.0%"
+   "renew_hold": true
   },
   "rebates:14823": {
    "site": "rebates",
@@ -349906,11 +349906,11 @@
    "yen": 10000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=147692",
-   "condition": "対象コース契約後、90日以内に1回目の施術完了",
+   "condition": "対象コース契約後、90日以内に1回目の施術",
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:00",
-   "last_seen": "2026-07-29",
+   "last_seen": "2026-11-11",
    "site_new": false,
    "dead_streak": 1
   },
@@ -773832,7 +773832,7 @@
    "seeded": false,
    "first_seen": "2026-11-07",
    "first_seen_at": "2026-11-07 21:00",
-   "last_seen": "2026-11-10"
+   "last_seen": "2026-11-11"
   },
   "pointchips:1286": {
    "site": "pointchips",
@@ -773846,7 +773846,7 @@
    "seeded": false,
    "first_seen": "2026-11-07",
    "first_seen_at": "2026-11-07 21:00",
-   "last_seen": "2026-11-10"
+   "last_seen": "2026-11-11"
   },
   "pointchips:1287": {
    "site": "pointchips",
@@ -778466,7 +778466,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 13:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "delisted_at": "2026-11-10"
   },
   "warau:208963": {
@@ -778883,7 +778883,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 15:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "dead_streak": 1
   },
   "warau:208974": {

@@ -48425,7 +48425,7 @@
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-11",
    "condition": "",
    "renew_hold": true
   },
@@ -177929,7 +177929,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-09"
+   "last_seen": "2026-11-11"
   },
   "pointincome:153750": {
    "site": "pointincome",
@@ -178153,7 +178153,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-11-11",
    "renewed_at": "2026-10-14 18:32",
    "renewed_from": "76,000pt"
   },
@@ -287009,7 +287009,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-11",
    "renewed_at": "2026-11-06 20:29",
    "renewed_from": "130,000pt",
    "delisted_at": "2026-10-01"
@@ -288206,7 +288206,7 @@
   "pointincome:154687": {
    "site": "pointincome",
    "deal_id": "154687",
-   "title": "数量限定高還元！UQ WiMAXの無料お試しサービス【Try WiMAX】",
+   "title": "UQ WiMAXの無料お試しサービス【Try WiMAX】",
    "points_text": "9,000pt",
    "yen": 900.0,
    "percent": null,
@@ -288215,7 +288215,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-11-11",
    "renewed_at": "2026-10-16 14:03",
    "renewed_from": "5,000pt"
   },
@@ -288371,17 +288371,16 @@
    "site": "pointincome",
    "deal_id": "129022",
    "title": "U-NEXT31日間無料（ユーネクスト）",
-   "points_text": "20,000pt",
-   "yen": 2000.0,
+   "points_text": "18,000pt",
+   "yen": 1800.0,
    "percent": null,
    "url": "https://pointi.jp/ad/129022/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-10-29",
-   "renewed_at": "2026-09-18 05:02",
-   "renewed_from": "18,000pt"
+   "last_seen": "2026-11-11",
+   "renew_hold": true
   },
   "pointincome:149874": {
    "site": "pointincome",
@@ -289458,7 +289457,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-11-10 08:40",
    "renewed_from": "90,000pt"
@@ -289579,7 +289578,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "renewed_at": "2026-11-06 20:29",
    "renewed_from": "125,000pt"
   },
@@ -311274,16 +311273,17 @@
    "site": "pointincome",
    "deal_id": "155567",
    "title": "【最短5分で口座開設完了】Coincheck（コインチェック）",
-   "points_text": "60,000pt",
-   "yen": 6000.0,
+   "points_text": "90,000pt",
+   "yen": 9000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/155567/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-10-23",
-   "renew_hold": true
+   "last_seen": "2026-11-11",
+   "renewed_at": "2026-11-11 18:40",
+   "renewed_from": "60,000pt"
   },
   "pointincome:155469": {
    "site": "pointincome",
@@ -319603,7 +319603,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-11-11",
    "delisted_at": "2026-10-20"
   },
   "pointincome:154107": {
@@ -327077,7 +327077,7 @@
   "pointincome:155426": {
    "site": "pointincome",
    "deal_id": "155426",
-   "title": "探す フランチャイズ　資料請求",
+   "title": "探すフランチャイズ　資料請求",
    "points_text": "20,000pt",
    "yen": 2000.0,
    "percent": null,
@@ -327086,7 +327086,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-11",
    "delisted_at": "2026-09-25",
    "renew_hold": true
   },
@@ -358630,7 +358630,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-10"
+   "last_seen": "2026-11-11"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -358659,7 +358659,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-11-11",
    "delisted_at": "2026-08-02"
   },
   "pointincome:156004": {
@@ -372291,7 +372291,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 10:00",
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-11-11",
    "delisted_at": "2026-08-12"
   },
   "pointincome:156042": {
@@ -419497,17 +419497,17 @@
   "pointincome:154305": {
    "site": "pointincome",
    "deal_id": "154305",
-   "title": "P-oneカード＜Standard＞",
-   "points_text": "56,000pt",
-   "yen": 5600.0,
+   "title": "11/23までの高還元！P-oneカード＜Standard＞",
+   "points_text": "72,000pt",
+   "yen": 7200.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154305/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 06:36",
-   "last_seen": "2026-11-10",
-   "renewed_at": "2026-11-10 08:40",
+   "last_seen": "2026-11-11",
+   "renewed_at": "2026-11-11 18:40",
    "renewed_from": "25,000pt"
   },
   "pointincome:156129": {
@@ -428651,17 +428651,16 @@
    "site": "pointincome",
    "deal_id": "156157",
    "title": "【2カ月ごとに利用OK】ITトレンド ビジネスツール導入診断",
-   "points_text": "61,000pt",
-   "yen": 6100.0,
+   "points_text": "60,000pt",
+   "yen": 6000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/156157/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-06",
    "first_seen_at": "2026-09-06 08:21",
-   "last_seen": "2026-11-09",
-   "renewed_at": "2026-11-09 07:31",
-   "renewed_from": "60,000pt"
+   "last_seen": "2026-11-11",
+   "renew_hold": true
   },
   "pointincome:152468": {
    "site": "pointincome",
@@ -500522,7 +500521,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 18:43",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "renew_hold": true
   },
   "moppy:153214": {
@@ -672916,7 +672915,7 @@
    "seeded": false,
    "first_seen": "2026-09-19",
    "first_seen_at": "2026-09-19 07:21",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-11",
    "renew_hold": true
   },
   "pointincome:156225": {
@@ -761645,7 +761644,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 07:30",
-   "last_seen": "2026-11-02"
+   "last_seen": "2026-11-11"
   },
   "kurashiru_reward:19456": {
    "site": "kurashiru_reward",
@@ -778137,7 +778136,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 08:40",
-   "last_seen": "2026-11-10"
+   "last_seen": "2026-11-11"
   },
   "pointincome:156440": {
    "site": "pointincome",
@@ -783291,6 +783290,76 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 17:00",
+   "last_seen": "2026-11-11"
+  },
+  "pointincome:156468": {
+   "site": "pointincome",
+   "deal_id": "156468",
+   "title": "夜間の住宅街での危険予測 【クルマ視点】クイズ回答",
+   "points_text": "10pt",
+   "yen": 1.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156468/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 18:40",
+   "last_seen": "2026-11-11"
+  },
+  "pointincome:138985": {
+   "site": "pointincome",
+   "deal_id": "138985",
+   "title": "NATURECAN(ネイチャーカン)",
+   "points_text": "購入金額の10%",
+   "yen": null,
+   "percent": 10.0,
+   "url": "https://pointi.jp/ad/138985/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 18:40",
+   "last_seen": "2026-11-11"
+  },
+  "pointincome:156385": {
+   "site": "pointincome",
+   "deal_id": "156385",
+   "title": "保険相談ならベストFP",
+   "points_text": "86,000pt",
+   "yen": 8600.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156385/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 18:40",
+   "last_seen": "2026-11-11"
+  },
+  "pointincome:136498": {
+   "site": "pointincome",
+   "deal_id": "136498",
+   "title": "au PAY ゴールドカード",
+   "points_text": "110,000pt",
+   "yen": 11000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/136498/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 18:40",
+   "last_seen": "2026-11-11"
+  },
+  "pointincome:156408": {
+   "site": "pointincome",
+   "deal_id": "156408",
+   "title": "【ブランドごとに申込可能！】三井住友カード Mastercard（NL）",
+   "points_text": "60,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156408/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-11",
+   "first_seen_at": "2026-11-11 18:40",
    "last_seen": "2026-11-11"
   }
  }

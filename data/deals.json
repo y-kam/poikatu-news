@@ -293786,7 +293786,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "site_new": false
   },
   "moppy:160765": {
@@ -293963,7 +293963,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-12",
    "site_new": false
   },
   "moppy:157175": {
@@ -294086,7 +294086,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-12"
   },
   "moppy:147035": {
    "site": "moppy",
@@ -359088,7 +359088,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 13:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-12",
    "site_new": false
   },
   "moppy:148982": {
@@ -381193,7 +381193,7 @@
   "moppy:162024": {
    "site": "moppy",
    "deal_id": "162024",
-   "title": "ビクトレ（IOS用）",
+   "title": "【120％還元】ビクトレ(500円以上の初回購入)_IOS用",
    "points_text": "600P",
    "yen": 600.0,
    "percent": null,
@@ -381202,7 +381202,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 21:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-12",
    "site_new": false,
    "delisted_at": "2026-10-14"
   },
@@ -381658,7 +381658,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 01:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "site_new": false,
    "delisted_at": "2026-08-25"
   },
@@ -472424,7 +472424,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472456,7 +472456,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472635,7 +472635,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472795,7 +472795,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-12",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481173,17 +481173,19 @@
    "site": "moppy",
    "deal_id": "162086",
    "title": "オリパワン -トレカのオリパ-",
-   "points_text": "570P",
-   "yen": 570.0,
+   "points_text": "5,700P",
+   "yen": 5700.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162086",
-   "condition": "会員登録後、初回課金",
+   "condition": "一括10000コイン購入",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-11-12",
    "backfill_dated": true,
-   "delisted_at": "2026-09-18"
+   "delisted_at": "2026-09-18",
+   "renewed_at": "2026-11-12 05:00",
+   "renewed_from": "570P"
   },
   "moppy:159148": {
    "site": "moppy",
@@ -724051,7 +724053,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 01:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-12",
    "site_new": false
   },
   "amefri:112778": {
@@ -779778,7 +779780,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "site_new": true
   },
   "pointtown:11177": {
@@ -780880,7 +780882,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 01:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "renewed_at": "2026-11-11 13:00",
    "renewed_from": "32P",
    "site_new": true
@@ -784518,6 +784520,188 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 01:00",
+   "last_seen": "2026-11-12"
+  },
+  "moppy:162425": {
+   "site": "moppy",
+   "deal_id": "162425",
+   "title": "勇者サバイバー: お姫様を守り抜け！（ノーマルのステージ40クリア）",
+   "points_text": "400P",
+   "yen": 400.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162425",
+   "condition": "【▼ポイント獲得条件】記載の条件を達成",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "moppy:162421": {
+   "site": "moppy",
+   "deal_id": "162421",
+   "title": "クイーンズ・キャッスル ～マージと秘密の物語～",
+   "points_text": "1,368P",
+   "yen": 1368.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162421",
+   "condition": "レベル20到達",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "moppy:162423": {
+   "site": "moppy",
+   "deal_id": "162423",
+   "title": "ヴァイキングライズ",
+   "points_text": "4,037P",
+   "yen": 4037.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162423",
+   "condition": "首領本部ﾚﾍﾞﾙ21に到達",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:104304": {
+   "site": "hapitas",
+   "deal_id": "104304",
+   "title": "【女性限定】安心安全のライブ配信・チャットで稼ぐ副業アプリ Lala（累計獲得ポイントが初めて1,000ptに到達）（iOS）",
+   "points_text": "1,400pt",
+   "yen": 1400.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104304/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:104311": {
+   "site": "hapitas",
+   "deal_id": "104311",
+   "title": "勇者サバイバー: お姫様を守り抜け！（ノーマルのステージ40クリア）（iOS）",
+   "points_text": "280pt",
+   "yen": 280.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104311/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:96171": {
+   "site": "hapitas",
+   "deal_id": "96171",
+   "title": "WINTICKET",
+   "points_text": "975pt",
+   "yen": 975.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/96171/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:102142": {
+   "site": "hapitas",
+   "deal_id": "102142",
+   "title": "グルメ・ジャーニー",
+   "points_text": "6,924pt",
+   "yen": 6924.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102142/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:102141": {
+   "site": "hapitas",
+   "deal_id": "102141",
+   "title": "グルメ・ジャーニー",
+   "points_text": "6,924pt",
+   "yen": 6924.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/102141/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:104246": {
+   "site": "hapitas",
+   "deal_id": "104246",
+   "title": "ドゥームズデイ：ラストサバイバー",
+   "points_text": "22,197pt",
+   "yen": 22197.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104246/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:104245": {
+   "site": "hapitas",
+   "deal_id": "104245",
+   "title": "ドゥームズデイ：ラストサバイバー",
+   "points_text": "22,197pt",
+   "yen": 22197.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104245/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "hapitas:96022": {
+   "site": "hapitas",
+   "deal_id": "96022",
+   "title": "WINTICKET",
+   "points_text": "1,950pt",
+   "yen": 1950.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/96022/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "warau:209093": {
+   "site": "warau",
+   "deal_id": "209093",
+   "title": "【myChips】率土之濱-大三国志（StepUp）",
+   "points_text": "1,319pt",
+   "yen": 1319.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209093",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
+   "last_seen": "2026-11-12"
+  },
+  "warau:209092": {
+   "site": "warau",
+   "deal_id": "209092",
+   "title": "【myChips】Differences - Find & Spot It（インストール）",
+   "points_text": "2pt",
+   "yen": 2.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209092",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-12",
+   "first_seen_at": "2026-11-12 05:00",
    "last_seen": "2026-11-12"
   }
  }

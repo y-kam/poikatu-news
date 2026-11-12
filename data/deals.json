@@ -293746,7 +293746,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "renew_hold": true
   },
   "moppy:161651": {
@@ -293819,7 +293819,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "site_new": false
   },
   "moppy:161578": {
@@ -354304,7 +354304,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 13:00",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-13",
    "site_new": false,
    "delisted_at": "2026-10-02",
    "renew_hold": true
@@ -381595,7 +381595,7 @@
    "seeded": false,
    "first_seen": "2026-08-18",
    "first_seen_at": "2026-08-18 01:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "site_new": false,
    "delisted_at": "2026-09-30"
   },
@@ -385099,7 +385099,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 17:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "site_new": false,
    "delisted_at": "2026-10-23"
   },
@@ -473553,7 +473553,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-13",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-16 05:00",
@@ -475359,7 +475359,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-13",
    "backfill_dated": true,
    "site_new": false
   },
@@ -505631,7 +505631,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 15:00",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-13",
    "site_new": false
   },
   "warau:206679": {
@@ -510503,7 +510503,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-13",
    "site_new": false
   },
   "moppy:157260": {
@@ -639224,7 +639224,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "site_new": false
   },
   "pointtown:11046": {
@@ -772607,7 +772607,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "site_new": false
   },
   "moppy:162401": {
@@ -784972,7 +784972,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 13:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "delisted_at": "2026-11-12"
   },
   "amefri:142557": {
@@ -785990,7 +785990,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 17:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "dead_streak": 1
   },
   "warau:209025": {
@@ -786805,7 +786805,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "site_new": true
   },
   "warau:209142": {
@@ -788210,6 +788210,34 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 01:00",
+   "last_seen": "2026-11-13"
+  },
+  "hapitas:104377": {
+   "site": "hapitas",
+   "deal_id": "104377",
+   "title": "UnGodly アンゴッドリー",
+   "points_text": "52pt",
+   "yen": 52.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104377/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 05:00",
+   "last_seen": "2026-11-13"
+  },
+  "hapitas:104378": {
+   "site": "hapitas",
+   "deal_id": "104378",
+   "title": "UnGodly（iOS）",
+   "points_text": "66pt",
+   "yen": 66.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104378/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 05:00",
    "last_seen": "2026-11-13"
   }
  }

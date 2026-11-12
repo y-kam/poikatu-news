@@ -48383,7 +48383,7 @@
    "url": "https://pointi.jp/ad/152222/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "condition": ""
   },
   "pointincome:141551": {
@@ -177905,15 +177905,16 @@
    "site": "pointincome",
    "deal_id": "150081",
    "title": "Yogibo(ヨギボー)",
-   "points_text": "購入金額の10%",
+   "points_text": "購入金額の2.5%",
    "yen": null,
-   "percent": 10.0,
+   "percent": 2.5,
    "url": "https://pointi.jp/ad/150081/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-31"
+   "last_seen": "2026-11-13",
+   "renew_hold": true
   },
   "pointincome:155408": {
    "site": "pointincome",
@@ -287809,7 +287810,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "delisted_at": "2026-10-23",
    "renewed_at": "2026-10-29 07:29",
    "renewed_from": "7,000pt"
@@ -287840,7 +287841,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-11-13",
    "renew_hold": true,
    "delisted_at": "2026-08-26"
   },
@@ -288246,7 +288247,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-13"
   },
   "pointincome:148605": {
    "site": "pointincome",
@@ -290318,7 +290319,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-09-30"
+   "last_seen": "2026-11-13"
   },
   "pointincome:154924": {
    "site": "pointincome",
@@ -311234,7 +311235,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 21:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-11 18:40",
    "renewed_from": "60,000pt"
   },
@@ -316404,17 +316405,18 @@
   "pointincome:154319": {
    "site": "pointincome",
    "deal_id": "154319",
-   "title": "【高還元！】アイフル",
-   "points_text": "150,000pt",
-   "yen": 15000.0,
+   "title": "【11/16まで独占還元中！】アイフル",
+   "points_text": "170,000pt",
+   "yen": 17000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154319/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-11-09",
-   "renew_hold": true
+   "last_seen": "2026-11-13",
+   "renewed_at": "2026-11-13 07:28",
+   "renewed_from": "150,000pt"
   },
   "pointincome:155801": {
    "site": "pointincome",
@@ -318821,7 +318823,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 08:00",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-11-13"
   },
   "chobirich:1894559": {
    "site": "chobirich",
@@ -319091,7 +319093,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-09 07:31",
    "renewed_from": "75,000pt"
   },
@@ -319561,7 +319563,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "delisted_at": "2026-10-20"
   },
   "pointincome:154107": {
@@ -322439,7 +322441,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 05:00",
-   "last_seen": "2026-09-03"
+   "last_seen": "2026-11-13"
   },
   "pointincome:139709": {
    "site": "pointincome",
@@ -323888,7 +323890,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-06 20:29",
    "renewed_from": "180,000pt"
   },
@@ -339580,7 +339582,7 @@
   "pointincome:155792": {
    "site": "pointincome",
    "deal_id": "155792",
-   "title": "WOWOWオンデマンド【高還元中!!】",
+   "title": "WOWOWオンデマンド",
    "points_text": "25,300pt",
    "yen": 2530.0,
    "percent": null,
@@ -339589,7 +339591,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 05:00",
-   "last_seen": "2026-09-20",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-08-03 05:00",
    "renewed_from": "20,000pt",
    "delisted_at": "2026-09-16"
@@ -351574,7 +351576,7 @@
    "seeded": false,
    "first_seen": "2026-07-30",
    "first_seen_at": "2026-07-30 01:00",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-09-18 05:02",
    "renewed_from": "12,000pt"
   },
@@ -358574,7 +358576,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-11"
+   "last_seen": "2026-11-13"
   },
   "pointincome:155981": {
    "site": "pointincome",
@@ -358588,7 +358590,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-11"
+   "last_seen": "2026-11-13"
   },
   "pointincome:152149": {
    "site": "pointincome",
@@ -372241,7 +372243,7 @@
   "pointincome:156043": {
    "site": "pointincome",
    "deal_id": "156043",
-   "title": "くらしのみちしるべ　FP相談",
+   "title": "11/15で終了！くらしのみちしるべ　FP相談",
    "points_text": "80,000pt",
    "yen": 8000.0,
    "percent": null,
@@ -372250,7 +372252,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 10:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "delisted_at": "2026-08-12"
   },
   "pointincome:156042": {
@@ -398508,7 +398510,7 @@
    "seeded": false,
    "first_seen": "2026-08-22",
    "first_seen_at": "2026-08-22 05:00",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-10-03 19:31",
    "renewed_from": "12,000pt"
   },
@@ -403347,7 +403349,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-06 20:29",
    "renewed_from": "5,000pt"
   },
@@ -696979,7 +696981,7 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 21:17",
-   "last_seen": "2026-10-03"
+   "last_seen": "2026-11-13"
   },
   "pointincome:149218": {
    "site": "pointincome",
@@ -722433,15 +722435,16 @@
    "site": "pointincome",
    "deal_id": "105325",
    "title": "新日本地所　不動産投資アンケート",
-   "points_text": "3,000pt",
-   "yen": 300.0,
+   "points_text": "2,300pt",
+   "yen": 230.0,
    "percent": null,
    "url": "https://pointi.jp/ad/105325/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 06:12",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-11-13",
+   "renew_hold": true
   },
   "pointincome:155755": {
    "site": "pointincome",
@@ -742489,7 +742492,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 18:56",
-   "last_seen": "2026-11-11"
+   "last_seen": "2026-11-13"
   },
   "warau:208284": {
    "site": "warau",
@@ -772462,7 +772465,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 20:29",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-13"
   },
   "pointincome:156441": {
    "site": "pointincome",
@@ -778185,15 +778188,17 @@
    "site": "pointincome",
    "deal_id": "156063",
    "title": "GMOクリック証券（FX）",
-   "points_text": "70,000pt",
-   "yen": 7000.0,
+   "points_text": "80,000pt",
+   "yen": 8000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/156063/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 08:40",
-   "last_seen": "2026-11-11"
+   "last_seen": "2026-11-13",
+   "renewed_at": "2026-11-13 07:28",
+   "renewed_from": "70,000pt"
   },
   "pointincome:156440": {
    "site": "pointincome",
@@ -788238,6 +788243,76 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 05:00",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:145596": {
+   "site": "pointincome",
+   "deal_id": "145596",
+   "title": "汐留ファンディング 無料投資家登録",
+   "points_text": "7,000pt",
+   "yen": 700.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/145596/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 07:28",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:101684": {
+   "site": "pointincome",
+   "deal_id": "101684",
+   "title": "楽天toto 無料利用登録",
+   "points_text": "1,300pt",
+   "yen": 130.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/101684/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 07:28",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:148667": {
+   "site": "pointincome",
+   "deal_id": "148667",
+   "title": "投資のミカタ(FPのオンライン無料相談)",
+   "points_text": "70,000pt",
+   "yen": 7000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/148667/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 07:28",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:154208": {
+   "site": "pointincome",
+   "deal_id": "154208",
+   "title": "ミツウロコでんき（７か月利用）",
+   "points_text": "100,000pt",
+   "yen": 10000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/154208/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 07:28",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:148304": {
+   "site": "pointincome",
+   "deal_id": "148304",
+   "title": "保険の相談窓口（FPの窓口）",
+   "points_text": "56,000pt",
+   "yen": 5600.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/148304/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 07:28",
    "last_seen": "2026-11-13"
   }
  }

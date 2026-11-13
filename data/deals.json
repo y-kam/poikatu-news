@@ -48287,16 +48287,17 @@
    "site": "pointincome",
    "deal_id": "152587",
    "title": "楽天銀行スーパーローン",
-   "points_text": "170,000pt",
-   "yen": 17000.0,
+   "points_text": "176,000pt",
+   "yen": 17600.0,
    "percent": null,
    "url": "https://pointi.jp/ad/152587/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "condition": "",
    "delisted_at": "2026-09-29",
-   "renew_hold": true
+   "renewed_at": "2026-11-14 00:22",
+   "renewed_from": "170,000pt"
   },
   "pointincome:155682": {
    "site": "pointincome",
@@ -48386,7 +48387,7 @@
    "url": "https://pointi.jp/ad/152222/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "condition": ""
   },
   "pointincome:141551": {
@@ -48475,17 +48476,17 @@
   "pointincome:153568": {
    "site": "pointincome",
    "deal_id": "153568",
-   "title": "povo2.0",
-   "points_text": "35,000pt",
-   "yen": 3500.0,
+   "title": "【超高還元!!】povo2.0",
+   "points_text": "57,000pt",
+   "yen": 5700.0,
    "percent": null,
    "url": "https://pointi.jp/ad/153568/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-14",
    "condition": "",
    "delisted_at": "2026-07-07",
-   "renewed_at": "2026-11-09 07:31",
+   "renewed_at": "2026-11-14 00:22",
    "renewed_from": "33,000pt"
   },
   "pointincome:152609": {
@@ -48606,7 +48607,7 @@
    "url": "https://pointi.jp/ad/149516/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-09-06",
+   "last_seen": "2026-11-14",
    "condition": ""
   },
   "pointincome:155612": {
@@ -287103,7 +287104,7 @@
   "pointincome:155229": {
    "site": "pointincome",
    "deal_id": "155229",
-   "title": "Funds(ファンズ)15万円以上投資実行【ポイントインカム20th】",
+   "title": "Funds(ファンズ)15万円以上投資実行",
    "points_text": "155,000pt",
    "yen": 15500.0,
    "percent": null,
@@ -287112,7 +287113,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-10-26",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-09-24 18:49",
    "renewed_from": "150,000pt"
   },
@@ -287940,7 +287941,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-10-23",
    "renewed_at": "2026-10-29 07:29",
    "renewed_from": "7,000pt"
@@ -291815,7 +291816,7 @@
    "seeded": false,
    "first_seen": "2026-07-09",
    "first_seen_at": "2026-07-09 11:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-09-17 07:30",
    "renewed_from": "2,500pt"
   },
@@ -316552,7 +316553,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-11-13 07:28",
    "renewed_from": "150,000pt"
   },
@@ -319760,7 +319761,7 @@
    "seeded": false,
    "first_seen": "2026-07-13",
    "first_seen_at": "2026-07-13 12:37",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-11-14"
   },
   "pointincome:155013": {
    "site": "pointincome",
@@ -322586,18 +322587,17 @@
    "site": "pointincome",
    "deal_id": "139709",
    "title": "Disney+ (ディズニープラス)　dアカウント以外の申込用　月額プラン",
-   "points_text": "26,000pt",
-   "yen": 2600.0,
+   "points_text": "12,000pt",
+   "yen": 1200.0,
    "percent": null,
    "url": "https://pointi.jp/ad/139709/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 05:00",
-   "last_seen": "2026-09-16",
-   "renewed_at": "2026-09-07 18:50",
-   "renewed_from": "15,000pt",
-   "delisted_at": "2026-10-05"
+   "last_seen": "2026-11-14",
+   "delisted_at": "2026-10-05",
+   "renew_hold": true
   },
   "pointincome:155604": {
    "site": "pointincome",
@@ -327295,7 +327295,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-08-30",
    "renew_hold": true
   },
@@ -329677,7 +329677,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 17:00",
-   "last_seen": "2026-07-17",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-11-11"
   },
   "pointincome:155227": {
@@ -333928,7 +333928,7 @@
    "seeded": false,
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 15:00",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-07-19"
   },
   "pointincome:151695": {
@@ -334823,7 +334823,7 @@
    "seeded": false,
    "first_seen": "2026-07-21",
    "first_seen_at": "2026-07-21 01:00",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-11-14"
   },
   "warau:204774": {
    "site": "warau",
@@ -350723,7 +350723,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "warau:205015": {
    "site": "warau",
@@ -358810,7 +358810,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-08-02",
    "renew_hold": true
   },
@@ -372421,7 +372421,7 @@
    "seeded": false,
    "first_seen": "2026-08-11",
    "first_seen_at": "2026-08-11 10:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-08-12"
   },
   "pointincome:156042": {
@@ -403543,7 +403543,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-11-06 20:29",
    "renewed_from": "5,000pt"
   },
@@ -408946,7 +408946,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 18:36",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "pointincome:156106": {
@@ -419670,7 +419670,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 06:36",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-11-11 18:40",
    "renewed_from": "25,000pt"
   },
@@ -721108,7 +721108,7 @@
    "seeded": false,
    "first_seen": "2026-10-12",
    "first_seen_at": "2026-10-12 08:41",
-   "last_seen": "2026-10-13"
+   "last_seen": "2026-11-14"
   },
   "pointincome:154091": {
    "site": "pointincome",
@@ -761961,16 +761961,17 @@
    "site": "pointincome",
    "deal_id": "156390",
    "title": "【ブランドごとに申込可能！】三井住友カード ゴールド Visa（NL）",
-   "points_text": "130,000pt",
-   "yen": 13000.0,
+   "points_text": "110,000pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/156390/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 10:39",
-   "last_seen": "2026-11-10",
-   "dead_streak": 1
+   "last_seen": "2026-11-14",
+   "dead_streak": 1,
+   "renew_hold": true
   },
   "warau:208643": {
    "site": "warau",
@@ -789943,7 +789944,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 18:40",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "pointincome:49384": {
@@ -789958,7 +789959,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 18:40",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "pointincome:155609": {
@@ -789973,7 +789974,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 18:40",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "pointincome:141757": {
    "site": "pointincome",
@@ -790745,6 +790746,76 @@
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
    "last_seen": "2026-11-13"
+  },
+  "pointincome:147511": {
+   "site": "pointincome",
+   "deal_id": "147511",
+   "title": "クラブツーリズム　海外旅行予約",
+   "points_text": "3,500pt",
+   "yen": 350.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/147511/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-14",
+   "first_seen_at": "2026-11-14 00:22",
+   "last_seen": "2026-11-14"
+  },
+  "pointincome:147512": {
+   "site": "pointincome",
+   "deal_id": "147512",
+   "title": "クラブツーリズム　国内旅行予約",
+   "points_text": "3,500pt",
+   "yen": 350.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/147512/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-14",
+   "first_seen_at": "2026-11-14 00:22",
+   "last_seen": "2026-11-14"
+  },
+  "pointincome:156480": {
+   "site": "pointincome",
+   "deal_id": "156480",
+   "title": "【数量限定】UC法人カードBiz",
+   "points_text": "220,000pt",
+   "yen": 22000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156480/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-14",
+   "first_seen_at": "2026-11-14 00:22",
+   "last_seen": "2026-11-14"
+  },
+  "pointincome:142115": {
+   "site": "pointincome",
+   "deal_id": "142115",
+   "title": "eeo store",
+   "points_text": "購入金額の5%",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://pointi.jp/ad/142115/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-14",
+   "first_seen_at": "2026-11-14 00:22",
+   "last_seen": "2026-11-14"
+  },
+  "pointincome:156481": {
+   "site": "pointincome",
+   "deal_id": "156481",
+   "title": "イブガチャ",
+   "points_text": "25,000pt",
+   "yen": 2500.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156481/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-14",
+   "first_seen_at": "2026-11-14 00:22",
+   "last_seen": "2026-11-14"
   }
  }
 }

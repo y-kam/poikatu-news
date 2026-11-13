@@ -48279,7 +48279,7 @@
    "url": "https://pointi.jp/ad/152160/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-13",
    "condition": "",
    "renew_hold": true
   },
@@ -48293,7 +48293,7 @@
    "url": "https://pointi.jp/ad/152587/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-13",
    "condition": "",
    "delisted_at": "2026-09-29",
    "renew_hold": true
@@ -48428,7 +48428,7 @@
    "url": "https://pointi.jp/ad/155136/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "condition": "",
    "renew_hold": true
   },
@@ -78473,7 +78473,7 @@
   "pointincome:131106": {
    "site": "pointincome",
    "deal_id": "131106",
-   "title": "【合計4,000円分！】親子教室ベビーパーク　無料体験レッスン",
+   "title": "【11月超還元！】親子教室ベビーパーク　無料体験レッスン",
    "points_text": "30,000pt",
    "yen": 3000.0,
    "percent": null,
@@ -78481,7 +78481,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-10 08:40",
    "renewed_from": "28,000pt"
   },
@@ -178195,7 +178195,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "backfill_dated": true,
    "renew_hold": true
   },
@@ -316462,17 +316462,18 @@
   "pointincome:154093": {
    "site": "pointincome",
    "deal_id": "154093",
-   "title": "11/8までの高還元！リクルートカード",
-   "points_text": "43,000pt",
-   "yen": 4300.0,
+   "title": "11/15までの高還元！リクルートカード",
+   "points_text": "50,000pt",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154093/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-11-06",
-   "renew_hold": true
+   "last_seen": "2026-11-13",
+   "renewed_at": "2026-11-13 18:40",
+   "renewed_from": "43,000pt"
   },
   "pointincome:155698": {
    "site": "pointincome",
@@ -324136,7 +324137,7 @@
    "seeded": false,
    "first_seen": "2026-07-14",
    "first_seen_at": "2026-07-14 21:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "renew_hold": true
   },
   "pointincome:154396": {
@@ -327272,7 +327273,7 @@
   "pointincome:154907": {
    "site": "pointincome",
    "deal_id": "154907",
-   "title": "SBI FXトレード",
+   "title": "【11/15までのポイントアップ】SBI FXトレード",
    "points_text": "70,000pt",
    "yen": 7000.0,
    "percent": null,
@@ -327281,7 +327282,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-13",
    "delisted_at": "2026-08-30",
    "renew_hold": true
   },
@@ -350703,7 +350704,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 15:00",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-13"
   },
   "warau:205015": {
    "site": "warau",
@@ -358784,7 +358785,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "delisted_at": "2026-08-02",
    "renew_hold": true
   },
@@ -370217,7 +370218,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 10:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-10 08:40",
    "renewed_from": "35,000pt"
   },
@@ -408900,7 +408901,7 @@
    "seeded": false,
    "first_seen": "2026-08-28",
    "first_seen_at": "2026-08-28 18:36",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-11-13"
   },
   "pointincome:156106": {
    "site": "pointincome",
@@ -419621,7 +419622,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 06:36",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-13",
    "renewed_at": "2026-11-11 18:40",
    "renewed_from": "25,000pt"
   },
@@ -789782,6 +789783,62 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 17:00",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:156398": {
+   "site": "pointincome",
+   "deal_id": "156398",
+   "title": "イオンカード（WAON一体型）",
+   "points_text": "18,000pt",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156398/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 18:40",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:49384": {
+   "site": "pointincome",
+   "deal_id": "49384",
+   "title": "11/30までの高還元！ビックカメラ.com",
+   "points_text": "購入金額の1.6%",
+   "yen": null,
+   "percent": 1.6,
+   "url": "https://pointi.jp/ad/49384/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 18:40",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:155609": {
+   "site": "pointincome",
+   "deal_id": "155609",
+   "title": "Umiosコミュニティ　Oishiine!!",
+   "points_text": "500pt",
+   "yen": 50.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/155609/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 18:40",
+   "last_seen": "2026-11-13"
+  },
+  "pointincome:141757": {
+   "site": "pointincome",
+   "deal_id": "141757",
+   "title": "プレミアムハンター 無料会員登録",
+   "points_text": "600pt",
+   "yen": 60.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/141757/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-13",
+   "first_seen_at": "2026-11-13 18:40",
    "last_seen": "2026-11-13"
   }
  }

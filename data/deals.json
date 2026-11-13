@@ -81482,15 +81482,16 @@
    "site": "point_island",
    "deal_id": "0410492",
    "title": "JCB「JCB ORIGINAL SERIES」JCBカードS",
-   "points_text": "35000ポイント",
-   "yen": 3500.0,
+   "points_text": "50000ポイント",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=0410492",
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-30",
-   "renew_hold": true
+   "last_seen": "2026-11-14",
+   "renewed_at": "2026-11-14 08:00",
+   "renewed_from": "35000ポイント"
   },
   "point_island:11142265": {
    "site": "point_island",
@@ -82038,15 +82039,16 @@
    "site": "point_stadium",
    "deal_id": "0410492",
    "title": "JCB「JCB ORIGINAL SERIES」JCBカードS",
-   "points_text": "35000ポイント",
-   "yen": 3500.0,
+   "points_text": "50000ポイント",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=0410492",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-27",
-   "renew_hold": true
+   "last_seen": "2026-11-14",
+   "renewed_at": "2026-11-14 08:00",
+   "renewed_from": "35000ポイント"
   },
   "point_stadium:11142265": {
    "site": "point_stadium",
@@ -82458,15 +82460,16 @@
    "site": "point_land",
    "deal_id": "0410492",
    "title": "JCB「JCB ORIGINAL SERIES」JCBカードS",
-   "points_text": "35000ポイント",
-   "yen": 3500.0,
+   "points_text": "50000ポイント",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=0410492",
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-20",
-   "renew_hold": true
+   "last_seen": "2026-11-14",
+   "renewed_at": "2026-11-14 08:00",
+   "renewed_from": "35000ポイント"
   },
   "point_land:11142265": {
    "site": "point_land",
@@ -82982,15 +82985,16 @@
    "site": "nyandaful",
    "deal_id": "0410492",
    "title": "JCB「JCB ORIGINAL SERIES」JCBカードS",
-   "points_text": "35,000pt",
-   "yen": 3500.0,
+   "points_text": "50,000pt",
+   "yen": 5000.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=0410492",
    "condition": "カード発行で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-23",
-   "renew_hold": true
+   "last_seen": "2026-11-14",
+   "renewed_at": "2026-11-14 08:00",
+   "renewed_from": "35,000pt"
   },
   "nyandaful:11142265": {
    "site": "nyandaful",
@@ -147404,7 +147408,7 @@
    "condition": "カード発行",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-14",
    "backfill": true,
    "backfill_dated": true,
    "renewed_at": "2026-11-01 05:00",
@@ -778733,7 +778737,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 11:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "site_new": false,
    "renewed_at": "2026-11-13 15:00"
   },
@@ -784770,7 +784774,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 21:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "poikatsu_club:22049": {
    "site": "poikatsu_club",
@@ -790096,7 +790100,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "warau:209214": {
@@ -791334,6 +791338,20 @@
    "seeded": false,
    "first_seen": "2026-11-14",
    "first_seen_at": "2026-11-14 05:00",
+   "last_seen": "2026-11-14"
+  },
+  "warau:209220": {
+   "site": "warau",
+   "deal_id": "209220",
+   "title": "【myChips】ヒーローウォーズ：アライアンス（StepUp）",
+   "points_text": "3,888pt",
+   "yen": 3888.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209220",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-14",
+   "first_seen_at": "2026-11-14 08:00",
    "last_seen": "2026-11-14"
   }
  }

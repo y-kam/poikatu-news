@@ -62568,9 +62568,9 @@
    "site": "rebates",
    "deal_id": "13287",
    "title": "マイプロテイン",
-   "points_text": "最大14.0%",
+   "points_text": "最大8.0%",
    "yen": null,
-   "percent": 14.0,
+   "percent": 8.0,
    "url": "https://www.rebates.jp/myprotein.com",
    "seeded": false,
    "first_seen": "2026-07-05",
@@ -64201,17 +64201,16 @@
    "site": "rebates",
    "deal_id": "22391",
    "title": "柿の葉寿司のゐざさ",
-   "points_text": "10.0%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 10.0,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/shop.izasa.co.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-14",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-10-19 17:00",
-   "renewed_from": "7.5%"
+   "renew_hold": true
   },
   "rebates:22806": {
    "site": "rebates",
@@ -481760,7 +481759,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "backfill_dated": true
   },
   "moppy:159287": {
@@ -771086,7 +771085,7 @@
    "yen": 4800.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/20013",
-   "condition": "新規口座開設＋新規クレジットカード発行（審査完了） で",
+   "condition": "新規口座開設＋新規クレジットカード発行＋1円以上利用 で",
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
@@ -777004,7 +777003,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renew_hold": true,
    "site_new": false
   },
@@ -783583,7 +783582,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 17:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "poikatsu_club:22014": {
    "site": "poikatsu_club",
@@ -789697,7 +789696,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 17:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "warau:209181": {
@@ -790143,7 +790142,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "warau:209191": {
@@ -790158,7 +790157,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "warau:209203": {
@@ -790203,7 +790202,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "dead_streak": 1
   },
   "warau:209199": {
@@ -790680,7 +790679,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "poikatsu_club:22117": {
    "site": "poikatsu_club",
@@ -790694,7 +790693,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "poikatsu_club:22108": {
    "site": "poikatsu_club",

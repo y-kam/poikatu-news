@@ -81447,7 +81447,7 @@
    "condition": "口座開設後取引",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-11-15"
   },
   "point_island:j4174": {
    "site": "point_island",
@@ -82004,7 +82004,7 @@
    "condition": "口座開設後取引で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-11-15"
   },
   "point_stadium:j4174": {
    "site": "point_stadium",
@@ -82949,8 +82949,8 @@
    "condition": "口座開設後取引で",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-15",
-   "renewed_at": "2026-10-04 08:00"
+   "last_seen": "2026-11-15",
+   "renewed_at": "2026-11-15 08:00"
   },
   "nyandaful:j4174": {
    "site": "nyandaful",
@@ -147297,7 +147297,7 @@
    "condition": "口座開設後取引",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-15",
    "backfill": true,
    "backfill_dated": true
   },
@@ -588831,7 +588831,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-11-15"
   },
   "point_land:s25716": {
    "site": "point_land",
@@ -778744,7 +778744,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 11:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "site_new": false,
    "renewed_at": "2026-11-13 15:00"
   },
@@ -788884,7 +788884,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 13:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "delisted_at": "2026-11-13"
   },
   "warau:209164": {

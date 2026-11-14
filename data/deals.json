@@ -229117,7 +229117,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "2100ポイント"
   },
@@ -240621,7 +240621,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-01",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "2100ポイント"
   },
@@ -252180,8 +252180,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-30",
-   "renewed_at": "2026-08-23 08:00"
+   "last_seen": "2026-11-14",
+   "renewed_at": "2026-11-14 21:00"
   },
   "nyandaful:212712": {
    "site": "nyandaful",
@@ -295973,7 +295973,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-09-02 13:00",
    "renewed_from": "315P"
   },
@@ -328127,17 +328127,17 @@
    "site": "moppy",
    "deal_id": "1066",
    "title": "ビックカメラ.com",
-   "points_text": "4.0%",
+   "points_text": "5.5%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 5.5,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=1066",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 01:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "delisted_at": "2026-07-16",
-   "renewed_at": "2026-11-13 01:00",
+   "renewed_at": "2026-11-14 21:00",
    "renewed_from": "1.5%"
   },
   "warau:204657": {
@@ -354232,7 +354232,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 08:00",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-08-01 01:00",
    "renewed_from": "2100ポイント"
   },
@@ -389829,7 +389829,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-08"
+   "last_seen": "2026-11-14"
   },
   "point_museum:11155490": {
    "site": "point_museum",
@@ -756695,7 +756695,7 @@
    "seeded": false,
    "first_seen": "2026-10-31",
    "first_seen_at": "2026-10-31 01:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-11-12 15:00",
    "renewed_from": "297pt"
   },
@@ -756711,7 +756711,7 @@
    "seeded": false,
    "first_seen": "2026-10-31",
    "first_seen_at": "2026-10-31 01:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "renewed_at": "2026-11-12 15:00",
    "renewed_from": "297pt"
   },
@@ -764110,7 +764110,7 @@
    "seeded": false,
    "first_seen": "2026-11-03",
    "first_seen_at": "2026-11-03 05:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "site_new": false
   },
   "moppy:162384": {
@@ -775519,7 +775519,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 13:00",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-14"
   },
   "pointchips:1408": {
    "site": "pointchips",
@@ -777088,7 +777088,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 21:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-14",
    "site_new": false,
    "renewed_at": "2026-11-13 15:00"
   },
@@ -780930,7 +780930,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "poikatsu_club:21995": {
    "site": "poikatsu_club",
@@ -780959,7 +780959,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-14"
   },
   "poikatsu_club:21988": {
    "site": "poikatsu_club",

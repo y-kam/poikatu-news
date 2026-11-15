@@ -294173,7 +294173,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-16"
   },
   "moppy:147035": {
    "site": "moppy",
@@ -294963,7 +294963,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "site_new": false
   },
   "moppy:159742": {
@@ -294978,7 +294978,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "site_new": false
   },
   "moppy:160013": {
@@ -295966,7 +295966,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "renewed_at": "2026-09-02 13:00",
    "renewed_from": "315P"
   },
@@ -377865,7 +377865,7 @@
    "seeded": false,
    "first_seen": "2026-08-15",
    "first_seen_at": "2026-08-15 16:45",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-11-16",
    "site_new": true,
    "delisted_at": "2026-09-05",
    "renewed_at": "2026-10-27 05:00",
@@ -472834,7 +472834,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472962,7 +472962,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-16",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473042,7 +473042,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-16",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473458,17 +473458,19 @@
    "site": "moppy",
    "deal_id": "145191",
    "title": "心屋仁之助 ひかりの言葉 (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145191",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-11-16",
    "backfill_dated": true,
-   "site_new": false
+   "site_new": false,
+   "renewed_at": "2026-11-16 05:00",
+   "renewed_from": "400P"
   },
   "moppy:160934": {
    "site": "moppy",
@@ -473776,7 +473778,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-11-16",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-21 05:00",
@@ -474278,7 +474280,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-16",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-10-20 05:00",
@@ -510616,16 +510618,18 @@
    "site": "moppy",
    "deal_id": "157246",
    "title": "太宰府の母ちゃん[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157246",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-09-30",
-   "site_new": false
+   "last_seen": "2026-11-16",
+   "site_new": false,
+   "renewed_at": "2026-11-16 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157268": {
    "site": "moppy",
@@ -683603,7 +683607,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 05:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-16",
    "site_new": false
   },
   "moppy:145281": {
@@ -772826,7 +772830,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "site_new": false
   },
   "moppy:162401": {
@@ -789686,7 +789690,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 17:00",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "delisted_at": "2026-11-14"
   },
   "warau:209184": {
@@ -789701,7 +789705,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 17:00",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "delisted_at": "2026-11-14"
   },
   "warau:209183": {
@@ -790737,7 +790741,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-16"
   },
   "poikatsu_club:22116": {
    "site": "poikatsu_club",

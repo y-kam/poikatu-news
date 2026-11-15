@@ -52064,9 +52064,9 @@
    "site": "rebates",
    "deal_id": "16747",
    "title": "EXETIME",
-   "points_text": "6.0%",
+   "points_text": "2.5%",
    "yen": null,
-   "percent": 6.0,
+   "percent": 2.5,
    "url": "https://www.rebates.jp/exetime.com",
    "seeded": false,
    "first_seen": "2026-07-05",
@@ -367878,17 +367878,16 @@
    "site": "rebates",
    "deal_id": "25400",
    "title": "ニューバランス公式オンラインアウトレット",
-   "points_text": "4.0%",
+   "points_text": "1.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 1.0,
    "url": "https://www.rebates.jp/newbalance-outlet",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
    "last_seen": "2026-11-15",
-   "renewed_at": "2026-10-16 10:00",
-   "renewed_from": "1.0%"
+   "renew_hold": true
   },
   "rebates:25330": {
    "site": "rebates",
@@ -744618,7 +744617,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 13:00",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "site_new": false
   },
   "warau:208311": {
@@ -777011,7 +777010,7 @@
    "seeded": false,
    "first_seen": "2026-11-09",
    "first_seen_at": "2026-11-09 21:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "renew_hold": true,
    "site_new": false
   },
@@ -788209,7 +788208,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 01:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "delisted_at": "2026-11-13"
   },
   "warau:209150": {
@@ -790720,7 +790719,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   "poikatsu_club:22116": {
    "site": "poikatsu_club",
@@ -790734,7 +790733,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   "poikatsu_club:22117": {
    "site": "poikatsu_club",
@@ -790748,7 +790747,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-15"
   },
   "poikatsu_club:22108": {
    "site": "poikatsu_club",

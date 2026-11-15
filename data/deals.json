@@ -341021,7 +341021,7 @@
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 18:42",
    "last_seen": "2026-07-25",
-   "dead_streak": 1
+   "delisted_at": "2026-11-16"
   },
   "chobirich:1895105": {
    "site": "chobirich",
@@ -349668,7 +349668,7 @@
    "first_seen_at": "2026-07-29 07:35",
    "last_seen": "2026-09-10",
    "renew_hold": true,
-   "dead_streak": 1
+   "delisted_at": "2026-11-16"
   },
   "chobirich:1895421": {
    "site": "chobirich",
@@ -723907,7 +723907,7 @@
    "last_seen": "2026-10-30",
    "renewed_at": "2026-10-27 22:06",
    "renewed_from": "最大1523pt",
-   "dead_streak": 1
+   "delisted_at": "2026-11-16"
   },
   "chobirich:1901238": {
    "site": "chobirich",
@@ -749209,7 +749209,7 @@
    "last_seen": "2026-10-30",
    "renewed_at": "2026-10-29 19:44",
    "renewed_from": "最大2016pt",
-   "dead_streak": 1
+   "delisted_at": "2026-11-16"
   },
   "chobirich:1902081": {
    "site": "chobirich",
@@ -764749,7 +764749,7 @@
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 07:29",
    "last_seen": "2026-11-04",
-   "dead_streak": 1
+   "delisted_at": "2026-11-16"
   },
   "chobirich:1902545": {
    "site": "chobirich",
@@ -790862,7 +790862,8 @@
    "seeded": false,
    "first_seen": "2026-11-14",
    "first_seen_at": "2026-11-14 00:22",
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-14",
+   "dead_streak": 1
   },
   "moppy:162436": {
    "site": "moppy",

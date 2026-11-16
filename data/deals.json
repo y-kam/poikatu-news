@@ -142846,8 +142846,8 @@
    "site": "point_hiroba",
    "deal_id": "5664",
    "title": "コクーンシティカードセゾン",
-   "points_text": "1,500 P",
-   "yen": 1500.0,
+   "points_text": "1,800 P",
+   "yen": 1800.0,
    "percent": null,
    "url": "https://hiroba.dpoint.docomo.ne.jp/item/5664",
    "condition": "カード発行",
@@ -142855,7 +142855,8 @@
    "first_seen": "2026-07-06",
    "last_seen": "2026-11-16",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-16 15:00",
+   "renewed_from": "1,500 P"
   },
   "point_hiroba:5663": {
    "site": "point_hiroba",
@@ -343196,7 +343197,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-10-16",
+   "last_seen": "2026-11-16",
    "site_new": false,
    "delisted_at": "2026-09-19",
    "renew_hold": true
@@ -345748,7 +345749,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 15:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-16"
   },
   "kurashiru_reward:17877": {
    "site": "kurashiru_reward",
@@ -651590,7 +651591,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-16"
   },
   "gendama:1498339": {
    "site": "gendama",
@@ -719856,7 +719857,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-11-16",
    "renewed_at": "2026-10-26 21:00",
    "renewed_from": "489P"
   },
@@ -765112,7 +765113,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-16",
    "renewed_at": "2026-11-10 08:00"
   },
   "point_island:0409687": {
@@ -776435,7 +776436,7 @@
   "pointtown:10712": {
    "site": "pointtown",
    "deal_id": "10712",
-   "title": "「dカード GOLD」",
+   "title": "【先着ボーナス実施中】「dカード GOLD」",
    "points_text": "27,000pt",
    "yen": 27000.0,
    "percent": null,
@@ -783471,7 +783472,7 @@
    "yen": 360.0,
    "percent": null,
    "url": "https://poikatsu.club/projects/22025",
-   "condition": "▼承認条件\r\n新規インストール後、ノーマルのステージ40クリア\r\n※成果到達目安：新規インストール後、5日程度\r\n※広告クリックから（当日を1日目とし）30日以内での達成が条件となります。\r\n※iOSのみ成果対象となります。\r\n\r\n▼成果までの流れ\r\n1.インストール後、起動\r\n2.ノーマルのステージ40クリア\r\n\r\n▼却下条件\r\n・過去にインストール済の場合は、「新規アプリインストール」に該当しないためポイント付与対象外になります。\r\n※広告クリックから（当日を1日目とし）31日以上経過して到達した場合は成果対象外となります。\r\n・公共WiFiを使用してインストールした場合\r\n・同じIPアドレスから他の端末でインストールまたは成果地点に到達した場合\r\n・インストール時に回線が不安定な場合\r\n・インストール中に他の操作をした場合\r\n・広告ブロックを使用している場合\r\n・オフラインでアプリを使用した場合\r\n・エミュレータでご参加された場合\r\n・過去に同じアプリをインストールしたことがある場合、または成果地点到達をしたことがある場合\r\n・新しい端末にデータを引き継いで成果条件に到達した場合、または新しい端末とは別の端末にデータを引き継いで成果条件に到達した場合\r\n・不備や不正、虚偽、重複、いたずらの申請を行った場合\r\n・本広告以外からのインストールを行った場合\r\n・お問い合わせ時に該当アプリをアンインストールしている場合、または成果条件達成までにアプリをアンインストールしている場合\r\n・広告主が正常な成果でないと判断した場合\r\n・日本国外からのアクセスまたは日本国外のIPアドレスからクリックした場合\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合\r\n・該当アプリ起動時の「Webサイトを横断してアクティビティをトラッキングする」を許可しない場合\r\n\r\n▼注意事項\r\n・広告をクリックしてから1時間以内に初回起動が完了しない場合、広告成果とはみなされない場合がございます。\r\n※初回起動が1時間以上かかる場合は、もう一度広告をクリックしてください。\r\n・同じアプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\r\n※異なる成果地点で広告参加をされたことがある場合も成果となりません。\r\n・過去に同じアプリで広告参加をしたことがある場合は別の端末で初回インストールをしても成果になりません。\r\n・成果達成後、ポイントの獲得がされるまでに最大24時間かかる場合がございます。\r\n・アプリ内のキャンペーン（イベント）は予告なく変更または終了する場合がございます。\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合、ポイントを獲得できない可能性がございます。\r\n・URLを他のユーザーと共有したり、コピーしたURLのご使用はお控えください。コピーしたURLからのインストールは成果対象外となります。\r\n・意図的に広告IDを削除またはリセットすると、不正利用とみなされる場合がございますので、削除やリセットはお控えください。\r\n・アプリ内バグなどのお問合せを頂く際に広告IDをご提供頂く場合がございます。\r\n※ご提供頂けない場合は調査不可となる恐れがございます。\r\n\r\n【配信終了後の成果受付期間】終了日を含め30日間\r\n※上記成果受付期間内に成果条件達成をしない場合は後日否認処理をいたします。\r\n\r\n▼成果調査に関して\r\n・この案件は、アプリインストールで判定待ちとして反映します。\r\n　判定待ちが反映されない場合の成果調査は受け付けておりません。\r\n　またその場合、その後アプリを進めて成果条件達成をしてもポイント対象外となります。\r\n・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。\r\n・直接スポンサーサイトへ問い合わせることはお控えください。\r\n・クリック発生から60日以上経過したものは調査不可となります。\r\n・成果調査完了までにアプリをアンインストールされた場合は成果調査対象外となりますのでご了承ください。\r\n・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。\r\n①クリック日時\r\n②広告をクリックしてから成果地点到達まで掛かった日数\r\n③成果到達日時\r\n④ノーマルのステージ40クリアが確認できるキャプチャ\r\n⑤デバイスID（テキスト）\r\n⑥デバイスID（キャプチャ）\r\n\r\n※デバイス（広告）IDの確認方法\r\n▼iOS【IDFA（Identifier \nfor \nAdvertisers）】\r\n　下記アプリをインストールし、広告IDのご確認をお願いいたします。\r\n　https://apps.apple.com/jp/app/adjust-insights/id1125517808/\r\n　※数字が全て0になってしまう場合\r\n　　設定→プライバシー→トラッキングの画面で、「adjust \nInsights」を許可にして確認してください。",
+   "condition": "▼承認条件\r\n新規インストール後、ノーマルのステージ40クリア\r\n※成果到達目安：新規インストール後、5日程度\r\n※広告クリックから（当日を1日目とし）30日以内での達成が条件となります。\r\n\r\n▼成果までの流れ\r\n1.インストール後、起動\r\n2.ノーマルのステージ40クリア\r\n\r\n▼却下条件\r\n・過去にインストール済の場合は、「新規アプリインストール」に該当しないためポイント付与対象外になります。\r\n※広告クリックから（当日を1日目とし）31日以上経過して到達した場合は成果対象外となります。\r\n・公共WiFiを使用してインストールした場合\r\n・同じIPアドレスから他の端末でインストールまたは成果地点に到達した場合\r\n・インストール時に回線が不安定な場合\r\n・インストール中に他の操作をした場合\r\n・広告ブロックを使用している場合\r\n・オフラインでアプリを使用した場合\r\n・エミュレータでご参加された場合\r\n・過去に同じアプリをインストールしたことがある場合、または成果地点到達をしたことがある場合\r\n・新しい端末にデータを引き継いで成果条件に到達した場合、または新しい端末とは別の端末にデータを引き継いで成果条件に到達した場合\r\n・不備や不正、虚偽、重複、いたずらの申請を行った場合\r\n・本広告以外からのインストールを行った場合\r\n・お問い合わせ時に該当アプリをアンインストールしている場合、または成果条件達成までにアプリをアンインストールしている場合\r\n・広告主が正常な成果でないと判断した場合\r\n・日本国外からのアクセスまたは日本国外のIPアドレスからクリックした場合\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合\r\n・該当アプリ起動時の「Webサイトを横断してアクティビティをトラッキングする」を許可しない場合\r\n\r\n▼注意事項\r\n・広告をクリックしてから1時間以内に初回起動が完了しない場合、広告成果とはみなされない場合がございます。\r\n※初回起動が1時間以上かかる場合は、もう一度広告をクリックしてください。\r\n・同じアプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\r\n※異なる成果地点で広告参加をされたことがある場合も成果となりません。\r\n・過去に同じアプリで広告参加をしたことがある場合は別の端末で初回インストールをしても成果になりません。\r\n・成果達成後、ポイントの獲得がされるまでに最大24時間かかる場合がございます。\r\n・アプリ内のキャンペーン（イベント）は予告なく変更または終了する場合がございます。\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合、ポイントを獲得できない可能性がございます。\r\n・URLを他のユーザーと共有したり、コピーしたURLのご使用はお控えください。コピーしたURLからのインストールは成果対象外となります。\r\n・意図的に広告IDを削除またはリセットすると、不正利用とみなされる場合がございますので、削除やリセットはお控えください。\r\n・アプリ内バグなどのお問合せを頂く際に広告IDをご提供頂く場合がございます。\r\n※ご提供頂けない場合は調査不可となる恐れがございます。\r\n\r\n【配信終了後の成果受付期間】終了日を含め30日間\r\n※上記成果受付期間内に成果条件達成をしない場合は後日否認処理をいたします。\r\n\r\n▼成果調査に関して\r\n・この案件は、アプリインストールで判定待ちとして反映します。\r\n　判定待ちが反映されない場合の成果調査は受け付けておりません。\r\n　またその場合、その後アプリを進めて成果条件達成をしてもポイント対象外となります。\r\n・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。\r\n・直接スポンサーサイトへ問い合わせることはお控えください。\r\n・クリック発生から60日以上経過したものは調査不可となります。\r\n・成果調査完了までにアプリをアンインストールされた場合は成果調査対象外となりますのでご了承ください。\r\n・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。\r\n①クリック日時\r\n②広告をクリックしてから成果地点到達まで掛かった日数\r\n③成果到達日時\r\n④ノーマルのステージ40クリアが確認できるキャプチャ\r\n⑤デバイスID（テキスト）\r\n⑥デバイスID（キャプチャ）\r\n\r\n※デバイス（広告）IDの確認方法\r\n▼iOS【IDFA（Identifier \nfor \nAdvertisers）】\r\n　下記アプリをインストールし、広告IDのご確認をお願いいたします。\r\n　https://apps.apple.com/jp/app/adjust-insights/id1125517808/\r\n　※数字が全て0になってしまう場合\r\n　　設定→プライバシー→トラッキングの画面で、「adjust \nInsights」を許可にして確認してください。",
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 17:00",
@@ -784367,7 +784368,8 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 21:00",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-16",
+   "renewed_at": "2026-11-16 15:00"
   },
   "powl:45487": {
    "site": "powl",
@@ -792381,6 +792383,188 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 13:00",
+   "last_seen": "2026-11-16"
+  },
+  "moppy:162437": {
+   "site": "moppy",
+   "deal_id": "162437",
+   "title": "Habitto（銀行口座＋証券口座開設＋AIボットに質問）（ハビット）",
+   "points_text": "9,000P",
+   "yen": 9000.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162437",
+   "condition": "新規ユーザー登録後、銀行口座開設＋証券口座開設＋アプリ内で口座連携＋アプリ内チャットボット（HAIA）に、「貯蓄マックス！」についての質問を3回行う",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209238": {
+   "site": "warau",
+   "deal_id": "209238",
+   "title": "楽天証券（口座開設）",
+   "points_text": "8,000pt",
+   "yen": 8000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209238",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209272": {
+   "site": "warau",
+   "deal_id": "209272",
+   "title": "イオンビジネスカード",
+   "points_text": "6,000pt",
+   "yen": 6000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209272",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209266": {
+   "site": "warau",
+   "deal_id": "209266",
+   "title": "UC法人カードBiz",
+   "points_text": "25,000pt",
+   "yen": 25000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209266",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209265": {
+   "site": "warau",
+   "deal_id": "209265",
+   "title": "Tiles Mystery: Stacked Match（StepUp）",
+   "points_text": "17,480pt",
+   "yen": 17480.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209265",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209261": {
+   "site": "warau",
+   "deal_id": "209261",
+   "title": "bloomee - ブルーミー",
+   "points_text": "1,800pt",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209261",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209247": {
+   "site": "warau",
+   "deal_id": "209247",
+   "title": "Egg Sort: Color Drop（StepUp）",
+   "points_text": "1,580pt",
+   "yen": 1580.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209247",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209255": {
+   "site": "warau",
+   "deal_id": "209255",
+   "title": "Egg Sort: Color Drop（StepUp）",
+   "points_text": "1,580pt",
+   "yen": 1580.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209255",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "warau:209239": {
+   "site": "warau",
+   "deal_id": "209239",
+   "title": "ふみいろ年賀状",
+   "points_text": "420pt",
+   "yen": 420.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209239",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "line_catalog:hoka": {
+   "site": "line_catalog",
+   "deal_id": "hoka",
+   "title": "HOKA公式",
+   "points_text": "1.0%還元",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://ec.line.me/shop/hoka/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "au_point:6:36516": {
+   "site": "au_point",
+   "deal_id": "6:36516",
+   "title": "Pococha",
+   "points_text": "725P",
+   "yen": 725.0,
+   "percent": null,
+   "url": "https://enjoy.point.auone.jp/reward/detail?type=6&campaignId=36516",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "powl:42828": {
+   "site": "powl",
+   "deal_id": "42828",
+   "title": "メルペイ（初回決済）（Android）",
+   "points_text": "5,300pt",
+   "yen": 530.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/42828",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
+   "last_seen": "2026-11-16"
+  },
+  "powl:42827": {
+   "site": "powl",
+   "deal_id": "42827",
+   "title": "メルペイ（初回決済）（iOS）",
+   "points_text": "5,300pt",
+   "yen": 530.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/42827",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-16",
+   "first_seen_at": "2026-11-16 15:00",
    "last_seen": "2026-11-16"
   }
  }

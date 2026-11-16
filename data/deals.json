@@ -86392,7 +86392,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "seed_filled": true,
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "15,000pt"
@@ -152662,7 +152662,7 @@
    "condition": "投資",
    "seeded": false,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-17",
    "backfill": true,
    "backfill_dated": true
   },
@@ -229401,7 +229401,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-17"
   },
   "point_island:mSMRI1": {
    "site": "point_island",
@@ -240906,7 +240906,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-17"
   },
   "point_stadium:mSMRI1": {
    "site": "point_stadium",
@@ -252457,8 +252457,8 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-27",
-   "renewed_at": "2026-10-17 08:00"
+   "last_seen": "2026-11-17",
+   "renewed_at": "2026-11-17 08:00"
   },
   "nyandaful:mSMRI1": {
    "site": "nyandaful",
@@ -319007,18 +319007,19 @@
   "moppy:148927": {
    "site": "moppy",
    "deal_id": "148927",
-   "title": "※15日まで超高還元※au PAY カード",
-   "points_text": "7,000P",
-   "yen": 7000.0,
+   "title": "au PAY カード",
+   "points_text": "1,000P",
+   "yen": 1000.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=148927",
    "condition": "新規カード発行",
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 01:00",
-   "last_seen": "2026-09-13",
+   "last_seen": "2026-11-17",
    "site_new": false,
-   "delisted_at": "2026-10-16"
+   "delisted_at": "2026-10-16",
+   "renew_hold": true
   },
   "moppy:158896": {
    "site": "moppy",
@@ -326037,7 +326038,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 08:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-11-17"
   },
   "warau:204640": {
    "site": "warau",
@@ -339067,7 +339068,7 @@
    "seeded": false,
    "first_seen": "2026-07-23",
    "first_seen_at": "2026-07-23 01:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-17",
    "site_new": false,
    "renew_hold": true
   },
@@ -345804,7 +345805,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 15:00",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-17"
   },
   "kurashiru_reward:17874": {
    "site": "kurashiru_reward",
@@ -780481,9 +780482,9 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "site_new": false,
-   "renewed_at": "2026-11-14 15:00"
+   "renewed_at": "2026-11-17 08:00"
   },
   "amefri:142428": {
    "site": "amefri",

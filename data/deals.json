@@ -221118,7 +221118,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-13"
+   "last_seen": "2026-11-17"
   },
   "chanceit:32885": {
    "site": "chanceit",
@@ -293566,7 +293566,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   "moppy:159931": {
    "site": "moppy",
@@ -293934,7 +293934,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-17"
   },
   "moppy:159218": {
    "site": "moppy",
@@ -294371,7 +294371,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "site_new": false,
    "renewed_at": "2026-11-16 17:00",
    "renewed_from": "500P"
@@ -296219,7 +296219,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "renewed_at": "2026-09-04 17:00",
    "renewed_from": "147P"
   },
@@ -325376,7 +325376,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-17",
    "site_new": false,
    "delisted_at": "2026-09-09",
    "renewed_at": "2026-10-15 01:00",
@@ -344210,7 +344210,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 01:01",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-17",
    "site_new": false,
    "renew_hold": true
   },
@@ -473325,17 +473325,19 @@
    "site": "moppy",
    "deal_id": "156251",
    "title": "【過去登録者も可】開運★姓名鑑定[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=156251",
    "condition": "月額396円（税込）コース会員登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-18",
+   "last_seen": "2026-11-17",
    "backfill_dated": true,
-   "site_new": true
+   "site_new": true,
+   "renewed_at": "2026-11-17 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157272": {
    "site": "moppy",
@@ -501620,7 +501622,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "site_new": false
   },
   "moppy:157245": {
@@ -639256,7 +639258,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "site_new": false
   },
   "moppy:135486": {
@@ -639331,7 +639333,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "site_new": false
   },
   "moppy:145199": {
@@ -715377,16 +715379,18 @@
    "site": "moppy",
    "deal_id": "145227",
    "title": "婚活の女神イリヤ (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=145227",
    "condition": "月額396円（税込）コース、初回会員登録",
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 05:00",
-   "last_seen": "2026-10-11",
-   "site_new": false
+   "last_seen": "2026-11-17",
+   "site_new": false,
+   "renewed_at": "2026-11-17 05:00",
+   "renewed_from": "400P"
   },
   "chobirich:1900935": {
    "site": "chobirich",
@@ -784414,7 +784418,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 21:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "renewed_at": "2026-11-16 15:00"
   },
   "powl:45487": {
@@ -787034,7 +787038,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 17:00",
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   "moppy:162429": {
    "site": "moppy",
@@ -794482,6 +794486,34 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 01:00",
+   "last_seen": "2026-11-17"
+  },
+  "warau:209304": {
+   "site": "warau",
+   "deal_id": "209304",
+   "title": "【myChips】Z Route: Redemption（StepUp）",
+   "points_text": "6,118pt",
+   "yen": 6118.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209304",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-17",
+   "first_seen_at": "2026-11-17 05:00",
+   "last_seen": "2026-11-17"
+  },
+  "warau:209305": {
+   "site": "warau",
+   "deal_id": "209305",
+   "title": "【myChips】商人放浪記（StepUp）",
+   "points_text": "4,804pt",
+   "yen": 4804.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209305",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-17",
+   "first_seen_at": "2026-11-17 05:00",
    "last_seen": "2026-11-17"
   }
  }

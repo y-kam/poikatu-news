@@ -51065,16 +51065,17 @@
    "site": "rebates",
    "deal_id": "20349",
    "title": "BONAVENTURA",
-   "points_text": "4.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/jp.bonaventura.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:20010": {
    "site": "rebates",
@@ -54095,16 +54096,17 @@
    "site": "rebates",
    "deal_id": "10632",
    "title": "NARS公式オンラインショップ",
-   "points_text": "2.5%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/narscosmetics.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:21825": {
    "site": "rebates",
@@ -55415,16 +55417,17 @@
    "site": "rebates",
    "deal_id": "21235",
    "title": "SwitchBot",
-   "points_text": "5.0%",
+   "points_text": "8.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 8.0,
    "url": "https://www.rebates.jp/switchbot.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "5.0%"
   },
   "rebates:19140": {
    "site": "rebates",
@@ -55474,15 +55477,17 @@
    "site": "rebates",
    "deal_id": "21682",
    "title": "TENTIAL公式オンラインストア",
-   "points_text": "2.5%",
+   "points_text": "7.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 7.0,
    "url": "https://www.rebates.jp/tential.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:20273": {
    "site": "rebates",
@@ -55745,16 +55750,17 @@
    "site": "rebates",
    "deal_id": "24267",
    "title": "Traveloka",
-   "points_text": "最大10.0%",
+   "points_text": "最大11.0%",
    "yen": null,
-   "percent": 10.0,
+   "percent": 11.0,
    "url": "https://www.rebates.jp/traveloka.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "最大10.0%"
   },
   "rebates:16097": {
    "site": "rebates",
@@ -56737,16 +56743,17 @@
    "site": "rebates",
    "deal_id": "16051",
    "title": "mix.tokyo",
-   "points_text": "1.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 1.5,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/mix.tokyo.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "1.5%"
   },
   "rebates:21090": {
    "site": "rebates",
@@ -59774,16 +59781,17 @@
    "site": "rebates",
    "deal_id": "14799",
    "title": "ケーズデンキ",
-   "points_text": "1.0%",
+   "points_text": "1.5%",
    "yen": null,
-   "percent": 1.0,
+   "percent": 1.5,
    "url": "https://www.rebates.jp/ksdenki",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "1.0%"
   },
   "rebates:21049": {
    "site": "rebates",
@@ -60630,16 +60638,16 @@
    "site": "rebates",
    "deal_id": "11928",
    "title": "スワロフスキー",
-   "points_text": "4.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/swarovski.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-16 10:00",
+   "renewed_at": "2026-11-17 10:00",
    "renewed_from": "1.0%"
   },
   "rebates:15476": {
@@ -61397,16 +61405,17 @@
    "site": "rebates",
    "deal_id": "15117",
    "title": "ナイキオンラインストア",
-   "points_text": "3.0%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 3.0,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/nike-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "3.0%"
   },
   "rebates:25090": {
    "site": "rebates",
@@ -61817,16 +61826,17 @@
    "site": "rebates",
    "deal_id": "14645",
    "title": "ピザハット",
-   "points_text": "8.0%",
+   "points_text": "20.0%",
    "yen": null,
-   "percent": 8.0,
+   "percent": 20.0,
    "url": "https://www.rebates.jp/pizzahut",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "8.0%"
   },
   "rebates:14823": {
    "site": "rebates",
@@ -61932,15 +61942,17 @@
    "site": "rebates",
    "deal_id": "14836",
    "title": "フェアウェイゴルフ",
-   "points_text": "3.5%",
+   "points_text": "5.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 5.0,
    "url": "https://www.rebates.jp/fairwaygolf",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:14708": {
    "site": "rebates",
@@ -62467,16 +62479,17 @@
    "site": "rebates",
    "deal_id": "13287",
    "title": "マイプロテイン",
-   "points_text": "最大8.0%",
+   "points_text": "最大14.0%",
    "yen": null,
-   "percent": 8.0,
+   "percent": 14.0,
    "url": "https://www.rebates.jp/myprotein.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "最大8.0%"
   },
   "rebates:14659": {
    "site": "rebates",
@@ -65035,15 +65048,17 @@
    "site": "rebates",
    "deal_id": "16236",
    "title": "青山フラワーマーケット",
-   "points_text": "2.5%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/aoyamaflowermarket.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-17",
    "condition": "",
-   "seed_filled": true
+   "seed_filled": true,
+   "renewed_at": "2026-11-17 10:00",
+   "renewed_from": "2.5%"
   },
   "rebates:14798": {
    "site": "rebates",
@@ -778886,7 +778901,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 13:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "site_new": false,
    "renewed_at": "2026-11-16 01:00"
   },
@@ -784467,7 +784482,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 21:00",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "renewed_at": "2026-11-12 01:00",
    "renewed_from": "6480pt"
   },
@@ -787978,7 +787993,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   "pointchips:1431": {
    "site": "pointchips",
@@ -794564,6 +794579,20 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 07:28",
+   "last_seen": "2026-11-17"
+  },
+  "powl:46577": {
+   "site": "powl",
+   "deal_id": "46577",
+   "title": "霧ト晴レ",
+   "points_text": "8%還元",
+   "yen": null,
+   "percent": 8.0,
+   "url": "https://web.powl.jp/reward/46577",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-17",
+   "first_seen_at": "2026-11-17 10:00",
    "last_seen": "2026-11-17"
   }
  }

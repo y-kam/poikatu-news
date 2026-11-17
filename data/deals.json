@@ -293802,7 +293802,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "renew_hold": true
   },
   "moppy:161651": {
@@ -294511,7 +294511,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "site_new": false
   },
   "moppy:160804": {
@@ -364219,7 +364219,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 21:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "delisted_at": "2026-09-17"
   },
   "warau:197883": {
@@ -364234,7 +364234,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 21:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "delisted_at": "2026-09-17"
   },
   "warau:170409": {
@@ -364249,7 +364249,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 21:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "delisted_at": "2026-08-05"
   },
   "warau:170408": {
@@ -472783,7 +472783,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472815,7 +472815,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473104,7 +473104,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473218,7 +473218,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-11-18",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481521,16 +481521,17 @@
    "site": "moppy",
    "deal_id": "161931",
    "title": "Freecash 遊びながらポイント獲得",
-   "points_text": "22,800P",
-   "yen": 22800.0,
+   "points_text": "4,940P",
+   "yen": 4940.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161931",
-   "condition": "累計100000コインを換金",
+   "condition": "50000コインゲット",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-10-22",
-   "backfill_dated": true
+   "last_seen": "2026-11-18",
+   "backfill_dated": true,
+   "renew_hold": true
   },
   "moppy:160730": {
    "site": "moppy",
@@ -505783,7 +505784,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 15:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "site_new": true,
    "renewed_at": "2026-11-17 21:16"
   },
@@ -668430,7 +668431,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 08:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "site_new": false
   },
   "moppy:145203": {
@@ -668445,7 +668446,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 08:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-18",
    "site_new": false
   },
   "hapitas:103217": {
@@ -758078,7 +758079,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-18",
    "renewed_at": "2026-11-07 01:00"
   },
   "au_point:8:1758": {
@@ -784509,7 +784510,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 21:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "renewed_at": "2026-11-16 15:00"
   },
   "powl:45487": {
@@ -785453,15 +785454,17 @@
    "site": "au_point",
    "deal_id": "8:1788",
    "title": "ブレードウォー三国",
-   "points_text": "1632P",
-   "yen": 1632.0,
+   "points_text": "2200P",
+   "yen": 2200.0,
    "percent": null,
    "url": "https://enjoy.point.auone.jp/reward/detail?type=8&campaignId=1788",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 13:00",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-18",
+   "renewed_at": "2026-11-18 05:00",
+   "renewed_from": "1632P"
   },
   "ponta_bonuspark:4669": {
    "site": "ponta_bonuspark",
@@ -787674,7 +787677,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   "poikatsu_club:22077": {
    "site": "poikatsu_club",
@@ -794605,7 +794608,7 @@
   "warau:209304": {
    "site": "warau",
    "deal_id": "209304",
-   "title": "【myChips】Z Route: Redemption（StepUp）",
+   "title": "【myChips】Z ルート：リデンプション（StepUp）",
    "points_text": "6,118pt",
    "yen": 6118.0,
    "percent": null,

@@ -214219,7 +214219,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "site_new": false,
    "renewed_at": "2026-11-16 01:00",
    "renewed_from": "16,000pt"
@@ -499736,8 +499736,8 @@
    "site": "kurashiru_reward",
    "deal_id": "18842",
    "title": "くじらファンディング[50万円以上の一括投資]",
-   "points_text": "2,700,000コイン",
-   "yen": 27000.0,
+   "points_text": "4,200,000コイン",
+   "yen": 42000.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/18842",
    "condition": "新規会員登録後、90日以内に50万円以上の一括初回投資 で",
@@ -499745,14 +499745,16 @@
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
    "last_seen": "2026-11-18",
-   "delisted_at": "2026-09-15"
+   "delisted_at": "2026-09-15",
+   "renewed_at": "2026-11-18 10:00",
+   "renewed_from": "2,700,000コイン"
   },
   "kurashiru_reward:18841": {
    "site": "kurashiru_reward",
    "deal_id": "18841",
    "title": "くじらファンディング[100万円以上の一括投資]",
-   "points_text": "6,000,000コイン",
-   "yen": 60000.0,
+   "points_text": "6,600,000コイン",
+   "yen": 66000.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/18841",
    "condition": "新規会員登録後、90日以内に100万円以上の一括初回投資 で",
@@ -499761,7 +499763,7 @@
    "first_seen_at": "2026-09-09 15:12",
    "last_seen": "2026-11-18",
    "delisted_at": "2026-09-26",
-   "renewed_at": "2026-11-10 17:00",
+   "renewed_at": "2026-11-18 10:00",
    "renewed_from": "4,500,000コイン"
   },
   "kurashiru_reward:18839": {
@@ -701088,8 +701090,8 @@
    "site": "powl",
    "deal_id": "41447",
    "title": "みずほ銀行「口座開設」",
-   "points_text": "65,000pt",
-   "yen": 6500.0,
+   "points_text": "72,000pt",
+   "yen": 7200.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/41447",
    "condition": "",
@@ -701097,14 +701099,15 @@
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 01:00",
    "last_seen": "2026-11-18",
-   "renew_hold": true
+   "renewed_at": "2026-11-18 10:00",
+   "renewed_from": "65,000pt"
   },
   "powl:41448": {
    "site": "powl",
    "deal_id": "41448",
    "title": "【リピートOK】みずほ銀行「子ども口座開設」",
-   "points_text": "65,000pt",
-   "yen": 6500.0,
+   "points_text": "72,000pt",
+   "yen": 7200.0,
    "percent": null,
    "url": "https://web.powl.jp/reward/41448",
    "condition": "",
@@ -701112,7 +701115,8 @@
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 01:00",
    "last_seen": "2026-11-18",
-   "renew_hold": true
+   "renewed_at": "2026-11-18 10:00",
+   "renewed_from": "65,000pt"
   },
   "tamaru_mall:2815": {
    "site": "tamaru_mall",
@@ -769701,7 +769705,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 21:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-18",
    "renewed_at": "2026-11-11 15:00"
   },
   "poikatsu_club:21897": {
@@ -783326,9 +783330,9 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 17:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "site_new": false,
-   "renewed_at": "2026-11-15 15:00"
+   "renewed_at": "2026-11-18 10:00"
   },
   "amefri:142476": {
    "site": "amefri",
@@ -783342,7 +783346,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 17:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "site_new": false,
    "renewed_at": "2026-11-16 01:00"
   },
@@ -786970,7 +786974,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 17:00",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   "poikatsu_club:22067": {
    "site": "poikatsu_club",
@@ -786998,7 +787002,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 17:00",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   "poikatsu_club:22062": {
    "site": "poikatsu_club",
@@ -788072,7 +788076,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-18"
   },
   "pointchips:1430": {
    "site": "pointchips",
@@ -796729,6 +796733,62 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 07:22",
+   "last_seen": "2026-11-18"
+  },
+  "moppy:162440": {
+   "site": "moppy",
+   "deal_id": "162440",
+   "title": "LIFULL（ライフル）引越し",
+   "points_text": "100P",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162440",
+   "condition": "新規LINE友だち登録後、「さっそく一括見積もりをスタート」より基本情報送信",
+   "seeded": false,
+   "first_seen": "2026-11-18",
+   "first_seen_at": "2026-11-18 10:00",
+   "last_seen": "2026-11-18"
+  },
+  "warau:209344": {
+   "site": "warau",
+   "deal_id": "209344",
+   "title": "TRANSIC LADIES",
+   "points_text": "15%還元",
+   "yen": null,
+   "percent": 15.0,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209344",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-18",
+   "first_seen_at": "2026-11-18 10:00",
+   "last_seen": "2026-11-18"
+  },
+  "warau:204185": {
+   "site": "warau",
+   "deal_id": "204185",
+   "title": "TRANSIC",
+   "points_text": "15%還元",
+   "yen": null,
+   "percent": 15.0,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=204185",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-18",
+   "first_seen_at": "2026-11-18 10:00",
+   "last_seen": "2026-11-18"
+  },
+  "gendama:1597720": {
+   "site": "gendama",
+   "deal_id": "1597720",
+   "title": "LIFULL（ライフル）引越し【新規LINE友だち登録】",
+   "points_text": "1,000pt",
+   "yen": 100.0,
+   "percent": null,
+   "url": "https://www.gendama.jp/service/item/1597720",
+   "condition": "新規LINE友だち登録後、「さっそく一括見積もりをスタート」より基本情報送信",
+   "seeded": false,
+   "first_seen": "2026-11-18",
+   "first_seen_at": "2026-11-18 10:00",
    "last_seen": "2026-11-18"
   }
  }

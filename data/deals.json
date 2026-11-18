@@ -293887,7 +293887,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "site_new": false
   },
   "moppy:161578": {
@@ -294068,7 +294068,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-19",
    "site_new": false,
    "renew_hold": true
   },
@@ -294431,7 +294431,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "renew_hold": true
   },
   "moppy:161645": {
@@ -325488,7 +325488,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-19",
    "site_new": false,
    "renewed_at": "2026-11-08 05:00",
    "renewed_from": "400P"
@@ -359149,7 +359149,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 13:00",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "site_new": false
   },
   "moppy:148982": {
@@ -366367,7 +366367,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "site_new": false,
    "delisted_at": "2026-10-02",
    "renewed_at": "2026-10-21 10:00",
@@ -401086,7 +401086,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 15:00",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "site_new": true,
    "renewed_at": "2026-11-10 13:15",
    "delisted_at": "2026-11-11"
@@ -472563,7 +472563,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472595,7 +472595,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-19",
    "backfill_dated": true,
    "site_new": false
   },
@@ -510704,31 +510704,35 @@
    "site": "moppy",
    "deal_id": "157260",
    "title": "【過去登録者も可】未来運気学◆宗眩 (396円コース)",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157260",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-11",
-   "site_new": false
+   "last_seen": "2026-11-19",
+   "site_new": false,
+   "renewed_at": "2026-11-19 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157241": {
    "site": "moppy",
    "deal_id": "157241",
    "title": "辛口鑑定◆小倉の母[396円コース]",
-   "points_text": "400P",
-   "yen": 400.0,
+   "points_text": "420P",
+   "yen": 420.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=157241",
    "condition": "月額396円（税込）コース会員登録完了",
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-10-10",
-   "site_new": false
+   "last_seen": "2026-11-19",
+   "site_new": false,
+   "renewed_at": "2026-11-19 05:00",
+   "renewed_from": "400P"
   },
   "moppy:157243": {
    "site": "moppy",
@@ -639422,7 +639426,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "site_new": false
   },
   "pointtown:11046": {
@@ -724239,7 +724243,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 01:00",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "site_new": false
   },
   "amefri:112778": {
@@ -795601,15 +795605,16 @@
    "site": "pointchips",
    "deal_id": "1475",
    "title": "Nintendo Switch 2 × AliExpress Japan",
-   "points_text": "8 % 還元",
+   "points_text": "7 % 還元",
    "yen": null,
-   "percent": 8.0,
+   "percent": 7.0,
    "url": "https://pointchips.com/promotion/detail/1475",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-19",
+   "renew_hold": true
   },
   "pointtown:11187": {
    "site": "pointtown",
@@ -796903,7 +796908,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 11:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "warau:209352": {
    "site": "warau",
@@ -797077,7 +797082,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 13:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "amefri:142720": {
    "site": "amefri",

@@ -56284,17 +56284,16 @@
    "site": "rebates",
    "deal_id": "11955",
    "title": "agoda（アゴダ）宿泊",
-   "points_text": "5.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/agoda.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-19",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-12 10:00",
-   "renewed_from": "3.0%"
+   "renew_hold": true
   },
   "rebates:19259": {
    "site": "rebates",
@@ -56584,16 +56583,17 @@
    "site": "rebates",
    "deal_id": "24579",
    "title": "est（エスト）公式オンラインショップ",
-   "points_text": "2.0%",
+   "points_text": "6.0%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 6.0,
    "url": "https://www.rebates.jp/onlineshop.est-online.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-19",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-19 10:00",
+   "renewed_from": "2.0%"
   },
   "rebates:21192": {
    "site": "rebates",
@@ -60280,16 +60280,17 @@
    "site": "rebates",
    "deal_id": "14640",
    "title": "ショップジャパン",
-   "points_text": "4.0%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/shopjapan",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-19",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-19 10:00",
+   "renewed_from": "4.0%"
   },
   "rebates:16122": {
    "site": "rebates",
@@ -60566,16 +60567,17 @@
    "site": "rebates",
    "deal_id": "23827",
    "title": "スナイデルビューティ",
-   "points_text": "3.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 3.5,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/snidelbeauty.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-19",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-19 10:00",
+   "renewed_from": "3.5%"
   },
   "rebates:21050": {
    "site": "rebates",
@@ -83233,7 +83235,7 @@
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-11-19"
   },
   "pointier:16735": {
    "site": "pointier",
@@ -133205,7 +133207,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-09-03",
+   "last_seen": "2026-11-19",
    "seed_filled": true,
    "delisted_at": "2026-09-17"
   },
@@ -318221,7 +318223,7 @@
   "moppy:158897": {
    "site": "moppy",
    "deal_id": "158897",
-   "title": "※合計最大58,000円相当※【三菱ＵＦＪ銀行】普通預金口座開設",
+   "title": "※合計最大56,000円相当※【三菱ＵＦＪ銀行】普通預金口座開設",
    "points_text": "4,000P",
    "yen": 4000.0,
    "percent": null,
@@ -766387,15 +766389,17 @@
    "site": "kurashiru_reward",
    "deal_id": "19970",
    "title": "デジタル証券renga（レンガ）[300万円取引]",
-   "points_text": "3,000,000コイン",
-   "yen": 30000.0,
+   "points_text": "13,800,000コイン",
+   "yen": 138000.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/19970",
    "condition": "新規口座開設後、75日以内に300万円以上の購入・入金 で",
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 15:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-19",
+   "renewed_at": "2026-11-19 10:00",
+   "renewed_from": "3,000,000コイン"
   },
   "kurashiru_reward:19969": {
    "site": "kurashiru_reward",
@@ -786611,9 +786615,9 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 17:00",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "site_new": false,
-   "renewed_at": "2026-11-16 01:00"
+   "renewed_at": "2026-11-19 10:00"
   },
   "amefri:142565": {
    "site": "amefri",
@@ -790754,7 +790758,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "poikatsu_club:22121": {
    "site": "poikatsu_club",
@@ -790768,7 +790772,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "poikatsu_club:22113": {
    "site": "poikatsu_club",
@@ -790782,7 +790786,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "poikatsu_club:22114": {
    "site": "poikatsu_club",
@@ -796936,7 +796940,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 11:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-19"
   },
   "warau:209349": {
    "site": "warau",
@@ -799000,6 +799004,118 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 01:00",
+   "last_seen": "2026-11-19"
+  },
+  "warau:209390": {
+   "site": "warau",
+   "deal_id": "209390",
+   "title": "【SmaAD】シェフの力：BBQ＆ソーティング（レベル80クリア）",
+   "points_text": "81pt",
+   "yen": 81.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209390",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "warau:209389": {
+   "site": "warau",
+   "deal_id": "209389",
+   "title": "【PR】【三菱ＵＦＪ銀行】普通預金口座開設",
+   "points_text": "4,000pt",
+   "yen": 4000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209389",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "nifty_point:0000773222F0": {
+   "site": "nifty_point",
+   "deal_id": "0000773222F0",
+   "title": "TRANSIC（トランジック）",
+   "points_text": "16.0%",
+   "yen": null,
+   "percent": 16.0,
+   "url": "https://lifemedia.jp/shopping/detail/0000773222F0",
+   "condition": "書品購入",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "nifty_point:0001289922F0": {
+   "site": "nifty_point",
+   "deal_id": "0001289922F0",
+   "title": "TRANSIC LADIES（トランジックレディース）",
+   "points_text": "16.0%",
+   "yen": null,
+   "percent": 16.0,
+   "url": "https://lifemedia.jp/shopping/detail/0001289922F0",
+   "condition": "商品購入",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "rebates:25523": {
+   "site": "rebates",
+   "deal_id": "25523",
+   "title": "ELECOM Healthcare",
+   "points_text": "7.5%",
+   "yen": null,
+   "percent": 7.5,
+   "url": "https://www.rebates.jp/shop.elecom-hc.co.jp",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "amefri:142747": {
+   "site": "amefri",
+   "deal_id": "142747",
+   "title": "シェフの力：BBQ＆ソーティング（レベル80クリア）",
+   "points_text": "820pt",
+   "yen": 82.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142747",
+   "condition": "レベル80クリア",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "powl:46963": {
+   "site": "powl",
+   "deal_id": "46963",
+   "title": "トリファ（trifa）",
+   "points_text": "5%還元",
+   "yen": null,
+   "percent": 5.0,
+   "url": "https://web.powl.jp/reward/46963",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
+   "last_seen": "2026-11-19"
+  },
+  "poikatsu_club:22206": {
+   "site": "poikatsu_club",
+   "deal_id": "22206",
+   "title": "シェフの力：BBQ＆ソーティング（レベル80クリア）",
+   "points_text": "90pt",
+   "yen": 90.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/22206",
+   "condition": "▼承認条件\r\n新規インストール後、レベル80クリア\r\n※成果到達目安：新規インストール後、1日程度\r\n※広告クリックから（当日を1日目とし）60日以内での達成が条件となります。\r\n※Androidのみ成果対象となります。\r\n※チャレンジレベルは成果対象外となります。\r\n\r\n▼成果までの流れ\r\n1.インストール後、起動\r\n2.レベル80クリア\r\n\r\n▼却下条件\r\n・過去にインストール済の場合は、「新規アプリインストール」に該当しないためポイント付与対象外になります。\r\n※広告クリックから（当日を1日目とし）61日以上経過して到達した場合は成果対象外となります。\r\n・公共WiFiを使用してインストールした場合\r\n・同じIPアドレスから他の端末でインストールまたは成果地点に到達した場合\r\n・インストール時に回線が不安定な場合\r\n・インストール中に他の操作をした場合\r\n・広告ブロックを使用している場合\r\n・オフラインでアプリを使用した場合\r\n・エミュレータでご参加された場合\r\n・過去に同じアプリをインストールしたことがある場合、または成果地点到達をしたことがある場合\r\n・新しい端末にデータを引き継いで成果条件に到達した場合、または新しい端末とは別の端末にデータを引き継いで成果条件に到達した場合\r\n・不備や不正、虚偽、重複、いたずらの申請を行った場合\r\n・本広告以外からのインストールを行った場合\r\n・お問い合わせ時に該当アプリをアンインストールしている場合、または成果条件達成までにアプリをアンインストールしている場合\r\n・広告主が正常な成果でないと判断した場合\r\n・日本国外からのアクセスまたは日本国外のIPアドレスからクリックした場合\r\n・端末の「広告のパーソナライゼーションを無効にする」設定がONの場合\r\n・端末メーカーのプライバシー設定で、アプリのトラッキングを制限している場合\r\n・端末の「追跡型広告を制限」設定がONになっている場合、または「Do \nNot \nTrack」設定がONになっている場合\r\n\r\n▼注意事項\r\n・広告をクリックしてから1時間以内に初回起動が完了しない場合、広告成果とはみなされない場合がございます。\r\n※初回起動が1時間以上かかる場合は、もう一度広告をクリックしてください。\r\n・同じアプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\r\n※異なる成果地点で広告参加をされたことがある場合も成果となりません。\r\n・過去に同じアプリで広告参加をしたことがある場合は別の端末で初回インストールをしても成果になりません。\r\n・成果達成後、ポイントの獲得がされるまでに最大24時間かかる場合がございます。\r\n・アプリ内のキャンペーン（イベント）は予告なく変更または終了する場合がございます。\r\n・端末の「Appからのトラッキング要求を許可」設定がOFFの場合、ポイントを獲得できない可能性がございます。\r\n・URLを他のユーザーと共有したり、コピーしたURLのご使用はお控えください。コピーしたURLからのインストールは成果対象外となります。\r\n・意図的に広告IDを削除またはリセットすると、不正利用とみなされる場合がございますので、削除やリセットはお控えください。\r\n・アプリ内バグなどのお問合せを頂く際に広告IDをご提供頂く場合がございます。\r\n※ご提供頂けない場合は調査不可となる恐れがございます。\r\n\r\n【配信終了後の成果受付期間】終了日を含め60日間\r\n※上記成果受付期間内に成果条件達成をしない場合は後日否認処理をいたします。\r\n\r\n▼成果調査に関して\r\n・この案件は、アプリインストールで判定待ちとして反映します。\r\n　判定待ちが反映されない場合の成果調査は受け付けておりません。\r\n　またその場合、その後アプリを進めて成果条件達成をしてもポイント対象外となります。\r\n・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。\r\n・直接スポンサーサイトへ問い合わせることはお控えください。\r\n・クリック発生から91日以上経過したものは調査不可となります。\r\n・成果調査完了までにアプリをアンインストールされた場合は成果調査対象外となりますのでご了承ください。\r\n・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。\r\n①クリック日時\r\n②広告をクリックしてから成果地点到達まで掛かった日数\r\n③成果到達日時\r\n④レベル80クリアが確認できるキャプチャ\r\n⑤デバイスID（テキスト）\r\n⑥デバイスID（キャプチャ）\r\n\r\n※デバイス（広告）IDの確認方法\r\n▼Android【GAID（Google \nadvertising \nId）】\r\n　下記アプリをインストールし、広告IDのご確認をお願いいたします。\r\n　https://play.google.com/store/apps/details?id=com.adjust.insights",
+   "seeded": false,
+   "first_seen": "2026-11-19",
+   "first_seen_at": "2026-11-19 10:00",
    "last_seen": "2026-11-19"
   }
  }

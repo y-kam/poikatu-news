@@ -414300,16 +414300,17 @@
    "site": "powl",
    "deal_id": "40040",
    "title": "koala（コアラマットレス）",
-   "points_text": "3.2%還元",
+   "points_text": "10%還元",
    "yen": null,
-   "percent": 3.2,
+   "percent": 10.0,
    "url": "https://web.powl.jp/reward/40040",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
    "last_seen": "2026-11-20",
-   "renew_hold": true
+   "renewed_at": "2026-11-20 08:00",
+   "renewed_from": "3.2%還元"
   },
   "powl:26218": {
    "site": "powl",
@@ -492184,18 +492185,19 @@
    "site": "moppy",
    "deal_id": "6717",
    "title": "koala（コアラマットレス）",
-   "points_text": "4.0%",
+   "points_text": "12.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 12.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=6717",
    "condition": "WEB注文後、120日以内の入金確認",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "delisted_at": "2026-09-18",
-   "renew_hold": true
+   "renewed_at": "2026-11-20 08:00",
+   "renewed_from": "4.0%"
   },
   "moppy:4510": {
    "site": "moppy",
@@ -785636,7 +785638,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 13:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-18 05:00",
    "renewed_from": "1632P"
   },
@@ -790655,9 +790657,9 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "site_new": false,
-   "renewed_at": "2026-11-17 01:00"
+   "renewed_at": "2026-11-20 08:00"
   },
   "amefri:142619": {
    "site": "amefri",
@@ -793945,7 +793947,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "poikatsu_club:22140": {
    "site": "poikatsu_club",
@@ -799853,7 +799855,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 17:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "dead_streak": 1
   },
   "warau:209403": {
@@ -800625,7 +800627,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "warau:209410": {
    "site": "warau",

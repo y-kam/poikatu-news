@@ -80864,7 +80864,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "au_point:8:1386": {
    "site": "au_point",
@@ -80877,7 +80877,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renew_hold": true
   },
   "au_point:8:1223": {
@@ -81000,7 +81000,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "au_point:8:492": {
    "site": "au_point",
@@ -81013,7 +81013,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-10-23 01:00",
    "renewed_from": "2312P"
   },
@@ -81028,7 +81028,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "au_point:8:411": {
    "site": "au_point",
@@ -81054,7 +81054,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "au_point:8:52": {
    "site": "au_point",
@@ -81080,7 +81080,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "au_point:8:1428": {
    "site": "au_point",
@@ -81121,7 +81121,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "au_point:8:1340": {
    "site": "au_point",
@@ -230863,15 +230863,17 @@
    "site": "point_island",
    "deal_id": "g16536",
    "title": "イデックスでんき",
-   "points_text": "85000ポイント",
-   "yen": 8500.0,
+   "points_text": "150000ポイント",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=g16536",
    "condition": "契約",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-11-20",
+   "renewed_at": "2026-11-20 05:00",
+   "renewed_from": "85000ポイント"
   },
   "point_island:0409708": {
    "site": "point_island",
@@ -242352,15 +242354,17 @@
    "site": "point_stadium",
    "deal_id": "g16536",
    "title": "イデックスでんき",
-   "points_text": "85000ポイント",
-   "yen": 8500.0,
+   "points_text": "150000ポイント",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://www.point-stadium.com/cert.asp?adv=g16536",
    "condition": "契約で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-11-20",
+   "renewed_at": "2026-11-20 05:00",
+   "renewed_from": "85000ポイント"
   },
   "point_stadium:0409708": {
    "site": "point_stadium",
@@ -253928,15 +253932,17 @@
    "site": "nyandaful",
    "deal_id": "g16536",
    "title": "イデックスでんき",
-   "points_text": "85,000pt",
-   "yen": 8500.0,
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://www.nyandaful.jp/p_detail.asp?m=g16536",
    "condition": "契約で",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-06"
+   "last_seen": "2026-11-20",
+   "renewed_at": "2026-11-20 05:00",
+   "renewed_from": "85,000pt"
   },
   "nyandaful:0409708": {
    "site": "nyandaful",
@@ -289217,7 +289223,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 13:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-10-23 01:00",
    "renewed_from": "4420P"
   },
@@ -294115,7 +294121,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "moppy:147035": {
    "site": "moppy",
@@ -294198,16 +294204,18 @@
    "site": "moppy",
    "deal_id": "158364",
    "title": "LINE：ナンプレ",
-   "points_text": "114P",
-   "yen": 114.0,
+   "points_text": "142P",
+   "yen": 142.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158364",
    "condition": "7日以内にコインを2000枚以上獲得",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-18",
-   "site_new": false
+   "last_seen": "2026-11-20",
+   "site_new": false,
+   "renewed_at": "2026-11-20 05:00",
+   "renewed_from": "114P"
   },
   "moppy:158211": {
    "site": "moppy",
@@ -294906,7 +294914,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "site_new": false
   },
   "moppy:159742": {
@@ -325487,7 +325495,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-20",
    "site_new": false
   },
   "moppy:157265": {
@@ -339002,7 +339010,7 @@
    "seeded": false,
    "first_seen": "2026-07-22",
    "first_seen_at": "2026-07-22 21:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "powl:37213": {
    "site": "powl",
@@ -342534,7 +342542,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 13:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "point_island:0411141": {
    "site": "point_island",
@@ -354778,7 +354786,7 @@
    "seeded": false,
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 15:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "powl:37933": {
    "site": "powl",
@@ -391573,15 +391581,17 @@
    "site": "point_museum",
    "deal_id": "g16536",
    "title": "イデックスでんき",
-   "points_text": "85,000pt",
-   "yen": 8500.0,
+   "points_text": "150,000pt",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://www.point-museum.com/ct.asp?adv=g16536",
    "condition": "契約",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-08-21"
+   "last_seen": "2026-11-20",
+   "renewed_at": "2026-11-20 05:00",
+   "renewed_from": "85,000pt"
   },
   "point_museum:d2050": {
    "site": "point_museum",
@@ -434416,7 +434426,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 11:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-09-15 01:00"
   },
   "powl:40771": {
@@ -472602,7 +472612,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472957,7 +472967,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473427,7 +473437,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-29 05:00",
@@ -473829,7 +473839,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474585,7 +474595,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-11-18 21:00",
@@ -475051,7 +475061,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-09",
+   "last_seen": "2026-11-20",
    "backfill_dated": true,
    "site_new": false
   },
@@ -481757,7 +481767,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-20",
    "backfill_dated": true
   },
   "moppy:159287": {
@@ -501666,7 +501676,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 01:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-20",
    "site_new": false
   },
   "moppy:157253": {
@@ -586468,15 +586478,17 @@
    "site": "point_land",
    "deal_id": "g16536",
    "title": "イデックスでんき",
-   "points_text": "85000ポイント",
-   "yen": 8500.0,
+   "points_text": "150000ポイント",
+   "yen": 15000.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=g16536",
    "condition": "契約",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-09-17"
+   "last_seen": "2026-11-20",
+   "renewed_at": "2026-11-20 05:00",
+   "renewed_from": "85000ポイント"
   },
   "point_land:d2050": {
    "site": "point_land",
@@ -683636,7 +683648,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 05:00",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "site_new": false
   },
   "moppy:145281": {
@@ -687572,7 +687584,7 @@
    "seeded": false,
    "first_seen": "2026-09-30",
    "first_seen_at": "2026-09-30 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-05 01:00",
    "renewed_from": "255P"
   },
@@ -740568,7 +740580,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 01:00",
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-11-20"
   },
   "pointier:16801": {
    "site": "pointier",
@@ -743770,7 +743782,7 @@
    "seeded": false,
    "first_seen": "2026-10-24",
    "first_seen_at": "2026-10-24 01:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renew_hold": true
   },
   "kurashiru_reward:19783": {
@@ -758143,7 +758155,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-07 01:00"
   },
   "au_point:8:1761": {
@@ -758173,7 +758185,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-07 01:00"
   },
   "au_point:8:1758": {
@@ -758188,7 +758200,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-07 01:00"
   },
   "au_point:8:1757": {
@@ -772369,7 +772381,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-12 01:00"
   },
   "point_island:220356": {
@@ -773497,7 +773509,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-12 01:00"
   },
   "kurashiru_reward:20037": {
@@ -786743,7 +786755,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 17:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-17 21:00"
   },
   "powl:42010": {
@@ -788187,7 +788199,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "pointchips:1431": {
    "site": "pointchips",
@@ -790590,9 +790602,9 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "site_new": false,
-   "renewed_at": "2026-11-17 01:00"
+   "renewed_at": "2026-11-20 05:00"
   },
   "amefri:142620": {
    "site": "amefri",
@@ -793725,7 +793737,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-19 13:00"
   },
   "au_point:8:1793": {
@@ -793740,7 +793752,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-19 01:00"
   },
   "au_point:8:1792": {
@@ -793755,7 +793767,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "renewed_at": "2026-11-19 01:00"
   },
   "kurashiru_reward:20229": {
@@ -793882,7 +793894,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "poikatsu_club:22141": {
    "site": "poikatsu_club",
@@ -797242,7 +797254,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 13:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "powl:46452": {
    "site": "powl",
@@ -797738,7 +797750,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "kurashiru_reward:20271": {
    "site": "kurashiru_reward",
@@ -798323,7 +798335,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 21:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "kurashiru_reward:20307": {
    "site": "kurashiru_reward",
@@ -800118,7 +800130,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 17:00",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   "ponta_bonuspark:4675": {
    "site": "ponta_bonuspark",
@@ -800429,7 +800441,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "site_new": true
   },
   "warau:209413": {
@@ -800561,7 +800573,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "dead_streak": 1
   },
   "warau:209417": {
@@ -800590,7 +800602,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "dead_streak": 1
   },
   "warau:209408": {
@@ -800605,7 +800617,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "dead_streak": 1
   },
   "amefri:142790": {
@@ -801426,6 +801438,20 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 01:00",
+   "last_seen": "2026-11-20"
+  },
+  "moppy:162444": {
+   "site": "moppy",
+   "deal_id": "162444",
+   "title": "Rise of Kingdoms ―万国覚醒―",
+   "points_text": "11,400P",
+   "yen": 11400.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162444",
+   "condition": "任意のレベルIV部隊をアンロック",
+   "seeded": false,
+   "first_seen": "2026-11-20",
+   "first_seen_at": "2026-11-20 05:00",
    "last_seen": "2026-11-20"
   }
  }

@@ -68312,16 +68312,17 @@
    "site": "line_catalog",
    "deal_id": "nike_com",
    "title": "[ナイキ公式]オンラインストアNIKE.COM",
-   "points_text": "5.0%還元",
+   "points_text": "8.0%還元",
    "yen": null,
-   "percent": 5.0,
+   "percent": 8.0,
    "url": "https://ec.line.me/shop/nike_com/",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-21",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-21 21:00",
+   "renewed_from": "5.0%還元"
   },
   "line_catalog:orbisshop": {
    "site": "line_catalog",
@@ -795447,8 +795448,9 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 13:00",
-   "last_seen": "2026-11-20",
-   "site_new": false
+   "last_seen": "2026-11-21",
+   "site_new": false,
+   "renewed_at": "2026-11-21 21:00"
   },
   "amefri:142684": {
    "site": "amefri",
@@ -795646,7 +795648,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 13:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "poikatsu_club:22156": {
    "site": "poikatsu_club",
@@ -795926,8 +795928,9 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-20",
-   "site_new": false
+   "last_seen": "2026-11-21",
+   "site_new": false,
+   "renewed_at": "2026-11-21 21:00"
   },
   "powl:46367": {
    "site": "powl",
@@ -795955,7 +795958,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "poikatsu_club:22161": {
    "site": "poikatsu_club",
@@ -795969,7 +795972,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "poikatsu_club:22163": {
    "site": "poikatsu_club",
@@ -796381,7 +796384,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "poikatsu_club:22167": {
    "site": "poikatsu_club",

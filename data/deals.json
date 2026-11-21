@@ -56909,16 +56909,17 @@
    "site": "rebates",
    "deal_id": "22109",
    "title": "ohora",
-   "points_text": "4.5%",
+   "points_text": "5.5%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 5.5,
    "url": "https://www.rebates.jp/ohora.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-21",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-21 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:21127": {
    "site": "rebates",
@@ -293082,8 +293083,8 @@
    "site": "moppy",
    "deal_id": "161662",
    "title": "※還元UP※スマートニュース（8日目起動）_iOS",
-   "points_text": "1,000P",
-   "yen": 1000.0,
+   "points_text": "700P",
+   "yen": 700.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161662",
    "condition": "初回起動日を1日目として8日目の起動",
@@ -293092,8 +293093,7 @@
    "first_seen": "2000-01-01",
    "last_seen": "2026-11-21",
    "backfill_dated": true,
-   "renewed_at": "2026-11-19 21:00",
-   "renewed_from": "400P"
+   "renew_hold": true
   },
   "moppy:161478": {
    "site": "moppy",
@@ -293723,8 +293723,8 @@
    "site": "moppy",
    "deal_id": "161472",
    "title": "パラノイズ",
-   "points_text": "199P",
-   "yen": 199.0,
+   "points_text": "100P",
+   "yen": 100.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161472",
    "condition": "7日以内に初心者限定ルーレット(無料)を10回受け取る",
@@ -385502,7 +385502,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 17:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-21",
    "site_new": false,
    "delisted_at": "2026-10-23"
   },
@@ -481865,18 +481865,18 @@
    "site": "moppy",
    "deal_id": "158473",
    "title": "※超高還元※Hulu（フールー）",
-   "points_text": "2,400P",
-   "yen": 2400.0,
+   "points_text": "2,800P",
+   "yen": 2800.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=158473",
    "condition": "初回の見放題会員（月額有料）登録",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "backfill_dated": true,
    "site_new": false,
-   "renewed_at": "2026-11-20 17:00",
+   "renewed_at": "2026-11-21 10:00",
    "renewed_from": "1,650P"
   },
   "moppy:154946": {
@@ -788544,7 +788544,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "pointchips:1430": {
    "site": "pointchips",
@@ -794071,7 +794071,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "renewed_at": "2026-11-19 13:00"
   },
   "au_point:8:1793": {
@@ -798958,7 +798958,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 21:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "renewed_at": "2026-11-19 13:00",
    "renewed_from": "702pt"
   },
@@ -798974,7 +798974,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 21:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "renewed_at": "2026-11-19 17:00",
    "renewed_from": "702pt"
   },
@@ -799651,7 +799651,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 11:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-21"
   },
   "poikatsu_club:22207": {
    "site": "poikatsu_club",
@@ -803627,7 +803627,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 17:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-21",
    "dead_streak": 1
   },
   "warau:209467": {
@@ -805264,15 +805264,17 @@
    "site": "moppy",
    "deal_id": "162458",
    "title": "※本日限定※スチームパンク-クロノ要塞_iOS",
-   "points_text": "100P",
-   "yen": 100.0,
+   "points_text": "120P",
+   "yen": 120.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162458",
    "condition": "新規アプリインストール後、レベル7到達",
    "seeded": false,
    "first_seen": "2026-11-21",
    "first_seen_at": "2026-11-21 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-21",
+   "renewed_at": "2026-11-21 10:00",
+   "renewed_from": "100P"
   },
   "warau:209499": {
    "site": "warau",
@@ -805804,6 +805806,34 @@
    "seeded": false,
    "first_seen": "2026-11-21",
    "first_seen_at": "2026-11-21 05:00",
+   "last_seen": "2026-11-21"
+  },
+  "warau:209503": {
+   "site": "warau",
+   "deal_id": "209503",
+   "title": "【myChips】商人放浪記（StepUp）",
+   "points_text": "781pt",
+   "yen": 781.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209503",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-21",
+   "first_seen_at": "2026-11-21 10:00",
+   "last_seen": "2026-11-21"
+  },
+  "warau:209477": {
+   "site": "warau",
+   "deal_id": "209477",
+   "title": "【myChips】ソリティア：パズルゲーム 脳トレ カードゲーム 暇つぶし連想（StepU…",
+   "points_text": "7,360pt",
+   "yen": 7360.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209477",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-21",
+   "first_seen_at": "2026-11-21 10:00",
    "last_seen": "2026-11-21"
   }
  }

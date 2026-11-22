@@ -505076,8 +505076,8 @@
    "site": "getmoney",
    "deal_id": "67089",
    "title": "SBI証券 こども口座開設",
-   "points_text": "100,000Pt",
-   "yen": 10000.0,
+   "points_text": "110,000Pt",
+   "yen": 11000.0,
    "percent": null,
    "url": "https://dietnavi.com/pc/ad_detail.php?id=67089",
    "condition": "",
@@ -505086,7 +505086,8 @@
    "first_seen_at": "2026-09-11 01:00",
    "last_seen": "2026-11-22",
    "delisted_at": "2026-09-27",
-   "renew_hold": true
+   "renewed_at": "2026-11-22 13:00",
+   "renewed_from": "100,000Pt"
   },
   "point_land:11079566": {
    "site": "point_land",
@@ -795954,7 +795955,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   "poikatsu_club:22161": {
    "site": "poikatsu_club",
@@ -795968,7 +795969,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   "poikatsu_club:22163": {
    "site": "poikatsu_club",
@@ -796408,7 +796409,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   "poikatsu_club:22169": {
    "site": "poikatsu_club",

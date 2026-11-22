@@ -788583,7 +788583,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-22"
   },
   "pointchips:1428": {
    "site": "pointchips",
@@ -795281,8 +795281,9 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 11:00",
-   "last_seen": "2026-11-20",
-   "site_new": false
+   "last_seen": "2026-11-22",
+   "site_new": false,
+   "renewed_at": "2026-11-22 17:00"
   },
   "amefri:142681": {
    "site": "amefri",
@@ -795641,7 +795642,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   "poikatsu_club:22156": {
    "site": "poikatsu_club",
@@ -795655,7 +795656,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 13:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-22"
   },
   "poikatsu_club:22157": {
    "site": "poikatsu_club",

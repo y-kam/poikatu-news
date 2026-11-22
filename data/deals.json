@@ -79681,8 +79681,7 @@
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-11-19",
-   "site_new": true,
-   "renewed_at": "2026-11-19 21:16"
+   "site_new": false
   },
   "moppy:155880": {
    "site": "moppy",
@@ -319269,7 +319268,8 @@
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 01:00",
    "last_seen": "2026-11-22",
-   "site_new": false
+   "site_new": true,
+   "renewed_at": "2026-11-22 21:14"
   },
   "moppy:148927": {
    "site": "moppy",
@@ -333457,7 +333457,7 @@
    "first_seen": "2026-07-18",
    "first_seen_at": "2026-07-18 01:00",
    "last_seen": "2026-11-19",
-   "site_new": true,
+   "site_new": false,
    "renew_hold": true
   },
   "moppy:161894": {
@@ -353848,8 +353848,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 01:00",
    "last_seen": "2026-11-19",
-   "site_new": true,
-   "renewed_at": "2026-11-19 21:16"
+   "site_new": false
   },
   "moppy:157203": {
    "site": "moppy",
@@ -353881,8 +353880,7 @@
    "first_seen": "2026-07-31",
    "first_seen_at": "2026-07-31 01:00",
    "last_seen": "2026-11-19",
-   "site_new": true,
-   "renewed_at": "2026-11-19 21:16"
+   "site_new": false
   },
   "moppy:160713": {
    "site": "moppy",
@@ -757877,7 +757875,7 @@
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
    "last_seen": "2026-11-02",
-   "dead_streak": 1
+   "delisted_at": "2026-11-22"
   },
   "warau:208573": {
    "site": "warau",
@@ -805368,7 +805366,7 @@
    "renewed_at": "2026-11-21 10:00",
    "renewed_from": "100P",
    "site_new": true,
-   "dead_streak": 1
+   "dead_streak": 2
   },
   "warau:209499": {
    "site": "warau",

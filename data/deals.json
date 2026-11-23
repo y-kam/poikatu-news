@@ -1383,7 +1383,7 @@
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=161383",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-23",
    "condition": "親権者様によるお子様用口座新規開設完了+口座開設日から20日以内にインターネットバンキング（みずほダイレクト）初回登録",
    "site_new": true,
    "renewed_at": "2026-11-21 01:00",
@@ -286000,7 +286000,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 10:36",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "site_new": false
   },
   "moppy:161347": {
@@ -318401,7 +318401,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 01:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-23",
    "site_new": true,
    "renewed_at": "2026-11-21 01:00",
    "renewed_from": "3,000P"
@@ -344699,7 +344699,7 @@
    "seeded": false,
    "first_seen": "2026-07-25",
    "first_seen_at": "2026-07-25 05:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "site_new": true,
    "delisted_at": "2026-08-10",
    "renewed_at": "2026-11-17 21:00",
@@ -482551,7 +482551,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "backfill_dated": true,
    "site_new": false,
    "renewed_at": "2026-11-18 01:00",
@@ -795268,7 +795268,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 11:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "site_new": false,
    "renewed_at": "2026-11-22 17:00"
   },
@@ -795342,7 +795342,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 11:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   "gendama:1597350": {
    "site": "gendama",
@@ -795982,7 +795982,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22165": {
    "site": "poikatsu_club",
@@ -795996,7 +795996,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-23"
   },
   "gendama:1597382": {
    "site": "gendama",
@@ -796408,7 +796408,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22170": {
    "site": "poikatsu_club",
@@ -796422,7 +796422,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "renewed_at": "2026-11-18 17:00",
    "renewed_from": "19804pt"
   },
@@ -796438,7 +796438,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-23"
   },
   "warau:209335": {
    "site": "warau",
@@ -806523,6 +806523,62 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 15:00",
+   "last_seen": "2026-11-23"
+  },
+  "warau:209509": {
+   "site": "warau",
+   "deal_id": "209509",
+   "title": "【myChips】Colorever（StepUp）",
+   "points_text": "1,537pt",
+   "yen": 1537.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209509",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-23",
+   "first_seen_at": "2026-11-23 21:00",
+   "last_seen": "2026-11-23"
+  },
+  "warau:209508": {
+   "site": "warau",
+   "deal_id": "209508",
+   "title": "【myChips】Puzzles & Chaos: Frozen Castle（StepUp）",
+   "points_text": "5,614pt",
+   "yen": 5614.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209508",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-23",
+   "first_seen_at": "2026-11-23 21:00",
+   "last_seen": "2026-11-23"
+  },
+  "warau:209505": {
+   "site": "warau",
+   "deal_id": "209505",
+   "title": "【myChips】Puzzles & Chaos: Frozen Castle（StepUp）",
+   "points_text": "7,541pt",
+   "yen": 7541.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209505",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-23",
+   "first_seen_at": "2026-11-23 21:00",
+   "last_seen": "2026-11-23"
+  },
+  "warau:209504": {
+   "site": "warau",
+   "deal_id": "209504",
+   "title": "【myChips】DomiNations Asia（StepUp）",
+   "points_text": "7,509pt",
+   "yen": 7509.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209504",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-23",
+   "first_seen_at": "2026-11-23 21:00",
    "last_seen": "2026-11-23"
   }
  }

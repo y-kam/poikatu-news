@@ -61547,17 +61547,16 @@
    "site": "rebates",
    "deal_id": "15117",
    "title": "ナイキオンラインストア",
-   "points_text": "4.0%",
+   "points_text": "3.0%",
    "yen": null,
-   "percent": 4.0,
+   "percent": 3.0,
    "url": "https://www.rebates.jp/nike-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-23",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-17 10:00",
-   "renewed_from": "3.0%"
+   "renew_hold": true
   },
   "rebates:25090": {
    "site": "rebates",
@@ -795960,7 +795959,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22161": {
    "site": "poikatsu_club",
@@ -795974,7 +795973,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 15:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22163": {
    "site": "poikatsu_club",
@@ -796386,7 +796385,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22167": {
    "site": "poikatsu_club",
@@ -796400,7 +796399,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22166": {
    "site": "poikatsu_club",
@@ -796414,7 +796413,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   "poikatsu_club:22169": {
    "site": "poikatsu_club",
@@ -803717,7 +803716,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 17:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "delisted_at": "2026-11-21"
   },
   "warau:209467": {
@@ -805981,7 +805980,7 @@
    "seeded": false,
    "first_seen": "2026-11-21",
    "first_seen_at": "2026-11-21 10:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "delisted_at": "2026-11-21"
   },
   "warau:209477": {
@@ -805996,7 +805995,7 @@
    "seeded": false,
    "first_seen": "2026-11-21",
    "first_seen_at": "2026-11-21 10:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "delisted_at": "2026-11-21"
   },
   "warau:208698": {

@@ -292,14 +292,15 @@
    "site": "poney",
    "deal_id": "10000059701",
    "title": "Yahoo!トラベル「ヤフーパック（宿泊＋航空券）JAL便利用」",
-   "points_text": "2.5％",
+   "points_text": "1.5％",
    "yen": null,
-   "percent": 2.5,
+   "percent": 1.5,
    "url": "https://www.poney.jp/Yahoo-トラベル「ヤフーパック（宿泊＋航空券）JAL便利用」/detail/10000059701",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-07-08",
-   "condition": "ヤフーパック（JAL便）予約後の旅行完了 で"
+   "last_seen": "2026-11-24",
+   "condition": "ヤフーパック（JAL便）予約後の旅行完了 で",
+   "renew_hold": true
   },
   "poney:10000061864": {
    "site": "poney",
@@ -57666,17 +57667,16 @@
    "site": "rebates",
    "deal_id": "20573",
    "title": "すかいらーくの宅配",
-   "points_text": "5.0%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/delivery.skylark.co.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-24",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-20 10:00",
-   "renewed_from": "4.0%"
+   "renew_hold": true
   },
   "rebates:14733": {
    "site": "rebates",
@@ -62324,16 +62324,17 @@
    "site": "rebates",
    "deal_id": "14751",
    "title": "プーマ公式ストア",
-   "points_text": "4.5%",
+   "points_text": "7.5%",
    "yen": null,
-   "percent": 4.5,
+   "percent": 7.5,
    "url": "https://www.rebates.jp/puma-jp",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-24",
    "condition": "",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-24 10:00",
+   "renewed_from": "4.5%"
   },
   "rebates:24896": {
    "site": "rebates",
@@ -755969,7 +755970,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 17:00",
-   "last_seen": "2026-10-31",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-11-03"
   },
   "warau:208572": {
@@ -768092,7 +768093,7 @@
    "seeded": false,
    "first_seen": "2026-11-05",
    "first_seen_at": "2026-11-05 10:00",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-24"
   },
   "poney:6285": {
    "site": "poney",
@@ -788488,7 +788489,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-23"
+   "last_seen": "2026-11-24"
   },
   "pointchips:1430": {
    "site": "pointchips",
@@ -796310,7 +796311,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-23"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22167": {
    "site": "poikatsu_club",
@@ -796324,7 +796325,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-23"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22166": {
    "site": "poikatsu_club",
@@ -796338,7 +796339,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-23"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22169": {
    "site": "poikatsu_club",
@@ -800743,7 +800744,7 @@
   "moppy:162455": {
    "site": "moppy",
    "deal_id": "162455",
-   "title": "【超還元】nanacoクレジットカード（ナナコクレジットカード）【11/30まで】",
+   "title": "【年会費無料】nanacoクレジットカード（ナナコクレジットカード）【11/30まで】",
    "points_text": "5,000P",
    "yen": 5000.0,
    "percent": null,
@@ -800752,7 +800753,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "site_new": true
   },
   "moppy:162454": {
@@ -805906,7 +805907,7 @@
    "seeded": false,
    "first_seen": "2026-11-21",
    "first_seen_at": "2026-11-21 10:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-11-21"
   },
   "warau:209477": {
@@ -805921,7 +805922,7 @@
    "seeded": false,
    "first_seen": "2026-11-21",
    "first_seen_at": "2026-11-21 10:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-11-21"
   },
   "warau:208698": {
@@ -806484,7 +806485,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 21:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "dead_streak": 1
   },
   "warau:209508": {
@@ -806499,7 +806500,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 21:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "dead_streak": 1
   },
   "warau:209505": {
@@ -806514,7 +806515,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 21:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "dead_streak": 1
   },
   "warau:209504": {
@@ -806529,7 +806530,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 21:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "dead_streak": 1
   },
   "warau:209440": {
@@ -806572,6 +806573,76 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 01:00",
+   "last_seen": "2026-11-24"
+  },
+  "warau:208471": {
+   "site": "warau",
+   "deal_id": "208471",
+   "title": "SBI証券 こども口座開設",
+   "points_text": "11,000pt",
+   "yen": 11000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=208471",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 10:00",
+   "last_seen": "2026-11-24"
+  },
+  "warau:209507": {
+   "site": "warau",
+   "deal_id": "209507",
+   "title": "【myChips】Golf Rival - Multiplayer Game（StepUp）",
+   "points_text": "5,605pt",
+   "yen": 5605.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209507",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 10:00",
+   "last_seen": "2026-11-24"
+  },
+  "warau:209506": {
+   "site": "warau",
+   "deal_id": "209506",
+   "title": "【myChips】DomiNations Asia（StepUp）",
+   "points_text": "7,518pt",
+   "yen": 7518.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209506",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 10:00",
+   "last_seen": "2026-11-24"
+  },
+  "poney:3247": {
+   "site": "poney",
+   "deal_id": "3247",
+   "title": "【JTB】海外旅行",
+   "points_text": "1.5％",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://www.poney.jp/【JTB】海外旅行/detail/3247",
+   "condition": "予約後の出発完了 で",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 10:00",
+   "last_seen": "2026-11-24"
+  },
+  "poney:1160": {
+   "site": "poney",
+   "deal_id": "1160",
+   "title": "Yahoo!ショッピング",
+   "points_text": "1％",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://www.poney.jp/Yahoo-ショッピング/detail/1160",
+   "condition": "商品購入後の配送確認 で",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 10:00",
    "last_seen": "2026-11-24"
   }
  }

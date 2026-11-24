@@ -70144,7 +70144,7 @@
   "line_catalog:bookoffonline": {
    "site": "line_catalog",
    "deal_id": "bookoffonline",
-   "title": "ブックオフ公式オンラインストア",
+   "title": "ブックオフ",
    "points_text": "1.0%還元",
    "yen": null,
    "percent": 1.0,
@@ -317343,7 +317343,7 @@
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 21:00",
-   "last_seen": "2026-09-10",
+   "last_seen": "2026-11-24",
    "site_new": false,
    "renew_hold": true
   },
@@ -343378,7 +343378,7 @@
    "seeded": false,
    "first_seen": "2026-07-24",
    "first_seen_at": "2026-07-24 21:00",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-24",
    "site_new": false,
    "delisted_at": "2026-10-23"
   },
@@ -361011,7 +361011,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18031": {
    "site": "kurashiru_reward",
@@ -361025,7 +361025,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:38012": {
    "site": "powl",
@@ -361413,7 +361413,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 17:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-24"
   },
   "powl:38095": {
    "site": "powl",
@@ -362034,7 +362034,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18036": {
    "site": "kurashiru_reward",
@@ -362048,7 +362048,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "52,800コイン"
   },
@@ -362064,7 +362064,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true
   },
   "kurashiru_reward:18034": {
@@ -362079,7 +362079,7 @@
    "seeded": false,
    "first_seen": "2026-08-03",
    "first_seen_at": "2026-08-03 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true
   },
   "kurashiru_reward:16325": {
@@ -363046,7 +363046,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "moppy:160845": {
    "site": "moppy",
@@ -364149,7 +364149,7 @@
    "seeded": false,
    "first_seen": "2026-08-04",
    "first_seen_at": "2026-08-04 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "tamaru_mall:2472": {
    "site": "tamaru_mall",
@@ -364926,16 +364926,18 @@
    "site": "moppy",
    "deal_id": "6789",
    "title": "高島屋コスメサイト TBEAUT(ティービューティー)",
-   "points_text": "2.5%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 2.5,
+   "percent": 4.0,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=6789",
    "condition": "商品購入",
    "seeded": false,
    "first_seen": "2026-08-05",
    "first_seen_at": "2026-08-05 01:00",
-   "last_seen": "2026-08-05",
-   "delisted_at": "2026-08-11"
+   "last_seen": "2026-11-24",
+   "delisted_at": "2026-08-11",
+   "renewed_at": "2026-11-24 17:00",
+   "renewed_from": "2.5%"
   },
   "moppy:1206": {
    "site": "moppy",
@@ -369162,7 +369164,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-06 13:00",
    "renewed_from": "180,000コイン"
   },
@@ -369194,7 +369196,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18090": {
    "site": "kurashiru_reward",
@@ -369208,7 +369210,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18089": {
    "site": "kurashiru_reward",
@@ -369222,7 +369224,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18088": {
    "site": "kurashiru_reward",
@@ -369236,7 +369238,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18087": {
    "site": "kurashiru_reward",
@@ -369250,7 +369252,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:37929": {
    "site": "powl",
@@ -375031,7 +375033,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 01:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-08-28"
   },
   "powl:38671": {
@@ -375618,7 +375620,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:20313": {
    "site": "poikatsu_club",
@@ -375783,7 +375785,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-08-26",
    "renewed_at": "2026-11-12 11:00",
    "renewed_from": "51,000コイン"
@@ -376174,7 +376176,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:38776": {
    "site": "powl",
@@ -376880,7 +376882,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18223": {
    "site": "kurashiru_reward",
@@ -376894,7 +376896,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true
   },
   "powl:38243": {
@@ -380222,7 +380224,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18303": {
    "site": "kurashiru_reward",
@@ -380236,7 +380238,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18302": {
    "site": "kurashiru_reward",
@@ -380250,7 +380252,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18299": {
    "site": "kurashiru_reward",
@@ -380264,7 +380266,7 @@
    "seeded": false,
    "first_seen": "2026-08-17",
    "first_seen_at": "2026-08-17 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18298": {
    "site": "kurashiru_reward",
@@ -385384,7 +385386,7 @@
    "seeded": false,
    "first_seen": "2026-08-19",
    "first_seen_at": "2026-08-19 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-08-20 01:00",
    "renewed_from": "112,800コイン",
    "delisted_at": "2026-08-31"
@@ -387233,7 +387235,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 11:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "144,000コイン"
   },
@@ -387661,7 +387663,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18356": {
    "site": "kurashiru_reward",
@@ -387675,7 +387677,7 @@
    "seeded": false,
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18027": {
    "site": "kurashiru_reward",
@@ -389157,7 +389159,7 @@
    "seeded": false,
    "first_seen": "2026-08-21",
    "first_seen_at": "2026-08-21 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:35343": {
    "site": "powl",
@@ -399238,7 +399240,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 10:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18437": {
    "site": "kurashiru_reward",
@@ -399252,7 +399254,7 @@
    "seeded": false,
    "first_seen": "2026-08-24",
    "first_seen_at": "2026-08-24 10:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "moppy:147127": {
    "site": "moppy",
@@ -401755,7 +401757,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18472": {
    "site": "kurashiru_reward",
@@ -401769,7 +401771,7 @@
    "seeded": false,
    "first_seen": "2026-08-25",
    "first_seen_at": "2026-08-25 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:39167": {
    "site": "powl",
@@ -405461,7 +405463,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 13:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-10-14"
   },
   "kurashiru_reward:18521": {
@@ -405476,7 +405478,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:39971": {
    "site": "powl",
@@ -406683,7 +406685,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18535": {
    "site": "kurashiru_reward",
@@ -406697,7 +406699,7 @@
    "seeded": false,
    "first_seen": "2026-08-27",
    "first_seen_at": "2026-08-27 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40022": {
    "site": "powl",
@@ -414051,7 +414053,7 @@
    "seeded": false,
    "first_seen": "2026-09-01",
    "first_seen_at": "2026-09-01 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18621": {
    "site": "kurashiru_reward",
@@ -419419,7 +419421,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 01:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true
   },
   "powl:40107": {
@@ -420666,7 +420668,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18700": {
    "site": "kurashiru_reward",
@@ -420680,7 +420682,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18699": {
    "site": "kurashiru_reward",
@@ -420694,7 +420696,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-10-19"
   },
   "kurashiru_reward:18474": {
@@ -420709,7 +420711,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "tamaru_mall:1084": {
    "site": "tamaru_mall",
@@ -420923,7 +420925,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 17:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true
   },
   "kurashiru_reward:18703": {
@@ -420938,7 +420940,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40141": {
    "site": "powl",
@@ -422650,7 +422652,7 @@
    "seeded": false,
    "first_seen": "2026-09-03",
    "first_seen_at": "2026-09-03 10:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "sugutama:1435": {
    "site": "sugutama",
@@ -422723,7 +422725,7 @@
    "seeded": false,
    "first_seen": "2026-09-03",
    "first_seen_at": "2026-09-03 11:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-09-17"
   },
   "powl:40338": {
@@ -422898,7 +422900,7 @@
    "seeded": false,
    "first_seen": "2026-09-03",
    "first_seen_at": "2026-09-03 13:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-09-19",
    "renew_hold": true
   },
@@ -423580,7 +423582,7 @@
    "seeded": false,
    "first_seen": "2026-09-03",
    "first_seen_at": "2026-09-03 17:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-11-11"
   },
   "point_hiroba:5719": {
@@ -424908,7 +424910,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40111": {
    "site": "powl",
@@ -425890,7 +425892,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:20760": {
    "site": "poikatsu_club",
@@ -426531,7 +426533,7 @@
    "seeded": false,
    "first_seen": "2026-09-04",
    "first_seen_at": "2026-09-04 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:39394": {
    "site": "powl",
@@ -429388,7 +429390,7 @@
    "seeded": false,
    "first_seen": "2026-09-07",
    "first_seen_at": "2026-09-07 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40681": {
    "site": "powl",
@@ -429743,7 +429745,7 @@
    "seeded": false,
    "first_seen": "2026-09-07",
    "first_seen_at": "2026-09-07 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18782": {
    "site": "kurashiru_reward",
@@ -429772,7 +429774,7 @@
    "seeded": false,
    "first_seen": "2026-09-07",
    "first_seen_at": "2026-09-07 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18780": {
    "site": "kurashiru_reward",
@@ -429786,7 +429788,7 @@
    "seeded": false,
    "first_seen": "2026-09-07",
    "first_seen_at": "2026-09-07 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:20790": {
    "site": "poikatsu_club",
@@ -432312,7 +432314,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18806": {
    "site": "kurashiru_reward",
@@ -432326,7 +432328,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18803": {
    "site": "kurashiru_reward",
@@ -432340,7 +432342,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:39667": {
    "site": "powl",
@@ -432816,7 +432818,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-09-08 21:00",
    "renewed_from": "144,000コイン"
   },
@@ -432832,7 +432834,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18808": {
    "site": "kurashiru_reward",
@@ -432846,7 +432848,7 @@
    "seeded": false,
    "first_seen": "2026-09-08",
    "first_seen_at": "2026-09-08 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40769": {
    "site": "powl",
@@ -434818,7 +434820,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "tamaru_mall:2790": {
    "site": "tamaru_mall",
@@ -499970,7 +499972,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18845": {
    "site": "kurashiru_reward",
@@ -499984,7 +499986,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18843": {
    "site": "kurashiru_reward",
@@ -499998,7 +500000,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18842": {
    "site": "kurashiru_reward",
@@ -500012,7 +500014,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-09-15",
    "renewed_at": "2026-11-18 10:00",
    "renewed_from": "2,700,000コイン"
@@ -500029,7 +500031,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-09-26",
    "renewed_at": "2026-11-18 10:00",
    "renewed_from": "4,500,000コイン"
@@ -500046,7 +500048,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 15:12",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18837": {
    "site": "kurashiru_reward",
@@ -500478,7 +500480,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 17:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-11-08"
   },
   "powl:40782": {
@@ -501468,7 +501470,7 @@
    "seeded": false,
    "first_seen": "2026-09-09",
    "first_seen_at": "2026-09-09 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18862": {
    "site": "kurashiru_reward",
@@ -502589,7 +502591,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40790": {
    "site": "powl",
@@ -502963,7 +502965,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18879": {
    "site": "kurashiru_reward",
@@ -502977,7 +502979,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40802": {
    "site": "powl",
@@ -503308,7 +503310,7 @@
    "seeded": false,
    "first_seen": "2026-09-10",
    "first_seen_at": "2026-09-10 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:40804": {
    "site": "powl",
@@ -505913,25 +505915,24 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 13:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-01 01:00",
    "renewed_from": "119,000コイン"
   },
   "kurashiru_reward:18906": {
    "site": "kurashiru_reward",
    "deal_id": "18906",
-   "title": "【11/23(月)まで最高還元】SBI証券 こども口座開設",
-   "points_text": "1,200,000コイン",
-   "yen": 12000.0,
+   "title": "【11/27(金)まで最高還元】SBI証券 こども口座開設",
+   "points_text": "1,000,000コイン",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/18906",
    "condition": "こども口座新規開設完了 で",
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 13:00",
-   "last_seen": "2026-11-21",
-   "renewed_at": "2026-11-21 01:00",
-   "renewed_from": "800,000コイン"
+   "last_seen": "2026-11-24",
+   "renew_hold": true
   },
   "powl:40806": {
    "site": "powl",
@@ -510730,7 +510731,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-09-26",
    "renewed_at": "2026-11-13 11:00",
    "renewed_from": "600,000コイン"
@@ -511381,7 +511382,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-09-16"
   },
   "powl:41092": {
@@ -515003,7 +515004,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:41168": {
    "site": "powl",
@@ -515920,7 +515921,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19024": {
    "site": "kurashiru_reward",
@@ -515934,7 +515935,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19023": {
    "site": "kurashiru_reward",
@@ -515948,7 +515949,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19022": {
    "site": "kurashiru_reward",
@@ -515962,7 +515963,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19020": {
    "site": "kurashiru_reward",
@@ -515976,7 +515977,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-05 11:00",
    "renewed_from": "28,800コイン"
   },
@@ -516008,7 +516009,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19010": {
    "site": "kurashiru_reward",
@@ -516022,7 +516023,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19009": {
    "site": "kurashiru_reward",
@@ -516036,7 +516037,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19008": {
    "site": "kurashiru_reward",
@@ -516050,7 +516051,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:41182": {
    "site": "powl",
@@ -516803,7 +516804,7 @@
    "seeded": false,
    "first_seen": "2026-09-16",
    "first_seen_at": "2026-09-16 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:41133": {
    "site": "powl",
@@ -518043,7 +518044,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:21008": {
    "site": "poikatsu_club",
@@ -641051,7 +641052,7 @@
    "seeded": false,
    "first_seen": "2000-01-01",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-24",
    "backfill": true,
    "backfill_dated": true
   },
@@ -649467,7 +649468,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:41201": {
    "site": "powl",
@@ -668202,7 +668203,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19081": {
    "site": "kurashiru_reward",
@@ -668216,7 +668217,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19080": {
    "site": "kurashiru_reward",
@@ -668230,7 +668231,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19066": {
    "site": "kurashiru_reward",
@@ -668244,7 +668245,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19064": {
    "site": "kurashiru_reward",
@@ -668258,7 +668259,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19047": {
    "site": "kurashiru_reward",
@@ -668272,7 +668273,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:21037": {
    "site": "poikatsu_club",
@@ -670187,7 +670188,7 @@
    "seeded": false,
    "first_seen": "2026-09-18",
    "first_seen_at": "2026-09-18 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19097": {
    "site": "kurashiru_reward",
@@ -674175,7 +674176,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19128": {
    "site": "kurashiru_reward",
@@ -674204,7 +674205,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:41304": {
    "site": "powl",
@@ -675157,7 +675158,7 @@
    "seeded": false,
    "first_seen": "2026-09-24",
    "first_seen_at": "2026-09-24 15:22",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-05 21:00",
    "renewed_from": "25,200コイン"
   },
@@ -678253,7 +678254,7 @@
    "seeded": false,
    "first_seen": "2026-09-25",
    "first_seen_at": "2026-09-25 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19166": {
    "site": "kurashiru_reward",
@@ -678267,7 +678268,7 @@
    "seeded": false,
    "first_seen": "2026-09-25",
    "first_seen_at": "2026-09-25 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "moppy:162223": {
    "site": "moppy",
@@ -683333,7 +683334,7 @@
    "seeded": false,
    "first_seen": "2026-09-28",
    "first_seen_at": "2026-09-28 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:41200": {
    "site": "powl",
@@ -685938,7 +685939,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19241": {
    "site": "kurashiru_reward",
@@ -685952,7 +685953,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19240": {
    "site": "kurashiru_reward",
@@ -685966,7 +685967,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true
   },
   "poikatsu_club:21197": {
@@ -697102,7 +697103,7 @@
    "seeded": false,
    "first_seen": "2026-10-01",
    "first_seen_at": "2026-10-01 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-20 01:00",
    "renewed_from": "1.5%"
   },
@@ -701766,7 +701767,7 @@
    "seeded": false,
    "first_seen": "2026-10-05",
    "first_seen_at": "2026-10-05 17:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-10-08"
   },
   "powl:42072": {
@@ -711069,17 +711070,16 @@
    "site": "kurashiru_reward",
    "deal_id": "19340",
    "title": "SBI証券 こども口座開設",
-   "points_text": "939,120コイン",
-   "yen": 9391.2,
+   "points_text": "834,720コイン",
+   "yen": 8347.2,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/19340",
    "condition": "こども口座新規開設完了 で",
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 21:00",
-   "last_seen": "2026-11-21",
-   "renewed_at": "2026-11-21 01:00",
-   "renewed_from": "730,320コイン"
+   "last_seen": "2026-11-24",
+   "renew_hold": true
   },
   "kurashiru_reward:19328": {
    "site": "kurashiru_reward",
@@ -711093,7 +711093,7 @@
    "seeded": false,
    "first_seen": "2026-10-06",
    "first_seen_at": "2026-10-06 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:42080": {
    "site": "powl",
@@ -711999,7 +711999,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 10:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19329": {
    "site": "kurashiru_reward",
@@ -713681,7 +713681,7 @@
    "seeded": false,
    "first_seen": "2026-10-07",
    "first_seen_at": "2026-10-07 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "point_museum:s27573": {
    "site": "point_museum",
@@ -716366,7 +716366,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19355": {
    "site": "kurashiru_reward",
@@ -716380,7 +716380,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19353": {
    "site": "kurashiru_reward",
@@ -716409,7 +716409,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 13:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-10-23"
   },
   "kurashiru_reward:19350": {
@@ -716424,7 +716424,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 13:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-10-23"
   },
   "powl:42267": {
@@ -717716,7 +717716,7 @@
    "seeded": false,
    "first_seen": "2026-10-08",
    "first_seen_at": "2026-10-08 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:42069": {
    "site": "powl",
@@ -718667,7 +718667,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:42389": {
    "site": "powl",
@@ -720276,7 +720276,7 @@
    "seeded": false,
    "first_seen": "2026-10-09",
    "first_seen_at": "2026-10-09 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:42320": {
    "site": "powl",
@@ -723781,7 +723781,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:18464": {
    "site": "kurashiru_reward",
@@ -723795,7 +723795,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:42588": {
    "site": "powl",
@@ -729316,7 +729316,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19588": {
    "site": "kurashiru_reward",
@@ -729330,7 +729330,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19587": {
    "site": "kurashiru_reward",
@@ -729344,7 +729344,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:43050": {
    "site": "powl",
@@ -734146,7 +734146,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:21527": {
    "site": "poikatsu_club",
@@ -734496,7 +734496,7 @@
    "seeded": false,
    "first_seen": "2026-10-20",
    "first_seen_at": "2026-10-20 15:16",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:21535": {
    "site": "poikatsu_club",
@@ -737191,7 +737191,7 @@
    "seeded": false,
    "first_seen": "2026-10-21",
    "first_seen_at": "2026-10-21 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:43475": {
    "site": "powl",
@@ -740261,7 +740261,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:21615": {
    "site": "poikatsu_club",
@@ -741759,7 +741759,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19760": {
    "site": "kurashiru_reward",
@@ -741773,7 +741773,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19759": {
    "site": "kurashiru_reward",
@@ -741787,7 +741787,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19758": {
    "site": "kurashiru_reward",
@@ -741801,7 +741801,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19757": {
    "site": "kurashiru_reward",
@@ -741815,7 +741815,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19753": {
    "site": "kurashiru_reward",
@@ -741829,7 +741829,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "point_museum:v1790": {
    "site": "point_museum",
@@ -742296,7 +742296,7 @@
    "seeded": false,
    "first_seen": "2026-10-23",
    "first_seen_at": "2026-10-23 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "tamaru_mall:2856": {
    "site": "tamaru_mall",
@@ -748551,7 +748551,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "point_hiroba:5320": {
    "site": "point_hiroba",
@@ -753779,7 +753779,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19827": {
    "site": "kurashiru_reward",
@@ -754496,7 +754496,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19884": {
    "site": "kurashiru_reward",
@@ -754510,7 +754510,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:43540": {
    "site": "powl",
@@ -756619,7 +756619,7 @@
    "seeded": false,
    "first_seen": "2026-10-30",
    "first_seen_at": "2026-10-30 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:43658": {
    "site": "powl",
@@ -759216,7 +759216,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19916": {
    "site": "kurashiru_reward",
@@ -759230,7 +759230,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renew_hold": true,
    "delisted_at": "2026-11-14"
   },
@@ -759246,7 +759246,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19914": {
    "site": "kurashiru_reward",
@@ -759260,7 +759260,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:44049": {
    "site": "powl",
@@ -761578,7 +761578,7 @@
    "seeded": false,
    "first_seen": "2026-11-01",
    "first_seen_at": "2026-11-01 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "warau:208537": {
    "site": "warau",
@@ -762235,7 +762235,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 10:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "chobirich:1730985": {
    "site": "chobirich",
@@ -764151,7 +764151,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-20 17:00",
    "renewed_from": "2,400コイン"
   },
@@ -764167,7 +764167,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:44102": {
    "site": "powl",
@@ -764834,7 +764834,7 @@
    "seeded": false,
    "first_seen": "2026-11-03",
    "first_seen_at": "2026-11-03 05:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:21842": {
    "site": "poikatsu_club",
@@ -766219,7 +766219,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19965": {
    "site": "kurashiru_reward",
@@ -766233,7 +766233,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19964": {
    "site": "kurashiru_reward",
@@ -766247,7 +766247,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-19 13:00",
    "renewed_from": "144,000コイン"
   },
@@ -766255,17 +766255,16 @@
    "site": "kurashiru_reward",
    "deal_id": "19956",
    "title": "みずほ銀行口座開設「10万円以上入金」",
-   "points_text": "1,450,000コイン",
-   "yen": 14500.0,
+   "points_text": "1,150,000コイン",
+   "yen": 11500.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/19956",
    "condition": "口座開設完了＋10万円以上の入金で成果 で",
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 13:00",
-   "last_seen": "2026-11-21",
-   "renewed_at": "2026-11-21 01:00",
-   "renewed_from": "1,000,000コイン"
+   "last_seen": "2026-11-24",
+   "renew_hold": true
   },
   "powl:44317": {
    "site": "powl",
@@ -766670,7 +766669,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:19971": {
    "site": "kurashiru_reward",
@@ -766699,7 +766698,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-19 10:00",
    "renewed_from": "3,000,000コイン"
   },
@@ -766715,7 +766714,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "renewed_at": "2026-11-19 11:00",
    "renewed_from": "1,500,000コイン"
   },
@@ -771466,23 +771465,22 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20013": {
    "site": "kurashiru_reward",
    "deal_id": "20013",
    "title": "みずほ楽天カード",
-   "points_text": "1,100,000コイン",
-   "yen": 11000.0,
+   "points_text": "1,000,000コイン",
+   "yen": 10000.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/20013",
    "condition": "新規口座開設＋新規クレジットカード発行＋1円以上利用 で",
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 13:00",
-   "last_seen": "2026-11-21",
-   "renewed_at": "2026-11-21 01:00",
-   "renewed_from": "480,000コイン"
+   "last_seen": "2026-11-24",
+   "renew_hold": true
   },
   "powl:44569": {
    "site": "powl",
@@ -772826,7 +772824,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:44602": {
    "site": "powl",
@@ -773783,7 +773781,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "delisted_at": "2026-11-07"
   },
   "kurashiru_reward:20025": {
@@ -773798,7 +773796,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20024": {
    "site": "kurashiru_reward",
@@ -773812,7 +773810,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20023": {
    "site": "kurashiru_reward",
@@ -773826,7 +773824,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20022": {
    "site": "kurashiru_reward",
@@ -773840,7 +773838,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:43864": {
    "site": "powl",
@@ -781158,7 +781156,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:43607": {
    "site": "powl",
@@ -782946,7 +782944,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:44316": {
    "site": "powl",
@@ -783215,7 +783213,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 15:00",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22008": {
    "site": "poikatsu_club",
@@ -787742,7 +787740,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:44012": {
    "site": "powl",
@@ -788516,7 +788514,7 @@
    "seeded": false,
    "first_seen": "2026-11-12",
    "first_seen_at": "2026-11-12 21:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-24"
   },
   "pointchips:1428": {
    "site": "pointchips",
@@ -789526,7 +789524,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20176": {
    "site": "kurashiru_reward",
@@ -789540,7 +789538,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20169": {
    "site": "kurashiru_reward",
@@ -789554,7 +789552,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:46216": {
    "site": "powl",
@@ -791020,7 +791018,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:44623": {
    "site": "powl",
@@ -794060,7 +794058,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20228": {
    "site": "kurashiru_reward",
@@ -794074,7 +794072,7 @@
    "seeded": false,
    "first_seen": "2026-11-16",
    "first_seen_at": "2026-11-16 21:29",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22150": {
    "site": "poikatsu_club",
@@ -795245,7 +795243,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20242": {
    "site": "kurashiru_reward",
@@ -795259,7 +795257,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 11:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22153": {
    "site": "poikatsu_club",
@@ -796269,7 +796267,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20246": {
    "site": "kurashiru_reward",
@@ -796283,7 +796281,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20245": {
    "site": "kurashiru_reward",
@@ -796297,7 +796295,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "poikatsu_club:22168": {
    "site": "poikatsu_club",
@@ -796673,7 +796671,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20269": {
    "site": "kurashiru_reward",
@@ -796687,7 +796685,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20268": {
    "site": "kurashiru_reward",
@@ -796701,7 +796699,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20267": {
    "site": "kurashiru_reward",
@@ -796715,7 +796713,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20266": {
    "site": "kurashiru_reward",
@@ -796729,7 +796727,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20262": {
    "site": "kurashiru_reward",
@@ -796743,7 +796741,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20261": {
    "site": "kurashiru_reward",
@@ -796757,7 +796755,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20260": {
    "site": "kurashiru_reward",
@@ -796771,7 +796769,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20259": {
    "site": "kurashiru_reward",
@@ -796785,7 +796783,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20258": {
    "site": "kurashiru_reward",
@@ -796799,7 +796797,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20252": {
    "site": "kurashiru_reward",
@@ -796813,7 +796811,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20251": {
    "site": "kurashiru_reward",
@@ -796827,7 +796825,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "kurashiru_reward:20250": {
    "site": "kurashiru_reward",
@@ -796841,7 +796839,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:36329": {
    "site": "powl",
@@ -797886,7 +797884,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 15:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:46672": {
    "site": "powl",
@@ -798061,7 +798059,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:46695": {
    "site": "powl",
@@ -800769,7 +800767,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-24",
    "site_new": true,
    "renewed_at": "2026-11-21 13:00",
    "renewed_from": "42P",
@@ -801087,7 +801085,7 @@
    "seeded": false,
    "first_seen": "2026-11-19",
    "first_seen_at": "2026-11-19 21:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:46198": {
    "site": "powl",
@@ -801685,7 +801683,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 01:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:46678": {
    "site": "powl",
@@ -803250,7 +803248,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 13:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "point_hiroba:5761": {
    "site": "point_hiroba",
@@ -803965,7 +803963,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 17:00",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-24"
   },
   "powl:46618": {
    "site": "powl",
@@ -807166,6 +807164,34 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 15:00",
+   "last_seen": "2026-11-24"
+  },
+  "warau:209532": {
+   "site": "warau",
+   "deal_id": "209532",
+   "title": "スマイルゼミ（資料請求）",
+   "points_text": "150pt",
+   "yen": 150.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209532",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 17:00",
+   "last_seen": "2026-11-24"
+  },
+  "gmo_poikatsu:13348": {
+   "site": "gmo_poikatsu",
+   "deal_id": "13348",
+   "title": "SBI証券 こども口座_こども口座開設完了(申込から60日以内)",
+   "points_text": "9,000 P",
+   "yen": 9000.0,
+   "percent": null,
+   "url": "https://colleee.net/programs/13348",
+   "condition": "こども口座の新規口座開設完了",
+   "seeded": false,
+   "first_seen": "2026-11-24",
+   "first_seen_at": "2026-11-24 17:00",
    "last_seen": "2026-11-24"
   }
  }

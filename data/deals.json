@@ -294049,7 +294049,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "moppy:161609": {
    "site": "moppy",
@@ -294153,7 +294153,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "moppy:159218": {
    "site": "moppy",
@@ -294182,7 +294182,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-05",
+   "last_seen": "2026-11-25",
    "site_new": false
   },
   "moppy:161811": {
@@ -296422,7 +296422,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "renewed_at": "2026-09-04 17:00",
    "renewed_from": "91P",
    "site_new": false
@@ -472562,7 +472562,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "backfill_dated": true,
    "site_new": false
   },
@@ -472706,7 +472706,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "backfill_dated": true,
    "site_new": false,
    "renew_hold": true
@@ -473096,7 +473096,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-25",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473256,7 +473256,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-25",
    "backfill_dated": true,
    "site_new": false
   },
@@ -506082,7 +506082,7 @@
    "seeded": false,
    "first_seen": "2026-09-11",
    "first_seen_at": "2026-09-11 15:00",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-25",
    "site_new": false
   },
   "warau:206679": {
@@ -639653,7 +639653,7 @@
    "seeded": false,
    "first_seen": "2026-09-17",
    "first_seen_at": "2026-09-17 15:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-25",
    "site_new": false
   },
   "moppy:155266": {
@@ -683899,7 +683899,7 @@
    "seeded": false,
    "first_seen": "2026-09-29",
    "first_seen_at": "2026-09-29 05:00",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "site_new": false
   },
   "moppy:145281": {
@@ -744968,7 +744968,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 13:00",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-25",
    "site_new": false
   },
   "warau:208311": {
@@ -806589,7 +806589,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 01:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "warau:209425": {
    "site": "warau",
@@ -807244,7 +807244,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "site_new": true
   },
   "moppy:1853": {
@@ -808344,6 +808344,34 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 01:00",
+   "last_seen": "2026-11-25"
+  },
+  "moppy:162463": {
+   "site": "moppy",
+   "deal_id": "162463",
+   "title": "Travel Town - マージアドベンチャー",
+   "points_text": "950P",
+   "yen": 950.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162463",
+   "condition": "レベル30到達",
+   "seeded": false,
+   "first_seen": "2026-11-25",
+   "first_seen_at": "2026-11-25 05:00",
+   "last_seen": "2026-11-25"
+  },
+  "warau:209555": {
+   "site": "warau",
+   "deal_id": "209555",
+   "title": "【myChips】IRIAM - キャラクターのライブ配信アプリ（インストール）",
+   "points_text": "2pt",
+   "yen": 2.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209555",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-25",
+   "first_seen_at": "2026-11-25 05:00",
    "last_seen": "2026-11-25"
   }
  }

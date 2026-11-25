@@ -56465,16 +56465,16 @@
    "site": "rebates",
    "deal_id": "24603",
    "title": "atmos公式サイト",
-   "points_text": "2.0%",
+   "points_text": "4.0%",
    "yen": null,
-   "percent": 2.0,
+   "percent": 4.0,
    "url": "https://www.rebates.jp/atmos-tokyo.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-25",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-20 10:00",
+   "renewed_at": "2026-11-25 10:00",
    "renewed_from": "1.0%"
   },
   "rebates:22613": {
@@ -797562,7 +797562,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 13:00",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "site_new": false,
    "renewed_at": "2026-11-24 01:00"
   },
@@ -798221,7 +798221,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "poikatsu_club:22190": {
    "site": "poikatsu_club",
@@ -798235,7 +798235,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "poikatsu_club:22189": {
    "site": "poikatsu_club",
@@ -798249,7 +798249,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "poikatsu_club:22188": {
    "site": "poikatsu_club",
@@ -798263,7 +798263,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "poikatsu_club:22186": {
    "site": "poikatsu_club",
@@ -798277,7 +798277,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "poikatsu_club:22185": {
    "site": "poikatsu_club",
@@ -798291,7 +798291,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 17:00",
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   "poikatsu_club:22192": {
    "site": "poikatsu_club",
@@ -808568,6 +808568,34 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 07:38",
+   "last_seen": "2026-11-25"
+  },
+  "warau:209556": {
+   "site": "warau",
+   "deal_id": "209556",
+   "title": "【myChips】Last Asylum: Plague（インストール）",
+   "points_text": "2pt",
+   "yen": 2.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209556",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-25",
+   "first_seen_at": "2026-11-25 10:00",
+   "last_seen": "2026-11-25"
+  },
+  "warau:209557": {
+   "site": "warau",
+   "deal_id": "209557",
+   "title": "【myChips】Sheep Dash（StepUp）",
+   "points_text": "721pt",
+   "yen": 721.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209557",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-25",
+   "first_seen_at": "2026-11-25 10:00",
    "last_seen": "2026-11-25"
   }
  }

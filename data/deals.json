@@ -102050,7 +102050,7 @@
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "seed_filled": true
   },
   "powl:25099": {
@@ -421071,7 +421071,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 21:00",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "site_new": false,
    "delisted_at": "2026-10-06",
    "renewed_at": "2026-10-17 01:00",
@@ -779979,7 +779979,7 @@
    "seeded": false,
    "first_seen": "2026-11-10",
    "first_seen_at": "2026-11-10 17:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-26",
    "site_new": false
   },
   "warau:208983": {
@@ -809134,7 +809134,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 13:00",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   "tamaru_mall:2949": {
    "site": "tamaru_mall",
@@ -809350,7 +809350,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 15:00",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-26"
   },
   "tamaru_mall:2950": {
    "site": "tamaru_mall",
@@ -810222,8 +810222,8 @@
    "site": "moppy",
    "deal_id": "162469",
    "title": "ケロロ軍曹☆ ぽちっと大出動であります！",
-   "points_text": "57P",
-   "yen": 57.0,
+   "points_text": "60P",
+   "yen": 60.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162469",
    "condition": "チュートリアル完了",
@@ -810231,7 +810231,9 @@
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 21:00",
    "last_seen": "2026-11-26",
-   "site_new": true
+   "site_new": true,
+   "renewed_at": "2026-11-26 15:00",
+   "renewed_from": "57P"
   },
   "warau:209607": {
    "site": "warau",
@@ -812092,6 +812094,146 @@
    "seeded": false,
    "first_seen": "2026-11-26",
    "first_seen_at": "2026-11-26 13:00",
+   "last_seen": "2026-11-26"
+  },
+  "warau:209617": {
+   "site": "warau",
+   "deal_id": "209617",
+   "title": "【Zucks】CHARGESPOT（新規アプリインストール後、7日以内に初回利用）",
+   "points_text": "392pt",
+   "yen": 392.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209617",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "warau:209618": {
+   "site": "warau",
+   "deal_id": "209618",
+   "title": "【Zucks】CHARGESPOT（新規アプリインストール後、7日以内に初回利用）",
+   "points_text": "392pt",
+   "yen": 392.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209618",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "warau:209620": {
+   "site": "warau",
+   "deal_id": "209620",
+   "title": "JAF",
+   "points_text": "1,100pt",
+   "yen": 1100.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209620",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "warau:209616": {
+   "site": "warau",
+   "deal_id": "209616",
+   "title": "【最短5分で即完了！】Travel Wallet - トラベルウォレット",
+   "points_text": "1,000pt",
+   "yen": 1000.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209616",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "amefri:142976": {
+   "site": "amefri",
+   "deal_id": "142976",
+   "title": "Color Block Escape_AOS",
+   "points_text": "230,420pt",
+   "yen": 23042.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/142976",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "powl:47622": {
+   "site": "powl",
+   "deal_id": "47622",
+   "title": "【大好評につき過去最高還元！】三菱ＵＦＪカード",
+   "points_text": "150,000pt",
+   "yen": 15000.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/47622",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "powl:47050": {
+   "site": "powl",
+   "deal_id": "47050",
+   "title": "ワンニャン列島_au・docomo限定：無料お試し登録",
+   "points_text": "1,680pt",
+   "yen": 168.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/47050",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "powl:47664": {
+   "site": "powl",
+   "deal_id": "47664",
+   "title": "引っ越しペンギン（多段階）（iOS） - 南極のリセット数31回(周回数31)クリアで成果",
+   "points_text": "4,300pt",
+   "yen": 430.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/47664",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "powl:47658": {
+   "site": "powl",
+   "deal_id": "47658",
+   "title": "引っ越しペンギン（多段階）（Android） - 南極のリセット数31回(周回数31)クリアで成果",
+   "points_text": "4,300pt",
+   "yen": 430.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/47658",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
+   "last_seen": "2026-11-26"
+  },
+  "powl:47657": {
+   "site": "powl",
+   "deal_id": "47657",
+   "title": "ロボット開発（工場のリセット31回完了(周回数31)）（Android）",
+   "points_text": "3,500pt",
+   "yen": 350.0,
+   "percent": null,
+   "url": "https://web.powl.jp/reward/47657",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-26",
+   "first_seen_at": "2026-11-26 15:00",
    "last_seen": "2026-11-26"
   }
  }

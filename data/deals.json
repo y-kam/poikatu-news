@@ -48296,7 +48296,7 @@
    "url": "https://pointi.jp/ad/152587/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "condition": "",
    "delisted_at": "2026-09-29",
    "renew_hold": true
@@ -49158,7 +49158,7 @@
    "url": "https://www.chobirich.com/ad_details/1824533/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "condition": "",
    "delisted_at": "2026-08-27",
    "renewed_at": "2026-11-20 07:33",
@@ -49174,7 +49174,7 @@
    "url": "https://www.chobirich.com/ad_details/1824526/",
    "seeded": false,
    "first_seen": "2026-07-05",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "condition": "",
    "delisted_at": "2026-10-01",
    "renewed_at": "2026-11-20 07:33",
@@ -178193,7 +178193,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-20 07:33",
    "renewed_from": "200,000pt"
   },
@@ -178320,17 +178320,18 @@
   "pointincome:154247": {
    "site": "pointincome",
    "deal_id": "154247",
-   "title": "JTB国内宿泊予約",
-   "points_text": "購入金額の2.3%",
+   "title": "【JTB】国内旅行(宿泊+ツアー)予約サイト",
+   "points_text": "購入金額の2.4%",
    "yen": null,
-   "percent": 2.3,
+   "percent": 2.4,
    "url": "https://pointi.jp/ad/154247/",
    "condition": "",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-07-30",
-   "renew_hold": true
+   "last_seen": "2026-11-27",
+   "renewed_at": "2026-11-27 07:33",
+   "renewed_from": "購入金額の2.3%"
   },
   "pointincome:140863": {
    "site": "pointincome",
@@ -287250,7 +287251,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 13:28",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-09-24 18:49",
    "renewed_from": "150,000pt"
   },
@@ -288125,7 +288126,7 @@
    "seeded": false,
    "first_seen": "2026-07-07",
    "first_seen_at": "2026-07-07 21:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "pointincome:146955": {
    "site": "pointincome",
@@ -288433,7 +288434,7 @@
   "pointincome:154687": {
    "site": "pointincome",
    "deal_id": "154687",
-   "title": "UQ WiMAXの無料お試しサービス【Try WiMAX】",
+   "title": "11/30までの高還元！UQ WiMAXの無料お試しサービス【Try WiMAX】",
    "points_text": "9,000pt",
    "yen": 900.0,
    "percent": null,
@@ -288442,7 +288443,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 01:00",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-16 14:03",
    "renewed_from": "5,000pt"
   },
@@ -289685,7 +289686,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 17:00",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-11-10 08:40",
    "renewed_from": "90,000pt"
@@ -290604,7 +290605,7 @@
    "seeded": false,
    "first_seen": "2026-07-08",
    "first_seen_at": "2026-07-08 18:17",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-07-09",
    "renewed_at": "2026-09-01 07:28",
    "renewed_from": "55,000pt"
@@ -316683,17 +316684,18 @@
   "pointincome:154319": {
    "site": "pointincome",
    "deal_id": "154319",
-   "title": "【高還元！】アイフル",
-   "points_text": "150,000pt",
-   "yen": 15000.0,
+   "title": "【過去最高還元中！】アイフル",
+   "points_text": "180,000pt",
+   "yen": 18000.0,
    "percent": null,
    "url": "https://pointi.jp/ad/154319/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-10",
    "first_seen_at": "2026-07-10 17:00",
-   "last_seen": "2026-11-26",
-   "renew_hold": true
+   "last_seen": "2026-11-27",
+   "renewed_at": "2026-11-27 07:33",
+   "renewed_from": "150,000pt"
   },
   "pointincome:155801": {
    "site": "pointincome",
@@ -319370,7 +319372,7 @@
    "seeded": false,
    "first_seen": "2026-07-12",
    "first_seen_at": "2026-07-12 05:00",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31",
    "renewed_from": "75,000pt"
   },
@@ -327409,7 +327411,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 21:00",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-26 07:34",
    "renewed_from": "購入金額の2%"
   },
@@ -329054,7 +329056,7 @@
    "seeded": false,
    "first_seen": "2026-07-16",
    "first_seen_at": "2026-07-16 15:00",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-08-26",
    "renewed_at": "2026-11-26 07:34",
    "renewed_from": "購入金額の9%"
@@ -358832,7 +358834,7 @@
   "pointincome:154179": {
    "site": "pointincome",
    "deal_id": "154179",
-   "title": "クレディセゾン「ゴールドカードセゾン」",
+   "title": "【合計11,000円分！】クレディセゾン「ゴールドカードセゾン」",
    "points_text": "100,000pt",
    "yen": 10000.0,
    "percent": null,
@@ -358841,7 +358843,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-08-02"
   },
   "pointincome:154142": {
@@ -358974,7 +358976,7 @@
    "seeded": false,
    "first_seen": "2026-08-01",
    "first_seen_at": "2026-08-01 05:00",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-08-02",
    "renew_hold": true
   },
@@ -403745,7 +403747,7 @@
    "seeded": false,
    "first_seen": "2026-08-26",
    "first_seen_at": "2026-08-26 17:59",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-06 20:29",
    "renewed_from": "5,000pt"
   },
@@ -509422,7 +509424,7 @@
    "seeded": false,
    "first_seen": "2026-09-14",
    "first_seen_at": "2026-09-14 07:22",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "renew_hold": true
   },
   "pointincome:155263": {
@@ -511631,7 +511633,7 @@
   "pointincome:156185": {
    "site": "pointincome",
    "deal_id": "156185",
-   "title": "おふろパス",
+   "title": "11/30までの高還元！おふろパス",
    "points_text": "6,600pt",
    "yen": 660.0,
    "percent": null,
@@ -511640,7 +511642,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 07:29",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-08 07:28",
    "renewed_from": "3,300pt"
   },
@@ -673406,7 +673408,7 @@
   "pointincome:156224": {
    "site": "pointincome",
    "deal_id": "156224",
-   "title": "コスモ・ザ・カード・オーパス",
+   "title": "11/30で終了！コスモ・ザ・カード・オーパス",
    "points_text": "45,000pt",
    "yen": 4500.0,
    "percent": null,
@@ -673415,7 +673417,7 @@
    "seeded": false,
    "first_seen": "2026-09-19",
    "first_seen_at": "2026-09-19 07:21",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-27",
    "renew_hold": true
   },
   "pointincome:156225": {
@@ -723031,7 +723033,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 06:12",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-27"
   },
   "pointincome:151088": {
    "site": "pointincome",
@@ -724073,7 +724075,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 18:32",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-18 09:27"
   },
   "chobirich:1901170": {
@@ -724088,7 +724090,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 18:32",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-18 09:27"
   },
   "chobirich:1901158": {
@@ -724103,7 +724105,7 @@
    "seeded": false,
    "first_seen": "2026-10-14",
    "first_seen_at": "2026-10-14 18:32",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-18 09:27"
   },
   "chobirich:1901109": {
@@ -726831,7 +726833,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 19:45",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-21 07:28"
   },
   "chobirich:1901240": {
@@ -726846,7 +726848,7 @@
    "seeded": false,
    "first_seen": "2026-10-15",
    "first_seen_at": "2026-10-15 19:45",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-21 07:28"
   },
   "chobirich:1901345": {
@@ -728339,7 +728341,7 @@
    "seeded": false,
    "first_seen": "2026-10-16",
    "first_seen_at": "2026-10-16 14:03",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1901368": {
    "site": "chobirich",
@@ -730881,7 +730883,7 @@
    "seeded": false,
    "first_seen": "2026-10-18",
    "first_seen_at": "2026-10-18 09:27",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-21 07:28"
   },
   "chobirich:1901347": {
@@ -730896,7 +730898,7 @@
    "seeded": false,
    "first_seen": "2026-10-18",
    "first_seen_at": "2026-10-18 09:27",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-21 07:28"
   },
   "chobirich:1901322": {
@@ -730911,7 +730913,7 @@
    "seeded": false,
    "first_seen": "2026-10-18",
    "first_seen_at": "2026-10-18 09:27",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-20 07:33",
    "renewed_from": "2%"
   },
@@ -739976,7 +739978,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 20:10",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-26 10:17"
   },
   "chobirich:1886810": {
@@ -739991,7 +739993,7 @@
    "seeded": false,
    "first_seen": "2026-10-22",
    "first_seen_at": "2026-10-22 20:10",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-26 10:17"
   },
   "chobirich:1901751": {
@@ -749517,7 +749519,7 @@
    "seeded": false,
    "first_seen": "2026-10-27",
    "first_seen_at": "2026-10-27 22:06",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-10-30 18:12"
   },
   "chobirich:1901956": {
@@ -751787,7 +751789,7 @@
    "seeded": false,
    "first_seen": "2026-10-28",
    "first_seen_at": "2026-10-28 18:49",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-02 07:30"
   },
   "chobirich:1902182": {
@@ -754031,7 +754033,7 @@
    "seeded": false,
    "first_seen": "2026-10-29",
    "first_seen_at": "2026-10-29 19:44",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-02 07:30"
   },
   "chobirich:1902326": {
@@ -761805,7 +761807,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 07:30",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-06 07:37"
   },
   "chobirich:1902128": {
@@ -761820,7 +761822,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 07:30",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-06 07:37"
   },
   "chobirich:1902377": {
@@ -761835,7 +761837,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 07:30",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "renew_hold": true,
    "delisted_at": "2026-11-26"
   },
@@ -761851,7 +761853,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 07:30",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-10 08:40",
    "renewed_from": "5,000pt"
   },
@@ -761867,7 +761869,7 @@
    "seeded": false,
    "first_seen": "2026-11-02",
    "first_seen_at": "2026-11-02 07:30",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-10 08:40",
    "renewed_from": "4,000pt"
   },
@@ -767410,7 +767412,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 19:36",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "chobirich:1902753": {
@@ -767441,7 +767443,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 19:36",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "chobirich:1902762": {
@@ -767456,7 +767458,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 19:36",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "chobirich:1902734": {
@@ -767471,7 +767473,7 @@
    "seeded": false,
    "first_seen": "2026-11-04",
    "first_seen_at": "2026-11-04 19:36",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "moppy:160665": {
@@ -770569,7 +770571,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 07:37",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-25 07:38",
    "renewed_from": "11,000pt"
   },
@@ -770613,7 +770615,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 07:37",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "chobirich:1902800": {
@@ -770628,7 +770630,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 07:37",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "chobirich:47954": {
@@ -770643,7 +770645,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 07:37",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-09 07:31"
   },
   "warau:208816": {
@@ -771937,7 +771939,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 14:31",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "warau:208842": {
    "site": "warau",
@@ -773160,7 +773162,7 @@
    "seeded": false,
    "first_seen": "2026-11-06",
    "first_seen_at": "2026-11-06 20:29",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-11-18",
    "renew_hold": true
   },
@@ -782134,7 +782136,7 @@
    "seeded": false,
    "first_seen": "2026-11-11",
    "first_seen_at": "2026-11-11 07:30",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-11-23"
   },
   "pointincome:131655": {
@@ -790586,7 +790588,7 @@
    "seeded": false,
    "first_seen": "2026-11-13",
    "first_seen_at": "2026-11-13 18:40",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-27",
    "delisted_at": "2026-11-23"
   },
   "pointincome:141757": {
@@ -791432,7 +791434,7 @@
    "seeded": false,
    "first_seen": "2026-11-14",
    "first_seen_at": "2026-11-14 00:22",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-17 07:28",
    "renewed_from": "220,000pt"
   },
@@ -795251,7 +795253,7 @@
    "seeded": false,
    "first_seen": "2026-11-17",
    "first_seen_at": "2026-11-17 07:28",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-27"
   },
   "powl:46577": {
    "site": "powl",
@@ -797343,7 +797345,7 @@
    "seeded": false,
    "first_seen": "2026-11-18",
    "first_seen_at": "2026-11-18 07:22",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-27"
   },
   "pointincome:156490": {
    "site": "pointincome",
@@ -801960,7 +801962,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1890427": {
    "site": "chobirich",
@@ -801974,7 +801976,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903201": {
    "site": "chobirich",
@@ -801988,7 +801990,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903158": {
    "site": "chobirich",
@@ -802002,7 +802004,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903157": {
    "site": "chobirich",
@@ -802016,7 +802018,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1902952": {
    "site": "chobirich",
@@ -802030,7 +802032,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-25 23:12",
    "renewed_from": "12,000pt"
   },
@@ -802046,7 +802048,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-25 23:12",
    "renewed_from": "56,000pt"
   },
@@ -802062,7 +802064,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-25 23:12",
    "renewed_from": "24,500pt"
   },
@@ -802078,7 +802080,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1902885": {
    "site": "chobirich",
@@ -802092,7 +802094,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1902760": {
    "site": "chobirich",
@@ -802106,7 +802108,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1649388": {
    "site": "chobirich",
@@ -802120,7 +802122,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903368": {
    "site": "chobirich",
@@ -802134,7 +802136,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-23 08:46"
   },
   "chobirich:1903204": {
@@ -802149,7 +802151,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903202": {
    "site": "chobirich",
@@ -802163,7 +802165,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1786447": {
    "site": "chobirich",
@@ -802177,7 +802179,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1902922": {
    "site": "chobirich",
@@ -802586,7 +802588,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 07:33",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-27"
   },
   "pointincome:156453": {
    "site": "pointincome",
@@ -806203,7 +806205,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-26 07:34"
   },
   "chobirich:1903370": {
@@ -806218,7 +806220,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903369": {
    "site": "chobirich",
@@ -806232,7 +806234,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903643": {
    "site": "chobirich",
@@ -806246,7 +806248,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-26 07:34"
   },
   "chobirich:1903642": {
@@ -806261,7 +806263,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "renewed_at": "2026-11-26 07:34"
   },
   "chobirich:1903366": {
@@ -806276,7 +806278,7 @@
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1890397": {
    "site": "chobirich",
@@ -806605,15 +806607,17 @@
    "site": "pointincome",
    "deal_id": "156505",
    "title": "McAfee（マカフィー）",
-   "points_text": "購入金額の5%",
+   "points_text": "購入金額の26%",
    "yen": null,
-   "percent": 5.0,
+   "percent": 26.0,
    "url": "https://pointi.jp/ad/156505/",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-11-23",
    "first_seen_at": "2026-11-23 08:46",
-   "last_seen": "2026-11-23"
+   "last_seen": "2026-11-27",
+   "renewed_at": "2026-11-27 07:33",
+   "renewed_from": "購入金額の5%"
   },
   "amefri:142877": {
    "site": "amefri",
@@ -808551,15 +808555,17 @@
    "site": "chobirich",
    "deal_id": "1904052",
    "title": "モンモンマスターズ: 育成チームバトルRPG（iOS）",
-   "points_text": "48pt",
-   "yen": 24.0,
+   "points_text": "70pt",
+   "yen": 35.0,
    "percent": null,
    "url": "https://www.chobirich.com/ad_details/1904052/",
    "condition": "新規インストール後、初回起動してAppからのトラッキング要求を許可",
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 07:38",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27",
+   "renewed_at": "2026-11-27 07:33",
+   "renewed_from": "48pt"
   },
   "chobirich:1904037": {
    "site": "chobirich",
@@ -808662,7 +808668,7 @@
   "pointincome:154718": {
    "site": "pointincome",
    "deal_id": "154718",
-   "title": "ITトレンド ビジネスインタビュー",
+   "title": "11/30で終了！ITトレンド ビジネスインタビュー",
    "points_text": "6,000pt",
    "yen": 600.0,
    "percent": null,
@@ -808671,7 +808677,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 07:38",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-27"
   },
   "pointincome:153694": {
    "site": "pointincome",
@@ -808685,7 +808691,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 07:38",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-27"
   },
   "pointincome:140232": {
    "site": "pointincome",
@@ -808699,7 +808705,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 07:38",
-   "last_seen": "2026-11-25"
+   "last_seen": "2026-11-27"
   },
   "pointincome:153784": {
    "site": "pointincome",
@@ -810853,7 +810859,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903704": {
    "site": "chobirich",
@@ -810867,7 +810873,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903860": {
    "site": "chobirich",
@@ -810881,7 +810887,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904118": {
    "site": "chobirich",
@@ -810895,7 +810901,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904116": {
    "site": "chobirich",
@@ -810909,7 +810915,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904115": {
    "site": "chobirich",
@@ -810923,7 +810929,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904113": {
    "site": "chobirich",
@@ -810937,7 +810943,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904111": {
    "site": "chobirich",
@@ -810951,7 +810957,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904095": {
    "site": "chobirich",
@@ -810965,7 +810971,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904091": {
    "site": "chobirich",
@@ -810979,7 +810985,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904090": {
    "site": "chobirich",
@@ -810993,7 +810999,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904082": {
    "site": "chobirich",
@@ -811022,7 +811028,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904059": {
    "site": "chobirich",
@@ -811036,7 +811042,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 23:12",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1903609": {
    "site": "chobirich",
@@ -811463,7 +811469,7 @@
    "seeded": false,
    "first_seen": "2026-11-26",
    "first_seen_at": "2026-11-26 07:34",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904133": {
    "site": "chobirich",
@@ -811477,7 +811483,7 @@
    "seeded": false,
    "first_seen": "2026-11-26",
    "first_seen_at": "2026-11-26 07:34",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "chobirich:1904039": {
    "site": "chobirich",
@@ -813629,6 +813635,314 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 05:00",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904216": {
+   "site": "chobirich",
+   "deal_id": "1904216",
+   "title": "【新規購入用】ベイクルーズストア",
+   "points_text": "1％",
+   "yen": null,
+   "percent": 1.0,
+   "url": "https://www.chobirich.com/ad_details/1904216/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904125": {
+   "site": "chobirich",
+   "deal_id": "1904125",
+   "title": "ケラッタ公式オンラインストア",
+   "points_text": "3％",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://www.chobirich.com/ad_details/1904125/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1903859": {
+   "site": "chobirich",
+   "deal_id": "1903859",
+   "title": "ネックリラックスピロー -ストレッチモデル-",
+   "points_text": "3％",
+   "yen": null,
+   "percent": 3.0,
+   "url": "https://www.chobirich.com/ad_details/1903859/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904227": {
+   "site": "chobirich",
+   "deal_id": "1904227",
+   "title": "ケロロ軍曹-ぽちっと大出動であります",
+   "points_text": "36pt",
+   "yen": 18.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904227/",
+   "condition": "新規インストール後、初回起動",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904221": {
+   "site": "chobirich",
+   "deal_id": "1904221",
+   "title": "ケロロ軍曹 ぽちっと大出動であります！",
+   "points_text": "41pt",
+   "yen": 20.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904221/",
+   "condition": "新規アプリインストール後、初回起動",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904197": {
+   "site": "chobirich",
+   "deal_id": "1904197",
+   "title": "モンスターサバイバル",
+   "points_text": "最大49,046pt",
+   "yen": 24523.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904197/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904195": {
+   "site": "chobirich",
+   "deal_id": "1904195",
+   "title": "わんこ日和 - 犬の図鑑と間違い探し",
+   "points_text": "最大1,434pt",
+   "yen": 717.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904195/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904191": {
+   "site": "chobirich",
+   "deal_id": "1904191",
+   "title": "Pocket Champs: PVP 競争ゲーム",
+   "points_text": "最大3,412pt",
+   "yen": 1706.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904191/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904187": {
+   "site": "chobirich",
+   "deal_id": "1904187",
+   "title": "Eatventure（アプリランド）",
+   "points_text": "最大7,100pt",
+   "yen": 3550.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904187/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904186": {
+   "site": "chobirich",
+   "deal_id": "1904186",
+   "title": "Yarn Fever! 毛糸を外すパズルゲーム（アプリランド）",
+   "points_text": "最大6,166pt",
+   "yen": 3083.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904186/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904184": {
+   "site": "chobirich",
+   "deal_id": "1904184",
+   "title": "Onet Match - Connect Puzzle（アプリランド）",
+   "points_text": "最大18,544pt",
+   "yen": 9272.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904184/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904179": {
+   "site": "chobirich",
+   "deal_id": "1904179",
+   "title": "Falling Match -3D Tidy Master（アプリランド）",
+   "points_text": "最大1,110pt",
+   "yen": 555.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904179/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904151": {
+   "site": "chobirich",
+   "deal_id": "1904151",
+   "title": "Goods Triple 3D-Sorting Puzzle（アプリランド）",
+   "points_text": "最大1,110pt",
+   "yen": 555.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904151/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904150": {
+   "site": "chobirich",
+   "deal_id": "1904150",
+   "title": "ハムデパート　まじかるクラフト",
+   "points_text": "最大8,339pt",
+   "yen": 4169.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904150/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904148": {
+   "site": "chobirich",
+   "deal_id": "1904148",
+   "title": "ツリーオブセイヴァー：ネバーランド（アプリランド）",
+   "points_text": "最大384pt",
+   "yen": 192.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904148/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904142": {
+   "site": "chobirich",
+   "deal_id": "1904142",
+   "title": "ツリーオブセイヴァー：ネバーランド",
+   "points_text": "最大406pt",
+   "yen": 203.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904142/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904138": {
+   "site": "chobirich",
+   "deal_id": "1904138",
+   "title": "ヤンキーサバイバー（iOS）",
+   "points_text": "22pt",
+   "yen": 11.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904138/",
+   "condition": "新規インストール後、初回起動",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1903623": {
+   "site": "chobirich",
+   "deal_id": "1903623",
+   "title": "Onet Master: Puzzle & Art（アプリランド）",
+   "points_text": "最大16,602pt",
+   "yen": 8301.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1903623/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904147": {
+   "site": "chobirich",
+   "deal_id": "1904147",
+   "title": "ザ・グランドマフィア_マルチ3",
+   "points_text": "最大73,392pt",
+   "yen": 36696.0,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904147/",
+   "condition": "新規アプリインストール後、各ステップクリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "chobirich:1904134": {
+   "site": "chobirich",
+   "deal_id": "1904134",
+   "title": "大家さんになろう！（アプリランド）",
+   "points_text": "最大923pt",
+   "yen": 461.5,
+   "percent": null,
+   "url": "https://www.chobirich.com/ad_details/1904134/",
+   "condition": "遷移先の「アプリランド」ページをご確認ください",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "pointincome:135503": {
+   "site": "pointincome",
+   "deal_id": "135503",
+   "title": "aimerfeel（エメフィール）",
+   "points_text": "購入金額の2%",
+   "yen": null,
+   "percent": 2.0,
+   "url": "https://pointi.jp/ad/135503/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
+   "last_seen": "2026-11-27"
+  },
+  "pointincome:156471": {
+   "site": "pointincome",
+   "deal_id": "156471",
+   "title": "結婚相談所サンマリエ",
+   "points_text": "400,000pt",
+   "yen": 40000.0,
+   "percent": null,
+   "url": "https://pointi.jp/ad/156471/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 07:33",
    "last_seen": "2026-11-27"
   }
  }

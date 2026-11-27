@@ -125932,16 +125932,17 @@
    "site": "powl",
    "deal_id": "19429",
    "title": "Qoo10（キューテン）※購入金額の制限なし！リピートOK！",
-   "points_text": "7%還元",
+   "points_text": "8%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 8.0,
    "url": "https://web.powl.jp/reward/19429",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-11-27",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-27 13:00",
+   "renewed_from": "7%還元"
   },
   "powl:6445": {
    "site": "powl",
@@ -294608,7 +294609,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "site_new": false,
    "renew_hold": true
   },
@@ -319508,7 +319509,7 @@
   "moppy:102667": {
    "site": "moppy",
    "deal_id": "102667",
-   "title": "※過去最高20,000P※楽天銀行 口座開設",
+   "title": "※30日まで！過去最高20,000P※楽天銀行 口座開設",
    "points_text": "1,500P",
    "yen": 1500.0,
    "percent": null,
@@ -387266,8 +387267,8 @@
    "site": "kurashiru_reward",
    "deal_id": "18382",
    "title": "Disney+",
-   "points_text": "230,400コイン",
-   "yen": 2304.0,
+   "points_text": "288,000コイン",
+   "yen": 2880.0,
    "percent": null,
    "url": "https://www.rewards.kurashiru.com/ads/18382",
    "condition": "スタンダードプランまたはプレミアムプラン申込完了 で",
@@ -387275,7 +387276,7 @@
    "first_seen": "2026-08-20",
    "first_seen_at": "2026-08-20 11:00",
    "last_seen": "2026-11-27",
-   "renewed_at": "2026-11-01 01:00",
+   "renewed_at": "2026-11-27 13:00",
    "renewed_from": "144,000コイン"
   },
   "powl:39457": {
@@ -803773,7 +803774,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 15:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "moppy:162459": {
    "site": "moppy",
@@ -804416,7 +804417,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 17:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "poikatsu_club:22255": {
    "site": "poikatsu_club",
@@ -804430,7 +804431,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 17:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "poikatsu_club:22254": {
    "site": "poikatsu_club",
@@ -805394,7 +805395,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "poikatsu_club:22265": {
    "site": "poikatsu_club",
@@ -805436,7 +805437,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "poikatsu_club:22261": {
    "site": "poikatsu_club",
@@ -805450,7 +805451,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "poikatsu_club:22269": {
    "site": "poikatsu_club",
@@ -810269,7 +810270,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 17:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-27"
   },
   "pointchips:1476": {
    "site": "pointchips",
@@ -814223,6 +814224,216 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 11:00",
+   "last_seen": "2026-11-27"
+  },
+  "warau:209661": {
+   "site": "warau",
+   "deal_id": "209661",
+   "title": "【SmaAD】Shape Slide Master: Color Jam（レベル80クリア）",
+   "points_text": "243pt",
+   "yen": 243.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209661",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "warau:209659": {
+   "site": "warau",
+   "deal_id": "209659",
+   "title": "【SKYFLAG】超自然スクワッド（StepUp）",
+   "points_text": "3,680pt",
+   "yen": 3680.0,
+   "percent": null,
+   "url": "https://www.warau.jp/contents/point/pointEntrance.php?point_id=209659",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "poney:10000062878": {
+   "site": "poney",
+   "deal_id": "10000062878",
+   "title": "【東武トップツアーズ】国内ツアー・国内宿泊予約",
+   "points_text": "1.5％",
+   "yen": null,
+   "percent": 1.5,
+   "url": "https://www.poney.jp/【東武トップツアーズ】国内ツアー・国内宿泊予約/detail/10000062878",
+   "condition": "予約完了後の旅行完了 で",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "amefri:143010": {
+   "site": "amefri",
+   "deal_id": "143010",
+   "title": "McAfee（マカフィー）",
+   "points_text": "20％",
+   "yen": null,
+   "percent": 20.0,
+   "url": "https://www.amefri.net/detail/id/143010",
+   "condition": "商品購入完了",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "amefri:143009": {
+   "site": "amefri",
+   "deal_id": "143009",
+   "title": "Maritime Bank（マリタイムバンク）口座開設",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/143009",
+   "condition": "新規口座開設完了",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "amefri:143012": {
+   "site": "amefri",
+   "deal_id": "143012",
+   "title": "Shape Slide Master: Color Jam（レベル80クリア）（Android）",
+   "points_text": "2,460pt",
+   "yen": 246.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/143012",
+   "condition": "レベル80クリア",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "amefri:143011": {
+   "site": "amefri",
+   "deal_id": "143011",
+   "title": "War Survival_iOS",
+   "points_text": "169,810pt",
+   "yen": 16981.0,
+   "percent": null,
+   "url": "https://www.amefri.net/detail/id/143011",
+   "condition": "条件達成",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "point_island:mNMB1": {
+   "site": "point_island",
+   "deal_id": "mNMB1",
+   "title": "Maritime Bank（マリタイムバンク）",
+   "points_text": "18000ポイント",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.point-island.com/ct.asp?adv=mNMB1",
+   "condition": "口座開設",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "point_stadium:mNMB1": {
+   "site": "point_stadium",
+   "deal_id": "mNMB1",
+   "title": "Maritime Bank（マリタイムバンク）",
+   "points_text": "18000ポイント",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.point-stadium.com/cert.asp?adv=mNMB1",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "point_land:mNMB1": {
+   "site": "point_land",
+   "deal_id": "mNMB1",
+   "title": "Maritime Bank（マリタイムバンク）",
+   "points_text": "18000ポイント",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.point-land.net/cert.asp?adv=mNMB1",
+   "condition": "口座開設",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "nyandaful:mNMB1": {
+   "site": "nyandaful",
+   "deal_id": "mNMB1",
+   "title": "Maritime Bank（マリタイムバンク）",
+   "points_text": "18,000pt",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.nyandaful.jp/p_detail.asp?m=mNMB1&it=1",
+   "condition": "口座開設で",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "tamaru_mall:2954": {
+   "site": "tamaru_mall",
+   "deal_id": "2954",
+   "title": "コクーンシティカードセゾン",
+   "points_text": "3,500コイン",
+   "yen": 3500.0,
+   "percent": null,
+   "url": "https://furunavi.jp/tamaru/Advertisement/Detail?AdvertisementId=2954",
+   "condition": "新規クレジットカード発行＋発行月の翌月末までに税込1,000円以上の利用",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "point_museum:mNMB1": {
+   "site": "point_museum",
+   "deal_id": "mNMB1",
+   "title": "Maritime Bank（マリタイムバンク）",
+   "points_text": "18,000pt",
+   "yen": 1800.0,
+   "percent": null,
+   "url": "https://www.point-museum.com/ct.asp?adv=mNMB1",
+   "condition": "口座開設",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "poikatsu_club:22365": {
+   "site": "poikatsu_club",
+   "deal_id": "22365",
+   "title": "Shape Slide Master: Color Jam（レベル80クリア）（Android）",
+   "points_text": "270pt",
+   "yen": 270.0,
+   "percent": null,
+   "url": "https://poikatsu.club/projects/22365",
+   "condition": "▼承認条件\r\n新規インストール後、レベル80クリア\r\n※成果到達目安：新規インストール後、2日程度\r\n※広告クリックから（当日を1日目とし）15日以内での達成が条件となります。\r\n※Androidのみ成果対象となります。\r\n\r\n▼成果までの流れ\r\n1.インストール後、起動\r\n2.レベル80クリア\r\n\r\n▼却下条件\r\n・過去にインストール済の場合は、「新規アプリインストール」に該当しないためポイント付与対象外になります。\r\n※広告クリックから（当日を1日目とし）16日以上経過して到達した場合は成果対象外となります。\r\n・公共WiFiを使用してインストールした場合\r\n・同じIPアドレスから他の端末でインストールまたは成果地点に到達した場合\r\n・インストール時に回線が不安定な場合\r\n・インストール中に他の操作をした場合\r\n・広告ブロックを使用している場合\r\n・オフラインでアプリを使用した場合\r\n・エミュレータでご参加された場合\r\n・過去に同じアプリをインストールしたことがある場合、または成果地点到達をしたことがある場合\r\n・新しい端末にデータを引き継いで成果条件に到達した場合、または新しい端末とは別の端末にデータを引き継いで成果条件に到達した場合\r\n・不備や不正、虚偽、重複、いたずらの申請を行った場合\r\n・本広告以外からのインストールを行った場合\r\n・お問い合わせ時に該当アプリをアンインストールしている場合、または成果条件達成までにアプリをアンインストールしている場合\r\n・広告主が正常な成果でないと判断した場合\r\n・日本国外からのアクセスまたは日本国外のIPアドレスからクリックした場合\r\n・端末の「広告のパーソナライゼーションを無効にする」設定がONの場合\r\n・端末メーカーのプライバシー設定で、アプリのトラッキングを制限している場合\r\n・端末の「追跡型広告を制限」設定がONになっている場合、または「Do \nNot \nTrack」設定がONになっている場合\r\n\r\n▼注意事項\r\n・広告をクリックしてから1時間以内に初回起動が完了しない場合、広告成果とはみなされない場合がございます。\r\n※初回起動が1時間以上かかる場合は、もう一度広告をクリックしてください。\r\n・同じアプリでの広告利用は1人1回までとなります。(OSが異なっても1回のみ参加可能)\r\n※異なる成果地点で広告参加をされたことがある場合も成果となりません。\r\n・過去に同じアプリで広告参加をしたことがある場合は別の端末で初回インストールをしても成果になりません。\r\n・成果達成後、ポイントの獲得がされるまでに最大24時間かかる場合がございます。\r\n・アプリ内のキャンペーン（イベント）は予告なく変更または終了する場合がございます。\r\n・URLを他のユーザーと共有したり、コピーしたURLのご使用はお控えください。コピーしたURLからのインストールは成果対象外となります。\r\n・意図的に広告IDを削除またはリセットすると、不正利用とみなされる場合がございますので、削除やリセットはお控えください。\r\n・アプリ内バグなどのお問合せを頂く際に広告IDをご提供頂く場合がございます。\r\n※ご提供頂けない場合は調査不可となる恐れがございます。\r\n\r\n【配信終了後の成果受付期間】終了日を含め15日間\r\n※上記成果受付期間内に成果条件達成をしない場合は後日否認処理をいたします。\r\n\r\n▼成果調査に関して\r\n・この案件は、アプリインストールで判定待ちとして反映します。\r\n　判定待ちが反映されない場合の成果調査は受け付けておりません。\r\n　またその場合、その後アプリを進めて成果条件達成をしてもポイント対象外となります。\r\n・成果条件達成後にポイントが未付与の場合、本サイトのお問合せフォームよりご連絡ください。\r\n・直接スポンサーサイトへ問い合わせることはお控えください。\r\n・クリック発生から60日以上経過したものは調査不可となります。\r\n・成果調査完了までにアプリをアンインストールされた場合は成果調査対象外となりますのでご了承ください。\r\n・ポイント未付与に関する調査の際は下記が必要になりますのでご準備ください。\r\n①クリック日時\r\n②広告をクリックしてから成果地点到達まで掛かった日数\r\n③成果到達日時\r\n④レベル80クリアが確認できるキャプチャ\r\n⑤user \nIDのテキスト\r\n⑥user \nIDのキャプチャ\r\n※user \nID確認方法：Setting画面下部に表示される数字が該当いたします",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
+   "last_seen": "2026-11-27"
+  },
+  "gendama:1600500": {
+   "site": "gendama",
+   "deal_id": "1600500",
+   "title": "マリタイムバンク【新規会員登録】",
+   "points_text": "15,000pt",
+   "yen": 1500.0,
+   "percent": null,
+   "url": "https://www.gendama.jp/service/item/1600500",
+   "condition": "新規本会員登録完了",
+   "seeded": false,
+   "first_seen": "2026-11-27",
+   "first_seen_at": "2026-11-27 13:00",
    "last_seen": "2026-11-27"
   }
  }

@@ -125938,16 +125938,17 @@
    "site": "powl",
    "deal_id": "19429",
    "title": "Qoo10（キューテン）※購入金額の制限なし！リピートOK！",
-   "points_text": "7%還元",
+   "points_text": "8%還元",
    "yen": null,
-   "percent": 7.0,
+   "percent": 8.0,
    "url": "https://web.powl.jp/reward/19429",
    "condition": "",
    "seeded": false,
    "first_seen": "2026-07-06",
    "last_seen": "2026-11-28",
    "seed_filled": true,
-   "renew_hold": true
+   "renewed_at": "2026-11-28 08:00",
+   "renewed_from": "7%還元"
   },
   "powl:6445": {
    "site": "powl",
@@ -804870,9 +804871,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 08:00"
   },
   "amefri:142859": {
    "site": "amefri",
@@ -804948,7 +804949,7 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
    "renew_hold": true
   },
@@ -808225,7 +808226,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22299": {
    "site": "poikatsu_club",
@@ -815714,7 +815715,7 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "warau:209709": {
    "site": "warau",

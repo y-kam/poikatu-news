@@ -229595,16 +229595,17 @@
    "site": "point_island",
    "deal_id": "0410521",
    "title": "apollostation THE PLATINUM",
-   "points_text": "220000ポイント",
-   "yen": 22000.0,
+   "points_text": "277200ポイント",
+   "yen": 27720.0,
    "percent": null,
    "url": "https://www.point-island.com/ct.asp?adv=0410521",
    "condition": "カード発行",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-27",
-   "renew_hold": true
+   "last_seen": "2026-11-28",
+   "renewed_at": "2026-11-28 05:00",
+   "renewed_from": "220000ポイント"
   },
   "point_island:mSMRI11": {
    "site": "point_island",
@@ -294170,7 +294171,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "moppy:156162": {
@@ -294291,7 +294292,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
    "renew_hold": true
   },
@@ -295067,7 +295068,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "moppy:160670": {
@@ -325611,7 +325612,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-11-28",
    "site_new": false,
    "delisted_at": "2026-09-09",
    "renewed_at": "2026-10-15 01:00",
@@ -325679,7 +325680,7 @@
    "seeded": false,
    "first_seen": "2026-07-15",
    "first_seen_at": "2026-07-15 01:00",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "moppy:157264": {
@@ -366640,7 +366641,7 @@
    "seeded": false,
    "first_seen": "2026-08-10",
    "first_seen_at": "2026-08-10 07:52",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "site_new": false,
    "renew_hold": true
   },
@@ -472901,7 +472902,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -473096,7 +473097,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "backfill_dated": true,
    "site_new": false
   },
@@ -474041,7 +474042,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-28",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-16 05:00",
@@ -474113,7 +474114,7 @@
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-28",
    "backfill_dated": true,
    "site_new": true,
    "renewed_at": "2026-10-15 01:00",
@@ -508438,8 +508439,8 @@
    "seeded": false,
    "first_seen": "2026-09-12",
    "first_seen_at": "2026-09-12 01:00",
-   "last_seen": "2026-11-23",
-   "renewed_at": "2026-11-21 01:00",
+   "last_seen": "2026-11-28",
+   "renewed_at": "2026-11-28 05:00",
    "renewed_from": "18,275円"
   },
   "entamenet:s4075": {
@@ -511166,7 +511167,7 @@
    "seeded": false,
    "first_seen": "2026-09-15",
    "first_seen_at": "2026-09-15 01:00",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-28",
    "site_new": false,
    "renewed_at": "2026-11-06 05:00",
    "renewed_from": "400P"
@@ -585680,16 +585681,17 @@
    "site": "point_land",
    "deal_id": "0410521",
    "title": "apollostation THE PLATINUM",
-   "points_text": "220000ポイント",
-   "yen": 22000.0,
+   "points_text": "277200ポイント",
+   "yen": 27720.0,
    "percent": null,
    "url": "https://www.point-land.net/cert.asp?adv=0410521",
    "condition": "カード発行",
    "seeded": false,
    "backfill": true,
    "first_seen": "2000-01-01",
-   "last_seen": "2026-11-27",
-   "renew_hold": true
+   "last_seen": "2026-11-28",
+   "renewed_at": "2026-11-28 05:00",
+   "renewed_from": "220000ポイント"
   },
   "point_land:11145091": {
    "site": "point_land",
@@ -697917,7 +697919,7 @@
    "seeded": false,
    "first_seen": "2026-10-02",
    "first_seen_at": "2026-10-02 05:00",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "moppy:145195": {
@@ -721383,7 +721385,7 @@
    "seeded": false,
    "first_seen": "2026-10-11",
    "first_seen_at": "2026-10-11 05:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "getmoney:67105": {
@@ -745085,7 +745087,7 @@
    "seeded": false,
    "first_seen": "2026-10-26",
    "first_seen_at": "2026-10-26 13:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "warau:208311": {
@@ -804852,9 +804854,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 05:00"
   },
   "amefri:142864": {
    "site": "amefri",
@@ -808195,7 +808197,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22297": {
    "site": "poikatsu_club",
@@ -808209,7 +808211,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22300": {
    "site": "poikatsu_club",
@@ -808567,7 +808569,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 01:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "renewed_at": "2026-11-25 21:00",
    "renewed_from": "54pt"
   },
@@ -809002,7 +809004,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 11:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "moppy:162468": {
    "site": "moppy",
@@ -810397,7 +810399,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 17:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "pointchips:1476": {
    "site": "pointchips",
@@ -810966,7 +810968,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "mikoshi_mall:4066": {
    "site": "mikoshi_mall",
@@ -811935,7 +811937,7 @@
    "seeded": false,
    "first_seen": "2026-11-26",
    "first_seen_at": "2026-11-26 11:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "pointchips:1520": {
    "site": "pointchips",
@@ -814268,7 +814270,7 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 11:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "delisted_at": "2026-11-27"
   },
   "warau:209655": {
@@ -814653,7 +814655,7 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 15:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "dead_streak": 1
   },
   "warau:209666": {
@@ -816735,6 +816737,62 @@
    "seeded": false,
    "first_seen": "2026-11-28",
    "first_seen_at": "2026-11-28 01:00",
+   "last_seen": "2026-11-28"
+  },
+  "moppy:162477": {
+   "site": "moppy",
+   "deal_id": "162477",
+   "title": "【注意事項必読】ぐっすリン-快眠音でリラックス！癒しの音で自然な睡眠-",
+   "points_text": "68P",
+   "yen": 68.0,
+   "percent": null,
+   "url": "https://pc.moppy.jp/ad/detail.php?site_id=162477",
+   "condition": "アプリ起動後、表示される広告をタップしメールアドレス登録完了",
+   "seeded": false,
+   "first_seen": "2026-11-28",
+   "first_seen_at": "2026-11-28 05:00",
+   "last_seen": "2026-11-28"
+  },
+  "hapitas:104673": {
+   "site": "hapitas",
+   "deal_id": "104673",
+   "title": "Shape Slide Master: Color Jam（レベル80クリア）（Android）",
+   "points_text": "210pt",
+   "yen": 210.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104673/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-28",
+   "first_seen_at": "2026-11-28 05:00",
+   "last_seen": "2026-11-28"
+  },
+  "hapitas:104667": {
+   "site": "hapitas",
+   "deal_id": "104667",
+   "title": "【注意事項必読】ぐっすリン-快眠音でリラックス！癒しの音で自然な睡眠-",
+   "points_text": "64pt",
+   "yen": 64.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104667/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-28",
+   "first_seen_at": "2026-11-28 05:00",
+   "last_seen": "2026-11-28"
+  },
+  "hapitas:104668": {
+   "site": "hapitas",
+   "deal_id": "104668",
+   "title": "【注意事項必読】安眠アプリぐっすリン！健康は毎日の良い睡眠から",
+   "points_text": "64pt",
+   "yen": 64.0,
+   "percent": null,
+   "url": "https://hapitas.jp/item/detail/itemid/104668/",
+   "condition": "",
+   "seeded": false,
+   "first_seen": "2026-11-28",
+   "first_seen_at": "2026-11-28 05:00",
    "last_seen": "2026-11-28"
   }
  }

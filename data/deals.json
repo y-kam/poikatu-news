@@ -331061,7 +331061,7 @@
    "seeded": false,
    "first_seen": "2026-07-17",
    "first_seen_at": "2026-07-17 01:00",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-28",
    "delisted_at": "2026-07-17",
    "renewed_at": "2026-09-26 01:00",
    "renewed_from": "2.5%"
@@ -376953,7 +376953,7 @@
    "seeded": false,
    "first_seen": "2026-08-13",
    "first_seen_at": "2026-08-13 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "kurashiru_reward:18223": {
    "site": "kurashiru_reward",
@@ -421136,7 +421136,7 @@
    "seeded": false,
    "first_seen": "2026-09-02",
    "first_seen_at": "2026-09-02 21:00",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "site_new": false,
    "delisted_at": "2026-10-06",
    "renewed_at": "2026-10-17 01:00",
@@ -710799,8 +710799,8 @@
    "site": "moppy",
    "deal_id": "162266",
    "title": "【11/29まで限定還元】AEON Pay(イオンペイ)",
-   "points_text": "600P",
-   "yen": 600.0,
+   "points_text": "720P",
+   "yen": 720.0,
    "percent": null,
    "url": "https://pc.moppy.jp/ad/detail.php?site_id=162266",
    "condition": "新規アプリインストール後、7日以内の会員登録",
@@ -710809,7 +710809,7 @@
    "first_seen_at": "2026-10-06 21:00",
    "last_seen": "2026-11-28",
    "site_new": true,
-   "renewed_at": "2026-11-27 01:00",
+   "renewed_at": "2026-11-28 13:00",
    "renewed_from": "300P"
   },
   "moppy:162264": {
@@ -805029,9 +805029,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 13:00"
   },
   "amefri:142848": {
    "site": "amefri",
@@ -805045,9 +805045,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 13:00"
   },
   "amefri:142847": {
    "site": "amefri",
@@ -805061,9 +805061,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 13:00"
   },
   "amefri:142846": {
    "site": "amefri",
@@ -807005,7 +807005,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 11:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22279": {
    "site": "poikatsu_club",
@@ -808296,7 +808296,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22289": {
    "site": "poikatsu_club",
@@ -808310,7 +808310,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22288": {
    "site": "poikatsu_club",
@@ -808324,7 +808324,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "gendama:1599727": {
    "site": "gendama",
@@ -814671,7 +814671,7 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 15:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "warau:209667": {
    "site": "warau",

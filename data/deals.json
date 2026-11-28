@@ -53945,16 +53945,16 @@
    "site": "rebates",
    "deal_id": "22123",
    "title": "MUSINSA",
-   "points_text": "17.0%",
+   "points_text": "20.0%",
    "yen": null,
-   "percent": 17.0,
+   "percent": 20.0,
    "url": "https://www.rebates.jp/global.musinsa.com",
    "seeded": false,
    "first_seen": "2026-07-05",
    "last_seen": "2026-11-28",
    "condition": "",
    "seed_filled": true,
-   "renewed_at": "2026-11-20 10:00",
+   "renewed_at": "2026-11-28 10:00",
    "renewed_from": "5.0%"
   },
   "rebates:25039": {
@@ -318430,7 +318430,7 @@
   "moppy:161743": {
    "site": "moppy",
    "deal_id": "161743",
-   "title": "※本日限定※【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま用口座",
+   "title": "合計最大14,000円相当【親権者さまの代理申込専用】三菱ＵＦＪ銀行 お子さま用口座",
    "points_text": "4,000P",
    "yen": 4000.0,
    "percent": null,
@@ -318439,13 +318439,13 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 01:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "delisted_at": "2026-07-11"
   },
   "moppy:158897": {
    "site": "moppy",
    "deal_id": "158897",
-   "title": "※本日限定※【三菱ＵＦＪ銀行】普通預金口座開設",
+   "title": "※合計最大17,000円相当※【三菱ＵＦＪ銀行】普通預金口座開設",
    "points_text": "4,000P",
    "yen": 4000.0,
    "percent": null,
@@ -318454,7 +318454,7 @@
    "seeded": false,
    "first_seen": "2026-07-11",
    "first_seen_at": "2026-07-11 01:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "delisted_at": "2026-07-11"
   },
   "moppy:157198": {
@@ -346571,7 +346571,7 @@
   "moppy:161006": {
    "site": "moppy",
    "deal_id": "161006",
-   "title": "【最大71,500円相当】三菱ＵＦＪ銀行資産運用プラスセット",
+   "title": "【最大53,500円相当】三菱ＵＦＪ銀行資産運用プラスセット",
    "points_text": "17,000P",
    "yen": 17000.0,
    "percent": null,
@@ -346580,14 +346580,14 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 21:00",
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-28",
    "site_new": true,
    "delisted_at": "2026-07-29"
   },
   "pointtown:10217": {
    "site": "pointtown",
    "deal_id": "10217",
-   "title": "【PR】【最大71,500円相当】三菱ＵＦＪ銀行資産運用…",
+   "title": "【PR】【最大53,500円相当】三菱ＵＦＪ銀行資産運用…",
    "points_text": "17,000pt",
    "yen": 17000.0,
    "percent": null,
@@ -346596,7 +346596,7 @@
    "seeded": false,
    "first_seen": "2026-07-27",
    "first_seen_at": "2026-07-27 21:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-28"
   },
   "warau:204963": {
    "site": "warau",
@@ -350211,7 +350211,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 11:00",
-   "last_seen": "2026-09-07",
+   "last_seen": "2026-11-28",
    "site_new": false
   },
   "moppy:147692": {
@@ -350598,7 +350598,7 @@
   "pointtown:9306": {
    "site": "pointtown",
    "deal_id": "9306",
-   "title": "【PR】【最大62,000円相当】三菱ＵＦＪ銀行口座と三…",
+   "title": "【PR】三菱ＵＦＪ銀行口座と三菱ＵＦＪカードがおト…",
    "points_text": "12,000pt",
    "yen": 12000.0,
    "percent": null,
@@ -350607,7 +350607,7 @@
    "seeded": false,
    "first_seen": "2026-07-29",
    "first_seen_at": "2026-07-29 13:00",
-   "last_seen": "2026-11-26"
+   "last_seen": "2026-11-28"
   },
   "warau:204668": {
    "site": "warau",
@@ -804965,9 +804965,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 10:00"
   },
   "amefri:142852": {
    "site": "amefri",
@@ -804981,9 +804981,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 10:00"
   },
   "amefri:142851": {
    "site": "amefri",
@@ -804997,9 +804997,9 @@
    "seeded": false,
    "first_seen": "2026-11-20",
    "first_seen_at": "2026-11-20 21:00",
-   "last_seen": "2026-11-27",
+   "last_seen": "2026-11-28",
    "site_new": false,
-   "renewed_at": "2026-11-25 01:00"
+   "renewed_at": "2026-11-28 10:00"
   },
   "amefri:142850": {
    "site": "amefri",
@@ -808240,7 +808240,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22296": {
    "site": "poikatsu_club",
@@ -808254,7 +808254,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22287": {
    "site": "poikatsu_club",
@@ -808268,7 +808268,7 @@
    "seeded": false,
    "first_seen": "2026-11-24",
    "first_seen_at": "2026-11-24 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22295": {
    "site": "poikatsu_club",
@@ -808600,7 +808600,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 01:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "poikatsu_club:22291": {
    "site": "poikatsu_club",
@@ -808614,7 +808614,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 01:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "moppy:162463": {
    "site": "moppy",
@@ -810414,7 +810414,7 @@
    "seeded": false,
    "first_seen": "2026-11-25",
    "first_seen_at": "2026-11-25 17:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "moppy:162469": {
    "site": "moppy",
@@ -815729,7 +815729,7 @@
    "seeded": false,
    "first_seen": "2026-11-27",
    "first_seen_at": "2026-11-27 21:00",
-   "last_seen": "2026-11-27"
+   "last_seen": "2026-11-28"
   },
   "warau:209710": {
    "site": "warau",
